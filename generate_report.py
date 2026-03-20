@@ -234,48 +234,23 @@ class KRXDataProvider:
         return s
 
     def load_flow_snapshot(self, asof_date, market, window):
+        """pykrx로 투자자별 순매수 거래대금 조회 (JSESSIONID 불필요)"""
         start_date = calc_window_start(asof_date, window)
         try:
-            mkt = normalize_mkt_id(market)
-            otp_url = "https://data.krx.co.kr/comm/fileDn/GenerateOTP/generate.cmd"
-            dl_url = "https://data.krx.co.kr/comm/fileDn/download_csv/download.cmd"
-            hdrs = {"accept":"text/plain, */*; q=0.01","content-type":"application/x-www-form-urlencoded; charset=UTF-8",
-                    "origin":"https://data.krx.co.kr","referer":self.referer_flow,"user-agent":"Mozilla/5.0","x-requested-with":"XMLHttpRequest"}
-            cookies = {"lang":"ko_KR","mdc.client_session":"true"}
-            if self.jsessionid: cookies["JSESSIONID"] = self.jsessionid
-            payload = {"locale":"ko_KR","inqTpCd":"1","trdVolVal":"2","askBid":"3","mktId":mkt,
-                       "strtDd":start_date,"endDd":asof_date,"share":"2","money":"3","csvxls_isNo":"false",
-                       "name":"fileDown","url":"dbms/MDC/STAT/standard/MDCSTAT02201"}
-            r_otp = self.session.post(otp_url, headers=hdrs, cookies=cookies, data=payload, timeout=self.timeout)
-            r_otp.raise_for_status()
-            otp_code = r_otp.text.strip()
-            if not otp_code: raise RuntimeError("OTP empty.")
-            r_csv = self.session.post(dl_url, headers={"Referer":self.referer_flow,"User-Agent":"Mozilla/5.0"},
-                                      cookies=cookies, data={"code":otp_code}, timeout=self.timeout)
-            r_csv.raise_for_status()
-            df = None
-            for enc in ["cp949","euc-kr","utf-8-sig"]:
-                try: df = pd.read_csv(BytesIO(r_csv.content), encoding=enc); break
-                except: continue
-            if df is None or df.empty: raise RuntimeError("CSV parse fail.")
-            df.columns = [str(c).strip() for c in df.columns]
-            ic = find_matching_col(df, ["투자자구분","투자자","INVST_NM"])
-            if ic and ic != "투자자": df = df.rename(columns={ic:"투자자"})
-            net_col = find_matching_col(df, ["순매수거래대금","순매수 거래대금","순매수대금","순매수금액"])
-            if not net_col:
-                bc = find_matching_col(df, ["매수거래대금","매수대금","매수금액"])
-                sc_ = find_matching_col(df, ["매도거래대금","매도대금","매도금액"])
-                if bc and sc_:
-                    for c in df.columns:
-                        if c != "투자자": df[c] = clean_num_series(df[c])
-                    df["순매수거래대금"] = df[bc].fillna(0) - df[sc_].fillna(0)
-                    net_col = "순매수거래대금"
-            for c in df.columns:
-                if c != "투자자": df[c] = clean_num_series(df[c])
-            investor = df["투자자"].astype(str).str.strip()
-            foreign_net = first_matching_value(df, investor.str.contains("외국인",na=False), [net_col])
-            inst_net = first_matching_value(df, investor.str.contains("기관합계|기관",na=False), [net_col])
-            combined_net = np.nansum([foreign_net, inst_net])
+            from pykrx import stock as pykrx_stock
+            mkt = "KOSPI" if normalize_mkt_id(market) == "STK" else "KOSDAQ"
+            df = pykrx_stock.get_market_trading_value_by_investor(start_date, asof_date, mkt)
+            if df is None or df.empty:
+                raise RuntimeError("pykrx 빈 데이터")
+            # 컬럼: 매도, 매수, 순매수 / 인덱스: 투자자구분
+            net_col = "순매수" if "순매수" in df.columns else df.columns[-1]
+            # 외국인
+            foreign_idx = [i for i in df.index if "외국인" in str(i)]
+            inst_idx = [i for i in df.index if "기관합계" in str(i) or (i == "기관" and "기관합계" not in df.index)]
+            foreign_net = float(df.loc[foreign_idx[0], net_col]) if foreign_idx else np.nan
+            inst_net    = float(df.loc[inst_idx[0],    net_col]) if inst_idx    else np.nan
+            combined_net = np.nansum([v for v in [foreign_net, inst_net] if pd.notna(v)])
+            print(f"  [FLOW] {market} {window}D: 외국인={foreign_net:.0f}, 기관={inst_net:.0f}")
         except Exception as e:
             print(f"[FLOW WARN] {market} {window}D: {e}")
             foreign_net = inst_net = combined_net = np.nan
