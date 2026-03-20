@@ -647,17 +647,12 @@ def build_kr_results():
     # 캐시 저장 (VKOSPI + 거래대금 저장)
     save_krx_cache(cache)
 
-    # KIS 수급: 토큰 1회 발급 후 KOSPI/KOSDAQ 각 1번씩만 호출 → 1D/5D/20D 모두 계산
-    def _fetch_kis_flow_all_windows(market, asof):
+    # KIS 수급: 토큰 1회 발급 → KOSPI/KOSDAQ 공유
+    def _fetch_kis_flow_all_windows(market, asof, token):
         """KIS API 1회 호출로 1D/5D/20D 수급 스냅샷 모두 반환"""
         start_dt = (pd.Timestamp(asof) - pd.tseries.offsets.BDay(60)).strftime("%Y%m%d")
         empty = lambda w: {"window":w,"foreign_net_buy":np.nan,"institution_net_buy":np.nan,"combined_net_buy":np.nan}
         try:
-            token = requests.post(
-                "https://openapi.koreainvestment.com:9443/oauth2/tokenP",
-                json={"grant_type":"client_credentials","appkey":KIS_APP_KEY,"appsecret":KIS_APP_SECRET},
-                timeout=20
-            ).json()["access_token"]
             info = {"KOSPI":{"iscd":"0001","mkt":"KSP"},"KOSDAQ":{"iscd":"1001","mkt":"KSQ"}}[market]
             hdrs = {"content-type":"application/json; charset=utf-8",
                     "authorization":f"Bearer {token}","appkey":KIS_APP_KEY,
@@ -676,7 +671,7 @@ def build_kr_results():
             df = df.sort_values("stck_bsop_date", ascending=False).reset_index(drop=True)
             def snap(w):
                 n = min(w, len(df))
-                fg = float(df["frgn_ntby_tr_pbmn"].iloc[:n].sum()) / 100
+                fg  = float(df["frgn_ntby_tr_pbmn"].iloc[:n].sum()) / 100  # 백만원 → 억원
                 ins = float(df["orgn_ntby_tr_pbmn"].iloc[:n].sum()) / 100
                 print(f"  [FLOW] {market} {w}D({n}행): 외국인={fg:.0f}억, 기관={ins:.0f}억")
                 return {"window":w,"foreign_net_buy":fg,"institution_net_buy":ins,"combined_net_buy":fg+ins}
@@ -685,8 +680,20 @@ def build_kr_results():
             print(f"[FLOW WARN] {market}: {e}")
             return empty(1), empty(5), empty(20)
 
-    kf1,kf5,kf20 = _fetch_kis_flow_all_windows("KOSPI",  ac)
-    qf1,qf5,qf20 = _fetch_kis_flow_all_windows("KOSDAQ", ac)
+    # 토큰 1회만 발급
+    try:
+        _kis_token = requests.post(
+            "https://openapi.koreainvestment.com:9443/oauth2/tokenP",
+            json={"grant_type":"client_credentials","appkey":KIS_APP_KEY,"appsecret":KIS_APP_SECRET},
+            timeout=20
+        ).json()["access_token"]
+        print(f"  [KIS] 토큰 발급 성공")
+    except Exception as e:
+        _kis_token = ""
+        print(f"  [KIS WARN] 토큰 발급 실패: {e}")
+
+    kf1,kf5,kf20 = _fetch_kis_flow_all_windows("KOSPI",  ac, _kis_token)
+    qf1,qf5,qf20 = _fetch_kis_flow_all_windows("KOSDAQ", ac, _kis_token)
     results={}
     for asset,price,turnover,flow_1d,flow_5d,flow_20d,trend_fn in [
         ("KOSPI",kospi,kt,kf1,kf5,kf20,score_trend_kospi),
@@ -724,8 +731,9 @@ def fmt(v, fmt_str=".2f"):
     if fmt_str=="pct": return f"{v*100:.2f}%"
     if fmt_str=="bp": return f"{v:+.1f}bp"
     if fmt_str=="억":
-        if abs(v)>=1e8: return f"{v/1e8:.1f}억"
-        return f"{v/1e6:.0f}백만"
+        # 값이 이미 억원 단위로 전달됨
+        if abs(v) >= 10000: return f"{v/10000:.1f}조"
+        return f"{v:+,.0f}억"
     return f"{v:{fmt_str}}"
 
 def bool_badge(v):
