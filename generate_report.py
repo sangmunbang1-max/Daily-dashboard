@@ -47,7 +47,6 @@ def load_fred_10y():
     else:
         s = df["Close"]
     s = pd.to_numeric(s, errors="coerce").dropna().sort_index()
-    s = s / 10.0
     return s
 
 def rolling_slope(series, lookback=10):
