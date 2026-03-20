@@ -543,7 +543,9 @@ def score_flow_by_market(flow_1d, flow_5d, flow_20d, turnover_series, asset):
                    "turnover_curr":tc,"combined_5d_ratio":f5r,"combined_20d_ratio":f20r}
 
 def score_fx_usdkrw(usdkrw, asset):
-    s=usdkrw.dropna(); curr=s.iloc[-1]; ma50=s.rolling(50).mean().iloc[-1]
+    s=usdkrw.dropna()
+    if len(s)<2: return 0, {"usdkrw":np.nan,"usdkrw_ma50":np.nan,"usdkrw_ret20":np.nan,"usdkrw_ret5":np.nan}
+    curr=s.iloc[-1]; ma50=s.rolling(50).mean().iloc[-1]
     ret20=pct_change_n(s,20); ret5=pct_change_n(s,5)
     score=8 if curr<ma50 else 2
     if pd.notna(ret20):
@@ -557,7 +559,10 @@ def score_fx_usdkrw(usdkrw, asset):
     return score, {"usdkrw":curr,"usdkrw_ma50":ma50,"usdkrw_ret20":ret20,"usdkrw_ret5":ret5}
 
 def score_oil_wti(oil, asset):
-    s=oil.dropna(); curr=s.iloc[-1]; ret20=pct_change_n(s,20); ret5=pct_change_n(s,5); ma50=s.rolling(50).mean().iloc[-1]
+def score_oil_wti(oil, asset):
+    s=oil.dropna()
+    if len(s)<2: return 0, {"wti":np.nan,"wti_ret20":np.nan,"wti_ret5":np.nan,"wti_ma50":np.nan}
+    curr=s.iloc[-1]; ret20=pct_change_n(s,20); ret5=pct_change_n(s,5); ma50=s.rolling(50).mean().iloc[-1]
     score=0
     if pd.notna(ret20):
         if ret20<-0.10: score+=6
