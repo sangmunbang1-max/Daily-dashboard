@@ -799,9 +799,13 @@ def save_state(state):
     with open(STATE_FILE,"w",encoding="utf-8") as f: json.dump(state,f,ensure_ascii=False,indent=2)
 
 def _clean(v):
-    if isinstance(v,float) and np.isnan(v): return None
-    if isinstance(v,dict): return {kk:_clean(vv) for kk,vv in v.items()}
-    if isinstance(v,list): return [_clean(i) for i in v]
+    if isinstance(v, bool): return bool(v)
+    if isinstance(v, np.bool_): return bool(v)
+    if isinstance(v, np.integer): return int(v)
+    if isinstance(v, np.floating): return None if np.isnan(v) else float(v)
+    if isinstance(v, float): return None if np.isnan(v) else v
+    if isinstance(v, dict): return {kk: _clean(vv) for kk, vv in v.items()}
+    if isinstance(v, list): return [_clean(i) for i in v]
     return v
 
 def results_to_json(results):
