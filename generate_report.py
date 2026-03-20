@@ -31,21 +31,47 @@ RUN_MODE = os.environ.get("RUN_MODE", "ALL")  # "US", "KR", "ALL"
 def get_asof_compact():
     return pd.Timestamp.today().strftime("%Y%m%d")
 
-def safe_download_yf(tickers, period="2y", auto_adjust=True):
-    df = yf.download(tickers=tickers, period=period, interval="1d",
-                     auto_adjust=auto_adjust, progress=False, threads=True, group_by="ticker")
-    if df.empty: raise ValueError("Empty DataFrame.")
-    if isinstance(df.columns, pd.MultiIndex):
-        out_list = []
-        for t in tickers:
-            if t not in df.columns.get_level_values(0): continue
-            sub = df[t].copy()
-            if "Close" in sub.columns: out_list.append(sub["Close"].rename(t))
-        if not out_list: raise ValueError("No Close columns.")
-        return pd.concat(out_list, axis=1).sort_index()
-    if "Close" in df.columns and len(tickers) == 1:
-        return df[["Close"]].rename(columns={"Close": tickers[0]}).sort_index()
-    raise ValueError("Unexpected format.")
+def safe_download_yf(tickers, period="2y", auto_adjust=True, min_rows=60, retries=3):
+    for attempt in range(retries):
+        try:
+            df = yf.download(tickers=tickers, period=period, interval="1d",
+                             auto_adjust=auto_adjust, progress=False, threads=True, group_by="ticker")
+            if df.empty:
+                print(f"  [YF] 빈 데이터 (시도 {attempt+1}/{retries}): {tickers}")
+                time.sleep(2)
+                continue
+            if isinstance(df.columns, pd.MultiIndex):
+                out_list = []
+                for t in tickers:
+                    if t not in df.columns.get_level_values(0): continue
+                    sub = df[t].copy()
+                    if "Close" in sub.columns: out_list.append(sub["Close"].rename(t))
+                if not out_list:
+                    print(f"  [YF] Close 컬럼 없음 (시도 {attempt+1}/{retries}): {tickers}")
+                    time.sleep(2)
+                    continue
+                result = pd.concat(out_list, axis=1).sort_index()
+            elif "Close" in df.columns and len(tickers) == 1:
+                result = df[["Close"]].rename(columns={"Close": tickers[0]}).sort_index()
+            else:
+                raise ValueError("Unexpected format.")
+            # 최소 데이터 검증
+            for t in tickers:
+                if t in result.columns:
+                    n = len(result[t].dropna())
+                    if n < min_rows:
+                        print(f"  [YF] {t} 데이터 부족 ({n}행, 최소 {min_rows}행 필요) — 시도 {attempt+1}/{retries}")
+                        if attempt < retries - 1:
+                            time.sleep(3)
+                            break
+                else:
+                    print(f"  [YF] {t} 컬럼 없음 — 시도 {attempt+1}/{retries}")
+            else:
+                return result  # 모든 티커 검증 통과
+        except Exception as e:
+            print(f"  [YF] 오류 (시도 {attempt+1}/{retries}): {e}")
+            time.sleep(2)
+    raise ValueError(f"yfinance 데이터 수집 실패 ({retries}회 시도): {tickers}")
 
 def safe_download_one_of(candidates, period="2y", auto_adjust=True):
     for t in candidates:
@@ -421,21 +447,27 @@ def apply_guardrails_us(base_signal, trend_meta, vix_meta, breadth_meta, rate_me
 # KR Scoring
 # =========================================================
 def score_trend_kospi(price):
-    close=price.dropna(); c=close.iloc[-1]
+    close=price.dropna()
+    if len(close)<2: return 0, {"close":np.nan,"ma50":np.nan,"ma200":np.nan,"ret20":np.nan,"slope50":np.nan}
+    c=close.iloc[-1]
     ma50=close.rolling(50).mean().iloc[-1]; ma200=close.rolling(200).mean().iloc[-1]
     slope50=rolling_slope(close.rolling(50).mean(),10); ret20=pct_change_n(close,20)
     score=(18 if c>ma200 else 0)+(12 if c>ma50 else 0)+(5 if slope50>0 else 0)+(5 if ret20>0 else 0)
     return score, {"close":c,"ma50":ma50,"ma200":ma200,"ret20":ret20,"slope50":slope50}
 
 def score_trend_kosdaq(price):
-    close=price.dropna(); c=close.iloc[-1]
+    close=price.dropna()
+    if len(close)<2: return 0, {"close":np.nan,"ma50":np.nan,"ma200":np.nan,"ret20":np.nan,"slope50":np.nan}
+    c=close.iloc[-1]
     ma50=close.rolling(50).mean().iloc[-1]; ma200=close.rolling(200).mean().iloc[-1]
     slope50=rolling_slope(close.rolling(50).mean(),10); ret20=pct_change_n(close,20)
     score=(16 if c>ma200 else 0)+(10 if c>ma50 else 0)+(5 if slope50>0 else 0)+(5 if ret20>0 else 0)
     return score, {"close":c,"ma50":ma50,"ma200":ma200,"ret20":ret20,"slope50":slope50}
 
 def score_vkospi(vkospi):
-    v=vkospi.dropna(); curr=v.iloc[-1]; chg5=pct_change_n(v,5)
+    v=vkospi.dropna()
+    if len(v)<2: return 0, {"vkospi":np.nan,"vkospi_5d_chg":np.nan,"vkospi_ratio20":np.nan,"vkospi_dd_from_10d_high":np.nan}
+    curr=v.iloc[-1]; chg5=pct_change_n(v,5)
     ma20=v.rolling(20).mean().iloc[-1]; ratio20=curr/ma20 if pd.notna(ma20) and ma20!=0 else np.nan
     high10=v.rolling(10).max().iloc[-1]; dd=(curr/high10-1.0) if pd.notna(high10) and high10!=0 else np.nan
     score=0
@@ -444,9 +476,10 @@ def score_vkospi(vkospi):
     elif curr<=28: score+=10
     elif curr<=38: score+=7
     else: score+=2
-    if chg5<-0.10: score+=8
-    elif chg5<0: score+=5
-    elif chg5<=0.10: score+=2
+    if pd.notna(chg5):
+        if chg5<-0.10: score+=8
+        elif chg5<0: score+=5
+        elif chg5<=0.10: score+=2
     if pd.notna(ratio20):
         if 0.9<=ratio20<=1.15: score+=4
         elif 1.15<ratio20<=1.4: score+=5
@@ -458,7 +491,9 @@ def score_vkospi(vkospi):
     return score, {"vkospi":curr,"vkospi_5d_chg":chg5,"vkospi_ratio20":ratio20,"vkospi_dd_from_10d_high":dd}
 
 def score_tactical_kr(price, asset):
-    close=price.dropna(); c=close.iloc[-1]
+    close=price.dropna()
+    if len(close)<2: return 0, {"dist20":np.nan,"ret10":np.nan,"cond_cross_5dma":False,"cond_2_of_3_up":False,"cond_rebound_3pct":False}
+    c=close.iloc[-1]
     ma20=close.rolling(20).mean().iloc[-1]; ma5=close.rolling(5).mean().iloc[-1]
     dist20=c/ma20-1.0 if pd.notna(ma20) and ma20!=0 else np.nan; ret10=pct_change_n(close,10)
     prev_close=close.iloc[-2] if len(close)>=2 else np.nan
@@ -468,16 +503,18 @@ def score_tactical_kr(price, asset):
     low5=close.tail(5).min() if len(close)>=5 else np.nan
     rebound=pd.notna(low5) and low5>0 and ((c/low5-1.0)>=0.03)
     score=0
-    if asset=="KOSPI":
-        if dist20<=-0.07: score+=7
-        elif dist20<=-0.03: score+=5
-        elif dist20<=0.04: score+=2
-    else:
-        if dist20<=-0.08: score+=7
-        elif dist20<=-0.04: score+=5
-        elif dist20<=0.05: score+=2
+    if pd.notna(dist20):
+        if asset=="KOSPI":
+            if dist20<=-0.07: score+=7
+            elif dist20<=-0.03: score+=5
+            elif dist20<=0.04: score+=2
+        else:
+            if dist20<=-0.08: score+=7
+            elif dist20<=-0.04: score+=5
+            elif dist20<=0.05: score+=2
     if cross5 or two_of_3 or rebound: score+=6
-    score+=(4 if ret10<=0.06 else 0) if asset=="KOSPI" else (4 if ret10<=0.08 else 0)
+    if pd.notna(ret10):
+        score+=(4 if ret10<=0.06 else 0) if asset=="KOSPI" else (4 if ret10<=0.08 else 0)
     return score, {"dist20":dist20,"ret10":ret10,"cond_cross_5dma":cross5,"cond_2_of_3_up":two_of_3,"cond_rebound_3pct":rebound}
 
 def score_leadership(rs_ratio, asset):
@@ -497,7 +534,9 @@ def score_leadership(rs_ratio, asset):
     return score, {"ratio":curr,"ma50":ma50,"roc20":roc20,"bucket":bucket,"approx_leadership":al}
 
 def score_turnover(turnover_series, asset):
-    s=turnover_series.dropna(); curr=s.iloc[-1]
+    s=turnover_series.dropna()
+    if len(s)<2: return 0, {"turnover":np.nan,"turnover_ma20":np.nan,"turnover_ratio20":np.nan,"turnover_roc5":np.nan}
+    curr=s.iloc[-1]
     ma20=s.rolling(20).mean().iloc[-1]; ratio20=curr/ma20 if pd.notna(ma20) and ma20!=0 else np.nan; roc5=pct_change_n(s,5)
     score=0
     if pd.notna(ratio20):
@@ -509,9 +548,8 @@ def score_turnover(turnover_series, asset):
         if roc5>0.15: score+=4
         elif roc5>0: score+=2
     if asset=="KOSDAQ" and score>0: score=min(score+1,12)
-    # 표시용: 원 → 억원
-    curr_eok  = curr  / 1e8 if pd.notna(curr)  else np.nan
-    ma20_eok  = ma20  / 1e8 if pd.notna(ma20)  else np.nan
+    curr_eok = curr / 1e8 if pd.notna(curr) else np.nan
+    ma20_eok = ma20 / 1e8 if pd.notna(ma20) else np.nan
     return score, {"turnover":curr_eok,"turnover_ma20":ma20_eok,"turnover_ratio20":ratio20,"turnover_roc5":roc5}
 
 def score_flow_by_market(flow_1d, flow_5d, flow_20d, turnover_series, asset):
