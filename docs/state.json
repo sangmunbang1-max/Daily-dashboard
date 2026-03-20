@@ -1,7 +1,109 @@
 {
-  "us_updated": "—",
+  "us_updated": "2026-03-21 07:25 KST",
   "kr_updated": "2026-03-21 02:44 KST",
-  "us_results": null,
+  "us_results": {
+    "SPY": {
+      "asset": "SPY",
+      "total_score": 33,
+      "raw_signal": "매도",
+      "final_signal": "매도",
+      "module_scores": {
+        "trend": 0,
+        "vix": 15,
+        "tactical": 8,
+        "breadth": 8,
+        "rates": 2
+      },
+      "module_meta": {
+        "trend": {
+          "close": 648.5700073242188,
+          "ma50": 683.8907971191406,
+          "ma200": 658.3054483032226,
+          "ret20": -0.059266329845875654,
+          "slope50": -4.159199218750018
+        },
+        "vix": {
+          "vix": 26.780000686645508,
+          "vix_5d_chg": -0.015079067280581726,
+          "vix_ma20": 23.366500091552734,
+          "vix_ratio20": 1.1460852323505135,
+          "vix_dd_from_10d_high": -0.018688171922766728
+        },
+        "tactical": {
+          "dist20": -0.04011258956676533,
+          "ret10": -0.03541151935763398,
+          "cond_cross_5dma": false,
+          "cond_2_of_3_up": false,
+          "cond_rebound_3pct": false
+        },
+        "breadth": {
+          "proxy_ratio": 0.2936922669510965,
+          "proxy_ma50": 0.2916833555005652,
+          "proxy_roc20": -0.007887397294071619,
+          "bucket": "neutral",
+          "approx_breadth": 0.5
+        },
+        "rates": {
+          "dgs10": 4.390999794006348,
+          "delta20_bp": 30.499982833862305
+        }
+      },
+      "guardrail_reasons": [
+        "50/200일선 하회 + 20일 수익률 음수 → 매도 우선"
+      ]
+    },
+    "QQQ": {
+      "asset": "QQQ",
+      "total_score": 32,
+      "raw_signal": "매도",
+      "final_signal": "매도",
+      "module_scores": {
+        "trend": 0,
+        "vix": 15,
+        "tactical": 8,
+        "breadth": 5,
+        "rates": 4
+      },
+      "module_meta": {
+        "trend": {
+          "close": 582.0599975585938,
+          "ma50": 610.9481994628907,
+          "ma200": 592.0273886108398,
+          "ret20": -0.04393817464770766,
+          "slope50": -4.304398193359361
+        },
+        "vix": {
+          "vix": 26.780000686645508,
+          "vix_5d_chg": -0.015079067280581726,
+          "vix_ma20": 23.366500091552734,
+          "vix_ratio20": 1.1460852323505135,
+          "vix_dd_from_10d_high": -0.018688171922766728
+        },
+        "tactical": {
+          "dist20": -0.03468154832934689,
+          "ret10": -0.029495627247030032,
+          "cond_cross_5dma": false,
+          "cond_2_of_3_up": false,
+          "cond_rebound_3pct": false
+        },
+        "breadth": {
+          "proxy_ratio": 0.22253719431433283,
+          "proxy_ma50": 0.22259469538676133,
+          "proxy_roc20": 0.01774995264939494,
+          "bucket": "neutral",
+          "approx_breadth": 0.5
+        },
+        "rates": {
+          "dgs10": 4.390999794006348,
+          "delta20_bp": 30.499982833862305
+        }
+      },
+      "guardrail_reasons": [
+        "50/200일선 하회 + 20일 수익률 음수 → 매도 우선",
+        "10년물 20일 급등 → QQQ 한 단계 하향"
+      ]
+    }
+  },
   "kr_results": {
     "KOSPI": {
       "asset": "KOSPI",
