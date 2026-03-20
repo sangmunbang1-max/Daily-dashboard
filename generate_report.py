@@ -559,7 +559,6 @@ def score_fx_usdkrw(usdkrw, asset):
     return score, {"usdkrw":curr,"usdkrw_ma50":ma50,"usdkrw_ret20":ret20,"usdkrw_ret5":ret5}
 
 def score_oil_wti(oil, asset):
-def score_oil_wti(oil, asset):
     s=oil.dropna()
     if len(s)<2: return 0, {"wti":np.nan,"wti_ret20":np.nan,"wti_ret5":np.nan,"wti_ma50":np.nan}
     curr=s.iloc[-1]; ret20=pct_change_n(s,20); ret5=pct_change_n(s,5); ma50=s.rolling(50).mean().iloc[-1]
