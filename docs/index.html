@@ -8,11 +8,12 @@
 body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}
 .page-header{max-width:960px;margin:0 auto 28px;border-bottom:1px solid #1a1a2e;padding-bottom:20px}
 .page-title{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#e8e8f0}
-.tab-bar{max-width:960px;margin:0 auto 0;display:flex;gap:4px;border-bottom:1px solid #1a1a2e}
+.tab-bar{max-width:960px;margin:0 auto 0;display:flex;gap:4px;border-bottom:1px solid #1a1a2e;position:relative;z-index:10}
 .tab-btn{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;padding:10px 28px;border:none;
-  background:transparent;color:#333;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:all .2s}
+  background:transparent;color:#888;cursor:pointer !important;border-bottom:2px solid transparent;margin-bottom:-1px;
+  transition:all .2s;pointer-events:auto !important;position:relative;z-index:11;outline:none}
 .tab-btn.active{color:#e8e8f0;border-bottom-color:#e8e8f0}
-.tab-btn:hover:not(.active){color:#666}
+.tab-btn:hover{color:#ccc}
 .tab-content{display:none}.tab-content.active{display:block}
 .update-bar{max-width:960px;margin:16px auto 24px;display:flex;gap:16px;flex-wrap:wrap}
 .update-badge{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:5px 14px;border-radius:4px;
@@ -46,17 +47,17 @@ body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;
   <button class="tab-btn" onclick="switchTab('kr',this)">🇰🇷 KR</button>
 </div>
 <div class="update-bar">
-  <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-20 17:47 KST</span></div>
-  <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-20 17:47 KST</span></div>
+  <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-20 20:46 KST</span></div>
+  <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-20 20:46 KST</span></div>
 </div>
 <div id="tab-us" class="tab-content active"><div class="cards-container"><div class="asset-card" style="border-top:3px solid #f5c842;">
       <div class="card-header">
         <div><div class="asset-name">SPY</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:rgba(245,200,66,0.12);color:#f5c842;border:1px solid #f5c84244;">보유</div></div>
       </div>
-      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">59</span><span style="color:#333;font-size:20px;">/100</span></div>
-      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:59.0%;background:#f5c842;border-radius:4px;"></div></div>
-      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">15<span style="color:#222">/35</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:42.9%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">24<span style="color:#222">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:96.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">8<span style="color:#222">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">8<span style="color:#222">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">4<span style="color:#222">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f5c842;border-radius:4px;"></div></div></div></div>
+      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">57</span><span style="color:#333;font-size:20px;">/100</span></div>
+      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:57.0%;background:#f5c842;border-radius:4px;"></div></div>
+      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">15<span style="color:#222">/35</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:42.9%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">22<span style="color:#222">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:88.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">8<span style="color:#222">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">8<span style="color:#222">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">4<span style="color:#222">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f5c842;border-radius:4px;"></div></div></div></div>
       <div class="details-grid">
           <div class="detail-group"><div class="section-label">추세</div>
             <div class="detail-row"><span>종가</span><span>659.80</span></div>
@@ -64,10 +65,10 @@ body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>MA200</span><span>658.02</span></div>
             <div class="detail-row"><span>20일 수익률</span><span>-3.61%</span></div></div>
           <div class="detail-group"><div class="section-label">VIX</div>
-            <div class="detail-row"><span>현재</span><span>23.80</span></div>
-            <div class="detail-row"><span>5일 변화</span><span>-12.79%</span></div>
-            <div class="detail-row"><span>MA20 대비</span><span>1.036</span></div>
-            <div class="detail-row"><span>10일고점 대비</span><span>-19.29%</span></div></div>
+            <div class="detail-row"><span>현재</span><span>24.83</span></div>
+            <div class="detail-row"><span>5일 변화</span><span>-9.01%</span></div>
+            <div class="detail-row"><span>MA20 대비</span><span>1.079</span></div>
+            <div class="detail-row"><span>10일고점 대비</span><span>-15.80%</span></div></div>
           <div class="detail-group"><div class="section-label">전술</div>
             <div class="detail-row"><span>20일선 이격</span><span>-2.64%</span></div>
             <div class="detail-row"><span>10일 수익률</span><span>-3.16%</span></div>
@@ -78,15 +79,15 @@ body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>Approx 비율</span><span>50.00%</span></div>
             <div class="detail-row"><span>US 10Y</span><span>4.28%</span></div>
             <div class="detail-row"><span>20일 변화</span><span>+19.5bp</span></div></div>
-        </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>상승추세 + VIX 진정 + breadth 중립 이상 → 최소 보유</li></ul></div>
+        </div>
     </div><div class="asset-card" style="border-top:3px solid #f5c842;">
       <div class="card-header">
         <div><div class="asset-name">QQQ</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:rgba(245,200,66,0.12);color:#f5c842;border:1px solid #f5c84244;">보유</div></div>
       </div>
-      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">55</span><span style="color:#333;font-size:20px;">/100</span></div>
-      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:55.0%;background:#f5c842;border-radius:4px;"></div></div>
-      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">12<span style="color:#222">/30</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">24<span style="color:#222">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:96.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">6<span style="color:#222">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">5<span style="color:#222">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:50.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">8<span style="color:#222">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f5c842;border-radius:4px;"></div></div></div></div>
+      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">53</span><span style="color:#333;font-size:20px;">/100</span></div>
+      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.0%;background:#f5c842;border-radius:4px;"></div></div>
+      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">12<span style="color:#222">/30</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">22<span style="color:#222">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:88.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">6<span style="color:#222">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">5<span style="color:#222">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:50.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">8<span style="color:#222">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f5c842;border-radius:4px;"></div></div></div></div>
       <div class="details-grid">
           <div class="detail-group"><div class="section-label">추세</div>
             <div class="detail-row"><span>종가</span><span>593.02</span></div>
@@ -94,10 +95,10 @@ body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>MA200</span><span>591.74</span></div>
             <div class="detail-row"><span>20일 수익률</span><span>-1.73%</span></div></div>
           <div class="detail-group"><div class="section-label">VIX</div>
-            <div class="detail-row"><span>현재</span><span>23.80</span></div>
-            <div class="detail-row"><span>5일 변화</span><span>-12.79%</span></div>
-            <div class="detail-row"><span>MA20 대비</span><span>1.036</span></div>
-            <div class="detail-row"><span>10일고점 대비</span><span>-19.29%</span></div></div>
+            <div class="detail-row"><span>현재</span><span>24.83</span></div>
+            <div class="detail-row"><span>5일 변화</span><span>-9.01%</span></div>
+            <div class="detail-row"><span>MA20 대비</span><span>1.079</span></div>
+            <div class="detail-row"><span>10일고점 대비</span><span>-15.80%</span></div></div>
           <div class="detail-group"><div class="section-label">전술</div>
             <div class="detail-row"><span>20일선 이격</span><span>-1.87%</span></div>
             <div class="detail-row"><span>10일 수익률</span><span>-2.61%</span></div>
@@ -108,7 +109,7 @@ body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>Approx 비율</span><span>50.00%</span></div>
             <div class="detail-row"><span>US 10Y</span><span>4.28%</span></div>
             <div class="detail-row"><span>20일 변화</span><span>+19.5bp</span></div></div>
-        </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>상승추세 + VIX 진정 + breadth 중립 이상 → 최소 보유</li></ul></div>
+        </div>
     </div></div></div>
 <div id="tab-kr" class="tab-content"><div class="cards-container"><div class="asset-card" style="border-top:3px solid #00d084;">
       <div class="card-header">
@@ -144,10 +145,10 @@ body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>MA20 대비</span><span>0.679</span></div>
             <div class="detail-row"><span>5일 변화</span><span>-2.97%</span></div></div>
           <div class="detail-group"><div class="section-label">환율 / 유가</div>
-            <div class="detail-row"><span>USD/KRW</span><span>1497.18</span></div>
+            <div class="detail-row"><span>USD/KRW</span><span>1497.06</span></div>
             <div class="detail-row"><span>환율 20일</span><span>3.41%</span></div>
-            <div class="detail-row"><span>WTI</span><span>94.52</span></div>
-            <div class="detail-row"><span>WTI 20일</span><span>42.37%</span></div></div>
+            <div class="detail-row"><span>WTI</span><span>94.62</span></div>
+            <div class="detail-row"><span>WTI 20일</span><span>42.52%</span></div></div>
         </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>상승추세 + 변동성 진정 → 최소 보유</li></ul></div>
     </div><div class="asset-card" style="border-top:3px solid #00d084;">
       <div class="card-header">
@@ -183,10 +184,10 @@ body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>MA20 대비</span><span>0.814</span></div>
             <div class="detail-row"><span>5일 변화</span><span>-15.81%</span></div></div>
           <div class="detail-group"><div class="section-label">환율 / 유가</div>
-            <div class="detail-row"><span>USD/KRW</span><span>1497.18</span></div>
+            <div class="detail-row"><span>USD/KRW</span><span>1497.06</span></div>
             <div class="detail-row"><span>환율 20일</span><span>3.41%</span></div>
-            <div class="detail-row"><span>WTI</span><span>94.52</span></div>
-            <div class="detail-row"><span>WTI 20일</span><span>42.37%</span></div></div>
+            <div class="detail-row"><span>WTI</span><span>94.62</span></div>
+            <div class="detail-row"><span>WTI 20일</span><span>42.52%</span></div></div>
         </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>상승추세 + 변동성 진정 → 최소 보유</li></ul></div>
     </div></div></div>
 <div class="footer">
