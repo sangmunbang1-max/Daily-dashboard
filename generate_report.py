@@ -666,7 +666,7 @@ def score_bar(score, max_score=100):
     return f'<div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:{pct:.1f}%;background:{color};border-radius:4px;"></div></div>'
 
 def fmt(v, fmt_str=".2f"):
-    if v is None or (isinstance(v,float) and np.isnan(v)): return "<span style='color:#333'>—</span>"
+    if v is None or (isinstance(v,float) and np.isnan(v)): return "<span style='color:#4a4a6a'>—</span>"
     if fmt_str=="pct": return f"{v*100:.2f}%"
     if fmt_str=="bp": return f"{v:+.1f}bp"
     if fmt_str=="억":
@@ -675,7 +675,7 @@ def fmt(v, fmt_str=".2f"):
     return f"{v:{fmt_str}}"
 
 def bool_badge(v):
-    return "<span style='color:#00d084;'>✓</span>" if v else "<span style='color:#333;'>✗</span>"
+    return "<span style='color:#00d084;font-weight:700;'>✓</span>" if v else "<span style='color:#4a4a6a;'>✗</span>"
 
 def make_card(r, ms):
     col=signal_color(r.final_signal); bg=signal_bg(r.final_signal)
@@ -687,9 +687,9 @@ def make_card(r, ms):
     labels={"trend":"추세","vix":"VIX","vkospi":"VKOSPI","tactical":"전술","breadth":"Breadth",
             "leadership":"리더십","turnover":"거래대금","flow":"수급","rates":"금리","fx":"환율","oil":"유가"}
     module_rows="".join(
-        f'<div class="mod-row"><span class="mod-label">{labels.get(mod,mod)}</span><span class="mod-score">{s}<span style="color:#222">/{ms.get(mod,20)}</span></span>{score_bar(s,ms.get(mod,20))}</div>'
+        f'<div class="mod-row"><span class="mod-label">{labels.get(mod,mod)}</span><span class="mod-score">{s}<span style="color:#4a4a6a">/{ms.get(mod,20)}</span></span>{score_bar(s,ms.get(mod,20))}</div>'
         for mod,s in r.module_scores.items())
-    raw_eq=f'<span style="color:#333;font-size:11px;">원신호: {r.raw_signal}</span>' if r.raw_signal!=r.final_signal else ""
+    raw_eq=f'<span style="color:#6060a0;font-size:11px;">원신호: {r.raw_signal}</span>' if r.raw_signal!=r.final_signal else ""
     tm=r.module_meta["trend"]
     if is_kr:
         vm=r.module_meta["vkospi"]; xm=r.module_meta["tactical"]; lm=r.module_meta["leadership"]
@@ -755,7 +755,7 @@ def make_card(r, ms):
         <div><div class="asset-name">{r.asset}</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:{bg};color:{col};border:1px solid {col}44;">{r.final_signal}</div>{raw_eq}</div>
       </div>
-      <div class="score-display"><span style="color:{col};font-size:42px;font-weight:700;letter-spacing:-2px;">{r.total_score}</span><span style="color:#333;font-size:20px;">/100</span></div>
+      <div class="score-display"><span style="color:{col};font-size:42px;font-weight:700;letter-spacing:-2px;">{r.total_score}</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
       {score_bar(r.total_score)}
       <div class="modules-section">{module_rows}</div>
       {detail_html}{guardrail_html}
@@ -779,69 +779,110 @@ def generate_html(us_results, kr_results, us_updated, kr_updated):
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+KR:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
-body{{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}}
-.page-header{{max-width:960px;margin:0 auto 28px;border-bottom:1px solid #1a1a2e;padding-bottom:20px}}
-.page-title{{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#e8e8f0}}
-.tab-bar{{max-width:960px;margin:0 auto 0;display:flex;gap:4px;border-bottom:1px solid #1a1a2e;position:relative;z-index:10}}
-.tab-btn{{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;padding:10px 28px;border:none;
-  background:transparent;color:#888;cursor:pointer !important;border-bottom:2px solid transparent;margin-bottom:-1px;
-  transition:all .2s;pointer-events:auto !important;position:relative;z-index:11;outline:none}}
-.tab-btn.active{{color:#e8e8f0;border-bottom-color:#e8e8f0}}
-.tab-btn:hover{{color:#ccc}}
+body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}}
+.page-header{{max-width:960px;margin:0 auto 28px;border-bottom:1px solid #252538;padding-bottom:20px}}
+.page-title{{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#f0f0f8;letter-spacing:-0.5px}}
+
+/* ── 탭 ── */
+.tab-bar{{max-width:960px;margin:0 auto;display:flex;gap:0;border-bottom:2px solid #252538}}
+.tab-btn{{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;
+  padding:12px 36px;border:none;background:#161622;color:#7070a0;
+  cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;
+  transition:color .15s,border-color .15s;letter-spacing:0.5px;
+  -webkit-appearance:none;-moz-appearance:none;appearance:none}}
+.tab-btn:hover{{color:#c0c0e0;background:#1e1e30}}
+.tab-btn.active{{color:#f0f0f8;border-bottom-color:#5b9bd5;background:#0d0d14}}
 .tab-content{{display:none}}.tab-content.active{{display:block}}
-.update-bar{{max-width:960px;margin:16px auto 24px;display:flex;gap:16px;flex-wrap:wrap}}
-.update-badge{{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:5px 14px;border-radius:4px;
-  border:1px solid #1a1a2e;color:#555;display:flex;align-items:center;gap:6px}}
-.update-badge .label{{color:#333}}.update-badge .time{{color:#888}}
+
+/* ── 업데이트 바 ── */
+.update-bar{{max-width:960px;margin:20px auto 28px;display:flex;gap:12px;flex-wrap:wrap}}
+.update-badge{{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:6px 14px;border-radius:6px;
+  border:1px solid #252538;background:#161622;display:flex;align-items:center;gap:8px}}
+.update-badge .label{{color:#8888aa;font-weight:600}}
+.update-badge .time{{color:#b0b0cc}}
+
+/* ── 카드 ── */
 .cards-container{{max-width:960px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:24px}}
-.asset-card{{background:#0f0f1a;border:1px solid #1a1a2e;border-radius:12px;padding:28px;transition:border-color .2s}}
-.asset-card:hover{{border-color:#2a2a3e}}
+.asset-card{{background:#13131f;border:1px solid #252538;border-radius:14px;padding:28px;transition:border-color .2s}}
+.asset-card:hover{{border-color:#353558}}
 .card-header{{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px}}
-.asset-name{{font-family:"IBM Plex Mono",monospace;font-size:28px;font-weight:600;color:#e8e8f0;letter-spacing:-1px}}
-.signal-badge{{font-family:"IBM Plex Mono",monospace;font-size:18px;font-weight:600;padding:6px 18px;border-radius:6px;letter-spacing:1px}}
+.asset-name{{font-family:"IBM Plex Mono",monospace;font-size:30px;font-weight:700;color:#f0f0f8;letter-spacing:-1px}}
+.signal-badge{{font-family:"IBM Plex Mono",monospace;font-size:17px;font-weight:700;padding:7px 20px;border-radius:8px;letter-spacing:1px}}
 .score-display{{margin:16px 0 8px;font-family:"IBM Plex Mono",monospace;line-height:1}}
-.modules-section{{margin:20px 0;display:flex;flex-direction:column;gap:8px}}
-.mod-row{{display:grid;grid-template-columns:80px 55px 1fr;align-items:center;gap:10px}}
-.mod-label{{font-size:11px;color:#333;font-family:"IBM Plex Mono",monospace}}
-.mod-score{{font-family:"IBM Plex Mono",monospace;font-size:13px;color:#555;text-align:right}}
-.details-grid{{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px;padding-top:20px;border-top:1px solid #1a1a2e}}
-.detail-group{{display:flex;flex-direction:column;gap:5px}}
-.section-label{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#222;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}}
-.detail-row{{display:flex;justify-content:space-between;font-size:12px;color:#444;font-family:"IBM Plex Mono",monospace}}
-.detail-row span:last-child{{color:#888}}
-.guardrail-box{{margin-top:16px;padding:12px;background:rgba(245,200,66,0.05);border:1px solid rgba(245,200,66,0.15);border-radius:6px}}
-.footer{{max-width:960px;margin:40px auto 0;text-align:center;font-size:11px;color:#1a1a2e;font-family:"IBM Plex Mono",monospace;line-height:1.8}}
-@media(max-width:480px){{.cards-container{{grid-template-columns:1fr}}.details-grid{{grid-template-columns:1fr}}}}
+
+/* ── 모듈 바 ── */
+.modules-section{{margin:20px 0;display:flex;flex-direction:column;gap:9px}}
+.mod-row{{display:grid;grid-template-columns:80px 58px 1fr;align-items:center;gap:10px}}
+.mod-label{{font-size:11px;color:#9090b8;font-family:"IBM Plex Mono",monospace;font-weight:600}}
+.mod-score{{font-family:"IBM Plex Mono",monospace;font-size:13px;color:#c0c0d8;text-align:right;font-weight:600}}
+
+/* ── 세부 정보 ── */
+.details-grid{{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px;padding-top:20px;border-top:1px solid #252538}}
+.detail-group{{display:flex;flex-direction:column;gap:6px}}
+.section-label{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#5b5b80;text-transform:uppercase;
+  letter-spacing:1.5px;margin-bottom:6px;font-weight:700}}
+.detail-row{{display:flex;justify-content:space-between;font-size:12.5px;font-family:"IBM Plex Mono",monospace;
+  padding:2px 0;border-bottom:1px solid #1a1a28}}
+.detail-row span:first-child{{color:#9090b8}}
+.detail-row span:last-child{{color:#e0e0f0;font-weight:600}}
+
+/* ── 가드레일 ── */
+.guardrail-box{{margin-top:16px;padding:12px 14px;background:rgba(245,200,66,0.07);
+  border:1px solid rgba(245,200,66,0.25);border-radius:8px}}
+.guardrail-box .section-label{{color:#f5c842}}
+
+/* ── 푸터 ── */
+.footer{{max-width:960px;margin:48px auto 0;text-align:center;font-size:11px;
+  color:#353558;font-family:"IBM Plex Mono",monospace;line-height:2}}
+@media(max-width:520px){{
+  .cards-container{{grid-template-columns:1fr}}
+  .details-grid{{grid-template-columns:1fr}}
+  .tab-btn{{padding:10px 20px;font-size:13px}}
+}}
 </style></head><body>
 <div class="page-header">
   <div class="page-title">MARKET DECISION DASHBOARD</div>
 </div>
+
 <div class="tab-bar">
-  <button class="tab-btn active" onclick="switchTab('us',this)">🇺🇸 US</button>
-  <button class="tab-btn" onclick="switchTab('kr',this)">🇰🇷 KR</button>
+  <button class="tab-btn active" data-tab="us">🇺🇸 &nbsp;US</button>
+  <button class="tab-btn" data-tab="kr">🇰🇷 &nbsp;KR</button>
 </div>
+
 <div class="update-bar">
   <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">{us_updated}</span></div>
   <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">{kr_updated}</span></div>
 </div>
+
 <div id="tab-us" class="tab-content active"><div class="cards-container">{us_cards}</div></div>
 <div id="tab-kr" class="tab-content"><div class="cards-container">{kr_cards}</div></div>
+
 <div class="footer">
   <p>score ≥ 70 → 매수 &nbsp;|&nbsp; 40–69 → 보유 &nbsp;|&nbsp; &lt; 40 → 매도</p>
-  <p style="margin-top:4px;">US: 매 거래일 06:30 KST &nbsp;|&nbsp; KR: 매 거래일 16:30 KST</p>
+  <p>US: 매 거래일 06:30 KST &nbsp;|&nbsp; KR: 매 거래일 16:30 KST</p>
 </div>
+
 <script>
-function switchTab(name,btn){{
-  document.querySelectorAll('.tab-content').forEach(el=>el.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(el=>el.classList.remove('active'));
-  document.getElementById('tab-'+name).classList.add('active');
-  btn.classList.add('active');
-  try{{localStorage.setItem('activeTab',name);}}catch(e){{}}
-}}
-try{{
-  var saved=localStorage.getItem('activeTab');
-  if(saved){{var btn=document.querySelector('.tab-btn[onclick*="\''+saved+'\'"]');if(btn)switchTab(saved,btn);}}
-}}catch(e){{}}
+(function(){{
+  var btns = document.querySelectorAll('.tab-btn');
+  btns.forEach(function(btn){{
+    btn.addEventListener('click', function(){{
+      var name = this.getAttribute('data-tab');
+      document.querySelectorAll('.tab-content').forEach(function(el){{el.classList.remove('active');}});
+      document.querySelectorAll('.tab-btn').forEach(function(el){{el.classList.remove('active');}});
+      document.getElementById('tab-' + name).classList.add('active');
+      this.classList.add('active');
+      try{{localStorage.setItem('lastTab', name);}}catch(e){{}}
+    }});
+  }});
+  try{{
+    var last = localStorage.getItem('lastTab');
+    if(last){{
+      var t = document.querySelector('[data-tab="' + last + '"]');
+      if(t) t.click();
+    }}
+  }}catch(e){{}}
+}})();
 </script>
 </body></html>'''
 
