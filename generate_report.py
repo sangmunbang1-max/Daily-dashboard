@@ -509,34 +509,38 @@ def score_turnover(turnover_series, asset):
         if roc5>0.15: score+=4
         elif roc5>0: score+=2
     if asset=="KOSDAQ" and score>0: score=min(score+1,12)
-    return score, {"turnover":curr,"turnover_ma20":ma20,"turnover_ratio20":ratio20,"turnover_roc5":roc5}
+    # 표시용: 원 → 억원
+    curr_eok  = curr  / 1e8 if pd.notna(curr)  else np.nan
+    ma20_eok  = ma20  / 1e8 if pd.notna(ma20)  else np.nan
+    return score, {"turnover":curr_eok,"turnover_ma20":ma20_eok,"turnover_ratio20":ratio20,"turnover_roc5":roc5}
 
 def score_flow_by_market(flow_1d, flow_5d, flow_20d, turnover_series, asset):
-    tc=float(turnover_series.dropna().iloc[-1]) if len(turnover_series.dropna()) else np.nan
-    f1,i1,c1=flow_1d["foreign_net_buy"],flow_1d["institution_net_buy"],flow_1d["combined_net_buy"]
-    f5,i5,c5=flow_5d["foreign_net_buy"],flow_5d["institution_net_buy"],flow_5d["combined_net_buy"]
-    f20,i20,c20=flow_20d["foreign_net_buy"],flow_20d["institution_net_buy"],flow_20d["combined_net_buy"]
-    c5r=c5/(tc*5) if pd.notna(tc) and tc!=0 else np.nan
-    c20r=c20/(tc*20) if pd.notna(tc) and tc!=0 else np.nan
+    # 거래대금: 원단위 → 억원 변환 후 비율 계산
+    tc_raw=float(turnover_series.dropna().iloc[-1]) if len(turnover_series.dropna()) else np.nan
+    tc = tc_raw / 1e8 if pd.notna(tc_raw) else np.nan  # 억원
+    f1=flow_1d["foreign_net_buy"]
+    f5=flow_5d["foreign_net_buy"]
+    f20=flow_20d["foreign_net_buy"]
+    # 비율 계산도 외국인 기준
+    f5r = f5/(tc*5)  if pd.notna(tc) and tc!=0 else np.nan
+    f20r= f20/(tc*20) if pd.notna(tc) and tc!=0 else np.nan
     score=0
-    if pd.notna(f1) and f1>0: score+=2
-    if pd.notna(i1) and i1>0: score+=1
-    if pd.notna(f1) and pd.notna(i1) and f1>0 and i1>0: score+=2
-    if pd.notna(c5r):
-        if c5r>0.020: score+=6
-        elif c5r>0.005: score+=4
-        elif c5r>0: score+=2
-        elif c5r>-0.010: score+=1
-    if pd.notna(c20r):
-        if c20r>0.015: score+=6
-        elif c20r>0.003: score+=4
-        elif c20r>0: score+=2
-        elif c20r>-0.010: score+=1
-    if pd.notna(f5) and f5>0: score+=1
-    if pd.notna(f20) and f20>0: score+=2
+    if pd.notna(f1) and f1>0: score+=3        # 1일 외국인 순매수
+    if pd.notna(f5r):
+        if f5r>0.020: score+=6
+        elif f5r>0.005: score+=4
+        elif f5r>0: score+=2
+        elif f5r>-0.010: score+=1
+    if pd.notna(f20r):
+        if f20r>0.015: score+=6
+        elif f20r>0.003: score+=4
+        elif f20r>0: score+=2
+        elif f20r>-0.010: score+=1
+    if pd.notna(f5) and f5>0: score+=2        # 5일 외국인 순매수
+    if pd.notna(f20) and f20>0: score+=3      # 20일 외국인 순매수
     if asset=="KOSDAQ" and score>0: score=min(score+1,18)
     return score, {"flow_1d":flow_1d,"flow_5d":flow_5d,"flow_20d":flow_20d,
-                   "turnover_curr":tc,"combined_5d_ratio":c5r,"combined_20d_ratio":c20r}
+                   "turnover_curr":tc,"combined_5d_ratio":f5r,"combined_20d_ratio":f20r}
 
 def score_fx_usdkrw(usdkrw, asset):
     s=usdkrw.dropna(); curr=s.iloc[-1]; ma50=s.rolling(50).mean().iloc[-1]
@@ -774,9 +778,9 @@ def make_card(r, ms):
             <div class="detail-row"><span>리더십 버킷</span><span>{lm["bucket"]}</span></div>
             <div class="detail-row"><span>추정 리더십</span><span>{fmt(lm["approx_leadership"],"pct")}</span></div></div>
           <div class="detail-group"><div class="section-label">수급</div>
-            <div class="detail-row"><span>1일 합산</span><span>{fmt(f1["combined_net_buy"],"억")}</span></div>
-            <div class="detail-row"><span>5일 합산</span><span>{fmt(f5["combined_net_buy"],"억")}</span></div>
-            <div class="detail-row"><span>20일 합산</span><span>{fmt(f20["combined_net_buy"],"억")}</span></div>
+            <div class="detail-row"><span>1일 외국인</span><span>{fmt(f1["foreign_net_buy"],"억")}</span></div>
+            <div class="detail-row"><span>5일 외국인</span><span>{fmt(f5["foreign_net_buy"],"억")}</span></div>
+            <div class="detail-row"><span>20일 외국인</span><span>{fmt(f20["foreign_net_buy"],"억")}</span></div>
             <div class="detail-row"><span>5일비율</span><span>{fmt(fm["combined_5d_ratio"],"pct")}</span></div></div>
           <div class="detail-group"><div class="section-label">거래대금</div>
             <div class="detail-row"><span>현재</span><span>{fmt(mm["turnover"],"억")}</span></div>
