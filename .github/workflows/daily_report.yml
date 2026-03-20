@@ -2,8 +2,16 @@ name: Daily Market Report
 
 on:
   schedule:
+    # US: 06:30 KST = 21:30 UTC (전날)
     - cron: '30 21 * * 1-5'
+    # KR: 16:30 KST = 07:30 UTC
+    - cron: '30 7 * * 1-5'
   workflow_dispatch:
+    inputs:
+      run_mode:
+        description: 'US, KR, or ALL'
+        required: false
+        default: 'ALL'
 
 permissions:
   contents: write
@@ -21,15 +29,33 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install yfinance pandas numpy requests pandas-datareader
+        run: pip install yfinance pandas numpy requests openpyxl
+
+      - name: Determine RUN_MODE
+        id: mode
+        run: |
+          # 수동 실행이면 입력값 사용
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "RUN_MODE=${{ github.event.inputs.run_mode }}" >> $GITHUB_ENV
+          # 21:30 UTC → US 업데이트
+          elif [ "$(date -u +%H:%M)" \< "10:00" ]; then
+            echo "RUN_MODE=US" >> $GITHUB_ENV
+          # 07:30 UTC → KR 업데이트
+          else
+            echo "RUN_MODE=KR" >> $GITHUB_ENV
+          fi
 
       - name: Run report generator
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          KRX_JSESSIONID: ${{ secrets.KRX_JSESSIONID }}
+          RUN_MODE: ${{ env.RUN_MODE }}
         run: python generate_report.py
 
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html
-          git diff --staged --quiet || git commit -m "chore: daily report $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git add docs/
+          git diff --staged --quiet || git commit -m "chore: ${{ env.RUN_MODE }} report $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
