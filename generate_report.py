@@ -2,16 +2,14 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-import json
 import os
 from dataclasses import dataclass
 from datetime import datetime, timezone, timedelta
-from typing import Dict, Tuple, List
+from typing import Dict, List
 
 import numpy as np
 import pandas as pd
 import yfinance as yf
-from pandas_datareader.data import DataReader
 
 USE_AUTO_ADJUST = True
 YF_PERIOD = "2y"
@@ -43,9 +41,14 @@ def safe_download_one_of(candidates, period="2y", auto_adjust=True):
     raise RuntimeError(f"All failed: {candidates}")
 
 def load_fred_10y():
-    s = DataReader("DGS10", "fred")["DGS10"]
-    s.index = pd.to_datetime(s.index)
-    return pd.to_numeric(s, errors="coerce").dropna().sort_index()
+    df = yf.download("^TNX", period="2y", interval="1d", auto_adjust=True, progress=False)
+    if isinstance(df.columns, pd.MultiIndex):
+        s = df["Close"]["^TNX"]
+    else:
+        s = df["Close"]
+    s = pd.to_numeric(s, errors="coerce").dropna().sort_index()
+    s = s / 10.0
+    return s
 
 def rolling_slope(series, lookback=10):
     s = series.dropna()
@@ -307,7 +310,10 @@ def generate_html(results):
         if r.guardrail_reasons:
             items = "".join(f"<li>{g}</li>" for g in r.guardrail_reasons)
             guardrail_html = f'<div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f0b429;font-size:12px;">{items}</ul></div>'
-        max_scores = {"SPY": {"trend":35,"vix":25,"tactical":15,"breadth_proxy":15,"rates":10}, "QQQ": {"trend":30,"vix":25,"tactical":15,"breadth_proxy":10,"rates":20}}
+        max_scores = {
+            "SPY": {"trend":35,"vix":25,"tactical":15,"breadth_proxy":15,"rates":10},
+            "QQQ": {"trend":30,"vix":25,"tactical":15,"breadth_proxy":10,"rates":20}
+        }
         ms = max_scores.get(asset, {k:25 for k in sc})
         module_rows = ""
         for mod, label in [("trend","추세"),("vix","VIX"),("tactical","전술"),("breadth_proxy","Breadth"),("rates","금리")]:
