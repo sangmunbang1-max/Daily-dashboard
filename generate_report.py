@@ -242,13 +242,29 @@ class KRXDataProvider:
             df = pykrx_stock.get_market_trading_value_by_investor(start_date, asof_date, mkt)
             if df is None or df.empty:
                 raise RuntimeError("pykrx 빈 데이터")
-            # 컬럼: 매도, 매수, 순매수 / 인덱스: 투자자구분
-            net_col = "순매수" if "순매수" in df.columns else df.columns[-1]
-            # 외국인
-            foreign_idx = [i for i in df.index if "외국인" in str(i)]
-            inst_idx = [i for i in df.index if "기관합계" in str(i) or (i == "기관" and "기관합계" not in df.index)]
-            foreign_net = float(df.loc[foreign_idx[0], net_col]) if foreign_idx else np.nan
-            inst_net    = float(df.loc[inst_idx[0],    net_col]) if inst_idx    else np.nan
+
+            print(f"  [FLOW DEBUG] {market} {window}D columns={list(df.columns)}, index={list(df.index)[:5]}")
+
+            # 순매수 컬럼 찾기 — pykrx 버전마다 컬럼명 다름
+            net_col = None
+            for cand in ["순매수", "순매수거래대금", "순매수 거래대금", "net"]:
+                if cand in df.columns:
+                    net_col = cand
+                    break
+            # 못 찾으면 마지막 숫자 컬럼 사용
+            if net_col is None:
+                num_cols = [c for c in df.columns if pd.api.types.is_numeric_dtype(df[c])]
+                net_col = num_cols[-1] if num_cols else df.columns[-1]
+
+            # 외국인 / 기관 행 찾기
+            idx_list = [str(i) for i in df.index]
+            foreign_idx = next((i for i in df.index if "외국인" in str(i)), None)
+            inst_idx    = next((i for i in df.index if "기관합계" in str(i)), None)
+            if inst_idx is None:
+                inst_idx = next((i for i in df.index if str(i) == "기관"), None)
+
+            foreign_net = float(df.loc[foreign_idx, net_col]) if foreign_idx is not None else np.nan
+            inst_net    = float(df.loc[inst_idx,    net_col]) if inst_idx    is not None else np.nan
             combined_net = np.nansum([v for v in [foreign_net, inst_net] if pd.notna(v)])
             print(f"  [FLOW] {market} {window}D: 외국인={foreign_net:.0f}, 기관={inst_net:.0f}")
         except Exception as e:
