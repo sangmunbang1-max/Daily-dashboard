@@ -1,0 +1,187 @@
+{
+  "us_updated": "—",
+  "kr_updated": "2026-03-21 02:11 KST",
+  "us_results": null,
+  "kr_results": {
+    "KOSPI": {
+      "asset": "KOSPI",
+      "total_score": 102,
+      "raw_signal": "매수",
+      "final_signal": "매수",
+      "module_scores": {
+        "trend": 40,
+        "vkospi": 19,
+        "tactical": 12,
+        "leadership": 6,
+        "turnover": 2,
+        "flow": 18,
+        "fx": 2,
+        "oil": 3
+      },
+      "module_meta": {
+        "trend": {
+          "close": 5781.2001953125,
+          "ma50": 5302.971611328125,
+          "ma200": 3941.4080102539065,
+          "ret20": 0.01830995557928583,
+          "slope50": 288.9238085937495
+        },
+        "vkospi": {
+          "vkospi": 55.47,
+          "vkospi_5d_chg": -0.15118592195868397,
+          "vkospi_ratio20": 0.953354874192218,
+          "vkospi_dd_from_10d_high": -0.22765246449456966
+        },
+        "tactical": {
+          "dist20": 0.010360012763585225,
+          "ret10": 0.035153920145929884,
+          "cond_cross_5dma": false,
+          "cond_2_of_3_up": true,
+          "cond_rebound_3pct": true
+        },
+        "leadership": {
+          "ratio": 0.2009133017868904,
+          "ma50": 0.2045153380322854,
+          "roc20": -0.017295378728086397,
+          "bucket": "kosdaq_weak",
+          "approx_leadership": 0.28
+        },
+        "turnover": {
+          "turnover": 229946.78385098,
+          "turnover_ma20": 338427.9798681715,
+          "turnover_ratio20": 0.6794555933009783,
+          "turnover_roc5": -0.029686062525294155
+        },
+        "flow": {
+          "flow_1d": {
+            "window": 1,
+            "foreign_net_buy": 3336.58,
+            "institution_net_buy": -3132.75,
+            "combined_net_buy": 203.82999999999993
+          },
+          "flow_5d": {
+            "window": 5,
+            "foreign_net_buy": 46920.16,
+            "institution_net_buy": 22923.3,
+            "combined_net_buy": 69843.46
+          },
+          "flow_20d": {
+            "window": 20,
+            "foreign_net_buy": 45995.98,
+            "institution_net_buy": 52120.68,
+            "combined_net_buy": 98116.66
+          },
+          "turnover_curr": 229946.78385098,
+          "combined_5d_ratio": 0.04080958142942084,
+          "combined_20d_ratio": 0.010001440165783814
+        },
+        "fx": {
+          "usdkrw": 1502.56005859375,
+          "usdkrw_ma50": 1458.9480029296874,
+          "usdkrw_ret20": 0.03785878680279753,
+          "usdkrw_ret5": 0.021746592157327882
+        },
+        "oil": {
+          "wti": 97.52999877929688,
+          "wti_ret20": 0.46904653827280796,
+          "wti_ret5": -0.011954212502483963,
+          "wti_ma50": 70.68679962158203
+        }
+      },
+      "guardrail_reasons": [
+        "상승추세 + 변동성 진정 → 최소 보유"
+      ]
+    },
+    "KOSDAQ": {
+      "asset": "KOSDAQ",
+      "total_score": 80,
+      "raw_signal": "매수",
+      "final_signal": "보유",
+      "module_scores": {
+        "trend": 36,
+        "vkospi": 19,
+        "tactical": 12,
+        "leadership": 1,
+        "turnover": 3,
+        "flow": 6,
+        "fx": 1,
+        "oil": 2
+      },
+      "module_meta": {
+        "trend": {
+          "close": 1161.52001953125,
+          "ma50": 1083.1115979003907,
+          "ma200": 901.1483493041992,
+          "ret20": 0.000697899234961108,
+          "slope50": 43.22919921875018
+        },
+        "vkospi": {
+          "vkospi": 55.47,
+          "vkospi_5d_chg": -0.15118592195868397,
+          "vkospi_ratio20": 0.953354874192218,
+          "vkospi_dd_from_10d_high": -0.22765246449456966
+        },
+        "tactical": {
+          "dist20": 0.017665381077632825,
+          "ret10": 0.005932409541458572,
+          "cond_cross_5dma": true,
+          "cond_2_of_3_up": true,
+          "cond_rebound_3pct": false
+        },
+        "leadership": {
+          "ratio": 0.2009133017868904,
+          "ma50": 0.2045153380322854,
+          "roc20": -0.017295378728086397,
+          "bucket": "weak",
+          "approx_leadership": 0.28
+        },
+        "turnover": {
+          "turnover": 118028.80972337,
+          "turnover_ma20": 144951.02774987151,
+          "turnover_ratio20": 0.8142668013850949,
+          "turnover_roc5": -0.15810096002413987
+        },
+        "flow": {
+          "flow_1d": {
+            "window": 1,
+            "foreign_net_buy": 854.33,
+            "institution_net_buy": -1783.98,
+            "combined_net_buy": -929.65
+          },
+          "flow_5d": {
+            "window": 5,
+            "foreign_net_buy": -360.87,
+            "institution_net_buy": 3640.2,
+            "combined_net_buy": 3279.33
+          },
+          "flow_20d": {
+            "window": 20,
+            "foreign_net_buy": -2871.33,
+            "institution_net_buy": 5062.49,
+            "combined_net_buy": 2191.16
+          },
+          "turnover_curr": 118028.80972337,
+          "combined_5d_ratio": -0.0006114947712271081,
+          "combined_20d_ratio": -0.0012163682776813896
+        },
+        "fx": {
+          "usdkrw": 1502.56005859375,
+          "usdkrw_ma50": 1458.9480029296874,
+          "usdkrw_ret20": 0.03785878680279753,
+          "usdkrw_ret5": 0.021746592157327882
+        },
+        "oil": {
+          "wti": 97.52999877929688,
+          "wti_ret20": 0.46904653827280796,
+          "wti_ret5": -0.011954212502483963,
+          "wti_ma50": 70.68679962158203
+        }
+      },
+      "guardrail_reasons": [
+        "코스닥 리더십 약세 → 매수 제한",
+        "원/달러 급등 + 단기 수급 약세 → 매수 제한",
+        "상승추세 + 변동성 진정 → 최소 보유"
+      ]
+    }
+  }
+}
