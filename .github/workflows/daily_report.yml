@@ -2,9 +2,9 @@ name: Daily Market Report
 
 on:
   schedule:
-    # US: 07:00 KST = 22:00 UTC (전날)
-    - cron: '0 22 * * 0-4'
-    # KR: 16:30 KST = 07:30 UTC
+    # US: KST 월~토 07:00 = UTC 일~금 22:00
+    - cron: '0 22 * * 0-5'
+    # KR: KST 월~금 16:30 = UTC 월~금 07:30
     - cron: '30 7 * * 1-5'
   workflow_dispatch:
     inputs:
@@ -35,7 +35,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "RUN_MODE=${{ github.event.inputs.run_mode }}" >> $GITHUB_ENV
-          elif [ "${{ github.event.schedule }}" = "0 22 * * 0-4" ]; then
+          elif [ "${{ github.event.schedule }}" = "0 22 * * 0-5" ]; then
             echo "RUN_MODE=US" >> $GITHUB_ENV
           elif [ "${{ github.event.schedule }}" = "30 7 * * 1-5" ]; then
             echo "RUN_MODE=KR" >> $GITHUB_ENV
