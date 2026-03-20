@@ -18,8 +18,10 @@ USE_AUTO_ADJUST = True
 YF_PERIOD = "2y"
 REQUEST_TIMEOUT = 15
 
-KRX_API_KEY = os.environ.get("KRX_API_KEY", "")
+KRX_API_KEY    = os.environ.get("KRX_API_KEY", "")
 KRX_JSESSIONID = os.environ.get("KRX_JSESSIONID", None)
+KIS_APP_KEY    = os.environ.get("KIS_APP_KEY", "")
+KIS_APP_SECRET = os.environ.get("KIS_APP_SECRET", "")
 RUN_MODE = os.environ.get("RUN_MODE", "ALL")  # "US", "KR", "ALL"
 
 
@@ -234,55 +236,62 @@ class KRXDataProvider:
         return s
 
     def load_flow_snapshot(self, asof_date, market, window):
-        """pykrx로 투자자별 순매수 거래대금 조회"""
-        start_date = calc_window_start(asof_date, window)
+        """KIS OpenAPI로 투자자별 순매수 거래대금 조회"""
+        # window일치 확보를 위해 충분히 넉넉하게 시작일 설정 (영업일 기준 여유있게 2배)
+        start_dt = (pd.Timestamp(asof_date) - pd.tseries.offsets.BDay(window * 2)).strftime("%Y%m%d")
         try:
-            from pykrx import stock as pykrx_stock
-            mkt = "KOSPI" if normalize_mkt_id(market) == "STK" else "KOSDAQ"
-            df = pykrx_stock.get_market_trading_value_by_investor(start_date, asof_date, mkt)
-            if df is None or df.empty:
-                raise RuntimeError("pykrx 빈 데이터")
+            token_r = requests.post(
+                "https://openapi.koreainvestment.com:9443/oauth2/tokenP",
+                json={"grant_type":"client_credentials","appkey":KIS_APP_KEY,"appsecret":KIS_APP_SECRET},
+                timeout=20
+            )
+            token_r.raise_for_status()
+            token = token_r.json()["access_token"]
 
-            # MultiIndex 컬럼 처리 (매도/매수/순매수 × 거래대금/거래량)
-            if isinstance(df.columns, pd.MultiIndex):
-                # ('순매수', '거래대금') 또는 ('거래대금', '순매수') 형태
-                # 순매수 컬럼만 추출
-                for lvl in range(df.columns.nlevels):
-                    net_cols = [c for c in df.columns if "순매수" in str(c[lvl])]
-                    if net_cols:
-                        df = df[net_cols[0]] if not isinstance(df[net_cols[0]], pd.DataFrame) else df[net_cols[0]].iloc[:, 0]
-                        break
-                else:
-                    # 못 찾으면 마지막 레벨 기준으로 거래대금 컬럼
-                    val_cols = [c for c in df.columns if "거래대금" in str(c[-1])]
-                    if val_cols:
-                        sub = df[val_cols]
-                        # 순매수 = 마지막 컬럼
-                        df = sub.iloc[:, -1]
-                    else:
-                        df = df.iloc[:, -1]
-            else:
-                # 단일 인덱스 — 순매수 컬럼 찾기
-                net_col = next((c for c in df.columns if "순매수" in str(c)), None)
-                if net_col is None:
-                    net_col = df.columns[-1]
-                df = df[net_col]
+            market_info = {"KOSPI":{"iscd":"0001","mkt":"KSP"},"KOSDAQ":{"iscd":"1001","mkt":"KSQ"}}
+            info = market_info.get(market, market_info["KOSPI"])
 
-            print(f"  [FLOW DEBUG] {market} {window}D type={type(df)}, index={list(df.index)[:5]}")
+            headers = {
+                "content-type": "application/json; charset=utf-8",
+                "authorization": f"Bearer {token}",
+                "appkey": KIS_APP_KEY,
+                "appsecret": KIS_APP_SECRET,
+                "tr_id": "FHPTJ04040000",
+                "custtype": "P",
+            }
+            params = {
+                "FID_COND_MRKT_DIV_CODE": "U",
+                "FID_INPUT_ISCD": info["iscd"],
+                "FID_INPUT_DATE_1": start_dt,
+                "FID_INPUT_ISCD_1": info["mkt"],
+                "FID_INPUT_DATE_2": asof_date,
+                "FID_INPUT_ISCD_2": info["iscd"],
+            }
+            r = requests.get(
+                "https://openapi.koreainvestment.com:9443/uapi/domestic-stock/v1/quotations/inquire-investor-daily-by-market",
+                headers=headers, params=params, timeout=20
+            )
+            r.raise_for_status()
+            data = r.json()
+            if data.get("rt_cd") != "0":
+                raise RuntimeError(f"KIS API 오류: {data}")
 
-            # Series로 변환 후 외국인/기관 추출
-            if isinstance(df, pd.DataFrame):
-                df = df.iloc[:, -1]
+            output = data.get("output", [])
+            if not output:
+                raise RuntimeError("KIS 빈 데이터")
 
-            foreign_idx = next((i for i in df.index if "외국인" in str(i)), None)
-            inst_idx    = next((i for i in df.index if "기관합계" in str(i)), None)
-            if inst_idx is None:
-                inst_idx = next((i for i in df.index if str(i).strip() == "기관"), None)
+            df = pd.DataFrame(output)
+            for c in df.columns:
+                if c != "stck_bsop_date":
+                    df[c] = pd.to_numeric(df[c], errors="coerce")
+            df = df.sort_values("stck_bsop_date", ascending=False).reset_index(drop=True)
 
-            foreign_net = float(df.loc[foreign_idx]) if foreign_idx is not None else np.nan
-            inst_net    = float(df.loc[inst_idx])    if inst_idx    is not None else np.nan
-            combined_net = np.nansum([v for v in [foreign_net, inst_net] if pd.notna(v)])
-            print(f"  [FLOW] {market} {window}D: 외국인={foreign_net:.0f}, 기관={inst_net:.0f}")
+            # 최근 window 영업일치 슬라이스 (단위: 백만원 → /100 = 억원)
+            n = min(window, len(df))
+            foreign_net  = float(df["frgn_ntby_tr_pbmn"].iloc[:n].sum()) / 100
+            inst_net     = float(df["orgn_ntby_tr_pbmn"].iloc[:n].sum()) / 100
+            combined_net = foreign_net + inst_net
+            print(f"  [FLOW] {market} {window}D ({n}행): 외국인={foreign_net:.0f}억, 기관={inst_net:.0f}억")
         except Exception as e:
             print(f"[FLOW WARN] {market} {window}D: {e}")
             foreign_net = inst_net = combined_net = np.nan
@@ -638,8 +647,46 @@ def build_kr_results():
     # 캐시 저장 (VKOSPI + 거래대금 저장)
     save_krx_cache(cache)
 
-    kf1=krx.load_flow_snapshot(ac,"KOSPI",1); kf5=krx.load_flow_snapshot(ac,"KOSPI",5); kf20=krx.load_flow_snapshot(ac,"KOSPI",20)
-    qf1=krx.load_flow_snapshot(ac,"KOSDAQ",1); qf5=krx.load_flow_snapshot(ac,"KOSDAQ",5); qf20=krx.load_flow_snapshot(ac,"KOSDAQ",20)
+    # KIS 수급: 토큰 1회 발급 후 KOSPI/KOSDAQ 각 1번씩만 호출 → 1D/5D/20D 모두 계산
+    def _fetch_kis_flow_all_windows(market, asof):
+        """KIS API 1회 호출로 1D/5D/20D 수급 스냅샷 모두 반환"""
+        start_dt = (pd.Timestamp(asof) - pd.tseries.offsets.BDay(60)).strftime("%Y%m%d")
+        empty = lambda w: {"window":w,"foreign_net_buy":np.nan,"institution_net_buy":np.nan,"combined_net_buy":np.nan}
+        try:
+            token = requests.post(
+                "https://openapi.koreainvestment.com:9443/oauth2/tokenP",
+                json={"grant_type":"client_credentials","appkey":KIS_APP_KEY,"appsecret":KIS_APP_SECRET},
+                timeout=20
+            ).json()["access_token"]
+            info = {"KOSPI":{"iscd":"0001","mkt":"KSP"},"KOSDAQ":{"iscd":"1001","mkt":"KSQ"}}[market]
+            hdrs = {"content-type":"application/json; charset=utf-8",
+                    "authorization":f"Bearer {token}","appkey":KIS_APP_KEY,
+                    "appsecret":KIS_APP_SECRET,"tr_id":"FHPTJ04040000","custtype":"P"}
+            params = {"FID_COND_MRKT_DIV_CODE":"U","FID_INPUT_ISCD":info["iscd"],
+                      "FID_INPUT_DATE_1":start_dt,"FID_INPUT_ISCD_1":info["mkt"],
+                      "FID_INPUT_DATE_2":asof,"FID_INPUT_ISCD_2":info["iscd"]}
+            r = requests.get(
+                "https://openapi.koreainvestment.com:9443/uapi/domestic-stock/v1/quotations/inquire-investor-daily-by-market",
+                headers=hdrs, params=params, timeout=20)
+            data = r.json()
+            if data.get("rt_cd") != "0": raise RuntimeError(f"KIS 오류: {data}")
+            df = pd.DataFrame(data["output"])
+            for c in df.columns:
+                if c != "stck_bsop_date": df[c] = pd.to_numeric(df[c], errors="coerce")
+            df = df.sort_values("stck_bsop_date", ascending=False).reset_index(drop=True)
+            def snap(w):
+                n = min(w, len(df))
+                fg = float(df["frgn_ntby_tr_pbmn"].iloc[:n].sum()) / 100
+                ins = float(df["orgn_ntby_tr_pbmn"].iloc[:n].sum()) / 100
+                print(f"  [FLOW] {market} {w}D({n}행): 외국인={fg:.0f}억, 기관={ins:.0f}억")
+                return {"window":w,"foreign_net_buy":fg,"institution_net_buy":ins,"combined_net_buy":fg+ins}
+            return snap(1), snap(5), snap(20)
+        except Exception as e:
+            print(f"[FLOW WARN] {market}: {e}")
+            return empty(1), empty(5), empty(20)
+
+    kf1,kf5,kf20 = _fetch_kis_flow_all_windows("KOSPI",  ac)
+    qf1,qf5,qf20 = _fetch_kis_flow_all_windows("KOSDAQ", ac)
     results={}
     for asset,price,turnover,flow_1d,flow_5d,flow_20d,trend_fn in [
         ("KOSPI",kospi,kt,kf1,kf5,kf20,score_trend_kospi),
