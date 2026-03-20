@@ -120,6 +120,34 @@ def first_matching_value(df, row_mask, col_candidates):
 
 
 # =========================================================
+# KRX Cache
+# =========================================================
+CACHE_FILE = "docs/krx_cache.json"
+
+def load_krx_cache():
+    try:
+        if os.path.exists(CACHE_FILE):
+            with open(CACHE_FILE,"r",encoding="utf-8") as f:
+                return json.load(f)
+    except: pass
+    return {}
+
+def save_krx_cache(cache):
+    os.makedirs("docs",exist_ok=True)
+    with open(CACHE_FILE,"w",encoding="utf-8") as f:
+        json.dump(cache,f,ensure_ascii=False)
+
+def series_to_cache(s: pd.Series) -> dict:
+    return {str(k.date()): v for k,v in s.items()}
+
+def cache_to_series(d: dict, name: str) -> pd.Series:
+    return pd.Series(
+        {pd.Timestamp(k): float(v) for k,v in d.items()},
+        name=name
+    ).sort_index()
+
+
+# =========================================================
 # KRX Data Provider
 # =========================================================
 class KRXDataProvider:
@@ -135,47 +163,73 @@ class KRXDataProvider:
             params=params, timeout=self.timeout)
         r.raise_for_status(); return r.json()
 
-    def load_vkospi_series(self, asof_date):
-        out = {}
-        for bas_dd in get_business_dates(asof_date, 260):
+    def _fetch_vkospi_one_day(self, bas_dd):
+        js = self._openapi_get("/idx/drvprod_dd_trd", {"basDd": bas_dd})
+        df = extract_first_list_from_json(js)
+        if df.empty: return None
+        name_col = next((c for c in ["IDX_NM","IDX_NM_KOR","ITEM_NM","지수명"] if c in df.columns), None)
+        value_col = next((c for c in ["CLSPRC_IDX","CLSPRC","TDD_CLSPRC","CLOSE","종가"] if c in df.columns), None)
+        if not name_col or not value_col: return None
+        nm = df[name_col].astype(str)
+        sub = df[nm.str.contains("변동성",na=False) & nm.str.contains("코스피",na=False)]
+        if sub.empty: sub = df[nm.str.contains("KOSPI",case=False,na=False) & nm.str.contains("VOL",case=False,na=False)]
+        if sub.empty: return None
+        val = pd.to_numeric(sub.iloc[0][value_col], errors="coerce")
+        return float(val) if pd.notna(val) else None
+
+    def _fetch_turnover_one_day(self, bas_dd, market):
+        mkt = normalize_mkt_id(market)
+        path = "/sto/stk_bydd_trd" if mkt=="STK" else "/sto/ksq_bydd_trd"
+        js = self._openapi_get(path, {"basDd": bas_dd})
+        df = extract_first_list_from_json(js)
+        if df.empty: return None
+        val_col = next((c for c in ["ACC_TRDVAL","TDD_TRDVAL","TRDVAL","TOT_TRDVAL"] if c in df.columns), None)
+        if not val_col:
+            vc = [c for c in df.columns if "VAL" in c.upper()]
+            val_col = vc[0] if len(vc)==1 else None
+        if not val_col: return None
+        return float(clean_num_series(df[val_col]).sum())
+
+    def load_vkospi_series(self, asof_date, cache):
+        cache_key = "vkospi"
+        cached = cache.get(cache_key, {})
+        biz_dates = get_business_dates(asof_date, 260)
+        missing = [d for d in biz_dates if d not in cached]
+        new_count = 0
+        for bas_dd in missing:
             try:
-                js = self._openapi_get("/idx/drvprod_dd_trd", {"basDd": bas_dd})
-                df = extract_first_list_from_json(js)
-                if df.empty: continue
-                name_col = next((c for c in ["IDX_NM","IDX_NM_KOR","ITEM_NM","지수명"] if c in df.columns), None)
-                value_col = next((c for c in ["CLSPRC_IDX","CLSPRC","TDD_CLSPRC","CLOSE","종가"] if c in df.columns), None)
-                if not name_col or not value_col: continue
-                nm = df[name_col].astype(str)
-                sub = df[nm.str.contains("변동성",na=False) & nm.str.contains("코스피",na=False)]
-                if sub.empty: sub = df[nm.str.contains("KOSPI",case=False,na=False) & nm.str.contains("VOL",case=False,na=False)]
-                if sub.empty: continue
-                val = pd.to_numeric(sub.iloc[0][value_col], errors="coerce")
-                if pd.notna(val): out[pd.Timestamp(bas_dd)] = float(val)
+                val = self._fetch_vkospi_one_day(bas_dd)
+                if val is not None:
+                    cached[bas_dd] = val
+                    new_count += 1
                 time.sleep(0.05)
             except: continue
-        s = pd.Series(out, name="VKOSPI").sort_index()
+        cache[cache_key] = cached
+        if new_count > 0: print(f"  VKOSPI: {new_count}일 신규 수집 (캐시: {len(cached)}일)")
+        else: print(f"  VKOSPI: 캐시 사용 ({len(cached)}일)")
+        s = cache_to_series({d: cached[d] for d in biz_dates if d in cached}, "VKOSPI")
         if s.empty: raise RuntimeError("VKOSPI empty.")
         return s
 
-    def load_turnover_series(self, asof_date, market):
-        mkt = normalize_mkt_id(market)
-        out = {}
-        path = "/sto/stk_bydd_trd" if mkt=="STK" else "/sto/ksq_bydd_trd"
-        for bas_dd in get_business_dates(asof_date, 260):
+    def load_turnover_series(self, asof_date, market, cache):
+        cache_key = f"turnover_{market}"
+        cached = cache.get(cache_key, {})
+        biz_dates = get_business_dates(asof_date, 260)
+        missing = [d for d in biz_dates if d not in cached]
+        new_count = 0
+        for bas_dd in missing:
             try:
-                js = self._openapi_get(path, {"basDd": bas_dd})
-                df = extract_first_list_from_json(js)
-                if df.empty: continue
-                val_col = next((c for c in ["ACC_TRDVAL","TDD_TRDVAL","TRDVAL","TOT_TRDVAL"] if c in df.columns), None)
-                if not val_col:
-                    vc = [c for c in df.columns if "VAL" in c.upper()]
-                    val_col = vc[0] if len(vc)==1 else None
-                if not val_col: continue
-                out[pd.Timestamp(bas_dd)] = float(clean_num_series(df[val_col]).sum())
+                val = self._fetch_turnover_one_day(bas_dd, market)
+                if val is not None:
+                    cached[bas_dd] = val
+                    new_count += 1
                 time.sleep(0.03)
             except: continue
-        name = "KOSPI_turnover" if mkt=="STK" else "KOSDAQ_turnover"
-        s = pd.Series(out, name=name).sort_index()
+        cache[cache_key] = cached
+        name = f"{market}_turnover"
+        if new_count > 0: print(f"  {name}: {new_count}일 신규 수집")
+        else: print(f"  {name}: 캐시 사용")
+        s = cache_to_series({d: cached[d] for d in biz_dates if d in cached}, name)
         if s.empty: raise RuntimeError(f"{name} empty.")
         return s
 
@@ -566,8 +620,17 @@ def build_kr_results():
     usdkrw,wti=prices["KRW=X"].dropna(),prices["CL=F"].dropna()
     lr=(kosdaq/kospi).dropna(); ac=get_asof_compact()
     krx=KRXDataProvider(api_key=KRX_API_KEY,jsessionid=KRX_JSESSIONID)
-    vkospi=krx.load_vkospi_series(ac)
-    kt=krx.load_turnover_series(ac,"KOSPI"); kqt=krx.load_turnover_series(ac,"KOSDAQ")
+
+    # 캐시 로드
+    cache = load_krx_cache()
+
+    vkospi=krx.load_vkospi_series(ac, cache)
+    kt=krx.load_turnover_series(ac,"KOSPI", cache)
+    kqt=krx.load_turnover_series(ac,"KOSDAQ", cache)
+
+    # 캐시 저장 (VKOSPI + 거래대금 저장)
+    save_krx_cache(cache)
+
     kf1=krx.load_flow_snapshot(ac,"KOSPI",1); kf5=krx.load_flow_snapshot(ac,"KOSPI",5); kf20=krx.load_flow_snapshot(ac,"KOSPI",20)
     qf1=krx.load_flow_snapshot(ac,"KOSDAQ",1); qf5=krx.load_flow_snapshot(ac,"KOSDAQ",5); qf20=krx.load_flow_snapshot(ac,"KOSDAQ",20)
     results={}
@@ -719,11 +782,12 @@ def generate_html(us_results, kr_results, us_updated, kr_updated):
 body{{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}}
 .page-header{{max-width:960px;margin:0 auto 28px;border-bottom:1px solid #1a1a2e;padding-bottom:20px}}
 .page-title{{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#e8e8f0}}
-.tab-bar{{max-width:960px;margin:0 auto 0;display:flex;gap:4px;border-bottom:1px solid #1a1a2e}}
+.tab-bar{{max-width:960px;margin:0 auto 0;display:flex;gap:4px;border-bottom:1px solid #1a1a2e;position:relative;z-index:10}}
 .tab-btn{{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;padding:10px 28px;border:none;
-  background:transparent;color:#333;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:all .2s}}
+  background:transparent;color:#888;cursor:pointer !important;border-bottom:2px solid transparent;margin-bottom:-1px;
+  transition:all .2s;pointer-events:auto !important;position:relative;z-index:11;outline:none}}
 .tab-btn.active{{color:#e8e8f0;border-bottom-color:#e8e8f0}}
-.tab-btn:hover:not(.active){{color:#666}}
+.tab-btn:hover{{color:#ccc}}
 .tab-content{{display:none}}.tab-content.active{{display:block}}
 .update-bar{{max-width:960px;margin:16px auto 24px;display:flex;gap:16px;flex-wrap:wrap}}
 .update-badge{{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:5px 14px;border-radius:4px;
