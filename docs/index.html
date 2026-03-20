@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>US Market Decision Tool</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+KR:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:#0a0a0f;color:#c8c8d8;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}
+.page-header{max-width:960px;margin:0 auto 40px;border-bottom:1px solid #1e1e2e;padding-bottom:24px}
+.page-title{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#e8e8f0;letter-spacing:-0.5px}
+.page-subtitle{font-size:12px;color:#444;margin-top:6px;font-family:"IBM Plex Mono",monospace}
+.timestamp{font-family:"IBM Plex Mono",monospace;font-size:11px;color:#333;margin-top:12px}
+.cards-container{max-width:960px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:24px}
+.asset-card{background:#0f0f1a;border:1px solid #1a1a2e;border-radius:12px;padding:28px}
+.card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px}
+.asset-name{font-family:"IBM Plex Mono",monospace;font-size:28px;font-weight:600;color:#e8e8f0;letter-spacing:-1px}
+.signal-badge{font-family:"IBM Plex Mono",monospace;font-size:18px;font-weight:600;padding:6px 18px;border-radius:6px;letter-spacing:1px}
+.score-display{margin:16px 0 8px;font-family:"IBM Plex Mono",monospace;line-height:1}
+.modules-section{margin:20px 0;display:flex;flex-direction:column;gap:8px}
+.mod-row{display:grid;grid-template-columns:70px 60px 1fr;align-items:center;gap:10px}
+.mod-label{font-size:11px;color:#555;font-family:"IBM Plex Mono",monospace}
+.mod-score{font-family:"IBM Plex Mono",monospace;font-size:13px;color:#888;text-align:right}
+.details-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px;padding-top:20px;border-top:1px solid #1a1a2e}
+.detail-group{display:flex;flex-direction:column;gap:5px}
+.section-label{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#333;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
+.detail-row{display:flex;justify-content:space-between;font-size:12px;color:#666;font-family:"IBM Plex Mono",monospace}
+.detail-row span:last-child{color:#999}
+.guardrail-box{margin-top:16px;padding:12px;background:rgba(240,180,41,0.05);border:1px solid rgba(240,180,41,0.15);border-radius:6px}
+.footer{max-width:960px;margin:40px auto 0;text-align:center;font-size:11px;color:#222;font-family:"IBM Plex Mono",monospace;line-height:1.8}
+</style></head><body>
+<div class="page-header">
+  <div class="page-title">US MARKET DECISION TOOL</div>
+  <div class="page-subtitle">SPY · QQQ  |  Trend / VIX / Tactical / Breadth / Rates</div>
+  <div class="timestamp">Updated: 2026-03-20 16:05 KST (2026-03-20 07:05 UTC)</div>
+</div>
+<div class="cards-container">
+        <div class="asset-card" style="border-top:3px solid #f0b429;">
+          <div class="card-header">
+            <div><div class="asset-name">SPY</div><div style="color:#555;font-size:12px;margin-top:2px;">RSP breadth proxy</div></div>
+            <div style="text-align:right;"><div class="signal-badge" style="background:rgba(240,180,41,0.12);color:#f0b429;border:1px solid #f0b42933;">보유</div></div>
+          </div>
+          <div class="score-display"><span style="color:#f0b429;font-size:42px;font-weight:700;letter-spacing:-2px;">54</span><span style="color:#333;font-size:20px;">/100</span></div>
+          <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:54.0%;background:#f0b429;border-radius:4px;"></div></div>
+          <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">15<span style="color:#444">/35</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:42.9%;background:#f0b429;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">15<span style="color:#444">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:60.0%;background:#f0b429;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">8<span style="color:#444">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f0b429;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">8<span style="color:#444">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f0b429;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">8<span style="color:#444">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:80.0%;background:#00d084;border-radius:4px;"></div></div></div></div>
+          <div class="details-grid">
+            <div class="detail-group"><div class="section-label">추세</div>
+              <div class="detail-row"><span>종가</span><span>659.80</span></div>
+              <div class="detail-row"><span>MA50</span><span>684.71</span></div>
+              <div class="detail-row"><span>MA200</span><span>658.02</span></div>
+              <div class="detail-row"><span>20일 수익률</span><span>-3.61%</span></div></div>
+            <div class="detail-group"><div class="section-label">VIX</div>
+              <div class="detail-row"><span>현재</span><span>25.09</span></div>
+              <div class="detail-row"><span>5일 변화</span><span>3.55%</span></div>
+              <div class="detail-row"><span>MA20 대비</span><span>1.101</span></div>
+              <div class="detail-row"><span>10일고점 대비</span><span>-14.92%</span></div></div>
+            <div class="detail-group"><div class="section-label">전술</div>
+              <div class="detail-row"><span>20일선 이격</span><span>-2.64%</span></div>
+              <div class="detail-row"><span>10일 수익률</span><span>-3.16%</span></div>
+              <div class="detail-row"><span>5일선 돌파</span><span><span style='color:#444;font-size:11px;'>✗</span></span></div>
+              <div class="detail-row"><span>3일 중 2일 상승</span><span><span style='color:#444;font-size:11px;'>✗</span></span></div>
+              <div class="detail-row"><span>5일저점 +3%</span><span><span style='color:#444;font-size:11px;'>✗</span></span></div></div>
+            <div class="detail-group"><div class="section-label">Breadth / 금리</div>
+              <div class="detail-row"><span>Breadth 버킷</span><span>neutral</span></div>
+              <div class="detail-row"><span>Approx 비율</span><span>50.00%</span></div>
+              <div class="detail-row"><span>US 10Y</span><span>0.43%</span></div>
+              <div class="detail-row"><span>20일 변화</span><span>+2.1bp</span></div></div>
+          </div>
+          
+        </div>
+        <div class="asset-card" style="border-top:3px solid #f0b429;">
+          <div class="card-header">
+            <div><div class="asset-name">QQQ</div><div style="color:#555;font-size:12px;margin-top:2px;">QQEW breadth proxy</div></div>
+            <div style="text-align:right;"><div class="signal-badge" style="background:rgba(240,180,41,0.12);color:#f0b429;border:1px solid #f0b42933;">보유</div></div>
+          </div>
+          <div class="score-display"><span style="color:#f0b429;font-size:42px;font-weight:700;letter-spacing:-2px;">54</span><span style="color:#333;font-size:20px;">/100</span></div>
+          <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:54.0%;background:#f0b429;border-radius:4px;"></div></div>
+          <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">12<span style="color:#444">/30</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f0b429;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">15<span style="color:#444">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:60.0%;background:#f0b429;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">6<span style="color:#444">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:40.0%;background:#f0b429;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">5<span style="color:#444">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:50.0%;background:#f0b429;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">16<span style="color:#444">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:80.0%;background:#00d084;border-radius:4px;"></div></div></div></div>
+          <div class="details-grid">
+            <div class="detail-group"><div class="section-label">추세</div>
+              <div class="detail-row"><span>종가</span><span>593.02</span></div>
+              <div class="detail-row"><span>MA50</span><span>611.79</span></div>
+              <div class="detail-row"><span>MA200</span><span>591.74</span></div>
+              <div class="detail-row"><span>20일 수익률</span><span>-1.73%</span></div></div>
+            <div class="detail-group"><div class="section-label">VIX</div>
+              <div class="detail-row"><span>현재</span><span>25.09</span></div>
+              <div class="detail-row"><span>5일 변화</span><span>3.55%</span></div>
+              <div class="detail-row"><span>MA20 대비</span><span>1.101</span></div>
+              <div class="detail-row"><span>10일고점 대비</span><span>-14.92%</span></div></div>
+            <div class="detail-group"><div class="section-label">전술</div>
+              <div class="detail-row"><span>20일선 이격</span><span>-1.87%</span></div>
+              <div class="detail-row"><span>10일 수익률</span><span>-2.61%</span></div>
+              <div class="detail-row"><span>5일선 돌파</span><span><span style='color:#444;font-size:11px;'>✗</span></span></div>
+              <div class="detail-row"><span>3일 중 2일 상승</span><span><span style='color:#444;font-size:11px;'>✗</span></span></div>
+              <div class="detail-row"><span>5일저점 +3%</span><span><span style='color:#444;font-size:11px;'>✗</span></span></div></div>
+            <div class="detail-group"><div class="section-label">Breadth / 금리</div>
+              <div class="detail-row"><span>Breadth 버킷</span><span>neutral</span></div>
+              <div class="detail-row"><span>Approx 비율</span><span>50.00%</span></div>
+              <div class="detail-row"><span>US 10Y</span><span>0.43%</span></div>
+              <div class="detail-row"><span>20일 변화</span><span>+2.1bp</span></div></div>
+          </div>
+          
+        </div></div>
+<div class="footer">
+  <p>score ≥ 70 → 매수 &nbsp;|&nbsp; 40–69 → 보유 &nbsp;|&nbsp; &lt; 40 → 매도</p>
+  <p style="margin-top:4px;">자동 업데이트: 매 거래일 06:30 KST (GitHub Actions)</p>
+</div></body></html>
