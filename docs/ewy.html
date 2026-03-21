@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>EWYUSDT Perp Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root{
+      --bg:#0b1220;
+      --panel:#111827;
+      --card:#1f2937;
+      --line:#374151;
+      --text:#f9fafb;
+      --muted:#9ca3af;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+    }
+    .wrap{
+      max-width:1200px;
+      margin:0 auto;
+      padding:24px 16px 40px;
+    }
+    .topbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      margin-bottom:20px;
+      flex-wrap:wrap;
+    }
+    .title{
+      font-size:30px;
+      font-weight:700;
+    }
+    .sub{
+      color:var(--muted);
+      font-size:14px;
+      margin-top:4px;
+    }
+    .btn{
+      display:inline-block;
+      padding:10px 14px;
+      border-radius:10px;
+      background:var(--card);
+      color:var(--text);
+      text-decoration:none;
+      border:1px solid var(--line);
+    }
+    .card{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:18px;
+    }
+    .stats{
+      display:grid;
+      grid-template-columns:repeat(5, 1fr);
+      gap:10px;
+      margin-bottom:16px;
+    }
+    @media (max-width: 980px){
+      .stats{grid-template-columns:repeat(2,1fr);}
+    }
+    .stat{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:12px;
+      padding:12px;
+    }
+    .stat-label{
+      color:var(--muted);
+      font-size:12px;
+      margin-bottom:6px;
+    }
+    .stat-value{
+      font-size:20px;
+      font-weight:700;
+    }
+    canvas{
+      width:100% !important;
+      height:420px !important;
+      background:#0f172a;
+      border-radius:12px;
+      padding:8px;
+    }
+    .note{
+      margin-top:16px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .ok{color:#34d399}
+    .bad{color:#f87171}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>
+        <div class="title">EWYUSDT Perp</div>
+        <div class="sub">Binance USDⓈ-M Futures · 24시간 라인차트</div>
+      </div>
+      <a class="btn" href="./">← 메인 대시보드로</a>
+    </div>
+
+    <div class="card">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-label">현재가</div>
+          <div class="stat-value" id="lastPrice">-</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">24h 변동률</div>
+          <div class="stat-value" id="chgPct">-</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">24h 고가</div>
+          <div class="stat-value" id="highPrice">-</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">24h 저가</div>
+          <div class="stat-value" id="lowPrice">-</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">24h 거래대금(USDT)</div>
+          <div class="stat-value" id="quoteVol">-</div>
+        </div>
+      </div>
+
+      <canvas id="ewyChart"></canvas>
+      <div class="note">
+        Interval:
+        <select id="intervalSelect">
+          <option value="5m">5m</option>
+          <option value="15m" selected>15m</option>
+          <option value="30m">30m</option>
+          <option value="1h">1h</option>
+          <option value="4h">4h</option>
+        </select>
+        &nbsp; Limit:
+        <select id="limitSelect">
+          <option value="48">48</option>
+          <option value="96" selected>96</option>
+          <option value="168">168</option>
+          <option value="336">336</option>
+        </select>
+        <button class="btn" id="reloadBtn" style="padding:6px 10px;">새로고침</button>
+        <span class="muted" id="statusText" style="margin-left:10px;">대기 중</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SYMBOL = "EWYUSDT";
+    const BASE = "https://fapi.binance.com";
+    let chart = null;
+
+    function fmtNum(v, d=2){
+      const n = Number(v);
+      if (Number.isNaN(n)) return "-";
+      return n.toLocaleString(undefined, {
+        minimumFractionDigits: d,
+        maximumFractionDigits: d
+      });
+    }
+
+    function fmtCompact(v){
+      const n = Number(v);
+      if (Number.isNaN(n)) return "-";
+      return Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 2 }).format(n);
+    }
+
+    async function fetch24h(){
+      const url = `${BASE}/fapi/v1/ticker/24hr?symbol=${SYMBOL}`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("24hr ticker fetch failed");
+      return await res.json();
+    }
+
+    async function fetchPrice(){
+      const url = `${BASE}/fapi/v2/ticker/price?symbol=${SYMBOL}`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("price fetch failed");
+      return await res.json();
+    }
+
+    async function fetchKlines(interval, limit){
+      const url = `${BASE}/fapi/v1/klines?symbol=${SYMBOL}&interval=${interval}&limit=${limit}`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("klines fetch failed");
+      return await res.json();
+    }
+
+    function renderStats(priceData, dayData){
+      document.getElementById("lastPrice").textContent = "$" + fmtNum(priceData.price, 2);
+
+      const pct = Number(dayData.priceChangePercent);
+      const pctEl = document.getElementById("chgPct");
+      pctEl.textContent = fmtNum(pct, 2) + "%";
+      pctEl.className = "stat-value " + (pct >= 0 ? "ok" : "bad");
+
+      document.getElementById("highPrice").textContent = "$" + fmtNum(dayData.highPrice, 2);
+      document.getElementById("lowPrice").textContent = "$" + fmtNum(dayData.lowPrice, 2);
+      document.getElementById("quoteVol").textContent = fmtCompact(dayData.quoteVolume);
+    }
+
+    function toLabel(ts){
+      const d = new Date(ts);
+      const hh = String(d.getHours()).padStart(2, "0");
+      const mm = String(d.getMinutes()).padStart(2, "0");
+      return `${hh}:${mm}`;
+    }
+
+    function renderChart(klines, interval){
+      const labels = klines.map(k => toLabel(k[0]));
+      const closes = klines.map(k => Number(k[4]));
+
+      const ctx = document.getElementById("ewyChart").getContext("2d");
+      if (chart) chart.destroy();
+
+      chart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels,
+          datasets: [{
+            label: `${SYMBOL} close (${interval})`,
+            data: closes,
+            borderWidth: 2,
+            pointRadius: 0,
+            tension: 0.15
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: {
+            mode: "index",
+            intersect: false
+          },
+          plugins: {
+            legend: {
+              labels: { color: "#f9fafb" }
+            }
+          },
+          scales: {
+            x: {
+              ticks: { color: "#9ca3af", maxTicksLimit: 12 },
+              grid: { color: "#374151" }
+            },
+            y: {
+              ticks: { color: "#9ca3af" },
+              grid: { color: "#374151" }
+            }
+          }
+        }
+      });
+    }
+
+    async function loadAll(){
+      const status = document.getElementById("statusText");
+      status.textContent = "불러오는 중...";
+      try {
+        const interval = document.getElementById("intervalSelect").value;
+        const limit = document.getElementById("limitSelect").value;
+
+        const [priceData, dayData, klines] = await Promise.all([
+          fetchPrice(),
+          fetch24h(),
+          fetchKlines(interval, limit)
+        ]);
+
+        renderStats(priceData, dayData);
+        renderChart(klines, interval);
+
+        const now = new Date();
+        status.textContent = `업데이트 완료 · ${now.toLocaleString()}`;
+      } catch (err) {
+        console.error(err);
+        status.textContent = "로드 실패";
+      }
+    }
+
+    document.getElementById("reloadBtn").addEventListener("click", loadAll);
+    document.getElementById("intervalSelect").addEventListener("change", loadAll);
+    document.getElementById("limitSelect").addEventListener("change", loadAll);
+
+    loadAll();
+    setInterval(loadAll, 60000);
+  </script>
+</body>
+</html>
