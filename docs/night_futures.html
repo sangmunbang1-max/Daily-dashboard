@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Night Futures Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root{
+      --bg:#0b1220;
+      --panel:#111827;
+      --card:#1f2937;
+      --line:#374151;
+      --text:#f9fafb;
+      --muted:#9ca3af;
+      --accent:#60a5fa;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+    }
+    .wrap{
+      max-width:1200px;
+      margin:0 auto;
+      padding:24px 16px 40px;
+    }
+    .topbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      margin-bottom:20px;
+      flex-wrap:wrap;
+    }
+    .title{
+      font-size:28px;
+      font-weight:700;
+    }
+    .sub{
+      color:var(--muted);
+      font-size:14px;
+      margin-top:4px;
+    }
+    .btn{
+      display:inline-block;
+      padding:10px 14px;
+      border-radius:10px;
+      background:var(--card);
+      color:var(--text);
+      text-decoration:none;
+      border:1px solid var(--line);
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:16px;
+    }
+    @media (max-width: 900px){
+      .grid{grid-template-columns:1fr;}
+    }
+    .card{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:18px;
+    }
+    .card h2{
+      margin:0 0 12px;
+      font-size:20px;
+    }
+    .meta{
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap;
+      margin-bottom:12px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .stats{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:10px;
+      margin-bottom:14px;
+    }
+    .stat{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:12px;
+      padding:12px;
+    }
+    .stat-label{
+      color:var(--muted);
+      font-size:12px;
+      margin-bottom:6px;
+    }
+    .stat-value{
+      font-size:18px;
+      font-weight:700;
+    }
+    .note{
+      margin-top:20px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    canvas{
+      width:100% !important;
+      height:320px !important;
+      background:#0f172a;
+      border-radius:12px;
+      padding:8px;
+    }
+    .empty{
+      color:var(--muted);
+      padding:24px 0 8px;
+      font-size:14px;
+    }
+    .ok{color:#34d399}
+    .warn{color:#fbbf24}
+    .bad{color:#f87171}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>
+        <div class="title">Night Futures</div>
+        <div class="sub" id="pageSub">전일 야간선물 30분 스냅샷</div>
+      </div>
+      <a class="btn" href="./">← 메인 대시보드로</a>
+    </div>
+
+    <div class="meta">
+      <div>생성시각: <span id="generatedAt">-</span></div>
+      <div>기준일자: <span id="bizDate">-</span></div>
+      <div>토큰상태: <span id="tokenStatus" class="warn">-</span></div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>KOSPI 야간선물</h2>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-label">마지막 값</div>
+            <div class="stat-value" id="kospiLast">-</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">등락</div>
+            <div class="stat-value" id="kospiChange">-</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">포인트 수</div>
+            <div class="stat-value" id="kospiPoints">0</div>
+          </div>
+        </div>
+        <canvas id="kospiChart"></canvas>
+        <div class="empty" id="kospiEmpty">아직 데이터가 없습니다.</div>
+      </div>
+
+      <div class="card">
+        <h2>KOSDAQ 야간선물</h2>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-label">마지막 값</div>
+            <div class="stat-value" id="kosdaqLast">-</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">등락</div>
+            <div class="stat-value" id="kosdaqChange">-</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">포인트 수</div>
+            <div class="stat-value" id="kosdaqPoints">0</div>
+          </div>
+        </div>
+        <canvas id="kosdaqChart"></canvas>
+        <div class="empty" id="kosdaqEmpty">아직 데이터가 없습니다.</div>
+      </div>
+    </div>
+
+    <div class="note">
+      현재는 <code>docs/data/night_futures/latest.json</code> 파일을 읽도록 구성되어 있다.
+      실데이터 연결 전에는 stub 데이터가 표시될 수 있다.
+    </div>
+  </div>
+
+  <script>
+    function fmt(v, digits=2){
+      if (v === null || v === undefined || Number.isNaN(v)) return "-";
+      return Number(v).toFixed(digits);
+    }
+
+    function setTokenStatus(status){
+      const el = document.getElementById("tokenStatus");
+      el.textContent = status || "-";
+      el.className = "";
+      if (status === "ready") el.classList.add("ok");
+      else if (status === "missing") el.classList.add("bad");
+      else el.classList.add("warn");
+    }
+
+    function renderMiniStats(prefix, summary){
+      document.getElementById(prefix + "Last").textContent = fmt(summary?.last);
+      const chg = summary?.change;
+      const chgPct = summary?.change_pct;
+      document.getElementById(prefix + "Change").textContent =
+        (chg == null ? "-" : `${fmt(chg)} (${fmt(chgPct)}%)`);
+      document.getElementById(prefix + "Points").textContent = summary?.points ?? 0;
+    }
+
+    function makeChart(canvasId, emptyId, points, label){
+      const emptyEl = document.getElementById(emptyId);
+      if (!points || points.length === 0){
+        emptyEl.style.display = "block";
+        return null;
+      }
+      emptyEl.style.display = "none";
+
+      const labels = points.map(x => x.time);
+      const values = points.map(x => x.price);
+
+      const ctx = document.getElementById(canvasId).getContext("2d");
+      return new Chart(ctx, {
+        type: "line",
+        data: {
+          labels,
+          datasets: [{
+            label,
+            data: values,
+            tension: 0.2,
+            borderWidth: 2,
+            pointRadius: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              labels: { color: "#f9fafb" }
+            }
+          },
+          scales: {
+            x: {
+              ticks: { color: "#9ca3af" },
+              grid: { color: "#374151" }
+            },
+            y: {
+              ticks: { color: "#9ca3af" },
+              grid: { color: "#374151" }
+            }
+          }
+        }
+      });
+    }
+
+    async function loadData(){
+      const res = await fetch("./data/night_futures/latest.json?v=" + Date.now());
+      if (!res.ok) throw new Error("latest.json 로드 실패");
+      return await res.json();
+    }
+
+    async function init(){
+      try{
+        const data = await loadData();
+
+        document.getElementById("generatedAt").textContent = data.generated_at_kst || "-";
+        document.getElementById("bizDate").textContent = data.biz_date || "-";
+        setTokenStatus(data.token_status || "-");
+
+        renderMiniStats("kospi", data.summary?.kospi || {});
+        renderMiniStats("kosdaq", data.summary?.kosdaq || {});
+
+        makeChart("kospiChart", "kospiEmpty", data.series?.kospi || [], "KOSPI Night Futures");
+        makeChart("kosdaqChart", "kosdaqEmpty", data.series?.kosdaq || [], "KOSDAQ Night Futures");
+      }catch(err){
+        console.error(err);
+        document.getElementById("pageSub").textContent = "데이터를 아직 불러오지 못했습니다.";
+        document.getElementById("tokenStatus").textContent = "error";
+        document.getElementById("tokenStatus").className = "bad";
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
