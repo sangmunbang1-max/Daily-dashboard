@@ -1,33 +1,83 @@
 {
-  "generated_at_kst": "2026-03-21T20:00:00+09:00",
+  "generated_at_kst": "2026-03-21T16:57:36.587935+09:00",
   "biz_date": "2026-03-21",
   "session": "night",
   "source": "KIS",
-  "note": "manual stub payload",
+  "note": "snapshot update failed",
   "token_status": "ready",
   "series": {
     "kospi": [
-      { "time": "18:00", "price": 349.80, "change": 0.10, "change_pct": 0.03 },
-      { "time": "18:30", "price": 350.15, "change": 0.45, "change_pct": 0.13 },
-      { "time": "19:00", "price": 350.05, "change": 0.35, "change_pct": 0.10 },
-      { "time": "19:30", "price": 350.60, "change": 0.90, "change_pct": 0.26 },
-      { "time": "20:00", "price": 350.30, "change": 0.60, "change_pct": 0.17 }
+      {
+        "time": "18:00",
+        "price": 349.8,
+        "change": 0.1,
+        "change_pct": 0.03
+      },
+      {
+        "time": "18:30",
+        "price": 350.15,
+        "change": 0.45,
+        "change_pct": 0.13
+      },
+      {
+        "time": "19:00",
+        "price": 350.05,
+        "change": 0.35,
+        "change_pct": 0.1
+      },
+      {
+        "time": "19:30",
+        "price": 350.6,
+        "change": 0.9,
+        "change_pct": 0.26
+      },
+      {
+        "time": "20:00",
+        "price": 350.3,
+        "change": 0.6,
+        "change_pct": 0.17
+      }
     ],
     "kosdaq": [
-      { "time": "18:00", "price": 121.40, "change": -0.10, "change_pct": -0.08 },
-      { "time": "18:30", "price": 121.55, "change": 0.05, "change_pct": 0.04 },
-      { "time": "19:00", "price": 121.48, "change": -0.02, "change_pct": -0.02 },
-      { "time": "19:30", "price": 121.62, "change": 0.12, "change_pct": 0.10 },
-      { "time": "20:00", "price": 121.58, "change": 0.08, "change_pct": 0.07 }
+      {
+        "time": "18:00",
+        "price": 121.4,
+        "change": -0.1,
+        "change_pct": -0.08
+      },
+      {
+        "time": "18:30",
+        "price": 121.55,
+        "change": 0.05,
+        "change_pct": 0.04
+      },
+      {
+        "time": "19:00",
+        "price": 121.48,
+        "change": -0.02,
+        "change_pct": -0.02
+      },
+      {
+        "time": "19:30",
+        "price": 121.62,
+        "change": 0.12,
+        "change_pct": 0.1
+      },
+      {
+        "time": "20:00",
+        "price": 121.58,
+        "change": 0.08,
+        "change_pct": 0.07
+      }
     ]
   },
   "summary": {
     "kospi": {
-      "last": 350.30,
-      "change": 0.60,
+      "last": 350.3,
+      "change": 0.6,
       "change_pct": 0.17,
-      "high": 350.60,
-      "low": 349.80,
+      "high": 350.6,
+      "low": 349.8,
       "points": 5
     },
     "kosdaq": {
@@ -35,8 +85,14 @@
       "change": 0.08,
       "change_pct": 0.07,
       "high": 121.62,
-      "low": 121.40,
+      "low": 121.4,
       "points": 5
     }
+  },
+  "meta": {
+    "mode": "snapshot",
+    "interval_minutes": 30,
+    "tr_id": "FHPIF05030200",
+    "last_error": "output1 형식 이상: {'output': [{'futs_shrn_iscd': 'A01606', 'hts_kor_isnm': 'F 202606', 'futs_prpr': '862.55', 'futs_prdy_vrss': '-0.60', 'prdy_vrss_sign': '5', 'futs_prdy_ctrt': '-0.07', 'hts_thpr': '865.88', 'acml_vol': '131810', 'futs_askp': '862.55', 'futs_bidp': '862.50', 'hts_otst_stpl_qty': '195934', 'futs_hgpr': '874.40', 'futs_lwpr': '861.05', 'hts_rmnn_dynu': '84', 'total_askp_rsqn': '4696', 'total_bidp_rsqn': '3460', 'futs_antc_cnpr': '0.00', 'futs_antc_cntg_vrss': '0.00', 'antc_cntg_vrss_sign': '0', 'antc_cntg_prdy_ctrt': '0.00'}, {'futs_shrn_iscd': 'A01609', 'hts_kor_isnm': 'F 202609', 'futs_prpr': '865.60', 'futs_prdy_vrss': '-1.40', 'prdy_vrss_sign': '5', 'futs_prdy_ctrt': '-0.16', 'hts_thpr': '870.84', 'acml_vol': '121', 'futs_askp': '870.00', 'futs_bidp': '861.00', 'hts_otst_stpl_qty': '675', 'futs_hgpr': '877.00', 'futs_lwpr': '865.50', 'hts_rmnn_dynu': '175', 'total_askp_rsqn': '2', 'total_bidp_rsqn': '2', 'futs_antc_cnpr': '0.00', 'futs_antc_cntg_vrss': '0.00', 'antc_cntg_vrss_sign': '0', 'antc_cntg_prdy_ctrt': '0.00'}, {'futs_shrn_iscd': 'A01612', 'hts_kor_isnm': 'F 202612', 'futs_prpr': '887.50', 'futs_prdy_vrss': '0.00', 'prdy_vrss_sign': '3', 'futs_prdy_ctrt': '0.00', 'hts_thpr': '876.51', 'acml_vol': '0', 'futs_askp': '883.30', 'futs_bidp': '863.65', 'hts_otst_stpl_qty': '5569', 'futs_hgpr': '0.00', 'futs_lwpr': '0.00', 'hts_rmnn_dynu': '266', 'total_askp_rsqn': '33', 'total_bidp_rsqn': '4', 'futs_antc_cnpr': '0.00', 'futs_antc_cntg_vrss': '0.00', 'antc_cntg_vrss_sign': '0', 'antc_cntg_prdy_ctrt': '0.00'}, {'futs_shrn_iscd': 'A01703', 'hts_kor_isnm': 'F 202703', 'futs_prpr': '877.70', 'futs_prdy_vrss': '0.00', 'prdy_vrss_sign': '3', 'futs_prdy_ctrt': '0.00', 'hts_thpr': '880.42', 'acml_vol': '0', 'futs_askp': '946.75', 'futs_bidp': '808.25', 'hts_otst_stpl_qty': '2', 'futs_hgpr': '0.00', 'futs_lwpr': '0.00', 'hts_rmnn_dynu': '357', 'total_askp_rsqn': '28', 'total_bidp_rsqn': '32', 'futs_antc_cnpr': '0.00', 'futs_antc_cntg_vrss': '0.00', 'antc_cntg_vrss_sign': '0', 'antc_cntg_prdy_ctrt': '0.00'}, {'futs_shrn_iscd': 'A01706', 'hts_kor_isnm': 'F 202706', 'futs_prpr': '882.90', 'futs_prdy_vrss': '0.00', 'prdy_vrss_sign': '3', 'futs_prdy_ctrt': '0.00', 'hts_thpr': '885.66', 'acml_vol': '0', 'futs_askp': '921.05', 'futs_bidp': '0.00', 'hts_otst_stpl_qty': '204', 'futs_hgpr': '0.00', 'futs_lwpr': '0.00', 'hts_rmnn_dynu': '448', 'total_askp_rsqn': '21', 'total_bidp_rsqn': '0', 'futs_antc_cnpr': '0.00', 'futs_antc_cntg_vrss': '0.00', 'antc_cntg_vrss_sign': '0', 'antc_cntg_prdy_ctrt': '0.00'}, {'futs_shrn_iscd': 'A01712', 'hts_kor_isnm': 'F 202712', 'futs_prpr': '895.80', 'futs_prdy_vrss': '0.00', 'prdy_vrss_sign': '3', 'futs_prdy_ctrt': '0.00', 'hts_thpr': '898.52', 'acml_vol': '0', 'futs_askp': '906.10', 'futs_bidp': '868.45', 'hts_otst_stpl_qty': '448', 'futs_hgpr': '0.00', 'futs_lwpr': '0.00', 'hts_rmnn_dynu': '630', 'total_askp_rsqn': '21', 'total_bidp_rsqn': '28', 'futs_antc_cnpr': '0.00', 'futs_antc_cntg_vrss': '0.00', 'antc_cntg_vrss_sign': '0', 'antc_cntg_prdy_ctrt': '0.00'}, {'futs_shrn_iscd': 'A01812', 'hts_kor_isnm': 'F 202812', 'futs_prpr': '919.30', 'futs_prdy_vrss': '0.00', 'prdy_vrss_sign': '3', 'futs_prdy_ctrt': '0.00', 'hts_thpr': '922.07', 'acml_vol': '0', 'futs_askp': '919.30', 'futs_bidp': '867.95', 'hts_otst_stpl_qty': '7', 'futs_hgpr': '0.00', 'futs_lwpr': '0.00', 'hts_rmnn_dynu': '1001', 'total_askp_rsqn': '1', 'total_bidp_rsqn': '28', 'futs_antc_cnpr': '0.00', 'futs_antc_cntg_vrss': '0.00', 'antc_cntg_vrss_sign': '0', 'antc_cntg_prdy_ctrt': '0.00'}], 'rt_cd': '0', 'msg_cd': 'MCA00000', 'msg1': '정상처리 되었습니다.'}"
   }
 }
