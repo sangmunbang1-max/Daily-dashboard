@@ -10,12 +10,29 @@ KST = timezone(timedelta(hours=9))
 KIS_APP_KEY = os.environ.get("KIS_APP_KEY", "")
 KIS_APP_SECRET = os.environ.get("KIS_APP_SECRET", "")
 
+# 나중에 GitHub Actions / Secrets / Variables 쪽에서 주입할 수 있도록 미리 열어둠
+ENV_ACCESS_TOKEN = os.environ.get("KIS_ACCESS_TOKEN", "")
+ENV_ACCESS_TOKEN_EXPIRES_AT = os.environ.get("KIS_ACCESS_TOKEN_EXPIRES_AT_KST", "")
+
 TOKEN_CACHE_FILE = "tmp/kis_token_cache.json"
 TOKEN_URL = "https://openapi.koreainvestment.com:9443/oauth2/tokenP"
 
 
 def _ensure_dir(path: str):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    dirpath = os.path.dirname(path)
+    if dirpath:
+        os.makedirs(dirpath, exist_ok=True)
+
+
+def _load_env_token_cache():
+    if ENV_ACCESS_TOKEN and ENV_ACCESS_TOKEN_EXPIRES_AT:
+        return {
+            "access_token": ENV_ACCESS_TOKEN,
+            "issued_at_kst": "",
+            "expires_at_kst": ENV_ACCESS_TOKEN_EXPIRES_AT,
+            "source": "env",
+        }
+    return {}
 
 
 def _load_token_cache():
@@ -48,7 +65,6 @@ def _is_token_valid(cache: dict, now=None, safety_minutes: int = 30) -> bool:
     except Exception:
         return False
 
-    # 만료 직전 safety buffer
     return now < (exp_dt - timedelta(minutes=safety_minutes))
 
 
@@ -81,6 +97,7 @@ def _request_new_token() -> dict:
         "access_token": access_token,
         "issued_at_kst": now.isoformat(),
         "expires_at_kst": expires_at.isoformat(),
+        "source": "request",
     }
     _save_token_cache(cache)
     return cache
@@ -91,9 +108,16 @@ def get_valid_kis_token(force_refresh: bool = False) -> str:
         cache = _request_new_token()
         return cache["access_token"]
 
-    cache = _load_token_cache()
-    if _is_token_valid(cache):
-        return cache["access_token"]
+    # 1순위: 환경변수에서 받은 토큰
+    env_cache = _load_env_token_cache()
+    if _is_token_valid(env_cache):
+        return env_cache["access_token"]
 
+    # 2순위: 로컬 캐시 파일
+    file_cache = _load_token_cache()
+    if _is_token_valid(file_cache):
+        return file_cache["access_token"]
+
+    # 3순위: 새 발급
     cache = _request_new_token()
     return cache["access_token"]
