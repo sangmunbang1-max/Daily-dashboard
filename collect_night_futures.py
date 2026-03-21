@@ -53,6 +53,28 @@ def today_kst_str(dt: Optional[datetime] = None) -> str:
     return dt.strftime("%Y-%m-%d")
 
 
+def get_night_biz_date(dt: Optional[datetime] = None) -> str:
+    """
+    야간세션 기준 거래일
+    - 18:00 ~ 23:59 : 당일
+    - 00:00 ~ 05:59 : 전일
+    """
+    dt = dt or now_kst()
+    if dt.hour < 6:
+        dt = dt - timedelta(days=1)
+    return dt.strftime("%Y-%m-%d")
+
+
+def is_night_session(dt: Optional[datetime] = None) -> bool:
+    """
+    야간세션 시간인지 판정
+    - 18:00 ~ 23:59
+    - 00:00 ~ 05:59
+    """
+    dt = dt or now_kst()
+    return (dt.hour >= 18) or (dt.hour < 6)
+
+
 def load_existing_payload() -> Dict[str, Any]:
     if LATEST_FILE.exists():
         try:
@@ -90,7 +112,7 @@ def make_empty_payload() -> Dict[str, Any]:
     now = now_kst()
     return {
         "generated_at_kst": now.isoformat(),
-        "biz_date": today_kst_str(now),
+        "biz_date": get_night_biz_date(now),
         "session": "night",
         "source": "KIS",
         "note": "night futures snapshot",
@@ -103,10 +125,6 @@ def make_empty_payload() -> Dict[str, Any]:
         "meta": {
             "mode": "snapshot",
             "interval_minutes": 30,
-            "tr_id": TR_ID,
-            "last_error": None,
-            "selected_symbol_kospi": None,
-            "selected_symbol_kosdaq": None,
         },
     }
 
@@ -135,16 +153,14 @@ def calc_summary(points: List[Dict[str, Any]]) -> Dict[str, Any]:
         return make_empty_summary()
 
     prices = [p.get("price") for p in points if p.get("price") is not None]
-    highs = [p.get("high") for p in points if p.get("high") is not None]
-    lows = [p.get("low") for p in points if p.get("low") is not None]
     last_point = points[-1]
 
     return {
         "last": last_point.get("price"),
         "change": last_point.get("change"),
         "change_pct": last_point.get("change_pct"),
-        "high": max(highs) if highs else (max(prices) if prices else None),
-        "low": min(lows) if lows else (min(prices) if prices else None),
+        "high": max(prices) if prices else None,
+        "low": min(prices) if prices else None,
         "points": len(points),
     }
 
@@ -225,9 +241,9 @@ def extract_best_output_row(js: Dict[str, Any]) -> Dict[str, Any]:
     if not rows:
         raise RuntimeError(f"output 비어있음: {js}")
 
-    # 근월물 우선 선택:
+    # 근월물 우선:
     # 1) 잔존일수 최소
-    # 2) 그다음 거래량 최대
+    # 2) 거래량 최대
     def sort_key(row: Dict[str, Any]):
         rmnn = safe_float(row.get("hts_rmnn_dynu"))
         vol = safe_float(row.get("acml_vol"))
@@ -243,23 +259,15 @@ def normalize_snapshot(row: Dict[str, Any], label: str, snap_time: str) -> Dict[
     price = safe_float(row.get("futs_prpr"))
     change = safe_float(row.get("futs_prdy_vrss"))
     change_pct = safe_float(row.get("futs_prdy_ctrt"))
-    high = safe_float(row.get("futs_hgpr"))
-    low = safe_float(row.get("futs_lwpr"))
-    symbol = row.get("futs_shrn_iscd")
-    name = row.get("hts_kor_isnm")
 
     if price is None:
-        raise RuntimeError(f"{label}: futs_prpr 현재가 없음. row={row}")
+        raise RuntimeError(f"{label}: futs_prpr 현재가 없음.")
 
     return {
         "time": snap_time,
         "price": price,
         "change": change,
         "change_pct": change_pct,
-        "high": high,
-        "low": low,
-        "symbol": symbol,
-        "name": name,
     }
 
 
@@ -275,7 +283,7 @@ def append_snapshot(payload: Dict[str, Any], key: str, point: Dict[str, Any]) ->
     summary[key] = calc_summary(series[key])
 
 
-def reset_if_new_day(payload: Dict[str, Any], biz_date: str) -> Dict[str, Any]:
+def reset_if_new_session_day(payload: Dict[str, Any], biz_date: str) -> Dict[str, Any]:
     if payload.get("biz_date") != biz_date:
         new_payload = make_empty_payload()
         new_payload["biz_date"] = biz_date
@@ -285,11 +293,17 @@ def reset_if_new_day(payload: Dict[str, Any], biz_date: str) -> Dict[str, Any]:
 
 def main() -> None:
     now = now_kst()
-    biz_date = today_kst_str(now)
+
+    # 세션 외 시간에는 저장 안 함
+    if not is_night_session(now):
+        print("[SKIP] outside night session")
+        return
+
+    biz_date = get_night_biz_date(now)
     snap_time = kst_hhmm(now)
 
     payload = load_existing_payload()
-    payload = reset_if_new_day(payload, biz_date)
+    payload = reset_if_new_session_day(payload, biz_date)
 
     payload["generated_at_kst"] = now.isoformat()
     payload["biz_date"] = biz_date
@@ -298,13 +312,10 @@ def main() -> None:
     payload.setdefault("meta", {})
     payload["meta"]["mode"] = "snapshot"
     payload["meta"]["interval_minutes"] = 30
-    payload["meta"]["tr_id"] = TR_ID
-    payload["meta"]["last_error"] = None
 
     if not is_configured():
         payload["token_status"] = "config_missing"
         payload["note"] = "set KIS_FO_QUOTE_URL and KIS credentials"
-        payload["meta"]["last_error"] = "missing config"
         save_payload(payload)
         print("[WARN] collect_night_futures.py not fully configured.")
         return
@@ -318,20 +329,17 @@ def main() -> None:
         kospi_row = extract_best_output_row(kospi_js)
         kospi_point = normalize_snapshot(kospi_row, "KOSPI", snap_time)
         append_snapshot(payload, "kospi", kospi_point)
-        payload["meta"]["selected_symbol_kospi"] = kospi_point.get("symbol")
 
         # KOSDAQ150
         kosdaq_js = request_market_snapshot(KOSDAQ_MARKET_CLASS, access_token)
         kosdaq_row = extract_best_output_row(kosdaq_js)
         kosdaq_point = normalize_snapshot(kosdaq_row, "KOSDAQ", snap_time)
         append_snapshot(payload, "kosdaq", kosdaq_point)
-        payload["meta"]["selected_symbol_kosdaq"] = kosdaq_point.get("symbol")
 
         payload["note"] = "live snapshot updated"
 
     except Exception as e:
         payload["note"] = "snapshot update failed"
-        payload["meta"]["last_error"] = str(e)
         print(f"[ERROR] {e}")
 
     save_payload(payload)
