@@ -1,0 +1,42 @@
+{
+  "generated_at_kst": "2026-03-21T20:00:00+09:00",
+  "biz_date": "2026-03-21",
+  "session": "night",
+  "source": "KIS",
+  "note": "manual stub payload",
+  "token_status": "ready",
+  "series": {
+    "kospi": [
+      { "time": "18:00", "price": 349.80, "change": 0.10, "change_pct": 0.03 },
+      { "time": "18:30", "price": 350.15, "change": 0.45, "change_pct": 0.13 },
+      { "time": "19:00", "price": 350.05, "change": 0.35, "change_pct": 0.10 },
+      { "time": "19:30", "price": 350.60, "change": 0.90, "change_pct": 0.26 },
+      { "time": "20:00", "price": 350.30, "change": 0.60, "change_pct": 0.17 }
+    ],
+    "kosdaq": [
+      { "time": "18:00", "price": 121.40, "change": -0.10, "change_pct": -0.08 },
+      { "time": "18:30", "price": 121.55, "change": 0.05, "change_pct": 0.04 },
+      { "time": "19:00", "price": 121.48, "change": -0.02, "change_pct": -0.02 },
+      { "time": "19:30", "price": 121.62, "change": 0.12, "change_pct": 0.10 },
+      { "time": "20:00", "price": 121.58, "change": 0.08, "change_pct": 0.07 }
+    ]
+  },
+  "summary": {
+    "kospi": {
+      "last": 350.30,
+      "change": 0.60,
+      "change_pct": 0.17,
+      "high": 350.60,
+      "low": 349.80,
+      "points": 5
+    },
+    "kosdaq": {
+      "last": 121.58,
+      "change": 0.08,
+      "change_pct": 0.07,
+      "high": 121.62,
+      "low": 121.40,
+      "points": 5
+    }
+  }
+}
