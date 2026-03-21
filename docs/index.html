@@ -57,7 +57,7 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 .ewy-stat{background:#161622;border:1px solid #252538;border-radius:10px;padding:12px}
 .ewy-stat-label{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#9090b8;margin-bottom:6px}
 .ewy-stat-value{font-family:"IBM Plex Mono",monospace;font-size:20px;font-weight:700;color:#f0f0f8}
-.ewy-chart-wrap{background:#0f172a;border:1px solid #252538;border-radius:12px;padding:12px;position:relative;height:420px;overflow:hidden}
+.ewy-chart-wrap{background:#0f172a;border:1px solid #252538;border-radius:12px;padding:12px 12px 24px 12px;position:relative;height:460px;overflow:visible}
 .ewy-canvas{display:block !important;width:100% !important;height:100% !important}
 .ewy-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
 .ewy-select,.ewy-reload{font-family:"IBM Plex Mono",monospace;font-size:12px;background:#161622;color:#d4d4e0;border:1px solid #252538;border-radius:8px;padding:8px 10px}
@@ -444,7 +444,12 @@ function ewyRenderChart(klines, interval){
       interaction: {
         mode: "index",
         intersect: false
-      },
+      },  
+      layout: {
+  padding: {
+    bottom: 16
+  }
+},
       plugins: {
         legend: {
           labels: { color: "#f9fafb" }
@@ -452,14 +457,24 @@ function ewyRenderChart(klines, interval){
       },
       scales: {
         x: {
+  offset: false,
   ticks: {
     color: "#9ca3af",
+    autoSkip: true,
     maxTicksLimit: 8,
+    maxRotation: 0,
+    minRotation: 0,
+    padding: 10,
     callback: function(value, index) {
-      const label = this.getLabelForValue(value);
+      const label = labels[index];
       if (!label) return "";
 
       if (interval === "4h" || interval === "1h") {
+        const parts = label.split(" ");
+        return parts.length >= 2 ? [parts[0], parts[1]] : label;
+      }
+
+      if (interval === "30m" || interval === "15m" || interval === "5m") {
         const parts = label.split(" ");
         return parts.length >= 2 ? [parts[0], parts[1]] : label;
       }
