@@ -403,15 +403,21 @@ function ewyRenderStats(priceData, dayData){
   document.getElementById("ewyQuoteVol").textContent = ewyFmtCompact(dayData.quoteVolume);
 }
 
-function ewyToLabel(ts){
+function ewyToLabel(ts, interval){
   const d = new Date(ts);
+  const yy = String(d.getFullYear()).slice(-2);
+  const mo = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
   const hh = String(d.getHours()).padStart(2, "0");
   const mm = String(d.getMinutes()).padStart(2, "0");
-  return `${hh}:${mm}`;
-}
 
+  if (interval === "4h" || interval === "1h") {
+    return `${yy}-${mo}-${dd} ${hh}:${mm}`;
+  }
+  return `${mo}-${dd} ${hh}:${mm}`;
+}
 function ewyRenderChart(klines, interval){
-  const labels = klines.map(k => ewyToLabel(k[0]));
+  const labels = klines.map(k => ewyToLabel(k[0], interval));
   const closes = klines.map(k => Number(k[4]));
 
   const canvas = document.getElementById("ewyChart");
@@ -446,9 +452,23 @@ function ewyRenderChart(klines, interval){
       },
       scales: {
         x: {
-          ticks: { color: "#9ca3af", maxTicksLimit: 12 },
-          grid: { color: "#374151" }
-        },
+  ticks: {
+    color: "#9ca3af",
+    maxTicksLimit: 8,
+    callback: function(value, index) {
+      const label = this.getLabelForValue(value);
+      if (!label) return "";
+
+      if (interval === "4h" || interval === "1h") {
+        const parts = label.split(" ");
+        return parts.length >= 2 ? [parts[0], parts[1]] : label;
+      }
+
+      return label;
+    }
+  },
+  grid: { color: "#374151" }
+},
         y: {
           ticks: { color: "#9ca3af" },
           grid: { color: "#374151" }
