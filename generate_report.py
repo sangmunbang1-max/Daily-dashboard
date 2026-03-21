@@ -12,6 +12,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 import requests
+from kis_token_manager import get_valid_kis_token
 
 KST = timezone(timedelta(hours=9))
 USE_AUTO_ADJUST = True
@@ -773,29 +774,14 @@ def build_kr_results():
         }
 
     try:
-        token_resp = requests.post(
-            "https://openapi.koreainvestment.com:9443/oauth2/tokenP",
-            json={
-                "grant_type": "client_credentials",
-                "appkey": KIS_APP_KEY,
-                "appsecret": KIS_APP_SECRET,
-            },
-            timeout=20,
-        )
-        token_resp.raise_for_status()
-        token_json = token_resp.json()
-
-        _kis_token = token_json.get("access_token", "")
-        if not _kis_token:
-            raise RuntimeError(f"토큰 응답 이상: {token_json}")
-
-        print("  [KIS] 토큰 발급 성공")
+        _kis_token = get_valid_kis_token()
+        print("  [KIS] 유효 토큰 확보 성공")
 
         run_date = get_run_date_today_kst()
 
         kospi_flow_df = get_market_investor_daily_kis(run_date, "KOSPI", _kis_token)
         kosdaq_flow_df = get_market_investor_daily_kis(run_date, "KOSDAQ", _kis_token)
-
+        
         if not kospi_flow_df.empty:
             print("  [FLOW DEBUG] KOSPI raw top5:")
             print(kospi_flow_df[["stck_bsop_date", "frgn_ntby_tr_pbmn", "orgn_ntby_tr_pbmn"]].head(5).to_string(index=False))
