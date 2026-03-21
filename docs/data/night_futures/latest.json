@@ -1,6 +1,6 @@
 {
-  "generated_at_kst": "2026-03-22T00:34:10.227567+09:00",
-  "biz_date": "2026-03-22",
+  "generated_at_kst": "2026-03-22T00:44:45.112006+09:00",
+  "biz_date": "2026-03-21",
   "session": "night",
   "source": "KIS",
   "note": "live snapshot updated",
@@ -8,26 +8,18 @@
   "series": {
     "kospi": [
       {
-        "time": "00:34",
+        "time": "00:44",
         "price": 862.55,
         "change": -0.6,
-        "change_pct": -0.07,
-        "high": 874.4,
-        "low": 861.05,
-        "symbol": "A01606",
-        "name": "F 202606"
+        "change_pct": -0.07
       }
     ],
     "kosdaq": [
       {
-        "time": "00:34",
+        "time": "00:44",
         "price": 2030.2,
         "change": 38.2,
-        "change_pct": 1.92,
-        "high": 2046.1,
-        "low": 2001.6,
-        "symbol": "A06606",
-        "name": "코스닥150F 202606"
+        "change_pct": 1.92
       }
     ]
   },
@@ -36,25 +28,21 @@
       "last": 862.55,
       "change": -0.6,
       "change_pct": -0.07,
-      "high": 874.4,
-      "low": 861.05,
+      "high": 862.55,
+      "low": 862.55,
       "points": 1
     },
     "kosdaq": {
       "last": 2030.2,
       "change": 38.2,
       "change_pct": 1.92,
-      "high": 2046.1,
-      "low": 2001.6,
+      "high": 2030.2,
+      "low": 2030.2,
       "points": 1
     }
   },
   "meta": {
     "mode": "snapshot",
-    "interval_minutes": 30,
-    "tr_id": "FHPIF05030200",
-    "last_error": null,
-    "selected_symbol_kospi": "A01606",
-    "selected_symbol_kosdaq": "A06606"
+    "interval_minutes": 30
   }
 }
