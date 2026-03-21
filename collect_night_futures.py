@@ -29,8 +29,8 @@ MRKT_DIV_CODE = "F"
 SCR_DIV_CODE = "20503"
 
 # 스펙 기준:
-# 공백: KOSPI200
-# KQI : KOSDAQ150
+# 공백(""): KOSPI200
+# KQI     : KOSDAQ150
 KOSPI_MARKET_CLASS = ""
 KOSDAQ_MARKET_CLASS = "KQI"
 
@@ -105,6 +105,8 @@ def make_empty_payload() -> Dict[str, Any]:
             "interval_minutes": 30,
             "tr_id": TR_ID,
             "last_error": None,
+            "selected_symbol_kospi": None,
+            "selected_symbol_kosdaq": None,
         },
     }
 
@@ -112,6 +114,7 @@ def make_empty_payload() -> Dict[str, Any]:
 def safe_float(v: Any) -> Optional[float]:
     if v is None:
         return None
+
     if isinstance(v, (int, float)):
         if isinstance(v, float) and math.isnan(v):
             return None
@@ -185,12 +188,11 @@ def build_headers(access_token: str) -> Dict[str, str]:
 
 
 def build_params(market_class_code: str) -> Dict[str, str]:
-    params = {
+    return {
         "FID_COND_MRKT_DIV_CODE": MRKT_DIV_CODE,
         "FID_COND_SCR_DIV_CODE": SCR_DIV_CODE,
         "FID_COND_MRKT_CLS_CODE": market_class_code,
     }
-    return params
 
 
 def request_market_snapshot(market_class_code: str, access_token: str) -> Dict[str, Any]:
@@ -204,24 +206,37 @@ def request_market_snapshot(market_class_code: str, access_token: str) -> Dict[s
     return resp.json()
 
 
-def extract_first_output_row(js: Dict[str, Any]) -> Dict[str, Any]:
+def extract_best_output_row(js: Dict[str, Any]) -> Dict[str, Any]:
     rt_cd = str(js.get("rt_cd", ""))
     if rt_cd != "0":
         raise RuntimeError(f"KIS 응답 오류: rt_cd={js.get('rt_cd')} msg={js.get('msg1')}")
 
-    output1 = js.get("output1")
+    output = js.get("output")
+    if output is None:
+        output = js.get("output1")
 
-    if isinstance(output1, list):
-        if not output1:
-            raise RuntimeError(f"output1 비어있음: {js}")
-        if not isinstance(output1[0], dict):
-            raise RuntimeError(f"output1[0] 형식 이상: {js}")
-        return output1[0]
+    if isinstance(output, dict):
+        return output
 
-    if isinstance(output1, dict):
-        return output1
+    if not isinstance(output, list):
+        raise RuntimeError(f"output 형식 이상: {js}")
 
-    raise RuntimeError(f"output1 형식 이상: {js}")
+    rows = [row for row in output if isinstance(row, dict)]
+    if not rows:
+        raise RuntimeError(f"output 비어있음: {js}")
+
+    # 근월물 우선 선택:
+    # 1) 잔존일수 최소
+    # 2) 그다음 거래량 최대
+    def sort_key(row: Dict[str, Any]):
+        rmnn = safe_float(row.get("hts_rmnn_dynu"))
+        vol = safe_float(row.get("acml_vol"))
+        rmnn_val = rmnn if rmnn is not None else 999999
+        vol_val = vol if vol is not None else -1
+        return (rmnn_val, -vol_val)
+
+    rows.sort(key=sort_key)
+    return rows[0]
 
 
 def normalize_snapshot(row: Dict[str, Any], label: str, snap_time: str) -> Dict[str, Any]:
@@ -230,6 +245,8 @@ def normalize_snapshot(row: Dict[str, Any], label: str, snap_time: str) -> Dict[
     change_pct = safe_float(row.get("futs_prdy_ctrt"))
     high = safe_float(row.get("futs_hgpr"))
     low = safe_float(row.get("futs_lwpr"))
+    symbol = row.get("futs_shrn_iscd")
+    name = row.get("hts_kor_isnm")
 
     if price is None:
         raise RuntimeError(f"{label}: futs_prpr 현재가 없음. row={row}")
@@ -241,6 +258,8 @@ def normalize_snapshot(row: Dict[str, Any], label: str, snap_time: str) -> Dict[
         "change_pct": change_pct,
         "high": high,
         "low": low,
+        "symbol": symbol,
+        "name": name,
     }
 
 
@@ -296,15 +315,17 @@ def main() -> None:
 
         # KOSPI200
         kospi_js = request_market_snapshot(KOSPI_MARKET_CLASS, access_token)
-        kospi_row = extract_first_output_row(kospi_js)
+        kospi_row = extract_best_output_row(kospi_js)
         kospi_point = normalize_snapshot(kospi_row, "KOSPI", snap_time)
         append_snapshot(payload, "kospi", kospi_point)
+        payload["meta"]["selected_symbol_kospi"] = kospi_point.get("symbol")
 
         # KOSDAQ150
         kosdaq_js = request_market_snapshot(KOSDAQ_MARKET_CLASS, access_token)
-        kosdaq_row = extract_first_output_row(kosdaq_js)
+        kosdaq_row = extract_best_output_row(kosdaq_js)
         kosdaq_point = normalize_snapshot(kosdaq_row, "KOSDAQ", snap_time)
         append_snapshot(payload, "kosdaq", kosdaq_point)
+        payload["meta"]["selected_symbol_kosdaq"] = kosdaq_point.get("symbol")
 
         payload["note"] = "live snapshot updated"
 
