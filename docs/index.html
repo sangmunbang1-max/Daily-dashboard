@@ -52,12 +52,22 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
   <button class="tab-btn" data-tab="kr">🇰🇷 &nbsp;KR</button>
 </div>
 
-<div class="update-bar">
-  <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-21 07:25 KST</span></div>
-  <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-21 02:44 KST</span></div>
+<div style="max-width:960px;margin:20px auto 0;display:flex;justify-content:flex-end;">
+  <a href="./night_futures.html"
+     style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;
+            padding:10px 16px;border:1px solid #252538;border-radius:8px;
+            background:#161622;color:#d4d4e0;text-decoration:none;">
+    🌙 Night Futures
+  </a>
 </div>
 
-<div id="tab-us" class="tab-content active"><div class="cards-container"><div class="asset-card" style="border-top:3px solid #e53e3e;">
+<div id="tab-us" class="tab-content active">
+  <div class="update-bar">
+    <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-21 07:25 KST</span></div>
+    <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-21 02:44 KST</span></div>
+  </div>
+
+  <div class="cards-container"><div class="asset-card" style="border-top:3px solid #e53e3e;">
       <div class="card-header">
         <div><div class="asset-name">SPY</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:rgba(229,62,62,0.12);color:#e53e3e;border:1px solid #e53e3e44;">매도</div></div>
@@ -117,7 +127,9 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>US 10Y</span><span>4.39%</span></div>
             <div class="detail-row"><span>20일 변화</span><span>+30.5bp</span></div></div>
         </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>50/200일선 하회 + 20일 수익률 음수 → 매도 우선</li><li>10년물 20일 급등 → QQQ 한 단계 하향</li></ul></div>
-    </div></div></div>
+    </div></div>
+</div>
+
 <div id="tab-kr" class="tab-content"><div class="cards-container"><div class="asset-card" style="border-top:3px solid #f5c842;">
       <div class="card-header">
         <div><div class="asset-name">KOSPI</div></div>
