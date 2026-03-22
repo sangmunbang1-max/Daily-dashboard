@@ -1,0 +1,29 @@
+{
+  "generated_at_kst": "2026-03-22 18:39 KST",
+  "news": {
+    "us_market": [],
+    "kr_market": [],
+    "macro": [
+      {
+        "title": "War, Oil And Debt: Which Threats To The US Economy Are Legit?",
+        "description": "This article was written by Brandon Smith and originally published at Birch Gold Group It’s the magic number, the line t",
+        "source": "Activistpost.com",
+        "url": "https://www.activistpost.com/war-oil-and-debt-which-threats-to-the-us-economy-are-legit/",
+        "publishedAt": "2026-03-20"
+      }
+    ],
+    "bonds": [],
+    "commodities": [],
+    "fx": [],
+    "geopolitics": [],
+    "tech": [
+      {
+        "title": "Comparing AI chips: GPU, ASIC, and NPU",
+        "description": "This article breaks down the three main categories of AI chips—GPUs, ASICs, and NPUs—and compares the leading hardware d",
+        "source": "4sysops.com",
+        "url": "https://4sysops.com/archives/comparing-ai-chips-gpu-asic-and-npu/",
+        "publishedAt": "2026-03-20"
+      }
+    ]
+  }
+}
