@@ -8,17 +8,16 @@ DOCS_DIR = "docs"
 DATA_DIR  = f"{DOCS_DIR}/data"
 
 # ── 카테고리 정의 ──────────────────────────────────────────
-CATEGORIES = {
-    "us_market":   ("US stock market S&P500 Nasdaq Dow earnings", "en"),
-    "kr_market":   ("Korea KOSPI KOSDAQ economy Samsung Hyundai", "en"),
-    "macro":       ("Federal Reserve interest rate inflation GDP CPI", "en"),
-    "bonds":       ("treasury bonds yield credit fixed income", "en"),
-    "commodities": ("oil gold copper wheat LNG energy commodities", "en"),
-    "fx":          ("dollar yen euro yuan won currency forex", "en"),
-    "geopolitics": ("trade war tariff sanctions geopolitics Middle East", "en"),
-    "tech":        ("AI semiconductor Nvidia TSMC chip data center", "en"),
+HEADLINE_QUERIES = {
+    "us_market":   {"q": "S&P500 Nasdaq stocks",      "language": "en"},
+    "kr_market":   {"q": "KOSPI Korea stocks",         "language": "en"},
+    "macro":       {"q": "Fed inflation interest rate","language": "en"},
+    "bonds":       {"q": "treasury bonds yield",       "language": "en"},
+    "commodities": {"q": "oil gold energy",            "language": "en"},
+    "fx":          {"q": "dollar forex currency",      "language": "en"},
+    "geopolitics": {"q": "tariff trade war sanctions", "language": "en"},
+    "tech":        {"q": "AI Nvidia semiconductor",    "language": "en"},
 }
-
 SECTION_META = {
     "us_market":   ("US  미국 증시",      "#5b9bd5"),
     "kr_market":   ("KR  한국 증시",      "#00d084"),
