@@ -7,67 +7,79 @@ KST = timezone(timedelta(hours=9))
 DOCS_DIR = "docs"
 DATA_DIR  = f"{DOCS_DIR}/data"
 
-# ── RSS 피드 정의 (API 키 불필요, 완전 무료) ──────────────
+# ── RSS 피드 정의 ──────────────────────────────────────────
 RSS_FEEDS = {
     "us_market": [
         "https://feeds.reuters.com/reuters/businessNews",
         "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=SPY&region=US&lang=en-US",
     ],
     "kr_market": [
-    "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^KS11&region=US&lang=en-US",
-    "https://feeds.finance.yahoo.com/rss/2.0/headline?s=005930.KS&region=US&lang=en-US",
-],
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^KS11&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=005930.KS&region=US&lang=en-US",
+        "https://www.hankyung.com/feed/finance",
+        "https://news.einfomax.co.kr/rss/allArticle.xml",
+    ],
     "macro": [
         "https://feeds.reuters.com/reuters/businessNews",
-        "https://www.federalreserve.gov/feeds/press_all.xml",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^TNX&region=US&lang=en-US",
+        "https://www.hankyung.com/feed/economy",
     ],
     "bonds": [
-        "https://feeds.reuters.com/reuters/businessNews",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=TLT&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=HYG&region=US&lang=en-US",
     ],
     "commodities": [
         "https://feeds.reuters.com/reuters/businessNews",
-        "https://finance.yahoo.com/rss/headline?s=CL=F",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=CL=F&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=GC=F&region=US&lang=en-US",
+        "https://www.hankyung.com/feed/economy",
     ],
     "fx": [
-        "https://feeds.reuters.com/reuters/businessNews",
-        "https://finance.yahoo.com/rss/headline?s=USDKRW=X",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=USDKRW=X&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=DX-Y.NYB&region=US&lang=en-US",
+        "https://www.hankyung.com/feed/finance",
     ],
     "geopolitics": [
         "https://feeds.reuters.com/reuters/worldNews",
-        "https://feeds.reuters.com/Reuters/worldNews",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=USO&region=US&lang=en-US",
+        "https://www.yonhapnews.co.kr/rss/economy.xml",
     ],
     "tech": [
         "https://feeds.reuters.com/reuters/technologyNews",
-        "https://finance.yahoo.com/rss/headline?s=NVDA",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=NVDA&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=TSM&region=US&lang=en-US",
+        "https://www.hankyung.com/feed/it",
     ],
 }
 
-# 카테고리별 필터 키워드
+# ── 키워드 필터 ────────────────────────────────────────────
 KEYWORDS = {
-    "us_market":   ["stock", "nasdaq", "s&p", "dow", "wall street", "equity", "market", "fed", "earnings"],
-    "kr_market": ["korea", "kospi", "kosdaq", "samsung", "hyundai", "seoul", "korean", "south korea", "won", "^ks11"],
-    "macro":       ["fed", "federal reserve", "inflation", "gdp", "interest rate", "cpi", "economy", "recession"],
-    "bonds":       ["treasury", "bond", "yield", "debt", "credit", "fixed income"],
-    "commodities": ["oil", "crude", "gold", "copper", "lng", "energy", "commodity", "opec", "brent", "wti"],
-    "fx":          ["dollar", "currency", "forex", "yuan", "yen", "euro", "won", "exchange rate"],
-    "geopolitics": ["tariff", "trade", "war", "sanction", "iran", "china", "geopolit", "conflict", "nato"],
-    "tech":        ["ai", "semiconductor", "nvidia", "chip", "tech", "tsmc", "samsung", "intel", "data center"],
+    "us_market":   ["stock", "nasdaq", "s&p", "dow", "wall street", "equity", "market", "earnings", "nyse"],
+    "kr_market":   ["korea", "kospi", "kosdaq", "samsung", "hyundai", "seoul", "korean", "south korea", "won", "코스피", "코스닥", "삼성", "현대", "증시", "주식"],
+    "macro":       ["fed", "federal reserve", "inflation", "gdp", "interest rate", "cpi", "economy", "recession", "연준", "금리", "인플레", "경제성장", "기준금리"],
+    "bonds":       ["treasury", "bond", "yield", "debt", "credit", "fixed income", "국채", "채권", "금리", "수익률"],
+    "commodities": ["oil", "crude", "gold", "copper", "lng", "energy", "commodity", "opec", "brent", "wti", "유가", "원유", "금값", "에너지", "원자재"],
+    "fx":          ["dollar", "currency", "forex", "yuan", "yen", "euro", "won", "exchange rate", "환율", "달러", "원화", "외환"],
+    "geopolitics": ["tariff", "trade", "war", "sanction", "iran", "china", "geopolit", "conflict", "nato", "관세", "무역", "전쟁", "제재", "지정학"],
+    "tech":        ["ai", "semiconductor", "nvidia", "chip", "tech", "tsmc", "intel", "data center", "인공지능", "반도체", "엔비디아", "테크"],
 }
 
+# ── 섹션 메타 ──────────────────────────────────────────────
 SECTION_META = {
-    "us_market":   ("US  미국 증시",      "#5b9bd5"),
-    "kr_market":   ("KR  한국 증시",      "#00d084"),
-    "macro":       ("거시경제 · 금리",     "#f97316"),
-    "bonds":       ("채권 · 크레딧",      "#a78bfa"),
-    "commodities": ("원자재 · 에너지",    "#f5c842"),
-    "fx":          ("환율 · 외환",        "#34d399"),
-    "geopolitics": ("지정학 · 무역",      "#f87171"),
-    "tech":        ("AI · 반도체 · 테크", "#c084fc"),
+    "us_market":   ("🇺🇸 미국 증시",      "#5b9bd5"),
+    "kr_market":   ("🇰🇷 한국 증시",      "#00d084"),
+    "macro":       ("🏦 거시경제 · 금리",  "#f97316"),
+    "bonds":       ("📊 채권 · 크레딧",   "#a78bfa"),
+    "commodities": ("🛢 원자재 · 에너지", "#f5c842"),
+    "fx":          ("💱 환율 · 외환",     "#34d399"),
+    "geopolitics": ("⚡ 지정학 · 무역",   "#f87171"),
+    "tech":        ("💡 AI · 반도체",     "#c084fc"),
 }
 
 
 # ── RSS 파싱 ───────────────────────────────────────────────
-def parse_rss(url: str, timeout: int = 10) -> list[dict]:
+def parse_rss(url: str, timeout: int = 10) -> list:
     headers = {"User-Agent": "Mozilla/5.0 (compatible; NewsFetcher/1.0)"}
     try:
         r = requests.get(url, headers=headers, timeout=timeout)
@@ -80,7 +92,6 @@ def parse_rss(url: str, timeout: int = 10) -> list[dict]:
             link  = (item.findtext("link")  or "").strip()
             desc  = (item.findtext("description") or "").strip()
             pub   = (item.findtext("pubDate") or "").strip()
-            # HTML 태그 제거
             desc  = re.sub(r"<[^>]+>", "", desc)[:150]
             title = re.sub(r"<[^>]+>", "", title)
             if title and "[Removed]" not in title:
@@ -97,13 +108,42 @@ def parse_rss(url: str, timeout: int = 10) -> list[dict]:
         return []
 
 
-def fetch_news() -> dict:
-    all_articles: dict[str, list] = {k: [] for k in SECTION_META}
+# ── 번역 ──────────────────────────────────────────────────
+def translate_to_korean(text: str) -> str:
+    """Google Translate 비공식 API — 무료, 키 불필요"""
+    if not text or not text.strip():
+        return text
+    # 이미 한국어면 번역 안 함 (한글 비율 20% 이상)
+    korean_chars = sum(1 for c in text if '\uAC00' <= c <= '\uD7A3')
+    if korean_chars / max(len(text), 1) > 0.2:
+        return text
+    try:
+        r = requests.get(
+            "https://translate.googleapis.com/translate_a/single",
+            params={
+                "client": "gtx",
+                "sl":     "auto",
+                "tl":     "ko",
+                "dt":     "t",
+                "q":      text[:300],
+            },
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=5,
+        )
+        r.raise_for_status()
+        result = r.json()
+        translated = "".join(part[0] for part in result[0] if part[0])
+        return translated
+    except Exception:
+        return text  # 번역 실패 시 원문 반환
 
-    # 1단계: 전체 RSS 수집
+
+# ── 뉴스 수집 ──────────────────────────────────────────────
+def fetch_news() -> dict:
+    result: dict = {k: [] for k in SECTION_META}
     print("  RSS 수집 중...")
-    raw_pool: list[dict] = []
-    fetched_urls = set()
+    raw_pool: list = []
+    fetched_urls: set = set()
 
     for key, urls in RSS_FEEDS.items():
         for url in urls:
@@ -114,25 +154,26 @@ def fetch_news() -> dict:
 
     print(f"  총 {len(raw_pool)}개 기사 수집")
 
-    # 2단계: 키워드 기반 분류
-    seen_titles: set[str] = set()
+    seen_titles: set = set()
     for article in raw_pool:
         text = (article["title"] + " " + article["description"]).lower()
         for key, kws in KEYWORDS.items():
-            if len(all_articles[key]) >= 5:
+            if len(result[key]) >= 5:
                 continue
             if any(kw in text for kw in kws):
                 title_key = article["title"][:40]
                 if title_key not in seen_titles:
-                    all_articles[key].append(article)
+                    # 영어 기사 → 한국어 번역
+                    article["title"]       = translate_to_korean(article["title"])
+                    article["description"] = translate_to_korean(article["description"])
+                    result[key].append(article)
                     seen_titles.add(title_key)
                     break
 
-    # 결과 출력
-    for key, arts in all_articles.items():
+    for key, arts in result.items():
         print(f"  [{key}] {len(arts)}건")
 
-    return all_articles
+    return result
 
 
 # ── HTML 생성 ──────────────────────────────────────────────
@@ -185,28 +226,28 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 @media(max-width:900px){{.grid{{grid-template-columns:1fr 1fr}}}}
 @media(max-width:520px){{.grid{{grid-template-columns:1fr}}}}
 .section-card{{background:#13131f;border:1px solid #252538;border-radius:12px;padding:18px 18px 10px}}
-.section-title{{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;margin-bottom:14px}}
+.section-title{{font-family:"IBM Plex Sans KR",sans-serif;font-size:13px;font-weight:600;margin-bottom:14px}}
 .art-item{{padding:9px 0;border-bottom:1px solid #1a1a28}}
 .art-item:last-child{{border-bottom:none}}
 .art-header{{display:flex;justify-content:space-between;margin-bottom:3px}}
 .art-source{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#5b5b80;font-weight:600}}
 .art-date{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#4a4a6a}}
-.art-title{{font-size:13px;font-weight:600;color:#e0e0f0;line-height:1.5;margin-bottom:3px}}
+.art-title{{font-size:13px;font-weight:600;color:#e0e0f0;line-height:1.6;margin-bottom:3px}}
 .art-title:hover{{color:#c0d8f0}}
-.art-desc{{font-size:12px;color:#8888aa;line-height:1.5}}
+.art-desc{{font-size:12px;color:#8888aa;line-height:1.6}}
 .footer{{max-width:1100px;margin:32px auto 0;text-align:center;font-size:11px;color:#353558;font-family:"IBM Plex Mono",monospace;line-height:2}}
 </style>
 </head>
 <body>
 <div class="page-header">
   <div class="page-title">DAILY NEWS BRIEF</div>
-  <a href="index.html" class="nav-link">DASHBOARD</a>
+  <a href="index.html" class="nav-link">← DASHBOARD</a>
 </div>
-<div class="meta-bar">업데이트: {generated_at} &nbsp;|&nbsp; Reuters RSS · Yahoo Finance RSS</div>
+<div class="meta-bar">업데이트: {generated_at} &nbsp;|&nbsp; Reuters · Yahoo Finance · 한국경제 · 연합뉴스</div>
 <div class="grid">{sections_html}</div>
 <div class="footer">
-  <p>매일 07:30 KST 자동 갱신 &nbsp;|&nbsp; API 키 불필요</p>
-  <p><a href="index.html" style="color:#5b9bd5;text-decoration:none;">Dashboard</a></p>
+  <p>매일 07:30 KST 자동 갱신 &nbsp;|&nbsp; API 키 불필요 · 완전 무료</p>
+  <p><a href="index.html" style="color:#5b9bd5;text-decoration:none;">← Market Decision Dashboard</a></p>
 </div>
 </body>
 </html>"""
