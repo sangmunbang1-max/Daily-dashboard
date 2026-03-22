@@ -1,11 +1,58 @@
 # -*- coding: utf-8 -*-
-import os, json, requests
+import os, json, re, requests
 from datetime import datetime, timedelta, timezone
+from xml.etree import ElementTree as ET
 
 KST = timezone(timedelta(hours=9))
-NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "")
 DOCS_DIR = "docs"
 DATA_DIR  = f"{DOCS_DIR}/data"
+
+# ── RSS 피드 정의 (API 키 불필요, 완전 무료) ──────────────
+RSS_FEEDS = {
+    "us_market": [
+        "https://feeds.reuters.com/reuters/businessNews",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
+    ],
+    "kr_market": [
+        "https://feeds.reuters.com/reuters/AsianBusinessNews",
+        "https://finance.yahoo.com/rss/headline?s=^KS11",
+    ],
+    "macro": [
+        "https://feeds.reuters.com/reuters/businessNews",
+        "https://www.federalreserve.gov/feeds/press_all.xml",
+    ],
+    "bonds": [
+        "https://feeds.reuters.com/reuters/businessNews",
+    ],
+    "commodities": [
+        "https://feeds.reuters.com/reuters/businessNews",
+        "https://finance.yahoo.com/rss/headline?s=CL=F",
+    ],
+    "fx": [
+        "https://feeds.reuters.com/reuters/businessNews",
+        "https://finance.yahoo.com/rss/headline?s=USDKRW=X",
+    ],
+    "geopolitics": [
+        "https://feeds.reuters.com/reuters/worldNews",
+        "https://feeds.reuters.com/Reuters/worldNews",
+    ],
+    "tech": [
+        "https://feeds.reuters.com/reuters/technologyNews",
+        "https://finance.yahoo.com/rss/headline?s=NVDA",
+    ],
+}
+
+# 카테고리별 필터 키워드
+KEYWORDS = {
+    "us_market":   ["stock", "nasdaq", "s&p", "dow", "wall street", "equity", "market", "fed", "earnings"],
+    "kr_market":   ["korea", "kospi", "kosdaq", "samsung", "hyundai", "seoul", "korean"],
+    "macro":       ["fed", "federal reserve", "inflation", "gdp", "interest rate", "cpi", "economy", "recession"],
+    "bonds":       ["treasury", "bond", "yield", "debt", "credit", "fixed income"],
+    "commodities": ["oil", "crude", "gold", "copper", "lng", "energy", "commodity", "opec", "brent", "wti"],
+    "fx":          ["dollar", "currency", "forex", "yuan", "yen", "euro", "won", "exchange rate"],
+    "geopolitics": ["tariff", "trade", "war", "sanction", "iran", "china", "geopolit", "conflict", "nato"],
+    "tech":        ["ai", "semiconductor", "nvidia", "chip", "tech", "tsmc", "samsung", "intel", "data center"],
+}
 
 SECTION_META = {
     "us_market":   ("US  미국 증시",      "#5b9bd5"),
@@ -18,66 +65,77 @@ SECTION_META = {
     "tech":        ("AI · 반도체 · 테크", "#c084fc"),
 }
 
-QUERIES = {
-    "us_market":   "S&P500 Nasdaq stocks",
-    "kr_market":   "KOSPI Korea stocks",
-    "macro":       "Fed inflation interest rate",
-    "bonds":       "treasury bonds yield",
-    "commodities": "oil gold energy",
-    "fx":          "dollar forex currency",
-    "geopolitics": "tariff trade war sanctions",
-    "tech":        "AI Nvidia semiconductor",
-}
+
+# ── RSS 파싱 ───────────────────────────────────────────────
+def parse_rss(url: str, timeout: int = 10) -> list[dict]:
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; NewsFetcher/1.0)"}
+    try:
+        r = requests.get(url, headers=headers, timeout=timeout)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        items = root.findall(".//item")
+        result = []
+        for item in items[:20]:
+            title = (item.findtext("title") or "").strip()
+            link  = (item.findtext("link")  or "").strip()
+            desc  = (item.findtext("description") or "").strip()
+            pub   = (item.findtext("pubDate") or "").strip()
+            # HTML 태그 제거
+            desc  = re.sub(r"<[^>]+>", "", desc)[:150]
+            title = re.sub(r"<[^>]+>", "", title)
+            if title and "[Removed]" not in title:
+                result.append({
+                    "title":       title,
+                    "description": desc,
+                    "url":         link,
+                    "source":      url.split("/")[2].replace("feeds.", "").replace("www.", ""),
+                    "publishedAt": pub[:16],
+                })
+        return result
+    except Exception as e:
+        print(f"    RSS 오류 ({url[:50]}): {e}")
+        return []
+
 
 def fetch_news() -> dict:
-    if not NEWSAPI_KEY:
-        print("[WARN] NEWSAPI_KEY 없음 -> 빈 결과")
-        return {k: [] for k in SECTION_META}
+    all_articles: dict[str, list] = {k: [] for k in SECTION_META}
 
-    result = {}
-    for key, query in QUERIES.items():
-        try:
-            r = requests.get(
-                "https://newsapi.org/v2/top-headlines",
-                params={
-                    "q":        query,
-                    "language": "en",
-                    "sortBy":   "publishedAt",
-                    "pageSize": 5,
-                },
-                headers={"X-Api-Key": NEWSAPI_KEY},
-                timeout=15,
-            )
-            r.raise_for_status()
-            articles = r.json().get("articles", [])
-            result[key] = [
-                {
-                    "title":       a.get("title", "").split(" - ")[0].strip(),
-                    "description": (a.get("description") or "")[:120],
-                    "source":      a.get("source", {}).get("name", ""),
-                    "url":         a.get("url", ""),
-                    "publishedAt": a.get("publishedAt", "")[:10],
-                }
-                for a in articles
-                if a.get("title") and "[Removed]" not in a.get("title", "")
-            ]
-            print(f"  [{key}] {len(result[key])}건 수집")
-        except Exception as e:
-            print(f"  [{key}] 수집 오류: {e}")
-            result[key] = []
+    # 1단계: 전체 RSS 수집
+    print("  RSS 수집 중...")
+    raw_pool: list[dict] = []
+    fetched_urls = set()
 
-    return result
+    for key, urls in RSS_FEEDS.items():
+        for url in urls:
+            if url not in fetched_urls:
+                items = parse_rss(url)
+                raw_pool.extend(items)
+                fetched_urls.add(url)
+
+    print(f"  총 {len(raw_pool)}개 기사 수집")
+
+    # 2단계: 키워드 기반 분류
+    seen_titles: set[str] = set()
+    for article in raw_pool:
+        text = (article["title"] + " " + article["description"]).lower()
+        for key, kws in KEYWORDS.items():
+            if len(all_articles[key]) >= 5:
+                continue
+            if any(kw in text for kw in kws):
+                title_key = article["title"][:40]
+                if title_key not in seen_titles:
+                    all_articles[key].append(article)
+                    seen_titles.add(title_key)
+                    break
+
+    # 결과 출력
+    for key, arts in all_articles.items():
+        print(f"  [{key}] {len(arts)}건")
+
+    return all_articles
 
 
-def fmt_date(iso: str) -> str:
-    try:
-        return datetime.fromisoformat(
-            iso.replace("Z", "+00:00")
-        ).astimezone(KST).strftime("%m/%d")
-    except:
-        return iso[:10] if iso else ""
-
-
+# ── HTML 생성 ──────────────────────────────────────────────
 def generate_html(news: dict, generated_at: str) -> str:
     sections_html = ""
     for key, (title, color) in SECTION_META.items():
@@ -87,17 +145,16 @@ def generate_html(news: dict, generated_at: str) -> str:
         else:
             items_html = ""
             for a in articles:
-                date_str  = fmt_date(a.get("publishedAt", ""))
-                desc      = a.get("description", "")
+                desc = a.get("description", "")
                 desc_html = f'<p class="art-desc">{desc}</p>' if desc else ""
-                url       = a.get("url", "")
+                url = a.get("url", "")
                 lo = f'<a href="{url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">' if url else "<span>"
                 lc = "</a>" if url else "</span>"
                 items_html += f"""<div class="art-item">
   {lo}
   <div class="art-header">
     <span class="art-source">{a.get('source','')}</span>
-    <span class="art-date">{date_str}</span>
+    <span class="art-date">{a.get('publishedAt','')}</span>
   </div>
   <p class="art-title">{a.get('title','')}</p>
   {desc_html}
@@ -135,6 +192,7 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 .art-source{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#5b5b80;font-weight:600}}
 .art-date{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#4a4a6a}}
 .art-title{{font-size:13px;font-weight:600;color:#e0e0f0;line-height:1.5;margin-bottom:3px}}
+.art-title:hover{{color:#c0d8f0}}
 .art-desc{{font-size:12px;color:#8888aa;line-height:1.5}}
 .footer{{max-width:1100px;margin:32px auto 0;text-align:center;font-size:11px;color:#353558;font-family:"IBM Plex Mono",monospace;line-height:2}}
 </style>
@@ -144,16 +202,17 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
   <div class="page-title">DAILY NEWS BRIEF</div>
   <a href="index.html" class="nav-link">DASHBOARD</a>
 </div>
-<div class="meta-bar">업데이트: {generated_at} &nbsp;|&nbsp; NewsAPI</div>
+<div class="meta-bar">업데이트: {generated_at} &nbsp;|&nbsp; Reuters RSS · Yahoo Finance RSS</div>
 <div class="grid">{sections_html}</div>
 <div class="footer">
-  <p>매일 07:30 KST 자동 갱신</p>
+  <p>매일 07:30 KST 자동 갱신 &nbsp;|&nbsp; API 키 불필요</p>
   <p><a href="index.html" style="color:#5b9bd5;text-decoration:none;">Dashboard</a></p>
 </div>
 </body>
 </html>"""
 
 
+# ── 메인 ──────────────────────────────────────────────────
 if __name__ == "__main__":
     os.makedirs(DATA_DIR, exist_ok=True)
     now = datetime.now(KST)
