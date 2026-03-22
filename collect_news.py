@@ -126,13 +126,14 @@ def generate_html(news: dict, generated_at: str) -> str:
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
 body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}}
-.page-header{{max-width:820px;margin:0 auto 28px;border-bottom:1px solid #252538;padding-bottom:20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}}
+.page-header{{max-width:1100px;margin:0 auto 28px;border-bottom:1px solid #252538;padding-bottom:20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}}
 .page-title{{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#f0f0f8;letter-spacing:-0.5px}}
 .nav-link{{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#5b9bd5;text-decoration:none;border:1px solid #252538;padding:6px 14px;border-radius:6px}}
 .nav-link:hover{{background:#161622}}
-.meta-bar{{max-width:820px;margin:0 auto 24px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:#5b5b80}}
-.grid{{max-width:820px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:16px}}
-@media(max-width:600px){{.grid{{grid-template-columns:1fr}}}}
+.meta-bar{{max-width:1100px;margin:0 auto 24px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:#5b5b80}}
+.grid{{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}}
+@media(max-width:900px){{.grid{{grid-template-columns:1fr 1fr}}}}
+@media(max-width:520px){{.grid{{grid-template-columns:1fr}}}}
 .section-card{{background:#13131f;border:1px solid #252538;border-radius:12px;padding:20px 20px 12px}}
 .section-title{{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;margin-bottom:14px}}
 .art-item{{padding:10px 0;border-bottom:1px solid #1a1a28}}
@@ -143,7 +144,7 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 .art-date{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#4a4a6a}}
 .art-title{{font-size:13px;font-weight:600;color:#e0e0f0;line-height:1.5;margin-bottom:4px}}
 .art-desc{{font-size:12px;color:#8888aa;line-height:1.6}}
-.footer{{max-width:820px;margin:32px auto 0;text-align:center;font-size:11px;color:#353558;font-family:"IBM Plex Mono",monospace;line-height:2}}
+.footer{{max-width:1100px;margin:32px auto 0;text-align:center;font-size:11px;color:#353558;font-family:"IBM Plex Mono",monospace;line-height:2}}
 </style>
 </head>
 <body>
