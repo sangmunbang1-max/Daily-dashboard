@@ -308,15 +308,14 @@ class KRXDataProvider:
 
 
 # =========================================================
-# KIS Flow Helpers (최소 수정 통합)
+# KIS Flow Helpers
 # =========================================================
 def get_market_investor_daily_kis(run_date: str, market_name: str, token: str) -> pd.DataFrame:
     market_map = {
-        "KOSPI": {"market": "KSP", "iscd": "0001"},
+        "KOSPI":  {"market": "KSP", "iscd": "0001"},
         "KOSDAQ": {"market": "KSQ", "iscd": "1001"},
     }
     info = market_map[market_name]
-
     headers = {
         "content-type": "application/json; charset=utf-8",
         "authorization": f"Bearer {token}",
@@ -325,7 +324,6 @@ def get_market_investor_daily_kis(run_date: str, market_name: str, token: str) -
         "tr_id": "FHPTJ04040000",
         "custtype": "P",
     }
-
     params = {
         "FID_COND_MRKT_DIV_CODE": "U",
         "FID_INPUT_ISCD": info["iscd"],
@@ -334,34 +332,25 @@ def get_market_investor_daily_kis(run_date: str, market_name: str, token: str) -
         "FID_INPUT_DATE_2": run_date,
         "FID_INPUT_ISCD_2": info["iscd"],
     }
-
     r = requests.get(
         "https://openapi.koreainvestment.com:9443/uapi/domestic-stock/v1/quotations/inquire-investor-daily-by-market",
-        headers=headers,
-        params=params,
-        timeout=20,
+        headers=headers, params=params, timeout=20,
     )
     r.raise_for_status()
     data = r.json()
-
     if data.get("rt_cd") != "0":
         raise RuntimeError(f"{market_name} 조회 실패: {data}")
-
     output = data.get("output", [])
     if not output:
         return pd.DataFrame()
-
     df = pd.DataFrame(output)
-
     need = ["stck_bsop_date", "frgn_ntby_tr_pbmn", "orgn_ntby_tr_pbmn"]
     miss = [c for c in need if c not in df.columns]
     if miss:
         raise RuntimeError(f"{market_name} 필수 컬럼 누락: {miss}")
-
     for c in df.columns:
         if c != "stck_bsop_date":
             df[c] = pd.to_numeric(df[c], errors="coerce")
-
     df["stck_bsop_date"] = df["stck_bsop_date"].astype(str)
     df = df.sort_values("stck_bsop_date", ascending=False).reset_index(drop=True)
     return df
@@ -603,7 +592,7 @@ def score_turnover(turnover_series, asset):
 
 def score_flow_by_market(flow_1d, flow_5d, flow_20d, turnover_series, asset):
     tc_raw = float(turnover_series.dropna().iloc[-1]) if len(turnover_series.dropna()) else np.nan
-    tc = tc_raw / 1e8 if pd.notna(tc_raw) else np.nan  # 억원
+    tc = tc_raw / 1e8 if pd.notna(tc_raw) else np.nan
     f1 = flow_1d["foreign_net_buy"]; f5 = flow_5d["foreign_net_buy"]; f20 = flow_20d["foreign_net_buy"]
     f5r = f5 / (tc * 5) if pd.notna(tc) and tc != 0 else np.nan
     f20r = f20 / (tc * 20) if pd.notna(tc) and tc != 0 else np.nan
@@ -746,58 +735,37 @@ def build_kr_results():
     kqt = krx.load_turnover_series(ac, "KOSDAQ", cache)
     save_krx_cache(cache)
 
-    # ===== KIS 수급: 최소 수정 버전 =====
     def _empty_flow(w):
-        return {
-            "window": w,
-            "foreign_net_buy": np.nan,
-            "institution_net_buy": np.nan,
-            "combined_net_buy": np.nan,
-        }
+        return {"window": w, "foreign_net_buy": np.nan, "institution_net_buy": np.nan, "combined_net_buy": np.nan}
 
     def _snap_from_df(df, market_name, w):
         if df.empty:
             return _empty_flow(w)
-
         n = min(w, len(df))
         sub = df.iloc[:n].copy()
-
-        fg = float(sub["frgn_ntby_tr_pbmn"].sum()) / 100.0   # 백만원 -> 억원
-        ins = float(sub["orgn_ntby_tr_pbmn"].sum()) / 100.0  # 백만원 -> 억원
-
+        fg  = float(sub["frgn_ntby_tr_pbmn"].sum()) / 100.0
+        ins = float(sub["orgn_ntby_tr_pbmn"].sum()) / 100.0
         print(f"  [FLOW] {market_name} {w}D({n}행): 외국인={fg:.0f}억, 기관={ins:.0f}억")
-        return {
-            "window": w,
-            "foreign_net_buy": fg,
-            "institution_net_buy": ins,
-            "combined_net_buy": fg + ins,
-        }
+        return {"window": w, "foreign_net_buy": fg, "institution_net_buy": ins, "combined_net_buy": fg + ins}
 
     try:
         _kis_token = get_valid_kis_token()
         print("  [KIS] 유효 토큰 확보 성공")
-
         run_date = get_run_date_today_kst()
-
-        kospi_flow_df = get_market_investor_daily_kis(run_date, "KOSPI", _kis_token)
+        kospi_flow_df  = get_market_investor_daily_kis(run_date, "KOSPI",  _kis_token)
         kosdaq_flow_df = get_market_investor_daily_kis(run_date, "KOSDAQ", _kis_token)
-        
         if not kospi_flow_df.empty:
             print("  [FLOW DEBUG] KOSPI raw top5:")
-            print(kospi_flow_df[["stck_bsop_date", "frgn_ntby_tr_pbmn", "orgn_ntby_tr_pbmn"]].head(5).to_string(index=False))
-
+            print(kospi_flow_df[["stck_bsop_date","frgn_ntby_tr_pbmn","orgn_ntby_tr_pbmn"]].head(5).to_string(index=False))
         if not kosdaq_flow_df.empty:
             print("  [FLOW DEBUG] KOSDAQ raw top5:")
-            print(kosdaq_flow_df[["stck_bsop_date", "frgn_ntby_tr_pbmn", "orgn_ntby_tr_pbmn"]].head(5).to_string(index=False))
-
-        kf1 = _snap_from_df(kospi_flow_df, "KOSPI", 1)
-        kf5 = _snap_from_df(kospi_flow_df, "KOSPI", 5)
-        kf20 = _snap_from_df(kospi_flow_df, "KOSPI", 20)
-
-        qf1 = _snap_from_df(kosdaq_flow_df, "KOSDAQ", 1)
-        qf5 = _snap_from_df(kosdaq_flow_df, "KOSDAQ", 5)
+            print(kosdaq_flow_df[["stck_bsop_date","frgn_ntby_tr_pbmn","orgn_ntby_tr_pbmn"]].head(5).to_string(index=False))
+        kf1  = _snap_from_df(kospi_flow_df,  "KOSPI",  1)
+        kf5  = _snap_from_df(kospi_flow_df,  "KOSPI",  5)
+        kf20 = _snap_from_df(kospi_flow_df,  "KOSPI",  20)
+        qf1  = _snap_from_df(kosdaq_flow_df, "KOSDAQ", 1)
+        qf5  = _snap_from_df(kosdaq_flow_df, "KOSDAQ", 5)
         qf20 = _snap_from_df(kosdaq_flow_df, "KOSDAQ", 20)
-
     except Exception as e:
         print(f"  [KIS WARN] 수급 조회 실패: {e}")
         kf1, kf5, kf20 = _empty_flow(1), _empty_flow(5), _empty_flow(20)
@@ -805,19 +773,25 @@ def build_kr_results():
 
     results = {}
     for asset, price, turnover, flow_1d, flow_5d, flow_20d, trend_fn in [
-        ("KOSPI", kospi, kt, kf1, kf5, kf20, score_trend_kospi),
+        ("KOSPI",  kospi,  kt,  kf1, kf5, kf20, score_trend_kospi),
         ("KOSDAQ", kosdaq, kqt, qf1, qf5, qf20, score_trend_kosdaq),
     ]:
-        ts, tm = trend_fn(price); vs, vm = score_vkospi(vkospi); xs, xm = score_tactical_kr(price, asset)
-        ls, lm = score_leadership(lr, asset); ms, mm = score_turnover(turnover, asset)
+        ts, tm = trend_fn(price);       vs, vm = score_vkospi(vkospi)
+        xs, xm = score_tactical_kr(price, asset)
+        ls, lm = score_leadership(lr, asset)
+        ms, mm = score_turnover(turnover, asset)
         fs, fm = score_flow_by_market(flow_1d, flow_5d, flow_20d, turnover, asset)
-        fxs, fxm = score_fx_usdkrw(usdkrw, asset); os_, om = score_oil_wti(wti, asset)
-        total = int(ts + vs + xs + ls + ms + fs + fxs + os_); raw = classify_signal(total)
+        fxs, fxm = score_fx_usdkrw(usdkrw, asset)
+        os_, om  = score_oil_wti(wti, asset)
+        total = int(ts + vs + xs + ls + ms + fs + fxs + os_)
+        raw   = classify_signal(total)
         final, reasons = apply_guardrails_kr(raw, asset, tm, vm, lm, fm, fxm, om)
         results[asset] = AssetResult(
             asset=asset, total_score=total, raw_signal=raw, final_signal=final,
-            module_scores={"trend": ts, "vkospi": vs, "tactical": xs, "leadership": ls, "turnover": ms, "flow": fs, "fx": fxs, "oil": os_},
-            module_meta={"trend": tm, "vkospi": vm, "tactical": xm, "leadership": lm, "turnover": mm, "flow": fm, "fx": fxm, "oil": om},
+            module_scores={"trend": ts, "vkospi": vs, "tactical": xs, "leadership": ls,
+                           "turnover": ms, "flow": fs, "fx": fxs, "oil": os_},
+            module_meta={"trend": tm, "vkospi": vm, "tactical": xm, "leadership": lm,
+                         "turnover": mm, "flow": fm, "fx": fxm, "oil": om},
             guardrail_reasons=reasons
         )
     return results
@@ -840,13 +814,10 @@ def score_bar(score, max_score=100):
 def fmt(v, fmt_str=".2f"):
     if v is None or (isinstance(v, float) and np.isnan(v)):
         return "<span style='color:#4a4a6a'>—</span>"
-    if fmt_str == "pct":
-        return f"{v*100:.2f}%"
-    if fmt_str == "bp":
-        return f"{v:+.1f}bp"
+    if fmt_str == "pct":  return f"{v*100:.2f}%"
+    if fmt_str == "bp":   return f"{v:+.1f}bp"
     if fmt_str == "억":
-        if abs(v) >= 10000:
-            return f"{v/10000:.1f}조"
+        if abs(v) >= 10000: return f"{v/10000:.1f}조"
         return f"{v:+,.0f}억"
     return f"{v:{fmt_str}}"
 
@@ -863,7 +834,9 @@ def make_card(r, ms):
     labels = {"trend": "추세", "vix": "VIX", "vkospi": "VKOSPI", "tactical": "전술", "breadth": "Breadth",
               "leadership": "리더십", "turnover": "거래대금", "flow": "수급", "rates": "금리", "fx": "환율", "oil": "유가"}
     module_rows = "".join(
-        f'<div class="mod-row"><span class="mod-label">{labels.get(mod,mod)}</span><span class="mod-score">{s}<span style="color:#4a4a6a">/{ms.get(mod,20)}</span></span>{score_bar(s,ms.get(mod,20))}</div>'
+        f'<div class="mod-row"><span class="mod-label">{labels.get(mod,mod)}</span>'
+        f'<span class="mod-score">{s}<span style="color:#4a4a6a">/{ms.get(mod,20)}</span></span>'
+        f'{score_bar(s,ms.get(mod,20))}</div>'
         for mod, s in r.module_scores.items()
     )
     raw_eq = f'<span style="color:#6060a0;font-size:11px;">원신호: {r.raw_signal}</span>' if r.raw_signal != r.final_signal else ""
@@ -940,15 +913,40 @@ def make_card(r, ms):
 
 
 # =========================================================
-# HTML Generation
+# HTML Generation  ← 야간선물 버튼 + EWY 서브탭 복원
 # =========================================================
 def generate_html(us_results, kr_results, us_updated, kr_updated):
-    us_max = {"SPY": {"trend": 35, "vix": 25, "tactical": 15, "breadth": 15, "rates": 10},
-              "QQQ": {"trend": 30, "vix": 25, "tactical": 15, "breadth": 10, "rates": 20}}
-    kr_max = {"KOSPI": {"trend": 40, "vkospi": 27, "tactical": 17, "leadership": 6, "turnover": 12, "flow": 20, "fx": 20, "oil": 10},
-              "KOSDAQ": {"trend": 36, "vkospi": 27, "tactical": 17, "leadership": 12, "turnover": 12, "flow": 18, "fx": 20, "oil": 10}}
-    us_cards = "".join(make_card(r, us_max.get(a, {})) for a, r in us_results.items())
-    kr_cards = "".join(make_card(r, kr_max.get(a, {})) for a, r in kr_results.items())
+    us_max = {
+        "SPY": {"trend": 35, "vix": 25, "tactical": 15, "breadth": 15, "rates": 10},
+        "QQQ": {"trend": 30, "vix": 25, "tactical": 15, "breadth": 10, "rates": 20},
+    }
+    kr_max = {
+        "KOSPI":  {"trend": 40, "vkospi": 27, "tactical": 17, "leadership":  6, "turnover": 12, "flow": 20, "fx": 20, "oil": 10},
+        "KOSDAQ": {"trend": 36, "vkospi": 27, "tactical": 17, "leadership": 12, "turnover": 12, "flow": 18, "fx": 20, "oil": 10},
+    }
+    us_cards    = "".join(make_card(r, us_max.get(a, {})) for a, r in us_results.items())
+    kospi_card  = make_card(kr_results["KOSPI"],  kr_max["KOSPI"])  if "KOSPI"  in kr_results else ""
+    kosdaq_card = make_card(kr_results["KOSDAQ"], kr_max["KOSDAQ"]) if "KOSDAQ" in kr_results else ""
+
+    # EWY 카드: ewy.html을 iframe으로 임베드 + 외부 링크
+    ewy_card = '''
+<div class="asset-card" style="border-top:3px solid #60a5fa;grid-column:1/-1;">
+  <div class="card-header">
+    <div>
+      <div class="asset-name" style="font-size:22px;">EWY &nbsp;·&nbsp; EWYUSDT Perp</div>
+      <div style="font-size:12px;color:#9090b8;margin-top:4px;">Binance USDⓈ-M Futures · 24시간 라인차트</div>
+    </div>
+    <a href="ewy.html" target="_blank"
+       style="font-family:'IBM Plex Mono',monospace;font-size:12px;padding:7px 16px;
+              border-radius:8px;background:#1f2937;color:#f9fafb;
+              border:1px solid #374151;text-decoration:none;">전체 보기 ↗</a>
+  </div>
+  <iframe src="ewy.html"
+          style="width:100%;height:520px;border:none;border-radius:10px;
+                 background:#0b1220;margin-top:8px;"
+          loading="lazy"></iframe>
+</div>'''
+
     return f'''<!DOCTYPE html>
 <html lang="ko"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -959,16 +957,47 @@ def generate_html(us_results, kr_results, us_updated, kr_updated):
 body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}}
 .page-header{{max-width:960px;margin:0 auto 28px;border-bottom:1px solid #252538;padding-bottom:20px}}
 .page-title{{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#f0f0f8;letter-spacing:-0.5px}}
+
+/* ── 메인 탭 ── */
 .tab-bar{{max-width:960px;margin:0 auto;display:flex;gap:0;border-bottom:2px solid #252538}}
-.tab-btn{{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;padding:12px 36px;border:none;background:#161622;color:#7070a0;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;transition:color .15s,border-color .15s;letter-spacing:0.5px;-webkit-appearance:none;-moz-appearance:none;appearance:none}}
+.tab-btn{{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;padding:12px 36px;
+          border:none;background:#161622;color:#7070a0;cursor:pointer;
+          border-bottom:3px solid transparent;margin-bottom:-2px;
+          transition:color .15s,border-color .15s;letter-spacing:0.5px;
+          -webkit-appearance:none;-moz-appearance:none;appearance:none}}
 .tab-btn:hover{{color:#c0c0e0;background:#1e1e30}}
 .tab-btn.active{{color:#f0f0f8;border-bottom-color:#5b9bd5;background:#0d0d14}}
 .tab-content{{display:none}}.tab-content.active{{display:block}}
+
+/* ── KR 서브탭 ── */
+.sub-tab-bar{{max-width:960px;margin:16px auto 0;display:flex;gap:0;border-bottom:1px solid #252538}}
+.sub-tab-btn{{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;
+              padding:8px 24px;border:none;background:transparent;color:#7070a0;
+              cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;
+              transition:color .15s,border-color .15s;
+              -webkit-appearance:none;appearance:none}}
+.sub-tab-btn:hover{{color:#c0c0e0}}
+.sub-tab-btn.active{{color:#f0f0f8;border-bottom-color:#60a5fa}}
+.sub-tab-content{{display:none}}.sub-tab-content.active{{display:block}}
+
+/* ── 야간선물 버튼 ── */
+.night-btn-wrap{{max-width:960px;margin:14px auto 0;display:flex;justify-content:flex-end}}
+.night-btn{{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;
+            padding:8px 18px;border-radius:8px;background:#1a1a2e;color:#60a5fa;
+            border:1px solid #60a5fa44;text-decoration:none;
+            display:inline-flex;align-items:center;gap:6px;
+            transition:background .15s,border-color .15s}}
+.night-btn:hover{{background:#1f1f38;border-color:#60a5fa88}}
+
+/* ── 공통 ── */
 .update-bar{{max-width:960px;margin:20px auto 28px;display:flex;gap:12px;flex-wrap:wrap}}
-.update-badge{{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:6px 14px;border-radius:6px;border:1px solid #252538;background:#161622;display:flex;align-items:center;gap:8px}}
+.update-badge{{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:6px 14px;
+               border-radius:6px;border:1px solid #252538;background:#161622;
+               display:flex;align-items:center;gap:8px}}
 .update-badge .label{{color:#8888aa;font-weight:600}}
 .update-badge .time{{color:#b0b0cc}}
-.cards-container{{max-width:960px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:24px}}
+.cards-container{{max-width:960px;margin:0 auto;display:grid;
+                  grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:24px}}
 .asset-card{{background:#13131f;border:1px solid #252538;border-radius:14px;padding:28px;transition:border-color .2s}}
 .asset-card:hover{{border-color:#353558}}
 .card-header{{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px}}
@@ -992,24 +1021,60 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
   .cards-container{{grid-template-columns:1fr}}
   .details-grid{{grid-template-columns:1fr}}
   .tab-btn{{padding:10px 20px;font-size:13px}}
+  .sub-tab-btn{{padding:7px 14px;font-size:11px}}
 }}
 </style></head><body>
+
 <div class="page-header">
   <div class="page-title">MARKET DECISION DASHBOARD</div>
 </div>
 
+<!-- 메인 탭바 -->
 <div class="tab-bar">
   <button class="tab-btn active" data-tab="us">🇺🇸 &nbsp;US</button>
   <button class="tab-btn" data-tab="kr">🇰🇷 &nbsp;KR</button>
-  <a href="news.html" style="font-family:\'IBM Plex Mono\',monospace;font-size:14px;font-weight:600;padding:12px 28px;background:#161622;color:#7070a0;text-decoration:none;display:flex;align-items:center;border-bottom:3px solid transparent;">NEWS</a>
+  <a href="news.html"
+     style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;
+            padding:12px 28px;background:#161622;color:#7070a0;text-decoration:none;
+            display:flex;align-items:center;border-bottom:3px solid transparent;">NEWS</a>
 </div>
+
 <div class="update-bar">
   <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">{us_updated}</span></div>
   <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">{kr_updated}</span></div>
 </div>
 
-<div id="tab-us" class="tab-content active"><div class="cards-container">{us_cards}</div></div>
-<div id="tab-kr" class="tab-content"><div class="cards-container">{kr_cards}</div></div>
+<!-- US 탭 -->
+<div id="tab-us" class="tab-content active">
+  <div class="cards-container">{us_cards}</div>
+</div>
+
+<!-- KR 탭 -->
+<div id="tab-kr" class="tab-content">
+
+  <!-- 🌙 야간선물 버튼 -->
+  <div class="night-btn-wrap">
+    <a class="night-btn" href="night_futures.html" target="_blank">🌙 야간선물 Night Futures ↗</a>
+  </div>
+
+  <!-- KR 서브탭 -->
+  <div class="sub-tab-bar">
+    <button class="sub-tab-btn active" data-subtab="kospi">KOSPI</button>
+    <button class="sub-tab-btn"        data-subtab="kosdaq">KOSDAQ</button>
+    <button class="sub-tab-btn"        data-subtab="ewy">EWY</button>
+  </div>
+
+  <div id="subtab-kospi"  class="sub-tab-content active">
+    <div class="cards-container" style="margin-top:24px;">{kospi_card}</div>
+  </div>
+  <div id="subtab-kosdaq" class="sub-tab-content">
+    <div class="cards-container" style="margin-top:24px;">{kosdaq_card}</div>
+  </div>
+  <div id="subtab-ewy"    class="sub-tab-content">
+    <div class="cards-container" style="margin-top:24px;">{ewy_card}</div>
+  </div>
+
+</div>
 
 <div class="footer">
   <p>score ≥ 70 → 매수 &nbsp;|&nbsp; 40–69 → 보유 &nbsp;|&nbsp; &lt; 40 → 매도</p>
@@ -1018,23 +1083,36 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 
 <script>
 (function(){{
-  var btns = document.querySelectorAll('.tab-btn');
-  btns.forEach(function(btn){{
+  /* 메인 탭 */
+  document.querySelectorAll('.tab-btn[data-tab]').forEach(function(btn){{
     btn.addEventListener('click', function(){{
       var name = this.getAttribute('data-tab');
       document.querySelectorAll('.tab-content').forEach(function(el){{el.classList.remove('active');}});
-      document.querySelectorAll('.tab-btn').forEach(function(el){{el.classList.remove('active');}});
+      document.querySelectorAll('.tab-btn[data-tab]').forEach(function(el){{el.classList.remove('active');}});
       document.getElementById('tab-' + name).classList.add('active');
       this.classList.add('active');
       try{{localStorage.setItem('lastTab', name);}}catch(e){{}}
     }});
   }});
+
+  /* KR 서브탭 */
+  document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(btn){{
+    btn.addEventListener('click', function(){{
+      var name = this.getAttribute('data-subtab');
+      document.querySelectorAll('.sub-tab-content').forEach(function(el){{el.classList.remove('active');}});
+      document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(el){{el.classList.remove('active');}});
+      document.getElementById('subtab-' + name).classList.add('active');
+      this.classList.add('active');
+      try{{localStorage.setItem('lastSubTab', name);}}catch(e){{}}
+    }});
+  }});
+
+  /* 마지막 탭 복원 */
   try{{
     var last = localStorage.getItem('lastTab');
-    if(last){{
-      var t = document.querySelector('[data-tab="' + last + '"]');
-      if(t) t.click();
-    }}
+    if(last){{ var t = document.querySelector('[data-tab="' + last + '"]'); if(t) t.click(); }}
+    var lastSub = localStorage.getItem('lastSubTab');
+    if(lastSub){{ var s = document.querySelector('[data-subtab="' + lastSub + '"]'); if(s) s.click(); }}
   }}catch(e){{}}
 }})();
 </script>
@@ -1061,13 +1139,13 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 def _clean(v):
-    if isinstance(v, bool): return bool(v)
-    if isinstance(v, np.bool_): return bool(v)
-    if isinstance(v, np.integer): return int(v)
+    if isinstance(v, bool):        return bool(v)
+    if isinstance(v, np.bool_):    return bool(v)
+    if isinstance(v, np.integer):  return int(v)
     if isinstance(v, np.floating): return None if np.isnan(v) else float(v)
-    if isinstance(v, float): return None if np.isnan(v) else v
-    if isinstance(v, dict): return {kk: _clean(vv) for kk, vv in v.items()}
-    if isinstance(v, list): return [_clean(i) for i in v]
+    if isinstance(v, float):       return None if np.isnan(v) else v
+    if isinstance(v, dict):        return {kk: _clean(vv) for kk, vv in v.items()}
+    if isinstance(v, list):        return [_clean(i) for i in v]
     return v
 
 def results_to_json(results):
@@ -1083,9 +1161,11 @@ def json_to_results(data):
         return {}
     results = {}
     for asset, d in data.items():
-        results[asset] = AssetResult(asset=d["asset"], total_score=d["total_score"], raw_signal=d["raw_signal"],
-                                     final_signal=d["final_signal"], module_scores=d["module_scores"], module_meta=d["module_meta"],
-                                     guardrail_reasons=d["guardrail_reasons"])
+        results[asset] = AssetResult(
+            asset=d["asset"], total_score=d["total_score"], raw_signal=d["raw_signal"],
+            final_signal=d["final_signal"], module_scores=d["module_scores"],
+            module_meta=d["module_meta"], guardrail_reasons=d["guardrail_reasons"]
+        )
     return results
 
 
