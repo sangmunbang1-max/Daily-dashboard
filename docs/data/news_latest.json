@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-03-22 20:37 KST",
+  "generated_at_kst": "2026-03-22 20:50 KST",
   "period": "03/21 07:00 ~ 03/22 07:00 KST",
   "news": {
     "us_market": [
@@ -10,6 +10,14 @@
         "source": "hankyung.com",
         "publishedAt": "03/21 07:11",
         "score": 8
+      },
+      {
+        "title": "강세장이 과속방지턱에 부딪혔다는 메모를 받지 못한 AI 주식 2개",
+        "description": "이 두 주식은 계속해서 상승하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/03/21/ai-stocks-didnt-get-memo-bull-market-pltr-sndk/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/22 01:22",
+        "score": 6
       },
       {
         "title": "S&P 500 주식은 매수 지점 근처에서 5개의 AI 플레이를 주도합니다",
@@ -34,19 +42,11 @@
         "source": "finance.yahoo.com",
         "publishedAt": "03/21 19:14",
         "score": 5
-      },
-      {
-        "title": "Freshworks 투자자를 위한 핵심 질문: AI가 비즈니스 모델을 무너뜨릴 경우 4억 달러의 환매가 중요한가요?",
-        "description": "AI 기반 클라우드 기반 소프트웨어(NASDAQ:FRSH)를 제공하는 Freshworks는 Sony 및 Bridgestone과 같은 74,000개 이상의 기업을 지원하며 8.0달러에 거래되고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/03/21/the-core-question-for-freshworks-investors-does-a-400-million-buyback-matter-if-ai-breaks-the-business-model/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/21 19:00",
-        "score": 4
       }
     ],
     "kr_market": [
       {
-        "title": "삼성전자, 성장과 가치 평가 프로필 재편을 위해 혁신적인 M&A 추진",
+        "title": "삼성전자, 혁신적인 M&A로 성장과 가치 평가 프로필 재편",
         "description": "삼성전자(KOSE:A005930)는 로봇 공학, 의료 기술, 자동차 분야에서 대규모 인수합병을 적극적으로 추진하고 있음을 확인했습니다.",
         "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-eyes-transformative-m-001736935.html?.tsrc=rss",
         "source": "finance.yahoo.com",
@@ -92,7 +92,7 @@
       },
       {
         "title": "유가는 강세를 보이고 있습니다. 가을에 대한 베팅이 증가하는 이유는 무엇입니까?",
-        "description": "미국 석유 기금에 대한 단기 관심이 높아지는 것은 가격이 배럴당 100달러를 넘어서기 때문에 거래자들이 베팅을 헤지하고 있음을 시사합니다. 적어도 그",
+        "description": "미국 석유 기금에 대한 짧은 관심이 높아지는 것은 가격이 배럴당 100달러를 넘어서기 때문에 거래자들이 베팅을 헤지하고 있음을 시사합니다. 적어도 그",
         "url": "https://finance.yahoo.com/m/6dec3202-05ba-30cc-b7f8-c4772c711b84/oil-prices-are-bullish.-why.html?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/21 09:05",
@@ -108,14 +108,14 @@
       },
       {
         "title": "3월에 매수할 그린 에너지 주식 3종",
-        "description": "세상이 더 더러운 에너지원에서 더 깨끗한 에너지원으로 천천히 이동하는 가운데 참여하는 방법은 다음과 같습니다.",
+        "description": "세상이 더 더러운 에너지원에서 더 깨끗한 에너지원으로 천천히 이동함에 따라 참여하는 방법은 다음과 같습니다.",
         "url": "https://www.fool.com/investing/2026/03/21/3-green-energy-stocks-to-buy-in-march/?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/22 05:35",
         "score": 3
       },
       {
-        "title": "유나이티드항공(United Airlines)은 업계가 코로나 이후 최악의 충격에 직면함에 따라 유가가 배럴당 175달러에 도달하고 내년에도 100달러 이상을 유지할 계획이다.",
+        "title": "유나이티드 항공(United Airlines)은 업계가 코로나 이후 최악의 충격에 직면함에 따라 유가가 배럴당 175달러에 도달하고 내년에 100달러 이상을 유지할 계획이다.",
         "description": "CEO 스콧 커비(Scott Kirby)는 제트 연료 가격이 지난 3주 동안 두 배 이상 올랐으며, 이는 다음과 같은 경우 연간 비용이 추가로 110억 달러에 달한다고 지적했습니다.",
         "url": "https://finance.yahoo.com/sectors/energy/articles/united-airlines-plans-oil-hitting-163908208.html?.tsrc=rss",
         "source": "finance.yahoo.com",
@@ -126,7 +126,7 @@
     "fx": [
       {
         "title": "Jim Cramer는 Dollar Tree의 수익이 '견고하지만 다소 실망스러운 지침'이라고 말합니다.",
-        "description": "Dollar Tree, Inc.(NASDAQ:DLTR)는 Jim Cramer가 과매도 시장에 관해 말한 모든 내용을 다루기 때문에 이번 쇼에서 언급된 주식 중 하나입니다. 벼락 공부",
+        "description": "Dollar Tree, Inc.(NASDAQ:DLTR)는 Jim Cramer가 과매도 시장에 관해 말한 모든 내용을 다루기 때문에 쇼에서 언급된 주식 중 하나입니다. 벼락 공부",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-calls-dollar-tree-163129300.html?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/22 01:31",
@@ -209,28 +209,28 @@
         "score": 5
       },
       {
-        "title": "대만반도체제조(TSM), 이란 전쟁으로 인해 칩 생산 중단 우려",
-        "description": "Taiwan Semiconductor Manufacturing Company Limited(NYSE:TSM)은 Harvard University의 최고 AI 주식 중 하나입니다. 3월 14일 모건스탠리는 이렇게 경고했다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-tsm-staring-104840564.html?.tsrc=rss",
+        "title": "Palantir Technologies Inc.(PLTR)는 지금 구매하기에 좋은 주식인가요?",
+        "description": "PLTR은 매수하기에 좋은 주식인가요? 우리는 Antoni Nabzdyk의 독점 투자자 하위 스택에 대한 Palantir Technologies Inc.에 대한 약세 논문을 접했습니다. t에서",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-good-210608088.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/21 19:48",
-        "score": 3
+        "publishedAt": "03/22 06:06",
+        "score": 4
       },
       {
-        "title": "최근 SEC 제출에 따르면 DAFNA Capital은 더 넓은 생명공학 포트폴리오 내에서 iShares 생명공학 ETF를 삭제합니다.",
-        "description": "iShares 생명공학 ETF(IBB)는 투자자들에게 소규모 투기 이름보다는 대규모의 확립된 약물 개발자를 통해 생명공학 노출을 제공합니다. 그쪽으로",
-        "url": "https://www.fool.com/coverage/filings/2026/03/21/dafna-capital-trims-ishares-biotechnology-etf-within-broader-biotech-portfolio-according-to-recent-sec-filing/?.tsrc=rss",
+        "title": "1년 동안 65.7%의 상승세를 보인 Palantir Technologies(PLTR)를 재평가하기에는 너무 늦은 걸까요?",
+        "description": "US$150.68 정도의 Palantir Technologies가 완벽한 가격인지, 아니면 여전히 가치를 제공하는지 궁금하십니까? 이 기사에서는 현재 3월의 내용을 안내합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/too-reassess-palantir-technologies-pltr-080542261.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/22 06:58",
-        "score": 1
+        "publishedAt": "03/21 17:05",
+        "score": 4
       },
       {
-        "title": "역사에 따르면 간과된 이 두 가지 자산군이 1970년대 스타일의 스태그플레이션에 대한 유일한 실질적인 방패입니다.",
-        "description": "월스트리트는 가격 상승과 성장 둔화로 인해 모든 주식이 하락할 것을 우려하고 있습니다. 하지만 소형주와 주택 시장은 그 자리를 지키고 있습니다.",
-        "url": "https://www.marketwatch.com/story/history-says-these-2-overlooked-asset-classes-are-the-only-real-shield-against-1970s-style-stagflation-727af5de?.tsrc=rss",
+        "title": "국방부, Palantir의 Maven AI 시스템을 군사 기록 프로그램으로 공식화",
+        "description": "Investing.com -- 미국 국방부가",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/pentagon-formalizes-palantir-maven-ai-022013850.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/22 04:00",
-        "score": 1
+        "publishedAt": "03/21 11:20",
+        "score": 4
       }
     ]
   }
