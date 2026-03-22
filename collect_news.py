@@ -60,16 +60,14 @@ KEYWORDS = {
             "s&p 500", "s&p500", "nasdaq", "dow jones", "fomc", "fed rate",
             "rate hike", "rate cut", "market crash", "market rally",
             "earnings beat", "earnings miss", "guidance cut", "guidance raise",
-            "correction", "bear market", "bull market", "코스피", "뉴욕증시",
+            "correction", "bear market", "bull market", "뉴욕증시",
         ],
         "medium": [
             "wall street", "stock market", "equity", "ipo", "buyback",
             "short squeeze", "vix", "volatility", "sector rotation",
-            "주식시장", "증시", "주가", "상승", "하락",
+            "주식시장", "증시", "주가",
         ],
-        "low": [
-            "stock", "shares", "invest", "portfolio", "index",
-        ],
+        "low": ["stock", "shares", "invest", "portfolio", "index"],
     },
     "kr_market": {
         "high": [
@@ -83,9 +81,7 @@ KEYWORDS = {
             "셀트리온", "카카오", "네이버", "korean stock", "seoul",
             "수급", "거래대금", "시가총액",
         ],
-        "low": [
-            "korea", "korean", "한국 주식", "상장",
-        ],
+        "low": ["korea", "korean", "한국 주식", "상장"],
     },
     "macro": {
         "high": [
@@ -97,12 +93,10 @@ KEYWORDS = {
         ],
         "medium": [
             "monetary policy", "central bank", "quantitative tightening",
-            "qt", "qe", "yield curve", "inverted yield", "payrolls",
-            "unemployment", "nonfarm", "한국은행", "물가", "고용", "실업률",
+            "yield curve", "inverted yield", "payrolls", "unemployment",
+            "nonfarm", "한국은행", "물가", "고용", "실업률",
         ],
-        "low": [
-            "economy", "economic", "macro", "fiscal", "경제",
-        ],
+        "low": ["economy", "economic", "macro", "fiscal", "경제"],
     },
     "bonds": {
         "high": [
@@ -113,12 +107,9 @@ KEYWORDS = {
         ],
         "medium": [
             "treasury", "bond auction", "duration", "tlt", "hyg",
-            "corporate bond", "high yield", "ig spread",
-            "채권", "국고채", "회사채", "금리차",
+            "corporate bond", "high yield", "채권", "국고채", "회사채",
         ],
-        "low": [
-            "fixed income", "debt", "coupon", "maturity",
-        ],
+        "low": ["fixed income", "debt", "coupon", "maturity"],
     },
     "commodities": {
         "high": [
@@ -132,9 +123,7 @@ KEYWORDS = {
             "energy", "natural gas", "oil inventory",
             "원자재", "천연가스", "구리", "곡물",
         ],
-        "low": [
-            "fuel", "barrel", "석유", "에너지",
-        ],
+        "low": ["fuel", "barrel", "석유", "에너지"],
     },
     "fx": {
         "high": [
@@ -148,9 +137,7 @@ KEYWORDS = {
             "renminbi", "emerging market currency",
             "외환", "달러", "엔화", "위안화", "유로화",
         ],
-        "low": [
-            "dollar", "usd", "fx", "통화",
-        ],
+        "low": ["dollar", "usd", "fx", "통화"],
     },
     "geopolitics": {
         "high": [
@@ -162,12 +149,10 @@ KEYWORDS = {
         ],
         "medium": [
             "tariff", "trade tension", "geopolitical", "nato", "g7", "g20",
-            "imf warning", "world bank", "chip ban", "export control",
+            "imf warning", "chip ban", "export control",
             "무역 긴장", "지정학", "수출 통제", "반도체 수출 규제",
         ],
-        "low": [
-            "trade", "sanction", "conflict", "war", "무역", "제재",
-        ],
+        "low": ["trade", "sanction", "conflict", "war", "무역", "제재"],
     },
     "tech": {
         "high": [
@@ -182,9 +167,7 @@ KEYWORDS = {
             "data center", "generative ai", "llm", "gpu",
             "반도체", "인공지능", "데이터센터", "엔비디아",
         ],
-        "low": [
-            "tech", "semiconductor", "chip", "ai", "테크",
-        ],
+        "low": ["tech", "semiconductor", "chip", "ai", "테크"],
     },
 }
 
@@ -201,9 +184,8 @@ SECTION_META = {
 }
 
 
-# ── RSS pubDate 파싱 ───────────────────────────────────────
+# ── RSS pubDate 파싱 → KST datetime ───────────────────────
 def parse_pub_date(pub_str: str):
-    """RSS pubDate 문자열 → KST datetime 변환"""
     if not pub_str:
         return None
     formats = [
@@ -231,15 +213,12 @@ def parse_rss(url: str, timeout: int = 10) -> list:
         r = requests.get(url, headers=headers, timeout=timeout)
         r.raise_for_status()
         root = ET.fromstring(r.content)
-        items = root.findall(".//item")
         result = []
-        for item in items[:30]:
-            title = (item.findtext("title") or "").strip()
-            link  = (item.findtext("link")  or "").strip()
-            desc  = (item.findtext("description") or "").strip()
+        for item in root.findall(".//item")[:30]:
+            title = re.sub(r"<[^>]+>", "", (item.findtext("title") or "")).strip()
+            link  = (item.findtext("link") or "").strip()
+            desc  = re.sub(r"<[^>]+>", "", (item.findtext("description") or ""))[:150].strip()
             pub   = (item.findtext("pubDate") or "").strip()
-            desc  = re.sub(r"<[^>]+>", "", desc)[:150]
-            title = re.sub(r"<[^>]+>", "", title)
             if title and "[Removed]" not in title:
                 result.append({
                     "title":           title,
@@ -269,8 +248,7 @@ def translate_to_korean(text: str) -> str:
             timeout=5,
         )
         r.raise_for_status()
-        result = r.json()
-        return "".join(part[0] for part in result[0] if part[0])
+        return "".join(part[0] for part in r.json()[0] if part[0])
     except Exception:
         return text
 
@@ -288,46 +266,39 @@ def score_article(title: str, kw_groups: dict) -> int:
 def fetch_news() -> dict:
     result: dict = {k: [] for k in SECTION_META}
 
-    # ── 수집 대상 시간 범위 계산 ──────────────────────────
-    # 매일 07:30 KST 실행 기준
-    # → 전일 07:00 KST ~ 당일 07:00 KST 사이 기사만 선별
+    # 수집 기간: 전일 07:00 ~ 당일 07:00 KST
     now_kst      = datetime.now(KST)
     cutoff_end   = now_kst.replace(hour=7, minute=0, second=0, microsecond=0)
-    cutoff_start = cutoff_end - timedelta(days=1)
-
-    # 만약 07:00 이전에 실행됐다면 하루 앞으로 당김
     if now_kst < cutoff_end:
-        cutoff_end   -= timedelta(days=1)
-        cutoff_start -= timedelta(days=1)
+        cutoff_end -= timedelta(days=1)
+    cutoff_start = cutoff_end - timedelta(days=1)
 
     print(f"  수집 기간: {cutoff_start.strftime('%m/%d %H:%M')} ~ {cutoff_end.strftime('%m/%d %H:%M')} KST")
 
-    # ── RSS 수집 ──────────────────────────────────────────
+    # RSS 수집
     print("  RSS 수집 중...")
     raw_pool: list = []
     fetched_urls: set = set()
-
     for key, urls in RSS_FEEDS.items():
         for url in urls:
             if url not in fetched_urls:
-                items = parse_rss(url)
-                raw_pool.extend(items)
+                raw_pool.extend(parse_rss(url))
                 fetched_urls.add(url)
 
     print(f"  총 {len(raw_pool)}개 기사 수집 (필터 전)")
 
-    # ── 시간 필터 ─────────────────────────────────────────
+    # 시간 필터
     filtered_pool = []
     for article in raw_pool:
         pub_dt = parse_pub_date(article.get("publishedAt_raw", ""))
         if pub_dt and cutoff_start <= pub_dt <= cutoff_end:
             article["publishedAt"] = pub_dt.strftime("%m/%d %H:%M")
-            article["pub_dt"]      = pub_dt
+            article["_pub_dt"]     = pub_dt   # 정렬용 임시 저장 (JSON 저장 시 제거)
             filtered_pool.append(article)
 
     print(f"  시간 필터 후: {len(filtered_pool)}개")
 
-    # 기사가 너무 적으면 48시간으로 자동 확장 (주말·공휴일 대비)
+    # 기사 부족 시 48시간으로 자동 확장 (주말·공휴일 대비)
     if len(filtered_pool) < 15:
         print("  [확장] 기사 부족 → 48시간으로 범위 확장")
         cutoff_start = cutoff_end - timedelta(days=2)
@@ -336,37 +307,42 @@ def fetch_news() -> dict:
             pub_dt = parse_pub_date(article.get("publishedAt_raw", ""))
             if pub_dt and cutoff_start <= pub_dt <= cutoff_end:
                 article["publishedAt"] = pub_dt.strftime("%m/%d %H:%M")
-                article["pub_dt"]      = pub_dt
+                article["_pub_dt"]     = pub_dt
                 filtered_pool.append(article)
         print(f"  확장 후: {len(filtered_pool)}개")
 
-    # ── 최신순 정렬 ───────────────────────────────────────
-    filtered_pool.sort(key=lambda x: x.get("pub_dt", datetime.min.replace(tzinfo=KST)), reverse=True)
+    # 최신순 정렬
+    filtered_pool.sort(
+        key=lambda x: x.get("_pub_dt", datetime.min.replace(tzinfo=KST)),
+        reverse=True
+    )
 
-    # ── 중복 제거 ─────────────────────────────────────────
-    seen_titles: set = set()
+    # 중복 제거
+    seen: set = set()
     deduped = []
-    for article in filtered_pool:
-        key = article["title"][:60]
-        if key not in seen_titles:
-            seen_titles.add(key)
-            deduped.append(article)
+    for a in filtered_pool:
+        k = a["title"][:60]
+        if k not in seen:
+            seen.add(k)
+            deduped.append(a)
 
-    # ── 카테고리별 점수 계산 ──────────────────────────────
+    # 카테고리별 점수 계산 → 상위 5건 선정 → 번역
     category_scored: dict = {k: [] for k in SECTION_META}
     for article in deduped:
         for key, kw_groups in KEYWORDS.items():
-            score = score_article(article["title"], kw_groups)
-            if score > 0:
-                category_scored[key].append((score, article.copy()))
+            s = score_article(article["title"], kw_groups)
+            if s > 0:
+                category_scored[key].append((s, article.copy()))
 
-    # ── 점수 내림차순 상위 5건 선정 + 번역 ───────────────
     for key in SECTION_META:
         category_scored[key].sort(key=lambda x: x[0], reverse=True)
         for score, article in category_scored[key][:5]:
             article["title"]       = translate_to_korean(article["title"])
             article["description"] = translate_to_korean(article["description"])
             article["score"]       = score
+            # ── JSON 직렬화 불가 필드 제거 ──
+            article.pop("_pub_dt", None)
+            article.pop("publishedAt_raw", None)
             result[key].append(article)
 
     for key, arts in result.items():
@@ -386,26 +362,19 @@ def generate_html(news: dict, generated_at: str, period_str: str) -> str:
         else:
             items_html = ""
             for a in articles:
-                desc  = a.get("description", "")
+                desc      = a.get("description", "")
                 desc_html = f'<p class="art-desc">{desc}</p>' if desc else ""
-                url   = a.get("url", "")
-                score = a.get("score", 0)
-                if score >= 10:
-                    badge = '<span class="badge-high">HOT</span>'
-                elif score >= 5:
-                    badge = '<span class="badge-mid">KEY</span>'
-                else:
-                    badge = ""
+                url       = a.get("url", "")
+                score     = a.get("score", 0)
+                badge     = '<span class="badge-high">HOT</span>' if score >= 10 else \
+                            '<span class="badge-mid">KEY</span>'  if score >= 5  else ""
                 lo = f'<a href="{url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">' if url else "<span>"
                 lc = "</a>" if url else "</span>"
                 items_html += f"""<div class="art-item">
   {lo}
   <div class="art-header">
     <span class="art-source">{a.get('source','')}</span>
-    <span style="display:flex;align-items:center;gap:5px;">
-      {badge}
-      <span class="art-date">{a.get('publishedAt','')}</span>
-    </span>
+    <span style="display:flex;align-items:center;gap:5px;">{badge}<span class="art-date">{a.get('publishedAt','')}</span></span>
   </div>
   <p class="art-title">{a.get('title','')}</p>
   {desc_html}
@@ -475,7 +444,7 @@ if __name__ == "__main__":
     now          = datetime.now(KST)
     generated_at = now.strftime("%Y-%m-%d %H:%M KST")
 
-    # 수집 기간 문자열 (화면 표시용)
+    # 화면 표시용 수집 기간 문자열
     cutoff_end   = now.replace(hour=7, minute=0, second=0, microsecond=0)
     if now < cutoff_end:
         cutoff_end -= timedelta(days=1)
@@ -483,7 +452,6 @@ if __name__ == "__main__":
     period_str   = f"{cutoff_start.strftime('%m/%d %H:%M')} ~ {cutoff_end.strftime('%m/%d %H:%M')} KST"
 
     print(f"[NEWS] 시작: {generated_at}")
-    print(f"[NEWS] 수집 기간: {period_str}")
 
     news = fetch_news()
 
