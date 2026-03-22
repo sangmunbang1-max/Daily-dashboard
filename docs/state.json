@@ -1,6 +1,6 @@
 {
-  "us_updated": "2026-03-23 07:22 KST",
-  "kr_updated": "2026-03-21 02:44 KST",
+  "us_updated": "2026-03-23 08:27 KST",
+  "kr_updated": "2026-03-23 08:27 KST",
   "us_results": {
     "SPY": {
       "asset": "SPY",
@@ -18,7 +18,7 @@
         "trend": {
           "close": 648.5700073242188,
           "ma50": 682.0634973144531,
-          "ma200": 656.5213369750977,
+          "ma200": 656.521337890625,
           "ret20": -0.05669721328908128,
           "slope50": -4.112542724609398
         },
@@ -88,7 +88,7 @@
         },
         "breadth": {
           "proxy_ratio": 0.22253719431433283,
-          "proxy_ma50": 0.22259469538676133,
+          "proxy_ma50": 0.22259469538676135,
           "proxy_roc20": 0.01774995264939494,
           "bucket": "neutral",
           "approx_breadth": 0.5
@@ -107,17 +107,17 @@
   "kr_results": {
     "KOSPI": {
       "asset": "KOSPI",
-      "total_score": 84,
+      "total_score": 89,
       "raw_signal": "매수",
       "final_signal": "보유",
       "module_scores": {
         "trend": 40,
-        "vkospi": 19,
+        "vkospi": 16,
         "tactical": 12,
         "leadership": 6,
-        "turnover": 2,
+        "turnover": 8,
         "flow": 0,
-        "fx": 2,
+        "fx": 4,
         "oil": 3
       },
       "module_meta": {
@@ -129,10 +129,10 @@
           "slope50": 288.9238085937495
         },
         "vkospi": {
-          "vkospi": 55.47,
-          "vkospi_5d_chg": -0.15118592195868397,
-          "vkospi_ratio20": 0.953354874192218,
-          "vkospi_dd_from_10d_high": -0.22765246449456966
+          "vkospi": 55.64,
+          "vkospi_5d_chg": -0.08426596445029622,
+          "vkospi_ratio20": 0.9456473707467963,
+          "vkospi_dd_from_10d_high": -0.22528543581175153
         },
         "tactical": {
           "dist20": 0.010360012763585225,
@@ -149,67 +149,65 @@
           "approx_leadership": 0.28
         },
         "turnover": {
-          "turnover": 229946.78385098,
-          "turnover_ma20": 338427.9798681715,
-          "turnover_ratio20": 0.6794555933009783,
-          "turnover_roc5": -0.029686062525294155
+          "turnover": 340258.53798776,
+          "turnover_ma20": 340967.9260816575,
+          "turnover_ratio20": 0.9979194873193803,
+          "turnover_roc5": 0.43449910153167615
         },
         "flow": {
           "flow_1d": {
             "window": 1,
-            "foreign_net_buy": -12401.62,
-            "institution_net_buy": -10260.16,
-            "combined_net_buy": -22661.78
+            "foreign_net_buy": 0.0,
+            "institution_net_buy": 0.0,
+            "combined_net_buy": 0.0
           },
           "flow_5d": {
             "window": 5,
-            "foreign_net_buy": -32586.11,
-            "institution_net_buy": 22434.76,
-            "combined_net_buy": -10151.350000000002
+            "foreign_net_buy": -24100.65,
+            "institution_net_buy": 21524.08,
+            "combined_net_buy": -2576.5699999999997
           },
           "flow_20d": {
             "window": 20,
-            "foreign_net_buy": -290292.4,
-            "institution_net_buy": 42743.86,
-            "combined_net_buy": -247548.54000000004
+            "foreign_net_buy": -282872.15,
+            "institution_net_buy": 26594.36,
+            "combined_net_buy": -256277.79000000004
           },
-          "turnover_curr": 229946.78385098,
-          "combined_5d_ratio": -0.02834230551458189,
-          "combined_20d_ratio": -0.06312164822190507
+          "turnover_curr": 340258.53798776,
+          "combined_5d_ratio": -0.01416608097038668,
+          "combined_20d_ratio": -0.04156723761773403
         },
         "fx": {
-          "usdkrw": 1503.719970703125,
-          "usdkrw_ma50": 1458.971201171875,
-          "usdkrw_ret20": 0.0386599694029528,
-          "usdkrw_ret5": 0.022535336832242958
+          "usdkrw": 1504.1700439453125,
+          "usdkrw_ma50": 1459.6722021484375,
+          "usdkrw_ret20": 0.04207317588835546,
+          "usdkrw_ret5": 0.0016114825672133293
         },
         "oil": {
-          "wti": 98.2300033569336,
-          "wti_ret20": 0.47959036391028587,
-          "wti_ret5": -0.00486268596890882,
-          "wti_ma50": 70.70079971313477
+          "wti": 98.02999877929688,
+          "wti_ret20": 0.47835925785812705,
+          "wti_ret5": 0.04844918480531413,
+          "wti_ma50": 71.50799964904785
         }
       },
       "guardrail_reasons": [
-        "외국인·기관 1일 동시 순매도 → 매수 제한",
         "5일·20일 누적 수급 동반 부진 → 매수 제한",
-        "원/달러 급등 + 단기 수급 약세 → 매수 제한",
-        "상승추세 + 변동성 진정 → 최소 보유"
+        "원/달러 급등 + 단기 수급 약세 → 매수 제한"
       ]
     },
     "KOSDAQ": {
       "asset": "KOSDAQ",
-      "total_score": 86,
+      "total_score": 89,
       "raw_signal": "매수",
       "final_signal": "보유",
       "module_scores": {
         "trend": 36,
-        "vkospi": 19,
+        "vkospi": 16,
         "tactical": 12,
         "leadership": 1,
-        "turnover": 3,
-        "flow": 12,
-        "fx": 1,
+        "turnover": 5,
+        "flow": 14,
+        "fx": 3,
         "oil": 2
       },
       "module_meta": {
@@ -221,10 +219,10 @@
           "slope50": 43.22919921875018
         },
         "vkospi": {
-          "vkospi": 55.47,
-          "vkospi_5d_chg": -0.15118592195868397,
-          "vkospi_ratio20": 0.953354874192218,
-          "vkospi_dd_from_10d_high": -0.22765246449456966
+          "vkospi": 55.64,
+          "vkospi_5d_chg": -0.08426596445029622,
+          "vkospi_ratio20": 0.9456473707467963,
+          "vkospi_dd_from_10d_high": -0.22528543581175153
         },
         "tactical": {
           "dist20": 0.017665381077632825,
@@ -241,51 +239,49 @@
           "approx_leadership": 0.28
         },
         "turnover": {
-          "turnover": 118028.80972337,
-          "turnover_ma20": 144951.02774987151,
-          "turnover_ratio20": 0.8142668013850949,
-          "turnover_roc5": -0.15810096002413987
+          "turnover": 141433.06243848,
+          "turnover_ma20": 144810.85587981052,
+          "turnover_ratio20": 0.9766744459812184,
+          "turnover_roc5": -0.017616748107016078
         },
         "flow": {
           "flow_1d": {
             "window": 1,
-            "foreign_net_buy": 2346.9,
-            "institution_net_buy": -941.89,
-            "combined_net_buy": 1405.0100000000002
+            "foreign_net_buy": 0.0,
+            "institution_net_buy": 0.0,
+            "combined_net_buy": 0.0
           },
           "flow_5d": {
             "window": 5,
-            "foreign_net_buy": -330.24,
-            "institution_net_buy": -5862.08,
-            "combined_net_buy": -6192.32
+            "foreign_net_buy": 4682.07,
+            "institution_net_buy": -4165.69,
+            "combined_net_buy": 516.3800000000001
           },
           "flow_20d": {
             "window": 20,
-            "foreign_net_buy": 9080.78,
-            "institution_net_buy": 17762.7,
-            "combined_net_buy": 26843.480000000003
+            "foreign_net_buy": 11154.21,
+            "institution_net_buy": 17531.48,
+            "combined_net_buy": 28685.69
           },
-          "turnover_curr": 118028.80972337,
-          "combined_5d_ratio": -0.0005595921890155463,
-          "combined_20d_ratio": 0.0038468489266659037
+          "turnover_curr": 141433.06243848,
+          "combined_5d_ratio": 0.0066208988468118455,
+          "combined_20d_ratio": 0.0039432823583424184
         },
         "fx": {
-          "usdkrw": 1503.719970703125,
-          "usdkrw_ma50": 1458.971201171875,
-          "usdkrw_ret20": 0.0386599694029528,
-          "usdkrw_ret5": 0.022535336832242958
+          "usdkrw": 1504.1700439453125,
+          "usdkrw_ma50": 1459.6722021484375,
+          "usdkrw_ret20": 0.04207317588835546,
+          "usdkrw_ret5": 0.0016114825672133293
         },
         "oil": {
-          "wti": 98.2300033569336,
-          "wti_ret20": 0.47959036391028587,
-          "wti_ret5": -0.00486268596890882,
-          "wti_ma50": 70.70079971313477
+          "wti": 98.02999877929688,
+          "wti_ret20": 0.47835925785812705,
+          "wti_ret5": 0.04844918480531413,
+          "wti_ma50": 71.50799964904785
         }
       },
       "guardrail_reasons": [
-        "코스닥 리더십 약세 → 매수 제한",
-        "원/달러 급등 + 단기 수급 약세 → 매수 제한",
-        "상승추세 + 변동성 진정 → 최소 보유"
+        "코스닥 리더십 약세 → 매수 제한"
       ]
     }
   }
