@@ -416,7 +416,7 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 .art-desc{{font-size:12px;color:#8888aa;line-height:1.6}}
 .badge-high{{font-family:"IBM Plex Mono",monospace;font-size:9px;font-weight:700;padding:2px 5px;border-radius:3px;background:rgba(229,62,62,0.2);color:#e53e3e;border:1px solid #e53e3e44}}
 .badge-mid{{font-family:"IBM Plex Mono",monospace;font-size:9px;font-weight:700;padding:2px 5px;border-radius:3px;background:rgba(245,200,66,0.15);color:#f5c842;border:1px solid #f5c84244}}
-.footer{{max-width:1100px;margin:32px auto 0;text-align:center;font-size:11px;color:#353558;font-family:"IBM Plex Mono",monospace;line-height:2}}
+.footer{{max-width:1100px;margin:32px auto 0;text-align:center;font-size:11px;color:#9090b8;font-family:"IBM Plex Mono",monospace;line-height:2}}
 </style>
 </head>
 <body>
