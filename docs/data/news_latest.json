@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-03-22 19:04 KST",
+  "generated_at_kst": "2026-03-22 19:10 KST",
   "news": {
     "us_market": [
       {
@@ -38,7 +38,43 @@
         "publishedAt": "Sun, 22 Mar 2026"
       }
     ],
-    "kr_market": [],
+    "kr_market": [
+      {
+        "title": "Palantir Is Executing Perfectly. History Says It Won't Be Enough.",
+        "description": "The historical record is brutal for S&P 500 companies valued like Palantir.",
+        "url": "https://www.fool.com/investing/2026/03/21/palantir-executing-perfectly-history-valuation/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "Sat, 21 Mar 2026"
+      },
+      {
+        "title": "Samsung Electronics Eyes Transformative M&A To Reshape Growth And Valuation Profile",
+        "description": "Samsung Electronics (KOSE:A005930) has confirmed it is actively pursuing large scale mergers and acquisitions across robotics, medical technology, aut",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-eyes-transformative-m-001736935.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "Sat, 21 Mar 2026"
+      },
+      {
+        "title": "Tesla Just Snubbed TSMC — Musk Is Quietly Building A Sovereign Chip Chain",
+        "description": "Tesla, Inc. isn't just choosing a chip supplier. It's choosing where its future lives. By tapping Samsung's new Texas fab to produce next-gen AI chips",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/tesla-just-snubbed-tsmc-musk-223125927.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "Fri, 20 Mar 2026"
+      },
+      {
+        "title": "AMD Relies on a Rich Partner Base to Drive Sales: More Upside Ahead?",
+        "description": "Advanced Micro Devices expands AI push with Celestica, Nutanix and Samsung, advancing Helios and next-gen chips while battling NVDA and AVGO pressure.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-relies-rich-partner-drive-151900413.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "Fri, 20 Mar 2026"
+      },
+      {
+        "title": "Exclusive-Amazon plans smartphone comeback more than a decade after Fire Phone flop",
+        "description": "In 2014, Amazon introduced its first smartphone, hoping to take on Apple  and Samsung.  Instead, the Fire Phone - overseen directly by founder Jeff Be",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/exclusive-amazon-plans-smartphone-comeback-100051690.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "Fri, 20 Mar 2026"
+      }
+    ],
     "macro": [
       {
         "title": "Wall Street and FTSE dip as US producer prices fall ahead of Fed rate decision",
@@ -151,13 +187,6 @@
       }
     ],
     "fx": [
-      {
-        "title": "Palantir Is Executing Perfectly. History Says It Won't Be Enough.",
-        "description": "The historical record is brutal for S&P 500 companies valued like Palantir.",
-        "url": "https://www.fool.com/investing/2026/03/21/palantir-executing-perfectly-history-valuation/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "Sat, 21 Mar 2026"
-      },
       {
         "title": "US dollar debasement 'isn't really happening,' strategist says",
         "description": "Some strategists say recent US dollar (DX-Y.NYB) weakness reflects diversification, not collapse. Rabobank head of FX strategy Jane Foley and PNC Asse",
