@@ -38,13 +38,12 @@ def fetch_news() -> dict:
     for key, query in QUERIES.items():
         try:
             r = requests.get(
-                "https://newsapi.org/v2/everything",
+                "https://newsapi.org/v2/top-headlines",
                 params={
                     "q":        query,
                     "language": "en",
                     "sortBy":   "publishedAt",
                     "pageSize": 5,
-                    "searchIn": "title",
                 },
                 headers={"X-Api-Key": NEWSAPI_KEY},
                 timeout=15,
