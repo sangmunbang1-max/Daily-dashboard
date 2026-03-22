@@ -1,4 +1,4 @@
-yamlname: Daily News Brief
+name: Daily News Brief
 
 on:
   schedule:
