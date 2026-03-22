@@ -1,36 +1,12 @@
 {
-  "generated_at_kst": "2026-03-22 18:52 KST",
+  "generated_at_kst": "2026-03-22 18:58 KST",
   "news": {
     "us_market": [],
     "kr_market": [],
-    "macro": [
-      {
-        "title": "Could the Federal Reserve raise interest rates again despite earlier Fed rate cut signals? Why markets fear a hawkish Jerome Powell on March 18 as Iran war fuels inflation?",
-        "description": "Global markets are watching Jerome Powell’s March 18 Federal Reserve meeting very closely. Interest-rate futures now pri",
-        "source": "The Times of India",
-        "url": "https://economictimes.indiatimes.com/news/international/us/could-the-federal-reserve-raise-interest-rates-again-despite-earlier-fed-rate-cut-signals-why-markets-fear-a-hawkish-jerome-powell-on-march-18-as-iran-war-fuels-inflation/articleshow/129614424.cms",
-        "publishedAt": "2026-03-16"
-      }
-    ],
+    "macro": [],
     "bonds": [],
-    "commodities": [
-      {
-        "title": "US stock market big crash today: Why Dow, S&P 500, Nasdaq in deep red today? Oil, gas and gold prices surge — here are the defence and energy stocks gaining big",
-        "description": "US stock market crash today erased over 500 Dow points as oil prices spiked 13% after US–Israel strikes on Iran. The Dow",
-        "source": "The Times of India",
-        "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-big-crash-today-why-dow-sp-500-nasdaq-in-deep-red-today-oil-gas-and-gold-prices-surge-here-are-the-defence-and-energy-stocks-gaining-big/articleshow/128949438.cms",
-        "publishedAt": "2026-03-02"
-      }
-    ],
-    "fx": [
-      {
-        "title": "Rupee hits new low; dwindling forex reserves and dollar surge fuel currency crisis: Naveen Mathur",
-        "description": "India's rupee hit a record low as forex reserves fell to a three-year low, covering only 8.7 months of imports. High cru",
-        "source": "The Times of India",
-        "url": "https://economictimes.indiatimes.com/markets/expert-view/rupee-hits-new-low-dwindling-forex-reserves-and-dollar-surge-fuel-currency-crisis-naveen-mathur/articleshow/129670961.cms",
-        "publishedAt": "2026-03-19"
-      }
-    ],
+    "commodities": [],
+    "fx": [],
     "geopolitics": [],
     "tech": []
   }
