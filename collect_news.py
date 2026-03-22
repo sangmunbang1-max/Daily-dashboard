@@ -7,17 +7,6 @@ NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "")
 DOCS_DIR = "docs"
 DATA_DIR  = f"{DOCS_DIR}/data"
 
-# ── 카테고리 정의 ──────────────────────────────────────────
-HEADLINE_QUERIES = {
-    "us_market":   {"q": "S&P500 Nasdaq stocks",      "language": "en"},
-    "kr_market":   {"q": "KOSPI Korea stocks",         "language": "en"},
-    "macro":       {"q": "Fed inflation interest rate","language": "en"},
-    "bonds":       {"q": "treasury bonds yield",       "language": "en"},
-    "commodities": {"q": "oil gold energy",            "language": "en"},
-    "fx":          {"q": "dollar forex currency",      "language": "en"},
-    "geopolitics": {"q": "tariff trade war sanctions", "language": "en"},
-    "tech":        {"q": "AI Nvidia semiconductor",    "language": "en"},
-}
 SECTION_META = {
     "us_market":   ("US  미국 증시",      "#5b9bd5"),
     "kr_market":   ("KR  한국 증시",      "#00d084"),
@@ -29,25 +18,33 @@ SECTION_META = {
     "tech":        ("AI · 반도체 · 테크", "#c084fc"),
 }
 
-# ── 뉴스 수집 ──────────────────────────────────────────────
+QUERIES = {
+    "us_market":   "S&P500 Nasdaq stocks",
+    "kr_market":   "KOSPI Korea stocks",
+    "macro":       "Fed inflation interest rate",
+    "bonds":       "treasury bonds yield",
+    "commodities": "oil gold energy",
+    "fx":          "dollar forex currency",
+    "geopolitics": "tariff trade war sanctions",
+    "tech":        "AI Nvidia semiconductor",
+}
+
 def fetch_news() -> dict:
     if not NEWSAPI_KEY:
         print("[WARN] NEWSAPI_KEY 없음 -> 빈 결과")
-        return {k: [] for k in CATEGORIES}
+        return {k: [] for k in SECTION_META}
 
-    since = (datetime.now(KST) - timedelta(days=2)).strftime("%Y-%m-%d")
     result = {}
-
-    for key, (query, lang) in CATEGORIES.items():
+    for key, query in QUERIES.items():
         try:
             r = requests.get(
                 "https://newsapi.org/v2/everything",
                 params={
                     "q":        query,
-                    "language": lang,
+                    "language": "en",
                     "sortBy":   "publishedAt",
                     "pageSize": 5,
-                    "from":     since,
+                    "searchIn": "title",
                 },
                 headers={"X-Api-Key": NEWSAPI_KEY},
                 timeout=15,
@@ -73,7 +70,6 @@ def fetch_news() -> dict:
     return result
 
 
-# ── HTML 생성 ──────────────────────────────────────────────
 def fmt_date(iso: str) -> str:
     try:
         return datetime.fromisoformat(
@@ -98,23 +94,21 @@ def generate_html(news: dict, generated_at: str) -> str:
                 url       = a.get("url", "")
                 lo = f'<a href="{url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">' if url else "<span>"
                 lc = "</a>" if url else "</span>"
-                items_html += f"""
-                <div class="art-item">
-                  {lo}
-                  <div class="art-header">
-                    <span class="art-source">{a.get('source','')}</span>
-                    <span class="art-date">{date_str}</span>
-                  </div>
-                  <p class="art-title">{a.get('title','')}</p>
-                  {desc_html}
-                  {lc}
-                </div>"""
+                items_html += f"""<div class="art-item">
+  {lo}
+  <div class="art-header">
+    <span class="art-source">{a.get('source','')}</span>
+    <span class="art-date">{date_str}</span>
+  </div>
+  <p class="art-title">{a.get('title','')}</p>
+  {desc_html}
+  {lc}
+</div>"""
 
-        sections_html += f"""
-        <div class="section-card" style="border-top:3px solid {color};">
-          <div class="section-title" style="color:{color};">{title}</div>
-          {items_html}
-        </div>"""
+        sections_html += f"""<div class="section-card" style="border-top:3px solid {color};">
+  <div class="section-title" style="color:{color};">{title}</div>
+  {items_html}
+</div>"""
 
     return f"""<!DOCTYPE html>
 <html lang="ko">
@@ -138,7 +132,6 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 .section-title{{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;margin-bottom:14px}}
 .art-item{{padding:9px 0;border-bottom:1px solid #1a1a28}}
 .art-item:last-child{{border-bottom:none}}
-.art-item:hover .art-title{{color:#c0d8f0}}
 .art-header{{display:flex;justify-content:space-between;margin-bottom:3px}}
 .art-source{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#5b5b80;font-weight:600}}
 .art-date{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#4a4a6a}}
@@ -162,7 +155,6 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 </html>"""
 
 
-# ── 메인 ──────────────────────────────────────────────────
 if __name__ == "__main__":
     os.makedirs(DATA_DIR, exist_ok=True)
     now = datetime.now(KST)
