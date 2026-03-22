@@ -1001,6 +1001,8 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 <div class="tab-bar">
   <button class="tab-btn active" data-tab="us">🇺🇸 &nbsp;US</button>
   <button class="tab-btn" data-tab="kr">🇰🇷 &nbsp;KR</button>
+  <a href="news.html" style="font-family:\'IBM Plex Mono\',monospace;font-size:14px;font-weight:600;padding:12px 28px;border:none;background:#161622;color:#7070a0;cursor:pointer;text-decoration:none;display:flex;align-items:center;">NEWS</a>
+
 </div>
 
 <div class="update-bar">
