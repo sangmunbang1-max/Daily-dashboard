@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-03-22 20:27 KST",
+  "generated_at_kst": "2026-03-22 20:37 KST",
   "period": "03/21 07:00 ~ 03/22 07:00 KST",
   "news": {
     "us_market": [
@@ -21,7 +21,7 @@
       },
       {
         "title": "JP모건, 2026년 남은 기간 동안 S&P 500 목표 가격 재설정",
-        "description": "JP모건은 S&P 500 전망을 수정해 2026년 연말 목표주가를 7,500에서 7,200으로 낮췄다. 이제 은행은 지수 잠재력을 확인합니다.",
+        "description": "JP모건은 최근 S&P 500 전망을 수정해 2026년 연말 목표주가를 7,500에서 7,200으로 낮췄다. 이제 은행은 지수 잠재력을 확인합니다.",
         "url": "https://www.thestreet.com/investing/jpmorgan-resets-sp-500-price-target-for-rest-of-2026?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/22 03:00",
@@ -46,7 +46,7 @@
     ],
     "kr_market": [
       {
-        "title": "삼성전자, 혁신적인 M&A로 성장과 가치 평가 프로필 재편",
+        "title": "삼성전자, 성장과 가치 평가 프로필 재편을 위해 혁신적인 M&A 추진",
         "description": "삼성전자(KOSE:A005930)는 로봇 공학, 의료 기술, 자동차 분야에서 대규모 인수합병을 적극적으로 추진하고 있음을 확인했습니다.",
         "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-eyes-transformative-m-001736935.html?.tsrc=rss",
         "source": "finance.yahoo.com",
@@ -108,7 +108,7 @@
       },
       {
         "title": "3월에 매수할 그린 에너지 주식 3종",
-        "description": "세상이 더 더러운 에너지원에서 더 깨끗한 에너지원으로 천천히 이동함에 따라 참여하는 방법은 다음과 같습니다.",
+        "description": "세상이 더 더러운 에너지원에서 더 깨끗한 에너지원으로 천천히 이동하는 가운데 참여하는 방법은 다음과 같습니다.",
         "url": "https://www.fool.com/investing/2026/03/21/3-green-energy-stocks-to-buy-in-march/?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/22 05:35",
@@ -126,7 +126,7 @@
     "fx": [
       {
         "title": "Jim Cramer는 Dollar Tree의 수익이 '견고하지만 다소 실망스러운 지침'이라고 말합니다.",
-        "description": "Dollar Tree, Inc.(NASDAQ:DLTR)는 Jim Cramer가 과매도 시장에 대해 말한 모든 내용을 다루기 때문에 쇼에서 언급된 주식 중 하나입니다. 벼락 공부",
+        "description": "Dollar Tree, Inc.(NASDAQ:DLTR)는 Jim Cramer가 과매도 시장에 관해 말한 모든 내용을 다루기 때문에 이번 쇼에서 언급된 주식 중 하나입니다. 벼락 공부",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-calls-dollar-tree-163129300.html?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/22 01:31",
@@ -142,7 +142,7 @@
       },
       {
         "title": "코인베이스 CEO, 억만장자 레이 달리오의 달러 경고 이후 과감한 해결책 제시",
-        "description": "규제 당국과 거시 투자자들은 세계 금융 시스템이 더욱 취약한 국면에 진입하고 있을 수 있다고 점점 더 경고하고 있습니다. 떠오르는 지정학적 10",
+        "description": "규제 당국과 거시 투자자들은 세계 금융 시스템이 더욱 취약한 국면에 접어들고 있다고 점점 더 경고하고 있습니다. 떠오르는 지정학적 10",
         "url": "https://www.thestreet.com/crypto/markets/coinbase-ceo-offers-bold-fix-after-billionaire-ray-dalios-dollar-warning?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/21 09:52",
@@ -156,14 +156,6 @@
         "url": "https://www.thestreet.com/economy/goldman-sachs-resets-oil-price-bets-as-war-rages-on?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/22 05:07",
-        "score": 1
-      },
-      {
-        "title": "이란 전쟁이 격화되면서 오일 쇼크가 계속해서 시장을 뒤흔들 수 있습니다.",
-        "description": "에너지 가격이 하락할 때까지 월스트리트가 반등하기는 어려울 것입니다. 하지만 가치주와 빅테크는 잘 버틸 수 있습니다.",
-        "url": "https://finance.yahoo.com/m/58a6d348-b727-3fee-9425-d35f61f88fb8/oil-shocks-could-continue-to.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/22 01:28",
         "score": 1
       },
       {
@@ -189,12 +181,20 @@
         "source": "finance.yahoo.com",
         "publishedAt": "03/21 19:35",
         "score": 1
+      },
+      {
+        "title": "ZIM 주식이 Hapag-Lloyd의 제안 가격보다 7달러 낮게 거래되는 이유",
+        "description": "이스라엘의 유명한 운송 회사인 ZIM Integrated Shipping Services(NYSE:ZIM)는 ZIM의 주당 현금 제안 가격인 $35.00에 대해 $27.41에 거래되고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/03/21/why-zim-shares-trade-7-below-hapag-lloyds-offer-price/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/21 18:00",
+        "score": 1
       }
     ],
     "tech": [
       {
         "title": "대만반도체가 최고의 인공지능(AI) 투자인 3가지 이유",
-        "description": "Taiwan Semiconductor는 현재 위치에서 번성하고 있습니다.",
+        "description": "Taiwan Semiconductor는 현재 위치에서 번창하고 있습니다.",
         "url": "https://www.fool.com/investing/2026/03/21/3-reasons-why-taiwan-semiconductor-is-the-ultimate/?.tsrc=rss",
         "source": "finance.yahoo.com",
         "publishedAt": "03/22 03:20",
