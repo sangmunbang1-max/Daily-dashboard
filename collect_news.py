@@ -400,9 +400,8 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 .page-title{{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#f0f0f8;letter-spacing:-0.5px}}
 .nav-link{{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#5b9bd5;text-decoration:none;border:1px solid #252538;padding:6px 14px;border-radius:6px}}
 .nav-link:hover{{background:#161622}}
-.meta-bar{{max-width:1100px;margin:0 auto 24px;display:flex;flex-direction:column;gap:4px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:#5b5b80}}
-.meta-period{{color:#8888aa;font-size:12px}}
-.grid{{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}}
+.meta-bar{{max-width:1100px;margin:0 auto 24px;display:flex;flex-direction:column;gap:4px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:#a0a0c0}}
+.meta-period{{color:#d0d0e8;font-size:12px;font-weight:500}}.grid{{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}}
 @media(max-width:900px){{.grid{{grid-template-columns:1fr 1fr}}}}
 @media(max-width:520px){{.grid{{grid-template-columns:1fr}}}}
 .section-card{{background:#13131f;border:1px solid #252538;border-radius:12px;padding:18px 18px 10px}}
