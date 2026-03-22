@@ -54,9 +54,6 @@ RSS_FEEDS = {
 }
 
 # ── 애널리스트 관점 키워드 가중치 ─────────────────────────
-# high(5점): 시장에 즉각적 영향, 가격 움직임 직결
-# medium(3점): 중요하지만 간접적 영향
-# low(1점): 배경 컨텍스트 제공
 KEYWORDS = {
     "us_market": {
         "high": [
@@ -101,8 +98,7 @@ KEYWORDS = {
         "medium": [
             "monetary policy", "central bank", "quantitative tightening",
             "qt", "qe", "yield curve", "inverted yield", "payrolls",
-            "unemployment", "nonfarm", "한국은행", "기준금리",
-            "물가", "고용", "실업률",
+            "unemployment", "nonfarm", "한국은행", "물가", "고용", "실업률",
         ],
         "low": [
             "economy", "economic", "macro", "fiscal", "경제",
@@ -129,8 +125,7 @@ KEYWORDS = {
             "oil price", "crude oil", "brent", "wti", "opec cut",
             "opec production", "gold price", "gold rally",
             "energy crisis", "supply disruption", "lng shortage",
-            "유가", "원유", "금값", "opec 감산", "에너지 위기",
-            "lng 공급",
+            "유가", "원유", "금값", "opec 감산", "에너지 위기", "lng 공급",
         ],
         "medium": [
             "copper", "iron ore", "wheat", "corn", "commodity",
@@ -185,10 +180,10 @@ KEYWORDS = {
         "medium": [
             "nvidia", "tsmc", "amd", "intel", "arm", "ai model",
             "data center", "generative ai", "llm", "gpu",
-            "반도체", "인공지능", "데이터센터", "엔비디아", "sk하이닉스 hbm",
+            "반도체", "인공지능", "데이터센터", "엔비디아",
         ],
         "low": [
-            "tech", "semiconductor", "chip", "ai", "테크", "ai",
+            "tech", "semiconductor", "chip", "ai", "테크",
         ],
     },
 }
@@ -206,6 +201,29 @@ SECTION_META = {
 }
 
 
+# ── RSS pubDate 파싱 ───────────────────────────────────────
+def parse_pub_date(pub_str: str):
+    """RSS pubDate 문자열 → KST datetime 변환"""
+    if not pub_str:
+        return None
+    formats = [
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S %Z",
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%SZ",
+        "%a, %d %b %Y %H:%M %z",
+    ]
+    for fmt in formats:
+        try:
+            dt = datetime.strptime(pub_str.strip(), fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(KST)
+        except:
+            continue
+    return None
+
+
 # ── RSS 파싱 ───────────────────────────────────────────────
 def parse_rss(url: str, timeout: int = 10) -> list:
     headers = {"User-Agent": "Mozilla/5.0 (compatible; NewsFetcher/1.0)"}
@@ -215,7 +233,7 @@ def parse_rss(url: str, timeout: int = 10) -> list:
         root = ET.fromstring(r.content)
         items = root.findall(".//item")
         result = []
-        for item in items[:20]:
+        for item in items[:30]:
             title = (item.findtext("title") or "").strip()
             link  = (item.findtext("link")  or "").strip()
             desc  = (item.findtext("description") or "").strip()
@@ -224,11 +242,11 @@ def parse_rss(url: str, timeout: int = 10) -> list:
             title = re.sub(r"<[^>]+>", "", title)
             if title and "[Removed]" not in title:
                 result.append({
-                    "title":       title,
-                    "description": desc,
-                    "url":         link,
-                    "source":      url.split("/")[2].replace("feeds.", "").replace("www.", ""),
-                    "publishedAt": pub[:16],
+                    "title":           title,
+                    "description":     desc,
+                    "url":             link,
+                    "source":          url.split("/")[2].replace("feeds.", "").replace("www.", ""),
+                    "publishedAt_raw": pub,
                 })
         return result
     except Exception as e:
@@ -246,37 +264,45 @@ def translate_to_korean(text: str) -> str:
     try:
         r = requests.get(
             "https://translate.googleapis.com/translate_a/single",
-            params={
-                "client": "gtx",
-                "sl":     "auto",
-                "tl":     "ko",
-                "dt":     "t",
-                "q":      text[:300],
-            },
+            params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t", "q": text[:300]},
             headers={"User-Agent": "Mozilla/5.0"},
             timeout=5,
         )
         r.raise_for_status()
         result = r.json()
-        translated = "".join(part[0] for part in result[0] if part[0])
-        return translated
+        return "".join(part[0] for part in result[0] if part[0])
     except Exception:
         return text
 
 
-# ── 뉴스 수집 (점수제) ────────────────────────────────────
+# ── 키워드 점수 계산 (제목만) ──────────────────────────────
 def score_article(title: str, kw_groups: dict) -> int:
-    """제목에서만 키워드 매칭 → 가중치 점수 계산"""
     t = title.lower()
-    score = 0
-    score += sum(5 for kw in kw_groups.get("high",   []) if kw in t)
+    score  = sum(5 for kw in kw_groups.get("high",   []) if kw in t)
     score += sum(3 for kw in kw_groups.get("medium", []) if kw in t)
     score += sum(1 for kw in kw_groups.get("low",    []) if kw in t)
     return score
 
 
+# ── 뉴스 수집 ──────────────────────────────────────────────
 def fetch_news() -> dict:
     result: dict = {k: [] for k in SECTION_META}
+
+    # ── 수집 대상 시간 범위 계산 ──────────────────────────
+    # 매일 07:30 KST 실행 기준
+    # → 전일 07:00 KST ~ 당일 07:00 KST 사이 기사만 선별
+    now_kst      = datetime.now(KST)
+    cutoff_end   = now_kst.replace(hour=7, minute=0, second=0, microsecond=0)
+    cutoff_start = cutoff_end - timedelta(days=1)
+
+    # 만약 07:00 이전에 실행됐다면 하루 앞으로 당김
+    if now_kst < cutoff_end:
+        cutoff_end   -= timedelta(days=1)
+        cutoff_start -= timedelta(days=1)
+
+    print(f"  수집 기간: {cutoff_start.strftime('%m/%d %H:%M')} ~ {cutoff_end.strftime('%m/%d %H:%M')} KST")
+
+    # ── RSS 수집 ──────────────────────────────────────────
     print("  RSS 수집 중...")
     raw_pool: list = []
     fetched_urls: set = set()
@@ -288,36 +314,59 @@ def fetch_news() -> dict:
                 raw_pool.extend(items)
                 fetched_urls.add(url)
 
-    print(f"  총 {len(raw_pool)}개 기사 수집")
+    print(f"  총 {len(raw_pool)}개 기사 수집 (필터 전)")
 
-    # 최신 기사 우선 정렬
-    raw_pool.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
-
-    # 카테고리별 점수 계산
-    # {카테고리: [(score, article), ...]}
-    category_scored: dict = {k: [] for k in SECTION_META}
-    seen_titles: set = set()
-
+    # ── 시간 필터 ─────────────────────────────────────────
+    filtered_pool = []
     for article in raw_pool:
-        title_key = article["title"][:60]
-        if title_key in seen_titles:
-            continue
-        seen_titles.add(title_key)
+        pub_dt = parse_pub_date(article.get("publishedAt_raw", ""))
+        if pub_dt and cutoff_start <= pub_dt <= cutoff_end:
+            article["publishedAt"] = pub_dt.strftime("%m/%d %H:%M")
+            article["pub_dt"]      = pub_dt
+            filtered_pool.append(article)
 
+    print(f"  시간 필터 후: {len(filtered_pool)}개")
+
+    # 기사가 너무 적으면 48시간으로 자동 확장 (주말·공휴일 대비)
+    if len(filtered_pool) < 15:
+        print("  [확장] 기사 부족 → 48시간으로 범위 확장")
+        cutoff_start = cutoff_end - timedelta(days=2)
+        filtered_pool = []
+        for article in raw_pool:
+            pub_dt = parse_pub_date(article.get("publishedAt_raw", ""))
+            if pub_dt and cutoff_start <= pub_dt <= cutoff_end:
+                article["publishedAt"] = pub_dt.strftime("%m/%d %H:%M")
+                article["pub_dt"]      = pub_dt
+                filtered_pool.append(article)
+        print(f"  확장 후: {len(filtered_pool)}개")
+
+    # ── 최신순 정렬 ───────────────────────────────────────
+    filtered_pool.sort(key=lambda x: x.get("pub_dt", datetime.min.replace(tzinfo=KST)), reverse=True)
+
+    # ── 중복 제거 ─────────────────────────────────────────
+    seen_titles: set = set()
+    deduped = []
+    for article in filtered_pool:
+        key = article["title"][:60]
+        if key not in seen_titles:
+            seen_titles.add(key)
+            deduped.append(article)
+
+    # ── 카테고리별 점수 계산 ──────────────────────────────
+    category_scored: dict = {k: [] for k in SECTION_META}
+    for article in deduped:
         for key, kw_groups in KEYWORDS.items():
             score = score_article(article["title"], kw_groups)
             if score > 0:
                 category_scored[key].append((score, article.copy()))
 
-    # 카테고리별 점수 높은 순 상위 5건 선정 → 번역
+    # ── 점수 내림차순 상위 5건 선정 + 번역 ───────────────
     for key in SECTION_META:
-        # 점수 내림차순 → 같은 점수면 최신순 유지
         category_scored[key].sort(key=lambda x: x[0], reverse=True)
-        selected = category_scored[key][:5]
-        for score, article in selected:
+        for score, article in category_scored[key][:5]:
             article["title"]       = translate_to_korean(article["title"])
             article["description"] = translate_to_korean(article["description"])
-            article["score"]       = score  # 디버그용
+            article["score"]       = score
             result[key].append(article)
 
     for key, arts in result.items():
@@ -328,24 +377,23 @@ def fetch_news() -> dict:
 
 
 # ── HTML 생성 ──────────────────────────────────────────────
-def generate_html(news: dict, generated_at: str) -> str:
+def generate_html(news: dict, generated_at: str, period_str: str) -> str:
     sections_html = ""
     for key, (title, color) in SECTION_META.items():
         articles = news.get(key, [])
         if not articles:
-            items_html = '<p style="color:#4a4a6a;font-size:13px;padding:12px 0;">수집된 뉴스가 없습니다.</p>'
+            items_html = '<p style="color:#4a4a6a;font-size:13px;padding:12px 0;">해당 기간 수집된 뉴스가 없습니다.</p>'
         else:
             items_html = ""
             for a in articles:
-                desc = a.get("description", "")
+                desc  = a.get("description", "")
                 desc_html = f'<p class="art-desc">{desc}</p>' if desc else ""
-                url = a.get("url", "")
+                url   = a.get("url", "")
                 score = a.get("score", 0)
-                # 점수에 따라 중요도 배지
                 if score >= 10:
-                    badge = f'<span class="badge-high">HOT</span>'
+                    badge = '<span class="badge-high">HOT</span>'
                 elif score >= 5:
-                    badge = f'<span class="badge-mid">KEY</span>'
+                    badge = '<span class="badge-mid">KEY</span>'
                 else:
                     badge = ""
                 lo = f'<a href="{url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">' if url else "<span>"
@@ -383,7 +431,8 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 .page-title{{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#f0f0f8;letter-spacing:-0.5px}}
 .nav-link{{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#5b9bd5;text-decoration:none;border:1px solid #252538;padding:6px 14px;border-radius:6px}}
 .nav-link:hover{{background:#161622}}
-.meta-bar{{max-width:1100px;margin:0 auto 24px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:#5b5b80}}
+.meta-bar{{max-width:1100px;margin:0 auto 24px;display:flex;flex-direction:column;gap:4px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:#5b5b80}}
+.meta-period{{color:#8888aa;font-size:12px}}
 .grid{{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}}
 @media(max-width:900px){{.grid{{grid-template-columns:1fr 1fr}}}}
 @media(max-width:520px){{.grid{{grid-template-columns:1fr}}}}
@@ -407,7 +456,10 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
   <div class="page-title">DAILY NEWS BRIEF</div>
   <a href="index.html" class="nav-link">← DASHBOARD</a>
 </div>
-<div class="meta-bar">업데이트: {generated_at} &nbsp;|&nbsp; Reuters · Yahoo Finance · 한국경제 · 연합뉴스 &nbsp;|&nbsp; 점수 기반 선별</div>
+<div class="meta-bar">
+  <span class="meta-period">수집 기간: {period_str}</span>
+  <span>생성: {generated_at} &nbsp;|&nbsp; Reuters · Yahoo Finance · 한국경제 · 연합뉴스 &nbsp;|&nbsp; 점수 기반 선별</span>
+</div>
 <div class="grid">{sections_html}</div>
 <div class="footer">
   <p>HOT = 점수 10+ &nbsp;|&nbsp; KEY = 점수 5~9 &nbsp;|&nbsp; 매일 07:30 KST 자동 갱신</p>
@@ -420,17 +472,29 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 # ── 메인 ──────────────────────────────────────────────────
 if __name__ == "__main__":
     os.makedirs(DATA_DIR, exist_ok=True)
-    now = datetime.now(KST)
+    now          = datetime.now(KST)
     generated_at = now.strftime("%Y-%m-%d %H:%M KST")
+
+    # 수집 기간 문자열 (화면 표시용)
+    cutoff_end   = now.replace(hour=7, minute=0, second=0, microsecond=0)
+    if now < cutoff_end:
+        cutoff_end -= timedelta(days=1)
+    cutoff_start = cutoff_end - timedelta(days=1)
+    period_str   = f"{cutoff_start.strftime('%m/%d %H:%M')} ~ {cutoff_end.strftime('%m/%d %H:%M')} KST"
+
     print(f"[NEWS] 시작: {generated_at}")
+    print(f"[NEWS] 수집 기간: {period_str}")
 
     news = fetch_news()
 
     with open(f"{DATA_DIR}/news_latest.json", "w", encoding="utf-8") as f:
-        json.dump({"generated_at_kst": generated_at, "news": news},
-                  f, ensure_ascii=False, indent=2)
+        json.dump({
+            "generated_at_kst": generated_at,
+            "period":           period_str,
+            "news":             news,
+        }, f, ensure_ascii=False, indent=2)
 
-    html = generate_html(news, generated_at)
+    html = generate_html(news, generated_at, period_str)
     with open(f"{DOCS_DIR}/news.html", "w", encoding="utf-8") as f:
         f.write(html)
 
