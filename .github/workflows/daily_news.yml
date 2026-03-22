@@ -25,9 +25,6 @@ jobs:
         run: pip install requests
 
       - name: Run news briefing generator
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: python collect_news.py
 
       - name: Commit & push
