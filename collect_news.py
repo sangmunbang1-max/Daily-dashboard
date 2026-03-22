@@ -14,9 +14,9 @@ RSS_FEEDS = {
         "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
     ],
     "kr_market": [
-        "https://feeds.reuters.com/reuters/AsianBusinessNews",
-        "https://finance.yahoo.com/rss/headline?s=^KS11",
-    ],
+    "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^KS11&region=US&lang=en-US",
+    "https://feeds.finance.yahoo.com/rss/2.0/headline?s=005930.KS&region=US&lang=en-US",
+],
     "macro": [
         "https://feeds.reuters.com/reuters/businessNews",
         "https://www.federalreserve.gov/feeds/press_all.xml",
@@ -45,7 +45,7 @@ RSS_FEEDS = {
 # 카테고리별 필터 키워드
 KEYWORDS = {
     "us_market":   ["stock", "nasdaq", "s&p", "dow", "wall street", "equity", "market", "fed", "earnings"],
-    "kr_market":   ["korea", "kospi", "kosdaq", "samsung", "hyundai", "seoul", "korean"],
+    "kr_market": ["korea", "kospi", "kosdaq", "samsung", "hyundai", "seoul", "korean", "south korea", "won", "^ks11"],
     "macro":       ["fed", "federal reserve", "inflation", "gdp", "interest rate", "cpi", "economy", "recession"],
     "bonds":       ["treasury", "bond", "yield", "debt", "credit", "fixed income"],
     "commodities": ["oil", "crude", "gold", "copper", "lng", "energy", "commodity", "opec", "brent", "wti"],
