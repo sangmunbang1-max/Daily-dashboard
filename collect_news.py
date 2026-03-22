@@ -49,6 +49,10 @@ RSS_FEEDS = {
         "https://feeds.reuters.com/reuters/technologyNews",
         "https://feeds.finance.yahoo.com/rss/2.0/headline?s=NVDA&region=US&lang=en-US",
         "https://feeds.finance.yahoo.com/rss/2.0/headline?s=TSM&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=RKLB&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=PLTR&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=IONQ&region=US&lang=en-US",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=005930.KS&region=US&lang=en-US",
         "https://www.hankyung.com/feed/it",
     ],
 }
@@ -156,31 +160,54 @@ KEYWORDS = {
     },
     "tech": {
         "high": [
-            "nvidia earnings", "ai chip", "hbm", "tsmc production",
-            "samsung hbm", "openai", "anthropic", "ai investment",
-            "chip shortage", "semiconductor export ban",
-            "엔비디아 실적", "hbm4", "삼성 hbm", "ai 투자",
-            "반도체 수출 규제", "tsmc 생산",
+            # 반도체
+            "nvidia earnings", "ai chip", "hbm", "hbm4", "tsmc production",
+            "samsung hbm", "chip shortage", "semiconductor export ban",
+            "semiconductor earnings", "memory chip", "nand", "dram",
+            "엔비디아 실적", "삼성 hbm", "반도체 수출 규제", "tsmc 생산",
+            "메모리 반도체", "시스템 반도체", "sk하이닉스 실적",
+            # AI
+            "openai", "anthropic", "ai investment", "ai model launch",
+            "ai 투자", "생성형 ai",
+            # 우주
+            "spacex", "starship", "rocket launch", "space launch",
+            "nasa", "blue origin", "satellite launch",
+            "스페이스x", "우주 발사", "로켓 발사",
+            # 로봇 · 자율주행
+            "humanoid robot", "figure ai", "boston dynamics",
+            "tesla optimus", "autonomous vehicle", "self-driving",
+            "waymo", "인간형 로봇", "자율주행",
+            # 양자 · 방산
+            "quantum computing", "quantum computer", "hypersonic",
+            "양자컴퓨터", "극초음속",
         ],
         "medium": [
-            "nvidia", "tsmc", "amd", "intel", "arm", "ai model",
+            "nvidia", "tsmc", "amd", "intel", "arm", "qualcomm",
+            "samsung semiconductor", "sk hynix",
             "data center", "generative ai", "llm", "gpu",
+            "robotics", "automation", "robot", "drone",
+            "space exploration", "starlink", "satellite",
+            "palantir", "nuclear fusion", "clean energy tech",
             "반도체", "인공지능", "데이터센터", "엔비디아",
+            "로봇", "드론", "위성", "핵융합", "파운드리",
         ],
-        "low": ["tech", "semiconductor", "chip", "ai", "테크"],
+        "low": [
+            "tech", "semiconductor", "chip", "ai", "테크",
+            "space", "rocket", "우주", "로켓",
+        ],
     },
 }
 
 # ── 섹션 메타 ──────────────────────────────────────────────
 SECTION_META = {
-    "us_market":   ("🇺🇸 미국 증시",      "#5b9bd5"),
-    "kr_market":   ("🇰🇷 한국 증시",      "#00d084"),
-    "macro":       ("🏦 거시경제 · 금리",  "#f97316"),
-    "bonds":       ("📊 채권 · 크레딧",   "#a78bfa"),
-    "commodities": ("🛢 원자재 · 에너지", "#f5c842"),
-    "fx":          ("💱 환율 · 외환",     "#34d399"),
-    "geopolitics": ("⚡ 지정학 · 무역",   "#f87171"),
-    "tech":        ("💡 AI · 반도체",     "#c084fc"),
+    "us_market":   ("🇺🇸 미국 증시",            "#5b9bd5"),
+    "kr_market":   ("🇰🇷 한국 증시",            "#00d084"),
+    "macro":       ("🏦 거시경제 · 금리",        "#f97316"),
+    "bonds":       ("📊 채권 · 크레딧",         "#a78bfa"),
+    "commodities": ("🛢 원자재 · 에너지",       "#f5c842"),
+    "fx":          ("💱 환율 · 외환",           "#34d399"),
+    "geopolitics": ("⚡ 지정학 · 무역",         "#f87171"),
+    "tech":        ("💡 반도체 · AI · 미래산업", "#c084fc"),
 }
 
 
@@ -293,12 +320,12 @@ def fetch_news() -> dict:
         pub_dt = parse_pub_date(article.get("publishedAt_raw", ""))
         if pub_dt and cutoff_start <= pub_dt <= cutoff_end:
             article["publishedAt"] = pub_dt.strftime("%m/%d %H:%M")
-            article["_pub_dt"]     = pub_dt   # 정렬용 임시 저장 (JSON 저장 시 제거)
+            article["_pub_dt"]     = pub_dt
             filtered_pool.append(article)
 
     print(f"  시간 필터 후: {len(filtered_pool)}개")
 
-    # 기사 부족 시 48시간으로 자동 확장 (주말·공휴일 대비)
+    # 기사 부족 시 48시간으로 자동 확장
     if len(filtered_pool) < 15:
         print("  [확장] 기사 부족 → 48시간으로 범위 확장")
         cutoff_start = cutoff_end - timedelta(days=2)
@@ -340,7 +367,6 @@ def fetch_news() -> dict:
             article["title"]       = translate_to_korean(article["title"])
             article["description"] = translate_to_korean(article["description"])
             article["score"]       = score
-            # ── JSON 직렬화 불가 필드 제거 ──
             article.pop("_pub_dt", None)
             article.pop("publishedAt_raw", None)
             result[key].append(article)
@@ -358,7 +384,7 @@ def generate_html(news: dict, generated_at: str, period_str: str) -> str:
     for key, (title, color) in SECTION_META.items():
         articles = news.get(key, [])
         if not articles:
-            items_html = '<p style="color:#4a4a6a;font-size:13px;padding:12px 0;">해당 기간 수집된 뉴스가 없습니다.</p>'
+            items_html = '<p style="color:#6060a0;font-size:13px;padding:12px 0;">해당 기간 수집된 뉴스가 없습니다.</p>'
         else:
             items_html = ""
             for a in articles:
@@ -401,7 +427,8 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 .nav-link{{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#5b9bd5;text-decoration:none;border:1px solid #252538;padding:6px 14px;border-radius:6px}}
 .nav-link:hover{{background:#161622}}
 .meta-bar{{max-width:1100px;margin:0 auto 24px;display:flex;flex-direction:column;gap:4px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:#a0a0c0}}
-.meta-period{{color:#d0d0e8;font-size:12px;font-weight:500}}.grid{{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}}
+.meta-period{{color:#d0d0e8;font-size:12px;font-weight:500}}
+.grid{{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}}
 @media(max-width:900px){{.grid{{grid-template-columns:1fr 1fr}}}}
 @media(max-width:520px){{.grid{{grid-template-columns:1fr}}}}
 .section-card{{background:#13131f;border:1px solid #252538;border-radius:12px;padding:18px 18px 10px}}
@@ -410,7 +437,7 @@ body{{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif
 .art-item:last-child{{border-bottom:none}}
 .art-header{{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}}
 .art-source{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#5b5b80;font-weight:600}}
-.art-date{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#4a4a6a}}
+.art-date{{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#6060a0}}
 .art-title{{font-size:13px;font-weight:600;color:#e0e0f0;line-height:1.6;margin-bottom:3px}}
 .art-title:hover{{color:#c0d8f0}}
 .art-desc{{font-size:12px;color:#8888aa;line-height:1.6}}
@@ -443,7 +470,6 @@ if __name__ == "__main__":
     now          = datetime.now(KST)
     generated_at = now.strftime("%Y-%m-%d %H:%M KST")
 
-    # 화면 표시용 수집 기간 문자열
     cutoff_end   = now.replace(hour=7, minute=0, second=0, microsecond=0)
     if now < cutoff_end:
         cutoff_end -= timedelta(days=1)
