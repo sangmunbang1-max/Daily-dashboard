@@ -3,7 +3,6 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Market Decision Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+KR:wght@300;400;600&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}
@@ -43,30 +42,6 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
   .details-grid{grid-template-columns:1fr}
   .tab-btn{padding:10px 20px;font-size:13px}
 }
-.kr-subtab-bar{max-width:960px;margin:0 auto 18px;display:flex;gap:8px;flex-wrap:wrap}
-.kr-subtab-btn{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;padding:8px 14px;border:1px solid #252538;background:#161622;color:#7070a0;border-radius:8px;cursor:pointer}
-.kr-subtab-btn:hover{color:#c0c0e0;background:#1e1e30}
-.kr-subtab-btn.active{color:#f0f0f8;border-color:#5b9bd5;background:#0d0d14}
-.kr-subtab-content{display:none}
-.kr-subtab-content.active{display:block}
-.ewy-panel{max-width:960px;margin:0 auto}
-.ewy-card{background:#13131f;border:1px solid #252538;border-radius:14px;padding:28px}
-.ewy-title{font-family:"IBM Plex Mono",monospace;font-size:24px;font-weight:700;color:#f0f0f8;margin-bottom:6px}
-.ewy-sub{font-size:12px;color:#9090b8;margin-bottom:18px}
-.ewy-stats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:18px}
-.ewy-stat{background:#161622;border:1px solid #252538;border-radius:10px;padding:12px}
-.ewy-stat-label{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#9090b8;margin-bottom:6px}
-.ewy-stat-value{font-family:"IBM Plex Mono",monospace;font-size:20px;font-weight:700;color:#f0f0f8}
-.ewy-chart-wrap{background:#0f172a;border:1px solid #252538;border-radius:12px;padding:12px 12px 24px 12px;position:relative;height:460px;overflow:visible}
-.ewy-canvas{display:block !important;width:100% !important;height:100% !important}
-.ewy-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
-.ewy-select,.ewy-reload{font-family:"IBM Plex Mono",monospace;font-size:12px;background:#161622;color:#d4d4e0;border:1px solid #252538;border-radius:8px;padding:8px 10px}
-.ewy-status{font-family:"IBM Plex Mono",monospace;font-size:11px;color:#9090b8}
-.ewy-green{color:#00d084}
-.ewy-red{color:#e53e3e}
-@media(max-width:760px){
-  .ewy-stats{grid-template-columns:repeat(2,1fr)}
-}
 </style></head><body>
 <div class="page-header">
   <div class="page-title">MARKET DECISION DASHBOARD</div>
@@ -75,24 +50,14 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 <div class="tab-bar">
   <button class="tab-btn active" data-tab="us">🇺🇸 &nbsp;US</button>
   <button class="tab-btn" data-tab="kr">🇰🇷 &nbsp;KR</button>
+  <a href="news.html" style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;padding:12px 28px;background:#161622;color:#7070a0;text-decoration:none;display:flex;align-items:center;border-bottom:3px solid transparent;">NEWS</a>
+</div>
+<div class="update-bar">
+  <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-23 07:22 KST</span></div>
+  <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-21 02:44 KST</span></div>
 </div>
 
-<div style="max-width:960px;margin:20px auto 0;display:flex;justify-content:flex-end;">
-  <a href="./night_futures.html"
-     style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;
-            padding:10px 16px;border:1px solid #252538;border-radius:8px;
-            background:#161622;color:#d4d4e0;text-decoration:none;">
-    🌙 Night Futures
-  </a>
-</div>
-
-<div id="tab-us" class="tab-content active">
-  <div class="update-bar">
-    <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-21 07:25 KST</span></div>
-    <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-21 02:44 KST</span></div>
-  </div>
-
-  <div class="cards-container"><div class="asset-card" style="border-top:3px solid #e53e3e;">
+<div id="tab-us" class="tab-content active"><div class="cards-container"><div class="asset-card" style="border-top:3px solid #e53e3e;">
       <div class="card-header">
         <div><div class="asset-name">SPY</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:rgba(229,62,62,0.12);color:#e53e3e;border:1px solid #e53e3e44;">매도</div></div>
@@ -103,17 +68,17 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
       <div class="details-grid">
           <div class="detail-group"><div class="section-label">추세</div>
             <div class="detail-row"><span>종가</span><span>648.57</span></div>
-            <div class="detail-row"><span>MA50</span><span>683.89</span></div>
-            <div class="detail-row"><span>MA200</span><span>658.31</span></div>
-            <div class="detail-row"><span>20일 수익률</span><span>-5.93%</span></div></div>
+            <div class="detail-row"><span>MA50</span><span>682.06</span></div>
+            <div class="detail-row"><span>MA200</span><span>656.52</span></div>
+            <div class="detail-row"><span>20일 수익률</span><span>-5.67%</span></div></div>
           <div class="detail-group"><div class="section-label">VIX</div>
             <div class="detail-row"><span>현재</span><span>26.78</span></div>
             <div class="detail-row"><span>5일 변화</span><span>-1.51%</span></div>
             <div class="detail-row"><span>MA20 대비</span><span>1.146</span></div>
             <div class="detail-row"><span>10일고점 대비</span><span>-1.87%</span></div></div>
           <div class="detail-group"><div class="section-label">전술</div>
-            <div class="detail-row"><span>20일선 이격</span><span>-4.01%</span></div>
-            <div class="detail-row"><span>10일 수익률</span><span>-3.54%</span></div>
+            <div class="detail-row"><span>20일선 이격</span><span>-3.76%</span></div>
+            <div class="detail-row"><span>10일 수익률</span><span>-3.28%</span></div>
             <div class="detail-row"><span>5일선 돌파</span><span><span style='color:#4a4a6a;'>✗</span></span></div>
             <div class="detail-row"><span>3일 중 2일 상승</span><span><span style='color:#4a4a6a;'>✗</span></span></div></div>
           <div class="detail-group"><div class="section-label">Breadth / 금리</div>
@@ -152,17 +117,8 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>US 10Y</span><span>4.39%</span></div>
             <div class="detail-row"><span>20일 변화</span><span>+30.5bp</span></div></div>
         </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>50/200일선 하회 + 20일 수익률 음수 → 매도 우선</li><li>10년물 20일 급등 → QQQ 한 단계 하향</li></ul></div>
-    </div></div>
-</div>
-
-<div id="tab-kr" class="tab-content">
-  <div class="kr-subtab-bar">
-    <button class="kr-subtab-btn active" data-kr-subtab="main">KR Main</button>
-    <button class="kr-subtab-btn" data-kr-subtab="ewy">NIGHT &amp; Weekend EWY</button>
-  </div>
-
-  <div id="kr-subtab-main" class="kr-subtab-content active">
-    <div class="cards-container"><div class="asset-card" style="border-top:3px solid #f5c842;">
+    </div></div></div>
+<div id="tab-kr" class="tab-content"><div class="cards-container"><div class="asset-card" style="border-top:3px solid #f5c842;">
       <div class="card-header">
         <div><div class="asset-name">KOSPI</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:rgba(245,200,66,0.12);color:#f5c842;border:1px solid #f5c84244;">보유</div><span style="color:#6060a0;font-size:11px;">원신호: 매수</span></div>
@@ -240,65 +196,7 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>WTI</span><span>98.23</span></div>
             <div class="detail-row"><span>WTI 20일</span><span>47.96%</span></div></div>
         </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>코스닥 리더십 약세 → 매수 제한</li><li>원/달러 급등 + 단기 수급 약세 → 매수 제한</li><li>상승추세 + 변동성 진정 → 최소 보유</li></ul></div>
-    </div></div>
-  </div>
-
-  <div id="kr-subtab-ewy" class="kr-subtab-content">
-    <div class="ewy-panel">
-      <div class="ewy-card">
-        <div class="ewy-title">EWYUSDT Perp</div>
-        <div class="ewy-sub">Binance USDⓈ-M Futures · NIGHT &amp; Weekend Korea Proxy</div>
-
-        <div class="ewy-stats">
-          <div class="ewy-stat">
-            <div class="ewy-stat-label">현재가</div>
-            <div class="ewy-stat-value" id="ewyLastPrice">-</div>
-          </div>
-          <div class="ewy-stat">
-            <div class="ewy-stat-label">24h 변동률</div>
-            <div class="ewy-stat-value" id="ewyChgPct">-</div>
-          </div>
-          <div class="ewy-stat">
-            <div class="ewy-stat-label">24h 고가</div>
-            <div class="ewy-stat-value" id="ewyHighPrice">-</div>
-          </div>
-          <div class="ewy-stat">
-            <div class="ewy-stat-label">24h 저가</div>
-            <div class="ewy-stat-value" id="ewyLowPrice">-</div>
-          </div>
-          <div class="ewy-stat">
-            <div class="ewy-stat-label">24h 거래대금(USDT)</div>
-            <div class="ewy-stat-value" id="ewyQuoteVol">-</div>
-          </div>
-        </div>
-
-        <div class="ewy-chart-wrap">
-          <div class="ewy-toolbar">
-            <select id="ewyIntervalSelect" class="ewy-select">
-              <option value="5m">5m</option>
-              <option value="15m" selected>15m</option>
-              <option value="30m">30m</option>
-              <option value="1h">1h</option>
-              <option value="4h">4h</option>
-            </select>
-
-            <select id="ewyLimitSelect" class="ewy-select">
-              <option value="48">48</option>
-              <option value="96" selected>96</option>
-              <option value="168">168</option>
-              <option value="336">336</option>
-            </select>
-
-            <button id="ewyReloadBtn" class="ewy-reload">새로고침</button>
-            <span id="ewyStatusText" class="ewy-status">대기 중</span>
-          </div>
-
-          <canvas id="ewyChart" class="ewy-canvas"></canvas>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    </div></div></div>
 
 <div class="footer">
   <p>score ≥ 70 → 매수 &nbsp;|&nbsp; 40–69 → 보유 &nbsp;|&nbsp; &lt; 40 → 매도</p>
@@ -311,28 +209,13 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
   btns.forEach(function(btn){
     btn.addEventListener('click', function(){
       var name = this.getAttribute('data-tab');
-      document.querySelectorAll('.tab-content').forEach(function(el){ el.classList.remove('active'); });
-      document.querySelectorAll('.tab-btn').forEach(function(el){ el.classList.remove('active'); });
+      document.querySelectorAll('.tab-content').forEach(function(el){el.classList.remove('active');});
+      document.querySelectorAll('.tab-btn').forEach(function(el){el.classList.remove('active');});
       document.getElementById('tab-' + name).classList.add('active');
       this.classList.add('active');
-      try{ localStorage.setItem('lastTab', name); }catch(e){}
+      try{localStorage.setItem('lastTab', name);}catch(e){}
     });
   });
-
-  var krSubBtns = document.querySelectorAll('.kr-subtab-btn');
-krSubBtns.forEach(function(btn){
-  btn.addEventListener('click', function(){
-    var name = this.getAttribute('data-kr-subtab');
-    document.querySelectorAll('.kr-subtab-content').forEach(function(el){ el.classList.remove('active'); });
-    document.querySelectorAll('.kr-subtab-btn').forEach(function(el){ el.classList.remove('active'); });
-    document.getElementById('kr-subtab-' + name).classList.add('active');
-    this.classList.add('active');
-    try{ localStorage.setItem('lastKrSubTab', name); }catch(e){}
-    if(name === 'ewy'){
-      setTimeout(loadEWY, 50);
-    }
-  });
-});
   try{
     var last = localStorage.getItem('lastTab');
     if(last){
@@ -340,200 +223,6 @@ krSubBtns.forEach(function(btn){
       if(t) t.click();
     }
   }catch(e){}
-
-  try{
-    var lastKr = localStorage.getItem('lastKrSubTab');
-    if(lastKr){
-      var kt = document.querySelector('[data-kr-subtab="' + lastKr + '"]');
-      if(kt) kt.click();
-    }
-  }catch(e){}
 })();
-
-const EWY_SYMBOL = "EWYUSDT";
-const EWY_BASE = "https://fapi.binance.com";
-let ewyChartInstance = null;
-
-function ewyFmtNum(v, d=2){
-  const n = Number(v);
-  if (Number.isNaN(n)) return "-";
-  return n.toLocaleString(undefined, {
-    minimumFractionDigits: d,
-    maximumFractionDigits: d
-  });
-}
-
-function ewyFmtCompact(v){
-  const n = Number(v);
-  if (Number.isNaN(n)) return "-";
-  return Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 2 }).format(n);
-}
-
-async function ewyFetch24h(){
-  const url = `${EWY_BASE}/fapi/v1/ticker/24hr?symbol=${EWY_SYMBOL}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error("24hr ticker fetch failed");
-  return await res.json();
-}
-
-async function ewyFetchPrice(){
-  const url = `${EWY_BASE}/fapi/v2/ticker/price?symbol=${EWY_SYMBOL}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error("price fetch failed");
-  return await res.json();
-}
-
-async function ewyFetchKlines(interval, limit){
-  const url = `${EWY_BASE}/fapi/v1/klines?symbol=${EWY_SYMBOL}&interval=${interval}&limit=${limit}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error("klines fetch failed");
-  return await res.json();
-}
-
-function ewyRenderStats(priceData, dayData){
-  document.getElementById("ewyLastPrice").textContent = "$" + ewyFmtNum(priceData.price, 2);
-
-  const pct = Number(dayData.priceChangePercent);
-  const pctEl = document.getElementById("ewyChgPct");
-  pctEl.textContent = ewyFmtNum(pct, 2) + "%";
-  pctEl.className = "ewy-stat-value " + (pct >= 0 ? "ewy-green" : "ewy-red");
-
-  document.getElementById("ewyHighPrice").textContent = "$" + ewyFmtNum(dayData.highPrice, 2);
-  document.getElementById("ewyLowPrice").textContent = "$" + ewyFmtNum(dayData.lowPrice, 2);
-  document.getElementById("ewyQuoteVol").textContent = ewyFmtCompact(dayData.quoteVolume);
-}
-
-function ewyToLabel(ts, interval){
-  const d = new Date(ts);
-  const yy = String(d.getFullYear()).slice(-2);
-  const mo = String(d.getMonth() + 1).padStart(2, "0");
-  const dd = String(d.getDate()).padStart(2, "0");
-  const hh = String(d.getHours()).padStart(2, "0");
-  const mm = String(d.getMinutes()).padStart(2, "0");
-
-  if (interval === "4h" || interval === "1h") {
-    return `${yy}-${mo}-${dd} ${hh}:${mm}`;
-  }
-  return `${mo}-${dd} ${hh}:${mm}`;
-}
-function ewyRenderChart(klines, interval){
-  const labels = klines.map(k => ewyToLabel(k[0], interval));
-  const closes = klines.map(k => Number(k[4]));
-
-  const canvas = document.getElementById("ewyChart");
-  if (!canvas) return;
-
-  const ctx = canvas.getContext("2d");
-  if (ewyChartInstance) ewyChartInstance.destroy();
-
-  ewyChartInstance = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels,
-      datasets: [{
-        label: `${EWY_SYMBOL} close (${interval})`,
-        data: closes,
-        borderWidth: 2,
-        pointRadius: 0,
-        tension: 0.15
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: {
-        mode: "index",
-        intersect: false
-      },  
-      layout: {
-  padding: {
-    bottom: 16
-  }
-},
-      plugins: {
-        legend: {
-          labels: { color: "#f9fafb" }
-        }
-      },
-      scales: {
-        x: {
-  offset: false,
-  ticks: {
-    color: "#9ca3af",
-    autoSkip: true,
-    maxTicksLimit: 8,
-    maxRotation: 0,
-    minRotation: 0,
-    padding: 10,
-    callback: function(value, index) {
-      const label = labels[index];
-      if (!label) return "";
-
-      if (interval === "4h" || interval === "1h") {
-        const parts = label.split(" ");
-        return parts.length >= 2 ? [parts[0], parts[1]] : label;
-      }
-
-      if (interval === "30m" || interval === "15m" || interval === "5m") {
-        const parts = label.split(" ");
-        return parts.length >= 2 ? [parts[0], parts[1]] : label;
-      }
-
-      return label;
-    }
-  },
-  grid: { color: "#374151" }
-},
-        y: {
-          ticks: { color: "#9ca3af" },
-          grid: { color: "#374151" }
-        }
-      }
-    }
-  });
-}
-
-async function loadEWY(){
-  const status = document.getElementById("ewyStatusText");
-  if (status) status.textContent = "불러오는 중...";
-
-  try{
-    const interval = document.getElementById("ewyIntervalSelect").value;
-    const limit = document.getElementById("ewyLimitSelect").value;
-
-    const [priceData, dayData, klines] = await Promise.all([
-      ewyFetchPrice(),
-      ewyFetch24h(),
-      ewyFetchKlines(interval, limit)
-    ]);
-
-    ewyRenderStats(priceData, dayData);
-    ewyRenderChart(klines, interval);
-
-    const now = new Date();
-    if (status) status.textContent = `업데이트 완료 · ${now.toLocaleString()}`;
-  }catch(err){
-    console.error(err);
-    if (status) status.textContent = "로드 실패";
-  }
-}
-
-document.addEventListener("DOMContentLoaded", function(){
-  var reloadBtn = document.getElementById("ewyReloadBtn");
-  var intervalSel = document.getElementById("ewyIntervalSelect");
-  var limitSel = document.getElementById("ewyLimitSelect");
-
-  if (reloadBtn) reloadBtn.addEventListener("click", loadEWY);
-  if (intervalSel) intervalSel.addEventListener("change", loadEWY);
-  if (limitSel) limitSel.addEventListener("change", loadEWY);
-
-  setInterval(function(){
-    var activeEwy = document.getElementById('kr-subtab-ewy');
-    if(activeEwy && activeEwy.classList.contains('active')){
-      loadEWY();
-    }
-  }, 60000);
-});
 </script>
-</body>
-</html>
+</body></html>
