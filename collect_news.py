@@ -153,6 +153,7 @@ def fetch_news() -> dict:
                 fetched_urls.add(url)
 
     print(f"  총 {len(raw_pool)}개 기사 수집")
+    raw_pool.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
 
     seen_titles: set = set()
     for article in raw_pool:
