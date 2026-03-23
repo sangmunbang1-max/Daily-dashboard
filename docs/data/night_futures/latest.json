@@ -1,10 +1,10 @@
 {
-  "generated_at_kst": "2026-03-23T22:28:20.515735+09:00",
+  "generated_at_kst": "2026-03-23T22:40:36.055578+09:00",
   "biz_date": "2026-03-23",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0",
-  "note": "snapshot update failed: did not receive a valid HTTP response",
-  "token_status": "error",
+  "note": "market_status={'kospi': 'ok', 'kosdaq': 'no_message_for_A06606'}",
+  "token_status": "ready",
   "series": {
     "kospi": [
       {
@@ -64,27 +64,56 @@
           "ACML_VOL": "23077",
           "LAST_CNQN": "1"
         }
+      },
+      {
+        "time": "22:40",
+        "bsop_hour": "224046",
+        "price": 847.2,
+        "change": 42.2,
+        "change_pct": 5.24,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 807.9,
+        "session_high": 869.4,
+        "session_low": 796.55,
+        "ask1": 847.8,
+        "bid1": 847.0,
+        "acml_vol": 25276.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "raw_fields": {
+          "FUTS_PRPR": "847.20",
+          "FUTS_PRDY_VRSS": "42.20",
+          "FUTS_PRDY_CTRT": "5.24",
+          "FUTS_OPRC": "807.90",
+          "FUTS_HGPR": "869.40",
+          "FUTS_LWPR": "796.55",
+          "FUTS_ASKP1": "847.80",
+          "FUTS_BIDP1": "847.00",
+          "ACML_VOL": "25276",
+          "LAST_CNQN": "1"
+        }
       }
     ],
     "kosdaq": []
   },
   "summary": {
     "kospi": {
-      "last": 853.85,
-      "change": 48.85,
-      "change_pct": 6.07,
+      "last": 847.2,
+      "change": 42.2,
+      "change_pct": 5.24,
       "high": 853.85,
-      "low": 852.9,
-      "points": 2,
+      "low": 847.2,
+      "points": 3,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 807.9,
       "session_high": 869.4,
       "session_low": 796.55,
-      "ask1": 854.4,
-      "bid1": 853.2,
-      "spread": 1.2,
-      "acml_vol": 23077.0
+      "ask1": 847.8,
+      "bid1": 847.0,
+      "spread": 0.8,
+      "acml_vol": 25276.0
     },
     "kosdaq": {
       "last": null,
@@ -106,9 +135,13 @@
   },
   "meta": {
     "mode": "snapshot",
-    "interval_minutes": 30,
+    "interval_minutes": 15,
     "ws_tr_id": "H0MFCNT0",
-    "ws_url": "ws://ops.koreainvestment.com:21000",
+    "ws_urls_tried": [
+      "ws://ops.koreainvestment.com:21000",
+      "wss://ops.koreainvestment.com:21000"
+    ],
+    "connected_ws_url": "ws://ops.koreainvestment.com:21000",
     "wait_seconds": 12,
     "debug_files": {
       "raw_frames": "tmp/night_futures_ws/raw_frames.json",
@@ -117,6 +150,13 @@
     "configured_tr_keys": {
       "kospi": "A01606",
       "kosdaq": "A06606"
+    },
+    "received_symbols": [
+      "A01606"
+    ],
+    "market_status": {
+      "kospi": "ok",
+      "kosdaq": "no_message_for_A06606"
     }
   }
 }
