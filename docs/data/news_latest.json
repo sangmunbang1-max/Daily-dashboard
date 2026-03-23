@@ -1,268 +1,325 @@
 {
-  "generated_at_kst": "2026-03-23 07:51 KST",
-  "period": "03/22 07:00 ~ 03/23 07:00 KST",
+  "generated_at_kst": "2026-03-24 07:59 KST",
+  "period": "03/23 07:00 ~ 03/24 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "100달러 석유와 이란의 갈등은 시장을 탈선시키기에 충분하지 않았습니다. S&P 500 지수를 막을 수 있는 것은 무엇입니까?",
-        "description": "이란 분쟁에 대한 미국 주식시장의 반응은 다소 조용했다.",
-        "url": "https://www.fool.com/investing/2026/03/22/100-oil-and-the-conflict-in-iran-have-not-been-eno/?.tsrc=rss",
+        "title": "다우존스 선물: 트럼프의 이란 논평 주식시장 반등; Micron, Nvidia, Palantir, Tesla는 큰 움직임을 보이고 있습니다.",
+        "description": "다우 존스 선물: 트럼프의 이란 전쟁 발언은 월요일 주식 시장 랠리를 촉발시켰습니다. Nvidia, Palantir 및 Tesla가 큰 승리를 거두었습니다.",
+        "url": "https://finance.yahoo.com/m/9799f27c-b68f-38ee-83e4-63d9660eac13/dow-jones-futures%3A-trump%27s.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/22 23:35",
+        "publishedAt": "03/24 06:50",
+        "score": 14
+      },
+      {
+        "title": "중동 긴장완화 기대에…유가 하락·뉴욕증시 급등",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202603231235i",
+        "source": "hankyung.com",
+        "publishedAt": "03/23 23:20",
+        "score": 8
+      },
+      {
+        "title": "오늘의 주식시장: 트럼프가 말한 대로 다우 상승; Cathie Wood는 84% 급락 속에서 IPO 주식을 급등했습니다(생방송)",
+        "description": "다우존스 지수는 트럼프 대통령의 이란 문제 발언 이후 상승했다. 제약회사가 오늘 주식시장 진입을 테스트했습니다. Cathie Wood는 주식을 샀습니다.",
+        "url": "https://finance.yahoo.com/m/30930a3a-24fd-32a0-a00c-16b447ac4de6/stock-market-today%3A-dow-up-as.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/24 05:32",
+        "score": 7
+      },
+      {
+        "title": "투자자들이 금리 인상에 베팅함에 따라 재무부 수익률이 더 높아졌습니다.",
+        "description": "중동 에너지 위기가 수그러들 기미를 보이지 않고 인플레이션과 금리 상승에 대한 기대감이 커지면서 미국 국채 수익률은 계속 상승하고 있습니다.",
+        "url": "https://finance.yahoo.com/m/4cb11140-58a4-3e85-889b-198c1848205a/treasury-yields-forge-higher.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/23 19:38",
         "score": 6
       },
       {
-        "title": "거대 기술기업의 희망 이유: Mag 7과 S&P 500 사이의 연결이 끊어졌습니다",
-        "description": "소위 Magnificent Seven을 추적하는 지수와 S&P 500의 동일 가중치 버전 사이의 상관관계를 보다 정확하게 반영합니다.",
-        "url": "https://finance.yahoo.com/news/big-tech-cause-hope-between-130007636.html?.tsrc=rss",
+        "title": "수정 구역의 Russell 2000: ETF로 이익을 얻는 방법",
+        "description": "러셀 2000은 오일 쇼크와 경기 둔화로 소액 상한선에 도달하면서 조정을 받았습니다. 인버스 ETF 급증 - 투자자들이 헤지하거나 플레이할 수 있는 방법은 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/russell-2000-correction-zone-benefit-140000656.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/22 22:00",
+        "publishedAt": "03/23 23:00",
         "score": 5
-      },
-      {
-        "title": "3주간의 전쟁, 금리 인상 가능성, 그리고 AI의 '보여주기' 단계: 이번 주에 볼만한 것",
-        "description": "이란 전쟁이 4주차로 접어들면서 계속되는 에너지 시장 혼란과 연준의 금리 인상에 대한 새로운 베팅이 투자자들을 사로잡을 것입니다.",
-        "url": "https://finance.yahoo.com/news/3-weeks-of-war-possible-rate-hikes-and-ais-show-me-phase-what-to-watch-this-week-113740150.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/22 20:37",
-        "score": 5
-      },
-      {
-        "title": "상승하는 가스 가격은 잊어버리세요: 훨씬 더 사악한 일이 귀하의 지갑과 주식 시장을 파괴할 수 있습니다",
-        "description": "나무 때문에 숲을 놓치지 마세요.",
-        "url": "https://www.fool.com/investing/2026/03/22/forget-rising-gas-prices-devastate-stock-market/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/22 19:56",
-        "score": 4
-      },
-      {
-        "title": "Palantir Technologies Inc.(PLTR), 미 해군의 ShipOS 이니셔티브에서 Keel Holdings와 파트너십 체결",
-        "description": "Palantir Technologies Inc.(NASDAQ:PLTR)는 지금 매수할 수 있는 최고의 영구 주식 중 하나입니다. 3월 17일 Palantir Technologies Inc.(NASDAQ:PLTR)가 i에 진입했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-partners-165323662.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/23 05:07",
-        "score": 3
       }
     ],
     "kr_market": [
       {
-        "title": "삼성, 730억 달러 규모의 공세로 SK하이닉스 AI 선두 타깃",
-        "description": "삼성전자는 경쟁사와 더욱 직접적으로 경쟁하기 위해 공격적인 지출과 신기술 추진으로 칩 야망을 확대하고 있습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/samsung-targets-sk-hynix-ai-180140661.html?.tsrc=rss",
+        "title": "한국, 5월까지 삼성·SK하이닉스에 2배 레버리지 ETF 준비",
+        "description": "자산 관리자가 칩 리더와 연계된 최초의 단일 주식 레버리지 제품을 라인업함에 따라 규제 당국은 승인을 신속하게 처리합니다.",
+        "url": "https://finance.yahoo.com/markets/options/articles/south-korea-prepares-2x-leveraged-132120899.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/23 03:01",
+        "publishedAt": "03/23 22:21",
+        "score": 6
+      },
+      {
+        "title": "'중동발 공포'에 환율 치솟고 주가 급락…코스피 5400선 겨우 사수 [HK영상]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202603230648i",
+        "source": "hankyung.com",
+        "publishedAt": "03/23 17:03",
         "score": 5
       },
       {
-        "title": "코스피 상승률 1위 된 대우건설",
+        "title": "美·이란 '최후통첩'에…코스피 6%대 급락·환율 17년 만에 최고",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032281071",
+        "url": "https://www.hankyung.com/article/2026032302416",
         "source": "hankyung.com",
-        "publishedAt": "03/22 18:16",
+        "publishedAt": "03/23 15:49",
         "score": 5
       },
       {
-        "title": "이란 전쟁 '출구 전략' 기다리는 코스피 [주간전망]",
+        "title": "운전하면서 로봇청소기 돌린다…현대차·삼성 '초연결'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032054406",
+        "url": "https://www.hankyung.com/article/2026032307341",
         "source": "hankyung.com",
-        "publishedAt": "03/22 08:00",
-        "score": 5
-      },
-      {
-        "title": "26일 현대차·한화·SK 등 740곳 '슈퍼 주총데이'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032280821",
-        "source": "hankyung.com",
-        "publishedAt": "03/22 17:54",
+        "publishedAt": "03/23 21:00",
         "score": 3
       },
       {
-        "title": "현대차그룹, 북미 공장 '풀가동'…현지 생산 늘려 관세 뚫는다",
+        "title": "카카오, 'AI 돛'으로 지역 유니콘 키운다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032280931",
+        "url": "https://www.hankyung.com/article/2026032306141",
         "source": "hankyung.com",
-        "publishedAt": "03/22 17:31",
+        "publishedAt": "03/23 17:42",
         "score": 3
       }
     ],
-    "macro": [],
-    "bonds": [
+    "macro": [
       {
-        "title": "환율·채권, 원·달러 환율 1500원대 고착화 우려",
+        "title": "귀하의 투자는 경기 침체에 대비하고 있습니까? 말하는 방법은 다음과 같습니다.",
+        "description": "변동성에 대비하는 것이 그 어느 때보다 중요합니다.",
+        "url": "https://www.fool.com/investing/2026/03/23/are-your-investments-prepared-for-a-recession-here/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/24 05:35",
+        "score": 5
+      },
+      {
+        "title": "美서 고용량 출시…'2만원 위고비' 등장에 브랜드 경쟁력 높이는 노보노디스크",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032280791",
+        "url": "https://www.hankyung.com/article/202603230774i",
         "source": "hankyung.com",
-        "publishedAt": "03/22 18:17",
+        "publishedAt": "03/24 06:25",
         "score": 3
       },
       {
-        "title": "USA Compression Partners, 기록적인 현금 흐름으로 1.6배의 보장 목표 달성으로 부채 감소 주목",
-        "description": "천연가스 압축 서비스의 최대 독립 제공업체 중 하나인 USA Compression Partners(NYSE:USAC)는 연초 대비 24.61%의 상승률을 기록했습니다.",
-        "url": "https://247wallst.com/investing/2026/03/22/usa-compression-partners-eyes-debt-reduction-as-record-cash-flow-powers-1-6x-coverage-target/?.tsrc=rss",
+        "title": "중동 전쟁: 세계 경제의 낙진",
+        "description": "월요일 중동 전쟁의 최신 경제 이벤트는 다음과 같습니다.\n- 미국 증시 랠리 -\n월스트리트 주식은 미국 대통령 이후 월요일 상승세로 마감했습니다.",
+        "url": "https://finance.yahoo.com/economy/articles/middle-east-war-global-economic-160636725.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/22 20:52",
+        "publishedAt": "03/24 05:54",
         "score": 1
+      },
+      {
+        "title": "배타적 러시아, 이란 전쟁 에너지 가격 급등 이후 재정 기금 변경 지연",
+        "description": "모스크바, 3월 23일 - 이란 전쟁으로 촉발된 유가 급등으로 인해 러시아 정부는 장기 재정 여유분 증대 계획을 연기할 수 있었습니다.",
+        "url": "https://finance.yahoo.com/news/exclusive-russia-delays-change-fiscal-181955020.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/24 05:48",
+        "score": 1
+      },
+      {
+        "title": "대신증권, 26일 '우주경제' 전망 라이브 세미나",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026032396136",
+        "source": "hankyung.com",
+        "publishedAt": "03/23 11:21",
+        "score": 1
+      }
+    ],
+    "bonds": [
+      {
+        "title": "트럼프 대통령의 이란 구제 조치로 원유가 유출되면서 미국 주가지수가 급등했고, 재무부 수익률은 급락했습니다.",
+        "description": "도널드 트럼프 대통령의 공격 위협 연기 결정 이후 미국 주가지수는 월요일 상승했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-jump-trump-204533841.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/24 05:45",
+        "score": 8
+      },
+      {
+        "title": "트럼프 대통령의 긴장 완화로 글로벌 시장이 안정되면서 국채 수익률 하락",
+        "description": "트럼프 대통령의 이란 공격 중단이 글로벌 시장에 어느 정도 위안을 주면서 국채수익률은 하락했습니다.",
+        "url": "https://finance.yahoo.com/m/e9a3d342-2d34-37af-b49a-6fde70a874db/treasury-yields-fall-as.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/24 04:54",
+        "score": 8
+      },
+      {
+        "title": "투자자들이 금리 인상에 베팅함에 따라 재무부 수익률이 더 높아졌습니다.",
+        "description": "중동 에너지 위기가 수그러들 기미를 보이지 않고 인플레이션과 금리 상승에 대한 기대감이 커지면서 미국 국채 수익률은 계속 상승하고 있습니다.",
+        "url": "https://finance.yahoo.com/m/4cb11140-58a4-3e85-889b-198c1848205a/treasury-yields-forge-higher.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/23 19:38",
+        "score": 8
       }
     ],
     "commodities": [
       {
-        "title": "중동전쟁 격화로 유가 더 오를 듯",
-        "description": "스토리: 유가는 주말 이전에 거의 4년 만에 최고 수준으로 마감한 후 월요일에 추가 상승할 것으로 보입니다.",
-        "url": "https://finance.yahoo.com/video/oil-prices-set-rise-further-200300386.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/23 05:03",
-        "score": 5
-      },
-      {
-        "title": "유나이티드 항공(United Airlines)은 노선을 축소하고 연간 100달러 이상의 유가를 예측합니다.",
-        "description": "유나이티드 항공(United Airlines)의 스콧 커비(Scott Kirby) 최고경영자(CEO)는 유가 상승으로 인해 제트유 가격이 상승하면서 일부 노선을 축소하고 있다고 밝혔다.",
-        "url": "https://finance.yahoo.com/m/b4fa5be7-1765-3fde-8d05-54a8f9ecee59/united-airlines-cuts-routes%2C.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/23 02:11",
-        "score": 5
-      },
-      {
-        "title": "고유가가 귀금속 채굴주에 타격을 주는 이유는 다음과 같습니다.",
-        "description": "금, 은, 석유가 연결되어 있을 것이라고 생각하지 않겠지만 실제로는 연결되어 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/22/heres-why-high-oil-prices-hurt-gold-and-silver/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/23 02:09",
-        "score": 5
-      },
-      {
-        "title": "고유가 충격 장기화…태양광·원전 ETF 날았다",
+        "title": "골드만삭스 \"원유 사상 최대 공급충격\"…유가 전망 상향",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032281051",
+        "url": "https://www.hankyung.com/article/202603231010i",
         "source": "hankyung.com",
-        "publishedAt": "03/22 17:55",
+        "publishedAt": "03/23 19:25",
+        "score": 10
+      },
+      {
+        "title": "이란의 원유 가격 상승, 걸프 전력 인프라 공격 위협",
+        "description": "이스라엘 발전소와 당선자를 겨냥한 이란의 위협으로 월요일 원유 가격이 급등했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/crude-oil-prices-rise-iran-094332984.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/23 18:43",
+        "score": 10
+      },
+      {
+        "title": "트럼프가 이란 에너지 자산에 대한 공격을 연기함에 따라 구리 가격이 급등했습니다.",
+        "description": "(Bloomberg) -- 도널드 트럼프 대통령이 미국이 이란 에너지 인프라에 대한 공격 계획을 5일 동안 연기할 것이라고 말한 후 구리가 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/copper-falls-three-month-low-021029944.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/24 03:51",
+        "score": 6
+      },
+      {
+        "title": "이란 공격 보류에 유가 11% 급락…브렌트 100달러 아래로",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026032413847",
+        "source": "hankyung.com",
+        "publishedAt": "03/24 06:44",
         "score": 5
       },
       {
-        "title": "새로운 2,000만 달러 지분이 확신을 나타냄에 따라 다각화된 에너지 재고는 2026년에 12% 증가",
-        "description": "이 에너지 생산업체는 미국 전역에서 성숙한 천연가스 및 석유 자산을 운영하고 있습니다.",
-        "url": "https://www.fool.com/coverage/filings/2026/03/22/diversified-energy-stock-up-12-in-2026-as-new-usd20-million-stake-signals-conviction/?.tsrc=rss",
+        "title": "트럼프 대통령의 이란 구제 조치로 원유가 유출되면서 미국 주가지수가 급등했고, 재무부 수익률은 급락했습니다.",
+        "description": "도널드 트럼프 대통령의 공격 위협 연기 결정 이후 미국 주가지수는 월요일 상승했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-jump-trump-204533841.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/23 05:03",
-        "score": 3
+        "publishedAt": "03/24 05:45",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, 원·달러 환율 1500원대 고착화 우려",
+        "title": "[포토] 원·달러 환율 장중 1518원 돌파",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032280791",
+        "url": "https://www.hankyung.com/article/202603230544i",
         "source": "hankyung.com",
-        "publishedAt": "03/22 18:17",
+        "publishedAt": "03/23 16:46",
         "score": 8
       },
       {
-        "title": "[속보] 비트코인 4% 이상 급락…6만8000달러 붕괴",
+        "title": "원·달러 환율 1500원 시대…코어16 'AI 환율 예측' 시스템 출시",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032384947",
+        "url": "https://www.hankyung.com/article/202603239966i",
         "source": "hankyung.com",
-        "publishedAt": "03/23 06:25",
-        "score": 3
+        "publishedAt": "03/23 14:58",
+        "score": 8
       },
       {
-        "title": "손정의 \"5000억달러 투자…美에 데이터센터 건립\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032281031",
-        "source": "hankyung.com",
-        "publishedAt": "03/22 17:32",
-        "score": 3
+        "title": "WSJ 달러 지수는 0.34% 하락한 96.00을 기록했습니다.",
+        "description": "1501 ET – 시장이 트럼프 대통령의 이란 공격 연기 결정을 소화함에 따라 국채 수익률과 달러는 여전히 압박을 받고 있습니다.  유가 r",
+        "url": "https://finance.yahoo.com/m/f3c0b72b-5936-3cd0-b7f8-c56852b98963/the-wsj-dollar-index-falls.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/24 06:21",
+        "score": 6
       },
       {
-        "title": "신현송 한은총재 후보자 \"균형 있는 통화정책 운영 고민\"",
+        "title": "\"이란 공격 유예\" 트럼프 한마디에 환율 30원 '뚝'…1480원대로",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032283347",
+        "url": "https://www.hankyung.com/article/2026032413767",
         "source": "hankyung.com",
-        "publishedAt": "03/22 20:41",
-        "score": 1
+        "publishedAt": "03/24 06:32",
+        "score": 5
+      },
+      {
+        "title": "환율 급등 직격탄…환헤지형 ETF 손실 10배 컸다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026032306731",
+        "source": "hankyung.com",
+        "publishedAt": "03/23 17:27",
+        "score": 5
       }
     ],
     "geopolitics": [
       {
-        "title": "이 '알파메일' 주식은 호르무즈 해협이 계속 폐쇄되면서 이익을 얻고 있다. 지금 구입해야 할까요?",
-        "description": "지정학적 혼란 속에서 유조선 운임이 급등하면서 강력하면서도 잠재적으로 순환적인 기회를 창출하면서 일선 재고가 주목을 받고 있습니다.",
-        "url": "https://www.barchart.com/story/news/887079/this-alpha-male-stock-is-profiting-as-the-strait-of-hormuz-remains-closed-should-you-buy-it-now?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/23 00:00",
+        "title": "호르무즈 해협 봉쇄, 호재 아니었나…해운주 줄하락",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026032306741",
+        "source": "hankyung.com",
+        "publishedAt": "03/23 17:19",
         "score": 5
       },
       {
-        "title": "지정학적 긴장 고조가 대만 반도체 주식 매도 이유인가?",
-        "description": "지정학적 초점이 중동으로 이동하는 가운데 대만이 더욱 취약해질 수 있다는 우려가 커지고 있다.",
-        "url": "https://www.fool.com/investing/2026/03/22/rising-geopolitical-tensions-reason-sell-tsmc/?.tsrc=rss",
+        "title": "지정학적 해빙: 이번 랠리가 지속되는 이유",
+        "description": "궁극적으로 월스트리트는 불확실성의 해결을 통해 성장합니다. 즉각적인 갈등 냉각 위협과 기술적 지표가 이를 가리키고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/geopolitical-thaw-why-rally-legs-153300752.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/23 01:10",
+        "publishedAt": "03/24 00:33",
         "score": 3
       },
       {
-        "title": "전쟁이 격화됨에 따라 트레이더들은 격동적인 개방에 대비합니다: 시장이 마무리됩니다",
-        "description": "도널드 트럼프 대통령은 토요일 늦게 테헤란에 호르무즈 해협을 재개하지 않으면 발전소를 파업하라는 최후통첩을 보냈다.",
-        "url": "https://finance.yahoo.com/news/traders-brace-turbulent-open-war-193000196.html?.tsrc=rss",
+        "title": "中, 전략광물 日수출 통제 강화",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026032312311",
+        "source": "hankyung.com",
+        "publishedAt": "03/23 22:38",
+        "score": 3
+      },
+      {
+        "title": "이란 전쟁으로 인해 투자자들이 불안해짐에 따라 위험 회피 무역으로 인해 금의 변동성이 커졌습니다.",
+        "description": "폴리나 데빗(Polina Devitt) 런던, 3월 23일(로이터) - 이란과의 거래로 투자자들이 위험을 줄임에 따라 금 가격의 급격한 변동성은 단기적으로 지속될 것으로 예상됩니다.",
+        "url": "https://sg.finance.yahoo.com/news/risk-off-trade-keeps-gold-175201623.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/23 04:30",
+        "publishedAt": "03/24 02:52",
         "score": 2
       },
       {
-        "title": "중동전쟁 격화로 유가 더 오를 듯",
-        "description": "스토리: 유가는 주말 이전에 거의 4년 만에 최고 수준으로 마감한 후 월요일에 추가 상승할 것으로 보입니다.",
-        "url": "https://finance.yahoo.com/video/oil-prices-set-rise-further-200300386.html?.tsrc=rss",
+        "title": "푸른부엉이 참사 이후, 이 고수익 BDC 상장지수펀드에 가치가 있습니까?",
+        "description": "VanEck BDC Income ETF는 Blue Owl 관련 처벌을 견뎌냈으며 이제 특이한 가치를 제공할 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/03/23/after-the-blue-owl-disaster-is-there-value-in-this/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/23 05:03",
-        "score": 1
-      },
-      {
-        "title": "이란 전쟁, 석유 변동성 및 기타 이번 주 주목해야 할 주요 사항",
-        "description": "시장은 트럼프 대통령의 금요일 늦은 연설 이후 이란 전쟁 궤적에 대한 엄청난 불확실성이 지배하는 중요한 한 주에 들어서고 있습니다.",
-        "url": "https://www.barchart.com/story/news/887490/iran-war-oil-volatility-and-other-key-things-to-watch-this-week?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/23 02:00",
+        "publishedAt": "03/24 06:50",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "머스크는 Tesla, SpaceX, xAI 칩 프로젝트가 텍사스에서 시작될 것이라고 말했습니다.",
-        "description": "반도체 생산에 대한 배경 지식이 없고 목표와 일정에 대해 지나치게 약속한 이력이 있는 머스크는 이전에 회사가 다음과 같이 말했습니다.",
-        "url": "https://finance.yahoo.com/news/musk-says-tesla-spacex-xai-chip-project-to-kick-off-in-texas-045035316.html?.tsrc=rss",
+        "title": "Palantir는 연방 AI 투자로부터 이익을 얻을 수 있다고 Wedbush는 말합니다.",
+        "description": "미국 국방부가 사용하는 Palantir(PLTR)의 Maven 스마트 시스템은 이제 주요 스마트 시스템 중 하나입니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/palantir-positioned-benefit-federal-ai-150046932.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/22 13:50",
-        "score": 13
-      },
-      {
-        "title": "AMD(Advanced Micro Devices Inc.), 메모리 칩 공급 및 파운드리 부문에서 삼성과 협력 강화",
-        "description": "Advanced Micro Devices Inc.(NASDAQ:AMD)는 지금 매수할 수 있는 최고의 영구 주식 중 하나입니다. 3월 18일 Advanced Micro Devices Inc.(NASDAQ:AMD)가 i에 진입했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/advanced-micro-devices-inc-amd-165310096.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/23 04:53",
+        "publishedAt": "03/24 00:00",
         "score": 9
       },
       {
-        "title": "머스크는 SpaceX와 Tesla가 오스틴에 첨단 칩 공장을 건설할 것이라고 말했습니다.",
-        "description": "로스앤젤레스, 3월 22일 (로이터) - SpaceX와 Tesla는 텍사스주 오스틴에 위치한 대규모 시설에 두 개의 첨단 칩 공장을 건설할 예정입니다. 그 중 하나는 자동차에 전력을 공급하는 공장입니다.",
-        "url": "https://finance.yahoo.com/news/musk-says-spacex-tesla-build-214536329.html?.tsrc=rss",
+        "title": "오늘, 3월 23일 주식 시장: Tesla, AI 칩 생산을 위한 반도체 공장 건설을 위한 합작 투자 계획에 힘입어 상승",
+        "description": "2026년 3월 23일 오늘, 투자자들은 Tesla의 잠재적인 장기 AI 로드맵을 중심으로 모였습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-tesla-rises-on-joint-venture-plans-to-build-a-semiconductor-plant-for-ai-chip-production/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/23 06:45",
+        "publishedAt": "03/24 06:19",
+        "score": 8
+      },
+      {
+        "title": "Nvidia는 두뇌를 구축하고 있습니다. Palantir는 50조 달러 규모의 물리적 AI 시스템을 제어할 수 있습니다.",
+        "description": "AI 이야기가 바뀌고 있다. 지난 2년 동안은 모델, 챗봇, 부조종사에 관한 내용이었습니다. 그러나 Nvidia Corp CEO Jensen Huang이 최근 액자에 넣은 것처럼",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-building-brain-palantir-may-143108938.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/23 23:31",
         "score": 7
       },
       {
-        "title": "Uber Technologies(UBER), 성장 가속화를 위해 자율주행차 파트너십으로 전환",
-        "description": "Uber Technologies, Inc.(NYSE:UBER)는 지금 매수할 수 있는 최고의 영구 주식 중 하나입니다. 3월 17일, BTIG의 분석가들은 Uber Techno에 대해 매수 투자의견을 다시 밝혔습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-inc-uber-turns-165319729.html?.tsrc=rss",
+        "title": "Nvidia, AMD, Broadcom이 아닌 슈퍼 반도체 주식을 만나보세요",
+        "description": "이 거대 반도체 기업은 조용히 AI 붐을 일으키고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/03/23/the-super-semiconductor-stock-that-isnt-nvidia/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/23 05:04",
-        "score": 6
+        "publishedAt": "03/23 23:20",
+        "score": 7
       },
       {
-        "title": "Nvidia의 CEO Jensen Huang은 2027년까지 1조 달러의 GPU 주문을 지시했습니다. 투자자들이 주식을 사지 않는 이유는 무엇입니까?",
-        "description": "Huang은 향후 몇 년 동안 칩 판매에 대한 엄청난 지침을 제공했습니다.",
-        "url": "https://www.fool.com/investing/2026/03/22/nvidia-ceo-jensen-huang-guide-trillion-gpu-chip/?.tsrc=rss",
+        "title": "Nvidia는 TSMC 한계에 따라 Feynman 칩을 재설계할 수 있습니다.",
+        "description": "TSMC의 용량 제한으로 차세대 플랫폼 계획이 지연되거나 변경될 수 있음",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-may-redesign-feynman-chip-131215517.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/23 04:28",
-        "score": 6
+        "publishedAt": "03/23 22:12",
+        "score": 7
       }
     ]
   }
