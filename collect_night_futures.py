@@ -206,11 +206,20 @@ def load_existing_payload() -> Dict[str, Any]:
     return make_empty_payload()
 
 
-def reset_if_new_session_day(payload: Dict[str, Any], biz_date: str) -> Dict[str, Any]:
+def reset_if_new_session_day_or_source_changed(payload: Dict[str, Any], biz_date: str) -> Dict[str, Any]:
+    current_source = payload.get("source")
+    target_source = "KIS_WEBSOCKET_H0MFCNT0"
+
     if payload.get("biz_date") != biz_date:
         new_payload = make_empty_payload()
         new_payload["biz_date"] = biz_date
         return new_payload
+
+    if current_source != target_source:
+        new_payload = make_empty_payload()
+        new_payload["biz_date"] = biz_date
+        return new_payload
+
     return payload
 
 
@@ -546,8 +555,8 @@ def main() -> None:
     snap_time = kst_hhmm(now)
 
     payload = load_existing_payload()
-    payload = reset_if_new_session_day(payload, biz_date)
-
+    payload = reset_if_new_session_day_or_source_changed(payload, biz_date)
+    
     payload["generated_at_kst"] = now.isoformat()
     payload["biz_date"] = biz_date
     payload["session"] = "night"
