@@ -10,14 +10,19 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 .page-title{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#f0f0f8;letter-spacing:-0.5px}
 
 /* ── 메인 탭 ── */
-.tab-bar{max-width:960px;margin:0 auto;display:flex;gap:0;border-bottom:2px solid #252538}
+.tab-bar{max-width:960px;margin:0 auto;display:flex;gap:0;border-bottom:2px solid #252538;flex-wrap:wrap}
 .tab-btn{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;padding:12px 36px;
           border:none;background:#161622;color:#7070a0;cursor:pointer;
           border-bottom:3px solid transparent;margin-bottom:-2px;
-          transition:color .15s,border-color .15s;letter-spacing:0.5px;
+          transition:color .15s,border-color .15s,background .15s;letter-spacing:0.5px;
           -webkit-appearance:none;-moz-appearance:none;appearance:none}
 .tab-btn:hover{color:#c0c0e0;background:#1e1e30}
 .tab-btn.active{color:#f0f0f8;border-bottom-color:#5b9bd5;background:#0d0d14}
+.tab-link{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;
+          padding:12px 28px;background:#161622;color:#7070a0;text-decoration:none;
+          display:flex;align-items:center;border-bottom:3px solid transparent;
+          transition:color .15s,border-color .15s,background .15s}
+.tab-link:hover{color:#c0c0e0;background:#1e1e30}
 .tab-content{display:none}.tab-content.active{display:block}
 
 /* ── KR 서브탭 ── */
@@ -68,11 +73,43 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 .guardrail-box{margin-top:16px;padding:12px 14px;background:rgba(245,200,66,0.07);border:1px solid rgba(245,200,66,0.25);border-radius:8px}
 .guardrail-box .section-label{color:#f5c842}
 .footer{max-width:960px;margin:48px auto 0;text-align:center;font-size:11px;color:#353558;font-family:"IBM Plex Mono",monospace;line-height:2}
+
+/* ── MAIN 탭 ── */
+.main-wrap{max-width:960px;margin:0 auto}
+.main-hero{display:grid;grid-template-columns:1.05fr 1.35fr;gap:18px;margin-bottom:24px}
+.hero-card{background:#13131f;border:1px solid #252538;border-radius:14px;padding:22px}
+.hero-label{font-family:"IBM Plex Mono",monospace;font-size:11px;color:#8c8cab;margin-bottom:10px;letter-spacing:1px;text-transform:uppercase}
+.hero-value{font-family:"IBM Plex Mono",monospace;font-size:34px;font-weight:700;margin-bottom:8px}
+.hero-value.riskon{color:#22c55e}
+.hero-value.neutral{color:#f5c842}
+.hero-value.riskoff{color:#e53e3e}
+.hero-desc{font-size:14px;color:#b8b8d2;line-height:1.5}
+.alert-list{margin:8px 0 0 18px;color:#d9d9ea;font-size:13px;line-height:1.7}
+.main-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.main-card{background:#13131f;border:1px solid #252538;border-radius:14px;padding:18px;min-height:190px;display:flex;flex-direction:column;justify-content:space-between}
+.main-card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.main-section{font-family:"IBM Plex Mono",monospace;font-size:10px;color:#6f6f96;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
+.main-title{font-family:"IBM Plex Mono",monospace;font-size:18px;font-weight:700;color:#f0f0f8}
+.main-value{font-family:"IBM Plex Mono",monospace;font-size:30px;font-weight:700;color:#f0f0f8;margin:16px 0 14px}
+.main-metrics{display:flex;flex-direction:column;gap:6px}
+.main-metrics .row{display:flex;justify-content:space-between;font-size:12.5px;font-family:"IBM Plex Mono",monospace;border-bottom:1px solid #1a1a28;padding-bottom:4px}
+.main-metrics .row span:first-child{color:#9090b8}
+.main-metrics .row span:last-child{color:#e0e0f0;font-weight:600}
+.mini-badge{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:700;border-radius:999px;padding:6px 10px;white-space:nowrap}
+.mini-badge.good{background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.28);color:#22c55e}
+.mini-badge.warn{background:rgba(245,200,66,0.12);border:1px solid rgba(245,200,66,0.28);color:#f5c842}
+.mini-badge.bad{background:rgba(229,62,62,0.12);border:1px solid rgba(229,62,62,0.28);color:#e53e3e}
+
+@media(max-width:1100px){
+  .main-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .main-hero{grid-template-columns:1fr}
+}
 @media(max-width:520px){
   .cards-container{grid-template-columns:1fr}
   .details-grid{grid-template-columns:1fr}
   .tab-btn{padding:10px 20px;font-size:13px}
   .sub-tab-btn{padding:7px 14px;font-size:11px}
+  .main-grid{grid-template-columns:1fr}
 }
 </style></head><body>
 
@@ -82,12 +119,10 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 
 <!-- 메인 탭바 -->
 <div class="tab-bar">
-  <button class="tab-btn active" data-tab="us">🇺🇸 &nbsp;US</button>
+  <button class="tab-btn active" data-tab="main">🌐 &nbsp;MAIN</button>
+  <button class="tab-btn" data-tab="us">🇺🇸 &nbsp;US</button>
   <button class="tab-btn" data-tab="kr">🇰🇷 &nbsp;KR</button>
-  <a href="news.html"
-     style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;
-            padding:12px 28px;background:#161622;color:#7070a0;text-decoration:none;
-            display:flex;align-items:center;border-bottom:3px solid transparent;">NEWS</a>
+  <a href="news.html" class="tab-link">NEWS</a>
 </div>
 
 <div class="update-bar">
@@ -95,8 +130,32 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
   <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-23 09:01 KST</span></div>
 </div>
 
+<!-- MAIN 탭 -->
+<div id="tab-main" class="tab-content active">
+  <div class="main-wrap">
+    <div class="main-hero">
+      <div class="hero-card">
+        <div class="hero-label">Global Regime</div>
+        <div id="global-regime" class="hero-value neutral">NEUTRAL</div>
+        <div id="global-regime-desc" class="hero-desc">강세와 약세 신호가 혼재합니다.</div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-label">오늘의 경보</div>
+        <ul id="main-alerts" class="alert-list">
+          <li>US10Y 상승 → 성장주 밸류에이션 부담</li>
+          <li>USD/KRW 급등 → 한국 자산 리스크 가중</li>
+          <li>HY 스프레드 확대 여부 점검 필요</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="main-grid" class="main-grid"></div>
+  </div>
+</div>
+
 <!-- US 탭 -->
-<div id="tab-us" class="tab-content active">
+<div id="tab-us" class="tab-content">
   <div class="cards-container"><div class="asset-card" style="border-top:3px solid #e53e3e;">
       <div class="card-header">
         <div><div class="asset-name">SPY</div></div>
@@ -288,6 +347,93 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 
 <script>
 (function(){
+  /* MAIN 데이터 */
+  var mainData = [
+    {section:"Equities", label:"S&P 500", value:"648.57", d1:"-1.10%", d5:"-3.40%", aux:"MA50 하회", status:"bad"},
+    {section:"Equities", label:"Nasdaq 100", value:"582.06", d1:"-0.95%", d5:"-2.95%", aux:"MA50 하회", status:"bad"},
+    {section:"Equities", label:"KOSPI", value:"5781.20", d1:"+0.42%", d5:"+1.80%", aux:"MA50 상회", status:"good"},
+    {section:"Equities", label:"KOSDAQ", value:"1161.52", d1:"+0.18%", d5:"+0.59%", aux:"MA50 상회", status:"good"},
+
+    {section:"Vol / Rates", label:"VIX", value:"26.78", d1:"+3.20%", d5:"-1.51%", aux:"MA20 대비 1.146", status:"bad"},
+    {section:"Vol / Rates", label:"US 10Y", value:"4.39%", d1:"+6bp", d5:"+14bp", aux:"20일 +30.5bp", status:"warn"},
+    {section:"Vol / Rates", label:"2Y-10Y", value:"0.24%", d1:"+2bp", d5:"+5bp", aux:"Steepening", status:"warn"},
+    {section:"Vol / Rates", label:"Real Yield", value:"2.01%", d1:"+4bp", d5:"+9bp", aux:"성장주 부담", status:"warn"},
+
+    {section:"FX / Safe Haven", label:"USD/KRW", value:"1502.78", d1:"+0.35%", d5:"+1.20%", aux:"20일 +4.11%", status:"bad"},
+    {section:"FX / Safe Haven", label:"Dollar Index", value:"105.4", d1:"+0.28%", d5:"+0.92%", aux:"20일선 상회", status:"warn"},
+    {section:"FX / Safe Haven", label:"Gold", value:"3035.2", d1:"+0.84%", d5:"+1.75%", aux:"안전자산 강세", status:"good"},
+    {section:"FX / Credit", label:"HY OAS", value:"3.27%", d1:"+4bp", d5:"+9bp", aux:"신용 경계", status:"warn"}
+  ];
+
+  function statusLabel(status){
+    if(status === "good") return "양호";
+    if(status === "warn") return "경계";
+    return "위험";
+  }
+
+  function buildMainCard(item){
+    return `
+      <div class="main-card">
+        <div>
+          <div class="main-card-top">
+            <div>
+              <div class="main-section">${item.section}</div>
+              <div class="main-title">${item.label}</div>
+            </div>
+            <div class="mini-badge ${item.status}">${statusLabel(item.status)}</div>
+          </div>
+
+          <div class="main-value">${item.value}</div>
+
+          <div class="main-metrics">
+            <div class="row"><span>1일 변화</span><span>${item.d1}</span></div>
+            <div class="row"><span>5일 변화</span><span>${item.d5}</span></div>
+            <div class="row"><span>판단</span><span>${item.aux}</span></div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderMain(){
+    var grid = document.getElementById("main-grid");
+    if(!grid) return;
+    grid.innerHTML = mainData.map(buildMainCard).join("");
+
+    var score = 0;
+    mainData.forEach(function(x){
+      if(x.status === "good") score += 1;
+      else if(x.status === "bad") score -= 1;
+    });
+
+    var regimeEl = document.getElementById("global-regime");
+    var descEl = document.getElementById("global-regime-desc");
+    var alertEl = document.getElementById("main-alerts");
+    if(!regimeEl || !descEl || !alertEl) return;
+
+    regimeEl.classList.remove("riskon","neutral","riskoff");
+
+    if(score >= 3){
+      regimeEl.textContent = "RISK-ON";
+      regimeEl.classList.add("riskon");
+      descEl.textContent = "주식/변동성/신용 전반이 비교적 안정적입니다.";
+    }else if(score <= -3){
+      regimeEl.textContent = "RISK-OFF";
+      regimeEl.classList.add("riskoff");
+      descEl.textContent = "금리·달러·변동성 부담이 우세합니다.";
+    }else{
+      regimeEl.textContent = "NEUTRAL";
+      regimeEl.classList.add("neutral");
+      descEl.textContent = "강세와 약세 신호가 혼재합니다.";
+    }
+
+    var alerts = [];
+    alerts.push("US10Y 상승 → 성장주 밸류에이션 부담");
+    alerts.push("USD/KRW 급등 → 한국 자산 리스크 가중");
+    alerts.push("HY 스프레드 확대 여부 점검 필요");
+    alertEl.innerHTML = alerts.map(function(x){ return "<li>" + x + "</li>"; }).join("");
+  }
+
   /* 메인 탭 */
   document.querySelectorAll('.tab-btn[data-tab]').forEach(function(btn){
     btn.addEventListener('click', function(){
@@ -311,6 +457,8 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
       try{localStorage.setItem('lastSubTab', name);}catch(e){}
     });
   });
+
+  renderMain();
 
   /* 마지막 탭 복원 */
   try{
