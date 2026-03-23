@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-03-23T21:32:08.115874+09:00",
+  "generated_at_kst": "2026-03-23T21:36:01.447731+09:00",
   "biz_date": "2026-03-23",
   "session": "night",
   "source": "KIS",
@@ -15,6 +15,23 @@
       },
       {
         "time": "21:32",
+        "price": 805.0,
+        "change": -57.55,
+        "change_pct": -6.67,
+        "symbol": "A01606",
+        "name": "F 202606",
+        "rmnn_days": 81,
+        "volume": 235560.0,
+        "base_price": null,
+        "field_map": {
+          "price": "futs_prpr",
+          "change": "futs_prdy_vrss",
+          "change_pct": "futs_prdy_ctrt",
+          "base_price": null
+        }
+      },
+      {
+        "time": "21:36",
         "price": 805.0,
         "change": -57.55,
         "change_pct": -6.67,
@@ -54,6 +71,23 @@
           "change_pct": "futs_prdy_ctrt",
           "base_price": null
         }
+      },
+      {
+        "time": "21:36",
+        "price": 1916.0,
+        "change": -114.2,
+        "change_pct": -5.63,
+        "symbol": "A06606",
+        "name": "코스닥150F 202606",
+        "rmnn_days": 81,
+        "volume": 196223.0,
+        "base_price": null,
+        "field_map": {
+          "price": "futs_prpr",
+          "change": "futs_prdy_vrss",
+          "change_pct": "futs_prdy_ctrt",
+          "base_price": null
+        }
       }
     ]
   },
@@ -64,7 +98,7 @@
       "change_pct": -6.67,
       "high": 805.0,
       "low": 805.0,
-      "points": 2,
+      "points": 3,
       "last_symbol": "A01606",
       "last_name": "F 202606"
     },
@@ -74,7 +108,7 @@
       "change_pct": -5.63,
       "high": 1916.0,
       "low": 1916.0,
-      "points": 2,
+      "points": 3,
       "last_symbol": "A06606",
       "last_name": "코스닥150F 202606"
     }
