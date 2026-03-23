@@ -9,9 +9,8 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 .page-header{max-width:960px;margin:0 auto 28px;border-bottom:1px solid #252538;padding-bottom:20px}
 .page-title{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#f0f0f8;letter-spacing:-0.5px}
 
-/* ── 메인 탭 ── */
 .tab-bar{max-width:960px;margin:0 auto;display:flex;gap:0;border-bottom:2px solid #252538;flex-wrap:wrap}
-.tab-btn{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;padding:12px 36px;
+.tab-btn{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;padding:12px 28px;
           border:none;background:#161622;color:#7070a0;cursor:pointer;
           border-bottom:3px solid transparent;margin-bottom:-2px;
           transition:color .15s,border-color .15s,background .15s;letter-spacing:0.5px;
@@ -25,7 +24,6 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 .tab-link:hover{color:#c0c0e0;background:#1e1e30}
 .tab-content{display:none}.tab-content.active{display:block}
 
-/* ── KR 서브탭 ── */
 .sub-tab-bar{max-width:960px;margin:16px auto 0;display:flex;gap:0;border-bottom:1px solid #252538}
 .sub-tab-btn{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;
               padding:8px 24px;border:none;background:transparent;color:#7070a0;
@@ -36,7 +34,6 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 .sub-tab-btn.active{color:#f0f0f8;border-bottom-color:#60a5fa}
 .sub-tab-content{display:none}.sub-tab-content.active{display:block}
 
-/* ── 야간선물 버튼 ── */
 .night-btn-wrap{max-width:960px;margin:14px auto 0;display:flex;justify-content:flex-end}
 .night-btn{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;
             padding:8px 18px;border-radius:8px;background:#1a1a2e;color:#60a5fa;
@@ -45,13 +42,13 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
             transition:background .15s,border-color .15s}
 .night-btn:hover{background:#1f1f38;border-color:#60a5fa88}
 
-/* ── 공통 ── */
 .update-bar{max-width:960px;margin:20px auto 28px;display:flex;gap:12px;flex-wrap:wrap}
 .update-badge{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:6px 14px;
                border-radius:6px;border:1px solid #252538;background:#161622;
                display:flex;align-items:center;gap:8px}
 .update-badge .label{color:#8888aa;font-weight:600}
 .update-badge .time{color:#b0b0cc}
+
 .cards-container{max-width:960px;margin:0 auto;display:grid;
                   grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:24px}
 .asset-card{background:#13131f;border:1px solid #252538;border-radius:14px;padding:28px;transition:border-color .2s}
@@ -74,7 +71,6 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 .guardrail-box .section-label{color:#f5c842}
 .footer{max-width:960px;margin:48px auto 0;text-align:center;font-size:11px;color:#353558;font-family:"IBM Plex Mono",monospace;line-height:2}
 
-/* ── MAIN 탭 ── */
 .main-wrap{max-width:960px;margin:0 auto}
 .main-hero{display:grid;grid-template-columns:1.05fr 1.35fr;gap:18px;margin-bottom:24px}
 .hero-card{background:#13131f;border:1px solid #252538;border-radius:14px;padding:22px}
@@ -117,7 +113,6 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
   <div class="page-title">MARKET DECISION DASHBOARD</div>
 </div>
 
-<!-- 메인 탭바 -->
 <div class="tab-bar">
   <button class="tab-btn active" data-tab="main">🌐 &nbsp;MAIN</button>
   <button class="tab-btn" data-tab="us">🇺🇸 &nbsp;US</button>
@@ -126,199 +121,435 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 </div>
 
 <div class="update-bar">
-  <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-23 09:01 KST</span></div>
-  <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-23 09:01 KST</span></div>
+  <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-23 17:31 KST</span></div>
+  <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-23 17:31 KST</span></div>
 </div>
 
-<!-- MAIN 탭 -->
 <div id="tab-main" class="tab-content active">
   <div class="main-wrap">
     <div class="main-hero">
       <div class="hero-card">
         <div class="hero-label">Global Regime</div>
-        <div id="global-regime" class="hero-value neutral">NEUTRAL</div>
-        <div id="global-regime-desc" class="hero-desc">강세와 약세 신호가 혼재합니다.</div>
+        <div class="hero-value neutral">NEUTRAL</div>
+        <div class="hero-desc">강세와 약세 신호가 혼재합니다.</div>
       </div>
-
       <div class="hero-card">
         <div class="hero-label">오늘의 경보</div>
-        <ul id="main-alerts" class="alert-list">
-          <li>US10Y 상승 → 성장주 밸류에이션 부담</li>
-          <li>USD/KRW 급등 → 한국 자산 리스크 가중</li>
-          <li>HY 스프레드 확대 여부 점검 필요</li>
-        </ul>
+        <ul class="alert-list"><li>USD/KRW 급등 → 한국 자산 리스크 가중</li></ul>
       </div>
     </div>
-
-    <div id="main-grid" class="main-grid"></div>
+    <div class="main-grid">
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">Equities</div>
+                <div class="main-title">S&P 500</div>
+              </div>
+              <div class="mini-badge bad">위험</div>
+            </div>
+            <div class="main-value">648.57</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>—</span></div>
+              <div class="row"><span>5일 변화</span><span>-3.28%</span></div>
+              <div class="row"><span>판단</span><span>MA50 하회</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">Equities</div>
+                <div class="main-title">Nasdaq 100</div>
+              </div>
+              <div class="mini-badge bad">위험</div>
+            </div>
+            <div class="main-value">582.06</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>—</span></div>
+              <div class="row"><span>5일 변화</span><span>-2.95%</span></div>
+              <div class="row"><span>판단</span><span>MA50 하회</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">Equities</div>
+                <div class="main-title">KOSPI</div>
+              </div>
+              <div class="mini-badge warn">경계</div>
+            </div>
+            <div class="main-value">5,405.75</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>—</span></div>
+              <div class="row"><span>5일 변화</span><span>+2.93%</span></div>
+              <div class="row"><span>판단</span><span>MA50 상회</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">Equities</div>
+                <div class="main-title">KOSDAQ</div>
+              </div>
+              <div class="mini-badge good">양호</div>
+            </div>
+            <div class="main-value">1,096.89</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>—</span></div>
+              <div class="row"><span>5일 변화</span><span>-0.49%</span></div>
+              <div class="row"><span>판단</span><span>MA50 상회</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">Vol / Rates</div>
+                <div class="main-title">VIX</div>
+              </div>
+              <div class="mini-badge bad">위험</div>
+            </div>
+            <div class="main-value">30.07</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>—</span></div>
+              <div class="row"><span>5일 변화</span><span>+27.90%</span></div>
+              <div class="row"><span>판단</span><span>MA20 대비 1.262</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">Vol / Rates</div>
+                <div class="main-title">VKOSPI</div>
+              </div>
+              <div class="mini-badge warn">경계</div>
+            </div>
+            <div class="main-value">—</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>—</span></div>
+              <div class="row"><span>5일 변화</span><span>—</span></div>
+              <div class="row"><span>판단</span><span>MA20 대비 —</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">Vol / Rates</div>
+                <div class="main-title">US 10Y</div>
+              </div>
+              <div class="mini-badge good">양호</div>
+            </div>
+            <div class="main-value">4.25%</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>-1.0bp</span></div>
+              <div class="row"><span>5일 변화</span><span>-2.0bp</span></div>
+              <div class="row"><span>판단</span><span>20일 +17.0bp</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">Vol / Rates</div>
+                <div class="main-title">2Y-10Y</div>
+              </div>
+              <div class="mini-badge warn">경계</div>
+            </div>
+            <div class="main-value">0.46%</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>-4.0bp</span></div>
+              <div class="row"><span>5일 변화</span><span>-5.0bp</span></div>
+              <div class="row"><span>판단</span><span>Flattening</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">FX / Safe Haven</div>
+                <div class="main-title">USD/KRW</div>
+              </div>
+              <div class="mini-badge bad">위험</div>
+            </div>
+            <div class="main-value">1,510.18</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>—</span></div>
+              <div class="row"><span>5일 변화</span><span>—</span></div>
+              <div class="row"><span>판단</span><span>20일 +4.62%</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">FX / Safe Haven</div>
+                <div class="main-title">Dollar Index</div>
+              </div>
+              <div class="mini-badge warn">경계</div>
+            </div>
+            <div class="main-value">99.75</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>+0.10%</span></div>
+              <div class="row"><span>5일 변화</span><span>+0.04%</span></div>
+              <div class="row"><span>판단</span><span>20일선 상회</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">FX / Safe Haven</div>
+                <div class="main-title">Gold</div>
+              </div>
+              <div class="mini-badge warn">경계</div>
+            </div>
+            <div class="main-value">4,214.1</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>-7.80%</span></div>
+              <div class="row"><span>5일 변화</span><span>-15.62%</span></div>
+              <div class="row"><span>판단</span><span>중립</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main-card">
+          <div>
+            <div class="main-card-top">
+              <div>
+                <div class="main-section">FX / Credit</div>
+                <div class="main-title">HY OAS</div>
+              </div>
+              <div class="mini-badge good">양호</div>
+            </div>
+            <div class="main-value">3.27%</div>
+            <div class="main-metrics">
+              <div class="row"><span>1일 변화</span><span>+7.0bp</span></div>
+              <div class="row"><span>5일 변화</span><span>+10.0bp</span></div>
+              <div class="row"><span>판단</span><span>신용 안정</span></div>
+            </div>
+          </div>
+        </div>
+        </div>
   </div>
 </div>
 
-<!-- US 탭 -->
 <div id="tab-us" class="tab-content">
-  <div class="cards-container"><div class="asset-card" style="border-top:3px solid #e53e3e;">
+  <div class="cards-container">
+    <div class="asset-card" style="border-top:3px solid #e53e3e;">
       <div class="card-header">
         <div><div class="asset-name">SPY</div></div>
-        <div style="text-align:right;"><div class="signal-badge" style="background:rgba(229,62,62,0.12);color:#e53e3e;border:1px solid #e53e3e44;">매도</div></div>
+        <div style="text-align:right;">
+          <div class="signal-badge" style="background:rgba(229,62,62,0.12);color:#e53e3e;border:1px solid #e53e3e44;">매도</div>
+          
+        </div>
       </div>
-      <div class="score-display"><span style="color:#e53e3e;font-size:42px;font-weight:700;letter-spacing:-2px;">33</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
-      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:33.0%;background:#e53e3e;border-radius:4px;"></div></div>
-      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">0<span style="color:#4a4a6a">/35</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:0.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">15<span style="color:#4a4a6a">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:60.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">8<span style="color:#4a4a6a">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">8<span style="color:#4a4a6a">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">2<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div></div>
-      <div class="details-grid">
+      <div class="score-display"><span style="color:#e53e3e;font-size:42px;font-weight:700;letter-spacing:-2px;">23</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
+      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:23.0%;background:#e53e3e;border-radius:4px;"></div></div>
+      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">0<span style="color:#4a4a6a">/35</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:0.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">5<span style="color:#4a4a6a">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">5<span style="color:#4a4a6a">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:33.3%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">5<span style="color:#4a4a6a">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:33.3%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">8<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:80.0%;background:#00d084;border-radius:4px;"></div></div></div></div>
+      
+        <div class="details-grid">
           <div class="detail-group"><div class="section-label">추세</div>
             <div class="detail-row"><span>종가</span><span>648.57</span></div>
             <div class="detail-row"><span>MA50</span><span>682.06</span></div>
             <div class="detail-row"><span>MA200</span><span>656.52</span></div>
             <div class="detail-row"><span>20일 수익률</span><span>-5.67%</span></div></div>
           <div class="detail-group"><div class="section-label">VIX</div>
-            <div class="detail-row"><span>현재</span><span>26.78</span></div>
-            <div class="detail-row"><span>5일 변화</span><span>-1.51%</span></div>
-            <div class="detail-row"><span>MA20 대비</span><span>1.146</span></div>
-            <div class="detail-row"><span>10일고점 대비</span><span>-1.87%</span></div></div>
+            <div class="detail-row"><span>현재</span><span>30.07</span></div>
+            <div class="detail-row"><span>5일 변화</span><span>+27.90%</span></div>
+            <div class="detail-row"><span>MA20 대비</span><span>1.262</span></div>
+            <div class="detail-row"><span>10일고점 대비</span><span>+0.00%</span></div></div>
           <div class="detail-group"><div class="section-label">전술</div>
             <div class="detail-row"><span>20일선 이격</span><span>-3.76%</span></div>
             <div class="detail-row"><span>10일 수익률</span><span>-3.28%</span></div>
             <div class="detail-row"><span>5일선 돌파</span><span><span style='color:#4a4a6a;'>✗</span></span></div>
             <div class="detail-row"><span>3일 중 2일 상승</span><span><span style='color:#4a4a6a;'>✗</span></span></div></div>
           <div class="detail-group"><div class="section-label">Breadth / 금리</div>
-            <div class="detail-row"><span>Breadth 버킷</span><span>neutral</span></div>
-            <div class="detail-row"><span>Approx 비율</span><span>50.00%</span></div>
-            <div class="detail-row"><span>US 10Y</span><span>4.39%</span></div>
-            <div class="detail-row"><span>20일 변화</span><span>+30.5bp</span></div></div>
-        </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>50/200일선 하회 + 20일 수익률 음수 → 매도 우선</li></ul></div>
-    </div><div class="asset-card" style="border-top:3px solid #e53e3e;">
+            <div class="detail-row"><span>Breadth 버킷</span><span>weak</span></div>
+            <div class="detail-row"><span>Approx 비율</span><span>35.00%</span></div>
+            <div class="detail-row"><span>US 10Y</span><span>4.25%</span></div>
+            <div class="detail-row"><span>20일 변화</span><span>+17.0bp</span></div></div>
+        </div>
+        
+      <div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>50/200일선 하회 + 20일 수익률 음수 → 매도 우선</li></ul></div>
+    </div>
+    
+    <div class="asset-card" style="border-top:3px solid #e53e3e;">
       <div class="card-header">
         <div><div class="asset-name">QQQ</div></div>
-        <div style="text-align:right;"><div class="signal-badge" style="background:rgba(229,62,62,0.12);color:#e53e3e;border:1px solid #e53e3e44;">매도</div></div>
+        <div style="text-align:right;">
+          <div class="signal-badge" style="background:rgba(229,62,62,0.12);color:#e53e3e;border:1px solid #e53e3e44;">매도</div>
+          
+        </div>
       </div>
-      <div class="score-display"><span style="color:#e53e3e;font-size:42px;font-weight:700;letter-spacing:-2px;">32</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
-      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:32.0%;background:#e53e3e;border-radius:4px;"></div></div>
-      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">0<span style="color:#4a4a6a">/30</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:0.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">15<span style="color:#4a4a6a">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:60.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">8<span style="color:#4a4a6a">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:53.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">5<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:50.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">4<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div></div>
-      <div class="details-grid">
+      <div class="score-display"><span style="color:#e53e3e;font-size:42px;font-weight:700;letter-spacing:-2px;">37</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
+      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:37.0%;background:#e53e3e;border-radius:4px;"></div></div>
+      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">0<span style="color:#4a4a6a">/30</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:0.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VIX</span><span class="mod-score">5<span style="color:#4a4a6a">/25</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">10<span style="color:#4a4a6a">/15</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:66.7%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">Breadth</span><span class="mod-score">10<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:100.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">금리</span><span class="mod-score">12<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:60.0%;background:#f5c842;border-radius:4px;"></div></div></div></div>
+      
+        <div class="details-grid">
           <div class="detail-group"><div class="section-label">추세</div>
             <div class="detail-row"><span>종가</span><span>582.06</span></div>
             <div class="detail-row"><span>MA50</span><span>610.95</span></div>
             <div class="detail-row"><span>MA200</span><span>592.03</span></div>
             <div class="detail-row"><span>20일 수익률</span><span>-4.39%</span></div></div>
           <div class="detail-group"><div class="section-label">VIX</div>
-            <div class="detail-row"><span>현재</span><span>26.78</span></div>
-            <div class="detail-row"><span>5일 변화</span><span>-1.51%</span></div>
-            <div class="detail-row"><span>MA20 대비</span><span>1.146</span></div>
-            <div class="detail-row"><span>10일고점 대비</span><span>-1.87%</span></div></div>
+            <div class="detail-row"><span>현재</span><span>30.07</span></div>
+            <div class="detail-row"><span>5일 변화</span><span>+27.90%</span></div>
+            <div class="detail-row"><span>MA20 대비</span><span>1.262</span></div>
+            <div class="detail-row"><span>10일고점 대비</span><span>+0.00%</span></div></div>
           <div class="detail-group"><div class="section-label">전술</div>
             <div class="detail-row"><span>20일선 이격</span><span>-3.47%</span></div>
             <div class="detail-row"><span>10일 수익률</span><span>-2.95%</span></div>
             <div class="detail-row"><span>5일선 돌파</span><span><span style='color:#4a4a6a;'>✗</span></span></div>
             <div class="detail-row"><span>3일 중 2일 상승</span><span><span style='color:#4a4a6a;'>✗</span></span></div></div>
           <div class="detail-group"><div class="section-label">Breadth / 금리</div>
-            <div class="detail-row"><span>Breadth 버킷</span><span>neutral</span></div>
-            <div class="detail-row"><span>Approx 비율</span><span>50.00%</span></div>
-            <div class="detail-row"><span>US 10Y</span><span>4.39%</span></div>
-            <div class="detail-row"><span>20일 변화</span><span>+30.5bp</span></div></div>
-        </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>50/200일선 하회 + 20일 수익률 음수 → 매도 우선</li><li>10년물 20일 급등 → QQQ 한 단계 하향</li></ul></div>
-    </div></div>
+            <div class="detail-row"><span>Breadth 버킷</span><span>strong</span></div>
+            <div class="detail-row"><span>Approx 비율</span><span>65.00%</span></div>
+            <div class="detail-row"><span>US 10Y</span><span>4.25%</span></div>
+            <div class="detail-row"><span>20일 변화</span><span>+17.0bp</span></div></div>
+        </div>
+        
+      <div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>50/200일선 하회 + 20일 수익률 음수 → 매도 우선</li></ul></div>
+    </div>
+    </div>
 </div>
 
-<!-- KR 탭 -->
 <div id="tab-kr" class="tab-content">
-
-  <!-- 🌙 야간선물 버튼 -->
   <div class="night-btn-wrap">
     <a class="night-btn" href="night_futures.html" target="_blank">🌙 야간선물 Night Futures ↗</a>
   </div>
 
-  <!-- KR 서브탭 -->
   <div class="sub-tab-bar">
     <button class="sub-tab-btn active" data-subtab="kospi">KOSPI</button>
-    <button class="sub-tab-btn"        data-subtab="kosdaq">KOSDAQ</button>
-    <button class="sub-tab-btn"        data-subtab="ewy">EWY</button>
+    <button class="sub-tab-btn" data-subtab="kosdaq">KOSDAQ</button>
+    <button class="sub-tab-btn" data-subtab="ewy">EWY</button>
   </div>
 
-  <div id="subtab-kospi"  class="sub-tab-content active">
-    <div class="cards-container" style="margin-top:24px;"><div class="asset-card" style="border-top:3px solid #f5c842;">
+  <div id="subtab-kospi" class="sub-tab-content active">
+    <div class="cards-container" style="margin-top:24px;">
+    <div class="asset-card" style="border-top:3px solid #f5c842;">
       <div class="card-header">
         <div><div class="asset-name">KOSPI</div></div>
-        <div style="text-align:right;"><div class="signal-badge" style="background:rgba(245,200,66,0.12);color:#f5c842;border:1px solid #f5c84244;">보유</div><span style="color:#6060a0;font-size:11px;">원신호: 매수</span></div>
+        <div style="text-align:right;">
+          <div class="signal-badge" style="background:rgba(245,200,66,0.12);color:#f5c842;border:1px solid #f5c84244;">보유</div>
+          
+        </div>
       </div>
-      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">89</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
-      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:89.0%;background:#00d084;border-radius:4px;"></div></div>
-      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">40<span style="color:#4a4a6a">/40</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:100.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VKOSPI</span><span class="mod-score">16<span style="color:#4a4a6a">/27</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:59.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">12<span style="color:#4a4a6a">/17</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:70.6%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">리더십</span><span class="mod-score">6<span style="color:#4a4a6a">/6</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:100.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">거래대금</span><span class="mod-score">8<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:66.7%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">수급</span><span class="mod-score">0<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:0.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">환율</span><span class="mod-score">4<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">유가</span><span class="mod-score">3<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:30.0%;background:#e53e3e;border-radius:4px;"></div></div></div></div>
-      <div class="details-grid">
+      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">62</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
+      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:62.0%;background:#f5c842;border-radius:4px;"></div></div>
+      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">32<span style="color:#4a4a6a">/40</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:80.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VKOSPI</span><span class="mod-score">10<span style="color:#4a4a6a">/27</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:37.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">6<span style="color:#4a4a6a">/17</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:35.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">리더십</span><span class="mod-score">3<span style="color:#4a4a6a">/6</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:50.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">거래대금</span><span class="mod-score">6<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:50.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">수급</span><span class="mod-score">0<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:0.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">환율</span><span class="mod-score">3<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:15.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">유가</span><span class="mod-score">2<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div></div>
+      
+        <div class="details-grid">
           <div class="detail-group"><div class="section-label">추세</div>
-            <div class="detail-row"><span>종가</span><span>5781.20</span></div>
-            <div class="detail-row"><span>MA50</span><span>5302.97</span></div>
-            <div class="detail-row"><span>MA200</span><span>3941.41</span></div>
-            <div class="detail-row"><span>20일 수익률</span><span>1.83%</span></div></div>
+            <div class="detail-row"><span>종가</span><span>5,405.75</span></div>
+            <div class="detail-row"><span>MA50</span><span>5,320.58</span></div>
+            <div class="detail-row"><span>MA200</span><span>3,955.21</span></div>
+            <div class="detail-row"><span>20일 수익률</span><span>-6.93%</span></div></div>
           <div class="detail-group"><div class="section-label">VKOSPI</div>
-            <div class="detail-row"><span>현재</span><span>55.64</span></div>
-            <div class="detail-row"><span>5일 변화</span><span>-8.43%</span></div>
-            <div class="detail-row"><span>MA20 대비</span><span>0.946</span></div>
-            <div class="detail-row"><span>10일고점 대비</span><span>-22.53%</span></div></div>
+            <div class="detail-row"><span>현재</span><span>—</span></div>
+            <div class="detail-row"><span>5일 변화</span><span>—</span></div>
+            <div class="detail-row"><span>MA20 대비</span><span>—</span></div>
+            <div class="detail-row"><span>10일고점 대비</span><span>—</span></div></div>
           <div class="detail-group"><div class="section-label">전술 / 리더십</div>
-            <div class="detail-row"><span>20일선 이격</span><span>1.04%</span></div>
-            <div class="detail-row"><span>10일 수익률</span><span>3.52%</span></div>
-            <div class="detail-row"><span>리더십 버킷</span><span>kosdaq_weak</span></div>
-            <div class="detail-row"><span>추정 리더십</span><span>28.00%</span></div></div>
+            <div class="detail-row"><span>20일선 이격</span><span>-5.19%</span></div>
+            <div class="detail-row"><span>10일 수익률</span><span>+2.93%</span></div>
+            <div class="detail-row"><span>리더십 버킷</span><span>neutral</span></div>
+            <div class="detail-row"><span>추정 리더십</span><span>50.00%</span></div></div>
           <div class="detail-group"><div class="section-label">수급</div>
-            <div class="detail-row"><span>1일 외국인</span><span>-1,660억</span></div>
-            <div class="detail-row"><span>5일 외국인</span><span>-2.6조</span></div>
-            <div class="detail-row"><span>20일 외국인</span><span>-28.5조</span></div>
-            <div class="detail-row"><span>5일비율</span><span>-1.51%</span></div></div>
+            <div class="detail-row"><span>1일 외국인</span><span>—</span></div>
+            <div class="detail-row"><span>5일 외국인</span><span>—</span></div>
+            <div class="detail-row"><span>20일 외국인</span><span>—</span></div>
+            <div class="detail-row"><span>5일비율</span><span>—</span></div></div>
           <div class="detail-group"><div class="section-label">거래대금</div>
-            <div class="detail-row"><span>현재</span><span>34.0조</span></div>
-            <div class="detail-row"><span>MA20 대비</span><span>0.998</span></div>
-            <div class="detail-row"><span>5일 변화</span><span>43.45%</span></div></div>
+            <div class="detail-row"><span>현재</span><span>—조</span></div>
+            <div class="detail-row"><span>MA20 대비</span><span>—</span></div>
+            <div class="detail-row"><span>5일 변화</span><span>—</span></div></div>
           <div class="detail-group"><div class="section-label">환율 / 유가</div>
-            <div class="detail-row"><span>USD/KRW</span><span>1502.78</span></div>
-            <div class="detail-row"><span>환율 20일</span><span>4.11%</span></div>
-            <div class="detail-row"><span>WTI</span><span>98.09</span></div>
-            <div class="detail-row"><span>WTI 20일</span><span>47.93%</span></div></div>
-        </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>외국인·기관 1일 동시 순매도 → 매수 제한</li><li>5일·20일 누적 수급 동반 부진 → 매수 제한</li><li>원/달러 급등 + 단기 수급 약세 → 매수 제한</li></ul></div>
-    </div></div>
+            <div class="detail-row"><span>USD/KRW</span><span>1,510.18</span></div>
+            <div class="detail-row"><span>환율 20일</span><span>+4.62%</span></div>
+            <div class="detail-row"><span>WTI</span><span>100.12</span></div>
+            <div class="detail-row"><span>WTI 20일</span><span>+50.99%</span></div></div>
+        </div>
+        
+      
+    </div>
+    </div>
   </div>
   <div id="subtab-kosdaq" class="sub-tab-content">
-    <div class="cards-container" style="margin-top:24px;"><div class="asset-card" style="border-top:3px solid #f5c842;">
+    <div class="cards-container" style="margin-top:24px;">
+    <div class="asset-card" style="border-top:3px solid #00d084;">
       <div class="card-header">
         <div><div class="asset-name">KOSDAQ</div></div>
-        <div style="text-align:right;"><div class="signal-badge" style="background:rgba(245,200,66,0.12);color:#f5c842;border:1px solid #f5c84244;">보유</div><span style="color:#6060a0;font-size:11px;">원신호: 매수</span></div>
+        <div style="text-align:right;">
+          <div class="signal-badge" style="background:rgba(0,208,132,0.12);color:#00d084;border:1px solid #00d08444;">매수</div>
+          
+        </div>
       </div>
-      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">92</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
-      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:92.0%;background:#00d084;border-radius:4px;"></div></div>
-      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">36<span style="color:#4a4a6a">/36</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:100.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VKOSPI</span><span class="mod-score">16<span style="color:#4a4a6a">/27</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:59.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">12<span style="color:#4a4a6a">/17</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:70.6%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">리더십</span><span class="mod-score">1<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:8.3%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">거래대금</span><span class="mod-score">5<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:41.7%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">수급</span><span class="mod-score">17<span style="color:#4a4a6a">/18</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:94.4%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">환율</span><span class="mod-score">3<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:15.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">유가</span><span class="mod-score">2<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div></div>
-      <div class="details-grid">
+      <div class="score-display"><span style="color:#00d084;font-size:42px;font-weight:700;letter-spacing:-2px;">73</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
+      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:73.0%;background:#00d084;border-radius:4px;"></div></div>
+      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">28<span style="color:#4a4a6a">/36</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:77.8%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VKOSPI</span><span class="mod-score">10<span style="color:#4a4a6a">/27</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:37.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">12<span style="color:#4a4a6a">/17</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:70.6%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">리더십</span><span class="mod-score">12<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:100.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">거래대금</span><span class="mod-score">6<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:50.0%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">수급</span><span class="mod-score">0<span style="color:#4a4a6a">/18</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:0.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">환율</span><span class="mod-score">3<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:15.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">유가</span><span class="mod-score">2<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div></div>
+      
+        <div class="details-grid">
           <div class="detail-group"><div class="section-label">추세</div>
-            <div class="detail-row"><span>종가</span><span>1161.52</span></div>
-            <div class="detail-row"><span>MA50</span><span>1083.11</span></div>
-            <div class="detail-row"><span>MA200</span><span>901.15</span></div>
-            <div class="detail-row"><span>20일 수익률</span><span>0.07%</span></div></div>
+            <div class="detail-row"><span>종가</span><span>1,096.89</span></div>
+            <div class="detail-row"><span>MA50</span><span>1,085.93</span></div>
+            <div class="detail-row"><span>MA200</span><span>903.01</span></div>
+            <div class="detail-row"><span>20일 수익률</span><span>-4.95%</span></div></div>
           <div class="detail-group"><div class="section-label">VKOSPI</div>
-            <div class="detail-row"><span>현재</span><span>55.64</span></div>
-            <div class="detail-row"><span>5일 변화</span><span>-8.43%</span></div>
-            <div class="detail-row"><span>MA20 대비</span><span>0.946</span></div>
-            <div class="detail-row"><span>10일고점 대비</span><span>-22.53%</span></div></div>
+            <div class="detail-row"><span>현재</span><span>—</span></div>
+            <div class="detail-row"><span>5일 변화</span><span>—</span></div>
+            <div class="detail-row"><span>MA20 대비</span><span>—</span></div>
+            <div class="detail-row"><span>10일고점 대비</span><span>—</span></div></div>
           <div class="detail-group"><div class="section-label">전술 / 리더십</div>
-            <div class="detail-row"><span>20일선 이격</span><span>1.77%</span></div>
-            <div class="detail-row"><span>10일 수익률</span><span>0.59%</span></div>
-            <div class="detail-row"><span>리더십 버킷</span><span>weak</span></div>
-            <div class="detail-row"><span>추정 리더십</span><span>28.00%</span></div></div>
+            <div class="detail-row"><span>20일선 이격</span><span>-3.65%</span></div>
+            <div class="detail-row"><span>10일 수익률</span><span>-0.49%</span></div>
+            <div class="detail-row"><span>리더십 버킷</span><span>strong</span></div>
+            <div class="detail-row"><span>추정 리더십</span><span>65.00%</span></div></div>
           <div class="detail-group"><div class="section-label">수급</div>
-            <div class="detail-row"><span>1일 외국인</span><span>+507억</span></div>
-            <div class="detail-row"><span>5일 외국인</span><span>+5,189억</span></div>
-            <div class="detail-row"><span>20일 외국인</span><span>1.2조</span></div>
-            <div class="detail-row"><span>5일비율</span><span>0.73%</span></div></div>
+            <div class="detail-row"><span>1일 외국인</span><span>—</span></div>
+            <div class="detail-row"><span>5일 외국인</span><span>—</span></div>
+            <div class="detail-row"><span>20일 외국인</span><span>—</span></div>
+            <div class="detail-row"><span>5일비율</span><span>—</span></div></div>
           <div class="detail-group"><div class="section-label">거래대금</div>
-            <div class="detail-row"><span>현재</span><span>14.1조</span></div>
-            <div class="detail-row"><span>MA20 대비</span><span>0.977</span></div>
-            <div class="detail-row"><span>5일 변화</span><span>-1.76%</span></div></div>
+            <div class="detail-row"><span>현재</span><span>—조</span></div>
+            <div class="detail-row"><span>MA20 대비</span><span>—</span></div>
+            <div class="detail-row"><span>5일 변화</span><span>—</span></div></div>
           <div class="detail-group"><div class="section-label">환율 / 유가</div>
-            <div class="detail-row"><span>USD/KRW</span><span>1502.78</span></div>
-            <div class="detail-row"><span>환율 20일</span><span>4.11%</span></div>
-            <div class="detail-row"><span>WTI</span><span>98.09</span></div>
-            <div class="detail-row"><span>WTI 20일</span><span>47.93%</span></div></div>
-        </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>코스닥 리더십 약세 → 매수 제한</li></ul></div>
-    </div></div>
+            <div class="detail-row"><span>USD/KRW</span><span>1,510.18</span></div>
+            <div class="detail-row"><span>환율 20일</span><span>+4.62%</span></div>
+            <div class="detail-row"><span>WTI</span><span>100.12</span></div>
+            <div class="detail-row"><span>WTI 20일</span><span>+50.99%</span></div></div>
+        </div>
+        
+      
+    </div>
+    </div>
   </div>
-  <div id="subtab-ewy"    class="sub-tab-content">
+  <div id="subtab-ewy" class="sub-tab-content">
     <div class="cards-container" style="margin-top:24px;">
 <div class="asset-card" style="border-top:3px solid #60a5fa;grid-column:1/-1;">
   <div class="card-header">
@@ -337,7 +568,6 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
           loading="lazy"></iframe>
 </div></div>
   </div>
-
 </div>
 
 <div class="footer">
@@ -346,420 +576,28 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 </div>
 
 <script>
-(function () {
-  function txt(el) {
-    return (el?.textContent || "").trim();
-  }
-
-  function parseNum(v) {
-    if (v == null) return null;
-    const m = String(v).replace(/,/g, "").match(/-?\d+(\.\d+)?/);
-    return m ? Number(m[0]) : null;
-  }
-
-  function fmtNum(v, digits = 2) {
-    if (v == null || Number.isNaN(v)) return "—";
-    return Number(v).toLocaleString("en-US", {
-      minimumFractionDigits: digits,
-      maximumFractionDigits: digits,
-    });
-  }
-
-  function fmtPct(v, digits = 2) {
-    if (v == null || Number.isNaN(v)) return "—";
-    return `${Number(v) >= 0 ? "+" : ""}${Number(v).toFixed(digits)}%`;
-  }
-
-  function fmtBp(v, digits = 1) {
-    if (v == null || Number.isNaN(v)) return "—";
-    return `${Number(v) >= 0 ? "+" : ""}${Number(v).toFixed(digits)}bp`;
-  }
-
-  function statusLabel(status) {
-    if (status === "good") return "양호";
-    if (status === "warn") return "경계";
-    if (status === "muted") return "미연동";
-    return "위험";
-  }
-
-  function compareVsMA(close, ma) {
-    const c = parseNum(close);
-    const m = parseNum(ma);
-    if (c == null || m == null) return "판단불가";
-    return c > m ? "상회" : "하회";
-  }
-
-  function classifyEquity(signalText) {
-    if (signalText === "매수") return "good";
-    if (signalText === "보유") return "warn";
-    return "bad";
-  }
-
-  function classifyVIX(cur, ratio20) {
-    if (cur == null) return "warn";
-    if (cur >= 25 || (ratio20 != null && ratio20 >= 1.15)) return "bad";
-    if (cur >= 18 || (ratio20 != null && ratio20 >= 1.00)) return "warn";
-    return "good";
-  }
-
-  function classifyVKOSPI(cur, ratio20) {
-    if (cur == null) return "warn";
-    if (cur >= 50 || (ratio20 != null && ratio20 >= 1.15)) return "bad";
-    if (cur >= 35 || (ratio20 != null && ratio20 >= 1.00)) return "warn";
-    return "good";
-  }
-
-  function classifyRates(delta20bp) {
-    if (delta20bp == null) return "warn";
-    if (delta20bp >= 40) return "bad";
-    if (delta20bp >= 20) return "warn";
-    return "good";
-  }
-
-  function classifyFX(ret20) {
-    if (ret20 == null) return "warn";
-    if (ret20 >= 4) return "bad";
-    if (ret20 >= 2) return "warn";
-    return "good";
-  }
-
-  function findAssetCardByName(name) {
-    const cards = [...document.querySelectorAll(".asset-card")];
-    return cards.find(card => txt(card.querySelector(".asset-name")) === name);
-  }
-
-  function findDetailValue(card, labelText) {
-    if (!card) return null;
-    const rows = [...card.querySelectorAll(".detail-row")];
-    for (const row of rows) {
-      const spans = row.querySelectorAll("span");
-      if (spans.length >= 2 && txt(spans[0]) === labelText) {
-        return txt(spans[1]);
-      }
-    }
-    return null;
-  }
-
-  function findSignal(card) {
-    return txt(card?.querySelector(".signal-badge"));
-  }
-
-  function buildBaseMainData() {
-    const spyCard = findAssetCardByName("SPY");
-    const qqqCard = findAssetCardByName("QQQ");
-    const kospiCard = findAssetCardByName("KOSPI");
-    const kosdaqCard = findAssetCardByName("KOSDAQ");
-
-    const spySignal = findSignal(spyCard);
-    const qqqSignal = findSignal(qqqCard);
-    const kospiSignal = findSignal(kospiCard);
-    const kosdaqSignal = findSignal(kosdaqCard);
-
-    return [
-      {
-        section: "Equities",
-        label: "S&P 500",
-        value: findDetailValue(spyCard, "종가") || "—",
-        d1: "—",
-        d5: findDetailValue(spyCard, "10일 수익률") || findDetailValue(spyCard, "20일 수익률") || "—",
-        aux: `MA50 ${compareVsMA(findDetailValue(spyCard, "종가"), findDetailValue(spyCard, "MA50"))}`,
-        status: classifyEquity(spySignal),
-      },
-      {
-        section: "Equities",
-        label: "Nasdaq 100",
-        value: findDetailValue(qqqCard, "종가") || "—",
-        d1: "—",
-        d5: findDetailValue(qqqCard, "10일 수익률") || findDetailValue(qqqCard, "20일 수익률") || "—",
-        aux: `MA50 ${compareVsMA(findDetailValue(qqqCard, "종가"), findDetailValue(qqqCard, "MA50"))}`,
-        status: classifyEquity(qqqSignal),
-      },
-      {
-        section: "Equities",
-        label: "KOSPI",
-        value: findDetailValue(kospiCard, "종가") || "—",
-        d1: "—",
-        d5: findDetailValue(kospiCard, "10일 수익률") || findDetailValue(kospiCard, "20일 수익률") || "—",
-        aux: `MA50 ${compareVsMA(findDetailValue(kospiCard, "종가"), findDetailValue(kospiCard, "MA50"))}`,
-        status: classifyEquity(kospiSignal),
-      },
-      {
-        section: "Equities",
-        label: "KOSDAQ",
-        value: findDetailValue(kosdaqCard, "종가") || "—",
-        d1: "—",
-        d5: findDetailValue(kosdaqCard, "10일 수익률") || findDetailValue(kosdaqCard, "20일 수익률") || "—",
-        aux: `MA50 ${compareVsMA(findDetailValue(kosdaqCard, "종가"), findDetailValue(kosdaqCard, "MA50"))}`,
-        status: classifyEquity(kosdaqSignal),
-      },
-
-      {
-        section: "Vol / Rates",
-        label: "VIX",
-        value: findDetailValue(spyCard, "현재") || "—",
-        d1: "—",
-        d5: findDetailValue(spyCard, "5일 변화") || "—",
-        aux: `MA20 대비 ${findDetailValue(spyCard, "MA20 대비") || "—"}`,
-        status: classifyVIX(
-          parseNum(findDetailValue(spyCard, "현재")),
-          parseNum(findDetailValue(spyCard, "MA20 대비"))
-        ),
-      },
-      {
-        section: "Vol / Rates",
-        label: "VKOSPI",
-        value: findDetailValue(kospiCard, "현재") || "—",
-        d1: "—",
-        d5: findDetailValue(kospiCard, "5일 변화") || "—",
-        aux: `MA20 대비 ${findDetailValue(kospiCard, "MA20 대비") || "—"}`,
-        status: classifyVKOSPI(
-          parseNum(findDetailValue(kospiCard, "현재")),
-          parseNum(findDetailValue(kospiCard, "MA20 대비"))
-        ),
-      },
-      {
-        section: "Vol / Rates",
-        label: "US 10Y",
-        value: (() => {
-          const v = findDetailValue(spyCard, "US 10Y");
-          if (!v) return "—";
-          return String(v).includes("%") ? v : `${v}%`;
-        })(),
-        d1: "—",
-        d5: "—",
-        aux: `20일 ${findDetailValue(spyCard, "20일 변화") || "—"}`,
-        status: classifyRates(parseNum(findDetailValue(spyCard, "20일 변화"))),
-      },
-      {
-        section: "Vol / Rates",
-        label: "2Y-10Y",
-        value: "—",
-        d1: "—",
-        d5: "—",
-        aux: "state.json 미연동",
-        status: "muted",
-      },
-
-      {
-        section: "FX / Safe Haven",
-        label: "USD/KRW",
-        value: findDetailValue(kospiCard, "USD/KRW") || "—",
-        d1: "—",
-        d5: "—",
-        aux: `20일 ${findDetailValue(kospiCard, "환율 20일") || "—"}`,
-        status: classifyFX(parseNum(findDetailValue(kospiCard, "환율 20일"))),
-      },
-      {
-        section: "FX / Safe Haven",
-        label: "Dollar Index",
-        value: "—",
-        d1: "—",
-        d5: "—",
-        aux: "state.json 미연동",
-        status: "muted",
-      },
-      {
-        section: "FX / Safe Haven",
-        label: "Gold",
-        value: "—",
-        d1: "—",
-        d5: "—",
-        aux: "state.json 미연동",
-        status: "muted",
-      },
-      {
-        section: "FX / Credit",
-        label: "HY OAS",
-        value: "—",
-        d1: "—",
-        d5: "—",
-        aux: "state.json 미연동",
-        status: "muted",
-      },
-    ];
-  }
-
-  async function enrichFromStateJson(mainData) {
-    try {
-      const res = await fetch(`state.json?ts=${Date.now()}`, { cache: "no-store" });
-      if (!res.ok) return mainData;
-
-      const state = await res.json();
-
-      // 현재 state.json 구조엔 us_results / kr_results만 있고
-      // DXY, Gold, HY OAS, 2Y-10Y 값이 없을 수도 있음.
-      // 있으면 반영, 없으면 미연동 유지.
-      const byLabel = Object.fromEntries(mainData.map(x => [x.label, x]));
-
-      // 혹시 새 구조로 들어온 경우를 대비해 optional support
-      const macro = state.macro || {};
-
-      if (macro.curve_2s10s != null) {
-        byLabel["2Y-10Y"] = {
-          section: "Vol / Rates",
-          label: "2Y-10Y",
-          value: `${fmtNum(macro.curve_2s10s, 2)}%`,
-          d1: fmtBp(macro.curve_2s10s_1d_bp),
-          d5: fmtBp(macro.curve_2s10s_5d_bp),
-          aux: Number(macro.curve_2s10s_5d_bp || 0) > 0 ? "Steepening" : "Flattening",
-          status: "warn",
-        };
-      }
-
-      if (macro.dxy != null) {
-        byLabel["Dollar Index"] = {
-          section: "FX / Safe Haven",
-          label: "Dollar Index",
-          value: fmtNum(macro.dxy, 2),
-          d1: fmtPct(macro.dxy_1d),
-          d5: fmtPct(macro.dxy_5d),
-          aux: (macro.dxy_ma20 != null && Number(macro.dxy) > Number(macro.dxy_ma20)) ? "20일선 상회" : "20일선 하회",
-          status: (macro.dxy_ma20 != null && Number(macro.dxy) > Number(macro.dxy_ma20)) ? "warn" : "good",
-        };
-      }
-
-      if (macro.gold != null) {
-        byLabel["Gold"] = {
-          section: "FX / Safe Haven",
-          label: "Gold",
-          value: fmtNum(macro.gold, 1),
-          d1: fmtPct(macro.gold_1d),
-          d5: fmtPct(macro.gold_5d),
-          aux: Number(macro.gold_5d || 0) > 0 ? "안전자산 강세" : "중립",
-          status: Number(macro.gold_5d || 0) > 0 ? "good" : "warn",
-        };
-      }
-
-      if (macro.hy_oas != null) {
-        byLabel["HY OAS"] = {
-          section: "FX / Credit",
-          label: "HY OAS",
-          value: `${fmtNum(macro.hy_oas, 2)}%`,
-          d1: fmtBp(macro.hy_oas_1d_bp),
-          d5: fmtBp(macro.hy_oas_5d_bp),
-          aux: Number(macro.hy_oas || 0) >= 3.5 ? "신용 경계" : "신용 안정",
-          status: Number(macro.hy_oas || 0) >= 4.0 ? "bad" : Number(macro.hy_oas || 0) >= 3.5 ? "warn" : "good",
-        };
-      }
-
-      return [
-        byLabel["S&P 500"],
-        byLabel["Nasdaq 100"],
-        byLabel["KOSPI"],
-        byLabel["KOSDAQ"],
-        byLabel["VIX"],
-        byLabel["VKOSPI"],
-        byLabel["US 10Y"],
-        byLabel["2Y-10Y"],
-        byLabel["USD/KRW"],
-        byLabel["Dollar Index"],
-        byLabel["Gold"],
-        byLabel["HY OAS"],
-      ].filter(Boolean);
-
-    } catch (e) {
-      return mainData;
-    }
-  }
-
-  function buildMainCard(item) {
-    return `
-      <div class="main-card">
-        <div>
-          <div class="main-card-top">
-            <div>
-              <div class="main-section">${item.section}</div>
-              <div class="main-title">${item.label}</div>
-            </div>
-            <div class="mini-badge ${item.status}">${statusLabel(item.status)}</div>
-          </div>
-          <div class="main-value">${item.value}</div>
-          <div class="main-metrics">
-            <div class="row"><span>1일 변화</span><span>${item.d1}</span></div>
-            <div class="row"><span>5일 변화</span><span>${item.d5}</span></div>
-            <div class="row"><span>판단</span><span>${item.aux}</span></div>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-
-  function renderMain(mainData) {
-    const grid = document.getElementById("main-grid");
-    if (!grid) return;
-    grid.innerHTML = mainData.map(buildMainCard).join("");
-
-    let score = 0;
-    mainData.forEach(x => {
-      if (x.status === "good") score += 1;
-      else if (x.status === "bad") score -= 1;
-    });
-
-    const regimeEl = document.getElementById("global-regime");
-    const descEl = document.getElementById("global-regime-desc");
-    const alertEl = document.getElementById("main-alerts");
-
-    if (regimeEl && descEl) {
-      regimeEl.classList.remove("riskon", "neutral", "riskoff");
-      if (score >= 3) {
-        regimeEl.textContent = "RISK-ON";
-        regimeEl.classList.add("riskon");
-        descEl.textContent = "주식/변동성/신용 전반이 비교적 안정적입니다.";
-      } else if (score <= -3) {
-        regimeEl.textContent = "RISK-OFF";
-        regimeEl.classList.add("riskoff");
-        descEl.textContent = "금리·달러·변동성 부담이 우세합니다.";
-      } else {
-        regimeEl.textContent = "NEUTRAL";
-        regimeEl.classList.add("neutral");
-        descEl.textContent = "강세와 약세 신호가 혼재합니다.";
-      }
-    }
-
-    if (alertEl) {
-      const alerts = [];
-      const us10y = mainData.find(x => x.label === "US 10Y");
-      const usdkrw = mainData.find(x => x.label === "USD/KRW");
-      const hy = mainData.find(x => x.label === "HY OAS");
-
-      if (us10y && us10y.aux.includes("+")) alerts.push("US10Y 상승 → 성장주 밸류에이션 부담");
-      if (usdkrw && usdkrw.aux.includes("+")) alerts.push("USD/KRW 급등 → 한국 자산 리스크 가중");
-      if (hy && hy.status !== "muted" && hy.status !== "good") alerts.push("HY 스프레드 확대 → 신용시장 점검 필요");
-      if (!alerts.length) alerts.push("특이 경보 없음");
-
-      alertEl.innerHTML = alerts.slice(0, 3).map(x => `<li>${x}</li>`).join("");
-    }
-  }
-
+(function(){
   document.querySelectorAll('.tab-btn[data-tab]').forEach(function(btn){
     btn.addEventListener('click', function(){
       var name = this.getAttribute('data-tab');
-      document.querySelectorAll('.tab-content').forEach(function(el){ el.classList.remove('active'); });
-      document.querySelectorAll('.tab-btn[data-tab]').forEach(function(el){ el.classList.remove('active'); });
+      document.querySelectorAll('.tab-content').forEach(function(el){el.classList.remove('active');});
+      document.querySelectorAll('.tab-btn[data-tab]').forEach(function(el){el.classList.remove('active');});
       document.getElementById('tab-' + name).classList.add('active');
       this.classList.add('active');
-      try { localStorage.setItem('lastTab', name); } catch(e) {}
+      try{localStorage.setItem('lastTab', name);}catch(e){}
     });
   });
 
   document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(btn){
     btn.addEventListener('click', function(){
       var name = this.getAttribute('data-subtab');
-      document.querySelectorAll('.sub-tab-content').forEach(function(el){ el.classList.remove('active'); });
-      document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(el){ el.classList.remove('active'); });
+      document.querySelectorAll('.sub-tab-content').forEach(function(el){el.classList.remove('active');});
+      document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(el){el.classList.remove('active');});
       document.getElementById('subtab-' + name).classList.add('active');
       this.classList.add('active');
-      try { localStorage.setItem('lastSubTab', name); } catch(e) {}
+      try{localStorage.setItem('lastSubTab', name);}catch(e){}
     });
   });
-
-  async function initMain() {
-    let mainData = buildBaseMainData();
-    mainData = await enrichFromStateJson(mainData);
-    renderMain(mainData);
-  }
-
-  initMain();
 
   try{
     var last = localStorage.getItem('lastTab');
