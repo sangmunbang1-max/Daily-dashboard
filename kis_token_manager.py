@@ -61,7 +61,7 @@ def _is_token_valid(cache: dict, now=None, safety_minutes: int = 30) -> bool:
         return False
 
     try:
-        exp_dt = datetime.fromisoformat(expires_at)
+        exp_dt = datetime.fromisoformat(expires_at).replace(tzinfo=KST)
     except Exception:
         return False
 
