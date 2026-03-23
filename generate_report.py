@@ -826,6 +826,11 @@ def generate_html(us_results, kr_results, us_updated, kr_updated, macro, mkt=Non
     spy=us_results["SPY"]; qqq=us_results["QQQ"]
     kospi=kr_results["KOSPI"]; kosdaq=kr_results["KOSDAQ"]
 
+    # GSPC / NDX 시계열 (MAIN 카드용)
+    if mkt is None:
+        mkt = {k: pd.DataFrame() for k in TICKERS}
+    gspc_close = mkt["GSPC"]["Close"].dropna() if "GSPC" in mkt and not mkt["GSPC"].empty else pd.Series(dtype=float)
+    ndx_close  = mkt["NDX"]["Close"].dropna()  if "NDX"  in mkt and not mkt["NDX"].empty  else pd.Series(dtype=float)
     main_cards = [
         {"section":"Equities","label":"S&P 500","value":fmt_num(last_valid(gspc_close)),"d1":fmt_pct(pct_change(last_valid(gspc_close),last_valid(gspc_close,2))),"d5":fmt_pct(spy.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(spy.module_meta['trend']['close'])>safe_float(spy.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(spy)},
         {"section":"Equities","label":"Nasdaq 100","value":fmt_num(last_valid(ndx_close)),"d1":fmt_pct(pct_change(last_valid(ndx_close),last_valid(ndx_close,2))),"d5":fmt_pct(qqq.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(qqq.module_meta['trend']['close'])>safe_float(qqq.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(qqq)},
@@ -843,14 +848,6 @@ def generate_html(us_results, kr_results, us_updated, kr_updated, macro, mkt=Non
     main_cards_html = "".join(f'''<div class="main-card"><div><div class="main-card-top"><div><div class="main-section">{c["section"]}</div><div class="main-title">{c["label"]}</div></div><div class="mini-badge {c["status"]}">{status_to_badge(c["status"])}</div></div><div class="main-value">{c["value"]}</div><div class="main-metrics"><div class="row"><span>1일 변화</span><span>{c["d1"]}</span></div><div class="row"><span>5일 변화</span><span>{c["d5"]}</span></div><div class="row"><span>판단</span><span>{c["aux"]}</span></div></div></div></div>''' for c in main_cards)
 
     score = sum(1 if c["status"]=="good" else -1 if c["status"]=="bad" else 0 for c in main_cards)
-    if mkt is None:
-        mkt = {k: pd.DataFrame() for k in TICKERS}
-    if "GSPC" not in mkt or mkt["GSPC"].empty:
-        mkt["GSPC"] = pd.DataFrame({"Close": spy.module_meta["trend"]["close"] * pd.Series([8.6])})
-    if "NDX" not in mkt or mkt["NDX"].empty:
-        mkt["NDX"] = pd.DataFrame({"Close": qqq.module_meta["trend"]["close"] * pd.Series([40.0])})
-    gspc_close = mkt["GSPC"]["Close"].dropna()
-    ndx_close  = mkt["NDX"]["Close"].dropna()
     if score>=3: regime_text="RISK-ON"; regime_class="riskon"; regime_desc="주식/변동성/신용 전반이 비교적 안정적입니다."
     elif score<=-3: regime_text="RISK-OFF"; regime_class="riskoff"; regime_desc="금리·달러·변동성 부담이 우세합니다."
     else: regime_text="NEUTRAL"; regime_class="neutral"; regime_desc="강세와 약세 신호가 혼재합니다."
