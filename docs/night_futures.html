@@ -187,103 +187,246 @@
   </div>
 
   <script>
-    function fmt(v, digits=2){
-      if (v === null || v === undefined || Number.isNaN(v)) return "-";
-      return Number(v).toFixed(digits);
-    }
+  let kospiChart = null;
+  let kosdaqChart = null;
 
-    function setTokenStatus(status){
-      const el = document.getElementById("tokenStatus");
-      el.textContent = status || "-";
-      el.className = "";
-      if (status === "ready") el.classList.add("ok");
-      else if (status === "missing") el.classList.add("bad");
-      else el.classList.add("warn");
-    }
+  function fmtNum(v, digits = 2) {
+    if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
+    return Number(v).toLocaleString("en-US", {
+      minimumFractionDigits: digits,
+      maximumFractionDigits: digits
+    });
+  }
 
-    function renderMiniStats(prefix, summary){
-      document.getElementById(prefix + "Last").textContent = fmt(summary?.last);
-      const chg = summary?.change;
-      const chgPct = summary?.change_pct;
-      document.getElementById(prefix + "Change").textContent =
-        (chg == null ? "-" : `${fmt(chg)} (${fmt(chgPct)}%)`);
-      document.getElementById(prefix + "Points").textContent = summary?.points ?? 0;
-    }
+  function fmtSigned(v, digits = 2) {
+    if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
+    const n = Number(v);
+    const sign = n > 0 ? "+" : "";
+    return `${sign}${fmtNum(n, digits)}`;
+  }
 
-    function makeChart(canvasId, emptyId, points, label){
-      const emptyEl = document.getElementById(emptyId);
-      if (!points || points.length === 0){
-        emptyEl.style.display = "block";
-        return null;
+  function fmtSignedPct(v, digits = 2) {
+    if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
+    const n = Number(v);
+    const sign = n > 0 ? "+" : "";
+    return `${sign}${fmtNum(n, digits)}%`;
+  }
+
+  function makeSessionGrid15m() {
+    const labels = [];
+
+    // 18:00 ~ 23:45
+    for (let h = 18; h <= 23; h++) {
+      for (let m = 0; m < 60; m += 15) {
+        labels.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
       }
-      emptyEl.style.display = "none";
+    }
 
-      const labels = points.map(x => x.time);
-      const values = points.map(x => x.price);
+    // 00:00 ~ 05:45
+    for (let h = 0; h <= 5; h++) {
+      for (let m = 0; m < 60; m += 15) {
+        labels.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
+      }
+    }
 
-      const ctx = document.getElementById(canvasId).getContext("2d");
-      return new Chart(ctx, {
-        type: "line",
-        data: {
-          labels,
-          datasets: [{
-            label,
-            data: values,
-            tension: 0.2,
-            borderWidth: 2,
-            pointRadius: 2
-          }]
+    return labels;
+  }
+
+  function buildSeriesOnGrid(points) {
+    const grid = makeSessionGrid15m();
+    const pointMap = new Map();
+
+    (points || []).forEach(p => {
+      if (!p || !p.time) return;
+      pointMap.set(p.time, p.price ?? null);
+    });
+
+    const values = grid.map(t => pointMap.has(t) ? pointMap.get(t) : null);
+    return { labels: grid, values };
+  }
+
+  function calcYRange(values) {
+    const nums = values.filter(v => v !== null && v !== undefined && !Number.isNaN(Number(v))).map(Number);
+    if (!nums.length) {
+      return { min: 0, max: 100 };
+    }
+
+    let min = Math.min(...nums);
+    let max = Math.max(...nums);
+
+    if (min === max) {
+      const pad = Math.max(Math.abs(min) * 0.01, 1);
+      return { min: min - pad, max: max + pad };
+    }
+
+    const pad = (max - min) * 0.15;
+    return {
+      min: min - pad,
+      max: max + pad
+    };
+  }
+
+  function renderMiniStats(summary, prefix) {
+    const lastEl = document.getElementById(`${prefix}Last`);
+    const chgEl = document.getElementById(`${prefix}Change`);
+    const ptsEl = document.getElementById(`${prefix}Points`);
+
+    if (!summary) {
+      lastEl.textContent = "-";
+      chgEl.textContent = "-";
+      ptsEl.textContent = "0";
+      return;
+    }
+
+    lastEl.textContent = fmtNum(summary.last, 2);
+
+    if (summary.change == null || summary.change_pct == null) {
+      chgEl.textContent = "-";
+    } else {
+      chgEl.textContent = `${fmtSigned(summary.change, 2)} (${fmtSignedPct(summary.change_pct, 2)})`;
+    }
+
+    ptsEl.textContent = String(summary.points ?? 0);
+  }
+
+  function destroyChartIfExists(chartObj) {
+    if (chartObj) chartObj.destroy();
+  }
+
+  function makeChart(canvasId, label, points, chartObjRefName) {
+    const ctx = document.getElementById(canvasId).getContext("2d");
+    const { labels, values } = buildSeriesOnGrid(points || []);
+    const yRange = calcYRange(values);
+
+    const data = {
+      labels,
+      datasets: [
+        {
+          label,
+          data: values,
+          borderColor: "#3db2ff",
+          backgroundColor: "rgba(61,178,255,0.18)",
+          borderWidth: 2,
+          pointRadius: (context) => {
+            const v = context.raw;
+            return v === null ? 0 : 2.5;
+          },
+          pointHoverRadius: (context) => {
+            const v = context.raw;
+            return v === null ? 0 : 4;
+          },
+          spanGaps: false,
+          tension: 0.15
+        }
+      ]
+    };
+
+    const config = {
+      type: "line",
+      data,
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: {
+          mode: "index",
+          intersect: false
         },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: {
-            legend: {
-              labels: { color: "#f9fafb" }
+        plugins: {
+          legend: {
+            display: true,
+            labels: {
+              color: "#d7e3ff"
             }
           },
-          scales: {
-            x: {
-              ticks: { color: "#9ca3af" },
-              grid: { color: "#374151" }
+          tooltip: {
+            callbacks: {
+              label: function(context) {
+                const v = context.raw;
+                if (v == null) return `${label}: -`;
+                return `${label}: ${fmtNum(v, 2)}`;
+              }
+            }
+          }
+        },
+        scales: {
+          x: {
+            ticks: {
+              color: "#9fb3d9",
+              autoSkip: false,
+              maxRotation: 0,
+              callback: function(value, index) {
+                const lbl = this.getLabelForValue(value);
+                const [hh, mm] = lbl.split(":").map(Number);
+
+                // 1시간 단위만 표시
+                if (mm === 0) return lbl;
+                return "";
+              }
             },
-            y: {
-              ticks: { color: "#9ca3af" },
-              grid: { color: "#374151" }
+            grid: {
+              color: "rgba(159,179,217,0.12)"
+            }
+          },
+          y: {
+            min: yRange.min,
+            max: yRange.max,
+            ticks: {
+              color: "#9fb3d9",
+              callback: function(value) {
+                return fmtNum(value, 0);
+              }
+            },
+            grid: {
+              color: "rgba(159,179,217,0.12)"
             }
           }
         }
-      });
-    }
-
-    async function loadData(){
-      const res = await fetch("./data/night_futures/latest.json?v=" + Date.now());
-      if (!res.ok) throw new Error("latest.json 로드 실패");
-      return await res.json();
-    }
-
-    async function init(){
-      try{
-        const data = await loadData();
-
-        document.getElementById("generatedAt").textContent = data.generated_at_kst || "-";
-        document.getElementById("bizDate").textContent = data.biz_date || "-";
-        setTokenStatus(data.token_status || "-");
-
-        renderMiniStats("kospi", data.summary?.kospi || {});
-        renderMiniStats("kosdaq", data.summary?.kosdaq || {});
-
-        makeChart("kospiChart", "kospiEmpty", data.series?.kospi || [], "KOSPI Night Futures");
-        makeChart("kosdaqChart", "kosdaqEmpty", data.series?.kosdaq || [], "KOSDAQ Night Futures");
-      }catch(err){
-        console.error(err);
-        document.getElementById("pageSub").textContent = "데이터를 아직 불러오지 못했습니다.";
-        document.getElementById("tokenStatus").textContent = "error";
-        document.getElementById("tokenStatus").className = "bad";
       }
-    }
+    };
 
-    init();
-  </script>
+    if (chartObjRefName === "kospi") {
+      destroyChartIfExists(kospiChart);
+      kospiChart = new Chart(ctx, config);
+    } else if (chartObjRefName === "kosdaq") {
+      destroyChartIfExists(kosdaqChart);
+      kosdaqChart = new Chart(ctx, config);
+    }
+  }
+
+  async function loadData() {
+    try {
+      const res = await fetch("./data/night_futures/latest.json?ts=" + Date.now());
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const data = await res.json();
+
+      document.getElementById("generatedAt").textContent = data.generated_at_kst ?? "-";
+      document.getElementById("bizDate").textContent = data.biz_date ?? "-";
+      document.getElementById("tokenStatus").textContent = data.token_status ?? "-";
+
+      renderMiniStats(data.summary?.kospi, "kospi");
+      renderMiniStats(data.summary?.kosdaq, "kosdaq");
+
+      makeChart(
+        "kospiChart",
+        data.summary?.kospi?.last_name || "KOSPI Night Futures",
+        data.series?.kospi || [],
+        "kospi"
+      );
+
+      makeChart(
+        "kosdaqChart",
+        data.summary?.kosdaq?.last_name || "KOSDAQ Night Futures",
+        data.series?.kosdaq || [],
+        "kosdaq"
+      );
+    } catch (err) {
+      console.error(err);
+      document.getElementById("generatedAt").textContent = "로드 실패";
+    }
+  }
+
+  loadData();
+</script>
 </body>
 </html>
