@@ -2,8 +2,7 @@ name: Night Futures Snapshot
 
 on:
   schedule:
-    - cron: '0,15,30,45 9-14 * * 1-5'
-    - cron: '0,15,30,45 15-20 * * 1-5'
+    - cron: '*/15 9-20 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -23,6 +22,7 @@ jobs:
       KIS_NIGHT_KOSPI_TR_KEY: ${{ secrets.KIS_NIGHT_KOSPI_TR_KEY }}
       KIS_NIGHT_KOSDAQ_TR_KEY: ${{ secrets.KIS_NIGHT_KOSDAQ_TR_KEY }}
       KIS_WS_WAIT_SECONDS: "12"
+      KIS_WS_URLS: "ws://ops.koreainvestment.com:21000,wss://ops.koreainvestment.com:21000"
 
     steps:
       - name: Checkout
