@@ -72,7 +72,7 @@
       border:1px solid var(--line);
       border-radius:24px;
       padding:18px 18px 22px;
-      min-height:600px;
+      min-height:620px;
     }
     .panel h2{
       margin:6px 8px 14px;
@@ -316,54 +316,31 @@
       el.textContent = value ?? "-";
     }
 
-    function makeSessionGrid15m() {
-      const labels = [];
-      for (let h = 18; h <= 23; h++) {
-        for (let m = 0; m < 60; m += 15) {
-          labels.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
-        }
+    function normalizeTimeLabel(p) {
+      if (p?.bsop_hour && /^\d{6}$/.test(p.bsop_hour)) {
+        return `${p.bsop_hour.slice(0,2)}:${p.bsop_hour.slice(2,4)}`;
       }
-      for (let h = 0; h <= 5; h++) {
-        for (let m = 0; m < 60; m += 15) {
-          labels.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
-        }
+      if (p?.time && /^\d{2}:\d{2}$/.test(p.time)) {
+        return p.time;
       }
-      return labels;
+      return "";
     }
 
-    function normalizeTimeToGrid(t) {
-      if (!t || typeof t !== "string") return null;
-
-      if (/^\d{2}:\d{2}$/.test(t)) {
-        const [hh, mm] = t.split(":").map(Number);
-        const q = Math.floor(mm / 15) * 15;
-        return `${String(hh).padStart(2, "0")}:${String(q).padStart(2, "0")}`;
-      }
-
-      if (/^\d{6}$/.test(t)) {
-        const hh = Number(t.slice(0, 2));
-        const mm = Number(t.slice(2, 4));
-        const q = Math.floor(mm / 15) * 15;
-        return `${String(hh).padStart(2, "0")}:${String(q).padStart(2, "0")}`;
-      }
-
-      return null;
+    function toSortableKey(p) {
+      if (p?.bsop_hour && /^\d{6}$/.test(p.bsop_hour)) return p.bsop_hour;
+      if (p?.time && /^\d{2}:\d{2}$/.test(p.time)) return p.time.replace(":", "") + "00";
+      return "";
     }
 
-    function buildSeriesOnGrid(points) {
-      const grid = makeSessionGrid15m();
-      const pointMap = new Map();
+    function buildSeriesFromPoints(points) {
+      const sorted = [...(points || [])]
+        .filter(p => p && p.price !== null && p.price !== undefined && !Number.isNaN(Number(p.price)))
+        .sort((a, b) => toSortableKey(a).localeCompare(toSortableKey(b)));
 
-      (points || []).forEach(p => {
-        if (!p) return;
-        const t = normalizeTimeToGrid(p.bsop_hour || p.time);
-        if (!t) return;
-        if (p.price === null || p.price === undefined || Number.isNaN(Number(p.price))) return;
-        pointMap.set(t, Number(p.price));
-      });
+      const labels = sorted.map(p => normalizeTimeLabel(p));
+      const values = sorted.map(p => Number(p.price));
 
-      const values = grid.map(t => pointMap.has(t) ? pointMap.get(t) : null);
-      return { labels: grid, values };
+      return { labels, values };
     }
 
     function calcYRange(values) {
@@ -383,7 +360,7 @@
         return { min: min - pad, max: max + pad };
       }
 
-      const pad = Math.max((max - min) * 0.18, 2);
+      const pad = Math.max((max - min) * 0.15, 2);
       return {
         min: min - pad,
         max: max + pad
@@ -420,9 +397,9 @@
 
     function makeChart(canvasId, label, points, chartKind) {
       const ctx = document.getElementById(canvasId).getContext("2d");
-      const { labels, values } = buildSeriesOnGrid(points || []);
+      const { labels, values } = buildSeriesFromPoints(points || []);
       const yRange = calcYRange(values);
-      const hasAnyData = values.some(v => v !== null && v !== undefined);
+      const hasAnyData = values.length > 0;
 
       const config = {
         type: "line",
@@ -433,16 +410,10 @@
               label,
               data: values,
               borderColor: "#3db2ff",
-              backgroundColor: "rgba(61,178,255,0.16)",
+              backgroundColor: "rgba(61,178,255,0.12)",
               borderWidth: 2,
-              pointRadius: (context) => {
-                const v = context.raw;
-                return v == null ? 0 : 2.5;
-              },
-              pointHoverRadius: (context) => {
-                const v = context.raw;
-                return v == null ? 0 : 4;
-              },
+              pointRadius: 2.5,
+              pointHoverRadius: 4,
               spanGaps: false,
               tension: 0.15
             }
@@ -476,13 +447,9 @@
             x: {
               ticks: {
                 color: "#9fb3d9",
-                autoSkip: false,
-                maxRotation: 0,
-                callback: function(value) {
-                  const lbl = this.getLabelForValue(value);
-                  const [hh, mm] = lbl.split(":").map(Number);
-                  return mm === 0 ? lbl : "";
-                }
+                autoSkip: true,
+                maxTicksLimit: 12,
+                maxRotation: 0
               },
               grid: {
                 color: "rgba(159,179,217,0.12)"
