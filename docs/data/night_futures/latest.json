@@ -1,9 +1,9 @@
 {
-  "generated_at_kst": "2026-03-24T00:10:51.371410+09:00",
+  "generated_at_kst": "2026-03-24T00:44:28.168690+09:00",
   "biz_date": "2026-03-23",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'trade_ok'}",
+  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
   "token_status": "ready",
   "series": {
     "kospi": [
@@ -34,6 +34,36 @@
           "FUTS_ASKP1": "862.70",
           "FUTS_BIDP1": "862.25",
           "ACML_VOL": "31924",
+          "LAST_CNQN": "1"
+        }
+      },
+      {
+        "time": "00:44",
+        "bsop_hour": "004441",
+        "price": 849.65,
+        "change": 44.65,
+        "change_pct": 5.55,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 807.9,
+        "session_high": 869.4,
+        "session_low": 796.55,
+        "ask1": 849.75,
+        "bid1": 849.35,
+        "acml_vol": 33474.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "849.65",
+          "FUTS_PRDY_VRSS": "44.65",
+          "FUTS_PRDY_CTRT": "5.55",
+          "FUTS_OPRC": "807.90",
+          "FUTS_HGPR": "869.40",
+          "FUTS_LWPR": "796.55",
+          "FUTS_ASKP1": "849.75",
+          "FUTS_BIDP1": "849.35",
+          "ACML_VOL": "33474",
           "LAST_CNQN": "1"
         }
       },
@@ -269,8 +299,8 @@
       "change": 50.05,
       "change_pct": 6.22,
       "high": 862.5,
-      "low": 855.05,
-      "points": 5,
+      "low": 849.65,
+      "points": 6,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 807.9,
@@ -322,16 +352,13 @@
     },
     "received_symbols": {
       "trade": [
-        "A01606",
-        "A06606"
+        "A01606"
       ],
-      "quote": [
-        "A06606"
-      ]
+      "quote": []
     },
     "market_status": {
       "kospi": "trade_ok",
-      "kosdaq": "trade_ok"
+      "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
 }
