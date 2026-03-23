@@ -7,15 +7,11 @@ Operational Market Dashboard Generator
   S&P500, Nasdaq100, KOSPI, KOSDAQ,
   VIX, VKOSPI, US10Y, 2Y-10Y,
   USD/KRW, Dollar Index, Gold, HY OAS
-
-필요 패키지:
-pip install pandas numpy requests yfinance
 """
 
 import os
 import io
 import json
-import math
 import time
 import warnings
 from dataclasses import dataclass
@@ -43,7 +39,6 @@ YF_PERIOD = "2y"
 REQUEST_TIMEOUT = 20
 USE_AUTO_ADJUST = True
 
-# yfinance tickers
 TICKERS = {
     "SPY": "SPY",
     "QQQ": "QQQ",
@@ -54,9 +49,9 @@ TICKERS = {
     "DXY": "DX-Y.NYB",
     "GOLD": "GC=F",
     "WTI": "CL=F",
-    "USDKRW": "KRW=X",    # USD/KRW proxy
-    "RSP": "RSP",         # breadth proxy for SPY
-    "QQEW": "QQEW",       # breadth proxy for QQQ
+    "USDKRW": "KRW=X",
+    "RSP": "RSP",
+    "QQEW": "QQEW",
 }
 
 FRED_SERIES = {
@@ -81,7 +76,7 @@ class AssetResult:
     guardrail_reasons: List[str]
 
 # =========================================================
-# Time / I/O helpers
+# Time / JSON helpers
 # =========================================================
 def now_kst() -> datetime:
     return datetime.now(KST)
@@ -166,7 +161,6 @@ def fmt_bp(v, nd=1):
     return f"{v:+.{nd}f}bp"
 
 def fmt_bil_krw(v):
-    """억/조 단위 표시"""
     v = safe_float(v)
     if pd.isna(v):
         return "—"
@@ -247,9 +241,6 @@ def validate_bp_jump(name: str, current, previous) -> bool:
     return bp <= limits.get(name, 1000.0)
 
 def sanitize_series_point(name: str, current, previous_good=None, bp_metric=False):
-    """
-    returns: value, ok_flag, msg
-    """
     if not validate_range(name, current):
         return previous_good, False, f"{name}: range_fail"
 
@@ -311,9 +302,6 @@ def fetch_fred_all() -> Dict[str, pd.Series]:
             out[key] = pd.Series(dtype=float)
     return out
 
-# =========================================================
-# KRX cache
-# =========================================================
 def read_krx_cache() -> dict:
     return read_json(KRX_CACHE_FILE, {})
 
@@ -321,8 +309,7 @@ def get_cache_section(cache: dict, key: str) -> dict:
     if not isinstance(cache, dict):
         return {}
     return cache.get(key, {}) if isinstance(cache.get(key, {}), dict) else {}
-
-# =========================================================
+  # =========================================================
 # Scoring modules - US
 # =========================================================
 def score_trend_us(close: pd.Series, asset: str) -> Tuple[int, dict]:
@@ -594,7 +581,12 @@ def score_turnover_kr(asset: str, cache: dict) -> Tuple[int, dict]:
     max_score = 12
 
     if pd.isna(current):
-        return 6, {"current": np.nan, "ma20_ratio": np.nan, "chg5": np.nan, "max_score": max_score}
+        return 6, {
+            "current": np.nan,
+            "ma20_ratio": np.nan,
+            "chg5": np.nan,
+            "max_score": max_score,
+        }
 
     score = 5
     if not pd.isna(ma20_ratio):
@@ -624,6 +616,7 @@ def score_flow_kr(asset: str, cache: dict) -> Tuple[int, dict]:
 
     max_score = 20 if asset == "KOSPI" else 18
     score = 0
+
     if not pd.isna(f1) and f1 > 0:
         score += 5
     if not pd.isna(f5) and f5 > 0:
@@ -773,8 +766,7 @@ def build_kr_results(mkt: dict, krx_cache: dict) -> Dict[str, AssetResult]:
         flow_score, flow_meta = score_flow_kr(asset, krx_cache)
         fx_score, fx_meta = score_fx_usdkrw(usdkrw_close)
         oil_score, oil_meta = score_oil_wti(wti_close)
-
-        module_scores = {
+              module_scores = {
             "trend": trend_score,
             "vkospi": vkospi_score,
             "tactical": tactical_score,
@@ -830,11 +822,10 @@ def build_kr_results(mkt: dict, krx_cache: dict) -> Dict[str, AssetResult]:
 # =========================================================
 # Macro summary for MAIN (with sanity check)
 # =========================================================
-def build_macro_summary(mkt: dict, fred: dict, prev_state: dict, us_results: dict, kr_results: dict) -> dict:
+def build_macro_summary(mkt: dict, fred: dict, prev_state: dict) -> dict:
     prev_macro = prev_state.get("macro", {}) if isinstance(prev_state, dict) else {}
     validation_log = {}
 
-    # FRED
     dgs10 = fred["DGS10"].dropna()
     dgs2 = fred["DGS2"].dropna()
     hy = fred["HY_OAS"].dropna()
@@ -852,7 +843,6 @@ def build_macro_summary(mkt: dict, fred: dict, prev_state: dict, us_results: dic
     hy_oas, ok, msg = sanitize_series_point("HY_OAS", hy_raw, prev_macro.get("hy_oas"), bp_metric=True)
     validation_log["HY_OAS"] = {"ok": ok, "msg": msg}
 
-    # YF
     dxy_close = mkt["DXY"]["Close"].dropna()
     gold_close = mkt["GOLD"]["Close"].dropna()
 
@@ -892,7 +882,7 @@ def build_macro_summary(mkt: dict, fred: dict, prev_state: dict, us_results: dic
     return out
 
 # =========================================================
-# HTML rendering
+# HTML helpers
 # =========================================================
 def color_for_signal(sig: str) -> str:
     if sig == "매수":
@@ -1036,7 +1026,9 @@ def make_card(result: AssetResult, max_map: dict) -> str:
       {guardrail_html}
     </div>
     """
-
+    # =========================================================
+# HTML generator
+# =========================================================
 def generate_html(us_results, kr_results, us_updated, kr_updated, macro):
     us_max = {
         "SPY": {"trend": 35, "vix": 25, "tactical": 15, "breadth": 15, "rates": 10},
@@ -1519,7 +1511,7 @@ def main():
     kr_results = build_kr_results(mkt, krx_cache)
 
     print("[INFO] Building macro summary...")
-    macro = build_macro_summary(mkt, fred, prev_state, us_results, kr_results)
+    macro = build_macro_summary(mkt, fred, prev_state)
 
     us_updated = fmt_ts_kst()
     kr_updated = fmt_ts_kst()
