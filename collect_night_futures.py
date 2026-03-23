@@ -37,13 +37,14 @@ WS_URLS = [
 KIS_APP_KEY = os.environ.get("KIS_APP_KEY", "")
 KIS_APP_SECRET = os.environ.get("KIS_APP_SECRET", "")
 
-WS_TR_ID = "H0MFCNT0"
-TARGET_SOURCE = "KIS_WEBSOCKET_H0MFCNT0"
+TR_TRADE = "H0MFCNT0"  # 야간선물 실시간종목체결
+TR_QUOTE = "H0MFASP0"  # 야간선물 실시간호가
+TARGET_SOURCE = "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0"
 
 KOSPI_TR_KEY = os.environ.get("KIS_NIGHT_KOSPI_TR_KEY", "").strip()
 KOSDAQ_TR_KEY = os.environ.get("KIS_NIGHT_KOSDAQ_TR_KEY", "").strip()
 
-WS_WAIT_SECONDS = int(os.environ.get("KIS_WS_WAIT_SECONDS", "12"))
+WS_WAIT_SECONDS = int(os.environ.get("KIS_WS_WAIT_SECONDS", "20"))
 
 DEBUG_RAW_FRAMES_FILE = DEBUG_DIR / "raw_frames.json"
 DEBUG_LAST_MESSAGES_FILE = DEBUG_DIR / "last_messages.json"
@@ -98,6 +99,47 @@ FIELD_NAMES_H0MFCNT0 = [
     "DYNM_MXPR",
     "DYNM_LLAM",
     "DYNM_PRC_LIMT_YN",
+]
+
+FIELD_NAMES_H0MFASP0 = [
+    "FUTS_SHRN_ISCD",
+    "BSOP_HOUR",
+    "FUTS_ASKP1",
+    "FUTS_ASKP2",
+    "FUTS_ASKP3",
+    "FUTS_ASKP4",
+    "FUTS_ASKP5",
+    "FUTS_BIDP1",
+    "FUTS_BIDP2",
+    "FUTS_BIDP3",
+    "FUTS_BIDP4",
+    "FUTS_BIDP5",
+    "ASKP_CSNU1",
+    "ASKP_CSNU2",
+    "ASKP_CSNU3",
+    "ASKP_CSNU4",
+    "ASKP_CSNU5",
+    "BIDP_CSNU1",
+    "BIDP_CSNU2",
+    "BIDP_CSNU3",
+    "BIDP_CSNU4",
+    "BIDP_CSNU5",
+    "ASKP_RSQN1",
+    "ASKP_RSQN2",
+    "ASKP_RSQN3",
+    "ASKP_RSQN4",
+    "ASKP_RSQN5",
+    "BIDP_RSQN1",
+    "BIDP_RSQN2",
+    "BIDP_RSQN3",
+    "BIDP_RSQN4",
+    "BIDP_RSQN5",
+    "TOTAL_ASKP_CSNU",
+    "TOTAL_BIDP_CSNU",
+    "TOTAL_ASKP_RSQN",
+    "TOTAL_BIDP_RSQN",
+    "TOTAL_ASKP_RSQN_ICDC",
+    "TOTAL_BIDP_RSQN_ICDC",
 ]
 
 
@@ -170,6 +212,7 @@ def make_empty_summary() -> Dict[str, Any]:
         "bid1": None,
         "spread": None,
         "acml_vol": None,
+        "source_type": None,
     }
 
 
@@ -190,7 +233,8 @@ def make_empty_payload() -> Dict[str, Any]:
         "meta": {
             "mode": "snapshot",
             "interval_minutes": 15,
-            "ws_tr_id": WS_TR_ID,
+            "trade_tr_id": TR_TRADE,
+            "quote_tr_id": TR_QUOTE,
         },
     }
 
@@ -233,8 +277,7 @@ def migrate_legacy_points(payload: Dict[str, Any]) -> Dict[str, Any]:
                 "tr_key" in p
                 or "bsop_hour" in p
                 or "raw_fields" in p
-                or "session_high" in p
-                or "session_low" in p
+                or "source_type" in p
             )
             if is_ws_point:
                 cleaned.append(p)
@@ -291,6 +334,7 @@ def calc_summary(points: List[Dict[str, Any]]) -> Dict[str, Any]:
         "bid1": bid1,
         "spread": spread,
         "acml_vol": last_point.get("acml_vol"),
+        "source_type": last_point.get("source_type"),
     }
 
 
@@ -330,7 +374,7 @@ def get_approval_key() -> str:
     return approval_key
 
 
-def build_subscribe_message(approval_key: str, tr_key: str) -> str:
+def build_subscribe_message(approval_key: str, tr_id: str, tr_key: str) -> str:
     return json.dumps(
         {
             "header": {
@@ -341,7 +385,7 @@ def build_subscribe_message(approval_key: str, tr_key: str) -> str:
             },
             "body": {
                 "input": {
-                    "tr_id": WS_TR_ID,
+                    "tr_id": tr_id,
                     "tr_key": tr_key,
                 }
             },
@@ -349,15 +393,22 @@ def build_subscribe_message(approval_key: str, tr_key: str) -> str:
     )
 
 
-def parse_h0mfcnt0_body(body_text: str) -> Dict[str, Any]:
+def parse_pipe_payload(text: str) -> Tuple[str, str, str]:
+    parts = text.split("|")
+    if len(parts) < 4:
+        raise ValueError("invalid pipe payload")
+    return parts[0], parts[1], parts[-1]
+
+
+def parse_fixed_fields(body_text: str, field_names: List[str]) -> Dict[str, Any]:
     values = body_text.split("^")
     result: Dict[str, Any] = {}
-    for i, field_name in enumerate(FIELD_NAMES_H0MFCNT0):
+    for i, field_name in enumerate(field_names):
         result[field_name] = values[i] if i < len(values) else ""
     return result
 
 
-def parse_ws_frame(text: str) -> Tuple[Optional[str], Optional[str], Dict[str, Any]]:
+def parse_ws_frame(text: str) -> Tuple[str, Optional[str], Dict[str, Any]]:
     text = text.strip()
     if not text:
         return "unknown", None, {}
@@ -375,19 +426,23 @@ def parse_ws_frame(text: str) -> Tuple[Optional[str], Optional[str], Dict[str, A
             tr_id = header.get("tr_id") or body.get("tr_id") or js.get("tr_id")
         return "ack", tr_id, js
 
-    parts = text.split("|")
-    if len(parts) >= 4:
-        msg_code = parts[0]
-        tr_id = parts[1]
-        payload = parts[-1]
+    try:
+        msg_code, tr_id, payload = parse_pipe_payload(text)
+    except Exception:
+        return "unknown", None, {"raw": text}
 
-        if tr_id == WS_TR_ID and msg_code in ("0", "1"):
-            parsed = parse_h0mfcnt0_body(payload)
-            return "data", tr_id, parsed
-
+    if msg_code not in ("0", "1"):
         return "unknown", tr_id, {"raw": text}
 
-    return "unknown", None, {"raw": text}
+    if tr_id == TR_TRADE:
+        parsed = parse_fixed_fields(payload, FIELD_NAMES_H0MFCNT0)
+        return "trade", tr_id, parsed
+
+    if tr_id == TR_QUOTE:
+        parsed = parse_fixed_fields(payload, FIELD_NAMES_H0MFASP0)
+        return "quote", tr_id, parsed
+
+    return "unknown", tr_id, {"raw": text}
 
 
 def normalize_trade_snapshot(parsed: Dict[str, Any], label: str, snap_time: str, tr_key: str) -> Dict[str, Any]:
@@ -403,7 +458,7 @@ def normalize_trade_snapshot(parsed: Dict[str, Any], label: str, snap_time: str,
     last_cnqn = safe_float(parsed.get("LAST_CNQN"))
 
     if price is None:
-        raise RuntimeError(f"{label}: FUTS_PRPR missing in websocket message")
+        raise RuntimeError(f"{label}: FUTS_PRPR missing in trade message")
 
     symbol = parsed.get("FUTS_SHRN_ISCD") or tr_key
     bsop_hour = parsed.get("BSOP_HOUR", "")
@@ -424,6 +479,7 @@ def normalize_trade_snapshot(parsed: Dict[str, Any], label: str, snap_time: str,
         "acml_vol": acml_vol,
         "last_cnqn": last_cnqn,
         "tr_key": tr_key,
+        "source_type": "trade",
         "raw_fields": {
             "FUTS_PRPR": parsed.get("FUTS_PRPR"),
             "FUTS_PRDY_VRSS": parsed.get("FUTS_PRDY_VRSS"),
@@ -439,15 +495,72 @@ def normalize_trade_snapshot(parsed: Dict[str, Any], label: str, snap_time: str,
     }
 
 
+def normalize_quote_snapshot(
+    parsed: Dict[str, Any],
+    label: str,
+    snap_time: str,
+    tr_key: str,
+    previous_point: Optional[Dict[str, Any]] = None,
+) -> Optional[Dict[str, Any]]:
+    ask1 = safe_float(parsed.get("FUTS_ASKP1"))
+    bid1 = safe_float(parsed.get("FUTS_BIDP1"))
+
+    if ask1 is None and bid1 is None:
+        return None
+
+    if ask1 is not None and bid1 is not None:
+        price = round((ask1 + bid1) / 2.0, 4)
+    else:
+        price = ask1 if ask1 is not None else bid1
+
+    prev_change = previous_point.get("change") if previous_point else None
+    prev_change_pct = previous_point.get("change_pct") if previous_point else None
+    prev_open = previous_point.get("open") if previous_point else None
+    prev_high = previous_point.get("session_high") if previous_point else None
+    prev_low = previous_point.get("session_low") if previous_point else None
+    prev_acml_vol = previous_point.get("acml_vol") if previous_point else None
+
+    symbol = parsed.get("FUTS_SHRN_ISCD") or tr_key
+    bsop_hour = parsed.get("BSOP_HOUR", "")
+
+    return {
+        "time": snap_time,
+        "bsop_hour": bsop_hour,
+        "price": price,
+        "change": prev_change,
+        "change_pct": prev_change_pct,
+        "symbol": symbol,
+        "name": label,
+        "open": prev_open,
+        "session_high": prev_high,
+        "session_low": prev_low,
+        "ask1": ask1,
+        "bid1": bid1,
+        "acml_vol": prev_acml_vol,
+        "last_cnqn": None,
+        "tr_key": tr_key,
+        "source_type": "quote_fallback",
+        "raw_fields": {
+            "FUTS_ASKP1": parsed.get("FUTS_ASKP1"),
+            "FUTS_BIDP1": parsed.get("FUTS_BIDP1"),
+            "TOTAL_ASKP_RSQN": parsed.get("TOTAL_ASKP_RSQN"),
+            "TOTAL_BIDP_RSQN": parsed.get("TOTAL_BIDP_RSQN"),
+        },
+    }
+
+
 async def receive_snapshots_once(
-    targets: List[Tuple[str, str]],
+    subscribe_items: List[Tuple[str, str, str]],
     wait_seconds: int,
-) -> Tuple[Dict[str, Dict[str, Any]], List[Dict[str, Any]], List[Dict[str, Any]], str]:
+) -> Tuple[Dict[str, Dict[str, Dict[str, Any]]], List[Dict[str, Any]], List[Dict[str, Any]], str]:
     approval_key = get_approval_key()
     last_error = None
 
     for ws_url in WS_URLS:
-        latest_by_key: Dict[str, Dict[str, Any]] = {}
+        latest_messages = {
+            "trade": {},
+            "quote": {},
+        }
         raw_frames: List[Dict[str, Any]] = []
         parsed_messages: List[Dict[str, Any]] = []
 
@@ -459,8 +572,8 @@ async def receive_snapshots_once(
                 close_timeout=10,
                 max_size=2**22,
             ) as ws:
-                for _, tr_key in targets:
-                    sub_msg = build_subscribe_message(approval_key, tr_key)
+                for _, tr_id, tr_key in subscribe_items:
+                    sub_msg = build_subscribe_message(approval_key, tr_id, tr_key)
                     await ws.send(sub_msg)
 
                 deadline = asyncio.get_running_loop().time() + wait_seconds
@@ -505,21 +618,22 @@ async def receive_snapshots_once(
                         )
                         continue
 
-                    if msg_type == "data" and parsed:
-                        futs_shrn_iscd = (parsed.get("FUTS_SHRN_ISCD") or "").strip()
+                    if msg_type in ("trade", "quote") and parsed:
+                        symbol = (parsed.get("FUTS_SHRN_ISCD") or "").strip()
                         parsed_messages.append(
                             {
                                 "received_at_kst": now_kst().isoformat(),
                                 "ws_url": ws_url,
-                                "msg_type": "data",
+                                "msg_type": msg_type,
                                 "tr_id": tr_id,
-                                "symbol": futs_shrn_iscd,
+                                "symbol": symbol,
                                 "parsed": parsed,
                             }
                         )
-                        latest_by_key[futs_shrn_iscd] = parsed
+                        if symbol:
+                            latest_messages[msg_type][symbol] = parsed
 
-            return latest_by_key, raw_frames, parsed_messages, ws_url
+            return latest_messages, raw_frames, parsed_messages, ws_url
 
         except Exception as e:
             last_error = f"{ws_url} -> {type(e).__name__}: {e}"
@@ -535,36 +649,47 @@ def save_payload(payload: Dict[str, Any]) -> None:
 def validate_config() -> None:
     if not KIS_APP_KEY or not KIS_APP_SECRET:
         raise RuntimeError("KIS_APP_KEY / KIS_APP_SECRET missing")
-
     if not KOSPI_TR_KEY and not KOSDAQ_TR_KEY:
         raise RuntimeError("At least one of KIS_NIGHT_KOSPI_TR_KEY / KIS_NIGHT_KOSDAQ_TR_KEY is required")
 
 
-def build_targets() -> List[Tuple[str, str]]:
-    targets: List[Tuple[str, str]] = []
+def build_subscribe_items() -> List[Tuple[str, str, str]]:
+    items: List[Tuple[str, str, str]] = []
+
     if KOSPI_TR_KEY:
-        targets.append(("kospi", KOSPI_TR_KEY))
+        items.append(("kospi", TR_TRADE, KOSPI_TR_KEY))
+
     if KOSDAQ_TR_KEY:
-        targets.append(("kosdaq", KOSDAQ_TR_KEY))
-    return targets
+        items.append(("kosdaq", TR_TRADE, KOSDAQ_TR_KEY))
+        items.append(("kosdaq", TR_QUOTE, KOSDAQ_TR_KEY))
+
+    return items
 
 
-def choose_latest_message_for_tr_key(
+def choose_latest_message_for_symbol(
     parsed_messages: List[Dict[str, Any]],
-    tr_key: str,
+    msg_type: str,
+    symbol: str,
 ) -> Optional[Dict[str, Any]]:
     candidates: List[Dict[str, Any]] = []
     for item in parsed_messages:
-        if item.get("msg_type") != "data":
+        if item.get("msg_type") != msg_type:
             continue
         parsed = item.get("parsed", {})
-        symbol = (parsed.get("FUTS_SHRN_ISCD") or "").strip()
-        if symbol == tr_key:
+        recv_symbol = (parsed.get("FUTS_SHRN_ISCD") or "").strip()
+        if recv_symbol == symbol:
             candidates.append(parsed)
 
     if not candidates:
         return None
     return candidates[-1]
+
+
+def get_last_point(payload: Dict[str, Any], market_key: str) -> Optional[Dict[str, Any]]:
+    points = payload.get("series", {}).get(market_key, [])
+    if not points:
+        return None
+    return points[-1]
 
 
 def main() -> None:
@@ -582,8 +707,6 @@ def main() -> None:
     payload = reset_if_new_session_day_or_source_changed(payload, biz_date)
     payload = migrate_legacy_points(payload)
 
-    connected_ws_url = None
-
     payload["generated_at_kst"] = now.isoformat()
     payload["biz_date"] = biz_date
     payload["session"] = "night"
@@ -591,7 +714,8 @@ def main() -> None:
     payload["meta"] = {
         "mode": "snapshot",
         "interval_minutes": 15,
-        "ws_tr_id": WS_TR_ID,
+        "trade_tr_id": TR_TRADE,
+        "quote_tr_id": TR_QUOTE,
         "ws_urls_tried": WS_URLS,
         "connected_ws_url": None,
         "wait_seconds": WS_WAIT_SECONDS,
@@ -609,9 +733,9 @@ def main() -> None:
         validate_config()
         payload["token_status"] = "approval_pending"
 
-        targets = build_targets()
-        latest_by_key, raw_frames, parsed_messages, connected_ws_url = asyncio.run(
-            receive_snapshots_once(targets, WS_WAIT_SECONDS)
+        subscribe_items = build_subscribe_items()
+        latest_messages, raw_frames, parsed_messages, connected_ws_url = asyncio.run(
+            receive_snapshots_once(subscribe_items, WS_WAIT_SECONDS)
         )
 
         save_json(DEBUG_RAW_FRAMES_FILE, raw_frames)
@@ -620,16 +744,10 @@ def main() -> None:
         payload["token_status"] = "ready"
         payload["meta"]["connected_ws_url"] = connected_ws_url
 
-        received_symbols = sorted(
-            list(
-                {
-                    (item.get("parsed", {}).get("FUTS_SHRN_ISCD") or "").strip()
-                    for item in parsed_messages
-                    if item.get("msg_type") == "data"
-                }
-            )
-        )
-        payload["meta"]["received_symbols"] = received_symbols
+        payload["meta"]["received_symbols"] = {
+            "trade": sorted(list(latest_messages["trade"].keys())),
+            "quote": sorted(list(latest_messages["quote"].keys())),
+        }
 
         market_to_trkey = {
             "kospi": KOSPI_TR_KEY,
@@ -641,38 +759,52 @@ def main() -> None:
         }
 
         market_status: Dict[str, str] = {}
-        got_any = False
 
         for market_key, tr_key in market_to_trkey.items():
             if not tr_key:
                 market_status[market_key] = "tr_key_missing"
                 continue
 
-            parsed = latest_by_key.get(tr_key)
-            if not parsed:
-                parsed = choose_latest_message_for_tr_key(parsed_messages, tr_key)
+            trade_parsed = latest_messages["trade"].get(tr_key)
+            if not trade_parsed:
+                trade_parsed = choose_latest_message_for_symbol(parsed_messages, "trade", tr_key)
 
-            if not parsed:
-                market_status[market_key] = f"no_message_for_{tr_key}"
-                print(f"[WARN] no websocket trade message for {market_key} / tr_key={tr_key}")
+            quote_parsed = latest_messages["quote"].get(tr_key)
+            if not quote_parsed:
+                quote_parsed = choose_latest_message_for_symbol(parsed_messages, "quote", tr_key)
+
+            point = None
+
+            if trade_parsed:
+                point = normalize_trade_snapshot(
+                    parsed=trade_parsed,
+                    label=market_to_label[market_key],
+                    snap_time=snap_time,
+                    tr_key=tr_key,
+                )
+                append_snapshot(payload, market_key, point)
+                market_status[market_key] = "trade_ok"
                 continue
 
-            point = normalize_trade_snapshot(
-                parsed=parsed,
-                label=market_to_label[market_key],
-                snap_time=snap_time,
-                tr_key=tr_key,
-            )
-            append_snapshot(payload, market_key, point)
-            market_status[market_key] = "ok"
-            got_any = True
+            if quote_parsed:
+                prev_point = get_last_point(payload, market_key)
+                point = normalize_quote_snapshot(
+                    parsed=quote_parsed,
+                    label=market_to_label[market_key],
+                    snap_time=snap_time,
+                    tr_key=tr_key,
+                    previous_point=prev_point,
+                )
+                if point:
+                    append_snapshot(payload, market_key, point)
+                    market_status[market_key] = "quote_fallback_ok"
+                    continue
+
+            market_status[market_key] = f"no_trade_or_quote_for_{tr_key}"
+            print(f"[WARN] no trade/quote message for {market_key} / tr_key={tr_key}")
 
         payload["meta"]["market_status"] = market_status
-
-        if got_any:
-            payload["note"] = f"market_status={market_status}"
-        else:
-            payload["note"] = f"no data received; market_status={market_status}"
+        payload["note"] = f"market_status={market_status}"
 
         for market_key in ("kospi", "kosdaq"):
             points = payload.get("series", {}).get(market_key, [])
