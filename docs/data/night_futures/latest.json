@@ -1,10 +1,10 @@
 {
-  "generated_at_kst": "2026-03-24T01:39:01.047922+09:00",
+  "generated_at_kst": "2026-03-24T02:37:48.531481+09:00",
   "biz_date": "2026-03-23",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "snapshot update failed: RuntimeError: all websocket urls failed: wss://ops.koreainvestment.com:21000 -> TimeoutError: timed out during opening handshake",
-  "token_status": "error",
+  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
+  "token_status": "ready",
   "series": {
     "kospi": [
       {
@@ -64,6 +64,36 @@
           "FUTS_ASKP1": "849.75",
           "FUTS_BIDP1": "849.35",
           "ACML_VOL": "33474",
+          "LAST_CNQN": "1"
+        }
+      },
+      {
+        "time": "02:37",
+        "bsop_hour": "023759",
+        "price": 855.35,
+        "change": 50.35,
+        "change_pct": 6.25,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 807.9,
+        "session_high": 869.4,
+        "session_low": 796.55,
+        "ask1": 855.7,
+        "bid1": 854.95,
+        "acml_vol": 40165.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "855.35",
+          "FUTS_PRDY_VRSS": "50.35",
+          "FUTS_PRDY_CTRT": "6.25",
+          "FUTS_OPRC": "807.90",
+          "FUTS_HGPR": "869.40",
+          "FUTS_LWPR": "796.55",
+          "FUTS_ASKP1": "855.70",
+          "FUTS_BIDP1": "854.95",
+          "ACML_VOL": "40165",
           "LAST_CNQN": "1"
         }
       },
@@ -300,7 +330,7 @@
       "change_pct": 6.22,
       "high": 862.5,
       "low": 849.65,
-      "points": 6,
+      "points": 7,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 807.9,
@@ -340,7 +370,7 @@
       "ws://ops.koreainvestment.com:21000",
       "wss://ops.koreainvestment.com:21000"
     ],
-    "connected_ws_url": null,
+    "connected_ws_url": "ws://ops.koreainvestment.com:21000",
     "wait_seconds": 12,
     "debug_files": {
       "raw_frames": "tmp/night_futures_ws/raw_frames.json",
@@ -349,6 +379,16 @@
     "configured_tr_keys": {
       "kospi": "A01606",
       "kosdaq": "A06606"
+    },
+    "received_symbols": {
+      "trade": [
+        "A01606"
+      ],
+      "quote": []
+    },
+    "market_status": {
+      "kospi": "trade_ok",
+      "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
 }
