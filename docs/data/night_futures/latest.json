@@ -1,52 +1,12 @@
 {
-  "generated_at_kst": "2026-03-23T22:12:13.358292+09:00",
+  "generated_at_kst": "2026-03-23T22:21:19.204693+09:00",
   "biz_date": "2026-03-23",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0",
-  "note": "live websocket snapshot updated",
+  "note": "websocket connected but no matching trade message received; check tr_key",
   "token_status": "ready",
   "series": {
     "kospi": [
-      {
-        "time": "21:14",
-        "price": 805.0,
-        "change": -57.55,
-        "change_pct": -6.67
-      },
-      {
-        "time": "21:32",
-        "price": 805.0,
-        "change": -57.55,
-        "change_pct": -6.67,
-        "symbol": "A01606",
-        "name": "F 202606",
-        "rmnn_days": 81,
-        "volume": 235560.0,
-        "base_price": null,
-        "field_map": {
-          "price": "futs_prpr",
-          "change": "futs_prdy_vrss",
-          "change_pct": "futs_prdy_ctrt",
-          "base_price": null
-        }
-      },
-      {
-        "time": "21:36",
-        "price": 805.0,
-        "change": -57.55,
-        "change_pct": -6.67,
-        "symbol": "A01606",
-        "name": "F 202606",
-        "rmnn_days": 81,
-        "volume": 235560.0,
-        "base_price": null,
-        "field_map": {
-          "price": "futs_prpr",
-          "change": "futs_prdy_vrss",
-          "change_pct": "futs_prdy_ctrt",
-          "base_price": null
-        }
-      },
       {
         "time": "22:00",
         "bsop_hour": "220039",
@@ -106,48 +66,7 @@
         }
       }
     ],
-    "kosdaq": [
-      {
-        "time": "21:14",
-        "price": 1916.0,
-        "change": -114.2,
-        "change_pct": -5.63
-      },
-      {
-        "time": "21:32",
-        "price": 1916.0,
-        "change": -114.2,
-        "change_pct": -5.63,
-        "symbol": "A06606",
-        "name": "코스닥150F 202606",
-        "rmnn_days": 81,
-        "volume": 196223.0,
-        "base_price": null,
-        "field_map": {
-          "price": "futs_prpr",
-          "change": "futs_prdy_vrss",
-          "change_pct": "futs_prdy_ctrt",
-          "base_price": null
-        }
-      },
-      {
-        "time": "21:36",
-        "price": 1916.0,
-        "change": -114.2,
-        "change_pct": -5.63,
-        "symbol": "A06606",
-        "name": "코스닥150F 202606",
-        "rmnn_days": 81,
-        "volume": 196223.0,
-        "base_price": null,
-        "field_map": {
-          "price": "futs_prpr",
-          "change": "futs_prdy_vrss",
-          "change_pct": "futs_prdy_ctrt",
-          "base_price": null
-        }
-      }
-    ]
+    "kosdaq": []
   },
   "summary": {
     "kospi": {
@@ -155,8 +74,8 @@
       "change": 48.85,
       "change_pct": 6.07,
       "high": 853.85,
-      "low": 805.0,
-      "points": 5,
+      "low": 852.9,
+      "points": 2,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 807.9,
@@ -168,14 +87,21 @@
       "acml_vol": 23077.0
     },
     "kosdaq": {
-      "last": 1916.0,
-      "change": -114.2,
-      "change_pct": -5.63,
-      "high": 1916.0,
-      "low": 1916.0,
-      "points": 3,
-      "last_symbol": "A06606",
-      "last_name": "코스닥150F 202606"
+      "last": null,
+      "change": null,
+      "change_pct": null,
+      "high": null,
+      "low": null,
+      "points": 0,
+      "last_symbol": null,
+      "last_name": null,
+      "open": null,
+      "session_high": null,
+      "session_low": null,
+      "ask1": null,
+      "bid1": null,
+      "spread": null,
+      "acml_vol": null
     }
   },
   "meta": {
@@ -190,7 +116,7 @@
     },
     "configured_tr_keys": {
       "kospi": "A01606",
-      "kosdaq": null
+      "kosdaq": "A06606"
     }
   }
 }

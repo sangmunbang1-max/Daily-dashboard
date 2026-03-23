@@ -1,6 +1,27 @@
 [
   {
-    "received_at_kst": "2026-03-23T22:12:14.651581+09:00",
+    "received_at_kst": "2026-03-23T22:21:20.272063+09:00",
+    "msg_type": "ack",
+    "tr_id": "H0MFCNT0",
+    "parsed": {
+      "header": {
+        "tr_id": "H0MFCNT0",
+        "tr_key": "A06606",
+        "encrypt": "N"
+      },
+      "body": {
+        "rt_cd": "0",
+        "msg_cd": "OPSP0000",
+        "msg1": "SUBSCRIBE SUCCESS",
+        "output": {
+          "iv": "1dd56391b87e9865",
+          "key": "bijsvdhelgxrnoltyphnwqpiyvtgenxf"
+        }
+      }
+    }
+  },
+  {
+    "received_at_kst": "2026-03-23T22:21:20.272147+09:00",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
     "parsed": {
@@ -14,67 +35,21 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "424894d51a60d08b",
-          "key": "mdbbprjxcjlkrrkyjyofccszkktuejvt"
+          "iv": "1dd56391b87e9865",
+          "key": "bijsvdhelgxrnoltyphnwqpiyvtgenxf"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-03-23T22:12:19.290848+09:00",
-    "msg_type": "data",
-    "tr_id": "H0MFCNT0",
-    "symbol": "A01606",
+    "received_at_kst": "2026-03-23T22:21:30.505910+09:00",
+    "msg_type": "ack",
+    "tr_id": "PINGPONG",
     "parsed": {
-      "FUTS_SHRN_ISCD": "A01606",
-      "BSOP_HOUR": "221219",
-      "FUTS_PRDY_VRSS": "48.85",
-      "PRDY_VRSS_SIGN": "2",
-      "FUTS_PRDY_CTRT": "6.07",
-      "FUTS_PRPR": "853.85",
-      "FUTS_OPRC": "807.90",
-      "FUTS_HGPR": "869.40",
-      "FUTS_LWPR": "796.55",
-      "LAST_CNQN": "1",
-      "ACML_VOL": "23077",
-      "ACML_TR_PBMN": "4835279850",
-      "HTS_THPR": "802.80",
-      "MRKT_BASIS": "48.99",
-      "DPRT": "6.36",
-      "NMSC_FCTN_STPL_PRC": "0.00",
-      "FMSC_FCTN_STPL_PRC": "0.00",
-      "SPEAD_PRC": "1.00",
-      "HTS_OTST_STPL_QTY": "201078",
-      "OTST_STPL_QTY_ICDC": "-462",
-      "OPRC_HOUR": "000000",
-      "OPRC_VRSS_PRPR_SIGN": "2",
-      "OPRC_VRSS_NMIX_PRPR": "45.95",
-      "HGPR_HOUR": "000000",
-      "HGPR_VRSS_PRPR_SIGN": "5",
-      "HGPR_VRSS_NMIX_PRPR": "-15.55",
-      "LWPR_HOUR": "000000",
-      "LWPR_VRSS_PRPR_SIGN": "2",
-      "LWPR_VRSS_NMIX_PRPR": "57.30",
-      "SHNU_RATE": "0.47",
-      "CTTR": "90.24",
-      "ESDG": "51.05",
-      "OTST_STPL_RGBF_QTY_ICDC": "-4",
-      "THPR_BASIS": "-2.06",
-      "FUTS_ASKP1": "854.40",
-      "FUTS_BIDP1": "853.20",
-      "ASKP_RSQN1": "3",
-      "BIDP_RSQN1": "1",
-      "SELN_CNTG_CSNU": "8319",
-      "SHNU_CNTG_CSNU": "7743",
-      "NTBY_CNTG_CSNU": "-576",
-      "SELN_CNTG_SMTN": "12105",
-      "SHNU_CNTG_SMTN": "10923",
-      "TOTAL_ASKP_RSQN": "488",
-      "TOTAL_BIDP_RSQN": "928",
-      "PRDY_VOL_VRSS_ACML_VOL_RATE": "65.94",
-      "DYNM_MXPR": "869.40",
-      "DYNM_LLAM": "837.75",
-      "DYNM_PRC_LIMT_YN": "2"
+      "header": {
+        "tr_id": "PINGPONG",
+        "datetime": "20260323222130"
+      }
     }
   }
 ]

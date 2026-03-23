@@ -1,14 +1,20 @@
 [
   {
-    "received_at_kst": "2026-03-23T22:12:14.651565+09:00",
+    "received_at_kst": "2026-03-23T22:21:20.272047+09:00",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
-    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A01606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"424894d51a60d08b\",\"key\":\"mdbbprjxcjlkrrkyjyofccszkktuejvt\"}}}"
+    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"1dd56391b87e9865\",\"key\":\"bijsvdhelgxrnoltyphnwqpiyvtgenxf\"}}}"
   },
   {
-    "received_at_kst": "2026-03-23T22:12:19.290829+09:00",
-    "msg_type": "data",
+    "received_at_kst": "2026-03-23T22:21:20.272143+09:00",
+    "msg_type": "ack",
     "tr_id": "H0MFCNT0",
-    "raw": "0|H0MFCNT0|001|A01606^221219^48.85^2^6.07^853.85^807.90^869.40^796.55^1^23077^4835279850^802.80^48.99^6.36^0.00^0.00^1.00^201078^-462^000000^2^45.95^000000^5^-15.55^000000^2^57.30^0.47^90.24^51.05^-4^-2.06^854.40^853.20^3^1^8319^7743^-576^12105^10923^488^928^65.94^869.40^837.75^2"
+    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A01606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"1dd56391b87e9865\",\"key\":\"bijsvdhelgxrnoltyphnwqpiyvtgenxf\"}}}"
+  },
+  {
+    "received_at_kst": "2026-03-23T22:21:30.505896+09:00",
+    "msg_type": "ack",
+    "tr_id": "PINGPONG",
+    "raw": "{\"header\":{\"tr_id\":\"PINGPONG\",\"datetime\":\"20260323222130\"}}"
   }
 ]
