@@ -1,0 +1,166 @@
+{
+  "market": "KOSPI",
+  "saved_at_kst": "2026-03-23T21:32:08.713704+09:00",
+  "url": "https://openapi.koreainvestment.com:9443/uapi/domestic-futureoption/v1/quotations/display-board-futures",
+  "tr_id": "FHPIF05030200",
+  "selected_summary": {
+    "symbol": "A01606",
+    "name": "F 202606",
+    "price": 805.0,
+    "change": -57.55,
+    "change_pct": -6.67,
+    "base_price": null,
+    "rmnn_days": 81,
+    "volume": 235560.0,
+    "field_map": {
+      "price": "futs_prpr",
+      "change": "futs_prdy_vrss",
+      "change_pct": "futs_prdy_ctrt",
+      "base_price": null
+    }
+  },
+  "top_candidates": [
+    {
+      "symbol": "A01606",
+      "name": "F 202606",
+      "rmnn_days": 81,
+      "volume": 235560.0,
+      "price_candidates": {
+        "futs_prpr": "805.00",
+        "stck_prpr": null,
+        "cur_prc": null,
+        "last": null,
+        "close": null,
+        "price": null
+      },
+      "change_candidates": {
+        "futs_prdy_vrss": "-57.55",
+        "prdy_vrss": null,
+        "change": null
+      },
+      "change_pct_candidates": {
+        "futs_prdy_ctrt": "-6.67",
+        "prdy_ctrt": null,
+        "change_pct": null
+      }
+    },
+    {
+      "symbol": "A01609",
+      "name": "F 202609",
+      "rmnn_days": 172,
+      "volume": 188.0,
+      "price_candidates": {
+        "futs_prpr": "808.30",
+        "stck_prpr": null,
+        "cur_prc": null,
+        "last": null,
+        "close": null,
+        "price": null
+      },
+      "change_candidates": {
+        "futs_prdy_vrss": "-57.30",
+        "prdy_vrss": null,
+        "change": null
+      },
+      "change_pct_candidates": {
+        "futs_prdy_ctrt": "-6.62",
+        "prdy_ctrt": null,
+        "change_pct": null
+      }
+    },
+    {
+      "symbol": "A01612",
+      "name": "F 202612",
+      "rmnn_days": 263,
+      "volume": 0.0,
+      "price_candidates": {
+        "futs_prpr": "873.45",
+        "stck_prpr": null,
+        "cur_prc": null,
+        "last": null,
+        "close": null,
+        "price": null
+      },
+      "change_candidates": {
+        "futs_prdy_vrss": "0.00",
+        "prdy_vrss": null,
+        "change": null
+      },
+      "change_pct_candidates": {
+        "futs_prdy_ctrt": "0.00",
+        "prdy_ctrt": null,
+        "change_pct": null
+      }
+    },
+    {
+      "symbol": "A01703",
+      "name": "F 202703",
+      "rmnn_days": 354,
+      "volume": 0.0,
+      "price_candidates": {
+        "futs_prpr": "877.55",
+        "stck_prpr": null,
+        "cur_prc": null,
+        "last": null,
+        "close": null,
+        "price": null
+      },
+      "change_candidates": {
+        "futs_prdy_vrss": "0.00",
+        "prdy_vrss": null,
+        "change": null
+      },
+      "change_pct_candidates": {
+        "futs_prdy_ctrt": "0.00",
+        "prdy_ctrt": null,
+        "change_pct": null
+      }
+    },
+    {
+      "symbol": "A01706",
+      "name": "F 202706",
+      "rmnn_days": 445,
+      "volume": 0.0,
+      "price_candidates": {
+        "futs_prpr": "882.95",
+        "stck_prpr": null,
+        "cur_prc": null,
+        "last": null,
+        "close": null,
+        "price": null
+      },
+      "change_candidates": {
+        "futs_prdy_vrss": "0.00",
+        "prdy_vrss": null,
+        "change": null
+      },
+      "change_pct_candidates": {
+        "futs_prdy_ctrt": "0.00",
+        "prdy_ctrt": null,
+        "change_pct": null
+      }
+    }
+  ],
+  "selected_row_full": {
+    "futs_shrn_iscd": "A01606",
+    "hts_kor_isnm": "F 202606",
+    "futs_prpr": "805.00",
+    "futs_prdy_vrss": "-57.55",
+    "prdy_vrss_sign": "5",
+    "futs_prdy_ctrt": "-6.67",
+    "hts_thpr": "807.75",
+    "acml_vol": "235560",
+    "futs_askp": "805.05",
+    "futs_bidp": "804.95",
+    "hts_otst_stpl_qty": "201540",
+    "futs_hgpr": "829.75",
+    "futs_lwpr": "800.90",
+    "hts_rmnn_dynu": "81",
+    "total_askp_rsqn": "4790",
+    "total_bidp_rsqn": "3616",
+    "futs_antc_cnpr": "0.00",
+    "futs_antc_cntg_vrss": "0.00",
+    "antc_cntg_vrss_sign": "0",
+    "antc_cntg_prdy_ctrt": "0.00"
+  }
+}
