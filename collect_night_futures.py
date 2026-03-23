@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import asyncio
 import json
 import math
 import os
@@ -7,8 +8,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests
-
-from kis_token_manager import get_valid_kis_token
+import websockets
 
 KST = timezone(timedelta(hours=9))
 
@@ -17,36 +17,92 @@ DATA_DIR = BASE_DIR / "docs" / "data" / "night_futures"
 LATEST_FILE = DATA_DIR / "latest.json"
 
 TMP_DIR = BASE_DIR / "tmp"
-RAW_KOSPI_FILE = TMP_DIR / "night_futures_raw_kospi.json"
-RAW_KOSDAQ_FILE = TMP_DIR / "night_futures_raw_kosdaq.json"
-DEBUG_KOSPI_FILE = TMP_DIR / "night_futures_debug_kospi.json"
-DEBUG_KOSDAQ_FILE = TMP_DIR / "night_futures_debug_kosdaq.json"
+DEBUG_DIR = TMP_DIR / "night_futures_ws"
 
-KIS_FO_QUOTE_URL = os.environ.get(
-    "KIS_FO_QUOTE_URL",
-    "https://openapi.koreainvestment.com:9443/uapi/domestic-futureoption/v1/quotations/display-board-futures",
+APPROVAL_URL = os.environ.get(
+    "KIS_APPROVAL_URL",
+    "https://openapi.koreainvestment.com:9443/oauth2/Approval",
+)
+WS_URL = os.environ.get(
+    "KIS_WS_URL",
+    "ws://ops.koreainvestment.com:21000",
 )
 
 KIS_APP_KEY = os.environ.get("KIS_APP_KEY", "")
 KIS_APP_SECRET = os.environ.get("KIS_APP_SECRET", "")
 
-TR_ID = "FHPIF05030200"
-MRKT_DIV_CODE = "F"
-SCR_DIV_CODE = "20503"
+# 문서 기준: KRX야간선물 실시간종목체결
+WS_TR_ID = "H0MFCNT0"
 
-# 스펙 기준
-# ""   : KOSPI200
-# KQI  : KOSDAQ150
-KOSPI_MARKET_CLASS = ""
-KOSDAQ_MARKET_CLASS = "KQI"
+# 반드시 실제 야간선물 종목코드로 넣어야 함
+# 예시는 placeholder. 네 계정/마스터 기준 실제 코드로 GitHub Secrets에 넣는 걸 권장.
+KOSPI_TR_KEY = os.environ.get("KIS_NIGHT_KOSPI_TR_KEY", "").strip()
+KOSDAQ_TR_KEY = os.environ.get("KIS_NIGHT_KOSDAQ_TR_KEY", "").strip()  # 선택
 
-# 디버그 저장 여부
-DEBUG_SAVE_RAW = True
+# 수신 대기 시간
+WS_WAIT_SECONDS = int(os.environ.get("KIS_WS_WAIT_SECONDS", "12"))
+
+# 디버그 저장
+DEBUG_RAW_FRAMES_FILE = DEBUG_DIR / "raw_frames.json"
+DEBUG_LAST_MESSAGES_FILE = DEBUG_DIR / "last_messages.json"
+
+
+FIELD_NAMES_H0MFCNT0 = [
+    "FUTS_SHRN_ISCD",
+    "BSOP_HOUR",
+    "FUTS_PRDY_VRSS",
+    "PRDY_VRSS_SIGN",
+    "FUTS_PRDY_CTRT",
+    "FUTS_PRPR",
+    "FUTS_OPRC",
+    "FUTS_HGPR",
+    "FUTS_LWPR",
+    "LAST_CNQN",
+    "ACML_VOL",
+    "ACML_TR_PBMN",
+    "HTS_THPR",
+    "MRKT_BASIS",
+    "DPRT",
+    "NMSC_FCTN_STPL_PRC",
+    "FMSC_FCTN_STPL_PRC",
+    "SPEAD_PRC",
+    "HTS_OTST_STPL_QTY",
+    "OTST_STPL_QTY_ICDC",
+    "OPRC_HOUR",
+    "OPRC_VRSS_PRPR_SIGN",
+    "OPRC_VRSS_NMIX_PRPR",
+    "HGPR_HOUR",
+    "HGPR_VRSS_PRPR_SIGN",
+    "HGPR_VRSS_NMIX_PRPR",
+    "LWPR_HOUR",
+    "LWPR_VRSS_PRPR_SIGN",
+    "LWPR_VRSS_NMIX_PRPR",
+    "SHNU_RATE",
+    "CTTR",
+    "ESDG",
+    "OTST_STPL_RGBF_QTY_ICDC",
+    "THPR_BASIS",
+    "FUTS_ASKP1",
+    "FUTS_BIDP1",
+    "ASKP_RSQN1",
+    "BIDP_RSQN1",
+    "SELN_CNTG_CSNU",
+    "SHNU_CNTG_CSNU",
+    "NTBY_CNTG_CSNU",
+    "SELN_CNTG_SMTN",
+    "SHNU_CNTG_SMTN",
+    "TOTAL_ASKP_RSQN",
+    "TOTAL_BIDP_RSQN",
+    "PRDY_VOL_VRSS_ACML_VOL_RATE",
+    "DYNM_MXPR",
+    "DYNM_LLAM",
+    "DYNM_PRC_LIMT_YN",
+]
 
 
 def ensure_dir() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    TMP_DIR.mkdir(parents=True, exist_ok=True)
+    DEBUG_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def now_kst() -> datetime:
@@ -59,11 +115,6 @@ def kst_hhmm(dt: Optional[datetime] = None) -> str:
 
 
 def get_night_biz_date(dt: Optional[datetime] = None) -> str:
-    """
-    야간세션 기준 거래일
-    - 18:00 ~ 23:59 : 당일
-    - 00:00 ~ 05:59 : 전일
-    """
     dt = dt or now_kst()
     if dt.hour < 6:
         dt = dt - timedelta(days=1)
@@ -71,35 +122,30 @@ def get_night_biz_date(dt: Optional[datetime] = None) -> str:
 
 
 def is_night_session(dt: Optional[datetime] = None) -> bool:
-    """
-    야간세션 시간인지 판정
-    - 18:00 ~ 23:59
-    - 00:00 ~ 05:59
-    """
     dt = dt or now_kst()
     return (dt.hour >= 18) or (dt.hour < 6)
 
 
-def load_existing_payload() -> Dict[str, Any]:
-    if LATEST_FILE.exists():
-        try:
-            with open(LATEST_FILE, "r", encoding="utf-8") as f:
-                loaded = json.load(f)
-                if isinstance(loaded, dict):
-                    return loaded
-        except Exception:
-            pass
-    return make_empty_payload()
+def safe_float(v: Any) -> Optional[float]:
+    if v is None:
+        return None
+    if isinstance(v, (int, float)):
+        if isinstance(v, float) and math.isnan(v):
+            return None
+        return float(v)
+    s = str(v).strip().replace(",", "")
+    if not s:
+        return None
+    try:
+        return float(s)
+    except Exception:
+        return None
 
 
 def save_json(path: Path, obj: Any) -> None:
     ensure_dir()
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
-
-
-def save_payload(payload: Dict[str, Any]) -> None:
-    save_json(LATEST_FILE, payload)
 
 
 def make_empty_series() -> Dict[str, List[Dict[str, Any]]]:
@@ -116,6 +162,13 @@ def make_empty_summary() -> Dict[str, Any]:
         "points": 0,
         "last_symbol": None,
         "last_name": None,
+        "open": None,
+        "session_high": None,
+        "session_low": None,
+        "ask1": None,
+        "bid1": None,
+        "spread": None,
+        "acml_vol": None,
     }
 
 
@@ -125,8 +178,8 @@ def make_empty_payload() -> Dict[str, Any]:
         "generated_at_kst": now.isoformat(),
         "biz_date": get_night_biz_date(now),
         "session": "night",
-        "source": "KIS",
-        "note": "night futures snapshot",
+        "source": "KIS_WEBSOCKET_H0MFCNT0",
+        "note": "night futures websocket snapshot",
         "token_status": "missing",
         "series": make_empty_series(),
         "summary": {
@@ -136,77 +189,29 @@ def make_empty_payload() -> Dict[str, Any]:
         "meta": {
             "mode": "snapshot",
             "interval_minutes": 30,
+            "ws_tr_id": WS_TR_ID,
         },
     }
 
 
-def safe_float(v: Any) -> Optional[float]:
-    if v is None:
-        return None
-
-    if isinstance(v, (int, float)):
-        if isinstance(v, float) and math.isnan(v):
-            return None
-        return float(v)
-
-    s = str(v).strip().replace(",", "")
-    if s == "":
-        return None
-
-    try:
-        return float(s)
-    except Exception:
-        return None
+def load_existing_payload() -> Dict[str, Any]:
+    if LATEST_FILE.exists():
+        try:
+            with open(LATEST_FILE, "r", encoding="utf-8") as f:
+                loaded = json.load(f)
+                if isinstance(loaded, dict):
+                    return loaded
+        except Exception:
+            pass
+    return make_empty_payload()
 
 
-def safe_int(v: Any) -> Optional[int]:
-    fv = safe_float(v)
-    if fv is None:
-        return None
-    try:
-        return int(fv)
-    except Exception:
-        return None
-
-
-def get_first_nonempty(row: Dict[str, Any], keys: List[str]) -> Any:
-    for key in keys:
-        if key in row:
-            val = row.get(key)
-            if val is None:
-                continue
-            if isinstance(val, str) and val.strip() == "":
-                continue
-            return val
-    return None
-
-
-def pick_float_from_keys(row: Dict[str, Any], keys: List[str]) -> Tuple[Optional[float], Optional[str]]:
-    for key in keys:
-        if key in row:
-            val = safe_float(row.get(key))
-            if val is not None:
-                return val, key
-    return None, None
-
-
-def calc_summary(points: List[Dict[str, Any]]) -> Dict[str, Any]:
-    if not points:
-        return make_empty_summary()
-
-    prices = [p.get("price") for p in points if p.get("price") is not None]
-    last_point = points[-1]
-
-    return {
-        "last": last_point.get("price"),
-        "change": last_point.get("change"),
-        "change_pct": last_point.get("change_pct"),
-        "high": max(prices) if prices else None,
-        "low": min(prices) if prices else None,
-        "points": len(points),
-        "last_symbol": last_point.get("symbol"),
-        "last_name": last_point.get("name"),
-    }
+def reset_if_new_session_day(payload: Dict[str, Any], biz_date: str) -> Dict[str, Any]:
+    if payload.get("biz_date") != biz_date:
+        new_payload = make_empty_payload()
+        new_payload["biz_date"] = biz_date
+        return new_payload
+    return payload
 
 
 def upsert_point(points: List[Dict[str, Any]], new_point: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -228,216 +233,35 @@ def upsert_point(points: List[Dict[str, Any]], new_point: Dict[str, Any]) -> Lis
     return updated
 
 
-def is_configured() -> bool:
-    return all([
-        bool(KIS_FO_QUOTE_URL),
-        bool(KIS_APP_KEY),
-        bool(KIS_APP_SECRET),
-    ])
+def calc_summary(points: List[Dict[str, Any]]) -> Dict[str, Any]:
+    if not points:
+        return make_empty_summary()
 
+    prices = [p.get("price") for p in points if p.get("price") is not None]
+    last_point = points[-1]
 
-def build_headers(access_token: str) -> Dict[str, str]:
-    return {
-        "content-type": "application/json; charset=utf-8",
-        "authorization": f"Bearer {access_token}",
-        "appkey": KIS_APP_KEY,
-        "appsecret": KIS_APP_SECRET,
-        "tr_id": TR_ID,
-        "custtype": "P",
-    }
-
-
-def build_params(market_class_code: str) -> Dict[str, str]:
-    return {
-        "FID_COND_MRKT_DIV_CODE": MRKT_DIV_CODE,
-        "FID_COND_SCR_DIV_CODE": SCR_DIV_CODE,
-        "FID_COND_MRKT_CLS_CODE": market_class_code,
-    }
-
-
-def request_market_snapshot(market_class_code: str, access_token: str) -> Dict[str, Any]:
-    resp = requests.get(
-        KIS_FO_QUOTE_URL,
-        headers=build_headers(access_token),
-        params=build_params(market_class_code),
-        timeout=20,
-    )
-    resp.raise_for_status()
-    return resp.json()
-
-
-def get_output_rows(js: Dict[str, Any]) -> List[Dict[str, Any]]:
-    rt_cd = str(js.get("rt_cd", ""))
-    if rt_cd != "0":
-        raise RuntimeError(f"KIS 응답 오류: rt_cd={js.get('rt_cd')} msg={js.get('msg1')}")
-
-    output = js.get("output")
-    if output is None:
-        output = js.get("output1")
-
-    if isinstance(output, dict):
-        return [output]
-
-    if isinstance(output, list):
-        rows = [row for row in output if isinstance(row, dict)]
-        if rows:
-            return rows
-
-    raise RuntimeError(f"output 형식 이상 또는 비어있음: {js}")
-
-
-def infer_symbol(row: Dict[str, Any]) -> Optional[str]:
-    return get_first_nonempty(
-        row,
-        [
-            "futs_shrn_iscd",
-            "pdno",
-            "mksc_shrn_iscd",
-            "iscd",
-            "hts_kor_isnm_code",
-            "symbol",
-            "code",
-        ],
-    )
-
-
-def infer_name(row: Dict[str, Any]) -> Optional[str]:
-    return get_first_nonempty(
-        row,
-        [
-            "hts_kor_isnm",
-            "prdt_name",
-            "prdt_abrv_name",
-            "korean_name",
-            "name",
-            "isu_nm",
-        ],
-    )
-
-
-def infer_rmnn_days(row: Dict[str, Any]) -> Optional[int]:
-    for key in ["hts_rmnn_dynu", "rmnn_dynu", "remn_days", "rest_days"]:
-        val = safe_int(row.get(key))
-        if val is not None:
-            return val
-    return None
-
-
-def infer_volume(row: Dict[str, Any]) -> Optional[float]:
-    for key in ["acml_vol", "cum_vol", "vol", "tr_volume"]:
-        val = safe_float(row.get(key))
-        if val is not None:
-            return val
-    return None
-
-
-def score_row(row: Dict[str, Any]) -> Tuple[int, int, float]:
-    """
-    낮을수록 우선
-    1) 잔존일수 최소
-    2) 거래량 최대
-    3) 가격 존재 row 우선
-    """
-    rmnn = infer_rmnn_days(row)
-    vol = infer_volume(row)
-
-    price, _ = pick_float_from_keys(
-        row,
-        [
-            "futs_prpr",
-            "stck_prpr",
-            "cur_prc",
-            "last",
-            "close",
-            "price",
-        ],
-    )
-
-    rmnn_val = rmnn if rmnn is not None else 999999
-    vol_val = vol if vol is not None else -1.0
-    price_penalty = 0 if price is not None else 1
-
-    return (rmnn_val, price_penalty, -vol_val)
-
-
-def extract_best_output_row(js: Dict[str, Any], market_label: str) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
-    rows = get_output_rows(js)
-    rows_sorted = sorted(rows, key=score_row)
-    best = rows_sorted[0]
-
-    # 디버그용 상위 몇 개 후보 저장
-    preview = []
-    for row in rows_sorted[:5]:
-        preview.append({
-            "symbol": infer_symbol(row),
-            "name": infer_name(row),
-            "rmnn_days": infer_rmnn_days(row),
-            "volume": infer_volume(row),
-            "price_candidates": {
-                "futs_prpr": row.get("futs_prpr"),
-                "stck_prpr": row.get("stck_prpr"),
-                "cur_prc": row.get("cur_prc"),
-                "last": row.get("last"),
-                "close": row.get("close"),
-                "price": row.get("price"),
-            },
-            "change_candidates": {
-                "futs_prdy_vrss": row.get("futs_prdy_vrss"),
-                "prdy_vrss": row.get("prdy_vrss"),
-                "change": row.get("change"),
-            },
-            "change_pct_candidates": {
-                "futs_prdy_ctrt": row.get("futs_prdy_ctrt"),
-                "prdy_ctrt": row.get("prdy_ctrt"),
-                "change_pct": row.get("change_pct"),
-            },
-        })
-
-    return best, preview
-
-
-def normalize_snapshot(row: Dict[str, Any], label: str, snap_time: str) -> Dict[str, Any]:
-    price, price_key = pick_float_from_keys(
-        row,
-        ["futs_prpr", "stck_prpr", "cur_prc", "last", "close", "price"],
-    )
-    change, change_key = pick_float_from_keys(
-        row,
-        ["futs_prdy_vrss", "prdy_vrss", "change"],
-    )
-    change_pct, change_pct_key = pick_float_from_keys(
-        row,
-        ["futs_prdy_ctrt", "prdy_ctrt", "change_pct"],
-    )
-    base_price, base_price_key = pick_float_from_keys(
-        row,
-        ["futs_sdpr", "stck_sdpr", "base_price", "base_pric", "bfdy_clpr"],
-    )
-
-    symbol = infer_symbol(row)
-    name = infer_name(row)
-    rmnn_days = infer_rmnn_days(row)
-    volume = infer_volume(row)
-
-    if price is None:
-        raise RuntimeError(f"{label}: 현재가 후보 필드에서 가격을 찾지 못함.")
+    ask1 = last_point.get("ask1")
+    bid1 = last_point.get("bid1")
+    spread = None
+    if ask1 is not None and bid1 is not None:
+        spread = round(ask1 - bid1, 4)
 
     return {
-        "time": snap_time,
-        "price": price,
-        "change": change,
-        "change_pct": change_pct,
-        "symbol": symbol,
-        "name": name,
-        "rmnn_days": rmnn_days,
-        "volume": volume,
-        "base_price": base_price,
-        "field_map": {
-            "price": price_key,
-            "change": change_key,
-            "change_pct": change_pct_key,
-            "base_price": base_price_key,
-        },
+        "last": last_point.get("price"),
+        "change": last_point.get("change"),
+        "change_pct": last_point.get("change_pct"),
+        "high": max(prices) if prices else None,
+        "low": min(prices) if prices else None,
+        "points": len(points),
+        "last_symbol": last_point.get("symbol"),
+        "last_name": last_point.get("name"),
+        "open": last_point.get("open"),
+        "session_high": last_point.get("session_high"),
+        "session_low": last_point.get("session_low"),
+        "ask1": ask1,
+        "bid1": bid1,
+        "spread": spread,
+        "acml_vol": last_point.get("acml_vol"),
     }
 
 
@@ -453,63 +277,261 @@ def append_snapshot(payload: Dict[str, Any], key: str, point: Dict[str, Any]) ->
     summary[key] = calc_summary(series[key])
 
 
-def reset_if_new_session_day(payload: Dict[str, Any], biz_date: str) -> Dict[str, Any]:
-    if payload.get("biz_date") != biz_date:
-        new_payload = make_empty_payload()
-        new_payload["biz_date"] = biz_date
-        return new_payload
-    return payload
+def get_approval_key() -> str:
+    if not KIS_APP_KEY or not KIS_APP_SECRET:
+        raise RuntimeError("KIS_APP_KEY / KIS_APP_SECRET missing")
 
-
-def save_debug_bundle(
-    raw_path: Path,
-    debug_path: Path,
-    market_label: str,
-    js: Dict[str, Any],
-    selected_row: Dict[str, Any],
-    preview_rows: List[Dict[str, Any]],
-    point: Dict[str, Any],
-) -> None:
-    if DEBUG_SAVE_RAW:
-        save_json(raw_path, js)
-
-    debug_obj = {
-        "market": market_label,
-        "saved_at_kst": now_kst().isoformat(),
-        "url": KIS_FO_QUOTE_URL,
-        "tr_id": TR_ID,
-        "selected_summary": {
-            "symbol": point.get("symbol"),
-            "name": point.get("name"),
-            "price": point.get("price"),
-            "change": point.get("change"),
-            "change_pct": point.get("change_pct"),
-            "base_price": point.get("base_price"),
-            "rmnn_days": point.get("rmnn_days"),
-            "volume": point.get("volume"),
-            "field_map": point.get("field_map"),
-        },
-        "top_candidates": preview_rows,
-        "selected_row_full": selected_row,
+    body = {
+        "grant_type": "client_credentials",
+        "appkey": KIS_APP_KEY,
+        "secretkey": KIS_APP_SECRET,
     }
-    save_json(debug_path, debug_obj)
+    resp = requests.post(
+        APPROVAL_URL,
+        headers={"content-type": "application/json; charset=utf-8"},
+        data=json.dumps(body),
+        timeout=20,
+    )
+    resp.raise_for_status()
+    js = resp.json()
+
+    approval_key = js.get("approval_key")
+    if not approval_key:
+        raise RuntimeError(f"approval_key not found: {js}")
+    return approval_key
 
 
-def update_one_market(
-    payload: Dict[str, Any],
-    market_key: str,
-    market_label: str,
-    market_class_code: str,
-    access_token: str,
-    snap_time: str,
-    raw_file: Path,
-    debug_file: Path,
-) -> None:
-    js = request_market_snapshot(market_class_code, access_token)
-    row, preview_rows = extract_best_output_row(js, market_label)
-    point = normalize_snapshot(row, market_label, snap_time)
-    append_snapshot(payload, market_key, point)
-    save_debug_bundle(raw_file, debug_file, market_label, js, row, preview_rows, point)
+def build_subscribe_message(approval_key: str, tr_key: str) -> str:
+    return json.dumps(
+        {
+            "header": {
+                "approval_key": approval_key,
+                "custtype": "P",
+                "tr_type": "1",
+                "content-type": "utf-8",
+            },
+            "body": {
+                "input": {
+                    "tr_id": WS_TR_ID,
+                    "tr_key": tr_key,
+                }
+            },
+        }
+    )
+
+
+def parse_h0mfcnt0_body(body_text: str) -> Dict[str, Any]:
+    values = body_text.split("^")
+    result: Dict[str, Any] = {}
+    for i, field_name in enumerate(FIELD_NAMES_H0MFCNT0):
+        result[field_name] = values[i] if i < len(values) else ""
+    return result
+
+
+def parse_ws_frame(text: str) -> Tuple[Optional[str], Optional[str], Dict[str, Any]]:
+    """
+    반환값:
+    - msg_type: data / ack / ping / json / unknown
+    - tr_id
+    - parsed dict
+    """
+    text = text.strip()
+    if not text:
+        return "unknown", None, {}
+
+    # 일반 JSON ack/error
+    if text.startswith("{"):
+        try:
+            js = json.loads(text)
+        except Exception:
+            return "json", None, {"raw": text}
+
+        tr_id = None
+        if isinstance(js, dict):
+            header = js.get("header", {})
+            body = js.get("body", {})
+            tr_id = header.get("tr_id") or body.get("tr_id") or js.get("tr_id")
+        return "ack", tr_id, js
+
+    # 실시간 데이터: 보통 0|TR_ID|...|payload 형태
+    parts = text.split("|")
+    if len(parts) >= 4:
+        msg_code = parts[0]
+        tr_id = parts[1]
+        payload = parts[-1]
+
+        if tr_id == WS_TR_ID and msg_code in ("0", "1"):
+            parsed = parse_h0mfcnt0_body(payload)
+            return "data", tr_id, parsed
+
+        return "unknown", tr_id, {"raw": text}
+
+    return "unknown", None, {"raw": text}
+
+
+def normalize_trade_snapshot(parsed: Dict[str, Any], label: str, snap_time: str, tr_key: str) -> Dict[str, Any]:
+    price = safe_float(parsed.get("FUTS_PRPR"))
+    change = safe_float(parsed.get("FUTS_PRDY_VRSS"))
+    change_pct = safe_float(parsed.get("FUTS_PRDY_CTRT"))
+    open_price = safe_float(parsed.get("FUTS_OPRC"))
+    high_price = safe_float(parsed.get("FUTS_HGPR"))
+    low_price = safe_float(parsed.get("FUTS_LWPR"))
+    ask1 = safe_float(parsed.get("FUTS_ASKP1"))
+    bid1 = safe_float(parsed.get("FUTS_BIDP1"))
+    acml_vol = safe_float(parsed.get("ACML_VOL"))
+    last_cnqn = safe_float(parsed.get("LAST_CNQN"))
+
+    if price is None:
+        raise RuntimeError(f"{label}: FUTS_PRPR missing in websocket message")
+
+    symbol = parsed.get("FUTS_SHRN_ISCD") or tr_key
+    bsop_hour = parsed.get("BSOP_HOUR", "")
+
+    return {
+        "time": snap_time,
+        "bsop_hour": bsop_hour,
+        "price": price,
+        "change": change,
+        "change_pct": change_pct,
+        "symbol": symbol,
+        "name": label,
+        "open": open_price,
+        "session_high": high_price,
+        "session_low": low_price,
+        "ask1": ask1,
+        "bid1": bid1,
+        "acml_vol": acml_vol,
+        "last_cnqn": last_cnqn,
+        "tr_key": tr_key,
+        "raw_fields": {
+            "FUTS_PRPR": parsed.get("FUTS_PRPR"),
+            "FUTS_PRDY_VRSS": parsed.get("FUTS_PRDY_VRSS"),
+            "FUTS_PRDY_CTRT": parsed.get("FUTS_PRDY_CTRT"),
+            "FUTS_OPRC": parsed.get("FUTS_OPRC"),
+            "FUTS_HGPR": parsed.get("FUTS_HGPR"),
+            "FUTS_LWPR": parsed.get("FUTS_LWPR"),
+            "FUTS_ASKP1": parsed.get("FUTS_ASKP1"),
+            "FUTS_BIDP1": parsed.get("FUTS_BIDP1"),
+            "ACML_VOL": parsed.get("ACML_VOL"),
+            "LAST_CNQN": parsed.get("LAST_CNQN"),
+        },
+    }
+
+
+async def receive_snapshots_once(
+    targets: List[Tuple[str, str]],
+    wait_seconds: int,
+) -> Tuple[Dict[str, Dict[str, Any]], List[Dict[str, Any]], List[Dict[str, Any]]]:
+    approval_key = get_approval_key()
+
+    latest_by_key: Dict[str, Dict[str, Any]] = {}
+    raw_frames: List[Dict[str, Any]] = []
+    parsed_messages: List[Dict[str, Any]] = []
+
+    async with websockets.connect(
+        WS_URL,
+        ping_interval=20,
+        ping_timeout=20,
+        close_timeout=10,
+        max_size=2**22,
+    ) as ws:
+        for _, tr_key in targets:
+            sub_msg = build_subscribe_message(approval_key, tr_key)
+            await ws.send(sub_msg)
+
+        deadline = asyncio.get_running_loop().time() + wait_seconds
+
+        while asyncio.get_running_loop().time() < deadline:
+            timeout_left = deadline - asyncio.get_running_loop().time()
+            if timeout_left <= 0:
+                break
+
+            try:
+                text = await asyncio.wait_for(ws.recv(), timeout=timeout_left)
+            except asyncio.TimeoutError:
+                break
+
+            if isinstance(text, bytes):
+                try:
+                    text = text.decode("utf-8", errors="ignore")
+                except Exception:
+                    text = str(text)
+
+            msg_type, tr_id, parsed = parse_ws_frame(text)
+
+            raw_frames.append(
+                {
+                    "received_at_kst": now_kst().isoformat(),
+                    "msg_type": msg_type,
+                    "tr_id": tr_id,
+                    "raw": text,
+                }
+            )
+
+            if msg_type == "ack":
+                parsed_messages.append(
+                    {
+                        "received_at_kst": now_kst().isoformat(),
+                        "msg_type": "ack",
+                        "tr_id": tr_id,
+                        "parsed": parsed,
+                    }
+                )
+                continue
+
+            if msg_type == "data" and parsed:
+                futs_shrn_iscd = (parsed.get("FUTS_SHRN_ISCD") or "").strip()
+                parsed_messages.append(
+                    {
+                        "received_at_kst": now_kst().isoformat(),
+                        "msg_type": "data",
+                        "tr_id": tr_id,
+                        "symbol": futs_shrn_iscd,
+                        "parsed": parsed,
+                    }
+                )
+                latest_by_key[futs_shrn_iscd] = parsed
+
+    return latest_by_key, raw_frames, parsed_messages
+
+
+def save_payload(payload: Dict[str, Any]) -> None:
+    save_json(LATEST_FILE, payload)
+
+
+def validate_config() -> None:
+    if not KIS_APP_KEY or not KIS_APP_SECRET:
+        raise RuntimeError("KIS_APP_KEY / KIS_APP_SECRET missing")
+
+    if not KOSPI_TR_KEY and not KOSDAQ_TR_KEY:
+        raise RuntimeError("At least one of KIS_NIGHT_KOSPI_TR_KEY / KIS_NIGHT_KOSDAQ_TR_KEY is required")
+
+
+def build_targets() -> List[Tuple[str, str]]:
+    targets: List[Tuple[str, str]] = []
+    if KOSPI_TR_KEY:
+        targets.append(("kospi", KOSPI_TR_KEY))
+    if KOSDAQ_TR_KEY:
+        targets.append(("kosdaq", KOSDAQ_TR_KEY))
+    return targets
+
+
+def choose_latest_message_for_tr_key(
+    parsed_messages: List[Dict[str, Any]],
+    tr_key: str,
+) -> Optional[Dict[str, Any]]:
+    candidates: List[Dict[str, Any]] = []
+    for item in parsed_messages:
+        if item.get("msg_type") != "data":
+            continue
+        parsed = item.get("parsed", {})
+        symbol = (parsed.get("FUTS_SHRN_ISCD") or "").strip()
+        if symbol == tr_key:
+            candidates.append(parsed)
+
+    if not candidates:
+        return None
+    return candidates[-1]
 
 
 def main() -> None:
@@ -529,59 +551,82 @@ def main() -> None:
     payload["generated_at_kst"] = now.isoformat()
     payload["biz_date"] = biz_date
     payload["session"] = "night"
-    payload["source"] = "KIS"
-    payload.setdefault("meta", {})
-    payload["meta"]["mode"] = "snapshot"
-    payload["meta"]["interval_minutes"] = 30
-    payload["meta"]["debug_files"] = {
-        "raw_kospi": str(RAW_KOSPI_FILE.relative_to(BASE_DIR)),
-        "raw_kosdaq": str(RAW_KOSDAQ_FILE.relative_to(BASE_DIR)),
-        "debug_kospi": str(DEBUG_KOSPI_FILE.relative_to(BASE_DIR)),
-        "debug_kosdaq": str(DEBUG_KOSDAQ_FILE.relative_to(BASE_DIR)),
+    payload["source"] = "KIS_WEBSOCKET_H0MFCNT0"
+    payload["meta"] = {
+        "mode": "snapshot",
+        "interval_minutes": 30,
+        "ws_tr_id": WS_TR_ID,
+        "ws_url": WS_URL,
+        "wait_seconds": WS_WAIT_SECONDS,
+        "debug_files": {
+            "raw_frames": str(DEBUG_RAW_FRAMES_FILE.relative_to(BASE_DIR)),
+            "last_messages": str(DEBUG_LAST_MESSAGES_FILE.relative_to(BASE_DIR)),
+        },
+        "configured_tr_keys": {
+            "kospi": KOSPI_TR_KEY if KOSPI_TR_KEY else None,
+            "kosdaq": KOSDAQ_TR_KEY if KOSDAQ_TR_KEY else None,
+        },
     }
 
-    if not is_configured():
-        payload["token_status"] = "config_missing"
-        payload["note"] = "set KIS_FO_QUOTE_URL and KIS credentials"
-        save_payload(payload)
-        print("[WARN] collect_night_futures.py not fully configured.")
-        return
-
     try:
-        access_token = get_valid_kis_token()
-        payload["token_status"] = "ready" if access_token else "missing"
+        validate_config()
+        payload["token_status"] = "approval_pending"
 
-        update_one_market(
-            payload=payload,
-            market_key="kospi",
-            market_label="KOSPI",
-            market_class_code=KOSPI_MARKET_CLASS,
-            access_token=access_token,
-            snap_time=snap_time,
-            raw_file=RAW_KOSPI_FILE,
-            debug_file=DEBUG_KOSPI_FILE,
+        targets = build_targets()
+        latest_by_key, raw_frames, parsed_messages = asyncio.run(
+            receive_snapshots_once(targets, WS_WAIT_SECONDS)
         )
 
-        update_one_market(
-            payload=payload,
-            market_key="kosdaq",
-            market_label="KOSDAQ",
-            market_class_code=KOSDAQ_MARKET_CLASS,
-            access_token=access_token,
-            snap_time=snap_time,
-            raw_file=RAW_KOSDAQ_FILE,
-            debug_file=DEBUG_KOSDAQ_FILE,
-        )
+        save_json(DEBUG_RAW_FRAMES_FILE, raw_frames)
+        save_json(DEBUG_LAST_MESSAGES_FILE, parsed_messages)
 
-        payload["note"] = "live snapshot updated"
+        payload["token_status"] = "ready"
+
+        market_to_trkey = {
+            "kospi": KOSPI_TR_KEY,
+            "kosdaq": KOSDAQ_TR_KEY,
+        }
+        market_to_label = {
+            "kospi": "KOSPI Night Futures",
+            "kosdaq": "KOSDAQ Night Futures",
+        }
+
+        got_any = False
+
+        for market_key, tr_key in market_to_trkey.items():
+            if not tr_key:
+                continue
+
+            parsed = latest_by_key.get(tr_key)
+            if not parsed:
+                parsed = choose_latest_message_for_tr_key(parsed_messages, tr_key)
+
+            if not parsed:
+                print(f"[WARN] no websocket trade message for {market_key} / tr_key={tr_key}")
+                continue
+
+            point = normalize_trade_snapshot(
+                parsed=parsed,
+                label=market_to_label[market_key],
+                snap_time=snap_time,
+                tr_key=tr_key,
+            )
+            append_snapshot(payload, market_key, point)
+            got_any = True
+
+        if got_any:
+            payload["note"] = "live websocket snapshot updated"
+        else:
+            payload["note"] = "websocket connected but no matching trade message received; check tr_key"
 
     except Exception as e:
+        payload["token_status"] = "error"
         payload["note"] = f"snapshot update failed: {e}"
         print(f"[ERROR] {e}")
 
     save_payload(payload)
-    print(f"[OK] night futures payload saved -> {LATEST_FILE}")
-    print(f"[OK] debug files saved under -> {TMP_DIR}")
+    print(f"[OK] saved -> {LATEST_FILE}")
+    print(f"[OK] debug -> {DEBUG_DIR}")
 
 
 if __name__ == "__main__":
