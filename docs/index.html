@@ -8,16 +8,47 @@
 body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;min-height:100vh;padding:32px 16px}
 .page-header{max-width:960px;margin:0 auto 28px;border-bottom:1px solid #252538;padding-bottom:20px}
 .page-title{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#f0f0f8;letter-spacing:-0.5px}
+
+/* ── 메인 탭 ── */
 .tab-bar{max-width:960px;margin:0 auto;display:flex;gap:0;border-bottom:2px solid #252538}
-.tab-btn{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;padding:12px 36px;border:none;background:#161622;color:#7070a0;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;transition:color .15s,border-color .15s;letter-spacing:0.5px;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.tab-btn{font-family:"IBM Plex Mono",monospace;font-size:14px;font-weight:600;padding:12px 36px;
+          border:none;background:#161622;color:#7070a0;cursor:pointer;
+          border-bottom:3px solid transparent;margin-bottom:-2px;
+          transition:color .15s,border-color .15s;letter-spacing:0.5px;
+          -webkit-appearance:none;-moz-appearance:none;appearance:none}
 .tab-btn:hover{color:#c0c0e0;background:#1e1e30}
 .tab-btn.active{color:#f0f0f8;border-bottom-color:#5b9bd5;background:#0d0d14}
 .tab-content{display:none}.tab-content.active{display:block}
+
+/* ── KR 서브탭 ── */
+.sub-tab-bar{max-width:960px;margin:16px auto 0;display:flex;gap:0;border-bottom:1px solid #252538}
+.sub-tab-btn{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;
+              padding:8px 24px;border:none;background:transparent;color:#7070a0;
+              cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;
+              transition:color .15s,border-color .15s;
+              -webkit-appearance:none;appearance:none}
+.sub-tab-btn:hover{color:#c0c0e0}
+.sub-tab-btn.active{color:#f0f0f8;border-bottom-color:#60a5fa}
+.sub-tab-content{display:none}.sub-tab-content.active{display:block}
+
+/* ── 야간선물 버튼 ── */
+.night-btn-wrap{max-width:960px;margin:14px auto 0;display:flex;justify-content:flex-end}
+.night-btn{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;
+            padding:8px 18px;border-radius:8px;background:#1a1a2e;color:#60a5fa;
+            border:1px solid #60a5fa44;text-decoration:none;
+            display:inline-flex;align-items:center;gap:6px;
+            transition:background .15s,border-color .15s}
+.night-btn:hover{background:#1f1f38;border-color:#60a5fa88}
+
+/* ── 공통 ── */
 .update-bar{max-width:960px;margin:20px auto 28px;display:flex;gap:12px;flex-wrap:wrap}
-.update-badge{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:6px 14px;border-radius:6px;border:1px solid #252538;background:#161622;display:flex;align-items:center;gap:8px}
+.update-badge{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:6px 14px;
+               border-radius:6px;border:1px solid #252538;background:#161622;
+               display:flex;align-items:center;gap:8px}
 .update-badge .label{color:#8888aa;font-weight:600}
 .update-badge .time{color:#b0b0cc}
-.cards-container{max-width:960px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:24px}
+.cards-container{max-width:960px;margin:0 auto;display:grid;
+                  grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:24px}
 .asset-card{background:#13131f;border:1px solid #252538;border-radius:14px;padding:28px;transition:border-color .2s}
 .asset-card:hover{border-color:#353558}
 .card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px}
@@ -41,23 +72,32 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
   .cards-container{grid-template-columns:1fr}
   .details-grid{grid-template-columns:1fr}
   .tab-btn{padding:10px 20px;font-size:13px}
+  .sub-tab-btn{padding:7px 14px;font-size:11px}
 }
 </style></head><body>
+
 <div class="page-header">
   <div class="page-title">MARKET DECISION DASHBOARD</div>
 </div>
 
+<!-- 메인 탭바 -->
 <div class="tab-bar">
   <button class="tab-btn active" data-tab="us">🇺🇸 &nbsp;US</button>
   <button class="tab-btn" data-tab="kr">🇰🇷 &nbsp;KR</button>
-  <a href="news.html" style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;padding:12px 28px;background:#161622;color:#7070a0;text-decoration:none;display:flex;align-items:center;border-bottom:3px solid transparent;">NEWS</a>
-</div>
-<div class="update-bar">
-  <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-23 08:27 KST</span></div>
-  <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-23 08:27 KST</span></div>
+  <a href="news.html"
+     style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;
+            padding:12px 28px;background:#161622;color:#7070a0;text-decoration:none;
+            display:flex;align-items:center;border-bottom:3px solid transparent;">NEWS</a>
 </div>
 
-<div id="tab-us" class="tab-content active"><div class="cards-container"><div class="asset-card" style="border-top:3px solid #e53e3e;">
+<div class="update-bar">
+  <div class="update-badge"><span class="label">🇺🇸 US 업데이트</span><span class="time">2026-03-23 09:01 KST</span></div>
+  <div class="update-badge"><span class="label">🇰🇷 KR 업데이트</span><span class="time">2026-03-23 09:01 KST</span></div>
+</div>
+
+<!-- US 탭 -->
+<div id="tab-us" class="tab-content active">
+  <div class="cards-container"><div class="asset-card" style="border-top:3px solid #e53e3e;">
       <div class="card-header">
         <div><div class="asset-name">SPY</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:rgba(229,62,62,0.12);color:#e53e3e;border:1px solid #e53e3e44;">매도</div></div>
@@ -117,8 +157,26 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>US 10Y</span><span>4.39%</span></div>
             <div class="detail-row"><span>20일 변화</span><span>+30.5bp</span></div></div>
         </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>50/200일선 하회 + 20일 수익률 음수 → 매도 우선</li><li>10년물 20일 급등 → QQQ 한 단계 하향</li></ul></div>
-    </div></div></div>
-<div id="tab-kr" class="tab-content"><div class="cards-container"><div class="asset-card" style="border-top:3px solid #f5c842;">
+    </div></div>
+</div>
+
+<!-- KR 탭 -->
+<div id="tab-kr" class="tab-content">
+
+  <!-- 🌙 야간선물 버튼 -->
+  <div class="night-btn-wrap">
+    <a class="night-btn" href="night_futures.html" target="_blank">🌙 야간선물 Night Futures ↗</a>
+  </div>
+
+  <!-- KR 서브탭 -->
+  <div class="sub-tab-bar">
+    <button class="sub-tab-btn active" data-subtab="kospi">KOSPI</button>
+    <button class="sub-tab-btn"        data-subtab="kosdaq">KOSDAQ</button>
+    <button class="sub-tab-btn"        data-subtab="ewy">EWY</button>
+  </div>
+
+  <div id="subtab-kospi"  class="sub-tab-content active">
+    <div class="cards-container" style="margin-top:24px;"><div class="asset-card" style="border-top:3px solid #f5c842;">
       <div class="card-header">
         <div><div class="asset-name">KOSPI</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:rgba(245,200,66,0.12);color:#f5c842;border:1px solid #f5c84244;">보유</div><span style="color:#6060a0;font-size:11px;">원신호: 매수</span></div>
@@ -143,28 +201,31 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>리더십 버킷</span><span>kosdaq_weak</span></div>
             <div class="detail-row"><span>추정 리더십</span><span>28.00%</span></div></div>
           <div class="detail-group"><div class="section-label">수급</div>
-            <div class="detail-row"><span>1일 외국인</span><span>+0억</span></div>
-            <div class="detail-row"><span>5일 외국인</span><span>-2.4조</span></div>
-            <div class="detail-row"><span>20일 외국인</span><span>-28.3조</span></div>
-            <div class="detail-row"><span>5일비율</span><span>-1.42%</span></div></div>
+            <div class="detail-row"><span>1일 외국인</span><span>-1,660억</span></div>
+            <div class="detail-row"><span>5일 외국인</span><span>-2.6조</span></div>
+            <div class="detail-row"><span>20일 외국인</span><span>-28.5조</span></div>
+            <div class="detail-row"><span>5일비율</span><span>-1.51%</span></div></div>
           <div class="detail-group"><div class="section-label">거래대금</div>
             <div class="detail-row"><span>현재</span><span>34.0조</span></div>
             <div class="detail-row"><span>MA20 대비</span><span>0.998</span></div>
             <div class="detail-row"><span>5일 변화</span><span>43.45%</span></div></div>
           <div class="detail-group"><div class="section-label">환율 / 유가</div>
-            <div class="detail-row"><span>USD/KRW</span><span>1504.17</span></div>
-            <div class="detail-row"><span>환율 20일</span><span>4.21%</span></div>
-            <div class="detail-row"><span>WTI</span><span>98.03</span></div>
-            <div class="detail-row"><span>WTI 20일</span><span>47.84%</span></div></div>
-        </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>5일·20일 누적 수급 동반 부진 → 매수 제한</li><li>원/달러 급등 + 단기 수급 약세 → 매수 제한</li></ul></div>
-    </div><div class="asset-card" style="border-top:3px solid #f5c842;">
+            <div class="detail-row"><span>USD/KRW</span><span>1502.78</span></div>
+            <div class="detail-row"><span>환율 20일</span><span>4.11%</span></div>
+            <div class="detail-row"><span>WTI</span><span>98.09</span></div>
+            <div class="detail-row"><span>WTI 20일</span><span>47.93%</span></div></div>
+        </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>외국인·기관 1일 동시 순매도 → 매수 제한</li><li>5일·20일 누적 수급 동반 부진 → 매수 제한</li><li>원/달러 급등 + 단기 수급 약세 → 매수 제한</li></ul></div>
+    </div></div>
+  </div>
+  <div id="subtab-kosdaq" class="sub-tab-content">
+    <div class="cards-container" style="margin-top:24px;"><div class="asset-card" style="border-top:3px solid #f5c842;">
       <div class="card-header">
         <div><div class="asset-name">KOSDAQ</div></div>
         <div style="text-align:right;"><div class="signal-badge" style="background:rgba(245,200,66,0.12);color:#f5c842;border:1px solid #f5c84244;">보유</div><span style="color:#6060a0;font-size:11px;">원신호: 매수</span></div>
       </div>
-      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">89</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
-      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:89.0%;background:#00d084;border-radius:4px;"></div></div>
-      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">36<span style="color:#4a4a6a">/36</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:100.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VKOSPI</span><span class="mod-score">16<span style="color:#4a4a6a">/27</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:59.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">12<span style="color:#4a4a6a">/17</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:70.6%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">리더십</span><span class="mod-score">1<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:8.3%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">거래대금</span><span class="mod-score">5<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:41.7%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">수급</span><span class="mod-score">14<span style="color:#4a4a6a">/18</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:77.8%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">환율</span><span class="mod-score">3<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:15.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">유가</span><span class="mod-score">2<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div></div>
+      <div class="score-display"><span style="color:#f5c842;font-size:42px;font-weight:700;letter-spacing:-2px;">92</span><span style="color:#4a4a6a;font-size:20px;">/100</span></div>
+      <div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:92.0%;background:#00d084;border-radius:4px;"></div></div>
+      <div class="modules-section"><div class="mod-row"><span class="mod-label">추세</span><span class="mod-score">36<span style="color:#4a4a6a">/36</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:100.0%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">VKOSPI</span><span class="mod-score">16<span style="color:#4a4a6a">/27</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:59.3%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">전술</span><span class="mod-score">12<span style="color:#4a4a6a">/17</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:70.6%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">리더십</span><span class="mod-score">1<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:8.3%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">거래대금</span><span class="mod-score">5<span style="color:#4a4a6a">/12</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:41.7%;background:#f5c842;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">수급</span><span class="mod-score">17<span style="color:#4a4a6a">/18</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:94.4%;background:#00d084;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">환율</span><span class="mod-score">3<span style="color:#4a4a6a">/20</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:15.0%;background:#e53e3e;border-radius:4px;"></div></div></div><div class="mod-row"><span class="mod-label">유가</span><span class="mod-score">2<span style="color:#4a4a6a">/10</span></span><div style="background:#1a1a2e;border-radius:4px;height:8px;width:100%;overflow:hidden;"><div style="height:100%;width:20.0%;background:#e53e3e;border-radius:4px;"></div></div></div></div>
       <div class="details-grid">
           <div class="detail-group"><div class="section-label">추세</div>
             <div class="detail-row"><span>종가</span><span>1161.52</span></div>
@@ -182,21 +243,43 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
             <div class="detail-row"><span>리더십 버킷</span><span>weak</span></div>
             <div class="detail-row"><span>추정 리더십</span><span>28.00%</span></div></div>
           <div class="detail-group"><div class="section-label">수급</div>
-            <div class="detail-row"><span>1일 외국인</span><span>+0억</span></div>
-            <div class="detail-row"><span>5일 외국인</span><span>+4,682억</span></div>
-            <div class="detail-row"><span>20일 외국인</span><span>1.1조</span></div>
-            <div class="detail-row"><span>5일비율</span><span>0.66%</span></div></div>
+            <div class="detail-row"><span>1일 외국인</span><span>+507억</span></div>
+            <div class="detail-row"><span>5일 외국인</span><span>+5,189억</span></div>
+            <div class="detail-row"><span>20일 외국인</span><span>1.2조</span></div>
+            <div class="detail-row"><span>5일비율</span><span>0.73%</span></div></div>
           <div class="detail-group"><div class="section-label">거래대금</div>
             <div class="detail-row"><span>현재</span><span>14.1조</span></div>
             <div class="detail-row"><span>MA20 대비</span><span>0.977</span></div>
             <div class="detail-row"><span>5일 변화</span><span>-1.76%</span></div></div>
           <div class="detail-group"><div class="section-label">환율 / 유가</div>
-            <div class="detail-row"><span>USD/KRW</span><span>1504.17</span></div>
-            <div class="detail-row"><span>환율 20일</span><span>4.21%</span></div>
-            <div class="detail-row"><span>WTI</span><span>98.03</span></div>
-            <div class="detail-row"><span>WTI 20일</span><span>47.84%</span></div></div>
+            <div class="detail-row"><span>USD/KRW</span><span>1502.78</span></div>
+            <div class="detail-row"><span>환율 20일</span><span>4.11%</span></div>
+            <div class="detail-row"><span>WTI</span><span>98.09</span></div>
+            <div class="detail-row"><span>WTI 20일</span><span>47.93%</span></div></div>
         </div><div class="guardrail-box"><div class="section-label">⚠ 가드레일 발동</div><ul style="margin:6px 0 0 16px;padding:0;color:#f5c842;font-size:12px;"><li>코스닥 리더십 약세 → 매수 제한</li></ul></div>
-    </div></div></div>
+    </div></div>
+  </div>
+  <div id="subtab-ewy"    class="sub-tab-content">
+    <div class="cards-container" style="margin-top:24px;">
+<div class="asset-card" style="border-top:3px solid #60a5fa;grid-column:1/-1;">
+  <div class="card-header">
+    <div>
+      <div class="asset-name" style="font-size:22px;">EWY &nbsp;·&nbsp; EWYUSDT Perp</div>
+      <div style="font-size:12px;color:#9090b8;margin-top:4px;">Binance USDⓈ-M Futures · 24시간 라인차트</div>
+    </div>
+    <a href="ewy.html" target="_blank"
+       style="font-family:'IBM Plex Mono',monospace;font-size:12px;padding:7px 16px;
+              border-radius:8px;background:#1f2937;color:#f9fafb;
+              border:1px solid #374151;text-decoration:none;">전체 보기 ↗</a>
+  </div>
+  <iframe src="ewy.html"
+          style="width:100%;height:520px;border:none;border-radius:10px;
+                 background:#0b1220;margin-top:8px;"
+          loading="lazy"></iframe>
+</div></div>
+  </div>
+
+</div>
 
 <div class="footer">
   <p>score ≥ 70 → 매수 &nbsp;|&nbsp; 40–69 → 보유 &nbsp;|&nbsp; &lt; 40 → 매도</p>
@@ -205,23 +288,36 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 
 <script>
 (function(){
-  var btns = document.querySelectorAll('.tab-btn');
-  btns.forEach(function(btn){
+  /* 메인 탭 */
+  document.querySelectorAll('.tab-btn[data-tab]').forEach(function(btn){
     btn.addEventListener('click', function(){
       var name = this.getAttribute('data-tab');
       document.querySelectorAll('.tab-content').forEach(function(el){el.classList.remove('active');});
-      document.querySelectorAll('.tab-btn').forEach(function(el){el.classList.remove('active');});
+      document.querySelectorAll('.tab-btn[data-tab]').forEach(function(el){el.classList.remove('active');});
       document.getElementById('tab-' + name).classList.add('active');
       this.classList.add('active');
       try{localStorage.setItem('lastTab', name);}catch(e){}
     });
   });
+
+  /* KR 서브탭 */
+  document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = this.getAttribute('data-subtab');
+      document.querySelectorAll('.sub-tab-content').forEach(function(el){el.classList.remove('active');});
+      document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(el){el.classList.remove('active');});
+      document.getElementById('subtab-' + name).classList.add('active');
+      this.classList.add('active');
+      try{localStorage.setItem('lastSubTab', name);}catch(e){}
+    });
+  });
+
+  /* 마지막 탭 복원 */
   try{
     var last = localStorage.getItem('lastTab');
-    if(last){
-      var t = document.querySelector('[data-tab="' + last + '"]');
-      if(t) t.click();
-    }
+    if(last){ var t = document.querySelector('[data-tab="' + last + '"]'); if(t) t.click(); }
+    var lastSub = localStorage.getItem('lastSubTab');
+    if(lastSub){ var s = document.querySelector('[data-subtab="' + lastSub + '"]'); if(s) s.click(); }
   }catch(e){}
 })();
 </script>
