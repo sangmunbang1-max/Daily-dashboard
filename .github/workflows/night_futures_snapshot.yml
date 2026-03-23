@@ -20,6 +20,7 @@ jobs:
       TZ: Asia/Seoul
       KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
       KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+      KIS_FO_QUOTE_URL: "https://openapi.koreainvestment.com:9443/uapi/domestic-futureoption/v1/quotations/display-board-futures"
 
     steps:
       - name: Checkout
