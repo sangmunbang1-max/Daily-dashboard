@@ -31,21 +31,16 @@ WS_URL = os.environ.get(
 KIS_APP_KEY = os.environ.get("KIS_APP_KEY", "")
 KIS_APP_SECRET = os.environ.get("KIS_APP_SECRET", "")
 
-# 문서 기준: KRX야간선물 실시간종목체결
 WS_TR_ID = "H0MFCNT0"
 
-# 반드시 실제 야간선물 종목코드로 넣어야 함
-# 예시는 placeholder. 네 계정/마스터 기준 실제 코드로 GitHub Secrets에 넣는 걸 권장.
 KOSPI_TR_KEY = os.environ.get("KIS_NIGHT_KOSPI_TR_KEY", "").strip()
-KOSDAQ_TR_KEY = os.environ.get("KIS_NIGHT_KOSDAQ_TR_KEY", "").strip()  # 선택
+KOSDAQ_TR_KEY = os.environ.get("KIS_NIGHT_KOSDAQ_TR_KEY", "").strip()
 
-# 수신 대기 시간
 WS_WAIT_SECONDS = int(os.environ.get("KIS_WS_WAIT_SECONDS", "12"))
+TARGET_SOURCE = "KIS_WEBSOCKET_H0MFCNT0"
 
-# 디버그 저장
 DEBUG_RAW_FRAMES_FILE = DEBUG_DIR / "raw_frames.json"
 DEBUG_LAST_MESSAGES_FILE = DEBUG_DIR / "last_messages.json"
-
 
 FIELD_NAMES_H0MFCNT0 = [
     "FUTS_SHRN_ISCD",
@@ -178,7 +173,7 @@ def make_empty_payload() -> Dict[str, Any]:
         "generated_at_kst": now.isoformat(),
         "biz_date": get_night_biz_date(now),
         "session": "night",
-        "source": "KIS_WEBSOCKET_H0MFCNT0",
+        "source": TARGET_SOURCE,
         "note": "night futures websocket snapshot",
         "token_status": "missing",
         "series": make_empty_series(),
@@ -207,19 +202,43 @@ def load_existing_payload() -> Dict[str, Any]:
 
 
 def reset_if_new_session_day_or_source_changed(payload: Dict[str, Any], biz_date: str) -> Dict[str, Any]:
-    current_source = payload.get("source")
-    target_source = "KIS_WEBSOCKET_H0MFCNT0"
-
     if payload.get("biz_date") != biz_date:
         new_payload = make_empty_payload()
         new_payload["biz_date"] = biz_date
         return new_payload
 
-    if current_source != target_source:
+    if payload.get("source") != TARGET_SOURCE:
         new_payload = make_empty_payload()
         new_payload["biz_date"] = biz_date
         return new_payload
 
+    return payload
+
+
+def migrate_legacy_points(payload: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    기존 REST 포인트(예: field_map, rmnn_days, volume 등)를 제거하고
+    웹소켓 포인트만 유지한다.
+    """
+    series = payload.get("series", {})
+    for market_key in ("kospi", "kosdaq"):
+        points = series.get(market_key, [])
+        cleaned = []
+        for p in points:
+            if not isinstance(p, dict):
+                continue
+            # 웹소켓 포인트의 특징: bsop_hour / tr_key / raw_fields / open/session_high/session_low 중 일부 보유
+            is_ws_point = (
+                "tr_key" in p
+                or "bsop_hour" in p
+                or "raw_fields" in p
+                or "session_high" in p
+                or "session_low" in p
+            )
+            if is_ws_point:
+                cleaned.append(p)
+        series[market_key] = cleaned
+    payload["series"] = series
     return payload
 
 
@@ -338,17 +357,10 @@ def parse_h0mfcnt0_body(body_text: str) -> Dict[str, Any]:
 
 
 def parse_ws_frame(text: str) -> Tuple[Optional[str], Optional[str], Dict[str, Any]]:
-    """
-    반환값:
-    - msg_type: data / ack / ping / json / unknown
-    - tr_id
-    - parsed dict
-    """
     text = text.strip()
     if not text:
         return "unknown", None, {}
 
-    # 일반 JSON ack/error
     if text.startswith("{"):
         try:
             js = json.loads(text)
@@ -362,7 +374,6 @@ def parse_ws_frame(text: str) -> Tuple[Optional[str], Optional[str], Dict[str, A
             tr_id = header.get("tr_id") or body.get("tr_id") or js.get("tr_id")
         return "ack", tr_id, js
 
-    # 실시간 데이터: 보통 0|TR_ID|...|payload 형태
     parts = text.split("|")
     if len(parts) >= 4:
         msg_code = parts[0]
@@ -556,11 +567,12 @@ def main() -> None:
 
     payload = load_existing_payload()
     payload = reset_if_new_session_day_or_source_changed(payload, biz_date)
-    
+    payload = migrate_legacy_points(payload)
+
     payload["generated_at_kst"] = now.isoformat()
     payload["biz_date"] = biz_date
     payload["session"] = "night"
-    payload["source"] = "KIS_WEBSOCKET_H0MFCNT0"
+    payload["source"] = TARGET_SOURCE
     payload["meta"] = {
         "mode": "snapshot",
         "interval_minutes": 30,
@@ -627,6 +639,12 @@ def main() -> None:
             payload["note"] = "live websocket snapshot updated"
         else:
             payload["note"] = "websocket connected but no matching trade message received; check tr_key"
+
+        # 레거시 제거 후 summary 재계산
+        for market_key in ("kospi", "kosdaq"):
+            points = payload.get("series", {}).get(market_key, [])
+            payload.setdefault("summary", {})
+            payload["summary"][market_key] = calc_summary(points)
 
     except Exception as e:
         payload["token_status"] = "error"
