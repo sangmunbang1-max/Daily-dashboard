@@ -1,10 +1,10 @@
 {
-  "generated_at_kst": "2026-03-23T21:36:01.447731+09:00",
+  "generated_at_kst": "2026-03-23T21:57:05.248158+09:00",
   "biz_date": "2026-03-23",
   "session": "night",
-  "source": "KIS",
-  "note": "live snapshot updated",
-  "token_status": "ready",
+  "source": "KIS_WEBSOCKET_H0MFCNT0",
+  "note": "snapshot update failed: At least one of KIS_NIGHT_KOSPI_TR_KEY / KIS_NIGHT_KOSDAQ_TR_KEY is required",
+  "token_status": "error",
   "series": {
     "kospi": [
       {
@@ -116,11 +116,16 @@
   "meta": {
     "mode": "snapshot",
     "interval_minutes": 30,
+    "ws_tr_id": "H0MFCNT0",
+    "ws_url": "ws://ops.koreainvestment.com:21000",
+    "wait_seconds": 12,
     "debug_files": {
-      "raw_kospi": "tmp/night_futures_raw_kospi.json",
-      "raw_kosdaq": "tmp/night_futures_raw_kosdaq.json",
-      "debug_kospi": "tmp/night_futures_debug_kospi.json",
-      "debug_kosdaq": "tmp/night_futures_debug_kosdaq.json"
+      "raw_frames": "tmp/night_futures_ws/raw_frames.json",
+      "last_messages": "tmp/night_futures_ws/last_messages.json"
+    },
+    "configured_tr_keys": {
+      "kospi": null,
+      "kosdaq": null
     }
   }
 }
