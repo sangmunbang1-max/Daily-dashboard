@@ -23,21 +23,27 @@ APPROVAL_URL = os.environ.get(
     "KIS_APPROVAL_URL",
     "https://openapi.koreainvestment.com:9443/oauth2/Approval",
 )
-WS_URL = os.environ.get(
-    "KIS_WS_URL",
+
+DEFAULT_WS_URLS = [
     "ws://ops.koreainvestment.com:21000",
-)
+    "wss://ops.koreainvestment.com:21000",
+]
+WS_URLS = [
+    x.strip()
+    for x in os.environ.get("KIS_WS_URLS", ",".join(DEFAULT_WS_URLS)).split(",")
+    if x.strip()
+]
 
 KIS_APP_KEY = os.environ.get("KIS_APP_KEY", "")
 KIS_APP_SECRET = os.environ.get("KIS_APP_SECRET", "")
 
 WS_TR_ID = "H0MFCNT0"
+TARGET_SOURCE = "KIS_WEBSOCKET_H0MFCNT0"
 
 KOSPI_TR_KEY = os.environ.get("KIS_NIGHT_KOSPI_TR_KEY", "").strip()
 KOSDAQ_TR_KEY = os.environ.get("KIS_NIGHT_KOSDAQ_TR_KEY", "").strip()
 
 WS_WAIT_SECONDS = int(os.environ.get("KIS_WS_WAIT_SECONDS", "12"))
-TARGET_SOURCE = "KIS_WEBSOCKET_H0MFCNT0"
 
 DEBUG_RAW_FRAMES_FILE = DEBUG_DIR / "raw_frames.json"
 DEBUG_LAST_MESSAGES_FILE = DEBUG_DIR / "last_messages.json"
@@ -183,7 +189,7 @@ def make_empty_payload() -> Dict[str, Any]:
         },
         "meta": {
             "mode": "snapshot",
-            "interval_minutes": 30,
+            "interval_minutes": 15,
             "ws_tr_id": WS_TR_ID,
         },
     }
@@ -216,10 +222,6 @@ def reset_if_new_session_day_or_source_changed(payload: Dict[str, Any], biz_date
 
 
 def migrate_legacy_points(payload: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    기존 REST 포인트(예: field_map, rmnn_days, volume 등)를 제거하고
-    웹소켓 포인트만 유지한다.
-    """
     series = payload.get("series", {})
     for market_key in ("kospi", "kosdaq"):
         points = series.get(market_key, [])
@@ -227,7 +229,6 @@ def migrate_legacy_points(payload: Dict[str, Any]) -> Dict[str, Any]:
         for p in points:
             if not isinstance(p, dict):
                 continue
-            # 웹소켓 포인트의 특징: bsop_hour / tr_key / raw_fields / open/session_high/session_low 중 일부 보유
             is_ws_point = (
                 "tr_key" in p
                 or "bsop_hour" in p
@@ -441,78 +442,90 @@ def normalize_trade_snapshot(parsed: Dict[str, Any], label: str, snap_time: str,
 async def receive_snapshots_once(
     targets: List[Tuple[str, str]],
     wait_seconds: int,
-) -> Tuple[Dict[str, Dict[str, Any]], List[Dict[str, Any]], List[Dict[str, Any]]]:
+) -> Tuple[Dict[str, Dict[str, Any]], List[Dict[str, Any]], List[Dict[str, Any]], str]:
     approval_key = get_approval_key()
+    last_error = None
 
-    latest_by_key: Dict[str, Dict[str, Any]] = {}
-    raw_frames: List[Dict[str, Any]] = []
-    parsed_messages: List[Dict[str, Any]] = []
+    for ws_url in WS_URLS:
+        latest_by_key: Dict[str, Dict[str, Any]] = {}
+        raw_frames: List[Dict[str, Any]] = []
+        parsed_messages: List[Dict[str, Any]] = []
 
-    async with websockets.connect(
-        WS_URL,
-        ping_interval=20,
-        ping_timeout=20,
-        close_timeout=10,
-        max_size=2**22,
-    ) as ws:
-        for _, tr_key in targets:
-            sub_msg = build_subscribe_message(approval_key, tr_key)
-            await ws.send(sub_msg)
+        try:
+            async with websockets.connect(
+                ws_url,
+                ping_interval=20,
+                ping_timeout=20,
+                close_timeout=10,
+                max_size=2**22,
+            ) as ws:
+                for _, tr_key in targets:
+                    sub_msg = build_subscribe_message(approval_key, tr_key)
+                    await ws.send(sub_msg)
 
-        deadline = asyncio.get_running_loop().time() + wait_seconds
+                deadline = asyncio.get_running_loop().time() + wait_seconds
 
-        while asyncio.get_running_loop().time() < deadline:
-            timeout_left = deadline - asyncio.get_running_loop().time()
-            if timeout_left <= 0:
-                break
+                while asyncio.get_running_loop().time() < deadline:
+                    timeout_left = deadline - asyncio.get_running_loop().time()
+                    if timeout_left <= 0:
+                        break
 
-            try:
-                text = await asyncio.wait_for(ws.recv(), timeout=timeout_left)
-            except asyncio.TimeoutError:
-                break
+                    try:
+                        text = await asyncio.wait_for(ws.recv(), timeout=timeout_left)
+                    except asyncio.TimeoutError:
+                        break
 
-            if isinstance(text, bytes):
-                try:
-                    text = text.decode("utf-8", errors="ignore")
-                except Exception:
-                    text = str(text)
+                    if isinstance(text, bytes):
+                        try:
+                            text = text.decode("utf-8", errors="ignore")
+                        except Exception:
+                            text = str(text)
 
-            msg_type, tr_id, parsed = parse_ws_frame(text)
+                    msg_type, tr_id, parsed = parse_ws_frame(text)
 
-            raw_frames.append(
-                {
-                    "received_at_kst": now_kst().isoformat(),
-                    "msg_type": msg_type,
-                    "tr_id": tr_id,
-                    "raw": text,
-                }
-            )
+                    raw_frames.append(
+                        {
+                            "received_at_kst": now_kst().isoformat(),
+                            "ws_url": ws_url,
+                            "msg_type": msg_type,
+                            "tr_id": tr_id,
+                            "raw": text,
+                        }
+                    )
 
-            if msg_type == "ack":
-                parsed_messages.append(
-                    {
-                        "received_at_kst": now_kst().isoformat(),
-                        "msg_type": "ack",
-                        "tr_id": tr_id,
-                        "parsed": parsed,
-                    }
-                )
-                continue
+                    if msg_type == "ack":
+                        parsed_messages.append(
+                            {
+                                "received_at_kst": now_kst().isoformat(),
+                                "ws_url": ws_url,
+                                "msg_type": "ack",
+                                "tr_id": tr_id,
+                                "parsed": parsed,
+                            }
+                        )
+                        continue
 
-            if msg_type == "data" and parsed:
-                futs_shrn_iscd = (parsed.get("FUTS_SHRN_ISCD") or "").strip()
-                parsed_messages.append(
-                    {
-                        "received_at_kst": now_kst().isoformat(),
-                        "msg_type": "data",
-                        "tr_id": tr_id,
-                        "symbol": futs_shrn_iscd,
-                        "parsed": parsed,
-                    }
-                )
-                latest_by_key[futs_shrn_iscd] = parsed
+                    if msg_type == "data" and parsed:
+                        futs_shrn_iscd = (parsed.get("FUTS_SHRN_ISCD") or "").strip()
+                        parsed_messages.append(
+                            {
+                                "received_at_kst": now_kst().isoformat(),
+                                "ws_url": ws_url,
+                                "msg_type": "data",
+                                "tr_id": tr_id,
+                                "symbol": futs_shrn_iscd,
+                                "parsed": parsed,
+                            }
+                        )
+                        latest_by_key[futs_shrn_iscd] = parsed
 
-    return latest_by_key, raw_frames, parsed_messages
+            return latest_by_key, raw_frames, parsed_messages, ws_url
+
+        except Exception as e:
+            last_error = f"{ws_url} -> {type(e).__name__}: {e}"
+            continue
+
+    raise RuntimeError(f"all websocket urls failed: {last_error}")
 
 
 def save_payload(payload: Dict[str, Any]) -> None:
@@ -569,15 +582,18 @@ def main() -> None:
     payload = reset_if_new_session_day_or_source_changed(payload, biz_date)
     payload = migrate_legacy_points(payload)
 
+    connected_ws_url = None
+
     payload["generated_at_kst"] = now.isoformat()
     payload["biz_date"] = biz_date
     payload["session"] = "night"
     payload["source"] = TARGET_SOURCE
     payload["meta"] = {
         "mode": "snapshot",
-        "interval_minutes": 30,
+        "interval_minutes": 15,
         "ws_tr_id": WS_TR_ID,
-        "ws_url": WS_URL,
+        "ws_urls_tried": WS_URLS,
+        "connected_ws_url": None,
         "wait_seconds": WS_WAIT_SECONDS,
         "debug_files": {
             "raw_frames": str(DEBUG_RAW_FRAMES_FILE.relative_to(BASE_DIR)),
@@ -594,7 +610,7 @@ def main() -> None:
         payload["token_status"] = "approval_pending"
 
         targets = build_targets()
-        latest_by_key, raw_frames, parsed_messages = asyncio.run(
+        latest_by_key, raw_frames, parsed_messages, connected_ws_url = asyncio.run(
             receive_snapshots_once(targets, WS_WAIT_SECONDS)
         )
 
@@ -602,6 +618,18 @@ def main() -> None:
         save_json(DEBUG_LAST_MESSAGES_FILE, parsed_messages)
 
         payload["token_status"] = "ready"
+        payload["meta"]["connected_ws_url"] = connected_ws_url
+
+        received_symbols = sorted(
+            list(
+                {
+                    (item.get("parsed", {}).get("FUTS_SHRN_ISCD") or "").strip()
+                    for item in parsed_messages
+                    if item.get("msg_type") == "data"
+                }
+            )
+        )
+        payload["meta"]["received_symbols"] = received_symbols
 
         market_to_trkey = {
             "kospi": KOSPI_TR_KEY,
@@ -612,10 +640,12 @@ def main() -> None:
             "kosdaq": "KOSDAQ Night Futures",
         }
 
+        market_status: Dict[str, str] = {}
         got_any = False
 
         for market_key, tr_key in market_to_trkey.items():
             if not tr_key:
+                market_status[market_key] = "tr_key_missing"
                 continue
 
             parsed = latest_by_key.get(tr_key)
@@ -623,6 +653,7 @@ def main() -> None:
                 parsed = choose_latest_message_for_tr_key(parsed_messages, tr_key)
 
             if not parsed:
+                market_status[market_key] = f"no_message_for_{tr_key}"
                 print(f"[WARN] no websocket trade message for {market_key} / tr_key={tr_key}")
                 continue
 
@@ -633,14 +664,16 @@ def main() -> None:
                 tr_key=tr_key,
             )
             append_snapshot(payload, market_key, point)
+            market_status[market_key] = "ok"
             got_any = True
 
-        if got_any:
-            payload["note"] = "live websocket snapshot updated"
-        else:
-            payload["note"] = "websocket connected but no matching trade message received; check tr_key"
+        payload["meta"]["market_status"] = market_status
 
-        # 레거시 제거 후 summary 재계산
+        if got_any:
+            payload["note"] = f"market_status={market_status}"
+        else:
+            payload["note"] = f"no data received; market_status={market_status}"
+
         for market_key in ("kospi", "kosdaq"):
             points = payload.get("series", {}).get(market_key, [])
             payload.setdefault("summary", {})
@@ -648,8 +681,8 @@ def main() -> None:
 
     except Exception as e:
         payload["token_status"] = "error"
-        payload["note"] = f"snapshot update failed: {e}"
-        print(f"[ERROR] {e}")
+        payload["note"] = f"snapshot update failed: {type(e).__name__}: {e}"
+        print(f"[ERROR] {type(e).__name__}: {e}")
 
     save_payload(payload)
     print(f"[OK] saved -> {LATEST_FILE}")
