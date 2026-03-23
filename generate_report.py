@@ -45,7 +45,9 @@ TICKERS = {
     "KOSPI": "^KS11", "KOSDAQ": "^KQ11",
     "EWY": "EWY", "DXY": "DX-Y.NYB", "GOLD": "GC=F",
     "WTI": "CL=F", "USDKRW": "KRW=X",
-    "RSP": "RSP", "QQEW": "QQEW",
+    "RSP": "RSP",
+    "GSPC": "^GSPC",
+    "NDX": "^NDX", "QQEW": "QQEW",
 }
 
 FRED_SERIES = {
@@ -558,6 +560,8 @@ def build_us_results(mkt, fred):
     spy_close = mkt["SPY"]["Close"].dropna(); qqq_close = mkt["QQQ"]["Close"].dropna()
     vix_close = mkt["VIX"]["Close"].dropna(); rsp_close = mkt["RSP"]["Close"].dropna()
     qqew_close = mkt["QQEW"]["Close"].dropna(); dgs10 = fred["DGS10"].dropna()
+    gspc_close = mkt["GSPC"]["Close"].dropna() if not mkt["GSPC"].empty else spy_close * 8.6
+    ndx_close  = mkt["NDX"]["Close"].dropna()  if not mkt["NDX"].empty  else qqq_close * 40.0
     configs = [
         ("SPY", spy_close, (rsp_close/spy_close).dropna(), 15),
         ("QQQ", qqq_close, (qqew_close/qqq_close).dropna(), 10),
@@ -775,7 +779,7 @@ def make_card(result, max_map):
       {detail_html}{guardrail_html}
     </div>"""
 
-def generate_html(us_results, kr_results, us_updated, kr_updated, macro):
+def generate_html(us_results, kr_results, us_updated, kr_updated, macro, mkt=None):
     us_max = {
         "SPY": {"trend":35,"vix":25,"tactical":15,"breadth":15,"rates":10},
         "QQQ": {"trend":30,"vix":25,"tactical":15,"breadth":10,"rates":20},
@@ -823,15 +827,15 @@ def generate_html(us_results, kr_results, us_updated, kr_updated, macro):
     kospi=kr_results["KOSPI"]; kosdaq=kr_results["KOSDAQ"]
 
     main_cards = [
-        {"section":"Equities","label":"S&P 500","value":fmt_num(spy.module_meta["trend"]["close"]),"d1":"—","d5":fmt_pct(spy.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(spy.module_meta['trend']['close'])>safe_float(spy.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(spy)},
-        {"section":"Equities","label":"Nasdaq 100","value":fmt_num(qqq.module_meta["trend"]["close"]),"d1":"—","d5":fmt_pct(qqq.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(qqq.module_meta['trend']['close'])>safe_float(qqq.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(qqq)},
-        {"section":"Equities","label":"KOSPI","value":fmt_num(kospi.module_meta["trend"]["close"]),"d1":"—","d5":fmt_pct(kospi.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(kospi.module_meta['trend']['close'])>safe_float(kospi.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(kospi)},
-        {"section":"Equities","label":"KOSDAQ","value":fmt_num(kosdaq.module_meta["trend"]["close"]),"d1":"—","d5":fmt_pct(kosdaq.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(kosdaq.module_meta['trend']['close'])>safe_float(kosdaq.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(kosdaq)},
-        {"section":"Vol / Rates","label":"VIX","value":fmt_num(spy.module_meta["vix"]["vix"]),"d1":"—","d5":fmt_pct(spy.module_meta["vix"]["vix_5d_chg"]),"aux":f"MA20 대비 {fmt_num(spy.module_meta['vix']['vix_ratio20'],3)}","status":classify_vol(spy.module_meta["vix"]["vix"],spy.module_meta["vix"]["vix_ratio20"])},
-        {"section":"Vol / Rates","label":"VKOSPI","value":fmt_num(kospi.module_meta["vkospi"]["vkospi"]),"d1":"—","d5":fmt_pct(kospi.module_meta["vkospi"]["vkospi_5d_chg"]),"aux":f"MA20 대비 {fmt_num(kospi.module_meta['vkospi']['vkospi_ratio20'],3)}","status":classify_vkospi(kospi.module_meta["vkospi"]["vkospi"],kospi.module_meta["vkospi"]["vkospi_ratio20"])},
+        {"section":"Equities","label":"S&P 500","value":fmt_num(last_valid(gspc_close)),"d1":fmt_pct(pct_change(last_valid(gspc_close),last_valid(gspc_close,2))),"d5":fmt_pct(spy.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(spy.module_meta['trend']['close'])>safe_float(spy.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(spy)},
+        {"section":"Equities","label":"Nasdaq 100","value":fmt_num(last_valid(ndx_close)),"d1":fmt_pct(pct_change(last_valid(ndx_close),last_valid(ndx_close,2))),"d5":fmt_pct(qqq.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(qqq.module_meta['trend']['close'])>safe_float(qqq.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(qqq)},
+        {"section":"Equities","label":"KOSPI","value":fmt_num(kospi.module_meta["trend"]["close"]),"d1":fmt_pct(pct_change(kospi.module_meta["trend"]["close"],last_valid(mkt["KOSPI"]["Close"].dropna(),2))),"d5":fmt_pct(kospi.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(kospi.module_meta['trend']['close'])>safe_float(kospi.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(kospi)},
+        {"section":"Equities","label":"KOSDAQ","value":fmt_num(kosdaq.module_meta["trend"]["close"]),"d1":fmt_pct(pct_change(kosdaq.module_meta["trend"]["close"],last_valid(mkt["KOSDAQ"]["Close"].dropna(),2))),"d5":fmt_pct(kosdaq.module_meta["tactical"]["ret10"]),"aux":f"MA50 {'상회' if safe_float(kosdaq.module_meta['trend']['close'])>safe_float(kosdaq.module_meta['trend']['ma50']) else '하회'}","status":classify_equity(kosdaq)},
+        {"section":"Vol / Rates","label":"VIX","value":fmt_num(spy.module_meta["vix"]["vix"]),"d1":fmt_pct(pct_change(spy.module_meta["vix"]["vix"],last_valid(mkt["VIX"]["Close"].dropna(),2))),"d5":fmt_pct(spy.module_meta["vix"]["vix_5d_chg"]),"aux":f"MA20 대비 {fmt_num(spy.module_meta['vix']['vix_ratio20'],3)}","status":classify_vol(spy.module_meta["vix"]["vix"],spy.module_meta["vix"]["vix_ratio20"])},
+        {"section":"Vol / Rates","label":"VKOSPI","value":fmt_num(kospi.module_meta["vkospi"]["vkospi"]),"d1":fmt_pct(pct_change(kospi.module_meta["vkospi"]["vkospi"],safe_float(list(read_krx_cache().get("vkospi",{}).values())[-2] if len(read_krx_cache().get("vkospi",{}))>=2 else None))),"d5":fmt_pct(kospi.module_meta["vkospi"]["vkospi_5d_chg"]),"aux":f"MA20 대비 {fmt_num(kospi.module_meta['vkospi']['vkospi_ratio20'],3)}","status":classify_vkospi(kospi.module_meta["vkospi"]["vkospi"],kospi.module_meta["vkospi"]["vkospi_ratio20"])},
         {"section":"Vol / Rates","label":"US 10Y","value":f"{fmt_num(macro['us10y'],2)}%","d1":fmt_bp(macro["us10y_1d_bp"]),"d5":fmt_bp(macro["us10y_5d_bp"]),"aux":f"20일 {fmt_bp(macro['us10y_20d_bp'])}","status":classify_rates(macro["us10y_20d_bp"])},
         {"section":"Vol / Rates","label":"2Y-10Y","value":f"{fmt_num(macro['curve_2s10s'],2)}%","d1":fmt_bp(macro["curve_2s10s_1d_bp"]),"d5":fmt_bp(macro["curve_2s10s_5d_bp"]),"aux":"Steepening" if safe_float(macro["curve_2s10s_5d_bp"],0)>0 else "Flattening","status":"good" if safe_float(macro["curve_2s10s_5d_bp"],0)>5 else "warn"},
-        {"section":"FX / Safe Haven","label":"USD/KRW","value":fmt_num(kospi.module_meta["fx"]["usdkrw"]),"d1":"—","d5":"—","aux":f"20일 {fmt_pct(kospi.module_meta['fx']['usdkrw_ret20'])}","status":classify_fx(kospi.module_meta["fx"]["usdkrw_ret20"])},
+        {"section":"FX / Safe Haven","label":"USD/KRW","value":fmt_num(kospi.module_meta["fx"]["usdkrw"]),"d1":fmt_pct(pct_change(kospi.module_meta["fx"]["usdkrw"],last_valid(mkt["USDKRW"]["Close"].dropna(),2))),"d5":fmt_pct(pct_change(kospi.module_meta["fx"]["usdkrw"],last_valid(mkt["USDKRW"]["Close"].dropna(),6))),"aux":f"20일 {fmt_pct(kospi.module_meta['fx']['usdkrw_ret20'])}","status":classify_fx(kospi.module_meta["fx"]["usdkrw_ret20"])},
         {"section":"FX / Safe Haven","label":"Dollar Index","value":fmt_num(macro["dxy"]),"d1":fmt_pct(macro["dxy_1d"]),"d5":fmt_pct(macro["dxy_5d"]),"aux":"20일선 상회" if safe_float(macro["dxy"])>safe_float(macro["dxy_ma20"],1e9) else "20일선 하회","status":"warn" if safe_float(macro["dxy"])>safe_float(macro["dxy_ma20"],1e9) else "good"},
         {"section":"FX / Safe Haven","label":"Gold","value":fmt_num(macro["gold"],1),"d1":fmt_pct(macro["gold_1d"]),"d5":fmt_pct(macro["gold_5d"]),"aux":"안전자산 강세" if safe_float(macro["gold_5d"],0)>0 else "중립","status":"good" if safe_float(macro["gold_5d"],0)>0 else "warn"},
         {"section":"FX / Credit","label":"HY OAS","value":f"{fmt_num(macro['hy_oas'],2)}%","d1":fmt_bp(macro["hy_oas_1d_bp"]),"d5":fmt_bp(macro["hy_oas_5d_bp"]),"aux":"신용 경계" if safe_float(macro["hy_oas"],0)>=3.5 else "신용 안정","status":"bad" if safe_float(macro["hy_oas"],0)>=4.0 else "warn" if safe_float(macro["hy_oas"],0)>=3.5 else "good"},
@@ -839,6 +843,14 @@ def generate_html(us_results, kr_results, us_updated, kr_updated, macro):
     main_cards_html = "".join(f'''<div class="main-card"><div><div class="main-card-top"><div><div class="main-section">{c["section"]}</div><div class="main-title">{c["label"]}</div></div><div class="mini-badge {c["status"]}">{status_to_badge(c["status"])}</div></div><div class="main-value">{c["value"]}</div><div class="main-metrics"><div class="row"><span>1일 변화</span><span>{c["d1"]}</span></div><div class="row"><span>5일 변화</span><span>{c["d5"]}</span></div><div class="row"><span>판단</span><span>{c["aux"]}</span></div></div></div></div>''' for c in main_cards)
 
     score = sum(1 if c["status"]=="good" else -1 if c["status"]=="bad" else 0 for c in main_cards)
+    if mkt is None:
+        mkt = {k: pd.DataFrame() for k in TICKERS}
+    if "GSPC" not in mkt or mkt["GSPC"].empty:
+        mkt["GSPC"] = pd.DataFrame({"Close": spy.module_meta["trend"]["close"] * pd.Series([8.6])})
+    if "NDX" not in mkt or mkt["NDX"].empty:
+        mkt["NDX"] = pd.DataFrame({"Close": qqq.module_meta["trend"]["close"] * pd.Series([40.0])})
+    gspc_close = mkt["GSPC"]["Close"].dropna()
+    ndx_close  = mkt["NDX"]["Close"].dropna()
     if score>=3: regime_text="RISK-ON"; regime_class="riskon"; regime_desc="주식/변동성/신용 전반이 비교적 안정적입니다."
     elif score<=-3: regime_text="RISK-OFF"; regime_class="riskoff"; regime_desc="금리·달러·변동성 부담이 우세합니다."
     else: regime_text="NEUTRAL"; regime_class="neutral"; regime_desc="강세와 약세 신호가 혼재합니다."
@@ -1018,7 +1030,7 @@ def main():
 
     ts = fmt_ts_kst()
     print("[INFO] Generating HTML...")
-    html = generate_html(us_results, kr_results, ts, ts, macro)
+    html = generate_html(us_results, kr_results, ts, ts, macro, mkt=mkt)
     with open(INDEX_FILE, "w", encoding="utf-8") as f:
         f.write(html)
 
