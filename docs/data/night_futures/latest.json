@@ -1,10 +1,10 @@
 {
-  "generated_at_kst": "2026-03-23T21:57:05.248158+09:00",
+  "generated_at_kst": "2026-03-23T22:00:32.057776+09:00",
   "biz_date": "2026-03-23",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0",
-  "note": "snapshot update failed: At least one of KIS_NIGHT_KOSPI_TR_KEY / KIS_NIGHT_KOSDAQ_TR_KEY is required",
-  "token_status": "error",
+  "note": "live websocket snapshot updated",
+  "token_status": "ready",
   "series": {
     "kospi": [
       {
@@ -45,6 +45,35 @@
           "change": "futs_prdy_vrss",
           "change_pct": "futs_prdy_ctrt",
           "base_price": null
+        }
+      },
+      {
+        "time": "22:00",
+        "bsop_hour": "220039",
+        "price": 852.9,
+        "change": 47.9,
+        "change_pct": 5.95,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 807.9,
+        "session_high": 869.4,
+        "session_low": 796.55,
+        "ask1": 853.45,
+        "bid1": 852.9,
+        "acml_vol": 21990.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "raw_fields": {
+          "FUTS_PRPR": "852.90",
+          "FUTS_PRDY_VRSS": "47.90",
+          "FUTS_PRDY_CTRT": "5.95",
+          "FUTS_OPRC": "807.90",
+          "FUTS_HGPR": "869.40",
+          "FUTS_LWPR": "796.55",
+          "FUTS_ASKP1": "853.45",
+          "FUTS_BIDP1": "852.90",
+          "ACML_VOL": "21990",
+          "LAST_CNQN": "1"
         }
       }
     ],
@@ -93,14 +122,21 @@
   },
   "summary": {
     "kospi": {
-      "last": 805.0,
-      "change": -57.55,
-      "change_pct": -6.67,
-      "high": 805.0,
+      "last": 852.9,
+      "change": 47.9,
+      "change_pct": 5.95,
+      "high": 852.9,
       "low": 805.0,
-      "points": 3,
+      "points": 4,
       "last_symbol": "A01606",
-      "last_name": "F 202606"
+      "last_name": "KOSPI Night Futures",
+      "open": 807.9,
+      "session_high": 869.4,
+      "session_low": 796.55,
+      "ask1": 853.45,
+      "bid1": 852.9,
+      "spread": 0.55,
+      "acml_vol": 21990.0
     },
     "kosdaq": {
       "last": 1916.0,
@@ -124,7 +160,7 @@
       "last_messages": "tmp/night_futures_ws/last_messages.json"
     },
     "configured_tr_keys": {
-      "kospi": null,
+      "kospi": "A01606",
       "kosdaq": null
     }
   }
