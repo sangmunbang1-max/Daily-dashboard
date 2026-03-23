@@ -20,7 +20,9 @@ jobs:
       TZ: Asia/Seoul
       KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
       KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
-      KIS_FO_QUOTE_URL: "https://openapi.koreainvestment.com:9443/uapi/domestic-futureoption/v1/quotations/display-board-futures"
+      KIS_NIGHT_KOSPI_TR_KEY: ${{ secrets.KIS_NIGHT_KOSPI_TR_KEY }}
+      KIS_NIGHT_KOSDAQ_TR_KEY: ${{ secrets.KIS_NIGHT_KOSDAQ_TR_KEY }}
+      KIS_WS_WAIT_SECONDS: "12"
 
     steps:
       - name: Checkout
@@ -34,7 +36,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests websockets
 
       - name: Run night futures snapshot
         run: python collect_night_futures.py
@@ -44,6 +46,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/night_futures/latest.json
-          mkdir -p tmp && git add tmp/ || true
+          git add tmp/night_futures_ws/ || true
           git diff --cached --quiet || git commit -m "Update night futures snapshot"
           git push
