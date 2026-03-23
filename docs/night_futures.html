@@ -1,432 +1,569 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Night Futures Dashboard</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Night Futures</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     :root{
-      --bg:#0b1220;
-      --panel:#111827;
-      --card:#1f2937;
-      --line:#374151;
-      --text:#f9fafb;
-      --muted:#9ca3af;
-      --accent:#60a5fa;
+      --bg:#06142b;
+      --panel:#0c1c3a;
+      --panel-2:#1f2d45;
+      --line:#294061;
+      --text:#eaf2ff;
+      --muted:#9fb3d9;
+      --accent:#3db2ff;
+      --good:#19e68c;
+      --bad:#ff6b6b;
+      --warn:#ffd166;
     }
     *{box-sizing:border-box}
     body{
       margin:0;
-      font-family: Arial, sans-serif;
       background:var(--bg);
       color:var(--text);
+      font-family:Arial, "Noto Sans KR", sans-serif;
     }
     .wrap{
-      max-width:1200px;
+      max-width:1400px;
       margin:0 auto;
-      padding:24px 16px 40px;
+      padding:28px 24px 40px;
     }
     .topbar{
       display:flex;
       justify-content:space-between;
-      align-items:center;
-      gap:12px;
-      margin-bottom:20px;
-      flex-wrap:wrap;
+      align-items:flex-start;
+      gap:20px;
+      margin-bottom:18px;
     }
-    .title{
-      font-size:28px;
-      font-weight:700;
+    h1{
+      margin:0 0 6px 0;
+      font-size:32px;
+      font-weight:800;
     }
     .sub{
       color:var(--muted);
-      font-size:14px;
-      margin-top:4px;
-    }
-    .btn{
-      display:inline-block;
-      padding:10px 14px;
-      border-radius:10px;
-      background:var(--card);
-      color:var(--text);
-      text-decoration:none;
-      border:1px solid var(--line);
-    }
-    .grid{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:16px;
-    }
-    @media (max-width: 900px){
-      .grid{grid-template-columns:1fr;}
-    }
-    .card{
-      background:var(--panel);
-      border:1px solid var(--line);
-      border-radius:16px;
-      padding:18px;
-    }
-    .card h2{
-      margin:0 0 12px;
-      font-size:20px;
+      font-size:15px;
     }
     .meta{
       display:flex;
-      gap:16px;
       flex-wrap:wrap;
-      margin-bottom:12px;
+      gap:18px;
       color:var(--muted);
+      margin:18px 0 22px;
       font-size:14px;
     }
-    .stats{
+    .meta b{
+      color:var(--text);
+      font-weight:700;
+    }
+    .status-ready{color:var(--good); font-weight:700;}
+    .status-error{color:var(--bad); font-weight:700;}
+    .status-warn{color:var(--warn); font-weight:700;}
+
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+    }
+    .panel{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:24px;
+      padding:18px 18px 22px;
+      min-height:600px;
+    }
+    .panel h2{
+      margin:6px 8px 14px;
+      font-size:24px;
+      font-weight:800;
+    }
+    .cards{
       display:grid;
       grid-template-columns:repeat(3, 1fr);
-      gap:10px;
+      gap:12px;
       margin-bottom:14px;
     }
-    .stat{
-      background:var(--card);
-      border:1px solid var(--line);
-      border-radius:12px;
-      padding:12px;
+    .card{
+      background:var(--panel-2);
+      border:1px solid #355173;
+      border-radius:16px;
+      padding:14px 16px;
+      min-height:78px;
     }
-    .stat-label{
+    .label{
+      color:var(--muted);
+      font-size:14px;
+      margin-bottom:8px;
+    }
+    .value{
+      font-size:18px;
+      font-weight:800;
+      color:var(--text);
+    }
+    .chart-wrap{
+      position:relative;
+      height:360px;
+      margin-top:8px;
+    }
+    .extra{
+      margin-top:14px;
+      display:grid;
+      grid-template-columns:repeat(4, 1fr);
+      gap:10px;
+    }
+    .extra .mini{
+      background:rgba(255,255,255,0.03);
+      border:1px solid rgba(159,179,217,0.16);
+      border-radius:14px;
+      padding:10px 12px;
+      min-height:64px;
+    }
+    .mini .k{
       color:var(--muted);
       font-size:12px;
       margin-bottom:6px;
     }
-    .stat-value{
-      font-size:18px;
+    .mini .v{
+      color:var(--text);
       font-weight:700;
+      font-size:14px;
     }
-    .note{
+    .note-box{
+      margin-top:14px;
+      padding:12px 14px;
+      border-radius:14px;
+      background:rgba(255,255,255,0.03);
+      border:1px solid rgba(159,179,217,0.16);
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.45;
+    }
+    .empty-msg{
+      margin-top:14px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .footer-note{
       margin-top:20px;
       color:var(--muted);
       font-size:13px;
     }
-    canvas{
-      width:100% !important;
-      height:320px !important;
-      background:#0f172a;
-      border-radius:12px;
-      padding:8px;
+    .back-btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      text-decoration:none;
+      color:var(--text);
+      background:#162742;
+      border:1px solid #314a6d;
+      border-radius:14px;
+      padding:12px 18px;
+      font-weight:700;
     }
-    .empty{
-      color:var(--muted);
-      padding:24px 0 8px;
-      font-size:14px;
+    @media (max-width: 1100px){
+      .grid{grid-template-columns:1fr}
     }
-    .ok{color:#34d399}
-    .warn{color:#fbbf24}
-    .bad{color:#f87171}
+    @media (max-width: 760px){
+      .cards{grid-template-columns:1fr}
+      .extra{grid-template-columns:1fr 1fr}
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="topbar">
       <div>
-        <div class="title">Night Futures</div>
-        <div class="sub" id="pageSub">전일 야간선물 30분 스냅샷</div>
+        <h1>Night Futures</h1>
+        <div class="sub">전일 야간선물 스냅샷</div>
       </div>
-      <a class="btn" href="./">← 메인 대시보드로</a>
+      <a class="back-btn" href="./index.html">← 메인 대시보드로</a>
     </div>
 
     <div class="meta">
-      <div>생성시각: <span id="generatedAt">-</span></div>
-      <div>기준일자: <span id="bizDate">-</span></div>
-      <div>토큰상태: <span id="tokenStatus" class="warn">-</span></div>
+      <div>생성시각: <b id="generatedAt">-</b></div>
+      <div>기준일자: <b id="bizDate">-</b></div>
+      <div>토큰상태: <b id="tokenStatus">-</b></div>
+      <div>소스: <b id="sourceName">-</b></div>
+      <div>연결: <b id="connectedWs">-</b></div>
     </div>
 
     <div class="grid">
-      <div class="card">
+      <section class="panel">
         <h2>KOSPI 야간선물</h2>
-        <div class="stats">
-          <div class="stat">
-            <div class="stat-label">마지막 값</div>
-            <div class="stat-value" id="kospiLast">-</div>
-          </div>
-          <div class="stat">
-            <div class="stat-label">등락</div>
-            <div class="stat-value" id="kospiChange">-</div>
-          </div>
-          <div class="stat">
-            <div class="stat-label">포인트 수</div>
-            <div class="stat-value" id="kospiPoints">0</div>
-          </div>
-        </div>
-        <canvas id="kospiChart"></canvas>
-        <div class="empty" id="kospiEmpty">아직 데이터가 없습니다.</div>
-      </div>
 
-      <div class="card">
-        <h2>KOSDAQ 야간선물</h2>
-        <div class="stats">
-          <div class="stat">
-            <div class="stat-label">마지막 값</div>
-            <div class="stat-value" id="kosdaqLast">-</div>
+        <div class="cards">
+          <div class="card">
+            <div class="label">마지막 값</div>
+            <div class="value" id="kospiLast">-</div>
           </div>
-          <div class="stat">
-            <div class="stat-label">등락</div>
-            <div class="stat-value" id="kosdaqChange">-</div>
+          <div class="card">
+            <div class="label">등락</div>
+            <div class="value" id="kospiChange">-</div>
           </div>
-          <div class="stat">
-            <div class="stat-label">포인트 수</div>
-            <div class="stat-value" id="kosdaqPoints">0</div>
+          <div class="card">
+            <div class="label">포인트 수</div>
+            <div class="value" id="kospiPoints">0</div>
           </div>
         </div>
-        <canvas id="kosdaqChart"></canvas>
-        <div class="empty" id="kosdaqEmpty">아직 데이터가 없습니다.</div>
-      </div>
+
+        <div class="chart-wrap">
+          <canvas id="kospiChart"></canvas>
+        </div>
+
+        <div class="extra">
+          <div class="mini"><div class="k">시가</div><div class="v" id="kospiOpen">-</div></div>
+          <div class="mini"><div class="k">세션고가</div><div class="v" id="kospiHigh">-</div></div>
+          <div class="mini"><div class="k">세션저가</div><div class="v" id="kospiLow">-</div></div>
+          <div class="mini"><div class="k">누적거래량</div><div class="v" id="kospiVol">-</div></div>
+          <div class="mini"><div class="k">매도1</div><div class="v" id="kospiAsk1">-</div></div>
+          <div class="mini"><div class="k">매수1</div><div class="v" id="kospiBid1">-</div></div>
+          <div class="mini"><div class="k">스프레드</div><div class="v" id="kospiSpread">-</div></div>
+          <div class="mini"><div class="k">수집유형</div><div class="v" id="kospiSourceType">-</div></div>
+        </div>
+
+        <div class="note-box">
+          <div>market_status: <span id="kospiStatus">-</span></div>
+          <div>last_symbol: <span id="kospiSymbol">-</span></div>
+        </div>
+
+        <div class="empty-msg" id="kospiEmpty" style="display:none;">아직 데이터가 없습니다.</div>
+      </section>
+
+      <section class="panel">
+        <h2>KOSDAQ 야간선물</h2>
+
+        <div class="cards">
+          <div class="card">
+            <div class="label">마지막 값</div>
+            <div class="value" id="kosdaqLast">-</div>
+          </div>
+          <div class="card">
+            <div class="label">등락</div>
+            <div class="value" id="kosdaqChange">-</div>
+          </div>
+          <div class="card">
+            <div class="label">포인트 수</div>
+            <div class="value" id="kosdaqPoints">0</div>
+          </div>
+        </div>
+
+        <div class="chart-wrap">
+          <canvas id="kosdaqChart"></canvas>
+        </div>
+
+        <div class="extra">
+          <div class="mini"><div class="k">시가</div><div class="v" id="kosdaqOpen">-</div></div>
+          <div class="mini"><div class="k">세션고가</div><div class="v" id="kosdaqHigh">-</div></div>
+          <div class="mini"><div class="k">세션저가</div><div class="v" id="kosdaqLow">-</div></div>
+          <div class="mini"><div class="k">누적거래량</div><div class="v" id="kosdaqVol">-</div></div>
+          <div class="mini"><div class="k">매도1</div><div class="v" id="kosdaqAsk1">-</div></div>
+          <div class="mini"><div class="k">매수1</div><div class="v" id="kosdaqBid1">-</div></div>
+          <div class="mini"><div class="k">스프레드</div><div class="v" id="kosdaqSpread">-</div></div>
+          <div class="mini"><div class="k">수집유형</div><div class="v" id="kosdaqSourceType">-</div></div>
+        </div>
+
+        <div class="note-box">
+          <div>market_status: <span id="kosdaqStatus">-</span></div>
+          <div>last_symbol: <span id="kosdaqSymbol">-</span></div>
+        </div>
+
+        <div class="empty-msg" id="kosdaqEmpty" style="display:none;">아직 데이터가 없습니다.</div>
+      </section>
     </div>
 
-    <div class="note">
+    <div class="note-box" style="margin-top:18px;">
+      <div>note: <span id="noteText">-</span></div>
+      <div>received trade symbols: <span id="tradeSymbols">-</span></div>
+      <div>received quote symbols: <span id="quoteSymbols">-</span></div>
+    </div>
+
+    <div class="footer-note">
       현재는 <code>docs/data/night_futures/latest.json</code> 파일을 읽도록 구성되어 있다.
-      실데이터 연결 전에는 stub 데이터가 표시될 수 있다.
     </div>
   </div>
 
   <script>
-  let kospiChart = null;
-  let kosdaqChart = null;
+    let kospiChart = null;
+    let kosdaqChart = null;
 
-  function fmtNum(v, digits = 2) {
-    if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
-    return Number(v).toLocaleString("en-US", {
-      minimumFractionDigits: digits,
-      maximumFractionDigits: digits
-    });
-  }
-
-  function fmtSigned(v, digits = 2) {
-    if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
-    const n = Number(v);
-    const sign = n > 0 ? "+" : "";
-    return `${sign}${fmtNum(n, digits)}`;
-  }
-
-  function fmtSignedPct(v, digits = 2) {
-    if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
-    const n = Number(v);
-    const sign = n > 0 ? "+" : "";
-    return `${sign}${fmtNum(n, digits)}%`;
-  }
-
-  function makeSessionGrid15m() {
-    const labels = [];
-
-    // 18:00 ~ 23:45
-    for (let h = 18; h <= 23; h++) {
-      for (let m = 0; m < 60; m += 15) {
-        labels.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
-      }
+    function fmtNum(v, digits = 2) {
+      if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
+      return Number(v).toLocaleString("en-US", {
+        minimumFractionDigits: digits,
+        maximumFractionDigits: digits
+      });
     }
 
-    // 00:00 ~ 05:45
-    for (let h = 0; h <= 5; h++) {
-      for (let m = 0; m < 60; m += 15) {
-        labels.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
-      }
+    function fmtSigned(v, digits = 2) {
+      if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
+      const n = Number(v);
+      const sign = n > 0 ? "+" : "";
+      return `${sign}${fmtNum(n, digits)}`;
     }
 
-    return labels;
-  }
-
-  function buildSeriesOnGrid(points) {
-    const grid = makeSessionGrid15m();
-    const pointMap = new Map();
-
-    (points || []).forEach(p => {
-      if (!p || !p.time) return;
-      pointMap.set(p.time, p.price ?? null);
-    });
-
-    const values = grid.map(t => pointMap.has(t) ? pointMap.get(t) : null);
-    return { labels: grid, values };
-  }
-
-  function calcYRange(values) {
-    const nums = values.filter(v => v !== null && v !== undefined && !Number.isNaN(Number(v))).map(Number);
-    if (!nums.length) {
-      return { min: 0, max: 100 };
+    function fmtSignedPct(v, digits = 2) {
+      if (v === null || v === undefined || Number.isNaN(Number(v))) return "-";
+      const n = Number(v);
+      const sign = n > 0 ? "+" : "";
+      return `${sign}${fmtNum(n, digits)}%`;
     }
 
-    let min = Math.min(...nums);
-    let max = Math.max(...nums);
-
-    if (min === max) {
-      const pad = Math.max(Math.abs(min) * 0.01, 1);
-      return { min: min - pad, max: max + pad };
+    function setText(id, value) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.textContent = value ?? "-";
     }
 
-    const pad = (max - min) * 0.15;
-    return {
-      min: min - pad,
-      max: max + pad
-    };
-  }
-
-  function renderMiniStats(summary, prefix) {
-    const lastEl = document.getElementById(`${prefix}Last`);
-    const chgEl = document.getElementById(`${prefix}Change`);
-    const ptsEl = document.getElementById(`${prefix}Points`);
-
-    if (!summary) {
-      lastEl.textContent = "-";
-      chgEl.textContent = "-";
-      ptsEl.textContent = "0";
-      return;
-    }
-
-    lastEl.textContent = fmtNum(summary.last, 2);
-
-    if (summary.change == null || summary.change_pct == null) {
-      chgEl.textContent = "-";
-    } else {
-      chgEl.textContent = `${fmtSigned(summary.change, 2)} (${fmtSignedPct(summary.change_pct, 2)})`;
-    }
-
-    ptsEl.textContent = String(summary.points ?? 0);
-  }
-
-  function destroyChartIfExists(chartObj) {
-    if (chartObj) chartObj.destroy();
-  }
-
-  function makeChart(canvasId, label, points, chartObjRefName) {
-    const ctx = document.getElementById(canvasId).getContext("2d");
-    const { labels, values } = buildSeriesOnGrid(points || []);
-    const yRange = calcYRange(values);
-
-    const data = {
-      labels,
-      datasets: [
-        {
-          label,
-          data: values,
-          borderColor: "#3db2ff",
-          backgroundColor: "rgba(61,178,255,0.18)",
-          borderWidth: 2,
-          pointRadius: (context) => {
-            const v = context.raw;
-            return v === null ? 0 : 2.5;
-          },
-          pointHoverRadius: (context) => {
-            const v = context.raw;
-            return v === null ? 0 : 4;
-          },
-          spanGaps: false,
-          tension: 0.15
+    function makeSessionGrid15m() {
+      const labels = [];
+      for (let h = 18; h <= 23; h++) {
+        for (let m = 0; m < 60; m += 15) {
+          labels.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
         }
-      ]
-    };
+      }
+      for (let h = 0; h <= 5; h++) {
+        for (let m = 0; m < 60; m += 15) {
+          labels.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
+        }
+      }
+      return labels;
+    }
 
-    const config = {
-      type: "line",
-      data,
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        interaction: {
-          mode: "index",
-          intersect: false
-        },
-        plugins: {
-          legend: {
-            display: true,
-            labels: {
-              color: "#d7e3ff"
-            }
-          },
-          tooltip: {
-            callbacks: {
-              label: function(context) {
+    function normalizeTimeToGrid(t) {
+      if (!t || typeof t !== "string") return null;
+
+      if (/^\d{2}:\d{2}$/.test(t)) {
+        const [hh, mm] = t.split(":").map(Number);
+        const q = Math.floor(mm / 15) * 15;
+        return `${String(hh).padStart(2, "0")}:${String(q).padStart(2, "0")}`;
+      }
+
+      if (/^\d{6}$/.test(t)) {
+        const hh = Number(t.slice(0, 2));
+        const mm = Number(t.slice(2, 4));
+        const q = Math.floor(mm / 15) * 15;
+        return `${String(hh).padStart(2, "0")}:${String(q).padStart(2, "0")}`;
+      }
+
+      return null;
+    }
+
+    function buildSeriesOnGrid(points) {
+      const grid = makeSessionGrid15m();
+      const pointMap = new Map();
+
+      (points || []).forEach(p => {
+        if (!p) return;
+        const t = normalizeTimeToGrid(p.bsop_hour || p.time);
+        if (!t) return;
+        if (p.price === null || p.price === undefined || Number.isNaN(Number(p.price))) return;
+        pointMap.set(t, Number(p.price));
+      });
+
+      const values = grid.map(t => pointMap.has(t) ? pointMap.get(t) : null);
+      return { labels: grid, values };
+    }
+
+    function calcYRange(values) {
+      const nums = values
+        .filter(v => v !== null && v !== undefined && !Number.isNaN(Number(v)))
+        .map(Number);
+
+      if (!nums.length) {
+        return { min: 0, max: 100 };
+      }
+
+      let min = Math.min(...nums);
+      let max = Math.max(...nums);
+
+      if (min === max) {
+        const pad = Math.max(Math.abs(min) * 0.01, 3);
+        return { min: min - pad, max: max + pad };
+      }
+
+      const pad = Math.max((max - min) * 0.18, 2);
+      return {
+        min: min - pad,
+        max: max + pad
+      };
+    }
+
+    function renderMiniStats(summary, prefix) {
+      setText(`${prefix}Last`, fmtNum(summary?.last, 2));
+
+      if (summary?.change == null || summary?.change_pct == null) {
+        setText(`${prefix}Change`, "-");
+      } else {
+        setText(
+          `${prefix}Change`,
+          `${fmtSigned(summary.change, 2)} (${fmtSignedPct(summary.change_pct, 2)})`
+        );
+      }
+
+      setText(`${prefix}Points`, String(summary?.points ?? 0));
+      setText(`${prefix}Open`, fmtNum(summary?.open, 2));
+      setText(`${prefix}High`, fmtNum(summary?.session_high, 2));
+      setText(`${prefix}Low`, fmtNum(summary?.session_low, 2));
+      setText(`${prefix}Vol`, fmtNum(summary?.acml_vol, 0));
+      setText(`${prefix}Ask1`, fmtNum(summary?.ask1, 2));
+      setText(`${prefix}Bid1`, fmtNum(summary?.bid1, 2));
+      setText(`${prefix}Spread`, fmtNum(summary?.spread, 2));
+      setText(`${prefix}SourceType`, summary?.source_type ?? "-");
+      setText(`${prefix}Symbol`, summary?.last_symbol ?? "-");
+    }
+
+    function destroyChartIfExists(chartObj) {
+      if (chartObj) chartObj.destroy();
+    }
+
+    function makeChart(canvasId, label, points, chartKind) {
+      const ctx = document.getElementById(canvasId).getContext("2d");
+      const { labels, values } = buildSeriesOnGrid(points || []);
+      const yRange = calcYRange(values);
+      const hasAnyData = values.some(v => v !== null && v !== undefined);
+
+      const config = {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            {
+              label,
+              data: values,
+              borderColor: "#3db2ff",
+              backgroundColor: "rgba(61,178,255,0.16)",
+              borderWidth: 2,
+              pointRadius: (context) => {
                 const v = context.raw;
-                if (v == null) return `${label}: -`;
-                return `${label}: ${fmtNum(v, 2)}`;
-              }
+                return v == null ? 0 : 2.5;
+              },
+              pointHoverRadius: (context) => {
+                const v = context.raw;
+                return v == null ? 0 : 4;
+              },
+              spanGaps: false,
+              tension: 0.15
             }
-          }
+          ]
         },
-        scales: {
-          x: {
-            ticks: {
-              color: "#9fb3d9",
-              autoSkip: false,
-              maxRotation: 0,
-              callback: function(value, index) {
-                const lbl = this.getLabelForValue(value);
-                const [hh, mm] = lbl.split(":").map(Number);
-
-                // 1시간 단위만 표시
-                if (mm === 0) return lbl;
-                return "";
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: {
+            mode: "index",
+            intersect: false
+          },
+          plugins: {
+            legend: {
+              display: true,
+              labels: {
+                color: "#d7e3ff"
               }
             },
-            grid: {
-              color: "rgba(159,179,217,0.12)"
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  const v = context.raw;
+                  if (v == null) return `${label}: -`;
+                  return `${label}: ${fmtNum(v, 2)}`;
+                }
+              }
             }
           },
-          y: {
-            min: yRange.min,
-            max: yRange.max,
-            ticks: {
-              color: "#9fb3d9",
-              callback: function(value) {
-                return fmtNum(value, 0);
+          scales: {
+            x: {
+              ticks: {
+                color: "#9fb3d9",
+                autoSkip: false,
+                maxRotation: 0,
+                callback: function(value) {
+                  const lbl = this.getLabelForValue(value);
+                  const [hh, mm] = lbl.split(":").map(Number);
+                  return mm === 0 ? lbl : "";
+                }
+              },
+              grid: {
+                color: "rgba(159,179,217,0.12)"
               }
             },
-            grid: {
-              color: "rgba(159,179,217,0.12)"
+            y: {
+              min: yRange.min,
+              max: yRange.max,
+              ticks: {
+                color: "#9fb3d9",
+                callback: function(value) {
+                  return fmtNum(value, 0);
+                }
+              },
+              grid: {
+                color: "rgba(159,179,217,0.12)"
+              }
             }
           }
         }
+      };
+
+      if (chartKind === "kospi") {
+        destroyChartIfExists(kospiChart);
+        kospiChart = new Chart(ctx, config);
+        document.getElementById("kospiEmpty").style.display = hasAnyData ? "none" : "block";
+      } else {
+        destroyChartIfExists(kosdaqChart);
+        kosdaqChart = new Chart(ctx, config);
+        document.getElementById("kosdaqEmpty").style.display = hasAnyData ? "none" : "block";
       }
-    };
-
-    if (chartObjRefName === "kospi") {
-      destroyChartIfExists(kospiChart);
-      kospiChart = new Chart(ctx, config);
-    } else if (chartObjRefName === "kosdaq") {
-      destroyChartIfExists(kosdaqChart);
-      kosdaqChart = new Chart(ctx, config);
     }
-  }
 
-  async function loadData() {
-    try {
-      const res = await fetch("./data/night_futures/latest.json?ts=" + Date.now());
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    async function loadData() {
+      try {
+        const res = await fetch("./data/night_futures/latest.json?ts=" + Date.now());
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
 
-      const data = await res.json();
+        setText("generatedAt", data.generated_at_kst ?? "-");
+        setText("bizDate", data.biz_date ?? "-");
 
-      document.getElementById("generatedAt").textContent = data.generated_at_kst ?? "-";
-      document.getElementById("bizDate").textContent = data.biz_date ?? "-";
-      document.getElementById("tokenStatus").textContent = data.token_status ?? "-";
+        const tokenStatus = data.token_status ?? "-";
+        const tokenEl = document.getElementById("tokenStatus");
+        tokenEl.textContent = tokenStatus;
+        tokenEl.className =
+          tokenStatus === "ready" ? "status-ready" :
+          tokenStatus === "error" ? "status-error" : "status-warn";
 
-      renderMiniStats(data.summary?.kospi, "kospi");
-      renderMiniStats(data.summary?.kosdaq, "kosdaq");
+        setText("sourceName", data.source ?? "-");
+        setText("connectedWs", data.meta?.connected_ws_url ?? "-");
+        setText("noteText", data.note ?? "-");
+        setText("tradeSymbols", (data.meta?.received_symbols?.trade || []).join(", ") || "-");
+        setText("quoteSymbols", (data.meta?.received_symbols?.quote || []).join(", ") || "-");
 
-      makeChart(
-        "kospiChart",
-        data.summary?.kospi?.last_name || "KOSPI Night Futures",
-        data.series?.kospi || [],
-        "kospi"
-      );
+        setText("kospiStatus", data.meta?.market_status?.kospi ?? "-");
+        setText("kosdaqStatus", data.meta?.market_status?.kosdaq ?? "-");
 
-      makeChart(
-        "kosdaqChart",
-        data.summary?.kosdaq?.last_name || "KOSDAQ Night Futures",
-        data.series?.kosdaq || [],
-        "kosdaq"
-      );
-    } catch (err) {
-      console.error(err);
-      document.getElementById("generatedAt").textContent = "로드 실패";
+        renderMiniStats(data.summary?.kospi, "kospi");
+        renderMiniStats(data.summary?.kosdaq, "kosdaq");
+
+        makeChart(
+          "kospiChart",
+          data.summary?.kospi?.last_name || "KOSPI Night Futures",
+          data.series?.kospi || [],
+          "kospi"
+        );
+
+        makeChart(
+          "kosdaqChart",
+          data.summary?.kosdaq?.last_name || "KOSDAQ Night Futures",
+          data.series?.kosdaq || [],
+          "kosdaq"
+        );
+      } catch (err) {
+        console.error(err);
+        document.getElementById("generatedAt").textContent = "로드 실패";
+      }
     }
-  }
 
-  loadData();
-</script>
+    loadData();
+  </script>
 </body>
 </html>
