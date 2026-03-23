@@ -1,30 +1,44 @@
 {
-  "generated_at_kst": "2026-03-23T21:05:54.213684+09:00",
+  "generated_at_kst": "2026-03-23T21:14:31.327613+09:00",
   "biz_date": "2026-03-23",
   "session": "night",
   "source": "KIS",
-  "note": "snapshot update failed",
-  "token_status": "missing",
+  "note": "live snapshot updated",
+  "token_status": "ready",
   "series": {
-    "kospi": [],
-    "kosdaq": []
+    "kospi": [
+      {
+        "time": "21:14",
+        "price": 805.0,
+        "change": -57.55,
+        "change_pct": -6.67
+      }
+    ],
+    "kosdaq": [
+      {
+        "time": "21:14",
+        "price": 1916.0,
+        "change": -114.2,
+        "change_pct": -5.63
+      }
+    ]
   },
   "summary": {
     "kospi": {
-      "last": null,
-      "change": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "points": 0
+      "last": 805.0,
+      "change": -57.55,
+      "change_pct": -6.67,
+      "high": 805.0,
+      "low": 805.0,
+      "points": 1
     },
     "kosdaq": {
-      "last": null,
-      "change": null,
-      "change_pct": null,
-      "high": null,
-      "low": null,
-      "points": 0
+      "last": 1916.0,
+      "change": -114.2,
+      "change_pct": -5.63,
+      "high": 1916.0,
+      "low": 1916.0,
+      "points": 1
     }
   },
   "meta": {
