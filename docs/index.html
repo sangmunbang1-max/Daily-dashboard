@@ -346,32 +346,367 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 </div>
 
 <script>
-(function(){
-  /* MAIN 데이터 */
-  var mainData = [
-    {section:"Equities", label:"S&P 500", value:"648.57", d1:"-1.10%", d5:"-3.40%", aux:"MA50 하회", status:"bad"},
-    {section:"Equities", label:"Nasdaq 100", value:"582.06", d1:"-0.95%", d5:"-2.95%", aux:"MA50 하회", status:"bad"},
-    {section:"Equities", label:"KOSPI", value:"5781.20", d1:"+0.42%", d5:"+1.80%", aux:"MA50 상회", status:"good"},
-    {section:"Equities", label:"KOSDAQ", value:"1161.52", d1:"+0.18%", d5:"+0.59%", aux:"MA50 상회", status:"good"},
+(function () {
+  // =========================
+  // 유틸
+  // =========================
+  function txt(el) {
+    return (el?.textContent || "").trim();
+  }
 
-    {section:"Vol / Rates", label:"VIX", value:"26.78", d1:"+3.20%", d5:"-1.51%", aux:"MA20 대비 1.146", status:"bad"},
-    {section:"Vol / Rates", label:"US 10Y", value:"4.39%", d1:"+6bp", d5:"+14bp", aux:"20일 +30.5bp", status:"warn"},
-    {section:"Vol / Rates", label:"2Y-10Y", value:"0.24%", d1:"+2bp", d5:"+5bp", aux:"Steepening", status:"warn"},
-    {section:"Vol / Rates", label:"Real Yield", value:"2.01%", d1:"+4bp", d5:"+9bp", aux:"성장주 부담", status:"warn"},
+  function normalize(s) {
+    return txt({ textContent: s }).replace(/\s+/g, " ").trim();
+  }
 
-    {section:"FX / Safe Haven", label:"USD/KRW", value:"1502.78", d1:"+0.35%", d5:"+1.20%", aux:"20일 +4.11%", status:"bad"},
-    {section:"FX / Safe Haven", label:"Dollar Index", value:"105.4", d1:"+0.28%", d5:"+0.92%", aux:"20일선 상회", status:"warn"},
-    {section:"FX / Safe Haven", label:"Gold", value:"3035.2", d1:"+0.84%", d5:"+1.75%", aux:"안전자산 강세", status:"good"},
-    {section:"FX / Credit", label:"HY OAS", value:"3.27%", d1:"+4bp", d5:"+9bp", aux:"신용 경계", status:"warn"}
-  ];
+  function parseNum(s) {
+    if (!s) return null;
+    const m = String(s).replace(/,/g, "").match(/-?\d+(\.\d+)?/);
+    return m ? Number(m[0]) : null;
+  }
 
-  function statusLabel(status){
-    if(status === "good") return "양호";
-    if(status === "warn") return "경계";
+  function parseSignedPct(s) {
+    if (!s) return null;
+    const m = String(s).replace(/,/g, "").match(/[+-]?\d+(\.\d+)?/);
+    return m ? `${Number(m[0]) >= 0 ? "+" : ""}${Number(m[0]).toFixed(2)}%` : "—";
+  }
+
+  function parseSignedBp(s) {
+    if (!s) return null;
+    const m = String(s).replace(/,/g, "").match(/[+-]?\d+(\.\d+)?/);
+    return m ? `${Number(m[0]) >= 0 ? "+" : ""}${Number(m[0]).toFixed(1)}bp` : "—";
+  }
+
+  function formatValue(v, digits = 2) {
+    if (v === null || v === undefined || Number.isNaN(v)) return "—";
+    return Number(v).toLocaleString("en-US", {
+      minimumFractionDigits: digits,
+      maximumFractionDigits: digits,
+    });
+  }
+
+  function statusLabel(status) {
+    if (status === "good") return "양호";
+    if (status === "warn") return "경계";
+    if (status === "muted") return "미연동";
     return "위험";
   }
 
-  function buildMainCard(item){
+  // =========================
+  // 현재 페이지의 상세 카드에서 실제값 읽기
+  // =========================
+  function findAssetCardByName(name) {
+    const cards = [...document.querySelectorAll(".asset-card")];
+    return cards.find((card) => {
+      const nameEl = card.querySelector(".asset-name");
+      return txt(nameEl) === name;
+    });
+  }
+
+  function findDetailRowValue(card, labelText) {
+    if (!card) return null;
+    const rows = [...card.querySelectorAll(".detail-row")];
+    for (const row of rows) {
+      const spans = row.querySelectorAll("span");
+      if (spans.length >= 2 && normalize(spans[0].textContent) === normalize(labelText)) {
+        return txt(spans[1]);
+      }
+    }
+    return null;
+  }
+
+  function findSignal(card) {
+    const el = card?.querySelector(".signal-badge");
+    const v = txt(el);
+    if (v === "매수") return "good";
+    if (v === "보유") return "warn";
+    return "bad";
+  }
+
+  // =========================
+  // 기존 상세 카드 기반 MAIN 데이터
+  // =========================
+  function buildBaseMainFromPage() {
+    const spyCard = findAssetCardByName("SPY");
+    const qqqCard = findAssetCardByName("QQQ");
+    const kospiCard = findAssetCardByName("KOSPI");
+    const kosdaqCard = findAssetCardByName("KOSDAQ");
+
+    const data = [];
+
+    // 1행: 주식
+    if (spyCard) {
+      data.push({
+        section: "Equities",
+        label: "S&P 500",
+        value: findDetailRowValue(spyCard, "종가") || "—",
+        d1: "—",
+        d5: findDetailRowValue(spyCard, "10일 수익률") || findDetailRowValue(spyCard, "20일 수익률") || "—",
+        aux: `MA50 ${safeCompare(findDetailRowValue(spyCard, "종가"), findDetailRowValue(spyCard, "MA50"))}`,
+        status: findSignal(spyCard),
+      });
+    }
+
+    if (qqqCard) {
+      data.push({
+        section: "Equities",
+        label: "Nasdaq 100",
+        value: findDetailRowValue(qqqCard, "종가") || "—",
+        d1: "—",
+        d5: findDetailRowValue(qqqCard, "10일 수익률") || findDetailRowValue(qqqCard, "20일 수익률") || "—",
+        aux: `MA50 ${safeCompare(findDetailRowValue(qqqCard, "종가"), findDetailRowValue(qqqCard, "MA50"))}`,
+        status: findSignal(qqqCard),
+      });
+    }
+
+    if (kospiCard) {
+      data.push({
+        section: "Equities",
+        label: "KOSPI",
+        value: findDetailRowValue(kospiCard, "종가") || "—",
+        d1: "—",
+        d5: findDetailRowValue(kospiCard, "10일 수익률") || findDetailRowValue(kospiCard, "20일 수익률") || "—",
+        aux: `MA50 ${safeCompare(findDetailRowValue(kospiCard, "종가"), findDetailRowValue(kospiCard, "MA50"))}`,
+        status: findSignal(kospiCard),
+      });
+    }
+
+    if (kosdaqCard) {
+      data.push({
+        section: "Equities",
+        label: "KOSDAQ",
+        value: findDetailRowValue(kosdaqCard, "종가") || "—",
+        d1: "—",
+        d5: findDetailRowValue(kosdaqCard, "10일 수익률") || findDetailRowValue(kosdaqCard, "20일 수익률") || "—",
+        aux: `MA50 ${safeCompare(findDetailRowValue(kosdaqCard, "종가"), findDetailRowValue(kosdaqCard, "MA50"))}`,
+        status: findSignal(kosdaqCard),
+      });
+    }
+
+    // 2행: 변동성 / 금리
+    if (spyCard) {
+      data.push({
+        section: "Vol / Rates",
+        label: "VIX",
+        value: findDetailRowValue(spyCard, "현재") || "—",
+        d1: "—",
+        d5: findDetailRowValue(spyCard, "5일 변화") || "—",
+        aux: `MA20 대비 ${findDetailRowValue(spyCard, "MA20 대비") || "—"}`,
+        status: classifyVol(parseNum(findDetailRowValue(spyCard, "현재")), parseNum(findDetailRowValue(spyCard, "MA20 대비"))),
+      });
+    }
+
+    if (kospiCard) {
+      data.push({
+        section: "Vol / Rates",
+        label: "VKOSPI",
+        value: findDetailRowValue(kospiCard, "현재") || "—",
+        d1: "—",
+        d5: findDetailRowValue(kospiCard, "5일 변화") || "—",
+        aux: `MA20 대비 ${findDetailRowValue(kospiCard, "MA20 대비") || "—"}`,
+        status: classifyVKospi(parseNum(findDetailRowValue(kospiCard, "현재")), parseNum(findDetailRowValue(kospiCard, "MA20 대비"))),
+      });
+    }
+
+    if (spyCard) {
+      data.push({
+        section: "Vol / Rates",
+        label: "US 10Y",
+        value: appendPct(findDetailRowValue(spyCard, "US 10Y")),
+        d1: "—",
+        d5: "—",
+        aux: `20일 ${findDetailRowValue(spyCard, "20일 변화") || "—"}`,
+        status: classifyRates(parseNum(findDetailRowValue(spyCard, "20일 변화"))),
+      });
+    }
+
+    // 2Y-10Y는 state.json에서 받되, 없으면 카드 숨기지 말고 미연동 표시
+    data.push({
+      section: "Vol / Rates",
+      label: "2Y-10Y",
+      value: "—",
+      d1: "—",
+      d5: "—",
+      aux: "state.json 연동 필요",
+      status: "muted",
+    });
+
+    // 3행: 환율 / 안전자산 / 신용
+    if (kospiCard) {
+      data.push({
+        section: "FX / Safe Haven",
+        label: "USD/KRW",
+        value: findDetailRowValue(kospiCard, "USD/KRW") || "—",
+        d1: "—",
+        d5: "—",
+        aux: `20일 ${findDetailRowValue(kospiCard, "환율 20일") || "—"}`,
+        status: classifyFX(parseNum(findDetailRowValue(kospiCard, "환율 20일"))),
+      });
+    }
+
+    data.push({
+      section: "FX / Safe Haven",
+      label: "Dollar Index",
+      value: "—",
+      d1: "—",
+      d5: "—",
+      aux: "state.json 연동 필요",
+      status: "muted",
+    });
+
+    data.push({
+      section: "FX / Safe Haven",
+      label: "Gold",
+      value: "—",
+      d1: "—",
+      d5: "—",
+      aux: "state.json 연동 필요",
+      status: "muted",
+    });
+
+    data.push({
+      section: "FX / Credit",
+      label: "HY OAS",
+      value: "—",
+      d1: "—",
+      d5: "—",
+      aux: "state.json 연동 필요",
+      status: "muted",
+    });
+
+    return data;
+  }
+
+  function appendPct(v) {
+    if (!v || v === "—") return "—";
+    return String(v).includes("%") ? v : `${v}%`;
+  }
+
+  function safeCompare(a, b) {
+    const x = parseNum(a);
+    const y = parseNum(b);
+    if (x === null || y === null) return "판단불가";
+    return x > y ? "상회" : "하회";
+  }
+
+  function classifyVol(cur, ratio20) {
+    if (cur == null) return "warn";
+    if (cur >= 25 || (ratio20 != null && ratio20 >= 1.15)) return "bad";
+    if (cur >= 18 || (ratio20 != null && ratio20 >= 1.00)) return "warn";
+    return "good";
+  }
+
+  function classifyVKospi(cur, ratio20) {
+    if (cur == null) return "warn";
+    if (cur >= 50 || (ratio20 != null && ratio20 >= 1.15)) return "bad";
+    if (cur >= 35 || (ratio20 != null && ratio20 >= 1.00)) return "warn";
+    return "good";
+  }
+
+  function classifyRates(delta20bp) {
+    if (delta20bp == null) return "warn";
+    if (delta20bp >= 40) return "bad";
+    if (delta20bp >= 20) return "warn";
+    return "good";
+  }
+
+  function classifyFX(ret20) {
+    if (ret20 == null) return "warn";
+    if (ret20 >= 4) return "bad";
+    if (ret20 >= 2) return "warn";
+    return "good";
+  }
+
+  function classifyHY(v) {
+    if (v == null) return "muted";
+    if (v >= 4.0) return "bad";
+    if (v >= 3.5) return "warn";
+    return "good";
+  }
+
+  // =========================
+  // state.json에서 실제 매크로 보강
+  // =========================
+  async function enrichFromState(mainData) {
+    try {
+      const res = await fetch(`state.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) return mainData;
+      const state = await res.json();
+      const macro = state?.macro || {};
+
+      const byLabel = Object.fromEntries(mainData.map(x => [x.label, x]));
+
+      if (macro.curve_2s10s != null) {
+        byLabel["2Y-10Y"] = {
+          section: "Vol / Rates",
+          label: "2Y-10Y",
+          value: `${formatValue(macro.curve_2s10s, 2)}%`,
+          d1: macro.curve_2s10s_1d_bp != null ? `${macro.curve_2s10s_1d_bp >= 0 ? "+" : ""}${Number(macro.curve_2s10s_1d_bp).toFixed(1)}bp` : "—",
+          d5: macro.curve_2s10s_5d_bp != null ? `${macro.curve_2s10s_5d_bp >= 0 ? "+" : ""}${Number(macro.curve_2s10s_5d_bp).toFixed(1)}bp` : "—",
+          aux: Number(macro.curve_2s10s_5d_bp || 0) > 0 ? "Steepening" : "Flattening",
+          status: "warn",
+        };
+      }
+
+      if (macro.dxy != null) {
+        byLabel["Dollar Index"] = {
+          section: "FX / Safe Haven",
+          label: "Dollar Index",
+          value: formatValue(macro.dxy, 2),
+          d1: macro.dxy_1d != null ? `${macro.dxy_1d >= 0 ? "+" : ""}${Number(macro.dxy_1d).toFixed(2)}%` : "—",
+          d5: macro.dxy_5d != null ? `${macro.dxy_5d >= 0 ? "+" : ""}${Number(macro.dxy_5d).toFixed(2)}%` : "—",
+          aux: (macro.dxy_ma20 != null && Number(macro.dxy) > Number(macro.dxy_ma20)) ? "20일선 상회" : "20일선 하회",
+          status: (macro.dxy_ma20 != null && Number(macro.dxy) > Number(macro.dxy_ma20)) ? "warn" : "good",
+        };
+      }
+
+      if (macro.gold != null) {
+        byLabel["Gold"] = {
+          section: "FX / Safe Haven",
+          label: "Gold",
+          value: formatValue(macro.gold, 1),
+          d1: macro.gold_1d != null ? `${macro.gold_1d >= 0 ? "+" : ""}${Number(macro.gold_1d).toFixed(2)}%` : "—",
+          d5: macro.gold_5d != null ? `${macro.gold_5d >= 0 ? "+" : ""}${Number(macro.gold_5d).toFixed(2)}%` : "—",
+          aux: Number(macro.gold_5d || 0) > 0 ? "안전자산 강세" : "중립",
+          status: Number(macro.gold_5d || 0) > 0 ? "good" : "warn",
+        };
+      }
+
+      if (macro.hy_oas != null) {
+        byLabel["HY OAS"] = {
+          section: "FX / Credit",
+          label: "HY OAS",
+          value: `${formatValue(macro.hy_oas, 2)}%`,
+          d1: macro.hy_oas_1d_bp != null ? `${macro.hy_oas_1d_bp >= 0 ? "+" : ""}${Number(macro.hy_oas_1d_bp).toFixed(1)}bp` : "—",
+          d5: macro.hy_oas_5d_bp != null ? `${macro.hy_oas_5d_bp >= 0 ? "+" : ""}${Number(macro.hy_oas_5d_bp).toFixed(1)}bp` : "—",
+          aux: Number(macro.hy_oas || 0) >= 3.5 ? "신용 경계" : "신용 안정",
+          status: classifyHY(Number(macro.hy_oas)),
+        };
+      }
+
+      return [
+        byLabel["S&P 500"],
+        byLabel["Nasdaq 100"],
+        byLabel["KOSPI"],
+        byLabel["KOSDAQ"],
+        byLabel["VIX"],
+        byLabel["VKOSPI"],
+        byLabel["US 10Y"],
+        byLabel["2Y-10Y"],
+        byLabel["USD/KRW"],
+        byLabel["Dollar Index"],
+        byLabel["Gold"],
+        byLabel["HY OAS"],
+      ].filter(Boolean);
+
+    } catch (e) {
+      return mainData;
+    }
+  }
+
+  // =========================
+  // 렌더
+  // =========================
+  function buildMainCard(item) {
     return `
       <div class="main-card">
         <div>
@@ -395,78 +730,91 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
     `;
   }
 
-  function renderMain(){
-    var grid = document.getElementById("main-grid");
-    if(!grid) return;
-    grid.innerHTML = mainData.map(buildMainCard).join("");
+  function renderMain(data) {
+    const grid = document.getElementById("main-grid");
+    if (!grid) return;
 
-    var score = 0;
-    mainData.forEach(function(x){
-      if(x.status === "good") score += 1;
-      else if(x.status === "bad") score -= 1;
+    grid.innerHTML = data.map(buildMainCard).join("");
+
+    let score = 0;
+    data.forEach((x) => {
+      if (x.status === "good") score += 1;
+      else if (x.status === "bad") score -= 1;
     });
 
-    var regimeEl = document.getElementById("global-regime");
-    var descEl = document.getElementById("global-regime-desc");
-    var alertEl = document.getElementById("main-alerts");
-    if(!regimeEl || !descEl || !alertEl) return;
+    const regimeEl = document.getElementById("global-regime");
+    const descEl = document.getElementById("global-regime-desc");
+    const alertEl = document.getElementById("main-alerts");
+    if (!regimeEl || !descEl || !alertEl) return;
 
-    regimeEl.classList.remove("riskon","neutral","riskoff");
+    regimeEl.classList.remove("riskon", "neutral", "riskoff");
 
-    if(score >= 3){
+    if (score >= 3) {
       regimeEl.textContent = "RISK-ON";
       regimeEl.classList.add("riskon");
       descEl.textContent = "주식/변동성/신용 전반이 비교적 안정적입니다.";
-    }else if(score <= -3){
+    } else if (score <= -3) {
       regimeEl.textContent = "RISK-OFF";
       regimeEl.classList.add("riskoff");
       descEl.textContent = "금리·달러·변동성 부담이 우세합니다.";
-    }else{
+    } else {
       regimeEl.textContent = "NEUTRAL";
       regimeEl.classList.add("neutral");
       descEl.textContent = "강세와 약세 신호가 혼재합니다.";
     }
 
-    var alerts = [];
-    alerts.push("US10Y 상승 → 성장주 밸류에이션 부담");
-    alerts.push("USD/KRW 급등 → 한국 자산 리스크 가중");
-    alerts.push("HY 스프레드 확대 여부 점검 필요");
-    alertEl.innerHTML = alerts.map(function(x){ return "<li>" + x + "</li>"; }).join("");
+    const alerts = [];
+    const us10y = data.find(x => x.label === "US 10Y");
+    const fx = data.find(x => x.label === "USD/KRW");
+    const hy = data.find(x => x.label === "HY OAS");
+
+    if (us10y && /20일 \+\d/.test(us10y.aux)) alerts.push("US10Y 상승 → 성장주 밸류에이션 부담");
+    if (fx && /\+/.test(fx.aux)) alerts.push("USD/KRW 급등 → 한국 자산 리스크 가중");
+    if (hy && hy.status !== "muted" && hy.status !== "good") alerts.push("HY 스프레드 확대 → 신용시장 점검 필요");
+    if (!alerts.length) alerts.push("특이 경보 없음");
+
+    alertEl.innerHTML = alerts.slice(0, 3).map(x => `<li>${x}</li>`).join("");
   }
 
-  /* 메인 탭 */
-  document.querySelectorAll('.tab-btn[data-tab]').forEach(function(btn){
-    btn.addEventListener('click', function(){
+  // =========================
+  // 탭
+  // =========================
+  document.querySelectorAll('.tab-btn[data-tab]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
       var name = this.getAttribute('data-tab');
-      document.querySelectorAll('.tab-content').forEach(function(el){el.classList.remove('active');});
-      document.querySelectorAll('.tab-btn[data-tab]').forEach(function(el){el.classList.remove('active');});
+      document.querySelectorAll('.tab-content').forEach(function (el) { el.classList.remove('active'); });
+      document.querySelectorAll('.tab-btn[data-tab]').forEach(function (el) { el.classList.remove('active'); });
       document.getElementById('tab-' + name).classList.add('active');
       this.classList.add('active');
-      try{localStorage.setItem('lastTab', name);}catch(e){}
+      try { localStorage.setItem('lastTab', name); } catch (e) {}
     });
   });
 
-  /* KR 서브탭 */
-  document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(btn){
-    btn.addEventListener('click', function(){
+  document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
       var name = this.getAttribute('data-subtab');
-      document.querySelectorAll('.sub-tab-content').forEach(function(el){el.classList.remove('active');});
-      document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function(el){el.classList.remove('active');});
+      document.querySelectorAll('.sub-tab-content').forEach(function (el) { el.classList.remove('active'); });
+      document.querySelectorAll('.sub-tab-btn[data-subtab]').forEach(function (el) { el.classList.remove('active'); });
       document.getElementById('subtab-' + name).classList.add('active');
       this.classList.add('active');
-      try{localStorage.setItem('lastSubTab', name);}catch(e){}
+      try { localStorage.setItem('lastSubTab', name); } catch (e) {}
     });
   });
 
-  renderMain();
+  async function initMain() {
+    let data = buildBaseMainFromPage();
+    data = await enrichFromState(data);
+    renderMain(data);
+  }
 
-  /* 마지막 탭 복원 */
-  try{
+  initMain();
+
+  try {
     var last = localStorage.getItem('lastTab');
-    if(last){ var t = document.querySelector('[data-tab="' + last + '"]'); if(t) t.click(); }
+    if (last) { var t = document.querySelector('[data-tab="' + last + '"]'); if (t) t.click(); }
     var lastSub = localStorage.getItem('lastSubTab');
-    if(lastSub){ var s = document.querySelector('[data-subtab="' + lastSub + '"]'); if(s) s.click(); }
-  }catch(e){}
+    if (lastSub) { var s = document.querySelector('[data-subtab="' + lastSub + '"]'); if (s) s.click(); }
+  } catch (e) {}
 })();
 </script>
 </body></html>
