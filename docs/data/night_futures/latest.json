@@ -1,9 +1,9 @@
 {
-  "generated_at_kst": "2026-03-24T20:01:19.787039+09:00",
+  "generated_at_kst": "2026-03-24T20:57:35.761356+09:00",
   "biz_date": "2026-03-24",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'no_trade_or_quote_for_A01606', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
+  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
   "token_status": "ready",
   "series": {
     "kospi": [
@@ -36,6 +36,36 @@
           "ACML_VOL": "3012",
           "LAST_CNQN": "2"
         }
+      },
+      {
+        "time": "20:57",
+        "bsop_hour": "205741",
+        "price": 831.95,
+        "change": 1.2,
+        "change_pct": 0.14,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 832.0,
+        "session_high": 836.1,
+        "session_low": 825.3,
+        "ask1": 832.0,
+        "bid1": 831.3,
+        "acml_vol": 5550.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "831.95",
+          "FUTS_PRDY_VRSS": "1.20",
+          "FUTS_PRDY_CTRT": "0.14",
+          "FUTS_OPRC": "832.00",
+          "FUTS_HGPR": "836.10",
+          "FUTS_LWPR": "825.30",
+          "FUTS_ASKP1": "832.00",
+          "FUTS_BIDP1": "831.30",
+          "ACML_VOL": "5550",
+          "LAST_CNQN": "1"
+        }
       }
     ],
     "kosdaq": [
@@ -67,21 +97,21 @@
   },
   "summary": {
     "kospi": {
-      "last": 832.35,
-      "change": 1.6,
-      "change_pct": 0.19,
+      "last": 831.95,
+      "change": 1.2,
+      "change_pct": 0.14,
       "high": 832.35,
-      "low": 832.35,
-      "points": 1,
+      "low": 831.95,
+      "points": 2,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 832.0,
-      "session_high": 833.9,
+      "session_high": 836.1,
       "session_low": 825.3,
-      "ask1": 832.4,
-      "bid1": 831.95,
-      "spread": 0.45,
-      "acml_vol": 3012.0,
+      "ask1": 832.0,
+      "bid1": 831.3,
+      "spread": 0.7,
+      "acml_vol": 5550.0,
       "source_type": "trade"
     },
     "kosdaq": {
@@ -123,11 +153,13 @@
       "kosdaq": "A06606"
     },
     "received_symbols": {
-      "trade": [],
+      "trade": [
+        "A01606"
+      ],
       "quote": []
     },
     "market_status": {
-      "kospi": "no_trade_or_quote_for_A01606",
+      "kospi": "trade_ok",
       "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
