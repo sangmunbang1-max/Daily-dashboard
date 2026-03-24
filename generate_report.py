@@ -382,128 +382,158 @@ def fetch_fred_all():
     return out
 
 # =========================================================
-# PATCH 2: FedWatch — CME 30-day Fed Funds Futures implied probability
+# PATCH 2: FedWatch — 30-day Fed Funds Futures (ZQ) implied probability
+# CME API 대신 yfinance ZQ contract + FRED DFF로 직접 계산
 # =========================================================
-def fetch_fedwatch_probs() -> dict:
-    """
-    CME FedWatch에서 차기 FOMC 회의의 target rate 확률 수집.
-    CME 실패 시 FRED DFEDTARU/DFEDTARL fallback으로 현재 레인지만 반환.
 
-    반환 예시:
+# FOMC 공식 일정 (확정 날짜)
+_FOMC_DATES = [
+    "2026-01-28", "2026-03-18", "2026-04-29",
+    "2026-06-17", "2026-07-29", "2026-09-16",
+    "2026-10-28", "2026-12-16",
+    "2027-01-27", "2027-03-17", "2027-04-28",
+    "2027-06-16", "2027-07-28", "2027-09-15",
+    "2027-10-27", "2027-12-15",
+]
+
+_MONTH_CODE = {1:"F",2:"G",3:"H",4:"J",5:"K",6:"M",
+               7:"N",8:"Q",9:"U",10:"V",11:"X",12:"Z"}
+
+
+def _next_fomc() -> datetime:
+    """오늘 이후 가장 가까운 FOMC 날짜 반환"""
+    now = datetime.now(timezone.utc)
+    for d in _FOMC_DATES:
+        dt = datetime.fromisoformat(d).replace(tzinfo=timezone.utc)
+        if dt > now:
+            return dt
+    return datetime.fromisoformat(_FOMC_DATES[-1]).replace(tzinfo=timezone.utc)
+
+
+def _zq_ticker(meeting_dt: datetime) -> str:
+    """
+    FOMC 회의 날짜에 맞는 ZQ contract ticker 반환.
+    회의가 월말(day >= 25)이면 post-meeting rate 전체를 담는 next month 사용.
+    yfinance format: ZQK6.CBT
+    """
+    if meeting_dt.day >= 25:
+        # next month contract
+        first_of_next = (meeting_dt.replace(day=1) + timedelta(days=32)).replace(day=1)
+        m, y = first_of_next.month, first_of_next.year
+    else:
+        m, y = meeting_dt.month, meeting_dt.year
+    return f"ZQ{_MONTH_CODE[m]}{str(y)[-1]}.CBT"
+
+
+def fetch_fedwatch_probs(fred: dict = None) -> dict:
+    """
+    30-day Fed Funds Futures (ZQ) 가격 + FRED DFF로
+    차기 FOMC 회의의 target rate 확률 계산.
+
+    공식 (CME FedWatch 동일):
+      implied_rate = 100 - ZQ_price
+      p_hike = clamp((implied_rate - DFF) / 0.25 * 100, 0, 100)
+      p_ease = clamp((DFF - implied_rate) / 0.25 * 100, 0, 100)
+      p_hold = 100 - p_hike - p_ease
+
+    반환:
       {
-        "meeting_date": "Apr 29, 2026",
+        "meeting_date": "2026-04-29",
         "current_range": "350-375",
         "probabilities": {"325-350": 0.0, "350-375": 92.8, "375-400": 7.2},
-        "ease_prob": 0.0,
-        "hold_prob": 92.8,
-        "hike_prob": 7.2,
-        "as_of": "2026-03-23 05:18 CT",
-        "source": "CME FedWatch",
+        "ease_prob": 0.0, "hold_prob": 92.8, "hike_prob": 7.2,
+        "zq_ticker": "ZQK6.CBT", "zq_price": 96.35, "implied_rate": 3.65,
+        "dff": 3.63, "as_of": "...", "source": "ZQ Futures + FRED DFF",
       }
     실패 시 {} 반환
     """
     try:
-        headers = {
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/123.0.0.0 Safari/537.36"
-            ),
-            "Accept": "application/json, text/plain, */*",
-            "Referer": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
-            "Origin": "https://www.cmegroup.com",
-        }
-        url = "https://www.cmegroup.com/CmeWS/mvc/FedWatch/probabilities"
-        r = requests.get(url, headers=headers, timeout=20)
-        r.raise_for_status()
-        data = r.json()
-        if not data:
-            raise ValueError("Empty response from CME")
+        meeting_dt = _next_fomc()
+        ticker = _zq_ticker(meeting_dt)
 
-        # 가장 가까운 미래 회의 선택
-        now_utc = datetime.now(timezone.utc)
-        target_item = None
-        for item in data:
-            raw_date = item.get("meetingDate", item.get("date", ""))
-            if not raw_date:
-                continue
-            for fmt in ["%b %Y", "%B %Y", "%Y-%m-%d", "%m/%d/%Y", "%b %d, %Y"]:
-                try:
-                    mt = datetime.strptime(raw_date.strip(), fmt).replace(tzinfo=timezone.utc)
-                    if mt > now_utc:
-                        target_item = item
-                    break
-                except ValueError:
-                    continue
-            if target_item:
-                break
+        # ZQ 가격 수집 (yfinance)
+        df_zq = safe_download_yf(ticker, period="5d", auto_adjust=False)
+        if df_zq.empty:
+            raise ValueError(f"ZQ ticker {ticker} 데이터 없음")
+        zq_price = float(df_zq["Close"].dropna().iloc[-1])
+        implied_rate = 100.0 - zq_price
 
-        if not target_item:
-            target_item = data[0]
+        # FRED DFF (실제 EFFR) 수집
+        if fred and "DFF" in fred and not fred["DFF"].empty:
+            dff = float(fred["DFF"].dropna().iloc[-1])
+        else:
+            dff_series = fetch_fred_series("DFF")
+            dff = float(dff_series.dropna().iloc[-1])
 
-        probs_raw = (
-            target_item.get("probabilities")
-            or target_item.get("rateProbs")
-            or {}
-        )
-        if not probs_raw:
-            raise ValueError("No probabilities in response")
+        # 현재 target range (DFEDTARU / DFEDTARL)
+        if fred and "DFEDTARU" in fred and not fred["DFEDTARU"].empty:
+            upper_bps = int(round(float(fred["DFEDTARU"].dropna().iloc[-1]) * 100))
+            lower_bps = int(round(float(fred["DFEDTARL"].dropna().iloc[-1]) * 100))
+        else:
+            upper_bps = int(round(dff * 100 / 25 + 0.5) * 25)  # 25bp 반올림
+            lower_bps = upper_bps - 25
+        current_range = f"{lower_bps}-{upper_bps}"
 
-        probs = {str(k): float(v) for k, v in probs_raw.items()}
-        current_range = str(
-            target_item.get("currentTarget", target_item.get("currentRate", ""))
-        )
+        # 확률 계산 (25bp step 기준)
+        step = 0.25
+        p_hike = max(0.0, min(100.0, (implied_rate - dff) / step * 100))
+        p_ease = max(0.0, min(100.0, (dff - implied_rate) / step * 100))
+        p_hold = max(0.0, 100.0 - p_hike - p_ease)
 
-        # ease / hold / hike 분류 (current range 기준)
-        ease_prob = hold_prob = hike_prob = 0.0
-        if current_range and "-" in current_range:
-            try:
-                curr_lower = int(current_range.split("-")[0])
-                for rng, p in probs.items():
-                    rng_lower = int(rng.split("-")[0])
-                    if rng_lower < curr_lower:
-                        ease_prob += p
-                    elif rng_lower == curr_lower:
-                        hold_prob += p
-                    else:
-                        hike_prob += p
-            except Exception:
-                pass
+        # 확률 분포 dict 생성 (현재 ±1 구간)
+        probs = {}
+        if p_ease > 0.05:
+            probs[f"{lower_bps-25}-{lower_bps}"] = round(p_ease, 1)
+        probs[current_range] = round(p_hold, 1)
+        if p_hike > 0.05:
+            probs[f"{upper_bps}-{upper_bps+25}"] = round(p_hike, 1)
 
-        ct_now = datetime.now(timezone(timedelta(hours=-6)))
+        kst_now = datetime.now(KST)
+        print(f"  [FedWatch] ticker={ticker} price={zq_price:.4f} "
+              f"implied={implied_rate:.4f}% DFF={dff:.4f}%")
+
         return {
-            "meeting_date": target_item.get("meetingDate", target_item.get("date", "N/A")),
+            "meeting_date": meeting_dt.strftime("%Y-%m-%d"),
             "current_range": current_range,
             "probabilities": probs,
-            "ease_prob": round(ease_prob, 1),
-            "hold_prob": round(hold_prob, 1),
-            "hike_prob": round(hike_prob, 1),
-            "as_of": ct_now.strftime("%Y-%m-%d %H:%M CT"),
-            "source": "CME FedWatch",
+            "ease_prob": round(p_ease, 1),
+            "hold_prob": round(p_hold, 1),
+            "hike_prob": round(p_hike, 1),
+            "zq_ticker": ticker,
+            "zq_price": round(zq_price, 4),
+            "implied_rate": round(implied_rate, 4),
+            "dff": round(dff, 4),
+            "as_of": kst_now.strftime("%Y-%m-%d %H:%M KST"),
+            "source": "ZQ Futures + FRED DFF",
         }
 
     except Exception as e:
-        print(f"  [FedWatch WARN] CME 실패: {e} → FRED fallback")
+        print(f"  [FedWatch WARN] ZQ 계산 실패: {e}")
         return _fedwatch_fred_fallback()
 
 
 def _fedwatch_fred_fallback() -> dict:
-    """FRED DFEDTARU/DFEDTARL로 현재 target range만 제공. 확률은 동결 100% fallback."""
+    """ZQ 실패 시 FRED만으로 현재 target range 표시. 확률은 N/A."""
     try:
         upper = fetch_fred_series("DFEDTARU")
         lower = fetch_fred_series("DFEDTARL")
         u_bps = int(round(float(upper.iloc[-1]) * 100))
         l_bps = int(round(float(lower.iloc[-1]) * 100))
         current_range = f"{l_bps}-{u_bps}"
+        meeting_dt = _next_fomc()
         return {
-            "meeting_date": "N/A",
+            "meeting_date": meeting_dt.strftime("%Y-%m-%d"),
             "current_range": current_range,
             "probabilities": {current_range: 100.0},
             "ease_prob": 0.0,
             "hold_prob": 100.0,
             "hike_prob": 0.0,
-            "as_of": "FRED fallback (CME unavailable)",
-            "source": "FRED",
+            "zq_ticker": "N/A",
+            "zq_price": None,
+            "implied_rate": None,
+            "dff": None,
+            "as_of": "FRED fallback",
+            "source": "FRED only (ZQ unavailable)",
         }
     except Exception as e2:
         print(f"  [FedWatch WARN] FRED fallback도 실패: {e2}")
@@ -1245,9 +1275,9 @@ def main():
     print("[INFO] Building macro summary...")
     macro = build_macro_summary(mkt, fred, prev_state)
 
-    # ── PATCH: FedWatch 확률 수집 ──────────────────────────────
+    # ── PATCH: FedWatch 확률 수집 (ZQ Futures + FRED DFF) ──────
     print("[INFO] Fetching FedWatch probabilities...")
-    fedwatch = fetch_fedwatch_probs()
+    fedwatch = fetch_fedwatch_probs(fred=fred)
     if fedwatch:
         print(f"  [FedWatch] {fedwatch.get('meeting_date','?')} — "
               f"Hold {fedwatch.get('hold_prob',0):.1f}% / "
