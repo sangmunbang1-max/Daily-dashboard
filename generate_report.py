@@ -412,17 +412,9 @@ def _next_fomc() -> datetime:
 
 def _zq_ticker(meeting_dt: datetime) -> str:
     """
-    FOMC 회의 날짜에 맞는 ZQ contract ticker 반환.
-    회의가 월말(day >= 25)이면 post-meeting rate 전체를 담는 next month 사용.
-    yfinance format: ZQK6.CBT
+    Yahoo Finance ZQ=F (front month generic) 반환.
     """
-    if meeting_dt.day >= 25:
-        # next month contract
-        first_of_next = (meeting_dt.replace(day=1) + timedelta(days=32)).replace(day=1)
-        m, y = first_of_next.month, first_of_next.year
-    else:
-        m, y = meeting_dt.month, meeting_dt.year
-    return f"ZQ{_MONTH_CODE[m]}{str(y)[-1]}.CBT"
+    return "ZQ=F"
 
 
 def fetch_fedwatch_probs(fred: dict = None) -> dict:
@@ -442,7 +434,7 @@ def fetch_fedwatch_probs(fred: dict = None) -> dict:
         "current_range": "350-375",
         "probabilities": {"325-350": 0.0, "350-375": 92.8, "375-400": 7.2},
         "ease_prob": 0.0, "hold_prob": 92.8, "hike_prob": 7.2,
-        "zq_ticker": "ZQK6.CBT", "zq_price": 96.35, "implied_rate": 3.65,
+        "zq_ticker": "ZQ=F", "zq_price": 96.35, "implied_rate": 3.65,
         "dff": 3.63, "as_of": "...", "source": "ZQ Futures + FRED DFF",
       }
     실패 시 {} 반환
