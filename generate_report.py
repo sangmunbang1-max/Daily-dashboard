@@ -50,10 +50,14 @@ TICKERS = {
     "NDX": "^NDX", "QQEW": "QQEW",
 }
 
+# ── PATCH 1: FRED 시리즈에 Fed Funds Rate 추가 ──────────────
 FRED_SERIES = {
     "DGS10": "DGS10",
     "DGS2": "DGS2",
     "HY_OAS": "BAMLH0A0HYM2",
+    "DFEDTARU": "DFEDTARU",   # Fed Funds Upper Target Rate (e.g. 3.75%)
+    "DFEDTARL": "DFEDTARL",   # Fed Funds Lower Target Rate (e.g. 3.50%)
+    "DFF": "DFF",              # Effective Fed Funds Rate (daily)
 }
 
 os.makedirs(DOCS_DIR, exist_ok=True)
@@ -173,7 +177,7 @@ def rgba_hex(hex_color, alpha):
     return f"rgba({r},{g},{b},{alpha})"
 
 # =========================================================
-# KIS Token Manager (1일 1회 발급, 캐시 재사용)
+# KIS Token Manager
 # =========================================================
 def _load_token_cache():
     try:
@@ -209,7 +213,7 @@ def _issue_new_token():
     r.raise_for_status()
     data = r.json()
     token = data.get("access_token", "")
-    expires_str = data.get("access_token_token_expired", "")  # "YYYY-MM-DD HH:MM:SS"
+    expires_str = data.get("access_token_token_expired", "")
     if not token:
         raise RuntimeError(f"토큰 발급 실패: {data}")
     try:
@@ -221,7 +225,6 @@ def _issue_new_token():
     return token
 
 def get_kis_token():
-    """캐시 유효 시 재사용, 만료 시 1회 발급"""
     token, _ = _load_token_cache()
     if token:
         print("  [KIS] 캐시 토큰 재사용")
@@ -232,10 +235,6 @@ def get_kis_token():
 # KIS 수급 조회
 # =========================================================
 def fetch_kis_investor_flow(token, market_name, run_date):
-    """
-    KIS API: 시장별 투자자 매매 동향 (일별)
-    market_name: "KOSPI" or "KOSDAQ"
-    """
     market_map = {
         "KOSPI":  {"market": "KSP", "iscd": "0001"},
         "KOSDAQ": {"market": "KSQ", "iscd": "1001"},
@@ -276,30 +275,19 @@ def fetch_kis_investor_flow(token, market_name, run_date):
     return df.sort_values("stck_bsop_date", ascending=False).reset_index(drop=True)
 
 def calc_flow_metrics(df, turnover_recent):
-    """
-    df: KIS 수급 DataFrame (최신순)
-    turnover_recent: 최근 거래대금 (억원, float)
-    returns dict with foreign_1d_bil, foreign_5d_bil, foreign_20d_bil, foreign_5d_ratio
-    """
     empty = {"foreign_1d_bil": np.nan, "foreign_5d_bil": np.nan,
              "foreign_20d_bil": np.nan, "foreign_5d_ratio": np.nan}
     if df.empty or "frgn_ntby_tr_pbmn" not in df.columns:
         return empty
-
-    # 단위: 백만원 → 억원 변환
     frgn = df["frgn_ntby_tr_pbmn"].dropna()
     if len(frgn) == 0:
         return empty
-
-    f1  = float(frgn.iloc[0]) / 100.0  # 1일 외국인 순매수 (억원)
+    f1  = float(frgn.iloc[0]) / 100.0
     f5  = float(frgn.iloc[:5].sum()) / 100.0 if len(frgn) >= 5 else np.nan
     f20 = float(frgn.iloc[:20].sum()) / 100.0 if len(frgn) >= 20 else np.nan
-
-    # 5일 비율: 5일 누적 / (거래대금 × 5)
     f5_ratio = np.nan
     if not pd.isna(f5) and not pd.isna(turnover_recent) and turnover_recent != 0:
-        f5_ratio = f5 / (turnover_recent * 5) * 100.0  # %
-
+        f5_ratio = f5 / (turnover_recent * 5) * 100.0
     return {
         "foreign_1d_bil": round(f1, 1),
         "foreign_5d_bil": round(f5, 1) if not pd.isna(f5) else np.nan,
@@ -314,7 +302,6 @@ def read_krx_cache():
     return read_json(KRX_CACHE_FILE, {})
 
 def cache_series_to_pd(cache, key):
-    """날짜별 dict → pd.Series (index: pd.Timestamp, 최신순 정렬)"""
     d = cache.get(key, {})
     if not d:
         return pd.Series(dtype=float)
@@ -322,31 +309,20 @@ def cache_series_to_pd(cache, key):
     return s
 
 def calc_turnover_metrics(cache, asset):
-    """
-    거래대금 시계열에서 직접 계산
-    returns: (current_eok, ma20_ratio, chg5_pct, recent_eok)
-    """
     key = f"turnover_{asset}"
     s = cache_series_to_pd(cache, key)
     if len(s) < 2:
         return np.nan, np.nan, np.nan, np.nan
-    # 원 → 억원
     s_eok = s / 1e8
     curr = float(s_eok.iloc[-1])
-    # MA20
     ma20 = float(s_eok.rolling(20).mean().iloc[-1]) if len(s_eok) >= 20 else np.nan
     ma20_ratio = curr / ma20 if not pd.isna(ma20) and ma20 != 0 else np.nan
-    # 5일 변화율
     prev5 = float(s_eok.iloc[-6]) if len(s_eok) >= 6 else np.nan
     chg5 = pct_change(curr, prev5)
-    # 조 단위 (표시용)
     curr_tril = curr / 10000.0
     return curr_tril, ma20_ratio, chg5, curr
 
 def calc_vkospi_metrics(cache):
-    """
-    VKOSPI 시계열에서 직접 계산
-    """
     s = cache_series_to_pd(cache, "vkospi")
     if len(s) < 2:
         return np.nan, np.nan, np.nan, np.nan
@@ -406,7 +382,135 @@ def fetch_fred_all():
     return out
 
 # =========================================================
-# Scoring - US
+# PATCH 2: FedWatch — CME 30-day Fed Funds Futures implied probability
+# =========================================================
+def fetch_fedwatch_probs() -> dict:
+    """
+    CME FedWatch에서 차기 FOMC 회의의 target rate 확률 수집.
+    CME 실패 시 FRED DFEDTARU/DFEDTARL fallback으로 현재 레인지만 반환.
+
+    반환 예시:
+      {
+        "meeting_date": "Apr 29, 2026",
+        "current_range": "350-375",
+        "probabilities": {"325-350": 0.0, "350-375": 92.8, "375-400": 7.2},
+        "ease_prob": 0.0,
+        "hold_prob": 92.8,
+        "hike_prob": 7.2,
+        "as_of": "2026-03-23 05:18 CT",
+        "source": "CME FedWatch",
+      }
+    실패 시 {} 반환
+    """
+    try:
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/123.0.0.0 Safari/537.36"
+            ),
+            "Accept": "application/json, text/plain, */*",
+            "Referer": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+            "Origin": "https://www.cmegroup.com",
+        }
+        url = "https://www.cmegroup.com/CmeWS/mvc/FedWatch/probabilities"
+        r = requests.get(url, headers=headers, timeout=20)
+        r.raise_for_status()
+        data = r.json()
+        if not data:
+            raise ValueError("Empty response from CME")
+
+        # 가장 가까운 미래 회의 선택
+        now_utc = datetime.now(timezone.utc)
+        target_item = None
+        for item in data:
+            raw_date = item.get("meetingDate", item.get("date", ""))
+            if not raw_date:
+                continue
+            for fmt in ["%b %Y", "%B %Y", "%Y-%m-%d", "%m/%d/%Y", "%b %d, %Y"]:
+                try:
+                    mt = datetime.strptime(raw_date.strip(), fmt).replace(tzinfo=timezone.utc)
+                    if mt > now_utc:
+                        target_item = item
+                    break
+                except ValueError:
+                    continue
+            if target_item:
+                break
+
+        if not target_item:
+            target_item = data[0]
+
+        probs_raw = (
+            target_item.get("probabilities")
+            or target_item.get("rateProbs")
+            or {}
+        )
+        if not probs_raw:
+            raise ValueError("No probabilities in response")
+
+        probs = {str(k): float(v) for k, v in probs_raw.items()}
+        current_range = str(
+            target_item.get("currentTarget", target_item.get("currentRate", ""))
+        )
+
+        # ease / hold / hike 분류 (current range 기준)
+        ease_prob = hold_prob = hike_prob = 0.0
+        if current_range and "-" in current_range:
+            try:
+                curr_lower = int(current_range.split("-")[0])
+                for rng, p in probs.items():
+                    rng_lower = int(rng.split("-")[0])
+                    if rng_lower < curr_lower:
+                        ease_prob += p
+                    elif rng_lower == curr_lower:
+                        hold_prob += p
+                    else:
+                        hike_prob += p
+            except Exception:
+                pass
+
+        ct_now = datetime.now(timezone(timedelta(hours=-6)))
+        return {
+            "meeting_date": target_item.get("meetingDate", target_item.get("date", "N/A")),
+            "current_range": current_range,
+            "probabilities": probs,
+            "ease_prob": round(ease_prob, 1),
+            "hold_prob": round(hold_prob, 1),
+            "hike_prob": round(hike_prob, 1),
+            "as_of": ct_now.strftime("%Y-%m-%d %H:%M CT"),
+            "source": "CME FedWatch",
+        }
+
+    except Exception as e:
+        print(f"  [FedWatch WARN] CME 실패: {e} → FRED fallback")
+        return _fedwatch_fred_fallback()
+
+
+def _fedwatch_fred_fallback() -> dict:
+    """FRED DFEDTARU/DFEDTARL로 현재 target range만 제공. 확률은 동결 100% fallback."""
+    try:
+        upper = fetch_fred_series("DFEDTARU")
+        lower = fetch_fred_series("DFEDTARL")
+        u_bps = int(round(float(upper.iloc[-1]) * 100))
+        l_bps = int(round(float(lower.iloc[-1]) * 100))
+        current_range = f"{l_bps}-{u_bps}"
+        return {
+            "meeting_date": "N/A",
+            "current_range": current_range,
+            "probabilities": {current_range: 100.0},
+            "ease_prob": 0.0,
+            "hold_prob": 100.0,
+            "hike_prob": 0.0,
+            "as_of": "FRED fallback (CME unavailable)",
+            "source": "FRED",
+        }
+    except Exception as e2:
+        print(f"  [FedWatch WARN] FRED fallback도 실패: {e2}")
+        return {}
+
+# =========================================================
+# Scoring - US  (원본 유지)
 # =========================================================
 def score_trend_us(close, asset):
     c = last_valid(close); ma50 = last_valid(rolling_mean(close,50)); ma200 = last_valid(rolling_mean(close,200))
@@ -458,7 +562,7 @@ def score_rates_us(dgs10, asset):
     return int(score), {"dgs10":safe_float(cur),"delta20_bp":safe_float(delta20_bp),"max_score":max_score}
 
 # =========================================================
-# Scoring - KR
+# Scoring - KR  (원본 유지)
 # =========================================================
 def score_trend_kr(close, asset):
     c = last_valid(close); ma50 = last_valid(rolling_mean(close,50)); ma200 = last_valid(rolling_mean(close,200))
@@ -470,7 +574,6 @@ def score_trend_kr(close, asset):
     return int(score), {"close":safe_float(c),"ma50":safe_float(ma50),"ma200":safe_float(ma200),"ret20":safe_float(ret20),"max_score":max_score}
 
 def score_vkospi_from_cache(cache):
-    """krx_cache의 vkospi 시계열에서 직접 계산"""
     cur, chg5, ratio20, off10 = calc_vkospi_metrics(cache)
     if pd.isna(cur): score = 10
     elif cur < 20: score = 27
@@ -508,7 +611,6 @@ def score_leadership_kr(kosdaq_close, kospi_close, asset):
     return int(score), {"bucket":bucket,"approx_pct":safe_float(approx),"rel":safe_float(c),"rel_ma20":safe_float(ma20),"rel_ret20":safe_float(ret20),"max_score":max_score}
 
 def score_turnover_kr_from_cache(asset, cache):
-    """krx_cache의 turnover 시계열에서 직접 계산"""
     curr_tril, ma20_ratio, chg5, curr_eok = calc_turnover_metrics(cache, asset)
     max_score = 12
     if pd.isna(curr_tril):
@@ -523,7 +625,6 @@ def score_turnover_kr_from_cache(asset, cache):
     return int(min(score,max_score)), {"current":safe_float(curr_tril),"ma20_ratio":safe_float(ma20_ratio),"chg5":safe_float(chg5),"max_score":max_score}
 
 def score_flow_kr(flow_metrics, asset):
-    """KIS API로 수집한 수급 metrics로 점수 계산"""
     f1  = safe_float(flow_metrics.get("foreign_1d_bil"))
     f5  = safe_float(flow_metrics.get("foreign_5d_bil"))
     f20 = safe_float(flow_metrics.get("foreign_20d_bil"))
@@ -553,7 +654,7 @@ def score_oil_wti(wti_close):
     return int(score), {"wti":safe_float(cur),"wti_ret20":safe_float(ret20),"max_score":10}
 
 # =========================================================
-# Result builders
+# Result builders  (원본 유지)
 # =========================================================
 def build_us_results(mkt, fred):
     out = {}
@@ -594,14 +695,12 @@ def build_kr_results(mkt, krx_cache):
     usdkrw_close = mkt["USDKRW"]["Close"].dropna()
     wti_close    = mkt["WTI"]["Close"].dropna()
 
-    # ── KIS 수급 수집 (1회 호출, 두 시장 공유) ──────────────
     flow_metrics = {"KOSPI": {}, "KOSDAQ": {}}
     try:
         token    = get_kis_token()
         run_date = today_kst_str()
         for mkt_name in ["KOSPI", "KOSDAQ"]:
             df = fetch_kis_investor_flow(token, mkt_name, run_date)
-            # 해당 시장의 최근 거래대금 (억원)
             _, _, _, curr_eok = calc_turnover_metrics(krx_cache, mkt_name)
             flow_metrics[mkt_name] = calc_flow_metrics(df, curr_eok)
             f = flow_metrics[mkt_name]
@@ -644,7 +743,7 @@ def build_kr_results(mkt, krx_cache):
     return out
 
 # =========================================================
-# Macro summary
+# Macro summary  (원본 유지)
 # =========================================================
 def build_macro_summary(mkt, fred, prev_state):
     dgs10 = fred["DGS10"].dropna(); dgs2 = fred["DGS2"].dropna(); hy = fred["HY_OAS"].dropna()
@@ -674,7 +773,7 @@ def build_macro_summary(mkt, fred, prev_state):
     }
 
 # =========================================================
-# HTML (원본 generate_html 그대로 유지 - 변경 없음)
+# HTML helpers  (원본 유지)
 # =========================================================
 def color_for_signal(sig):
     if sig=="매수": return "#00d084"
@@ -779,7 +878,125 @@ def make_card(result, max_map):
       {detail_html}{guardrail_html}
     </div>"""
 
-def generate_html(us_results, kr_results, us_updated, kr_updated, macro, mkt=None):
+# =========================================================
+# PATCH 3: _build_fedwatch_card() — MAIN 탭 삽입용 HTML
+# =========================================================
+def _build_fedwatch_card(fw: dict) -> str:
+    """
+    FedWatch 데이터를 받아 MAIN 탭 하단에 삽입할 카드 HTML 반환.
+    fw가 비어있으면 에러 카드 반환.
+    """
+    if not fw:
+        return """<div style="max-width:960px;margin:18px auto 0;">
+          <div class="asset-card" style="border-top:3px solid #3a3a5c;">
+            <div style="color:#5b5b80;font-family:'IBM Plex Mono',monospace;font-size:12px;text-align:center;padding:16px;">
+              🎯 Fed Rate Watch — 데이터 로드 실패 (CME / FRED 접근 불가)
+            </div>
+          </div></div>"""
+
+    current_range = fw.get("current_range", "—")
+    meeting_date  = fw.get("meeting_date", "—")
+    ease_prob     = fw.get("ease_prob", 0.0)
+    hold_prob     = fw.get("hold_prob", 0.0)
+    hike_prob     = fw.get("hike_prob", 0.0)
+    probs         = fw.get("probabilities", {})
+    as_of         = fw.get("as_of", "—")
+    source        = fw.get("source", "CME FedWatch")
+
+    # current target rate bps → % 변환
+    try:
+        parts = current_range.split("-")
+        rate_lo = int(parts[0]) / 100
+        rate_hi = int(parts[1]) / 100
+        rate_display = f"{rate_lo:.2f}–{rate_hi:.2f}%"
+    except Exception:
+        rate_display = current_range
+
+    # 기대 액션 (가장 높은 확률 기준)
+    if ease_prob > hold_prob and ease_prob > hike_prob:
+        action, action_color = "EASE",  "#00d084"
+        action_bg, action_border = "rgba(0,208,132,0.10)", "rgba(0,208,132,0.30)"
+    elif hike_prob > hold_prob and hike_prob > ease_prob:
+        action, action_color = "HIKE",  "#e53e3e"
+        action_bg, action_border = "rgba(229,62,62,0.10)", "rgba(229,62,62,0.30)"
+    else:
+        action, action_color = "HOLD",  "#f5c842"
+        action_bg, action_border = "rgba(245,200,66,0.10)", "rgba(245,200,66,0.30)"
+
+    # Target rate 확률 바차트 (bps 오름차순 정렬)
+    bar_rows = []
+    for rate_range, prob in sorted(probs.items(), key=lambda x: int(x[0].split("-")[0])):
+        is_current  = (rate_range == current_range)
+        label_style = "color:#f0f0f8;font-weight:700;" if is_current else "color:#9090b8;"
+        bar_color   = "#5b9bd5" if is_current else "#2a2a4a"
+        suffix      = " ← current" if is_current else ""
+        bar_rows.append(f"""
+        <div style="margin-bottom:10px;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:3px;">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;{label_style}">{rate_range} bps{suffix}</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:700;color:#e0e0f0;">{prob:.1f}%</span>
+          </div>
+          <div style="background:#1a1a2e;border-radius:3px;height:9px;overflow:hidden;">
+            <div style="height:100%;width:{min(prob, 100):.1f}%;background:{bar_color};border-radius:3px;"></div>
+          </div>
+        </div>""")
+    bars_html = "".join(bar_rows)
+
+    return f"""<div style="max-width:960px;margin:18px auto 0;">
+<div class="asset-card" style="border-top:3px solid #5b9bd5;">
+  <div class="card-header">
+    <div>
+      <div class="asset-name" style="font-size:22px;">🎯 Fed Rate Watch</div>
+      <div style="font-size:12px;color:#9090b8;margin-top:3px;">{source} &nbsp;·&nbsp; 차기 FOMC: {meeting_date}</div>
+    </div>
+    <div style="text-align:right;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8888aa;margin-bottom:4px;">Current Target Rate</div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:24px;font-weight:700;color:#f0f0f8;">{rate_display}</div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:20px;">
+    <!-- 기대 액션 -->
+    <div style="background:{action_bg};border:1px solid {action_border};border-radius:10px;padding:14px;text-align:center;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#8888aa;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;">기대 액션</div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:26px;font-weight:700;color:{action_color};">{action}</div>
+    </div>
+    <!-- 확률 요약 -->
+    <div style="background:#161622;border:1px solid #252538;border-radius:10px;padding:14px;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#8888aa;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">확률 요약</div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;display:flex;flex-direction:column;gap:6px;">
+        <div style="display:flex;justify-content:space-between;padding-bottom:4px;border-bottom:1px solid #1a1a28;">
+          <span style="color:#00d084;">인하(Ease)</span><span style="font-weight:700;">{ease_prob:.1f}%</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding-bottom:4px;border-bottom:1px solid #1a1a28;">
+          <span style="color:#f5c842;">동결(Hold)</span><span style="font-weight:700;">{hold_prob:.1f}%</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;">
+          <span style="color:#e53e3e;">인상(Hike)</span><span style="font-weight:700;">{hike_prob:.1f}%</span>
+        </div>
+      </div>
+    </div>
+    <!-- 데이터 기준 -->
+    <div style="background:#161622;border:1px solid #252538;border-radius:10px;padding:14px;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#8888aa;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">데이터 기준</div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#c0c0d8;line-height:1.9;">
+        <div>회의일: <span style="color:#f0f0f8;font-weight:600;">{meeting_date}</span></div>
+        <div style="color:#5b5b80;font-size:10px;margin-top:4px;">{as_of}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Target Rate 확률 분포 바차트 -->
+  <div>
+    <div class="section-label" style="margin-bottom:12px;">Target Rate 확률 분포 (30-day Fed Funds Futures implied, bps)</div>
+    {bars_html}
+  </div>
+</div></div>"""
+
+# =========================================================
+# PATCH 4: generate_html() — fedwatch 파라미터 추가
+# =========================================================
+def generate_html(us_results, kr_results, us_updated, kr_updated, macro, mkt=None, fedwatch=None):
     us_max = {
         "SPY": {"trend":35,"vix":25,"tactical":15,"breadth":15,"rates":10},
         "QQQ": {"trend":30,"vix":25,"tactical":15,"breadth":10,"rates":20},
@@ -826,7 +1043,6 @@ def generate_html(us_results, kr_results, us_updated, kr_updated, macro, mkt=Non
     spy=us_results["SPY"]; qqq=us_results["QQQ"]
     kospi=kr_results["KOSPI"]; kosdaq=kr_results["KOSDAQ"]
 
-    # GSPC / NDX 시계열 (MAIN 카드용)
     if mkt is None:
         mkt = {k: pd.DataFrame() for k in TICKERS}
     gspc_close = mkt["GSPC"]["Close"].dropna() if "GSPC" in mkt and not mkt["GSPC"].empty else pd.Series(dtype=float)
@@ -846,6 +1062,9 @@ def generate_html(us_results, kr_results, us_updated, kr_updated, macro, mkt=Non
         {"section":"FX / Credit","label":"HY OAS","value":f"{fmt_num(macro['hy_oas'],2)}%","d1":fmt_bp(macro["hy_oas_1d_bp"]),"d5":fmt_bp(macro["hy_oas_5d_bp"]),"aux":"신용 경계" if safe_float(macro["hy_oas"],0)>=3.5 else "신용 안정","status":"bad" if safe_float(macro["hy_oas"],0)>=4.0 else "warn" if safe_float(macro["hy_oas"],0)>=3.5 else "good"},
     ]
     main_cards_html = "".join(f'''<div class="main-card"><div><div class="main-card-top"><div><div class="main-section">{c["section"]}</div><div class="main-title">{c["label"]}</div></div><div class="mini-badge {c["status"]}">{status_to_badge(c["status"])}</div></div><div class="main-value">{c["value"]}</div><div class="main-metrics"><div class="row"><span>1일 변화</span><span>{c["d1"]}</span></div><div class="row"><span>5일 변화</span><span>{c["d5"]}</span></div><div class="row"><span>판단</span><span>{c["aux"]}</span></div></div></div></div>''' for c in main_cards)
+
+    # PATCH: FedWatch 카드 HTML 생성
+    fedwatch_card_html = _build_fedwatch_card(fedwatch or {})
 
     score = sum(1 if c["status"]=="good" else -1 if c["status"]=="bad" else 0 for c in main_cards)
     if score>=3: regime_text="RISK-ON"; regime_class="riskon"; regime_desc="주식/변동성/신용 전반이 비교적 안정적입니다."
@@ -980,6 +1199,7 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
       <div class="hero-card"><div class="hero-label">오늘의 경보</div><ul class="alert-list">{alerts_html}</ul></div>
     </div>
     <div class="main-grid">{main_cards_html}</div>
+    {fedwatch_card_html}
   </div>
 </div>
 <div id="tab-us" class="tab-content"><div class="cards-container">{us_cards}</div></div>
@@ -1002,7 +1222,7 @@ body{background:#0d0d14;color:#d4d4e0;font-family:"IBM Plex Sans KR",sans-serif;
 </body></html>'''
 
 # =========================================================
-# Main
+# Main  — PATCH 5: fedwatch 수집 추가
 # =========================================================
 def main():
     prev_state = read_json(STATE_FILE, {})
@@ -1025,15 +1245,28 @@ def main():
     print("[INFO] Building macro summary...")
     macro = build_macro_summary(mkt, fred, prev_state)
 
+    # ── PATCH: FedWatch 확률 수집 ──────────────────────────────
+    print("[INFO] Fetching FedWatch probabilities...")
+    fedwatch = fetch_fedwatch_probs()
+    if fedwatch:
+        print(f"  [FedWatch] {fedwatch.get('meeting_date','?')} — "
+              f"Hold {fedwatch.get('hold_prob',0):.1f}% / "
+              f"Ease {fedwatch.get('ease_prob',0):.1f}% / "
+              f"Hike {fedwatch.get('hike_prob',0):.1f}% "
+              f"({fedwatch.get('source','')})")
+    else:
+        print("  [FedWatch] 데이터 없음 — 카드 에러 표시")
+
     ts = fmt_ts_kst()
     print("[INFO] Generating HTML...")
-    html = generate_html(us_results, kr_results, ts, ts, macro, mkt=mkt)
+    html = generate_html(us_results, kr_results, ts, ts, macro, mkt=mkt, fedwatch=fedwatch)
     with open(INDEX_FILE, "w", encoding="utf-8") as f:
         f.write(html)
 
     state = {
         "updated_kst": ts,
         "macro": macro,
+        "fedwatch": fedwatch,   # state.json에도 저장
         "us_results": {k: {"asset":v.asset,"total_score":v.total_score,"signal":v.signal,
                             "original_signal":v.original_signal,"module_scores":v.module_scores,
                             "module_meta":v.module_meta,"guardrail_reasons":v.guardrail_reasons}
