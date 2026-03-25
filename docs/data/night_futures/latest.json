@@ -1,9 +1,9 @@
 {
-  "generated_at_kst": "2026-03-26T04:56:05.704639+09:00",
+  "generated_at_kst": "2026-03-26T05:46:17.714750+09:00",
   "biz_date": "2026-03-25",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'quote_fallback_ok'}",
+  "note": "market_status={'kospi': 'no_trade_or_quote_for_A01606', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
   "token_status": "ready",
   "series": {
     "kospi": [
@@ -507,16 +507,12 @@
       "kosdaq": "A06606"
     },
     "received_symbols": {
-      "trade": [
-        "A01606"
-      ],
-      "quote": [
-        "A06606"
-      ]
+      "trade": [],
+      "quote": []
     },
     "market_status": {
-      "kospi": "trade_ok",
-      "kosdaq": "quote_fallback_ok"
+      "kospi": "no_trade_or_quote_for_A01606",
+      "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
 }
