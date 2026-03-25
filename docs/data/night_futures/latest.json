@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-03-25T18:57:38.236907+09:00",
+  "generated_at_kst": "2026-03-25T19:58:13.432867+09:00",
   "biz_date": "2026-03-25",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
@@ -36,27 +36,57 @@
           "ACML_VOL": "2470",
           "LAST_CNQN": "1"
         }
+      },
+      {
+        "time": "19:58",
+        "bsop_hour": "195825",
+        "price": 845.55,
+        "change": 4.15,
+        "change_pct": 0.49,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 845.65,
+        "session_high": 847.45,
+        "session_low": 840.7,
+        "ask1": 845.65,
+        "bid1": 845.5,
+        "acml_vol": 3462.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "845.55",
+          "FUTS_PRDY_VRSS": "4.15",
+          "FUTS_PRDY_CTRT": "0.49",
+          "FUTS_OPRC": "845.65",
+          "FUTS_HGPR": "847.45",
+          "FUTS_LWPR": "840.70",
+          "FUTS_ASKP1": "845.65",
+          "FUTS_BIDP1": "845.50",
+          "ACML_VOL": "3462",
+          "LAST_CNQN": "1"
+        }
       }
     ],
     "kosdaq": []
   },
   "summary": {
     "kospi": {
-      "last": 841.6,
-      "change": 0.2,
-      "change_pct": 0.02,
-      "high": 841.6,
+      "last": 845.55,
+      "change": 4.15,
+      "change_pct": 0.49,
+      "high": 845.55,
       "low": 841.6,
-      "points": 1,
+      "points": 2,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 845.65,
       "session_high": 847.45,
       "session_low": 840.7,
-      "ask1": 841.75,
-      "bid1": 841.55,
-      "spread": 0.2,
-      "acml_vol": 2470.0,
+      "ask1": 845.65,
+      "bid1": 845.5,
+      "spread": 0.15,
+      "acml_vol": 3462.0,
       "source_type": "trade"
     },
     "kosdaq": {
