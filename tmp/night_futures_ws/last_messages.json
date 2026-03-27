@@ -1,6 +1,6 @@
 [
   {
-    "received_at_kst": "2026-03-28T05:02:19.486358+09:00",
+    "received_at_kst": "2026-03-28T05:56:23.329898+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -15,14 +15,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "3468371a28c9a08f",
-          "key": "bidwftgbztggsoyfplmpdyyixtuyhgkk"
+          "iv": "49daeeb9ed5a7718",
+          "key": "hrdcvvltdwuqpupbwqrzjoqkkslalhhs"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-03-28T05:02:19.486449+09:00",
+    "received_at_kst": "2026-03-28T05:56:23.504900+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -37,14 +37,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "3468371a28c9a08f",
-          "key": "bidwftgbztggsoyfplmpdyyixtuyhgkk"
+          "iv": "49daeeb9ed5a7718",
+          "key": "hrdcvvltdwuqpupbwqrzjoqkkslalhhs"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-03-28T05:02:19.657001+09:00",
+    "received_at_kst": "2026-03-28T05:56:23.504967+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFASP0",
@@ -59,151 +59,22 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "3468371a28c9a08f",
-          "key": "bidwftgbztggsoyfplmpdyyixtuyhgkk"
+          "iv": "49daeeb9ed5a7718",
+          "key": "hrdcvvltdwuqpupbwqrzjoqkkslalhhs"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-03-28T05:02:24.320297+09:00",
+    "received_at_kst": "2026-03-28T05:56:34.267960+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
-    "msg_type": "quote",
-    "tr_id": "H0MFASP0",
-    "symbol": "A06606",
+    "msg_type": "ack",
+    "tr_id": "PINGPONG",
     "parsed": {
-      "FUTS_SHRN_ISCD": "A06606",
-      "BSOP_HOUR": "050224",
-      "FUTS_ASKP1": "1975.70",
-      "FUTS_ASKP2": "1976.00",
-      "FUTS_ASKP3": "1978.50",
-      "FUTS_ASKP4": "1980.00",
-      "FUTS_ASKP5": "1980.10",
-      "FUTS_BIDP1": "1965.40",
-      "FUTS_BIDP2": "1965.10",
-      "FUTS_BIDP3": "1964.10",
-      "FUTS_BIDP4": "1964.00",
-      "FUTS_BIDP5": "1963.90",
-      "ASKP_CSNU1": "1",
-      "ASKP_CSNU2": "2",
-      "ASKP_CSNU3": "1",
-      "ASKP_CSNU4": "1",
-      "ASKP_CSNU5": "1",
-      "BIDP_CSNU1": "1",
-      "BIDP_CSNU2": "2",
-      "BIDP_CSNU3": "1",
-      "BIDP_CSNU4": "1",
-      "BIDP_CSNU5": "1",
-      "ASKP_RSQN1": "1",
-      "ASKP_RSQN2": "2",
-      "ASKP_RSQN3": "4",
-      "ASKP_RSQN4": "1",
-      "ASKP_RSQN5": "1",
-      "BIDP_RSQN1": "1",
-      "BIDP_RSQN2": "4",
-      "BIDP_RSQN3": "1",
-      "BIDP_RSQN4": "1",
-      "BIDP_RSQN5": "1",
-      "TOTAL_ASKP_CSNU": "181",
-      "TOTAL_BIDP_CSNU": "126",
-      "TOTAL_ASKP_RSQN": "259",
-      "TOTAL_BIDP_RSQN": "194",
-      "TOTAL_ASKP_RSQN_ICDC": "0",
-      "TOTAL_BIDP_RSQN_ICDC": "1"
-    }
-  },
-  {
-    "received_at_kst": "2026-03-28T05:02:25.366294+09:00",
-    "ws_url": "ws://ops.koreainvestment.com:21000",
-    "msg_type": "quote",
-    "tr_id": "H0MFASP0",
-    "symbol": "A06606",
-    "parsed": {
-      "FUTS_SHRN_ISCD": "A06606",
-      "BSOP_HOUR": "050225",
-      "FUTS_ASKP1": "1975.70",
-      "FUTS_ASKP2": "1976.00",
-      "FUTS_ASKP3": "1978.50",
-      "FUTS_ASKP4": "1980.00",
-      "FUTS_ASKP5": "1980.10",
-      "FUTS_BIDP1": "1967.30",
-      "FUTS_BIDP2": "1965.40",
-      "FUTS_BIDP3": "1965.10",
-      "FUTS_BIDP4": "1964.10",
-      "FUTS_BIDP5": "1964.00",
-      "ASKP_CSNU1": "1",
-      "ASKP_CSNU2": "2",
-      "ASKP_CSNU3": "1",
-      "ASKP_CSNU4": "1",
-      "ASKP_CSNU5": "1",
-      "BIDP_CSNU1": "1",
-      "BIDP_CSNU2": "1",
-      "BIDP_CSNU3": "2",
-      "BIDP_CSNU4": "1",
-      "BIDP_CSNU5": "1",
-      "ASKP_RSQN1": "1",
-      "ASKP_RSQN2": "2",
-      "ASKP_RSQN3": "4",
-      "ASKP_RSQN4": "1",
-      "ASKP_RSQN5": "1",
-      "BIDP_RSQN1": "1",
-      "BIDP_RSQN2": "1",
-      "BIDP_RSQN3": "4",
-      "BIDP_RSQN4": "1",
-      "BIDP_RSQN5": "1",
-      "TOTAL_ASKP_CSNU": "181",
-      "TOTAL_BIDP_CSNU": "127",
-      "TOTAL_ASKP_RSQN": "259",
-      "TOTAL_BIDP_RSQN": "195",
-      "TOTAL_ASKP_RSQN_ICDC": "0",
-      "TOTAL_BIDP_RSQN_ICDC": "1"
-    }
-  },
-  {
-    "received_at_kst": "2026-03-28T05:02:25.366375+09:00",
-    "ws_url": "ws://ops.koreainvestment.com:21000",
-    "msg_type": "quote",
-    "tr_id": "H0MFASP0",
-    "symbol": "A06606",
-    "parsed": {
-      "FUTS_SHRN_ISCD": "A06606",
-      "BSOP_HOUR": "050225",
-      "FUTS_ASKP1": "1975.70",
-      "FUTS_ASKP2": "1976.00",
-      "FUTS_ASKP3": "1978.50",
-      "FUTS_ASKP4": "1980.00",
-      "FUTS_ASKP5": "1980.10",
-      "FUTS_BIDP1": "1967.30",
-      "FUTS_BIDP2": "1967.10",
-      "FUTS_BIDP3": "1965.40",
-      "FUTS_BIDP4": "1965.10",
-      "FUTS_BIDP5": "1964.10",
-      "ASKP_CSNU1": "1",
-      "ASKP_CSNU2": "2",
-      "ASKP_CSNU3": "1",
-      "ASKP_CSNU4": "1",
-      "ASKP_CSNU5": "1",
-      "BIDP_CSNU1": "1",
-      "BIDP_CSNU2": "1",
-      "BIDP_CSNU3": "1",
-      "BIDP_CSNU4": "2",
-      "BIDP_CSNU5": "1",
-      "ASKP_RSQN1": "1",
-      "ASKP_RSQN2": "2",
-      "ASKP_RSQN3": "4",
-      "ASKP_RSQN4": "1",
-      "ASKP_RSQN5": "1",
-      "BIDP_RSQN1": "1",
-      "BIDP_RSQN2": "1",
-      "BIDP_RSQN3": "1",
-      "BIDP_RSQN4": "4",
-      "BIDP_RSQN5": "1",
-      "TOTAL_ASKP_CSNU": "181",
-      "TOTAL_BIDP_CSNU": "128",
-      "TOTAL_ASKP_RSQN": "259",
-      "TOTAL_BIDP_RSQN": "196",
-      "TOTAL_ASKP_RSQN_ICDC": "0",
-      "TOTAL_BIDP_RSQN_ICDC": "1"
+      "header": {
+        "tr_id": "PINGPONG",
+        "datetime": "20260328055634"
+      }
     }
   }
 ]
