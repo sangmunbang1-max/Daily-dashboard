@@ -1,317 +1,228 @@
 {
-  "generated_at_kst": "2026-03-28 07:59 KST",
-  "period": "03/27 07:00 ~ 03/28 07:00 KST",
+  "generated_at_kst": "2026-03-29 07:55 KST",
+  "period": "03/28 07:00 ~ 03/29 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "S&P 500은 조정 국면에 가까워지고 있으며 다음에는 약세장이 올 수 있습니다.",
-        "description": "투자자들은 이란과의 전쟁에 대한 시장의 불안을 진정시키려는 도널드 트럼프 대통령의 최근 노력을 무시한 것으로 보입니다.",
-        "url": "https://finance.yahoo.com/m/6d9324e9-1088-3db0-8437-ce45fc0fc2f5/s%26p-500-is-nearing-a.html?.tsrc=rss",
+        "title": "치솟는 휘발유 가격 너머를 보세요! 도널드 트럼프 대통령 하에서 주식 시장 붕괴가 구체화된다면 연준이 촉매제가 될 가능성이 높습니다.",
+        "description": "만약 국가의 중앙은행이 체스말을 옮기기로 결정한다면, 그것은 월스트리트를 지켜보는 순간이 될 수도 있습니다.",
+        "url": "https://www.fool.com/investing/2026/03/28/beyond-gas-prices-stock-market-crash-donald-trump/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 03:14",
-        "score": 15
-      },
-      {
-        "title": "다우존스 지수, 5주 연속 하락 후 조정 영역 진입",
-        "description": "유가가 상승하고 이란에 대한 엇갈린 신호로 인해 인플레이션과 성장에 대한 우려가 높아지면서 주식은 5주 연속 하락세를 보였습니다.",
-        "url": "https://www.cbsnews.com/news/stock-market-today-dow-sp500-drop-oil-prices-iran-war/?ftag=YHF4eb9d17&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 05:45",
-        "score": 11
-      },
-      {
-        "title": "S&P 500, 나스닥, 6개월 만에 최저치 기록",
-        "description": "S&P 500 지수는 3월 27일 6,384.51포인트까지 떨어졌습니다. 이는 2025년 9월 2일 6,360.58달러를 기록한 이후 가장 낮은 수준입니다.",
-        "url": "https://www.thestreet.com/crypto/markets/sp-500-nasdaq-hit-lowest-levels-in-over-6-months?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 06:47",
-        "score": 10
-      },
-      {
-        "title": "이란 분쟁으로 유가 상승으로 S&P 500, 나스닥 하락",
-        "description": "유가는 급등하고 기술주는 하락하고 있습니다. 금요일 매도세를 형성하는 요소는 다음과 같습니다.",
-        "url": "https://www.fool.com/investing/2026/03/27/sp-500-nasdaq-slide-on-iran-conflict/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 02:11",
-        "score": 10
-      },
-      {
-        "title": "오늘의 주식 시장: 다우지수는 유가 상승으로 조정을 시작합니다. 마이크론 상승(생중계)",
-        "description": "트럼프 대통령이 이란 협상 시한을 연장하자 다우존스 지수는 금요일 하락했다. 유가가 반등했습니다.",
-        "url": "https://finance.yahoo.com/m/6f427f71-e4e2-3dee-af0d-09a1e56d4bd3/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 05:49",
+        "publishedAt": "03/28 17:26",
         "score": 9
-      }
-    ],
-    "kr_market": [
+      },
       {
-        "title": "메모리 칩 대기업 SK 하이닉스는 블록버스터 미국 IPO로 'RAMmageddon'을 끝내는 데 도움을 줄 수 있습니다",
-        "description": "SK하이닉스의 미국 상장 가능성은 100억~140억 달러를 조달하여 더 많은 생산 능력을 구축하고 다른 사람들이 따르도록 장려하며 'RAMmageddon'을 종식시킬 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/memory-chip-giant-sk-hynix-191128085.html?.tsrc=rss",
+        "title": "미·이란 확전 우려에 투매 확산…3대지수 일제히 급락 [뉴욕증시 브리핑]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026032825087",
+        "source": "hankyung.com",
+        "publishedAt": "03/28 07:25",
+        "score": 8
+      },
+      {
+        "title": "다우존스 선물: 이란 전쟁에서 유가가 100달러를 기록하면서 시장이 급락했습니다. 지금 해야 할 일",
+        "description": "이란 전쟁으로 인해 유가가 100달러에 가까워지자 주요 지수는 매도세를 보이며 6개월 만에 최저치를 기록했습니다. 테슬라 배송이 다가오고 있습니다.",
+        "url": "https://finance.yahoo.com/m/390ee993-3b8e-3011-9287-1cde0325dcb7/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 04:11",
+        "publishedAt": "03/29 01:53",
         "score": 5
       },
       {
-        "title": "엇갈린 주가 모멘텀 이후 삼성전자(KOSE:A005930) 평가",
-        "description": "삼성전자(KOSE:A005930)는 최근 실적 데이터가 단기 주가와 엇갈린 수익률 프로필을 보여주면서 새로운 관심을 끌었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-samsung-electronics-kose-a005930-110527447.html?.tsrc=rss",
+        "title": "현재 주식 시장 가치 평가가 투자자들에게 우려를 불러일으키나요? 억만장자 Bill Ackman의 생각은 다음과 같습니다.",
+        "description": "S&P 500의 현재 가치 평가를 살펴보겠습니다.",
+        "url": "https://www.fool.com/investing/2026/03/28/should-the-current-stock-market-valuation-concern/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/27 20:05",
+        "publishedAt": "03/28 21:40",
         "score": 5
       },
       {
-        "title": "코스피, 휴전 불확실·터보퀀트 여파에 이틀째 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032716266",
-        "source": "hankyung.com",
-        "publishedAt": "03/27 15:42",
-        "score": 5
-      },
-      {
-        "title": "'터보퀀트·전쟁' 쇼크에 4% 급락…코스피, 장초반 5200선까지 무너져 [HK영상]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202603270972i",
-        "source": "hankyung.com",
-        "publishedAt": "03/27 11:07",
-        "score": 5
-      },
-      {
-        "title": "코스피, 휴전 불확실·터보퀀트 여파에 장 초반 5200선 후퇴",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032704026",
-        "source": "hankyung.com",
-        "publishedAt": "03/27 09:23",
+        "title": "제롬 파월 연준 의장이 두 번째 연속 FOMC 회의에서 인플레이션과 관련해 도널드 트럼프 대통령을 곤경에 빠뜨렸습니까?",
+        "description": "트럼프 대통령의 관세 및 무역 정책은 투자자들이 생각하는 것보다 더 문제가 많은 것으로 드러났습니다.",
+        "url": "https://www.fool.com/investing/2026/03/28/fed-chair-jerome-powell-donald-trump-inflation/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/28 19:56",
         "score": 5
       }
     ],
+    "kr_market": [],
     "macro": [
       {
-        "title": "시장은 연준의 다음 조치가 금리 인상이라고 생각하기 시작했습니다.",
-        "description": "유가가 인플레이션을 높일 것이라는 우려 속에서 투자자들이 연준의 매파적인 정책을 기대하고 있다는 채권 시장의 징후가 나타나고 있습니다.",
-        "url": "https://finance.yahoo.com/news/the-market-is-starting-to-think-the-federal-reserves-next-move-is-raising-interest-rates-154704986.html?.tsrc=rss",
+        "title": "제롬 파월 연준 의장이 두 번째 연속 FOMC 회의에서 인플레이션과 관련해 도널드 트럼프 대통령을 곤경에 빠뜨렸습니까?",
+        "description": "트럼프 대통령의 관세 및 무역 정책은 투자자들이 생각하는 것보다 더 문제가 많은 것으로 드러났습니다.",
+        "url": "https://www.fool.com/investing/2026/03/28/fed-chair-jerome-powell-donald-trump-inflation/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 00:47",
-        "score": 5
-      },
-      {
-        "title": "중앙은행과 이란 전쟁에 대한 우려로 금과 은 가격이 상승",
-        "description": "금요일에 귀금속이 회복되면서 중동 분쟁으로 인해 투자자들이 높은 경각심을 갖게 되었습니다.",
-        "url": "https://uk.finance.yahoo.com/news/gold-and-silver-prices-rise-with-eyes-on-central-banks-and-iran-war-152817508.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 00:28",
-        "score": 3
-      },
-      {
-        "title": "중동 전쟁: 세계 경제의 낙진",
-        "description": "중동 전쟁의 최신 경제 사건은 다음과 같습니다.\n- 이란이 선박을 회항시켰습니다 -\n이란 혁명수비대는 금요일 자신들이 돌아섰다고 말했습니다.",
-        "url": "https://finance.yahoo.com/economy/articles/middle-east-war-global-economic-160636725.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 06:12",
-        "score": 1
-      },
-      {
-        "title": "로라 쿠퍼 \"이란 전쟁으로 美 경제성장률 0.3%P 하락할 것\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032719951",
-        "source": "hankyung.com",
-        "publishedAt": "03/27 17:17",
-        "score": 1
+        "publishedAt": "03/28 19:56",
+        "score": 10
       }
     ],
     "bonds": [
       {
-        "title": "이란 평화 협정이 아직 파악되지 않아 국채 수익률이 엇갈리고 있습니다.",
-        "description": "10년 만기 국채 수익률은 오르고, 트럼프 대통령이 이란 에너지 부문에 대한 공격을 10일 더 중단하면서 2년 만기 수익률은 하락했다. 나",
-        "url": "https://finance.yahoo.com/m/3c7ec4e2-5a97-364b-8058-d58623fe7861/treasury-yields-mixed-as-iran.html?.tsrc=rss",
+        "title": "이란 전쟁 중에 올해 10조 달러를 이월해야 함에 따라 미국 부채에 대한 수요가 갑자기 약화되었습니다. '채권시장은 여전히 ​​무패'",
+        "description": "\"전쟁 자금 조달을 위한 추가 지출의 필요성은 미국의 부채를 증가시키고 투자자들이 추가 보상을 요구함에 따라 채권 시장 매도를 촉발할 것입니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/u-debt-suddenly-draws-weaker-165737755.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/27 23:56",
-        "score": 8
-      },
-      {
-        "title": "원·달러 환율 80원 뜀박질…국고채 금리 연일 고공행진",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032721351",
-        "source": "hankyung.com",
-        "publishedAt": "03/27 17:47",
-        "score": 3
-      },
-      {
-        "title": "가난한 달을 위한 채권 설정. 약한 경매와 높은 유가가 미국 부채를 압박합니다.",
-        "description": "30조 달러 규모의 미국 부채 시장은 이란 전쟁으로 촉발된 유가 상승으로 어려움을 겪고 있으며 신규 부채 경매도 중단되었습니다.",
-        "url": "https://finance.yahoo.com/m/7f11c6bd-34e9-38c6-b1cc-4d662a5092cd/bonds-set-for-poor-month..html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 02:24",
+        "publishedAt": "03/29 01:57",
         "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "중동 휴전 희망이 사라지면서 원유 가격 급등",
-        "description": "미국-이란 분쟁이 곧 해결될 것이라는 시장의 전망에 원유 가격이 금요일 상승했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/crude-oil-prices-jump-hopes-094449209.html?.tsrc=rss",
+        "title": "분석가 업그레이드 및 유가 전망 변화 후 Expand Energy(EXE) 가치 평가",
+        "description": "EXE(Expand Energy)는 2026년 3월 24일 휴스턴에서 열리는 제5회 연례 Connected Worker 에너지 서밋에서 발표할 계획을 발표한 후 다시 초점을 맞췄습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/assessing-expand-energy-exe-valuation-140642071.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/27 18:44",
-        "score": 10
-      },
-      {
-        "title": "에너지·원유 웃고, 금·은 울고…중동 전쟁에 원자재 ETF 희비",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032719941",
-        "source": "hankyung.com",
-        "publishedAt": "03/27 17:15",
-        "score": 9
-      },
-      {
-        "title": "업데이트: 트럼프가 이란 에너지 자산에 대한 공격 기한을 10일 연장함에 따라 WTI 유가가 다시 상승",
-        "description": "트럼프 미국 대통령의 사임에도 불구하고 서부텍사스산 중질유(WTI)는 금요일 5.5% 상승했다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-rises-again-trump-183828439.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 03:38",
+        "publishedAt": "03/28 23:06",
         "score": 8
       },
       {
-        "title": "미국 유가가 배럴당 100달러 이상으로 급등했습니다.",
-        "description": "도널드 트럼프 대통령은 이란과의 진전을 주장해 시장의 우려를 진정시키려고 노력했지만 유가는 다른 이야기를 들려준다.",
-        "url": "https://finance.yahoo.com/m/8617a745-eb1b-372a-89e8-d2db8efe6184/u.s.-oil-prices-surge-back.html?.tsrc=rss",
+        "title": "다우존스 선물: 이란 전쟁에서 유가가 100달러를 기록하면서 시장이 급락했습니다. 지금 해야 할 일",
+        "description": "이란 전쟁으로 인해 유가가 100달러에 가까워지자 주요 지수는 매도세를 보이며 6개월 만에 최저치를 기록했습니다. 테슬라 배송이 다가오고 있습니다.",
+        "url": "https://finance.yahoo.com/m/390ee993-3b8e-3011-9287-1cde0325dcb7/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 05:40",
-        "score": 6
+        "publishedAt": "03/29 01:53",
+        "score": 5
       },
       {
-        "title": "이란 전쟁이 계속되면서 다우존스 급락, 유가 100달러로 하락; 테슬라 룸스",
-        "description": "이란 전쟁으로 인해 유가가 100달러에 가까워지자 주요 지수는 매도세를 보이며 6개월 만에 최저치를 기록했습니다. Tesla 배송이 곧 시작됩니다.",
-        "url": "https://finance.yahoo.com/m/390ee993-3b8e-3011-9287-1cde0325dcb7/dow-jones-dives%2C-oil-prices.html?.tsrc=rss",
+        "title": "Wells Fargo, 2026년 남은 기간 동안 금 가격 목표 재설정",
+        "description": "금은 3월 초 이후 약 17% 하락한 후 온스당 약 4,411달러에 거래되고 있습니다. Wells Fargo Investment Institute는 이것이 바로",
+        "url": "https://www.thestreet.com/investing/wells-fargo-resets-gold-price-target-for-the-rest-of-2026?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 06:10",
+        "publishedAt": "03/29 00:33",
+        "score": 5
+      },
+      {
+        "title": "車 연료비 지출 8배 많은 고소득층…고유가 정책 혜택 더 크다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202603163328i",
+        "source": "hankyung.com",
+        "publishedAt": "03/28 22:03",
+        "score": 5
+      },
+      {
+        "title": "'올해만 118조' 한국 기업들 긴장하는 이유가…'무서운 경고' [글로벌 머니 X파일]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202603269075i",
+        "source": "hankyung.com",
+        "publishedAt": "03/28 07:00",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "원·달러 환율 80원 뜀박질…국고채 금리 연일 고공행진",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032721351",
-        "source": "hankyung.com",
-        "publishedAt": "03/27 17:47",
-        "score": 8
-      },
-      {
-        "title": "일본 엔화는 달러당 160달러로 2024년 7월 이후 최저치다.",
-        "description": "로라 매튜스 뉴욕, 3월 27일 (로이터) - 미국 달러는 금요일 엔화 대비 강세를 보이며 7월 이후 처음으로 160엔을 기록했다.",
-        "url": "https://sg.finance.yahoo.com/news/japanese-yen-hits-160-per-161951756.html?.tsrc=rss",
+        "title": "글로벌 석유 무역으로 달러 지배력 강화됐지만, 이란 전쟁으로 미국의 안보방벽이 약화되면서 '페트로위안'이 탄생할 수도 있다.",
+        "description": "도이체방크는 “세계는 달러로 지불하기 때문에 달러로 절약하는 경우가 많다”고 말했다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/dollar-dominance-reinforced-global-oil-193741704.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 01:19",
+        "publishedAt": "03/29 04:37",
         "score": 4
       },
       {
-        "title": "원유 선물: 엔화 가치 하락을 저지하는 일본의 멋진 전략",
-        "description": "엔화를 지지하려면 도쿄가 달러 가격에 영향을 미쳐야 합니다. 지금 당장 그렇게 할 수 있는 유일한 직접적인 방법은 석유 생산에 개입하는 것입니다.",
-        "url": "https://app.moby.co/home/news/news-oil-futures-japans-cool-pivot-to-arrest-yens-freefall?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "title": "로켓 연구소, 유럽 우주국을 위한 85번째 임무 및 최초의 전용 발사를 성공적으로 시작",
+        "description": "유럽 ​​우주국을 위한 로켓 실험실 전자 발사 유럽 우주국 MAHIA를 위한 로켓 실험실 전자 발사, 뉴질랜드, 2026년 3월 28일(GLOBE NE",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/rocket-lab-successfully-launches-85th-103900197.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/27 20:37",
+        "publishedAt": "03/28 19:39",
         "score": 3
       },
       {
-        "title": "비트코인, 중동 불안에 7만달러 붕괴…이더리움 '버티기'·엑스알피 '제자리' [이수현의 코인레이더]",
+        "title": "전쟁에 엔저 가속…1년 8개월 만에 달러당 160엔 돌파",
         "description": "",
-        "url": "https://www.hankyung.com/article/202603271209g",
+        "url": "https://www.hankyung.com/article/202603282966i",
         "source": "hankyung.com",
-        "publishedAt": "03/27 14:39",
+        "publishedAt": "03/28 17:48",
         "score": 3
       },
       {
-        "title": "월스트리트의 FX 로드맵은 2024년 이후 달러 최고의 성과로 인해 혼란을 겪고 있습니다.",
-        "description": "(블룸버그) -- 중동 분쟁이 월스트리트의 전략을 뒤흔들면서 달러는 2024년 12월 이후 최고의 한 달을 보내고 있다.",
-        "url": "https://finance.yahoo.com/news/dollar-best-month-since-july-235930427.html?.tsrc=rss",
+        "title": "시장에는 10조 달러 규모의 주식이 있습니다. 올해 유일하게 올라온 것",
+        "description": "기술 주식은 폭락하고 있지만 한 칩 주식은 여전히 ​​이익을 얻고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/03/28/there-are-10-trillion-dollar-companies-this-is-the/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 05:25",
-        "score": 2
+        "publishedAt": "03/28 15:50",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "전 세계 비료의 3분의 1이 호르무즈 해협을 통과한다. 이는 이 필수 소비재 회사에 심각한 영향을 미칠 수 있습니다.",
-        "description": "세계에서 가장 중요한 비료 통로가 폐쇄됨에 따라 General Mills와 기타 식품 공급업체는 어려움을 겪고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/27/one-third-of-the-worlds-fertilizer-passes-through/?.tsrc=rss",
+        "title": "글로벌 석유 무역으로 달러 지배력 강화됐지만, 이란 전쟁으로 미국의 안보방벽이 약화되면서 '페트로위안'이 탄생할 수도 있다.",
+        "description": "도이체방크는 “세계는 달러로 지불하기 때문에 달러로 절약하는 경우가 많다”고 말했다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/dollar-dominance-reinforced-global-oil-193741704.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 03:05",
-        "score": 5
-      },
-      {
-        "title": "거래자들이 전쟁에 대해 걱정하면서 다우 조정 확인",
-        "description": "노엘 랜디위치(Noel Randewich) 3월 27일(로이터) - 투자자들이 글로벌 경제적 영향을 우려하면서 금요일 다우존스 산업평균지수는 1.7% 하락했다.",
-        "url": "https://sg.finance.yahoo.com/news/dow-confirms-correction-traders-worry-203107578.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 05:31",
+        "publishedAt": "03/29 04:37",
         "score": 2
       },
       {
-        "title": "중동 분쟁 속에서 투자자들의 우려가 지속됨에 따라 Exchange-Traded Funds, Equity Futures가 Pre-Bell Friday를 낮추었습니다.",
-        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.4% 하락했고 활발한 거래가 이루어졌습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131702047.html?.tsrc=rss",
+        "title": "이란 전쟁 중에 올해 10조 달러를 이월해야 함에 따라 미국 부채에 대한 수요가 갑자기 약화되었습니다. '채권시장은 여전히 ​​무패'",
+        "description": "\"전쟁 자금 조달을 위한 추가 지출의 필요성은 미국의 부채를 증가시키고 투자자들이 추가 보상을 요구함에 따라 채권 시장 매도를 촉발할 것입니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/u-debt-suddenly-draws-weaker-165737755.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/27 22:17",
-        "score": 2
-      },
-      {
-        "title": "Borr Drilling, Comstock Resources, Green Plains, Core Natural Resources 및 Clean Energy Fuels 주식 거래, 알아야 할 사항",
-        "description": "중동의 지정학적 긴장이 고조되면서 우려가 커지면서 에너지 부문이 반등한 후 오후 세션에서 많은 주식이 급등했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/borr-drilling-comstock-resources-green-215308945.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 06:53",
+        "publishedAt": "03/29 01:57",
         "score": 1
       },
       {
-        "title": "주목할만한 주식 요약 : Carnival, AstraZeneca, Unity Software",
-        "description": "↗️ Unity Software(U): 게임 소프트웨어 회사는 1분기 매출 가이던스를 상향 조정하고 비전략적 광고 버스에서 나갈 것이라고 밝혔습니다.",
-        "url": "https://finance.yahoo.com/m/381810f1-b1d7-3da1-952b-80c31fa5e06d/stocks-to-watch-recap%3A.html?.tsrc=rss",
+        "title": "다우존스 선물: 이란 전쟁에서 유가가 100달러를 기록하면서 시장이 급락했습니다. 지금 해야 할 일",
+        "description": "이란 전쟁으로 인해 유가가 100달러에 가까워지자 주요 지수는 매도세를 보이며 6개월 만에 최저치를 기록했습니다. 테슬라 배송이 다가오고 있습니다.",
+        "url": "https://finance.yahoo.com/m/390ee993-3b8e-3011-9287-1cde0325dcb7/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 06:52",
+        "publishedAt": "03/29 01:53",
+        "score": 1
+      },
+      {
+        "title": "스트리밍 전쟁: 업계를 장악하고 있는 넷플릭스의 라이벌 1위",
+        "description": "이제 투자자들은 Netflix가 최고의 스트리밍 주식인지 의문을 제기할 때입니다.",
+        "url": "https://www.fool.com/investing/2026/03/28/streaming-wars-netflix-rival-dominate-industry/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/29 01:05",
+        "score": 1
+      },
+      {
+        "title": "이란과의 전쟁으로 인한 모든 불확실성 속에서 매수해야 할 가장 높은 확신을 갖고 있는 에너지 주식 3개",
+        "description": "이러한 에너지 주식은 에너지 가격에 관계없이 번성해야 합니다.",
+        "url": "https://www.fool.com/investing/2026/03/28/my-3-highest-conviction-energy-stocks-to-buy-amid/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/29 00:05",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Micron은 Nvidia의 Vera Rubin을 위해 HBM4 대량 생산을 시작했습니다. 이 주식이 2026년에 급등할 수 있는 이유는 다음과 같습니다.",
-        "description": "Micron Technology는 AI로 인한 주요 메모리 부족의 중심에 있으며, 그 부족을 해결하는 가장 좋은 방법 중 하나입니다.",
-        "url": "https://www.fool.com/investing/2026/03/27/micron-just-started-mass-producing-hbm4-for-nvidia/?.tsrc=rss",
+        "title": "Arm Holdings(ARM)에 새로운 AI 칩이 의미하는 바는 다음과 같습니다.",
+        "description": "Arm Holdings PLC(NASDAQ:ARM)는 향후 10년간 매수 및 보유할 고성장 메가캡 주식 10개 중 하나입니다. 3월 24일 Arm Holdings PLC(NASDAQ:AR)",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/ai-chip-means-arm-holdings-151854629.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 03:25",
-        "score": 13
-      },
-      {
-        "title": "Nvidia, AMD 및 Intel 주요 칩 주식은 중동 긴장 속에서 매도",
-        "description": "War Jitters Torpedo 칩 주식: Nvidia, Broadcom, Intel All in the Red",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-amd-intel-lead-chip-194439897.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/28 04:44",
+        "publishedAt": "03/29 00:18",
         "score": 10
       },
       {
-        "title": "Broadcom 대 TSMC: 어느 AI 칩 주식이 더 나은 구매인가?",
-        "description": "Broadcom은 거대 기술이 Nvidia를 넘어 이동함에 따라 1000억 달러 규모의 AI 칩 기회를 포착합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-tsmc-ai-chip-165415420.html?.tsrc=rss",
+        "title": "Hudbay Minerals (TSX:HBM)은 장기 구리 JV 및 광산 수명 연장 이후 9.1% 상승했습니다.",
+        "description": "Hudbay Minerals Inc.는 최근 2026년 생산 지침을 재확인하고 2028년까지 새로운 목표를 발표하여 예상되는 구리, 금, 아연, 은을 설명했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hudbay-minerals-tsx-hbm-9-090505484.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 01:54",
-        "score": 10
+        "publishedAt": "03/28 18:05",
+        "score": 5
       },
       {
-        "title": "TSMC는 AI 칩 제조를 독점하고 있습니다. 이 주식이 7000억 달러 규모의 Capex 붐에서 가장 안전한 베팅이 될 수 있는 이유는 다음과 같습니다.",
-        "description": "AI 파이프라인의 시작입니다.",
-        "url": "https://www.fool.com/investing/2026/03/26/tsmc-has-a-monopoly-on-making-ai-chips-heres-why-t/?.tsrc=rss",
+        "title": "분석가는 AMD(Advanced Micro Devices)에 대한 수요 우려로 인해 주의를 신호했습니다.",
+        "description": "Advanced Micro Devices Inc.(NASDAQ:AMD)는 향후 10년간 매수 및 보유할 고성장 메가캡 주식 10개 중 하나입니다. 3월 24일 번스타인은 분석했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-signals-caution-amid-demand-151852290.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/27 09:20",
-        "score": 10
+        "publishedAt": "03/29 00:18",
+        "score": 3
       },
       {
-        "title": "메모리 칩 대기업 SK 하이닉스는 블록버스터 미국 IPO로 'RAMmageddon'을 끝내는 데 도움을 줄 수 있습니다",
-        "description": "SK하이닉스의 미국 상장 가능성은 100억~140억 달러를 조달하여 더 많은 생산 능력을 구축하고 다른 사람들이 따르도록 장려하며 'RAMmageddon'을 종식시킬 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/memory-chip-giant-sk-hynix-191128085.html?.tsrc=rss",
+        "title": "Rosenblatt, Golden Dome 우승 후 Palantir(PLTR) 등급 유지",
+        "description": "Palantir Technologies Inc.(NASDAQ:PLTR)는 향후 10년간 매수 및 보유할 고성장 메가캡 주식 10개 중 하나입니다. 3월 25일, 존 맥피크(John McPeake)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rosenblatt-reiterates-palantir-pltr-rating-151850792.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/28 04:11",
-        "score": 9
+        "publishedAt": "03/29 00:18",
+        "score": 3
+      },
+      {
+        "title": "분석가들은 GTC 이후 엔비디아(NVDA) 가격 목표를 더 높게 유지합니다.",
+        "description": "NVIDIA Corporation(NASDAQ:NVDA)은 향후 10년간 매수 및 보유해야 할 10대 고성장 메가캡 주식 중 하나입니다. 3월 23일 Rosenblatt Securities는",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-nudge-nvidia-nvda-price-151838495.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/29 00:18",
+        "score": 3
       }
     ]
   }
