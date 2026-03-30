@@ -1,285 +1,325 @@
 {
-  "generated_at_kst": "2026-03-30 07:58 KST",
-  "period": "03/29 07:00 ~ 03/30 07:00 KST",
+  "generated_at_kst": "2026-03-31 08:02 KST",
+  "period": "03/30 07:00 ~ 03/31 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "S&P 500은 이 드문 위업을 76년 동안 4번이나 달성했으며, 주식의 다음 단계에 대해 역사상 이보다 더 명확할 수는 없습니다.",
-        "description": "역사는 월스트리트에서 운율을 맞추는 방식을 가지고 있으며, 이 역사의 조각은 의심할 여지 없이 투자자들의 얼굴에 미소를 짓게 할 것입니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/sp-500-rare-feat-4-times-76-years-next-for-stocks/?.tsrc=rss",
+        "title": "나스닥, S&P 500 지수는 사흘 만에 하락, 이란 전쟁이 다섯 번째 주에 접어들면서 유가는 상승",
+        "description": "나스닥 종합지수와 S&P 500 지수는 월요일 3회 연속 하락했고 유가는 하락세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-fall-third-204550203.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/29 22:26",
+        "publishedAt": "03/31 05:45",
+        "score": 10
+      },
+      {
+        "title": "트럼프가 이란이 '심각하게' 대화한다고 말하자 나스닥은 하락세를 유지하고 있다.",
+        "description": "중동 전쟁 5주차에 대한 엇갈린 메시지에도 불구하고 유가 상승은 미미했고 채권 시장은 소폭 완화되었습니다.",
+        "url": "https://www.proactiveinvestors.com/companies/news/1089741/dow-jones-and-nasdaq-futures-called-higher-despite-mixed-message-on-iran-war-1089741.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 05:22",
+        "score": 10
+      },
+      {
+        "title": "오늘, 3월 30일 주식 시장: 높은 유가가 위험 회피 심리를 주도하고 나스닥은 0.7% 하락했습니다.",
+        "description": "2026년 3월 30일 오늘 투자자들이 AI 가격표에 의문을 제기하면서 인플레이션과 성장 우려가 기술주에 영향을 미쳤습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-high-oil-prices-drive-risk-off-sentiment-nasdaq-falls-0-7/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 06:46",
+        "score": 9
+      },
+      {
+        "title": "캐나다 주식이 S&P 500을 무너뜨리고 있습니다",
+        "description": "캐나다 주식시장은 올해 현재까지 훨씬 좋은 모습을 보이고 있습니다.  캐나다의 책임을 주도하는 이름에는 45%의 죄악을 질주한 Suncor Energy가 포함됩니다.",
+        "url": "https://finance.yahoo.com/m/79520be2-15b1-34d7-a1a4-5b52235983be/canada%27s-stocks-are.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 05:45",
         "score": 6
       },
       {
-        "title": "예측: 트럼프 강세장은 종말을 맞이하고 있으며, 역사적으로 완벽한 예측 도구는 이번에도 정확할 것입니다.",
-        "description": "트럼프가 주도하는 강세장은 여러 번의 공포에서 살아남았지만, 한 가지 완벽한 지표는 이제 시간이 다 되었음을 강력히 시사합니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/trump-bull-market-to-end-flawless-forecasting-tool/?.tsrc=rss",
+        "title": "오늘, 3월 30일 주식 시장: 투자자들이 2026년 1분기 납품 데이터를 기다리는 동안 Tesla가 EV 가격 압력에 하락",
+        "description": "2026년 3월 30일 오늘, 투자자들은 이 시장 이야기를 형성하는 야심찬 AI 및 로보택시 피벗과 EV 가격 인하를 저울질하고 있습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-tesla-slides-on-ev-pricing-pressure-as-investors-await-q1-2026-delivery-data/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/29 19:56",
+        "publishedAt": "03/31 06:19",
         "score": 5
-      },
-      {
-        "title": "Morgan Stanley는 금, 주식 시장 투자자들에게 극명한 입장을 제시합니다.",
-        "description": "금은 다른 모든 것이 지저분해질 때 빛을 발해야 했습니다. 그러나 지난 3주 동안 정반대의 상황이 발생했으며 모건스탠리는 이를 믿고 있다.",
-        "url": "https://www.thestreet.com/investing/morgan-stanley-delivers-stark-take-for-gold-stock-market-investors?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/29 12:17",
-        "score": 5
-      },
-      {
-        "title": "한 월스트리트 분석가에 따르면, 멈출 수 없는 양자 컴퓨팅 주식이 200% 상승하기 전에 매수해야 한다고 합니다.",
-        "description": "IonQ는 양자컴퓨팅 기술을 선도하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/1-unstoppable-quantum-computing-stock-to-buy-befor/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/30 05:51",
-        "score": 4
-      },
-      {
-        "title": "보수적인 투자자들이 93번째 백분위수에서 VIX를 통해 AOK로 전환하는 이유",
-        "description": "S&P 500은 연초 대비 거의 4% 하락한 반면 VIX는 지난 해 범위의 93번째 백분위수인 27%에 가깝습니다. 재직한 지 5년이 된 사람의 경우",
-        "url": "https://247wallst.com/investing/2026/03/29/why-conservative-investors-are-turning-to-aok-with-vix-at-the-93rd-percentile/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/29 23:30",
-        "score": 4
       }
     ],
     "kr_market": [
       {
-        "title": "삼성전자, 2028년 '꿈의 반도체' 양산한다",
+        "title": "대기업서 5000명 빠졌는데…SK하이닉스만 '뜻밖의 반전'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032940411",
+        "url": "https://www.hankyung.com/article/2026033169757",
         "source": "hankyung.com",
-        "publishedAt": "03/29 18:07",
+        "publishedAt": "03/31 06:46",
         "score": 5
       },
       {
-        "title": "현대차, 통근 수소버스 늘리고 태양광 설치 확대",
+        "title": "5200선까지 밀린 코스피…증권가 \"분할매수 기회\" [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032940381",
+        "url": "https://www.hankyung.com/article/2026033066616",
         "source": "hankyung.com",
-        "publishedAt": "03/29 18:04",
-        "score": 3
+        "publishedAt": "03/31 06:30",
+        "score": 5
       },
       {
-        "title": "셀트리온, 日 공략 강화…알러지·안과 치료제 출시",
+        "title": "중동 긴장 고조에 코스피 3거래일 하락…환율·유가 충격에 투자심리 위축 [HK영상]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032940021",
+        "url": "https://www.hankyung.com/article/202603306386i",
         "source": "hankyung.com",
-        "publishedAt": "03/29 17:27",
-        "score": 3
+        "publishedAt": "03/30 17:22",
+        "score": 5
       },
       {
-        "title": "코스모로보 수요예측…인벤테라 등 신규 상장",
+        "title": "코스피, 중동 확전 우려에 5270선 후퇴…낙폭은 줄여",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032940191",
+        "url": "https://www.hankyung.com/article/2026033060296",
         "source": "hankyung.com",
-        "publishedAt": "03/29 17:54",
-        "score": 1
+        "publishedAt": "03/30 15:41",
+        "score": 5
+      },
+      {
+        "title": "중동 긴장 고조에 증시 충격…코스피 장중 4%대 급락 [HK영상]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202603305328i",
+        "source": "hankyung.com",
+        "publishedAt": "03/30 11:23",
+        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "2026년 미국은 경기 침체에 들어갈 것인가? 데이터가 제안하는 것은 다음과 같습니다.",
-        "description": "현재 투자자들에게는 좋은 소식과 좋지 않은 소식이 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/will-the-us-enter-a-recession-in-2026-heres-what-t/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/29 23:50",
-        "score": 5
-      },
-      {
-        "title": "급등한 유가…3월 물가에 얼마나 반영될까",
+        "title": "'사회적가치 창출하면 보상'…고용부, 인센티브 정책 도입",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032939671",
+        "url": "https://www.hankyung.com/article/202603254537i",
         "source": "hankyung.com",
-        "publishedAt": "03/29 18:02",
+        "publishedAt": "03/31 06:00",
         "score": 3
       },
       {
-        "title": "뉴욕·상하이 증시, 美 3월 고용, 반등 규모에 관심",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032939681",
-        "source": "hankyung.com",
-        "publishedAt": "03/29 18:02",
-        "score": 3
+        "title": "National Bank, 이번 주 캐나다 거시경제 데이터 미리보기",
+        "description": "캐나다 1월 국내총생산(GDP) 데이터 발표는 화요일에 면밀히 관찰될 예정입니다.",
+        "url": "https://finance.yahoo.com/economy/articles/national-bank-previews-week-apos-162705519.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 01:27",
+        "score": 2
       },
       {
-        "title": "엔비디아가 2026년 회계연도에 400억 달러의 실수를 저질렀나요?",
-        "description": "Nvidia가 그렇게 환상적인 포트폴리오를 보유하고 있음에도 불구하고, 투자자들은 경영진이 자본을 할당하는 방법을 여전히 이해해야 합니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/did-nvidia-make-a-40-billion-mistake-fiscal-2026/?.tsrc=rss",
+        "title": "미국 경제, GDP는 유가 충격을 상쇄할 만큼 강할까요?",
+        "description": "WTI와 브렌트유(CL=F, BZ=F)가 현재 배럴당 100달러를 넘어서고 있는 상황에서 미국인들은 미국에 미칠 에너지 충격에 대해 얼마나 걱정해야 할까요?",
+        "url": "https://finance.yahoo.com/video/is-us-economy-gdp-strong-enough-to-offset-oil-price-shocks-220000442.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 04:07",
+        "publishedAt": "03/31 07:00",
         "score": 1
       },
       {
-        "title": "경제가 어떤 방향으로 흘러가든 상관없이 이익을 주는 1가지 주식",
-        "description": "지정학적 갈등, 인플레이션 압력, 기술 혁신으로 인해 투자자들은 위기에 처해 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/1-stock-benefits-no-matter-which-way-economy-goes/?.tsrc=rss",
+        "title": "업데이트: 거래자들이 이란 전쟁의 경제적 낙진에 집중함에 따라 금 거래가 더 높아졌습니다.",
+        "description": "(가격 업데이트.) 금은 월요일 오후 이틀 동안 상승하여 하락세를 회복했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-trading-higher-traders-focus-180015022.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 03:07",
+        "publishedAt": "03/31 03:00",
+        "score": 1
+      },
+      {
+        "title": "새로운 경제 데이터를 앞두고 상장지수펀드, 주식 선물이 벨 월요일보다 더 높아졌습니다.",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.6% 상승했고 적극적으로 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125115183.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/30 21:51",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "환율·채권, 휴전 없다면 환율 1500원대 지속",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032939691",
-        "source": "hankyung.com",
-        "publishedAt": "03/29 18:02",
+        "title": "미 국채 수익률, 달러는 파월 의장 발언에 거의 움직이지 않음",
+        "description": "파월 연준 의장이 중앙은행이 금리를 동결할 가능성이 높다는 신호를 보낸 이후 달러는 소폭 강세를 유지했습니다.",
+        "url": "https://finance.yahoo.com/m/5a25d241-3afc-3e9b-9b62-9b52f2b57eca/treasury-yields%2C-dollar-move.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 02:50",
+        "score": 8
+      },
+      {
+        "title": "재무부 수익률 하락; 다가오는 데이터는 연준 전망의 핵심이 될 수 있습니다",
+        "description": "미국 국채 수익률은 높은 수준에서 계속 하락하고 있습니다. 투자자들은 점차 중동 지역의 성장 위험에 초점을 맞추고 있습니다.",
+        "url": "https://finance.yahoo.com/m/d2db632b-2f28-3b6f-b8a7-23a60c0a427e/treasury-yields-fall%3B.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/30 20:09",
+        "score": 8
+      },
+      {
+        "title": "지금이 국채를 매수해야 할 시기인 이유",
+        "description": "주유소 가격이 높아지면 소비자 지출이나 고용 둔화를 초래하여 경제에 압력을 가할 수 있습니다. 그리고 그것은 차례로 금고가 있다는 것을 강조할 것입니다.",
+        "url": "https://finance.yahoo.com/m/83fb8553-aaba-3d05-a865-3229b6bc6a41/why-it-might-be-time-to-buy.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 06:35",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "이란 분쟁으로 인해 유가가 급등하고 있습니다. 이 3가지 에너지 주식은 이익을 내기 위해 만들어졌습니다.",
-        "description": "이들 석유 회사는 훨씬 낮은 유가 하에서 사업을 운영할 수 있도록 사업을 구축합니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/the-iran-conflict-is-sending-oil-prices-soaring-th/?.tsrc=rss",
+        "title": "중동 전쟁 중 이스라엘에 대한 후티 공격으로 원유 가격 급등",
+        "description": "후티 반군이 전투에 뛰어들어 이스라엘을 공격한 후 월요일 원유 가격이 급등했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/crude-oil-prices-jump-following-095227838.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/29 22:34",
-        "score": 8
+        "publishedAt": "03/30 18:52",
+        "score": 10
       },
       {
-        "title": "Rubio가 새로운 우려를 표명한 후 미국 유가는 배럴당 100달러 이상으로 급등했습니다.",
-        "description": "도널드 트럼프 대통령은 이란과의 진전을 주장하며 시장의 우려를 진정시키려고 노력했지만 유가는 다른 이야기를 말해줍니다.",
-        "url": "https://finance.yahoo.com/m/8617a745-eb1b-372a-89e8-d2db8efe6184/u.s.-oil-prices-surge-back.html?.tsrc=rss",
+        "title": "브렌트유는 배럴당 115달러에 도달하고 주식은 연속 하락세를 재개합니다.",
+        "description": "이란과의 전쟁이 언제 끝날지에 대한 불확실성 때문에 유가가 계속 상승하면서 월요일 미국 증시는 등락했습니다.",
+        "url": "https://www.cbsnews.com/news/oil-prices-brent-crude-stock-market-today-march-30/?ftag=YHF4eb9d17&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 02:00",
+        "publishedAt": "03/31 06:12",
         "score": 6
       },
       {
-        "title": "러시아는 유가 급등으로 인한 횡재를 기대했지만, 우크라이나의 무자비한 드론 공격으로 수출 능력의 거의 절반이 파괴되고 있습니다.",
-        "description": "우크라이나는 흑해의 노보로시스크와 프리모르스크, 우스트루가 등 러시아의 주요 수출 허브에 대해 일련의 드론 공격을 감행했다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/russia-expecting-windfall-soaring-oil-170124167.html?.tsrc=rss",
+        "title": "미국 경제, GDP는 유가 충격을 상쇄할 만큼 강할까요?",
+        "description": "WTI와 브렌트유(CL=F, BZ=F)가 현재 배럴당 100달러를 넘어서고 있는 상황에서 미국인들은 미국에 미칠 에너지 충격에 대해 얼마나 걱정해야 할까요?",
+        "url": "https://finance.yahoo.com/video/is-us-economy-gdp-strong-enough-to-offset-oil-price-shocks-220000442.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 02:01",
+        "publishedAt": "03/31 07:00",
         "score": 5
       },
       {
-        "title": "급등한 유가…3월 물가에 얼마나 반영될까",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026032939671",
-        "source": "hankyung.com",
-        "publishedAt": "03/29 18:02",
+        "title": "오늘, 3월 30일 주식 시장: 높은 유가가 위험 회피 심리를 주도하고 나스닥은 0.7% 하락했습니다.",
+        "description": "2026년 3월 30일 오늘 투자자들이 AI 가격표에 의문을 제기하면서 인플레이션과 성장 우려가 기술주에 영향을 미쳤습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-high-oil-prices-drive-risk-off-sentiment-nasdaq-falls-0-7/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 06:46",
         "score": 5
       },
       {
-        "title": "\"에너지 정책 설계, 데이터와 모형으로 풀어냅니다\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202603101595i",
-        "source": "hankyung.com",
-        "publishedAt": "03/30 06:00",
-        "score": 1
+        "title": "이란이 평화 협상을 거부함에 따라 유가는 계속 상승하고 있습니다.",
+        "description": "트럼프 대통령은 월요일 전쟁 종식을 위한 진지한 논의가 진행 중이라고 밝혔지만 이란은 이를 부인했습니다.",
+        "url": "https://finance.yahoo.com/m/00d5d8ca-dda3-3051-9c24-e6251b0d22ab/oil-prices-keep-rising-as.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 06:42",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, 휴전 없다면 환율 1500원대 지속",
+        "title": "[속보] 원·달러 환율, 1520원 넘겼다…금융위기 이후 처음",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026032939691",
+        "url": "https://www.hankyung.com/article/2026033062497",
         "source": "hankyung.com",
-        "publishedAt": "03/29 18:02",
+        "publishedAt": "03/30 16:38",
+        "score": 8
+      },
+      {
+        "title": "고유가·고환율 태풍, 피난처는 게임 조선 방산주",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026033064151",
+        "source": "hankyung.com",
+        "publishedAt": "03/31 06:00",
         "score": 5
       },
       {
-        "title": "이 ETF는 더 저렴한 달러로 막대한 이익을 얻는 방법입니다",
-        "description": "달러는 2026년에 조용히 입지를 잃어가고 있으며, 국내 자산만 보유한 투자자들에게는 이는 가격을 책정하지 않았을 수 있는 위험입니다.",
-        "url": "https://247wallst.com/investing/2026/03/29/this-etf-is-how-you-benefit-massively-from-a-cheaper-dollar/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/29 23:17",
-        "score": 1
+        "title": "중동 긴장 고조에 코스피 3거래일 하락…환율·유가 충격에 투자심리 위축 [HK영상]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202603306386i",
+        "source": "hankyung.com",
+        "publishedAt": "03/30 17:22",
+        "score": 5
       },
       {
-        "title": "은행들은 인도의 RBI에 3개월 동안 FX 포지션 한도를 준수하도록 요청했다고 소식통은 말합니다.",
-        "description": "Jaspreet Kalra 및 Nimesh Vora 뭄바이, 3월 29일(로이터) - 대출기관은 인도 중앙은행에 NE 규정 준수를 위해 3개월의 유예 기간을 줄 것을 촉구했습니다.",
-        "url": "https://sg.finance.yahoo.com/news/banks-ask-indias-rbi-3-134541938.html?.tsrc=rss",
+        "title": "고유가·고환율에 짓눌린 증시…증권가 \"반도체주 유효, 항공주는 타격\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202603306236i",
+        "source": "hankyung.com",
+        "publishedAt": "03/30 16:36",
+        "score": 5
+      },
+      {
+        "title": "Invesco EQV 유럽 주식 펀드의 전략적 움직임: Taiwan Semiconductor Manufacturing Co Ltd ...",
+        "description": "펀드의 2026년 1분기 포트폴리오 조정 분석",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-eqv-european-equity-funds-210120626.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/29 22:45",
-        "score": 1
+        "publishedAt": "03/31 06:01",
+        "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "지난 하루 선박 11척이 호르무즈해협을 항해했다.",
-        "description": "영국 해양무역운영센터(UK Maritime Trade Operations Center)에 따르면 호르무즈 해협을 통과한 선박은 하루 평균 138척에서 마지막 날 11척으로 줄었다.",
-        "url": "https://finance.yahoo.com/m/85d5a551-029b-317b-9c45-2314e42ab35d/11-vessels-traveled-strait-of.html?.tsrc=rss",
+        "title": "G7이 안정적인 석유 시장으로 이동: by Oil & Gas 360",
+        "description": "(By Oil & Gas 360) – 정부가 움직임에 따라 글로벌 에너지 시장은 보다 조율된 대응 단계에 진입하고 있습니다 [...]",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/g7-moves-steady-oil-markets-213029340.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 04:21",
-        "score": 5
+        "publishedAt": "03/31 06:30",
+        "score": 3
       },
       {
-        "title": "Erste Group, 금 매각으로 AEM(Agnico Eagle Mines Limited) 마진이 흔들릴 수 있다고 경고",
-        "description": "분석가들에 따르면 Agnico Eagle Mines Limited(NYSE:AEM)는 매수해야 할 가장 저평가된 성장주 중 하나입니다. 3월 24일 Erste Group의 등급이 하향 조정되었습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/erste-group-warns-gold-sell-195154641.html?.tsrc=rss",
+        "title": "업데이트: 거래자들이 이란 전쟁의 경제적 낙진에 집중함에 따라 금 거래가 더 높아졌습니다.",
+        "description": "(가격 업데이트.) 금은 월요일 오후 이틀 동안 상승하여 하락세를 회복했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-trading-higher-traders-focus-180015022.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 04:51",
+        "publishedAt": "03/31 03:00",
+        "score": 2
+      },
+      {
+        "title": "1 장기간의 이란 전쟁에 대비하기 위한 거래",
+        "description": "6월 유로화 선물은 가격 약세에 따른 매도 기회를 제공합니다.",
+        "url": "https://www.barchart.com/story/news/1043460/1-trade-to-make-now-to-position-for-a-prolonged-iran-war?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 00:23",
+        "score": 2
+      },
+      {
+        "title": "정부는 이란 전쟁의 여파를 '스스로' 처리할 수 없다고 스타머는 인정했습니다.",
+        "description": "키어 스타머 경은 정부가 이란 전쟁의 여파를 \"자체적으로\" 해결할 수 없다는 점을 인정하면서 기업 지도자들에게 주택 보호에 도움을 줄 것을 촉구했습니다.",
+        "url": "https://uk.finance.yahoo.com/news/government-t-handle-iran-war-192758994.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "03/31 06:33",
         "score": 1
       },
       {
-        "title": "이란 분쟁이 계속됨에 따라 금과 은 채굴 주식에 대해 기대할 수 있는 사항은 다음과 같습니다.",
-        "description": "수요 데이터에 따르면 현재 금과 은 모두에 투기 자금이 많이 존재하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/what-to-expect-for-gold-and-silver-mining-stocks/?.tsrc=rss",
+        "title": "이란 분쟁의 빠른 종식에 대한 희망이 사라진 후 S&P 500이 흔들리고 유가 상승",
+        "description": "S&P 500 지수는 연속 하락세를 이어갔고 유가는 러시아의 2022년 우크라이나 침공 이후 몇 달 만에 최고치를 기록했습니다.",
+        "url": "https://finance.yahoo.com/m/8551ce12-29a1-3ad9-9370-50c30c058a6d/s%26p-500-falters-and-oil-rises.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 00:35",
-        "score": 1
-      },
-      {
-        "title": "이란 분쟁으로 인해 유가가 급등하고 있습니다. 이 3가지 에너지 주식은 이익을 내기 위해 만들어졌습니다.",
-        "description": "이들 석유 회사는 훨씬 낮은 유가 하에서 사업을 운영할 수 있도록 사업을 구축합니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/the-iran-conflict-is-sending-oil-prices-soaring-th/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/29 22:34",
-        "score": 1
-      },
-      {
-        "title": "석유시장은 백워데이션 상태에 있다. 아주 좋은 소식이겠네요.",
-        "description": "선물 거래자들은 에너지 가격 급등이 매우 일시적일 것이라고 판단하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/the-oil-market-is-in-backwardation-that-could-be/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "03/29 22:05",
+        "publishedAt": "03/31 05:46",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "AMD(Advanced Micro Devices)와 삼성, 메모리 칩 공급을 위한 파트너십 확대",
-        "description": "Advanced Micro Devices, Inc.(NASDAQ:AMD)는 매수해야 할 고성장 반도체 주식 중 하나입니다. 3월 18일, Reuters는 Advanced Micro Dev가 다음과 같이 보도했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/advanced-micro-devices-amd-samsung-202236957.html?.tsrc=rss",
+        "title": "이 인공지능(AI) 주식이 차세대 Palantir가 될 수 있을까요?",
+        "description": "Swarmer의 주식은 최근 공개되었으며, 뜨거운 매수세를 보였습니다.",
+        "url": "https://www.fool.com/investing/2026/03/30/could-this-artificial-intelligence-ai-stock-be-the/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 05:22",
-        "score": 9
+        "publishedAt": "03/31 02:20",
+        "score": 7
       },
       {
-        "title": "Micron vs Taiwan Semiconductor Manufacturing: 현재 어느 AI 칩 제조업체를 구매하는 것이 더 나은가요?",
-        "description": "지난 한 해 동안 최고의 성과를 거둔 칩 제조업체 두 곳이 맞대결을 벌였습니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/micron-vs-taiwan-semiconductor-manufacturing-which/?.tsrc=rss",
+        "title": "Palantir의 인공 지능(AI)이 스포츠 베팅 감시자가 되는 방법",
+        "description": "Palantir는 인공 지능(AI)을 사용하여 예측 시장 플랫폼의 조작을 방지합니다.",
+        "url": "https://www.fool.com/investing/2026/03/30/how-palantirs-artificial-intelligence-ai-is-becomi/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/29 23:13",
-        "score": 8
+        "publishedAt": "03/30 20:18",
+        "score": 7
       },
       {
-        "title": "Cathie Wood가 거대 기술에 대해 냉담한 입장을 취하고 있습니까? Ark는 Nvidia, AMD, Meta 및 Google 주식을 판매합니다. AI 달링이 덤프를 얻습니다.",
-        "description": "목요일에 Cathie Wood가 이끄는 Ark Invest는 주요 기술 기업의 지분을 줄이는 데 초점을 맞춰 상당한 거래를 실행했습니다. 대표적인 거래 중",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-going-cold-big-133122912.html?.tsrc=rss",
+        "title": "SpaceX가 마침내 상장되고 우주 산업이 활기를 띠고 있습니다.",
+        "description": "SpaceX IPO에 대한 준비가 되셨나요? 기다릴 준비를 하세요.",
+        "url": "https://www.fool.com/investing/2026/03/30/space-industry-buzzes-over-spacex-going-public/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/29 22:31",
-        "score": 8
+        "publishedAt": "03/31 06:16",
+        "score": 6
       },
       {
-        "title": "한 월스트리트 분석가에 따르면, 멈출 수 없는 양자 컴퓨팅 주식이 200% 상승하기 전에 매수해야 한다고 합니다.",
-        "description": "IonQ는 양자컴퓨팅 기술을 선도하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/29/1-unstoppable-quantum-computing-stock-to-buy-befor/?.tsrc=rss",
+        "title": "예측: Elon Musk는 5년 이내에 Tesla와 SpaceX를 합병할 것입니다.",
+        "description": "머스크의 장기적인 야망을 고려할 때 이러한 움직임은 불가피해 보입니다.",
+        "url": "https://www.fool.com/investing/2026/03/30/prediction-elon-musk-will-merge-tesla-with-spacex/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 05:51",
-        "score": 5
+        "publishedAt": "03/31 05:35",
+        "score": 6
       },
       {
-        "title": "Lattice Semiconductor(LSCC), Nvidia와 제휴하여 Halos AI 시스템 검사 연구소 생태계에 합류",
-        "description": "Lattice Semiconductor Corporation(NASDAQ:LSCC)은 매수할 고성장 반도체 주식 중 하나입니다. 3월 16일 래티스 반도체 주식회사",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/lattice-semiconductor-lscc-partners-nvidia-203526768.html?.tsrc=rss",
+        "title": "Rocket Lab, 발사 임무 20개 성공 - RKLB에 극초음속 테스트가 중요한 이유",
+        "description": "로켓 연구소 백로그에 1억 9천만 달러 규모의 국방 계약 추가",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-wins-20-launch-144358321.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "03/30 05:35",
-        "score": 5
+        "publishedAt": "03/30 23:43",
+        "score": 6
       }
     ]
   }
