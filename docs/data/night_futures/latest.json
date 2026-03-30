@@ -1,9 +1,9 @@
 {
-  "generated_at_kst": "2026-03-31T03:39:57.681958+09:00",
+  "generated_at_kst": "2026-03-31T04:42:36.019192+09:00",
   "biz_date": "2026-03-30",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'trade_ok'}",
+  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
   "token_status": "ready",
   "series": {
     "kospi": [
@@ -125,6 +125,36 @@
           "FUTS_BIDP1": "756.05",
           "ACML_VOL": "26060",
           "LAST_CNQN": "1"
+        }
+      },
+      {
+        "time": "04:42",
+        "bsop_hour": "044242",
+        "price": 758.95,
+        "change": -22.75,
+        "change_pct": -2.91,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 787.1,
+        "session_high": 792.9,
+        "session_low": 751.8,
+        "ask1": 759.2,
+        "bid1": 758.8,
+        "acml_vol": 28290.0,
+        "last_cnqn": 4.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "758.95",
+          "FUTS_PRDY_VRSS": "-22.75",
+          "FUTS_PRDY_CTRT": "-2.91",
+          "FUTS_OPRC": "787.10",
+          "FUTS_HGPR": "792.90",
+          "FUTS_LWPR": "751.80",
+          "FUTS_ASKP1": "759.20",
+          "FUTS_BIDP1": "758.80",
+          "ACML_VOL": "28290",
+          "LAST_CNQN": "4"
         }
       },
       {
@@ -330,7 +360,7 @@
       "change_pct": -0.52,
       "high": 789.3,
       "low": 756.05,
-      "points": 7,
+      "points": 8,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 787.1,
@@ -382,16 +412,13 @@
     },
     "received_symbols": {
       "trade": [
-        "A01606",
-        "A06606"
+        "A01606"
       ],
-      "quote": [
-        "A06606"
-      ]
+      "quote": []
     },
     "market_status": {
       "kospi": "trade_ok",
-      "kosdaq": "trade_ok"
+      "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
 }
