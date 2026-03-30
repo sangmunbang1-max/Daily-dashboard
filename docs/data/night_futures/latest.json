@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-03-30T23:14:02.390551+09:00",
+  "generated_at_kst": "2026-03-31T00:44:11.027948+09:00",
   "biz_date": "2026-03-30",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
@@ -7,6 +7,36 @@
   "token_status": "ready",
   "series": {
     "kospi": [
+      {
+        "time": "00:44",
+        "bsop_hour": "004422",
+        "price": 778.25,
+        "change": -3.45,
+        "change_pct": -0.44,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 787.1,
+        "session_high": 792.9,
+        "session_low": 765.6,
+        "ask1": 778.25,
+        "bid1": 778.05,
+        "acml_vol": 19472.0,
+        "last_cnqn": 2.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "778.25",
+          "FUTS_PRDY_VRSS": "-3.45",
+          "FUTS_PRDY_CTRT": "-0.44",
+          "FUTS_OPRC": "787.10",
+          "FUTS_HGPR": "792.90",
+          "FUTS_LWPR": "765.60",
+          "FUTS_ASKP1": "778.25",
+          "FUTS_BIDP1": "778.05",
+          "ACML_VOL": "19472",
+          "LAST_CNQN": "2"
+        }
+      },
       {
         "time": "20:34",
         "bsop_hour": "203446",
@@ -100,6 +130,30 @@
     ],
     "kosdaq": [
       {
+        "time": "00:44",
+        "bsop_hour": "004414",
+        "price": 1936.1,
+        "change": null,
+        "change_pct": null,
+        "symbol": "A06606",
+        "name": "KOSDAQ Night Futures",
+        "open": null,
+        "session_high": null,
+        "session_low": null,
+        "ask1": 1937.4,
+        "bid1": 1934.8,
+        "acml_vol": null,
+        "last_cnqn": null,
+        "tr_key": "A06606",
+        "source_type": "quote_fallback",
+        "raw_fields": {
+          "FUTS_ASKP1": "1937.40",
+          "FUTS_BIDP1": "1934.80",
+          "TOTAL_ASKP_RSQN": "474",
+          "TOTAL_BIDP_RSQN": "169"
+        }
+      },
+      {
         "time": "20:34",
         "bsop_hour": "203447",
         "price": 1953.5,
@@ -156,7 +210,7 @@
       "change_pct": -0.52,
       "high": 789.3,
       "low": 777.6,
-      "points": 3,
+      "points": 4,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 787.1,
@@ -174,7 +228,7 @@
       "change_pct": null,
       "high": 1953.5,
       "low": 1934.05,
-      "points": 2,
+      "points": 3,
       "last_symbol": "A06606",
       "last_name": "KOSDAQ Night Futures",
       "open": null,
