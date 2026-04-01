@@ -222,7 +222,7 @@ with tab1:
         st.markdown('<div class="chart-card">', unsafe_allow_html=True)
         fig2 = go.Figure()
         if LIVE and not ffr_df.empty:
-            fig2.add_trace(go.Scatter(x=ffr_df["date"].tail(30), y=ffr_df["value"].tail(30),
+            fig2.add_trace(go.Scatter(x=ffr_df["date"], y=ffr_df["value"],
                 mode="lines", name="Fed Funds Rate", line=dict(color=C["blue"], width=2.5),
                 fill="tozeroy", fillcolor="rgba(59,130,246,0.08)"))
         else:
@@ -231,7 +231,7 @@ with tab1:
                 mode="lines+markers", name="Fed Funds Rate", line=dict(color=C["blue"], width=2.5),
                 fill="tozeroy", fillcolor="rgba(59,130,246,0.08)"))
         if LIVE and not t10_df.empty:
-            fig2.add_trace(go.Scatter(x=t10_df["date"].tail(60), y=t10_df["value"].tail(60),
+            fig2.add_trace(go.Scatter(x=t10_df["date"], y=t10_df["value"],
                 mode="lines", name="10Y Treasury", line=dict(color=C["purple"], width=2, dash="dot")))
         else:
             dates_t10 = ["2024-03","2024-06","2024-09","2024-12","2025-03","2025-06","2025-09","2025-12","2026-01","2026-03"]
