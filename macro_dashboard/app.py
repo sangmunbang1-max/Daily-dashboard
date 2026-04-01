@@ -78,6 +78,11 @@ st.markdown("""
     margin-top: 12px;
   }
 
+  /* Force table text color */
+  .chart-card table td, .chart-card table th {
+    color: #1e293b !important;
+  }
+
   /* Hide Streamlit default elements */
   #MainMenu {visibility: hidden;}
   footer {visibility: hidden;}
@@ -385,10 +390,10 @@ with tab3:
       <b style="color:#1e293b;font-size:0.9rem;">📋 FY2025 재정 핵심 지표</b>
       <table style="width:100%;margin-top:12px;font-size:0.85rem;border-collapse:collapse;">
         <tr style="background:#f8fafc;"><th style="padding:8px;text-align:left;border-bottom:1px solid #e2e8f0;">항목</th><th style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">수치</th><th style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">비고</th></tr>
-        <tr><td style="padding:8px;border-bottom:1px solid #f1f5f9;">총 세입</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;">$5.2T</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;color:#38a169;">관세 수입 +$118B</td></tr>
-        <tr><td style="padding:8px;border-bottom:1px solid #f1f5f9;">총 지출</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;">$7.0T</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;color:#e53e3e;">구조적 지출 증가</td></tr>
-        <tr><td style="padding:8px;border-bottom:1px solid #f1f5f9;">순이자비용</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;">$1.0T+</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;color:#e53e3e;">사상 최초 $1조 돌파</td></tr>
-        <tr><td style="padding:8px;">재정적자</td><td style="padding:8px;text-align:right;">$1.78T</td><td style="padding:8px;text-align:right;color:#e53e3e;">GDP 대비 5.9%</td></tr>
+        <tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;color:#1e293b;">총 세입</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#1e293b;font-weight:500;">$5.2T</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#16a34a;font-weight:500;">관세 수입 +$118B</td></tr>
+        <tr style="background:#fafafa;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;color:#1e293b;">총 지출</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#1e293b;font-weight:500;">$7.0T</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#dc2626;font-weight:500;">구조적 지출 증가</td></tr>
+        <tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;color:#1e293b;">순이자비용</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#1e293b;font-weight:500;">$1.0T+</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;color:#dc2626;font-weight:500;">사상 최초 $1조 돌파</td></tr>
+        <tr style="background:#fff1f2;"><td style="padding:8px;color:#1e293b;font-weight:700;">재정적자</td><td style="padding:8px;text-align:right;color:#dc2626;font-weight:700;">$1.78T</td><td style="padding:8px;text-align:right;color:#dc2626;font-weight:600;">GDP 대비 5.9%</td></tr>
       </table>
     </div>
     """, unsafe_allow_html=True)
