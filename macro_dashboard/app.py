@@ -172,7 +172,7 @@ def chart_layout(title):
         paper_bgcolor="#fff",
         font=dict(family="Inter", size=11, color="#1e293b"),
         margin=dict(l=10, r=10, t=40, b=10),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(size=10)),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(size=11, color="#1e293b"), itemsizing="constant", itemwidth=40),
         xaxis=dict(showgrid=False, linecolor="#e2e8f0", tickfont=dict(size=10, color="#1e293b")),
         yaxis=dict(gridcolor="#f1f5f9", linecolor="#e2e8f0", tickfont=dict(size=10, color="#1e293b")),
         height=280,
@@ -195,26 +195,46 @@ st.markdown(f"""
 
 # ─── KPI Cards ───────────────────────────────────────────────────────────────
 kpis = [
-    ("CPI YoY", "2.4%", "→ Jan '26 동일", "neu"),
-    ("Core CPI", "2.5%", "▼ 2021년 이후 최저권", "pos"),
-    ("Fed Funds Rate", "3.50–3.75%", "→ Mar '26 동결", "neu"),
-    ("10Y Treasury", "4.29%", "▲ +18bp (Mar '26)", "neg"),
-    ("Unemployment", "4.1%", "→ Feb '26", "neu"),
-    ("ISM Mfg PMI", "52.4", "▲ 2연속 확장", "pos"),
-    ("GDP (Q4'25)", "+0.7%", "▼ Q3 4.4%에서 둔화", "neg"),
-    ("Trade Deficit", "-$191B", "▲ Q4'25 개선 (Q3 -$239B)", "pos"),
+    ("CPI YoY", "2.4%", "→ Jan '26 동일"),
+    ("Core CPI", "2.5%", "▼ 2021년 이후 최저권"),
+    ("Fed Funds Rate", "3.50–3.75%", "→ Mar '26 동결"),
+    ("10Y Treasury", "4.29%", "▲ +18bp (Mar '26)"),
+    ("Unemployment", "4.1%", "→ Feb '26"),
+    ("ISM Mfg PMI", "52.4", "▲ 2연속 확장"),
+    ("GDP (Q4'25)", "+0.7%", "▼ Q3 4.4%에서 둔화"),
+    ("Trade Deficit", "-$191B", "▲ Q4'25 개선"),
 ]
 
+st.markdown("""
+<style>
+[data-testid="metric-container"] {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+[data-testid="metric-container"] label {
+    color: #64748b !important;
+    font-size: 0.72rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+[data-testid="metric-container"] [data-testid="stMetricValue"] {
+    color: #1e293b !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+}
+[data-testid="metric-container"] [data-testid="stMetricDelta"] {
+    font-size: 0.78rem !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 cols = st.columns(8)
-for col, (label, val, delta, sign) in zip(cols, kpis):
-    delta_cls = f"kpi-delta-{sign}"
-    col.markdown(f"""
-    <div class="kpi-card">
-      <div class="kpi-label">{label}</div>
-      <div class="kpi-value">{val}</div>
-      <div class="{delta_cls}">{delta}</div>
-    </div>
-    """, unsafe_allow_html=True)
+for col, (label, val, delta) in zip(cols, kpis):
+    col.metric(label=label, value=val, delta=delta)
 
 st.markdown("---")
 
