@@ -170,11 +170,11 @@ def chart_layout(title):
         title=dict(text=title, font=dict(size=13, color=C["dark"], family="Inter"), x=0),
         plot_bgcolor="#fff",
         paper_bgcolor="#fff",
-        font=dict(family="Inter", size=11, color="#64748b"),
+        font=dict(family="Inter", size=11, color="#1e293b"),
         margin=dict(l=10, r=10, t=40, b=10),
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(size=10)),
-        xaxis=dict(showgrid=False, linecolor="#e2e8f0", tickfont=dict(size=10)),
-        yaxis=dict(gridcolor="#f1f5f9", linecolor="#e2e8f0", tickfont=dict(size=10)),
+        xaxis=dict(showgrid=False, linecolor="#e2e8f0", tickfont=dict(size=10, color="#1e293b")),
+        yaxis=dict(gridcolor="#f1f5f9", linecolor="#e2e8f0", tickfont=dict(size=10, color="#1e293b")),
         height=280,
     )
 
@@ -338,8 +338,8 @@ with tab3:
             line=dict(color=C["orange"], width=2.5), marker=dict(size=6)
         ), secondary_y=True)
         fig7.update_layout(**chart_layout("연방 재정적자 ($B & GDP 대비 %)"))
-        fig7.update_yaxes(title_text="$B", secondary_y=False, tickfont=dict(size=10))
-        fig7.update_yaxes(title_text="GDP %", secondary_y=True, tickfont=dict(size=10))
+        fig7.update_yaxes(title_text="$B", secondary_y=False, tickfont=dict(size=10, color="#1e293b"))
+        fig7.update_yaxes(title_text="GDP %", secondary_y=True, tickfont=dict(size=10, color="#1e293b"))
         st.plotly_chart(fig7, use_container_width=True, config={"displayModeBar": False})
         st.markdown('</div>', unsafe_allow_html=True)
 
