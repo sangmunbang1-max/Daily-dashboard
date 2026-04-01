@@ -41,12 +41,23 @@ st.markdown("""
     background: white; border: 1px solid #e2e8f0; border-radius: 10px;
     padding: 12px 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.06);
   }
-  [data-testid="metric-container"] label {
-    color: #64748b !important; font-size: 0.7rem !important;
+  [data-testid="metric-container"] label,
+  [data-testid="metric-container"] [data-testid="stMetricLabel"] p,
+  [data-testid="metric-container"] [data-testid="stMetricLabel"] span {
+    color: #475569 !important; font-size: 0.7rem !important;
     font-weight: 600 !important; text-transform: uppercase; letter-spacing: 0.04em;
   }
-  [data-testid="stMetricValue"] { color: #1e293b !important; font-size: 1.3rem !important; font-weight: 700 !important; }
-  [data-testid="stMetricDelta"] { font-size: 0.72rem !important; }
+  [data-testid="stMetricValue"],
+  [data-testid="stMetricValue"] > div,
+  [data-testid="stMetricValue"] span {
+    color: #0f172a !important; font-size: 1.4rem !important;
+    font-weight: 700 !important;
+  }
+  [data-testid="stMetricDelta"],
+  [data-testid="stMetricDelta"] span,
+  [data-testid="stMetricDelta"] p {
+    font-size: 0.7rem !important;
+  }
   #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
@@ -79,15 +90,16 @@ def fmt_date(df: pd.DataFrame) -> str:
     return d.strftime("%b '%y")
 
 # ─── 자동갱신 데이터 (FRED) ──────────────────────────────────────────────────
-cpi_df    = fred("CPIAUCSL", 24)   # CPI
-core_df   = fred("CPILFESL", 24)   # Core CPI
+cpi_df    = fred("CPIAUCSL", 36)   # CPI (36개월 = YoY 계산 후 24개월 확보)
+core_df   = fred("CPILFESL", 36)   # Core CPI
 ffr_df    = fred("FEDFUNDS", 20)   # Fed Funds Rate
 t10_df    = fred("DGS10", 30)      # 10Y Treasury (일별)
 unemp_df  = fred("UNRATE", 24)     # 실업률
 gdp_df    = fred("A191RL1Q225SBEA", 16)  # 실질 GDP 성장률 (QoQ SAAR)
 deficit_df = fred("FYFSD", 10)     # 연방 재정 흑/적자 ($B)
 debt_gdp_df = fred("GFDEGDQ188S", 20)   # 국가부채/GDP (%)
-trade_df  = fred("BOPGSTB", 20)    # 무역수지 ($B)
+trade_df  = fred("BOPGSTB", 20)    # 무역수지 (백만달러 → /1000 = $B)
+ism_df    = fred("NAPM", 24)       # ISM 제조업 PMI (NAPM = ISM 구명칭)
 
 # 최신값 추출
 cpi_val   = latest(cpi_df, 2.4)
@@ -98,12 +110,8 @@ unemp_val = latest(unemp_df, 4.1)
 gdp_val   = latest(gdp_df, 0.7)
 deficit_val = latest(deficit_df, -1780)   # $B (음수=적자)
 debt_gdp_val = latest(debt_gdp_df, 99.8)
-trade_val = latest(trade_df, -191)
-
-LIVE = FRED_KEY != ""
-
-# ─── 정적 fallback (FRED에 없는 것들) ───────────────────────────────────────
-ISM_PMI = 52.4  # ISM 제조업 PMI - FRED 미제공, 수동 업데이트 필요
+trade_val = latest(trade_df, -191) / 1000   # 백만달러 → 십억달러($B)
+ISM_PMI   = round(latest(ism_df, 52.4), 1)  # FRED NAPM 자동갱신
 
 # ─── CPI YoY 계산 (FRED는 level 제공, YoY는 직접 계산) ──────────────────────
 def yoy(df):
@@ -124,12 +132,12 @@ def chart_layout(title):
         title=dict(text=title, font=dict(size=13, color=C["dark"], family="Inter"), x=0),
         plot_bgcolor="#fff", paper_bgcolor="#fff",
         font=dict(family="Inter", size=11, color="#1e293b"),
-        margin=dict(l=10, r=10, t=40, b=10),
+        margin=dict(l=40, r=20, t=44, b=40),
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1,
                     font=dict(size=11, color="#1e293b"), itemsizing="constant", itemwidth=40),
         xaxis=dict(showgrid=False, linecolor="#e2e8f0", tickfont=dict(size=10, color="#1e293b")),
         yaxis=dict(gridcolor="#f1f5f9", linecolor="#e2e8f0", tickfont=dict(size=10, color="#1e293b")),
-        height=280,
+        height=300,
     )
 
 # ─── 헤더 ────────────────────────────────────────────────────────────────────
@@ -163,7 +171,7 @@ row1[2].metric("Fed Funds Rate", f"{ffr_val:.2f}%", f"{'FRED 자동' if LIVE els
 row1[3].metric("10Y Treasury", f"{t10_val:.2f}%", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(t10_df)}")
 
 row2[0].metric("Unemployment", f"{unemp_val:.1f}%", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(unemp_df)}")
-row2[1].metric("ISM Mfg PMI", f"{ISM_PMI}", "⚠ 수동 업데이트")
+row2[1].metric("ISM Mfg PMI", f"{ISM_PMI}", f"{'FRED 자동 (NAPM)' if LIVE and not ism_df.empty else '⚠ 수동 업데이트'} | {fmt_date(ism_df)}")
 row2[2].metric("GDP (QoQ SAAR)", f"{gdp_val:+.1f}%", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(gdp_df)}")
 row2[3].metric("Trade Balance", f"${trade_val:.0f}B", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(trade_df)}")
 
@@ -179,12 +187,14 @@ with tab1:
         st.markdown('<div class="chart-card">', unsafe_allow_html=True)
         fig = go.Figure()
         if LIVE and not cpi_df.empty:
-            # FRED에서 YoY 계산
             cpi_m = cpi_df.copy(); cpi_m["yoy"] = cpi_m["value"].pct_change(12)*100
             core_m = core_df.copy(); core_m["yoy"] = core_m["value"].pct_change(12)*100
-            fig.add_trace(go.Scatter(x=cpi_m["date"].tail(24), y=cpi_m["yoy"].tail(24).round(1),
+            # pct_change(12) 후 처음 12개월은 NaN → dropna 후 최근 24개월
+            cpi_m = cpi_m.dropna(subset=["yoy"]).tail(24)
+            core_m = core_m.dropna(subset=["yoy"]).tail(24)
+            fig.add_trace(go.Scatter(x=cpi_m["date"], y=cpi_m["yoy"].round(1),
                 mode="lines+markers", name="CPI YoY", line=dict(color=C["red"], width=2.5), marker=dict(size=4)))
-            fig.add_trace(go.Scatter(x=core_m["date"].tail(24), y=core_m["yoy"].tail(24).round(1),
+            fig.add_trace(go.Scatter(x=core_m["date"], y=core_m["yoy"].round(1),
                 mode="lines+markers", name="Core CPI", line=dict(color=C["orange"], width=2.5, dash="dot"), marker=dict(size=4)))
         else:
             dates = ["2024-03","2024-06","2024-09","2024-12","2025-03","2025-06","2025-09","2025-12","2026-01","2026-02"]
@@ -266,16 +276,22 @@ with tab2:
     col3, col4 = st.columns(2)
     with col3:
         st.markdown('<div class="chart-card">', unsafe_allow_html=True)
-        dates_ism = ["2024-09","2024-10","2024-11","2024-12","2025-01","2025-02","2025-03","2025-06","2025-09","2025-12","2026-01","2026-02"]
-        vals_ism  = [47.2,46.5,48.4,49.3,50.9,50.3,49.0,48.5,50.2,49.8,50.9,52.4]
         fig5 = go.Figure()
-        fig5.add_trace(go.Scatter(x=dates_ism, y=vals_ism, mode="lines+markers", name="ISM Mfg PMI",
-            line=dict(color=C["amber"], width=2.5), marker=dict(size=5)))
+        if LIVE and not ism_df.empty:
+            fig5.add_trace(go.Scatter(x=ism_df["date"].tail(24), y=ism_df["value"].tail(24),
+                mode="lines+markers", name="ISM Mfg PMI",
+                line=dict(color=C["amber"], width=2.5), marker=dict(size=5)))
+        else:
+            dates_ism = ["2024-09","2024-10","2024-11","2024-12","2025-01","2025-02","2025-03","2025-06","2025-09","2025-12","2026-01","2026-02"]
+            vals_ism  = [47.2,46.5,48.4,49.3,50.9,50.3,49.0,48.5,50.2,49.8,50.9,52.4]
+            fig5.add_trace(go.Scatter(x=dates_ism, y=vals_ism, mode="lines+markers", name="ISM Mfg PMI",
+                line=dict(color=C["amber"], width=2.5), marker=dict(size=5)))
         fig5.add_hline(y=50, line_dash="dash", line_color=C["gray"], line_width=1.5,
                        annotation_text="확장/수축 기준 50", annotation_position="top right",
                        annotation_font=dict(size=10, color="#1e293b"))
-        fig5.update_layout(**chart_layout("ISM 제조업 PMI ⚠ 수동 업데이트"))
-        fig5.update_yaxes(range=[44,56])
+        ism_title = "ISM 제조업 PMI 🟢 FRED(NAPM) 자동" if LIVE and not ism_df.empty else "ISM 제조업 PMI ⚠ 정적"
+        fig5.update_layout(**chart_layout(ism_title))
+        fig5.update_yaxes(range=[44,60])
         st.plotly_chart(fig5, use_container_width=True, config={"displayModeBar": False})
         st.markdown('</div>', unsafe_allow_html=True)
 
