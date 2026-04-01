@@ -64,6 +64,7 @@ st.markdown("""
 
 # ─── FRED API ────────────────────────────────────────────────────────────────
 FRED_KEY = os.getenv("FRED_API_KEY", "")
+LIVE = FRED_KEY != ""  # 여기서 먼저 정의
 
 @st.cache_data(ttl=3600)
 def fred(series_id: str, limit: int = 40) -> pd.DataFrame:
@@ -93,7 +94,7 @@ def fmt_date(df: pd.DataFrame) -> str:
 cpi_df    = fred("CPIAUCSL", 36)   # CPI (36개월 = YoY 계산 후 24개월 확보)
 core_df   = fred("CPILFESL", 36)   # Core CPI
 ffr_df    = fred("FEDFUNDS", 20)   # Fed Funds Rate
-t10_df    = fred("DGS10", 30)      # 10Y Treasury (일별)
+t10_df    = fred("DGS10", 365)     # 10Y Treasury (일별 → 1년치)
 unemp_df  = fred("UNRATE", 24)     # 실업률
 gdp_df    = fred("A191RL1Q225SBEA", 16)  # 실질 GDP 성장률 (QoQ SAAR)
 deficit_df = fred("FYFSD", 10)     # 연방 재정 흑/적자 ($B)
