@@ -93,8 +93,8 @@ def fmt_date(df: pd.DataFrame) -> str:
 # ─── 자동갱신 데이터 (FRED) ──────────────────────────────────────────────────
 cpi_df    = fred("CPIAUCSL", 36)   # CPI (36개월 = YoY 계산 후 24개월 확보)
 core_df   = fred("CPILFESL", 36)   # Core CPI
-ffr_df    = fred("FEDFUNDS", 20)   # Fed Funds Rate
-t10_df    = fred("DGS10", 365)     # 10Y Treasury (일별 → 1년치)
+ffr_df    = fred("FEDFUNDS", 30)   # Fed Funds Rate (30개월)
+t10_df    = fred("DGS10", 730)     # 10Y Treasury (일별 → 2년치로 FFR과 기간 통일)
 unemp_df  = fred("UNRATE", 24)     # 실업률
 gdp_df    = fred("A191RL1Q225SBEA", 16)  # 실질 GDP 성장률 (QoQ SAAR)
 deficit_df = fred("FYFSD", 10)     # 연방 재정 흑/적자 ($B)
@@ -157,24 +157,32 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ─── KPI 카드 (4+4 두 줄) ────────────────────────────────────────────────────
-st.markdown("""
-<style>
-[data-testid="metric-container"] { min-height: 90px; }
-</style>""", unsafe_allow_html=True)
+# ─── KPI 카드 (HTML 직접 렌더링 — Streamlit 테마 무관) ─────────────────────
+def kpi_card(label, value, delta, color="#16a34a"):
+    return f"""<div style="background:white;border:1px solid #e2e8f0;border-radius:10px;
+padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,0.06);margin-bottom:4px;">
+<div style="color:#64748b;font-size:0.68rem;font-weight:600;text-transform:uppercase;
+letter-spacing:0.05em;margin-bottom:6px;">{label}</div>
+<div style="color:#0f172a;font-size:1.35rem;font-weight:700;margin-bottom:4px;">{value}</div>
+<div style="color:{color};font-size:0.7rem;font-weight:500;">{delta}</div>
+</div>"""
 
-row1 = st.columns(4)
-row2 = st.columns(4)
+kpi_data = [
+    ("CPI YoY",        f"{cpi_yoy}%",        f"FRED 자동 | {fmt_date(cpi_df)}"),
+    ("Core CPI",       f"{core_yoy}%",       f"FRED 자동 | {fmt_date(core_df)}"),
+    ("Fed Funds Rate", f"{ffr_val:.2f}%",    f"FRED 자동 | {fmt_date(ffr_df)}"),
+    ("10Y Treasury",   f"{t10_val:.2f}%",    f"FRED 자동 | {fmt_date(t10_df)}"),
+    ("Unemployment",   f"{unemp_val:.1f}%",  f"FRED 자동 | {fmt_date(unemp_df)}"),
+    ("ISM Mfg PMI",    f"{ISM_PMI}",         f"FRED(NAPM) | {fmt_date(ism_df)}" if LIVE and not ism_df.empty else "⚠ 수동 업데이트"),
+    ("GDP QoQ SAAR",   f"{gdp_val:+.1f}%",   f"FRED 자동 | {fmt_date(gdp_df)}"),
+    ("Trade Balance",  f"${trade_val:.1f}B",  f"FRED 자동 | {fmt_date(trade_df)}"),
+]
 
-row1[0].metric("CPI YoY", f"{cpi_yoy}%",  f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(cpi_df)}")
-row1[1].metric("Core CPI", f"{core_yoy}%", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(core_df)}")
-row1[2].metric("Fed Funds Rate", f"{ffr_val:.2f}%", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(ffr_df)}")
-row1[3].metric("10Y Treasury", f"{t10_val:.2f}%", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(t10_df)}")
-
-row2[0].metric("Unemployment", f"{unemp_val:.1f}%", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(unemp_df)}")
-row2[1].metric("ISM Mfg PMI", f"{ISM_PMI}", f"{'FRED 자동 (NAPM)' if LIVE and not ism_df.empty else '⚠ 수동 업데이트'} | {fmt_date(ism_df)}")
-row2[2].metric("GDP (QoQ SAAR)", f"{gdp_val:+.1f}%", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(gdp_df)}")
-row2[3].metric("Trade Balance", f"${trade_val:.0f}B", f"{'FRED 자동' if LIVE else '정적'} | {fmt_date(trade_df)}")
+cols_r1 = st.columns(4)
+cols_r2 = st.columns(4)
+for i, (label, val, delta) in enumerate(kpi_data):
+    col = cols_r1[i] if i < 4 else cols_r2[i-4]
+    col.markdown(kpi_card(label, val, delta), unsafe_allow_html=True)
 
 st.markdown("---")
 
