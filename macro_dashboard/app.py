@@ -380,11 +380,18 @@ with tab4:
     with col1:
         st.markdown('<div class="chart-card">', unsafe_allow_html=True)
         trade_colors = [C["red"] if v < 0 else C["green"] for v in SD["trade"]["values"]]
+        # 적자 크기에 따라 색상 강도 조절
+        max_def = max(abs(v) for v in SD["trade"]["values"])
+        trade_colors = []
+        for v in SD["trade"]["values"]:
+            intensity = int(180 + 75 * (1 - abs(v)/max_def))
+            trade_colors.append(f"rgba(239, 68, 68, {0.5 + 0.5*abs(v)/max_def:.2f})")
         fig9 = go.Figure(go.Bar(
             x=SD["trade"]["quarters"], y=SD["trade"]["values"],
             marker_color=trade_colors,
+            marker_line=dict(color="#dc2626", width=1),
             text=[f"${v}B" for v in SD["trade"]["values"]],
-            textposition="outside", textfont=dict(size=10)
+            textposition="outside", textfont=dict(size=10, color="#1e293b")
         ))
         fig9.add_hline(y=0, line_color=C["gray"], line_width=1)
         fig9.update_layout(**chart_layout("경상수지 추이 ($B)"))
@@ -396,12 +403,13 @@ with tab4:
         st.markdown('<div class="chart-card">', unsafe_allow_html=True)
         partners = ["EU", "China", "Mexico", "Vietnam", "Japan", "Canada"]
         deficits = [218.8, 202.1, 196.9, 178.2, 68.5, 63.2]
+        partner_colors = ["#ef4444", "#f97316", "#eab308", "#22c55e", "#3b82f6", "#8b5cf6"]
         fig10 = go.Figure(go.Bar(
             y=partners, x=[-v for v in deficits],
             orientation="h",
-            marker_color=C["red"], opacity=0.8,
+            marker_color=partner_colors, opacity=0.85,
             text=[f"-${v}B" for v in deficits],
-            textposition="outside", textfont=dict(size=10)
+            textposition="outside", textfont=dict(size=10, color="#1e293b")
         ))
         fig10.update_layout(**chart_layout("2025 주요 무역 적자국 ($B)"))
         fig10.update_xaxes(range=[-260, 0])
@@ -413,10 +421,26 @@ with tab4:
     <div class="chart-card">
       <b style="color:#1e293b;font-size:0.9rem;">🌐 미국 순국제투자포지션 (NIIP) — Q4 2025</b>
       <table style="width:100%;margin-top:12px;font-size:0.85rem;border-collapse:collapse;">
-        <tr style="background:#f8fafc;"><th style="padding:8px;text-align:left;border-bottom:1px solid #e2e8f0;">항목</th><th style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">금액</th><th style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">비고</th></tr>
-        <tr><td style="padding:8px;border-bottom:1px solid #f1f5f9;">해외 자산 (총계)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;">$42.96T</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;color:#38a169;">주식·직접투자 위주</td></tr>
-        <tr><td style="padding:8px;border-bottom:1px solid #f1f5f9;">해외 부채 (총계)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;">$70.49T</td><td style="padding:8px;text-align:right;border-bottom:1px solid #f1f5f9;color:#e53e3e;">국채·회사채 보유</td></tr>
-        <tr><td style="padding:8px;font-weight:600;">순 포지션 (NIIP)</td><td style="padding:8px;text-align:right;font-weight:600;color:#e53e3e;">-$27.54T</td><td style="padding:8px;text-align:right;color:#e53e3e;">GDP 대비 약 -100%</td></tr>
+        <tr style="background:#f1f5f9;">
+          <th style="padding:10px 12px;text-align:left;border-bottom:2px solid #cbd5e1;color:#1e293b;font-weight:600;">항목</th>
+          <th style="padding:10px 12px;text-align:right;border-bottom:2px solid #cbd5e1;color:#1e293b;font-weight:600;">금액</th>
+          <th style="padding:10px 12px;text-align:right;border-bottom:2px solid #cbd5e1;color:#1e293b;font-weight:600;">비고</th>
+        </tr>
+        <tr>
+          <td style="padding:10px 12px;border-bottom:1px solid #e2e8f0;color:#1e293b;">해외 자산 (총계)</td>
+          <td style="padding:10px 12px;text-align:right;border-bottom:1px solid #e2e8f0;color:#1e293b;font-weight:500;">$42.96T</td>
+          <td style="padding:10px 12px;text-align:right;border-bottom:1px solid #e2e8f0;color:#16a34a;font-weight:500;">주식·직접투자 위주</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:10px 12px;border-bottom:1px solid #e2e8f0;color:#1e293b;">해외 부채 (총계)</td>
+          <td style="padding:10px 12px;text-align:right;border-bottom:1px solid #e2e8f0;color:#1e293b;font-weight:500;">$70.49T</td>
+          <td style="padding:10px 12px;text-align:right;border-bottom:1px solid #e2e8f0;color:#dc2626;font-weight:500;">국채·회사채 보유</td>
+        </tr>
+        <tr style="background:#fff1f2;">
+          <td style="padding:10px 12px;color:#1e293b;font-weight:700;">순 포지션 (NIIP)</td>
+          <td style="padding:10px 12px;text-align:right;color:#dc2626;font-weight:700;">-$27.54T</td>
+          <td style="padding:10px 12px;text-align:right;color:#dc2626;font-weight:600;">GDP 대비 약 -100%</td>
+        </tr>
       </table>
     </div>
     """, unsafe_allow_html=True)
