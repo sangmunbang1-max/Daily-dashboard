@@ -1,309 +1,293 @@
 {
-  "generated_at_kst": "2026-04-02 08:04 KST",
-  "period": "04/01 07:00 ~ 04/02 07:00 KST",
+  "generated_at_kst": "2026-04-03 07:58 KST",
+  "period": "04/02 07:00 ~ 04/03 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "오늘의 주식 시장: 트럼프의 전쟁 논평 이후 나스닥이 책임을 맡았습니다; Amazon, Tesla Rise (생방송)",
-        "description": "오늘의 주식 시장: 트럼프 대통령이 이란의 새 대통령이 휴전을 요구하고 있다고 말한 후 수요일 다우존스 지수는 상승했습니다.",
-        "url": "https://finance.yahoo.com/m/eb516596-2ac5-34e8-a0f8-5dea7c12004f/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "기술주 중심의 나스닥이 조정 영역 아래로 떨어지면서 구매할 헬스케어 배당주 2개",
+        "description": "최근의 변동성이 계속된다면 배당금 지급인이 더 인기를 끌 수도 있습니다. 이 두 주식은 폭풍우를 헤쳐나갈 수 있는 훌륭한 선택입니다.",
+        "url": "https://www.fool.com/investing/2026/04/02/2-healthcare-dividend-stocks-to-buy-as-the-tech-he/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/02 05:44",
-        "score": 9
+        "publishedAt": "04/03 06:52",
+        "score": 11
       },
       {
-        "title": "오늘, 4월 1일 주식 시장: 거의 10%의 주식을 차지하는 자사주 매입 확대 후 B2Gold 상승",
-        "description": "B2Gold는 주식의 거의 10%에 달하는 자사주 매입을 확대한 후 상승했으며, 투자자들은 회사가 자사주 매입을 얼마나 빨리 완료하는지 지켜보고 있습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/01/stock-market-today-april-1-b2gold-rises-after-expanding-buyback-covering-nearly-10-of-shares/?.tsrc=rss",
+        "title": "나스닥 조정: 하락장에서 매수할 수 있는 뛰어난 성장주 2개",
+        "description": "역발상 투자자들에게는 지금이 쇼핑을 즐기기에 좋은 시기입니다.",
+        "url": "https://www.fool.com/investing/2026/04/02/nasdaq-correction-2-outstanding-growth-stocks-to-b/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/02 06:59",
+        "publishedAt": "04/03 05:50",
+        "score": 11
+      },
+      {
+        "title": "오늘, 4월 2일 주식 시장: 월스트리트의 수많은 목표 가격 인하 이후 Nike 주가 하락",
+        "description": "2026년 4월 2일 오늘, 투자자들은 글로벌 스포츠웨어 대기업의 분석가들이 제시한 20개 이상의 목표 가격 인하를 분석합니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/02/stock-market-today-april-2-nike-shares-slide-after-numerous-price-target-cuts-from-wall-street/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/03 06:58",
         "score": 8
       },
       {
-        "title": "JPMorgan Equity Premium Income ETF(JEPI)와 JPMorgan Nasdaq Equity Premium Income ETF(JEPQ)에는 눈에 띄는 결함이 있습니다. 여전히 구매할 수 있는 이유는 다음과 같습니다.",
-        "description": "이러한 초고수익 ETF는 귀하의 소극적 소득원을 강화할 수 있지만 대가가 따릅니다.",
-        "url": "https://www.fool.com/investing/2026/04/01/jepi-jepq-buy-high-yield-covered-call-etf/?.tsrc=rss",
+        "title": "무슨 오일쇼크? S&P 500 추정치는 계속 상승하고 있습니다. 이 주식의 조회수는 가장 많이 상승합니다.",
+        "description": "팩트셋(FactSet) 보고서에 따르면 S&P 500 지수의 1분기 수익은 전년 동기 대비 13.2% 증가할 것으로 예상됐다. 그러면 6번째 연속이겠군요",
+        "url": "https://finance.yahoo.com/m/0ef2e461-98e5-3976-972f-f29248ed290d/what-oil-shock%3F-s%26p-500.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/02 06:21",
-        "score": 8
+        "publishedAt": "04/03 05:32",
+        "score": 6
       },
       {
-        "title": "S&P 500 지수 투자자들은 악몽-시나리오 시장에서 불타올랐습니다",
-        "description": "S&P 500 지수를 소유하면 ETF 투자자가 상위 주식에 노출될 수 있습니다. 불행하게도 올해는 승자에 대한 지표가 밝습니다.",
-        "url": "https://finance.yahoo.com/m/56fe8c6c-6b00-3e91-b6f2-84e5d62dcb5f/s%26p-500-index-investors.html?.tsrc=rss",
+        "title": "S&P 500, 2월 이후 첫 주간 상승세로 4월 시작",
+        "description": "S&P 500 지수는 이번 주 투자자들이 종말에 대한 희망을 가질 이유를 찾으면서 3.4% 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-starts-april-first-204020993.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/01 21:01",
-        "score": 7
-      },
-      {
-        "title": "Morgan Stanley 분석가가 S&P 500에 긴급 메시지를 보냅니다.",
-        "description": "S&P 500은 약세가 틀렸다는 것을 입증했으며 최악의 상황은 끝났을 수도 있습니다. 유가 상승과 중동의 긴장 고조로 인한 몇 주간의 압박 끝에",
-        "url": "https://www.thestreet.com/investing/morgan-stanley-analyst-sends-urgent-sp-500-message?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/02 06:47",
+        "publishedAt": "04/03 05:40",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "[속보] 코스피 8.44% 급등한 5478.70 마감…코스닥도 6.06%↑",
+        "title": "[속보] 코스닥 이어 코스피도 '매도 사이드카' 발동",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026040121076",
+        "url": "https://www.hankyung.com/article/2026040248466",
         "source": "hankyung.com",
-        "publishedAt": "04/01 15:35",
+        "publishedAt": "04/02 15:17",
+        "score": 15
+      },
+      {
+        "title": "[포토] 트럼프 강경 발언에 하락한 코스피-코스닥",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202604025214i",
+        "source": "hankyung.com",
+        "publishedAt": "04/02 17:09",
         "score": 10
       },
       {
-        "title": "코스닥에서도 매수 사이드카 발동",
+        "title": "[속보] 코스닥 급락…'매도 사이드카' 한 달 만에 발동",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026040118036",
+        "url": "https://www.hankyung.com/article/2026040247126",
         "source": "hankyung.com",
-        "publishedAt": "04/01 14:23",
+        "publishedAt": "04/02 14:39",
         "score": 10
       },
       {
-        "title": "[속보] 급등장에 코스닥도 매수 사이드카 발동",
+        "title": "코스닥 새내기 기업들, 상장 첫날 수익률 200% 육박",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026040117667",
+        "url": "https://www.hankyung.com/article/2026040253871",
         "source": "hankyung.com",
-        "publishedAt": "04/01 14:15",
-        "score": 10
+        "publishedAt": "04/02 17:42",
+        "score": 6
       },
       {
-        "title": "코스피, 종전 기대감에 6%대 급반등…삼성전자 9% 상승",
+        "title": "코스피 4% 떨어진 날, 글로벌 IB '삼전닉스' 목표주가 높였다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026040112976",
+        "url": "https://www.hankyung.com/article/2026040253851",
         "source": "hankyung.com",
-        "publishedAt": "04/01 11:10",
-        "score": 10
-      },
-      {
-        "title": "삼성전자 외 고성장 기술주 2개 탐색",
-        "description": "글로벌 시장이 지정학적 긴장과 에너지 가격 변동의 복잡성을 헤쳐나가면서 투자자들은 엇갈린 성과를 목격하고 있습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/exploring-samsung-electronics-two-other-093844720.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/01 18:38",
+        "publishedAt": "04/02 17:48",
         "score": 5
       }
     ],
     "macro": [
       {
-        "title": "\"무료배송 접어야 할 판\"…중동 전쟁에 '밥상물가' 난리난 이유 [중동발 나비효과③]",
+        "title": "3월 소비자물가 2.2% 상승…\"당분간 오름세 확대될 듯\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/202604011135g",
+        "url": "https://www.hankyung.com/article/2026040253201",
         "source": "hankyung.com",
-        "publishedAt": "04/02 06:30",
+        "publishedAt": "04/02 17:25",
+        "score": 8
+      },
+      {
+        "title": "예상 깬 미국 실업지표…고용 둔화 우려에도 '안정 신호'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202604025766i",
+        "source": "hankyung.com",
+        "publishedAt": "04/02 22:16",
         "score": 3
       },
       {
-        "title": "[포토] 신한금융-한국은행 디지털 금융 협약",
+        "title": "물가 자극하는 JIC…고민 커진 각국 중앙은행",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026040125521",
+        "url": "https://www.hankyung.com/article/2026040254361",
         "source": "hankyung.com",
-        "publishedAt": "04/02 00:27",
-        "score": 3
-      },
-      {
-        "title": "美 3월 민간고용, 전쟁 중에도 6만2000명↑…예상 웃돌아",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202604012962i",
-        "source": "hankyung.com",
-        "publishedAt": "04/01 21:50",
-        "score": 3
-      },
-      {
-        "title": "미국 달러는 수요일 오전 ADP 개인 급여, 소매 판매 전 하락",
-        "description": "미국 달러는 또 다른 바쁜 세션이 시작되기 전 수요일 오전 주요 무역 상대국 대비 하락했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-wednesday-112307595.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/01 20:23",
-        "score": 3
-      },
-      {
-        "title": "셀트리온제약, '옴리클로' 300mg 국내 출시 … 고용량으로 투약 횟수 줄인다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202604010473i",
-        "source": "hankyung.com",
-        "publishedAt": "04/01 08:48",
+        "publishedAt": "04/02 17:50",
         "score": 3
       }
     ],
     "bonds": [
       {
-        "title": "Rio2는 경미한 부채 상환으로 2.7% 증가",
-        "description": "Rio2(RIO.TO)는 2026년 3월 27일 수요일 오후 최종 확인에서 2.5% 상승하여 자원 봉사에 나섰습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/rio2-2-7-pays-down-165802623.html?.tsrc=rss",
+        "title": "미국 고용 데이터는 국채, 달러화에 '중요한 촉매제'가 될 수 있습니다.",
+        "description": "DXY 달러 지수는 더 높았습니다. 금요일의 비농업 급여 보고서는 통화에 중요한 촉매제가 될 수 있다고 Revacy Fund는 말했습니다.",
+        "url": "https://finance.yahoo.com/m/9630816f-673d-39b0-bdf7-bbd4fad6892d/u.s.-employment-data-could-be.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/02 01:58",
-        "score": 1
+        "publishedAt": "04/02 19:24",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "이란 전쟁 종결에 대한 기대로 원유 가격이 하락하면서 미국 주가 지수가 상승했습니다.",
-        "description": "미국 주가지수는 수요일 원유 선물이 하락한 반면 급등했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-expectations-202554693.html?.tsrc=rss",
+        "title": "이란 갈등이 유가를 상승시키는 신호로 Exchange-Traded Funds, Equity Futures가 Pre-Bell 목요일을 낮추었습니다.",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 1.6% 하락했으며 적극적으로 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131017404.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/02 05:25",
-        "score": 10
+        "publishedAt": "04/02 22:10",
+        "score": 5
       },
       {
-        "title": "중동 전쟁 곧 끝날 것이라는 희망 속에 원유 가격 하락",
-        "description": "미국-이스라엘의 이란 전쟁이 본격화될 것이라는 기대감 속에 수요일 원유 가격이 하락했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/crude-oil-prices-fall-amid-094106260.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/01 18:41",
-        "score": 10
-      },
-      {
-        "title": "IEA \"에너지 위기, 4월에 더 심각…해결책은 호르무즈 개방뿐\"",
+        "title": "\"유가 막더니 결국 계란값까지\"…정부, 결국 팔 걷었다 [이슈+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/202604012956i",
+        "url": "https://www.hankyung.com/article/202604024941g",
         "source": "hankyung.com",
-        "publishedAt": "04/01 21:36",
-        "score": 6
-      },
-      {
-        "title": "오늘, 4월 1일 주식시장: 시장 반등과 유가 이틀 연속 하락",
-        "description": "오늘인 2026년 4월 1일은 이란 전쟁이 곧 끝날 것이라는 희망으로 인해 유가 폭락으로 인해 그날의 승자가 바뀌면서 시장이 상승했습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/01/stock-market-today-april-1-markets-rally-and-oil-prices-fall-for-second-day-running/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/02 06:41",
+        "publishedAt": "04/02 19:30",
         "score": 5
       },
       {
-        "title": "이란 전쟁의 조속한 종식에 대한 새로운 희망에 유가 하락",
-        "description": "이러한 후퇴는 3월 원유 가격이 거의 6년 만에 가장 큰 월간 상승을 기록하며 51% 급등한 데 따른 것입니다.",
-        "url": "https://finance.yahoo.com/m/2f8942f9-dc83-3784-a0ca-6008eb4f51f3/oil-prices-fall-on-fresh.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/02 05:27",
+        "title": "트럼프 강경 발언에 코스피 4%대 급락…증시 급락·국제유가 비상 [HK영상]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202604025332i",
+        "source": "hankyung.com",
+        "publishedAt": "04/02 17:32",
         "score": 5
+      },
+      {
+        "title": "유가증권 상장사 작년 영업익 244兆 '역대 최대'…반도체 '슈퍼사이클' 효과",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026040241106",
+        "source": "hankyung.com",
+        "publishedAt": "04/02 12:00",
+        "score": 5
+      },
+      {
+        "title": "새로운 에너지 쇼크, 3부: 자본이 다음으로 움직이는 곳",
+        "description": "(By Oil & Gas 360) – 에너지 충격의 첫 번째 단계는 가격을 움직였습니다. 두 번째 모양이 변경된 흐름입니다. […]",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/energy-shock-part-3-where-213040864.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/03 06:30",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "중국 기업, 시장이 6.5% 하락함에 따라 256억 위안의 자사주 매입 발표",
-        "description": "이란의 긴장이 주식을 압박하고 글로벌 성장에 대한 우려가 높아지면서 자사주 매입 약속은 4월 이후 최고치로 급등했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/china-firms-announce-25-6-212906294.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/02 06:29",
-        "score": 3
+        "title": "\"종전 선언 없었다\"…국내 증시 매도 사이드카 발동·환율 급등",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026040248686",
+        "source": "hankyung.com",
+        "publishedAt": "04/02 16:06",
+        "score": 5
       },
       {
-        "title": "Samsung Research는 유럽인의 절반 이상이 공공장소에서 낯선 사람의 휴대폰 화면을 보는 것을 인정하고 있으며 거의 ​​4분의 1이 순전히 호기심 때문에 그렇게 한다고 밝혔습니다.",
-        "description": "런던, 2026년 4월 1일 - 수백만 명의 유럽인2이 부활절 주말을 즐길 준비를 하는 가운데 삼성의 새로운 연구에 따르면 유럽의 공공 장소에는",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/samsung-research-reveals-over-half-060000488.html?.tsrc=rss",
+        "title": "업데이트: 트럼프가 이란에 대한 공격을 확대하겠다고 위협한 후 달러 가치가 상승함에 따라 금 하락",
+        "description": "(가격 업데이트) 금은 미국 대통령 이후 달러가 상승하면서 목요일 오후 중반에 하락세로 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-dollar-rises-trump-180120854.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/01 15:00",
-        "score": 3
-      },
-      {
-        "title": "Abishai Financial Asia: 달러화의 FX 가격 조정 완화",
-        "description": "인플레이션 재조정, 더 날카로운 금리 신호, 안전자산 수요의 변화로 인해 이번 주 외환 지도가 다시 그려지고 있어 투자자들은 다시 생각을 하게 되었습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/abishai-financial-asia-dollar-eases-190500148.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/02 04:05",
-        "score": 2
-      },
-      {
-        "title": "이란 전쟁이 곧 끝날 것이라는 낙관론에 달러 하락",
-        "description": "오늘 달러 지수(DXY00)는 화요일 손실을 더해 -0.51% 하락했습니다. 달러화는 이란 전쟁에 대한 낙관론으로 인해 압박을 받고 있다.",
-        "url": "https://www.barchart.com/story/news/1092893/dollar-falls-on-optimism-iran-war-will-end-soon?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/01 23:39",
+        "publishedAt": "04/03 03:01",
         "score": 1
       },
       {
-        "title": "Sasol은 미국 달러 선순위 채권을 발행합니다.",
-        "description": "Sasol Limited(\"Sasol\")는 자사가 전체 지분을 소유한 자회사 Sasol Financing USA LLC(\"발행자\")가 미화 달러 가치의 제안 가격을 책정했음을 발표합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sasol-issues-us-dollar-senior-132600874.html?.tsrc=rss",
+        "title": "NFP에 앞서 달러에 대한 추가 강점",
+        "description": "도널드 트럼프의 연설은 걸프 분쟁이 적어도 5월까지 이어질 가능성이 높기 때문에 달러와 유가를 상승시켰습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/further-strength-dollar-ahead-nfp-161704740.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/01 22:26",
+        "publishedAt": "04/03 01:17",
+        "score": 1
+      },
+      {
+        "title": "달러가 상승함에 따라 금이 하락합니다. 광산주가 더 좋은 성과를 낼 수 있는 이유",
+        "description": "이란 분쟁과 관련된 달러 강세로 인해 금 가격이 급락했지만 Newmont 및 Barrick Mining과 같은 광산주는 레버리지를 제공할 수 있습니다.",
+        "url": "https://finance.yahoo.com/m/3bd0d9c5-6ebd-3861-aae1-e491ddd51e71/gold-falls-as-dollar-rises..html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/03 01:00",
+        "score": 1
+      },
+      {
+        "title": "달러 강세와 유리한 브라질 작물 전망이 커피 가격에 영향을 미치고 있습니다",
+        "description": "5월 아라비카 커피(KCK26 )는 오늘 -0.95(-0.32%) 하락했고, 5월 아이스 로부스타 커피(RMK26 )는 -48(-1.36%) 하락했습니다. 커피 가격이 하락세를 보이고 있습니다.",
+        "url": "https://www.barchart.com/story/news/1118711/dollar-strength-and-favorable-brazil-crop-outlook-weigh-on-coffee-prices?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/03 00:54",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "분석가들 \"호르무즈 해협 통행 상당히 회복돼야 종전 의미있어\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202604013039i",
-        "source": "hankyung.com",
-        "publishedAt": "04/02 00:19",
+        "title": "호르무즈 해협 재개를 위한 외교적 움직임 속에 미국 주가지수는 혼조세를 보이며 하락세를 보이고 있습니다.",
+        "description": "목요일 미국 주가지수는 외교적 노력에 대한 보고로 장중 최저치에도 불구하고 혼조세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-paring-210207148.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/03 06:02",
         "score": 5
       },
       {
-        "title": "Haven 수요가 지정학적 시험에 직면함에 따라 금(GOLD)이 여전히 A-Mark의 이야기를 뒷받침하고 있습니까?",
-        "description": "최근 몇 달 동안 금의 피난처 역할은 투자자들이 유동성을 늘리고 일시적으로 유동성을 늘리면서 중동 분쟁 중 급격한 가격 하락으로 시험대에 올랐습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/does-gold-gold-still-anchor-211314850.html?.tsrc=rss",
+        "title": "AST SpaceMobile 및 Rocket Lab 하락 6%: 지정학적 두려움이 BlueBird 및 Mynaric Catalysts를 압도",
+        "description": "AST SpaceMobile(NASDAQ:ASTS)과 Rocket Lab USA(NASDAQ:RKLB)의 주가는 이번 목요일 아침 오전 거래에서 각각 6% 하락하여 대략적인 하락세를 보였습니다.",
+        "url": "https://247wallst.com/investing/2026/04/02/ast-spacemobile-and-rocket-lab-drop-6-geopolitical-fears-overshadow-bluebird-and-mynaric-catalysts/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/02 06:13",
+        "publishedAt": "04/02 21:38",
         "score": 3
       },
       {
-        "title": "이란 전쟁 축소 희망으로 감정이 높아지면서 Exchange-Traded Funds, Equity Futures가 수요일 Pre-Bell을 얻었습니다.",
-        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.8% 상승했으며 활발한 거래가 이루어졌습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130639197.html?.tsrc=rss",
+        "title": "이란 갈등이 유가를 상승시키는 신호로 Exchange-Traded Funds, Equity Futures가 Pre-Bell 목요일을 낮추었습니다.",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 1.6% 하락했으며 적극적으로 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131017404.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/01 22:06",
+        "publishedAt": "04/02 22:10",
         "score": 2
       },
       {
-        "title": "전쟁이 끝났다고 생각하시나요? 이 거래를 고려해보세요.",
-        "description": "누구도 놓칠까 봐 주식을 사야 한다고 결론을 내리기에는 환경이 너무 불확실합니다.",
-        "url": "https://finance.yahoo.com/m/4db8c277-04ca-33b8-9061-dc5ff20ed85a/think-the-war-is-over%3F.html?.tsrc=rss",
+        "title": "오늘 4월 2일 주식시장: 혼합된 이란 전쟁 보고서로 인해 시장이 잠잠해졌습니다",
+        "description": "2026년 4월 2일 오늘, 석유 운송이 재개될 수 있다는 희망으로 인해 주식은 초기 손실 이후 반등했습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/02/stock-market-today-april-2-markets-muted-on-mixed-iran-reports/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/01 15:00",
-        "score": 2
+        "publishedAt": "04/03 06:42",
+        "score": 1
       },
       {
-        "title": "이란 전쟁의 종식으로 이 두 자산에 대한 구호 집회가 촉발될 수 있음",
-        "description": "중동 전쟁이 해결되면 급등할 수 있는 두 자산은 유로화와 글로벌 국가채이다.",
-        "url": "https://finance.yahoo.com/m/7bff750e-5623-3a96-b6f5-7d34bf50d709/end-to-iran-war-could-trigger.html?.tsrc=rss",
+        "title": "비트코인은 갈등 속에서 거래 범위의 하한선 근처에 머물고 있습니다",
+        "description": "(블룸버그) -- 비트코인은 경기 침체에 대한 불확실성이 계속되는 가운데 한 달이 넘는 거래 범위의 하한선 근처에서 거래되었습니다.",
+        "url": "https://finance.yahoo.com/news/bitcoin-tumbles-stocks-trump-signals-065520688.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/02 06:31",
+        "publishedAt": "04/03 06:20",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "\"엔비디아 독주부터 中 굴기까지\"…김용석 교수, AI 반도체 지형 대해부",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202603319980i",
-        "source": "hankyung.com",
-        "publishedAt": "04/01 10:40",
+        "title": "글로벌 메모리 칩 부족이 어플라이드 머티어리얼즈 성장을 견인할 수 있을까?",
+        "description": "AMAT는 2026년까지 AI 기반 칩 수요와 메모리 부족에 힘쓰고 있지만 높은 마진의 혁신이 가전제품의 약점을 상쇄할 수 있을까요?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/global-memory-chip-shortage-drive-133500157.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/02 22:35",
+        "score": 11
+      },
+      {
+        "title": "TSMC Japan 3nm 승인 및 Nvidia AI 수요 대 현재 평가",
+        "description": "TSMC(NYSE:TSM)는 일본 구마모토에 계획된 두 번째 팹에서 첨단 3nm 칩을 생산하기 위한 정부 승인을 받았습니다. 새로운 일본 시설",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-japan-3nm-approval-nvidia-201355157.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/03 05:13",
         "score": 7
       },
       {
-        "title": "Rocket Lab의 기록적인 극초음속 테스트 거래가 RKLB의 황소 사례를 재정의합니까?",
-        "description": "2026년 3월 말, Rocket Lab Corporation은 극초음속 HASTE 테스트 비행 20대에 대해 미국 전쟁부와 미화 1억 9천만 달러 규모의 기록적인 계약을 체결했다고 발표했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/does-rocket-lab-record-hypersonic-171149388.html?.tsrc=rss",
+        "title": "엔비디아, AMD 주식 조기 손실 회복. 이란이 여전히 최우선 고려 대상입니다.",
+        "description": "Nvidia 주식과 AMD는 목요일 이른 아침 손실에서 회복되었습니다. 이란 전쟁은 칩 부문에 대한 공급망 우려를 불러일으켰습니다.",
+        "url": "https://finance.yahoo.com/m/afeb8017-7002-3b85-b0b2-f86cbe16707e/nvidia%2C-amd-stocks-recover.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/02 02:11",
+        "publishedAt": "04/03 03:21",
+        "score": 7
+      },
+      {
+        "title": "SpaceX IPO가 다가오고 있습니다. 투자해야 할까요?",
+        "description": "SpaceX IPO가 확인되었으며 조만간 이루어질 가능성이 높습니다. 주식 매수를 고려해야 하는 이유는 다음과 같습니다.",
+        "url": "https://www.fool.com/investing/2026/04/02/the-spacex-ipo-is-coming-should-you-invest/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/03 06:25",
         "score": 6
       },
       {
-        "title": "생성형 AI가 예비소견서 쓰는 시대…정부, '국내 1호' 허가 내줬다",
+        "title": "삼성·하이닉스 반도체 실은 큐브위성도 날았다",
         "description": "",
-        "url": "https://www.hankyung.com/article/202604012590i",
+        "url": "https://www.hankyung.com/article/2026040253551",
         "source": "hankyung.com",
-        "publishedAt": "04/01 17:45",
+        "publishedAt": "04/02 17:37",
         "score": 6
-      },
-      {
-        "title": "더 나은 인공지능 주식: Palantir vs. Oracle",
-        "description": "이들 기술 대기업은 AI 덕분에 인상적인 매출 성장을 경험하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/03/31/better-artificial-intelligence-stock-palantir-vs-o/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/01 12:20",
-        "score": 6
-      },
-      {
-        "title": "NASA는 Artemis Moon Shot에 'Go'신호를 보냅니다. 시청 방법은 다음과 같습니다.",
-        "description": "NASA는 수요일에 유인 Artemis II 달 임무를 위한 최종 준비를 시작합니다. 우주주가 급등한다. 로켓랩 CEO, 급여 삭감",
-        "url": "https://finance.yahoo.com/m/63177a86-e1e0-31a8-96f2-3f5d6c74926f/nasa-gives-%27go%27-signal-for.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/02 05:15",
-        "score": 5
       }
     ]
   }
