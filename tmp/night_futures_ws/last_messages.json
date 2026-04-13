@@ -1,6 +1,6 @@
 [
   {
-    "received_at_kst": "2026-04-14T04:48:20.445155+09:00",
+    "received_at_kst": "2026-04-14T05:58:03.883679+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -15,14 +15,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "e5dc2dc0a103ca2e",
-          "key": "plkcrycwkansxhqsddkxvlntfrhrjrnz"
+          "iv": "cac6c06ce1645656",
+          "key": "eqzbujymaoxcqgnfmwxngenpoqwgaijh"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T04:48:20.669604+09:00",
+    "received_at_kst": "2026-04-14T05:58:04.108014+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -37,14 +37,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "e5dc2dc0a103ca2e",
-          "key": "plkcrycwkansxhqsddkxvlntfrhrjrnz"
+          "iv": "cac6c06ce1645656",
+          "key": "eqzbujymaoxcqgnfmwxngenpoqwgaijh"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T04:48:20.669756+09:00",
+    "received_at_kst": "2026-04-14T05:58:04.108108+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFASP0",
@@ -59,57 +59,69 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "e5dc2dc0a103ca2e",
-          "key": "plkcrycwkansxhqsddkxvlntfrhrjrnz"
+          "iv": "cac6c06ce1645656",
+          "key": "eqzbujymaoxcqgnfmwxngenpoqwgaijh"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T04:48:27.071462+09:00",
+    "received_at_kst": "2026-04-14T05:58:04.842353+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "quote",
     "tr_id": "H0MFASP0",
     "symbol": "A06606",
     "parsed": {
       "FUTS_SHRN_ISCD": "A06606",
-      "BSOP_HOUR": "044826",
-      "FUTS_ASKP1": "1920.50",
-      "FUTS_ASKP2": "1920.60",
+      "BSOP_HOUR": "055804",
+      "FUTS_ASKP1": "1915.20",
+      "FUTS_ASKP2": "1921.80",
       "FUTS_ASKP3": "1922.00",
-      "FUTS_ASKP4": "1922.10",
-      "FUTS_ASKP5": "1922.40",
-      "FUTS_BIDP1": "1913.20",
-      "FUTS_BIDP2": "1913.10",
-      "FUTS_BIDP3": "1913.00",
-      "FUTS_BIDP4": "1911.00",
-      "FUTS_BIDP5": "1910.10",
-      "ASKP_CSNU1": "1",
-      "ASKP_CSNU2": "1",
-      "ASKP_CSNU3": "1",
-      "ASKP_CSNU4": "1",
-      "ASKP_CSNU5": "1",
-      "BIDP_CSNU1": "1",
-      "BIDP_CSNU2": "1",
-      "BIDP_CSNU3": "1",
-      "BIDP_CSNU4": "1",
-      "BIDP_CSNU5": "1",
-      "ASKP_RSQN1": "1",
+      "FUTS_ASKP4": "0.00",
+      "FUTS_ASKP5": "0.00",
+      "FUTS_BIDP1": "1913.90",
+      "FUTS_BIDP2": "1913.70",
+      "FUTS_BIDP3": "1913.50",
+      "FUTS_BIDP4": "0.00",
+      "FUTS_BIDP5": "0.00",
+      "ASKP_CSNU1": "0",
+      "ASKP_CSNU2": "0",
+      "ASKP_CSNU3": "0",
+      "ASKP_CSNU4": "0",
+      "ASKP_CSNU5": "0",
+      "BIDP_CSNU1": "0",
+      "BIDP_CSNU2": "0",
+      "BIDP_CSNU3": "0",
+      "BIDP_CSNU4": "0",
+      "BIDP_CSNU5": "0",
+      "ASKP_RSQN1": "3",
       "ASKP_RSQN2": "1",
-      "ASKP_RSQN3": "5",
-      "ASKP_RSQN4": "1",
-      "ASKP_RSQN5": "1",
+      "ASKP_RSQN3": "2",
+      "ASKP_RSQN4": "0",
+      "ASKP_RSQN5": "0",
       "BIDP_RSQN1": "1",
       "BIDP_RSQN2": "1",
       "BIDP_RSQN3": "1",
-      "BIDP_RSQN4": "2",
-      "BIDP_RSQN5": "1",
-      "TOTAL_ASKP_CSNU": "154",
-      "TOTAL_BIDP_CSNU": "223",
-      "TOTAL_ASKP_RSQN": "245",
-      "TOTAL_BIDP_RSQN": "382",
-      "TOTAL_ASKP_RSQN_ICDC": "0",
-      "TOTAL_BIDP_RSQN_ICDC": "1"
+      "BIDP_RSQN4": "0",
+      "BIDP_RSQN5": "0",
+      "TOTAL_ASKP_CSNU": "157",
+      "TOTAL_BIDP_CSNU": "228",
+      "TOTAL_ASKP_RSQN": "252",
+      "TOTAL_BIDP_RSQN": "357",
+      "TOTAL_ASKP_RSQN_ICDC": "5",
+      "TOTAL_BIDP_RSQN_ICDC": "0"
+    }
+  },
+  {
+    "received_at_kst": "2026-04-14T05:58:15.086724+09:00",
+    "ws_url": "ws://ops.koreainvestment.com:21000",
+    "msg_type": "ack",
+    "tr_id": "PINGPONG",
+    "parsed": {
+      "header": {
+        "tr_id": "PINGPONG",
+        "datetime": "20260414055815"
+      }
     }
   }
 ]
