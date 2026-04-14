@@ -1,6 +1,6 @@
 [
   {
-    "received_at_kst": "2026-04-14T20:37:31.244836+09:00",
+    "received_at_kst": "2026-04-14T21:46:56.845921+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -15,14 +15,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "ae3c9d74735d7455",
-          "key": "ynalkjjiwmwzewfatppaxxjxvxofcdqa"
+          "iv": "cb4fb120115a6688",
+          "key": "uzwarwayjqxnfmxwqcqhntizzdqxphvk"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T20:37:31.469473+09:00",
+    "received_at_kst": "2026-04-14T21:46:57.072174+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -37,14 +37,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "ae3c9d74735d7455",
-          "key": "ynalkjjiwmwzewfatppaxxjxvxofcdqa"
+          "iv": "cb4fb120115a6688",
+          "key": "uzwarwayjqxnfmxwqcqhntizzdqxphvk"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T20:37:31.469614+09:00",
+    "received_at_kst": "2026-04-14T21:46:57.072259+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFASP0",
@@ -59,67 +59,67 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "ae3c9d74735d7455",
-          "key": "ynalkjjiwmwzewfatppaxxjxvxofcdqa"
+          "iv": "cb4fb120115a6688",
+          "key": "uzwarwayjqxnfmxwqcqhntizzdqxphvk"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T20:37:39.248061+09:00",
+    "received_at_kst": "2026-04-14T21:47:06.802463+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "trade",
     "tr_id": "H0MFCNT0",
     "symbol": "A01606",
     "parsed": {
       "FUTS_SHRN_ISCD": "A01606",
-      "BSOP_HOUR": "203739",
-      "FUTS_PRDY_VRSS": "3.20",
+      "BSOP_HOUR": "214706",
+      "FUTS_PRDY_VRSS": "2.95",
       "PRDY_VRSS_SIGN": "2",
-      "FUTS_PRDY_CTRT": "0.35",
-      "FUTS_PRPR": "905.10",
+      "FUTS_PRDY_CTRT": "0.33",
+      "FUTS_PRPR": "904.85",
       "FUTS_OPRC": "906.60",
       "FUTS_HGPR": "909.15",
       "FUTS_LWPR": "903.15",
       "LAST_CNQN": "1",
-      "ACML_VOL": "4472",
-      "ACML_TR_PBMN": "1012616812",
+      "ACML_VOL": "5972",
+      "ACML_TR_PBMN": "1352385925",
       "HTS_THPR": "896.46",
-      "MRKT_BASIS": "8.10",
-      "DPRT": "0.96",
+      "MRKT_BASIS": "7.85",
+      "DPRT": "0.94",
       "NMSC_FCTN_STPL_PRC": "0.00",
       "FMSC_FCTN_STPL_PRC": "0.00",
-      "SPEAD_PRC": "-1.15",
-      "HTS_OTST_STPL_QTY": "202873",
-      "OTST_STPL_QTY_ICDC": "-231",
+      "SPEAD_PRC": "-1.10",
+      "HTS_OTST_STPL_QTY": "202889",
+      "OTST_STPL_QTY_ICDC": "-215",
       "OPRC_HOUR": "000000",
       "OPRC_VRSS_PRPR_SIGN": "5",
-      "OPRC_VRSS_NMIX_PRPR": "-1.50",
+      "OPRC_VRSS_NMIX_PRPR": "-1.75",
       "HGPR_HOUR": "000000",
       "HGPR_VRSS_PRPR_SIGN": "5",
-      "HGPR_VRSS_NMIX_PRPR": "-4.05",
+      "HGPR_VRSS_NMIX_PRPR": "-4.30",
       "LWPR_HOUR": "000000",
       "LWPR_VRSS_PRPR_SIGN": "2",
-      "LWPR_VRSS_NMIX_PRPR": "1.95",
+      "LWPR_VRSS_NMIX_PRPR": "1.70",
       "SHNU_RATE": "0.50",
-      "CTTR": "99.64",
-      "ESDG": "8.64",
-      "OTST_STPL_RGBF_QTY_ICDC": "0",
+      "CTTR": "102.80",
+      "ESDG": "8.39",
+      "OTST_STPL_RGBF_QTY_ICDC": "1",
       "THPR_BASIS": "-0.54",
-      "FUTS_ASKP1": "905.10",
-      "FUTS_BIDP1": "904.95",
-      "ASKP_RSQN1": "1",
-      "BIDP_RSQN1": "1",
-      "SELN_CNTG_CSNU": "1597",
-      "SHNU_CNTG_CSNU": "1603",
-      "NTBY_CNTG_CSNU": "6",
-      "SELN_CNTG_SMTN": "2222",
-      "SHNU_CNTG_SMTN": "2214",
-      "TOTAL_ASKP_RSQN": "879",
-      "TOTAL_BIDP_RSQN": "385",
-      "PRDY_VOL_VRSS_ACML_VOL_RATE": "20.70",
-      "DYNM_MXPR": "923.10",
-      "DYNM_LLAM": "887.10",
+      "FUTS_ASKP1": "905.15",
+      "FUTS_BIDP1": "904.85",
+      "ASKP_RSQN1": "2",
+      "BIDP_RSQN1": "3",
+      "SELN_CNTG_CSNU": "2158",
+      "SHNU_CNTG_CSNU": "2157",
+      "NTBY_CNTG_CSNU": "-1",
+      "SELN_CNTG_SMTN": "2927",
+      "SHNU_CNTG_SMTN": "3009",
+      "TOTAL_ASKP_RSQN": "854",
+      "TOTAL_BIDP_RSQN": "401",
+      "PRDY_VOL_VRSS_ACML_VOL_RATE": "27.64",
+      "DYNM_MXPR": "922.85",
+      "DYNM_LLAM": "886.85",
       "DYNM_PRC_LIMT_YN": "2"
     }
   }
