@@ -1,6 +1,6 @@
 [
   {
-    "received_at_kst": "2026-04-14T21:46:56.845921+09:00",
+    "received_at_kst": "2026-04-14T23:51:38.151010+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -15,14 +15,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "cb4fb120115a6688",
-          "key": "uzwarwayjqxnfmxwqcqhntizzdqxphvk"
+          "iv": "afe9bda8bd9e9b1b",
+          "key": "dmpzeunvbglzlunzoytikcrrdgtwhyvm"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T21:46:57.072174+09:00",
+    "received_at_kst": "2026-04-14T23:51:38.327869+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -37,14 +37,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "cb4fb120115a6688",
-          "key": "uzwarwayjqxnfmxwqcqhntizzdqxphvk"
+          "iv": "afe9bda8bd9e9b1b",
+          "key": "dmpzeunvbglzlunzoytikcrrdgtwhyvm"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T21:46:57.072259+09:00",
+    "received_at_kst": "2026-04-14T23:51:38.327980+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFASP0",
@@ -59,68 +59,57 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "cb4fb120115a6688",
-          "key": "uzwarwayjqxnfmxwqcqhntizzdqxphvk"
+          "iv": "afe9bda8bd9e9b1b",
+          "key": "dmpzeunvbglzlunzoytikcrrdgtwhyvm"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-04-14T21:47:06.802463+09:00",
+    "received_at_kst": "2026-04-14T23:51:47.408056+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
-    "msg_type": "trade",
-    "tr_id": "H0MFCNT0",
-    "symbol": "A01606",
+    "msg_type": "quote",
+    "tr_id": "H0MFASP0",
+    "symbol": "A06606",
     "parsed": {
-      "FUTS_SHRN_ISCD": "A01606",
-      "BSOP_HOUR": "214706",
-      "FUTS_PRDY_VRSS": "2.95",
-      "PRDY_VRSS_SIGN": "2",
-      "FUTS_PRDY_CTRT": "0.33",
-      "FUTS_PRPR": "904.85",
-      "FUTS_OPRC": "906.60",
-      "FUTS_HGPR": "909.15",
-      "FUTS_LWPR": "903.15",
-      "LAST_CNQN": "1",
-      "ACML_VOL": "5972",
-      "ACML_TR_PBMN": "1352385925",
-      "HTS_THPR": "896.46",
-      "MRKT_BASIS": "7.85",
-      "DPRT": "0.94",
-      "NMSC_FCTN_STPL_PRC": "0.00",
-      "FMSC_FCTN_STPL_PRC": "0.00",
-      "SPEAD_PRC": "-1.10",
-      "HTS_OTST_STPL_QTY": "202889",
-      "OTST_STPL_QTY_ICDC": "-215",
-      "OPRC_HOUR": "000000",
-      "OPRC_VRSS_PRPR_SIGN": "5",
-      "OPRC_VRSS_NMIX_PRPR": "-1.75",
-      "HGPR_HOUR": "000000",
-      "HGPR_VRSS_PRPR_SIGN": "5",
-      "HGPR_VRSS_NMIX_PRPR": "-4.30",
-      "LWPR_HOUR": "000000",
-      "LWPR_VRSS_PRPR_SIGN": "2",
-      "LWPR_VRSS_NMIX_PRPR": "1.70",
-      "SHNU_RATE": "0.50",
-      "CTTR": "102.80",
-      "ESDG": "8.39",
-      "OTST_STPL_RGBF_QTY_ICDC": "1",
-      "THPR_BASIS": "-0.54",
-      "FUTS_ASKP1": "905.15",
-      "FUTS_BIDP1": "904.85",
-      "ASKP_RSQN1": "2",
-      "BIDP_RSQN1": "3",
-      "SELN_CNTG_CSNU": "2158",
-      "SHNU_CNTG_CSNU": "2157",
-      "NTBY_CNTG_CSNU": "-1",
-      "SELN_CNTG_SMTN": "2927",
-      "SHNU_CNTG_SMTN": "3009",
-      "TOTAL_ASKP_RSQN": "854",
-      "TOTAL_BIDP_RSQN": "401",
-      "PRDY_VOL_VRSS_ACML_VOL_RATE": "27.64",
-      "DYNM_MXPR": "922.85",
-      "DYNM_LLAM": "886.85",
-      "DYNM_PRC_LIMT_YN": "2"
+      "FUTS_SHRN_ISCD": "A06606",
+      "BSOP_HOUR": "235147",
+      "FUTS_ASKP1": "1905.70",
+      "FUTS_ASKP2": "1906.10",
+      "FUTS_ASKP3": "1906.20",
+      "FUTS_ASKP4": "1906.70",
+      "FUTS_ASKP5": "1907.10",
+      "FUTS_BIDP1": "1904.40",
+      "FUTS_BIDP2": "1904.10",
+      "FUTS_BIDP3": "1904.00",
+      "FUTS_BIDP4": "1903.70",
+      "FUTS_BIDP5": "1903.30",
+      "ASKP_CSNU1": "1",
+      "ASKP_CSNU2": "1",
+      "ASKP_CSNU3": "1",
+      "ASKP_CSNU4": "1",
+      "ASKP_CSNU5": "1",
+      "BIDP_CSNU1": "1",
+      "BIDP_CSNU2": "1",
+      "BIDP_CSNU3": "1",
+      "BIDP_CSNU4": "1",
+      "BIDP_CSNU5": "1",
+      "ASKP_RSQN1": "1",
+      "ASKP_RSQN2": "1",
+      "ASKP_RSQN3": "1",
+      "ASKP_RSQN4": "1",
+      "ASKP_RSQN5": "1",
+      "BIDP_RSQN1": "1",
+      "BIDP_RSQN2": "1",
+      "BIDP_RSQN3": "1",
+      "BIDP_RSQN4": "1",
+      "BIDP_RSQN5": "5",
+      "TOTAL_ASKP_CSNU": "267",
+      "TOTAL_BIDP_CSNU": "170",
+      "TOTAL_ASKP_RSQN": "373",
+      "TOTAL_BIDP_RSQN": "268",
+      "TOTAL_ASKP_RSQN_ICDC": "1",
+      "TOTAL_BIDP_RSQN_ICDC": "0"
     }
   }
 ]
