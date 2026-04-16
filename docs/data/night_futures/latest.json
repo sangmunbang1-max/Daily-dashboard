@@ -1,9 +1,9 @@
 {
-  "generated_at_kst": "2026-04-17T01:43:38.537932+09:00",
+  "generated_at_kst": "2026-04-17T02:58:30.322339+09:00",
   "biz_date": "2026-04-16",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'trade_ok'}",
+  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
   "token_status": "ready",
   "series": {
     "kospi": [
@@ -34,6 +34,36 @@
           "FUTS_ASKP1": "944.10",
           "FUTS_BIDP1": "943.75",
           "ACML_VOL": "20760",
+          "LAST_CNQN": "1"
+        }
+      },
+      {
+        "time": "02:58",
+        "bsop_hour": "025837",
+        "price": 941.85,
+        "change": -1.95,
+        "change_pct": -0.21,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 942.15,
+        "session_high": 949.6,
+        "session_low": 932.15,
+        "ask1": 941.95,
+        "bid1": 941.7,
+        "acml_vol": 21783.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "941.85",
+          "FUTS_PRDY_VRSS": "-1.95",
+          "FUTS_PRDY_CTRT": "-0.21",
+          "FUTS_OPRC": "942.15",
+          "FUTS_HGPR": "949.60",
+          "FUTS_LWPR": "932.15",
+          "FUTS_ASKP1": "941.95",
+          "FUTS_BIDP1": "941.70",
+          "ACML_VOL": "21783",
           "LAST_CNQN": "1"
         }
       },
@@ -306,7 +336,7 @@
       "change_pct": -0.35,
       "high": 943.75,
       "low": 935.5,
-      "points": 5,
+      "points": 6,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 942.15,
@@ -358,16 +388,13 @@
     },
     "received_symbols": {
       "trade": [
-        "A01606",
-        "A06606"
+        "A01606"
       ],
-      "quote": [
-        "A06606"
-      ]
+      "quote": []
     },
     "market_status": {
       "kospi": "trade_ok",
-      "kosdaq": "trade_ok"
+      "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
 }
