@@ -1,292 +1,332 @@
 {
-  "generated_at_kst": "2026-04-20 08:02 KST",
-  "period": "04/19 07:00 ~ 04/20 07:00 KST",
+  "generated_at_kst": "2026-04-21 08:07 KST",
+  "period": "04/20 07:00 ~ 04/21 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "S&P 500과 나스닥 종합지수는 사상 최고치를 기록했지만 월스트리트의 2가지 가장 큰 위험 요소는 계속 악화되고 있습니다.",
-        "description": "두 가지 역풍은 주식 시장의 맹렬한 랠리가 신뢰할 수 없음을 강력하게 시사합니다.",
-        "url": "https://www.fool.com/investing/2026/04/19/sp-500-nasdaq-record-high-wall-st-risk-get-worse/?.tsrc=rss",
+        "title": "월스트리트 분석가에 따르면 내년에 S&P 500을 이기기 위해 이 인덱스 펀드를 구입하세요.",
+        "description": "골드만삭스는 향후 12개월 동안 금이 미국 주식시장보다 더 나은 성과를 낼 것으로 예상한다.",
+        "url": "https://www.fool.com/investing/2026/04/20/buy-index-fund-beat-sp-500-next-year-wall-street/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 22:26",
-        "score": 13
-      },
-      {
-        "title": "Graham Stephan은 S&P 500과 Nasdaq이 기록을 깨자 '더 이상 의미가 없는 것'이라고 말했습니다. 그의 은퇴 전략은 다음과 같습니다.",
-        "description": "개인 금융 인물이자 투자자인 그레이엄 스테판(Graham Stephan)은 주요 지수가 불과 몇 주 만에 최고치로 급등하자 “더 이상 의미가 없다”고 말했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/graham-stephan-says-nothing-makes-163126617.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/20 01:31",
-        "score": 10
-      },
-      {
-        "title": "S&P 500이 신고가를 경신하자 애널리스트가 주식 시장에 대담한 메시지를 보냈습니다.",
-        "description": "투자자들이 중립을 유지하고 있음에도 불구하고 S&P 500은 상승세를 보이고 있습니다. 최근 CNBC와의 인터뷰에서 베테랑 분석가 Paul Hickey는 다음과 같이 말했습니다.",
-        "url": "https://www.thestreet.com/investing/analyst-sends-bold-stock-market-message-as-sp-500-hits-new-highs?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/20 02:33",
+        "publishedAt": "04/20 17:32",
         "score": 9
       },
       {
-        "title": "주식 시장이 사상 최고치를 기록한 상황에서 Vanguard S&P 500 ETF를 구매해야 할까요? 대답이 당신을 놀라게 할 수도 있습니다.",
-        "description": "월스트리트는 미국과 이란 사이의 복잡한 지정학적 갈등을 계속해서 헤쳐 나가고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/04/19/buy-vanguard-sp-500-etf-stock-market-record-high/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/20 01:04",
-        "score": 9
+        "title": "뉴욕증시,지정학긴장에도 하락 제한적",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202604204216i",
+        "source": "hankyung.com",
+        "publishedAt": "04/20 23:24",
+        "score": 8
       },
       {
-        "title": "나스닥이 상승하기 전에 1,000달러로 매수할 수 있는 가장 현명한 성장주",
-        "description": "Palo Alto Networks와 Sandisk는 비즈니스 전망 개선으로 인해 더 높은 수준으로 올라갈 여지가 있습니다.",
-        "url": "https://www.fool.com/investing/2026/04/19/the-smartest-growth-stocks-to-buy-with-1000-before/?.tsrc=rss",
+        "title": "오늘의 뉴스: 대형 은행 낙관론, 인플레이션 상승, REIT 부문 축소, 금리 인하 예정, 투자 포트폴리오 스트레스 등",
+        "description": "오늘 우리가 팔로우하는 이야기를 만나보세요",
+        "url": "https://financialpost.com/uncategorized/news-of-the-day-big-bank-optimism-rising-inflation-reit-sector-shrinking-would-be-rate-cuts-investment-portfolio-stress-and-more?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/20 01:46",
+        "publishedAt": "04/21 06:40",
+        "score": 7
+      },
+      {
+        "title": "예측: 나스닥은 올해 사상 최고치를 경신할 것입니다. 이것은 보유할 수 있는 최고의 인공 지능(AI) 성장 주식입니다.",
+        "description": "나스닥은 3월 말 조정 영역에 진입했지만 인공 지능에 대한 새로운 열정으로 인해 올해 지수가 반등할 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/04/20/prediction-the-nasdaq-will-hit-new-all-time-highs/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/21 06:20",
+        "score": 6
+      },
+      {
+        "title": "금융 전문가에 따르면 S&P 500 ETF 3개와 어떤 ETF에 투자해야 하는지의 3가지 주요 차이점",
+        "description": "금융 전문가는 투자자들이 자신에게 적합한 S&P 500 ETF를 선택할 수 있도록 VOO, SPY, IVV 등 세 가지 ETF의 수수료, 가격, 거래량을 비교합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-key-differences-between-3-001104180.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/20 09:11",
         "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "2030은 '코스피' 5060은 '반도체' ETF 담았다",
+        "title": "코스피 상장사, 현금 배당 35조 돌파 '역대 최대'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026041909821",
+        "url": "https://www.hankyung.com/article/2026042037971",
         "source": "hankyung.com",
-        "publishedAt": "04/19 17:29",
+        "publishedAt": "04/20 17:33",
+        "score": 6
+      },
+      {
+        "title": "아몬 퀼컴 CEO 방한, 삼성·SK하이닉스 찾는다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026042039981",
+        "source": "hankyung.com",
+        "publishedAt": "04/20 19:27",
         "score": 5
       },
       {
-        "title": "종전 기대 고개 들자 실적에 쏠리는 눈…코스피 신기록 쓸까 [주간전망]",
+        "title": "코스피, 기관 매수에 6200선 회복…SK하닉 3.4%↑",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026041781976",
+        "url": "https://www.hankyung.com/article/2026042033716",
         "source": "hankyung.com",
-        "publishedAt": "04/19 07:59",
+        "publishedAt": "04/20 15:55",
         "score": 5
       },
       {
-        "title": "한화토탈에너지스, 추가 원료 확보…플라스틱 수급 회복하나",
+        "title": "네이버, 인도 최대 IT기업 TCS와 맞손 …현지 시장 공략 박차",
         "description": "",
-        "url": "https://www.hankyung.com/article/202604191153i",
+        "url": "https://www.hankyung.com/article/202604203934i",
         "source": "hankyung.com",
-        "publishedAt": "04/19 18:18",
+        "publishedAt": "04/20 20:30",
         "score": 3
       },
       {
-        "title": "현대차그룹, 인도서 1분기 역대 최대 실적",
+        "title": "'SOL 미국우주항공TOP10 ETF' 21일 상장",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026041911321",
+        "url": "https://www.hankyung.com/article/2026042037981",
         "source": "hankyung.com",
-        "publishedAt": "04/19 18:08",
-        "score": 3
+        "publishedAt": "04/20 17:33",
+        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "SpaceX의 2조 달러 IPO가 다가오고 있습니다: 이 6개 주식은 새로운 우주 경제를 궤도에 올릴 것입니다",
-        "description": "SpaceX는 4월 1일 비밀리에 IPO를 신청했으며 목표 가치를 2조 달러 이상으로 빠르게 높였습니다. 이는 사우디 아람코의 기록을 왜소하게 만들 것이다.",
-        "url": "https://247wallst.com/investing/2026/04/19/spacexs-2-trillion-ipo-is-coming-these-6-stocks-will-ride-the-new-space-economy-into-orbit/?.tsrc=rss",
+        "title": "소득 투자자들이 경기 침체 우려에도 불구하고 JNK를 계속 구매하는 이유",
+        "description": "SPDR Bloomberg High Yield Bond ETF(NYSEARCA:JNK)는 현재 약 6.4%의 수익률을 내는 월별 배당금을 지급하는데, 이는 관심을 끌기에 충분합니다.",
+        "url": "https://247wallst.com/investing/2026/04/20/why-income-investors-keep-buying-jnk-despite-recession-fears/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 20:52",
+        "publishedAt": "04/20 20:00",
+        "score": 5
+      },
+      {
+        "title": "KB금융그룹, 장애인 고용 확대",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026042036481",
+        "source": "hankyung.com",
+        "publishedAt": "04/20 17:58",
+        "score": 3
+      },
+      {
+        "title": "애플 '폴더블폰 1위' 전망 떴는데…수혜주가 삼성이라고? [퇴근길 30초 경제]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026042035327",
+        "source": "hankyung.com",
+        "publishedAt": "04/20 18:17",
         "score": 1
       },
       {
-        "title": "'중동전쟁 악재' 속 韓경제 1분기 성장률은",
+        "title": "스토리·포세이돈 이승윤 대표, 세계경제포럼 YGL 선정",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026041910711",
+        "url": "https://www.hankyung.com/article/2026042026446",
         "source": "hankyung.com",
-        "publishedAt": "04/19 18:05",
+        "publishedAt": "04/20 16:12",
+        "score": 1
+      },
+      {
+        "title": "분열된 경제 세계에 대한 주식 거래자 가이드",
+        "description": "(블룸버그) - 중동 전쟁으로 인해 정부가 우선순위를 정하게 되면서 투자자들은 국방, 에너지 및 기술 주식에 더 많은 돈을 쏟아부을 예정입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-trader-guide-fractured-economic-061500270.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/20 15:15",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "State Street의 SPLB ETF의 회사채 초점이 iShares TLT의 미국 국채보다 더 나은 선택입니까?",
-        "description": "서로 다른 채권 노출과 비용 구조가 소득 중심 포트폴리오에서 이 두 장기 ETF를 어떻게 차별화하는지 알아보세요.",
-        "url": "https://www.fool.com/coverage/etfs/2026/04/19/is-state-street-s-splb-etf-s-corporate-bond-focus-the-better-choice-over-ishares-tlt-s-u-s-treasuries/?.tsrc=rss",
+        "title": "안전과 높은 수익률을 모두 원한다면 이 아주 저렴한 국채 ETF를 구매하세요",
+        "description": "중간 만기 국채 수익률이 4%에 육박하는 것은 대략 20년 만에 정부 지원 증권의 지속 소득 수준 중 가장 높은 수치입니다.",
+        "url": "https://247wallst.com/investing/2026/04/20/buy-this-dirt-cheap-treasury-etf-if-you-want-both-safety-and-a-high-yield/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 22:49",
+        "publishedAt": "04/21 00:49",
         "score": 6
       },
       {
         "title": "HYG 투자자들은 올해 10%의 이익과 안정적인 배당금을 모았습니다",
         "description": "iShares iBoxx $ 고수익 회사채 ETF(NYSEARCA:HYG)는 미국 달러 표시 기업 채권 바구니를 보유하여 투자자에게 월 소득을 지급합니다.",
-        "url": "https://247wallst.com/investing/2026/04/19/hyg-investors-collect-10-gains-plus-stable-dividends-this-year-3/?.tsrc=rss",
+        "url": "https://247wallst.com/investing/2026/04/20/hyg-investors-collect-10-gains-plus-stable-dividends-this-year-6/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/20 00:19",
+        "publishedAt": "04/20 20:55",
         "score": 3
       },
       {
-        "title": "환율·채권, 원·달러, 1400원대 후반 박스권 전망",
+        "title": "회사채 영업에 계열사 동원한 증권사 6곳 징계",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026041910741",
+        "url": "https://www.hankyung.com/article/2026042036691",
         "source": "hankyung.com",
-        "publishedAt": "04/19 18:03",
+        "publishedAt": "04/20 17:06",
         "score": 3
       },
       {
-        "title": "급락장 때 버틸 힘은 '현금 흐름'…채권 등 자산비중 30% 유지 필요",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026041909781",
-        "source": "hankyung.com",
-        "publishedAt": "04/19 17:28",
-        "score": 3
+        "title": "Agnico(AEM)가 투자할 수 있는 10대 부채 없는 블루칩 주식 중 하나인 이유는 다음과 같습니다.",
+        "description": "Agnico Eagle Mines Limited(NYSE:AEM)는 투자할 수 있는 10대 부채 없는 블루칩 주식 중 하나입니다. 2026년 3월 30일 Agnico Eagle Mines Limited (NY)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-agnico-aem-among-10-131153423.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/20 22:11",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "원자재 가격 급등 속에 Suncor Energy(SU) 목표 가격이 상승했습니다.",
-        "description": "Suncor Energy Inc.(NYSE:SU)는 지금 매수할 수 있는 가장 저평가된 12개 천연가스 주식에 포함되어 있습니다. Suncor Energy Inc.(NYSE:SU)는 캐나다 기업입니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/suncor-energy-su-price-target-181629484.html?.tsrc=rss",
+        "title": "Nasdaq Composite는 고위험 기술 수익에 앞서 유가에 대한 두려움과 싸우고 있습니다.",
+        "description": "나스닥 종합지수(^IXIC)는 지난주 기록적인 상승세 이후 월요일 아침 0.17% 하락한 24,435를 기록하며 가장 먼저 하락세를 보이고 있습니다. 기술 중심 지수는 gr입니다.",
+        "url": "https://247wallst.com/investing/2026/04/20/nasdaq-composite-battles-oil-price-fears-ahead-of-high-stakes-tech-earnings/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/20 03:16",
-        "score": 6
+        "publishedAt": "04/20 22:36",
+        "score": 5
       },
       {
-        "title": "Enbridge에 연료를 공급하는 것은 무엇입니까? 5월 8일 수익 보고서를 미리 살펴보세요.",
-        "description": "Enbridge 주식은 다가오는 보고서와 관련된 구체적인 고려 사항을 고려할 때 매수가 될 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/04/19/fueling-enbridge-quick-dive-earnings-report/?.tsrc=rss",
+        "title": "에너지 시장 평가: 우리의 예측, 호르무즈 해협은 3~4주 안에 안전하게 개방될 것입니다",
+        "description": "(Oil & Gas 360) Michael Smolinski 저 – 우리의 예측: 호르무즈 해협이 3~4주 안에 안전하게 개방되는 것을 보았습니다. […",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/energy-market-assessment-predictions-strait-213026152.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/20 04:50",
-        "score": 1
+        "publishedAt": "04/21 06:30",
+        "score": 3
       },
       {
-        "title": "AI 거래는 이란 전쟁에도 불구하고 시장을 사상 최고치로 끌어올리고 있다",
-        "description": "AI 무역은 중동 전쟁으로 인한 혼란으로부터 스스로를 보호할 수 있었습니다.",
-        "url": "https://finance.yahoo.com/news/the-ai-trade-is-fueling-the-market-to-record-highs-despite-iran-war-130540185.html?.tsrc=rss",
+        "title": "최근 주가 변동에 따른 Woodside Energy Group의 가치 평가는 엇갈린 신호를 보냅니다.",
+        "description": "최근 주가 변동 이후 Woodside Energy Group 개요 Woodside Energy Group (ASX:WDS)의 주가는 최근 엇갈리는 모습을 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/look-woodside-energy-group-valuation-160547643.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 22:05",
-        "score": 1
+        "publishedAt": "04/21 01:05",
+        "score": 3
       },
       {
-        "title": "한화토탈에너지스, 추가 원료 확보…플라스틱 수급 회복하나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202604191153i",
-        "source": "hankyung.com",
-        "publishedAt": "04/19 18:18",
-        "score": 1
+        "title": "K-1 복잡성을 해결하고 5년 만에 89%의 수익률을 달성한 상품 ETF",
+        "description": "Invesco 최적 수익률 다각화된 상품 전략 No K-1 ETF(NYSEARCA:PDBC)는 특정 문제를 해결하기 위해 만들어졌습니다. 대부분의 상품 펀드는 K-1을 발행합니다.",
+        "url": "https://247wallst.com/investing/2026/04/20/the-commodity-etf-that-solved-k-1-complexity-and-delivered-89-in-five-years/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/21 00:50",
+        "score": 3
+      },
+      {
+        "title": "청정 에너지 ETF가 항해에 바람을 피우는 이유",
+        "description": "이란 전쟁이 일어나기 오래 전부터 전력 수요로 인해 에너지에 초점을 맞춘 자금이 늘어났습니다.",
+        "url": "https://www.thedailyupside.com/etf/thematics-sectors/why-clean-energy-etfs-have-wind-in-their-sails/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/20 13:01",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, 원·달러, 1400원대 후반 박스권 전망",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026041910741",
-        "source": "hankyung.com",
-        "publishedAt": "04/19 18:03",
-        "score": 8
+        "title": "UAE 관리들은 이란 전쟁 중에 달러가 부족해지면 위안화나 다른 통화를 사용해야 할 수도 있다고 경고한 것으로 알려졌습니다.",
+        "description": "최고의 석유 생산자가 달러에서 벗어나는 것은 통화 패권에 큰 위협이 될 것입니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/uae-officials-reportedly-warned-may-155555442.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/21 00:55",
+        "score": 4
       },
       {
-        "title": "미국·이란 전쟁 협상에 '촉각'…환율 1400원 후반대 박스권 맴도나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202604190490i",
-        "source": "hankyung.com",
-        "publishedAt": "04/19 11:53",
-        "score": 5
+        "title": "페트로달러 시스템은 위안화가 달러에 도전하면서 3가지 위협에 직면",
+        "description": "UAE가 위안화 중심에 무게를 두고, 이란이 호르무즈에게 통행료를 부과하고, 위안화 석유 거래가 증가함에 따라 석유달러 시스템은 3가지 위협에 직면했습니다.",
+        "url": "https://beincrypto.com/petrodollar-threats-yuan-oil-trade/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/20 19:00",
+        "score": 4
       },
       {
-        "title": "韓 1인당 GDP, 5년 후 대만에 1만달러 뒤처진다",
+        "title": "호르무즈해협 긴장 고조에 브렌트유 다시 95달러대",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026041911031",
+        "url": "https://www.hankyung.com/article/202604203980i",
         "source": "hankyung.com",
-        "publishedAt": "04/19 18:10",
+        "publishedAt": "04/20 19:27",
         "score": 3
       },
       {
-        "title": "달러 지배는 끝나가고 있는가? 전 국방부 고문은 알래스카 예금 중 하나가 미래의 중심에 있다고 말합니다.",
-        "description": "전 CIA 고문인 Jim Rickards는 문서화된 글로벌 준비금 중 달러의 몫의 감소를 조사하는 새로운 무료 프레젠테이션을 발표했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/dollars-reign-coming-end-former-141500018.html?.tsrc=rss",
+        "title": "일부 투자자가 비트코인 ​​대신 금 기반 암호화폐를 구매하는 이유",
+        "description": "금 기반 스테이블코인은 새로운 \"디지털 금\"입니다.",
+        "url": "https://www.fool.com/investing/2026/04/20/why-some-investors-are-buying-gold-backed-cryptocu/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 23:15",
-        "score": 1
+        "publishedAt": "04/20 18:57",
+        "score": 3
       },
       {
-        "title": "예측: AI 공급망 부족으로 인해 2030년까지 2개의 새로운 조 달러 규모 기업이 탄생할 것입니다",
-        "description": "AMD와 Oracle은 AI 인프라 분야에서 중요한 역할을 담당하고 있으며, 2019년 말까지 인상적인 수익 성장을 기록할 가능성이 높습니다.",
-        "url": "https://www.fool.com/investing/2026/04/19/prediction-the-ai-supply-chain-shortage-will-creat/?.tsrc=rss",
+        "title": "미국-이란 전쟁 긴장 고조로 달러 상승",
+        "description": "오늘 달러 지수(DXY00)는 +0.08% 상승했습니다. 달러는 토요일 이란의 발언 이후 중동의 긴장이 고조되면서 오늘 상승하고 있습니다.",
+        "url": "https://www.barchart.com/story/news/1402467/dollar-climbs-as-us-iran-war-tensions-rise?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 15:50",
+        "publishedAt": "04/20 23:35",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "칩 붐은 잊어라: 2026년에는 월스트리트의 '궁극적인 역매매'가 소프트웨어를 선호한다",
-        "description": "BTIG 최고 시장 기술자 Jonathan Kr은 소프트웨어 및 반도체 분야의 기술 부문 리더들이 잠재적인 변곡점에 접근하고 있다고 말합니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/forget-chip-boom-wall-streets-173111755.html?.tsrc=rss",
+        "title": "에너지 시장 평가: 우리의 예측, 호르무즈 해협은 3~4주 안에 안전하게 개방될 것입니다",
+        "description": "(Oil & Gas 360) Michael Smolinski 저 – 우리의 예측: 호르무즈 해협이 3~4주 안에 안전하게 개방되는 것을 보았습니다. […",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/energy-market-assessment-predictions-strait-213026152.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/20 02:31",
-        "score": 2
+        "publishedAt": "04/21 06:30",
+        "score": 5
       },
       {
-        "title": "AI 거래는 이란 전쟁에도 불구하고 시장을 사상 최고치로 끌어올리고 있다",
-        "description": "AI 무역은 중동 전쟁으로 인한 혼란으로부터 스스로를 보호할 수 있었습니다.",
-        "url": "https://finance.yahoo.com/news/the-ai-trade-is-fueling-the-market-to-record-highs-despite-iran-war-130540185.html?.tsrc=rss",
+        "title": "이란의 호르무즈 해협 개방으로 유가는 90달러까지 하락하고 주가는 급등",
+        "description": "이란이 휴전 기간 동안 호르무즈 해협을 상업 운송에 개방하고 공급을 완화했다고 발표한 후 유가가 하락하고 미국 주식 선물이 상승했습니다.",
+        "url": "https://qz.com/oil-prices-fall-iran-strait-hormuz-ceasefire-stocks-041726?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 22:05",
-        "score": 2
+        "publishedAt": "04/21 05:01",
+        "score": 5
       },
       {
-        "title": "이 새로운 전쟁은 금 채굴 ETF를 다시 새로운 최고치로 끌어올릴 수 있습니다",
-        "description": "미국 해군의 호르무즈 해협 봉쇄, 2월 말부터 이스라엘과의 활발한 공습, 그리고 점점 더 불안한 휴전 가능성이 높아지고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/04/19/this-new-war-can-take-this-gold-mining-etf-to-new-highs-again/?.tsrc=rss",
+        "title": "호르무즈 해협이 전투 지역처럼 보이기 시작하면서 시장은 몸서리를 쳤다. '우리는 당신을 무력화시킬 준비가 되어 있습니다'",
+        "description": "해군이 봉쇄의 일환으로 처음으로 선박을 나포하고 구축함이 선박을 향해 발사하면서 걸프만의 긴장이 고조되었습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/markets-shudder-strait-hormuz-starts-231324915.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/20 03:59",
-        "score": 1
+        "publishedAt": "04/20 08:13",
+        "score": 5
       },
       {
-        "title": "트레이드 데스크 CEO는 자신의 돈 1억 5천만 달러를 주식에 투자했습니다. 이것이 무시해서는 안 되는 신호인 이유는 다음과 같습니다.",
-        "description": "내부자들은 거의 항상 단 한 가지 이유로 주식을 구매합니다.",
-        "url": "https://www.fool.com/investing/2026/04/19/the-trade-desk-ceo-just-put-150-million-of-his-own/?.tsrc=rss",
+        "title": "NVIDIA, 트럼프 관세 환급 타격에 비트코인 ​​설정 반영",
+        "description": "NVIDIA 주식은 대법원 관세 환급으로 주요 위험이 해소되는 것처럼 변동성이 큰 비트코인처럼 조용히 움직이기 시작했습니다.",
+        "url": "https://beincrypto.com/nvidia-stock-mirrors-bitcoin-tarrif-refund-analysis/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/20 01:25",
-        "score": 1
+        "publishedAt": "04/21 04:19",
+        "score": 3
       },
       {
-        "title": "이란 분쟁으로 암호화폐 시장 변동성 확대로 비트코인 ​​급락",
-        "description": "Investing.com -- 시가총액 기준 세계 최대 암호화폐인 비트코인은 2.02% 하락해 5:46 ET(10:46 GM)에 75,064.2에 거래되었습니다.",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-dips-iran-conflict-stokes-102625702.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/19 19:26",
-        "score": 1
+        "title": "뉴욕증시,지정학긴장에도 하락 제한적",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202604204216i",
+        "source": "hankyung.com",
+        "publishedAt": "04/20 23:24",
+        "score": 3
       }
     ],
     "tech": [
       {
-        "title": "Nvidia 경쟁이 뜨거워지면서 Google, AI 칩의 Marvell 대화",
-        "description": "구글은 TPU라고 불리는 AI 칩의 새로운 버전을 생산하기 위해 Marvell과 협의 중이라고 합니다. AI 칩 판매 증가로 인해 Google 주가가 상승할 수 있습니다.",
-        "url": "https://finance.yahoo.com/m/92212320-1fbe-3bfe-bcdd-1a39f3fa942f/google%2C-marvell-in-ai-chip.html?.tsrc=rss",
+        "title": "Amazon은 Anthropic의 Claude, AI 수요에 힘입어 강력한 분기를 기록할 것으로 예상",
+        "description": "아마존은 대규모 분기 실적 발표를 앞두고 있을 수도 있습니다.",
+        "url": "https://finance.yahoo.com/news/amazon-expected-to-report-a-strong-quarter-on-the-backs-of-anthropics-claude-ai-demand-133116973.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/20 00:00",
-        "score": 10
-      },
-      {
-        "title": "Amazon, Meta Platform 및 잠재적으로 인류학에서 일어나는 일은 Taiwan Semiconductor Manufacturing에 있어서 환상적인 소식입니다.",
-        "description": "TSMC는 한 설계자의 칩뿐만 아니라 모든 AI 칩에 대한 수요로부터 이익을 얻습니다.",
-        "url": "https://www.fool.com/investing/2026/04/19/something-happening-at-amazon-meta-platforms-and-p/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/19 17:25",
-        "score": 7
-      },
-      {
-        "title": "Amazon은 SpaceX와 경쟁하기 위해 116억 달러를 지출합니다.",
-        "description": "기술 대기업의 최신 인수는 지출의 또 다른 단계를 신호할 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/04/19/amazon-is-spending-116-billion-to-compete-spacex/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/20 04:05",
+        "publishedAt": "04/20 22:31",
         "score": 6
       },
       {
-        "title": "SpaceX의 2조 달러 IPO가 다가오고 있습니다: 이 6개 주식은 새로운 우주 경제를 궤도에 올릴 것입니다",
-        "description": "SpaceX는 4월 1일 비밀리에 IPO를 신청했으며 목표 가치를 2조 달러 이상으로 빠르게 높였습니다. 이는 사우디 아람코의 기록을 왜소하게 만들 것이다.",
-        "url": "https://247wallst.com/investing/2026/04/19/spacexs-2-trillion-ipo-is-coming-these-6-stocks-will-ride-the-new-space-economy-into-orbit/?.tsrc=rss",
+        "title": "Scott Galloway는 SpaceX IPO에 '앵커가 없다'고 말했습니다. 제가 그가 틀렸다고 생각하는 이유는 다음과 같습니다.",
+        "description": "Scott Galloway는 SpaceX IPO에 대해 날카로운 주장을 펼쳤습니다. 그의 핵심 주장은 그가 틀렸다고 생각하는 이유를 설명하기 전에 공정한 청문회를 가질 가치가 있습니다.",
+        "url": "https://247wallst.com/investing/2026/04/20/scott-galloway-says-the-spacex-ipo-has-no-anchor-heres-why-i-think-hes-wrong/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 20:52",
+        "publishedAt": "04/20 21:35",
         "score": 6
       },
       {
-        "title": "최근 주가 및 AI 계약 모멘텀의 변동 이후 Palantir Technologies(PLTR) 평가",
-        "description": "US$146.39의 Palantir Technologies가 강세를 보인 후에도 여전히 좋은 가치인지 궁금하다면, 출발점은 이야기를 분리하는 것입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-palantir-technologies-pltr-recent-130316088.html?.tsrc=rss",
+        "title": "오늘, 4월 20일 주식 시장: BlueBird 7 위성이 계획된 궤도에 도달하지 못한 후 AST SpaceMobile이 하락했습니다.",
+        "description": "2026년 4월 20일 오늘, 투자자들은 실패한 위성 발사와 수십억 달러 규모의 계약 및 야심찬 목표를 저울질하고 있습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/20/stock-market-today-april-20-ast-spacemobile-falls-after-bluebird-7-satellite-fails-to-reach-planned-orbit/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/19 22:03",
+        "publishedAt": "04/21 06:42",
+        "score": 5
+      },
+      {
+        "title": "트럼프는 Palantir의 기술을 칭찬합니다. 주가는 더 오를 것입니까?",
+        "description": "사장은 회사 사업을 크게 신뢰하고 있으며 이는 더 많은 성장 기회로 이어질 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/04/20/trump-praises-palantirs-technology-is-the-stock-de/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/21 04:20",
+        "score": 5
+      },
+      {
+        "title": "Palantir Technologies는 AI로 하늘을 통제하려고 합니다.",
+        "description": "미국 영공에서는 매일 45,000편 이상의 항공편이 운항되지만, 연방항공청(Federal Aviation Administration)은 여전히 ​​혼잡과 중단이 발생하기 쉬운 시스템에 의존하고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/04/20/palantir-technologies-is-about-to-control-the-skies-with-ai/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/21 00:16",
         "score": 5
       }
     ]
