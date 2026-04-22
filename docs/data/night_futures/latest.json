@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-04-22T21:45:47.588809+09:00",
+  "generated_at_kst": "2026-04-22T23:47:07.195701+09:00",
   "biz_date": "2026-04-22",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
@@ -31,6 +31,30 @@
           "TOTAL_ASKP_RSQN": "208",
           "TOTAL_BIDP_RSQN": "173"
         }
+      },
+      {
+        "time": "23:47",
+        "bsop_hour": "234716",
+        "price": 2009.3,
+        "change": null,
+        "change_pct": null,
+        "symbol": "A06606",
+        "name": "KOSDAQ Night Futures",
+        "open": null,
+        "session_high": null,
+        "session_low": null,
+        "ask1": 2010.2,
+        "bid1": 2008.4,
+        "acml_vol": null,
+        "last_cnqn": null,
+        "tr_key": "A06606",
+        "source_type": "quote_fallback",
+        "raw_fields": {
+          "FUTS_ASKP1": "2010.20",
+          "FUTS_BIDP1": "2008.40",
+          "TOTAL_ASKP_RSQN": "234",
+          "TOTAL_BIDP_RSQN": "254"
+        }
       }
     ]
   },
@@ -54,20 +78,20 @@
       "source_type": null
     },
     "kosdaq": {
-      "last": 1988.65,
+      "last": 2009.3,
       "change": null,
       "change_pct": null,
-      "high": 1988.65,
+      "high": 2009.3,
       "low": 1988.65,
-      "points": 1,
+      "points": 2,
       "last_symbol": "A06606",
       "last_name": "KOSDAQ Night Futures",
       "open": null,
       "session_high": null,
       "session_low": null,
-      "ask1": 1989.8,
-      "bid1": 1987.5,
-      "spread": 2.3,
+      "ask1": 2010.2,
+      "bid1": 2008.4,
+      "spread": 1.8,
       "acml_vol": null,
       "source_type": "quote_fallback"
     }
