@@ -1,9 +1,9 @@
 {
-  "generated_at_kst": "2026-04-25T01:06:00.858768+09:00",
+  "generated_at_kst": "2026-04-25T02:13:07.095183+09:00",
   "biz_date": "2026-04-24",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'trade_ok'}",
+  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
   "token_status": "ready",
   "series": {
     "kospi": [
@@ -34,6 +34,36 @@
           "FUTS_ASKP1": "992.15",
           "FUTS_BIDP1": "991.95",
           "ACML_VOL": "19745",
+          "LAST_CNQN": "1"
+        }
+      },
+      {
+        "time": "02:13",
+        "bsop_hour": "021317",
+        "price": 989.2,
+        "change": 15.25,
+        "change_pct": 1.57,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 974.0,
+        "session_high": 992.55,
+        "session_low": 970.95,
+        "ask1": 989.3,
+        "bid1": 989.15,
+        "acml_vol": 21615.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "989.20",
+          "FUTS_PRDY_VRSS": "15.25",
+          "FUTS_PRDY_CTRT": "1.57",
+          "FUTS_OPRC": "974.00",
+          "FUTS_HGPR": "992.55",
+          "FUTS_LWPR": "970.95",
+          "FUTS_ASKP1": "989.30",
+          "FUTS_BIDP1": "989.15",
+          "ACML_VOL": "21615",
           "LAST_CNQN": "1"
         }
       },
@@ -300,7 +330,7 @@
       "change_pct": 1.06,
       "high": 992.0,
       "low": 975.0,
-      "points": 5,
+      "points": 6,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 974.0,
@@ -352,16 +382,13 @@
     },
     "received_symbols": {
       "trade": [
-        "A01606",
-        "A06606"
+        "A01606"
       ],
-      "quote": [
-        "A06606"
-      ]
+      "quote": []
     },
     "market_status": {
       "kospi": "trade_ok",
-      "kosdaq": "trade_ok"
+      "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
 }
