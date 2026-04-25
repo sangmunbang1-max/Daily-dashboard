@@ -1,309 +1,212 @@
 {
-  "generated_at_kst": "2026-04-25 08:06 KST",
-  "period": "04/24 07:00 ~ 04/25 07:00 KST",
+  "generated_at_kst": "2026-04-26 08:04 KST",
+  "period": "04/25 07:00 ~ 04/26 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "오늘, 4월 24일 주식 시장: S&P 500과 나스닥은 기술 급증으로 최고치를 경신했습니다.",
-        "description": "2026년 4월 24일, 인텔의 획기적인 분기는 칩 리더십을 다시 불붙이고 미국 지수에 대한 AI 거대 기업의 지배력을 강화했습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/24/stock-market-today-april-24-s-and-p-500-and-nasdaq-set-new-highs-on-tech-surge/?.tsrc=rss",
+        "title": "예측: 인공 지능(AI) 주식이 나스닥을 새로운 최고점으로 이끌 것입니다. 지금 구입하면 좋은 3가지 제품을 소개합니다.",
+        "description": "나스닥은 엄청난 랠리를 펼쳤지만 이제 막 시작되었을 수도 있습니다.",
+        "url": "https://www.fool.com/investing/2026/04/25/prediction-artificial-intelligence-ai-stocks-will/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 06:34",
-        "score": 14
+        "publishedAt": "04/26 06:35",
+        "score": 6
       },
       {
-        "title": "오늘 주식 시장: 나스닥, S&P 500 지수 기록 마감; 랠리, Mag 7 수익 테스트 직면(생방송)",
-        "description": "오늘의 주식 시장: 금요일 다우 존스 지수는 하락세를 보인 반면 인텔 주식의 급등으로 나스닥 지수는 상승했습니다. AI 주식 AMD와 Arm 점프.",
-        "url": "https://finance.yahoo.com/m/52e306ce-7e7b-3209-bf84-7e6ce3d57e4f/stock-market-today%3A-nasdaq%2C.html?.tsrc=rss",
+        "title": "모닝스타가 말하는 나스닥 최고의 인공지능(AI) 성장주는 여전히 저평가됐다",
+        "description": "\"Great Rotation\"은 이 AI 회사를 매력적인 구매로 만들었습니다.",
+        "url": "https://www.fool.com/investing/2026/04/25/the-best-artificial-intelligence-ai-growth-stock/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 05:29",
-        "score": 14
+        "publishedAt": "04/26 05:35",
+        "score": 6
       },
       {
-        "title": "S&P 500, 나스닥, 인텔 주가 급등으로 기록 마감",
-        "description": "시장이 최근 실적 보고서에 환호하고 미국과 이란 관료들이 파키스로 향함에 따라 주요 월스트리트 지수는 새로운 기록으로 마감했습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/oil-extends-gains-stocks-sink-025127756.html?.tsrc=rss",
+        "title": "이 3개의 Vanguard Index Fund를 구매하면 향후 5년 동안 S&P 500을 이길 수 있습니다.",
+        "description": "인덱스 펀드로 S&P 500을 능가할 수 있나요? 역사는 당신이 올바른 것을 선택한다면 그렇다고 말합니다.",
+        "url": "https://www.fool.com/investing/2026/04/25/buy-these-3-vanguard-index-funds-to-beat-voo/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 05:27",
-        "score": 11
+        "publishedAt": "04/25 23:27",
+        "score": 6
       },
       {
-        "title": "S&P 500, 나스닥, 기술 분야 최고 기록 마감, 이란 희망",
-        "description": "스토리: 월스트리트의 주요 지수는 금요일에 대부분 상승세로 마감했으며 다우지수는 소폭 하락했고 S&P 500은 8배 상승했습니다.",
-        "url": "https://finance.yahoo.com/video/p-500-nasdaq-notch-record-215040419.html?.tsrc=rss",
+        "title": "다우존스 선물: 이란의 논의 중단; Apple, Amazon, Google 리드 수익 흐름",
+        "description": "주식 시장은 최고 수준이지만 Apple, Amazon, Google 등에 대한 결과와 지출이 핵심이 될 것입니다. 이란 회담이 취소되었습니다.",
+        "url": "https://finance.yahoo.com/m/5adae484-b99f-331c-ba49-f7185d0faf7b/dow-jones-futures%3A-iran-talks.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 06:50",
-        "score": 10
+        "publishedAt": "04/26 03:42",
+        "score": 5
       },
       {
-        "title": "Nasdaq, S&P 500은 기술 랠리 속에서 새로운 최고점에 도달하고 주간 상승세를 기록합니다.",
-        "description": "나스닥 종합지수와 S&P 500 지수는 금요일 기술주가 반등하면서 사상 최고치를 기록했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-reach-peaks-210515063.html?.tsrc=rss",
+        "title": "장기 투자자가 현재 시장 변동성에 대해 어떻게 생각해야 하는지",
+        "description": "변동성은 시장이 작동하는 방식의 일부입니다.",
+        "url": "https://www.fool.com/investing/2026/04/25/how-long-term-investors-should-think-about-market/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 06:05",
-        "score": 10
+        "publishedAt": "04/25 20:05",
+        "score": 4
       }
     ],
     "kr_market": [
       {
-        "title": "코스피, 6470선 약보합 마감…코스닥 25년여 만에 1200선 돌파",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026042449786",
-        "source": "hankyung.com",
-        "publishedAt": "04/24 16:15",
-        "score": 10
+        "title": "AI 칩 급증으로 세계 시장 순위에서 한국과 대만이 영국을 제치고",
+        "description": "Investing.com -- 인공지능 붐으로 인해 대만과 한국이 과거를 초월하면서 글로벌 주식 시장이 대대적으로 개편되고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-surge-pushes-taiwan-031819385.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/25 12:18",
+        "score": 1
       },
       {
-        "title": "코스닥도 반도체 힘…26년 만에 1200 돌파",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026042454751",
-        "source": "hankyung.com",
-        "publishedAt": "04/24 17:45",
-        "score": 5
-      },
-      {
-        "title": "[속보] 코스닥지수, 25년여 만에 1200선 돌파 마감",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026042448437",
-        "source": "hankyung.com",
-        "publishedAt": "04/24 15:34",
-        "score": 5
-      },
-      {
-        "title": "달리던 코스피, 6460선 약보합 '숨고르기'…전력기기株 동반 질주",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026042441766",
-        "source": "hankyung.com",
-        "publishedAt": "04/24 11:24",
-        "score": 5
-      },
-      {
-        "title": "\"AI에 함락당했다\"…종말 고하는 '네이버 지식iN'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026042453671",
-        "source": "hankyung.com",
-        "publishedAt": "04/24 19:00",
-        "score": 3
+        "title": "AI 칩 급증으로 글로벌 주식 순위에서 한국과 대만 상승",
+        "description": "(블룸버그) -- 인공지능 붐은 글로벌 주식시장에 대대적인 개편을 촉발했고, 대만과 한국은 힘겨운 싸움을 벌였습니다.",
+        "url": "https://finance.yahoo.com/news/ai-chip-surge-elevates-taiwan-000000285.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/25 09:00",
+        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "건보료 폭탄 피하려면…소득관리 이렇게 [퇴근길 30초 경제]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026042449617",
-        "source": "hankyung.com",
-        "publishedAt": "04/24 18:14",
-        "score": 1
-      },
-      {
-        "title": "KB금융, 서울창조경제혁신센터 지원",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026042452561",
-        "source": "hankyung.com",
-        "publishedAt": "04/24 17:28",
+        "title": "Nvidia는 이제 두 경제를 제외한 모든 경제보다 더 가치가 있습니다.",
+        "description": "처음 번호를 봤을 때 돌아가서 다시 확인했어요. 금요일에 Nvidia의 주가는 4.3% 상승한 $208.27로 마감하여 회사의 시장 가치를 끌어올렸습니다.",
+        "url": "https://www.thestreet.com/markets/nvidia-is-now-worth-more-than-every-economy-except-two?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/26 03:47",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "DOJ가 파월에 대한 조사를 중단함에 따라 재무부 수익률 하락",
-        "description": "케빈 워시(Kevin Warsh)가 곧 차기 연준의장으로 인준될 가능성이 시장에서 높아짐에 따라 미국 채권 가격은 전반적으로 높아졌습니다.",
-        "url": "https://finance.yahoo.com/m/dcf61228-c5a5-37e5-a635-c538ebe9b9fe/treasury-yields-drop-as-doj.html?.tsrc=rss",
+        "title": "VGIT vs IEI: 금리 노출을 변화시키는 성숙도 차이",
+        "description": "두 펀드 모두 미국 국채만 보유하고 있지만 만기 범위의 차이는 귀하의 투자 포지션에 따라 금리 민감도가 의미 있게 다르다는 것을 의미합니다.",
+        "url": "https://www.fool.com/coverage/etfs/2026/04/25/vgit-vs-iei-the-maturity-gap-that-changes-your-rate-exposure/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 00:01",
-        "score": 8
-      },
-      {
-        "title": "중동 긴장이 고조되면서 재무부 채권 수익률 하락",
-        "description": "중동 지역의 교착 상태가 미국의 주요 정서 데이터보다 앞서면서 국채 수익률이 하락했습니다. 헤그세스 국방장관은 이란 봉쇄를 선언했다.",
-        "url": "https://finance.yahoo.com/m/434f80a7-7862-3599-8bb1-563561c85006/treasury-yields-fall-as.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/24 22:20",
-        "score": 8
-      },
-      {
-        "title": "미국 재무부는 해협 정체가 계속됨에 따라 가장자리 상승, 달러 안정세를 유지했습니다.",
-        "description": "호르무즈해협 재개를 둘러싼 교착상태가 지속되는 가운데 미국 국채수익률이 소폭 상승하고 달러화도 안정세를 보였다.  \"페르시스",
-        "url": "https://finance.yahoo.com/m/ca564442-af56-3e00-85e6-bb1f23d91342/u.s.-treasury-yields-edge-up%2C.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/24 19:30",
-        "score": 8
-      },
-      {
-        "title": "배당금 투자자들이 Viper의 15억 달러 부채 목표를 주목하는 이유",
-        "description": "Viper Energy(NASDAQ:VNOM)는 퍼미안 분지 전역에 걸쳐 광물 및 로열티 지분을 소유하고 있습니다. 즉, 자사에서 펌핑되는 모든 배럴의 일부를 수집한다는 의미입니다.",
-        "url": "https://247wallst.com/investing/2026/04/24/why-dividend-investors-are-watching-vipers-1-5-billion-debt-target/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 03:41",
+        "publishedAt": "04/26 00:23",
         "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "미국 대표단, 이란과 대화 위해 파키스탄으로 향할 예정. 유가는 100달러 이하로 안정.",
-        "description": "미국 대표단이 이란 대표단을 만나기 위해 토요일 파키스탄으로 향했다는 소식이 금요일 오후 유가를 배럴당 100달러 이하로 유지했습니다.",
-        "url": "https://finance.yahoo.com/m/4331769e-77fd-300f-8fce-f642538ff29e/u.s.-delegation-will-head-to.html?.tsrc=rss",
+        "title": "IEA 사무총장, 호르무즈 위기 심화에 '역사상 가장 큰 에너지 안보 위협' 경고: '매일 악화되고 있다'",
+        "description": "국제에너지기구(IEA)의 파티 비롤 사무총장은 세계가 사상 최악의 에너지 안보 위기에 직면해 있다고 경고했다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/iea-chief-warns-biggest-energy-133112427.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 05:08",
-        "score": 5
-      },
-      {
-        "title": "P&G, 유가 상승으로 10억 달러 이익 타격 경고",
-        "description": "스토리: :: Procter & Gamble프록터 앤 갬블(Procter & Gamble)은 금요일 유가 급등으로 인해 다음 회계연도 동안 약 10억 달러의 수익이 타격을 받을 것이라고 경고했습니다.",
-        "url": "https://finance.yahoo.com/video/p-g-warns-1-billion-182717718.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 03:27",
-        "score": 5
-      },
-      {
-        "title": "유가가 계속 상승할 때 레버리지가 낮은 5개 주식에 투자하세요",
-        "description": "엔비디아와 같은 레버리지가 낮은 주식은 유가가 급등하고 변동성이 급등함에 따라 매력을 얻고 지정학적 및 금리 불확실성 속에서도 안정성과 성장을 제공합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bet-5-low-leverage-stocks-182100326.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 03:21",
-        "score": 5
-      },
-      {
-        "title": "NEM의 1분기 수익과 판매는 높은 금 가격에 대한 추정치를 크게 상회합니다.",
-        "description": "Newmont는 급등하는 금 가격이 생산량 감소에도 불구하고 전년 대비 강력한 성장을 주도함에 따라 1분기 수익 및 매출 추정치를 상회했습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/nems-q1-earnings-sales-trounce-162800477.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 01:28",
-        "score": 5
-      },
-      {
-        "title": "유가 충격과 Hess 거래가 성장 전망을 재편하면서 Chevron (CVX) 평가 확인",
-        "description": "최근 중동 분쟁과 이란의 호르무즈 해협 폐쇄로 인해 유가가 급등하면서 쉐브론(CVX)이 주목을 받고 있습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/chevron-cvx-valuation-check-oil-140315510.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/24 23:03",
-        "score": 5
-      }
-    ],
-    "fx": [
-      {
-        "title": "Holcim, 환율 하락에도 불구하고 추정치를 상회하는 8.3%의 EBIT 성장 보고",
-        "description": "지속 가능한 제품 수요와 가격 상승은 회사가 최대 10%의 이익 성장 전망을 유지하면서 날씨와 외환 역풍을 상쇄합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/holcim-reports-8-3-ebit-172822141.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 02:28",
+        "publishedAt": "04/25 22:31",
         "score": 3
       },
       {
-        "title": "Fiskars Oyj (FKRAF) 2026년 1분기 실적 발표 하이라이트: 환율 문제 탐색 및 ...",
-        "description": "Fiskars Oyj(FKRAF)는 통화 역풍과 재고 문제에도 불구하고 순매출과 지속 가능성 성과가 증가했다고 보고합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/fiskars-oyj-fkraf-q1-2026-070214097.html?.tsrc=rss",
+        "title": "호르무즈 해협 분쟁 지속으로 미국의 에너지 수출이 사상 최고치를 기록했습니다.",
+        "description": "Investing.com -- 중동에서 계속되는 분쟁으로 인해 국제적인 협력을 통해 미국은 글로벌 에너지 수출 강국으로서의 입지를 굳혔습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/u-energy-exports-hit-record-023414564.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/24 16:02",
+        "publishedAt": "04/25 11:34",
         "score": 3
       },
       {
-        "title": "미국은 오일 쇼크가 현금을 압박함에 따라 걸프 지역의 달러 생명선을 주시하고 있습니다.",
-        "description": "스콧 베센트 재무장관은 탈달러화에 대응하기 위해 걸프만과 아시아 동맹국으로 미국 달러 스와프 라인을 확대하는 것을 옹호합니다.",
-        "url": "https://beincrypto.com/us-dollar-swap-lines-gulf-asia-oil-crisis/?.tsrc=rss",
+        "title": "나이지리아가 순수 연료 수출국이 되면서 Dangote는 전속력으로 활동하고 있습니다.",
+        "description": "나이지리아는 하루 650,000b/d에 가까운 Dangote 정유소를 운영하면서 3월 휘발유 순 수출국으로 전환했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/dangote-full-throttle-nigeria-becomes-210000813.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 06:11",
+        "publishedAt": "04/26 06:00",
         "score": 1
       },
       {
-        "title": "USD/CAD 범위 제한 쌍이 최근 범위를 유지하고 있다고 RBC는 말합니다.",
-        "description": "RBC Capital Markets은 USD/CAD가 이번 주 D로 인해 단기적으로 범위를 유지할 가능성이 높다고 말했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/usd-cad-range-bound-pair-194608014.html?.tsrc=rss",
+        "title": "10억 배럴의 호르무즈 오일 쇼크로 수요가 급락할 예정",
+        "description": "(블룸버그) -- 호르무즈 해협의 석유 파동은 부유한 세계가 주식을 빌려 공급을 확보하기 위해 비용을 지불함에 따라 아직 수요를 급락시키지 않았습니다. 상인",
+        "url": "https://finance.yahoo.com/news/hormuz-billion-barrel-oil-shock-113000076.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 04:46",
+        "publishedAt": "04/25 23:00",
         "score": 1
       },
       {
-        "title": "Palantir는 미국 식량 공급을 보호하는 것을 목표로 합니다. PLTR 주식에 3억 달러 규모의 USDA 거래가 중요합니까?",
-        "description": "Palantir는 미국의 식량 공급을 확보하기 위해 USDA 3억 달러 규모의 계약을 체결했습니다. PLTR 주식과 회사 정부에 대한 계약의 의미는 다음과 같습니다.",
-        "url": "https://www.barchart.com/story/news/1502651/palantir-aims-to-protect-the-u-s-food-supply-is-its-300m-usda-deal-important-for-pltr-stock?.tsrc=rss",
+        "title": "영국항공, 연료 위기로 인한 가격 인상 경고 - 공항이 항공편 취소에 대한 규정을 완화함에 따라",
+        "description": "영국항공(British Airways) 소유주는 이란 전쟁으로 호르무즈 해협이 폐쇄되면서 항공권 가격이 급등하면서 항공권 가격이 인상될 것이라고 경고했다.",
+        "url": "https://uk.finance.yahoo.com/news/british-airways-warns-flight-price-220500940.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/24 23:56",
+        "publishedAt": "04/25 07:05",
         "score": 1
       }
     ],
+    "fx": [],
     "geopolitics": [
       {
-        "title": "워렌 버핏은 자신의 최대 보유 지분 75%를 조용히 매각했습니다. 이곳은 돈이 들어간 곳입니다.",
-        "description": "오마하의 오라클은 애플을 팔고 Chubb를 샀습니다.",
-        "url": "https://www.fool.com/investing/2026/04/24/warren-buffett-quietly-sold-his-biggest-holding/?.tsrc=rss",
+        "title": "호르무즈 해협 분쟁 지속으로 미국의 에너지 수출이 사상 최고치를 기록했습니다.",
+        "description": "Investing.com -- 중동에서 계속되는 분쟁으로 인해 국제적인 협력을 통해 미국은 글로벌 에너지 수출 강국으로서의 입지를 굳혔습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/u-energy-exports-hit-record-023414564.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 05:50",
+        "publishedAt": "04/25 11:34",
+        "score": 6
+      },
+      {
+        "title": "호르무즈 해협은 석유뿐만 아니라 비트코인도 질식시키고 있다. 하지만 문제가 있어요",
+        "description": "호르무즈 해협은 폭이 21해리밖에 되지 않지만 페르시아만과 세계 시장을 연결하는 중요한 동맥입니다. 진행중인",
+        "url": "https://www.thestreet.com/crypto/markets/strait-of-hormuz-is-choking-bitcoin-not-just-oil-but-theres-a-catch?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/25 22:49",
+        "score": 5
+      },
+      {
+        "title": "APA Corporation (APA) 주식 거래가 하락한 이유는 다음과 같습니다.",
+        "description": "석유 및 가스 생산업체인 APA Corporation(NASDAQ:APA)의 주가는 원유 가격 하락이 에너지에 부담을 주면서 오후 세션에서 2.9% 하락했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/apa-corporation-apa-stock-trades-171723933.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/26 02:17",
         "score": 1
       },
       {
-        "title": "이란 전쟁에서 '이동'한 후 시장이 안주할 위험에 처해 있습니까?",
-        "description": "나스닥 종합지수(^IXIC)는 S&P 500(^GSPC)과 함께 금요일 상승세에서 미국 주식을 이끌었고 다우존스 산업평균지수(^DJI)는 tr을 마감했습니다.",
-        "url": "https://finance.yahoo.com/video/are-markets-at-risk-of-complacency-after-moving-on-from-iran-war-202406484.html?.tsrc=rss",
+        "title": "골드만삭스는 걸프 석유 생산량이 전쟁 전 수준보다 57% 급락했다고 밝혔습니다.",
+        "description": "Goldman Sachs에 따르면 걸프 지역의 원유 생산량은 하루 약 1,450만 배럴 감소했습니다. 이는 분쟁 전 수준보다 약 57% 감소한 수치입니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/27263/gulf-oil-output-slumps-57-from-pre-war-levels-goldman-says?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 05:24",
+        "publishedAt": "04/26 00:55",
         "score": 1
       },
       {
-        "title": "TSX 클로저: 중동 전쟁이 그림자를 드리우면서 지수가 두 번째 연속 세션 동안 완만하게 하락했습니다.",
-        "description": "토론토 증권 거래소는 금요일 BMO의 Doug와 함께 두 번째 연속 세션에서 소폭 하락세를 기록했습니다.",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-down-modestly-202038639.html?.tsrc=rss",
+        "title": "IEA 사무총장, 호르무즈 위기 심화에 '역사상 가장 큰 에너지 안보 위협' 경고: '매일 악화되고 있다'",
+        "description": "국제에너지기구(IEA)의 파티 비롤 사무총장은 세계가 사상 최악의 에너지 안보 위기에 직면해 있다고 경고했다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/iea-chief-warns-biggest-energy-133112427.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 05:20",
-        "score": 1
-      },
-      {
-        "title": "P&G, 유가 상승으로 10억 달러 이익 타격 경고",
-        "description": "스토리: :: Procter & Gamble프록터 앤 갬블(Procter & Gamble)은 금요일 유가 급등으로 인해 다음 회계연도 동안 약 10억 달러의 수익이 타격을 받을 것이라고 경고했습니다.",
-        "url": "https://finance.yahoo.com/video/p-g-warns-1-billion-182717718.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 03:27",
-        "score": 1
-      },
-      {
-        "title": "전쟁에 대해 걱정하지 마세요. '큰 돈' 투자자들이 낙관적인 이유와 현재 어디에 투자하고 있는지.",
-        "description": "최근 Big Money 여론 조사에서 전문 투자자들은 소형주, 국제 주식 및 에너지 부문에서 매력적인 상승세를 보였습니다. 다음과 같은 영향을 평가합니다.",
-        "url": "https://finance.yahoo.com/m/accaddc5-68ee-355a-9736-c890b30800a6/don%E2%80%99t-fret-the-war.-why-%E2%80%98big.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 01:50",
+        "publishedAt": "04/25 22:31",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "오늘 4월 24일 주식 시장: AI 칩 수요 급증으로 Nvidia 급증",
-        "description": "2026년 4월 24일, 투자자들은 이 시장 거물급을 중심으로 치솟는 AI 칩 수요, 업계 전반의 반등, 높은 성장 희망에 무게를 두었습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/24/stock-market-today-april-24-nvidia-surges-on-soaring-ai-chip-demand/?.tsrc=rss",
+        "title": "AI 칩 급증으로 세계 시장 순위에서 한국과 대만이 영국을 제치고",
+        "description": "Investing.com -- 인공지능 붐으로 인해 대만과 한국이 과거를 초월하면서 글로벌 주식 시장이 대대적으로 개편되고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-surge-pushes-taiwan-031819385.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 06:21",
-        "score": 10
-      },
-      {
-        "title": "Intel, Nvidia, AMD, Organon, Charter, X-Energy, Newmont, Meta 등의 주식이 오늘날의 주가입니다.",
-        "description": "인텔은 칩 제조업체가 탄탄한 1분기 실적을 발표한 후 급등하여 업계 동료들의 주가도 상승했습니다.",
-        "url": "https://finance.yahoo.com/m/2b5dfae5-359b-3078-aaae-945a1c32f81b/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 05:26",
-        "score": 9
-      },
-      {
-        "title": "[마켓칼럼] AI 투자 아이디어는 왜 전력반도체와 CPU까지 확산되나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202604245000i",
-        "source": "hankyung.com",
-        "publishedAt": "04/24 16:00",
-        "score": 9
-      },
-      {
-        "title": "NVIDIA 및 Palantir를 능가하는 AI 주식 - 왜 더 나은 구매인가",
-        "description": "Micron의 AI 메모리 급증, 가격 결정력 및 낮은 가치 평가 문제로 인해 수요와 마진이 가속화됨에 따라 MU가 눈에 띄는 선택이 되었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/one-ai-stock-outpacing-nvidia-190000808.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "04/25 04:00",
+        "publishedAt": "04/25 12:18",
         "score": 7
       },
       {
-        "title": "TSMC, NVIDIA 및 Google과 Cadence의 확장된 AI 제휴로 Cadence Design Systems(CDNS)에 대한 투자 사례가 바뀔 수 있음",
-        "description": "2026년 4월, Cadence Design Systems는 TSMC와의 장기적인 협력을 확대하고 NVIDIA 및 Google과의 제휴를 심화하여 에이전트를 출시했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cadence-expanded-ai-alliances-tsmc-180745245.html?.tsrc=rss",
+        "title": "AI 칩 급증으로 글로벌 주식 순위에서 한국과 대만 상승",
+        "description": "(블룸버그) -- 인공지능 붐은 글로벌 주식시장에 대대적인 개편을 촉발했고, 대만과 한국은 힘겨운 싸움을 벌였습니다.",
+        "url": "https://finance.yahoo.com/news/ai-chip-surge-elevates-taiwan-000000285.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "04/25 03:07",
+        "publishedAt": "04/25 09:00",
         "score": 7
+      },
+      {
+        "title": "SpaceX는 1조 7500억 달러의 가치로 상장됩니다. 구매하기 전에 구매해야 할 주식 1개가 있습니다.",
+        "description": "공식적으로는 SpaceX가 올 여름 IPO를 계획하고 있다는 것입니다.",
+        "url": "https://www.fool.com/investing/2026/04/25/spacex-is-going-public-at-a-175-trillion-valuation/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/26 05:25",
+        "score": 6
+      },
+      {
+        "title": "Nvidia, Palantir, Super Micro Computer: 고공행진하는 주식은 곧 정체될 수 있음",
+        "description": "어떤 주식이 하락할 것인지 정확히 찾아내는 것은 쉽지 않지만, 주가가 급등한 몇몇 회사가 역전될 것이라는 증거가 늘어나고 있습니다.",
+        "url": "https://qz.com/nvidia-palantir-super-micro-computer-stock-analysts?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/26 02:30",
+        "score": 6
+      },
+      {
+        "title": "Amazon과 Anthropic의 파트너십은 계속해서 심화되고 있습니다. 이것이 아마존 주식에 필요한 촉매제입니까?",
+        "description": "전자 상거래 및 클라우드 컴퓨팅 거대 기업이 최근 Anthropic에 250억 달러를 투자할 계획은 인공 지능에 대한 공격적인 추진을 포착합니다.",
+        "url": "https://www.fool.com/investing/2026/04/25/amazons-partnership-with-anthropic-keeps-deepening/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "04/26 04:37",
+        "score": 5
       }
     ]
   }
