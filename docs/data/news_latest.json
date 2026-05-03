@@ -1,212 +1,237 @@
 {
-  "generated_at_kst": "2026-05-03 08:08 KST",
-  "period": "05/02 07:00 ~ 05/03 07:00 KST",
+  "generated_at_kst": "2026-05-04 08:09 KST",
+  "period": "05/03 07:00 ~ 05/04 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "다우존스 선물: 주식시장은 강세장 이후 최고치를 기록; Apple, Broadcom 구매 영역",
-        "description": "주식시장은 잠시 멈췄다가 지난주 후반 반등했습니다. S&P 500과 Nasdaq은 최고점에 있고 Apple과 Broadcom은 매수 영역에 있습니다.",
-        "url": "https://finance.yahoo.com/m/cfdf164e-e24a-366b-9d8b-b0274f05ba94/dow-jones-futures%3A-stock.html?.tsrc=rss",
+        "title": "S&P 500이 Apple의 1000억 달러 자사주 매입으로 신기록을 세운 후 비트코인을 주식으로 버려야 할까요?",
+        "description": "돈을 어디에 투자할지에 관해 암호화폐와 주식 중 하나를 선택하는 것은 항상 투자에서 가장 어려운 일 중 하나였습니다. 한쪽은 준다",
+        "url": "https://247wallst.com/investing/2026/05/03/should-you-dump-bitcoin-for-stocks-after-the-sp-500-hit-a-new-record-on-apples-100-billion-buyback/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 02:53",
+        "publishedAt": "05/04 02:59",
         "score": 9
       },
       {
-        "title": "Goldman Sachs는 S&P 500이 7,100을 넘어서는 것은 '거품'이라고 말했습니다. 이전에 월스트리트가 그렇게 말한 적이 있었는데, 폭락이 뒤따랐습니다.",
-        "description": "투자자가 FOMO가 구매를 안내할 수 있도록 허용하므로 가격이 가치를 능가할 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-says-p-500s-194500078.html?.tsrc=rss",
+        "title": "이 천연자원 ETF는 연초 대비 S&P 500 지수를 조용히 능가하는 동시에 5% 수익률을 기록했습니다.",
+        "description": "Amplify Natural Resources Dividend Income ETF(NYSEARCA:NDIV)는 성과 순위표에 거의 나타나지 않지만 조용히 나타나는 펀드 중 하나입니다.",
+        "url": "https://247wallst.com/investing/2026/05/03/this-natural-resources-etf-has-silently-outperformed-the-sp-500-year-to-date-while-yielding-5/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 04:45",
-        "score": 8
+        "publishedAt": "05/04 05:05",
+        "score": 5
       },
       {
-        "title": "Elon Musk의 SpaceX는 제안된 규칙 변경에 따라 IPO 후 S&P 500에 빠르게 진입할 수 있습니다.",
-        "description": "S&P 글로벌 다우존스 지수가 관리하는 S&P 500 지수는 목요일 잠재적으로 도움이 될 수 있는 규칙 변경에 대한 협의를 시작했다고 발표했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-spacex-could-fast-180121306.html?.tsrc=rss",
+        "title": "Envista Holdings Corp.(NVST), 시장 점유율 상승이 가속화되면서 수익이 앞지르며 뛰어올랐습니다.",
+        "description": "투자 관리 회사인 Ariel Investments는 \"Ariel Fund\" 2026년 1분기 투자자 서한을 발표했습니다. 편지 사본은 여기에서 다운로드할 수 있습니다. 티",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/envista-holdings-corp-nvst-jumps-162030237.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 03:01",
-        "score": 8
+        "publishedAt": "05/04 01:20",
+        "score": 5
       },
       {
-        "title": "시장이 붕괴되면 상황이 진정되기 전에 이 3개 주식을 매수하겠습니다.",
-        "description": "기회의 창은 대개 오랫동안 열려 있지 않습니다. 제때에 조치를 취하려면 미리 계획을 세우는 것이 좋습니다.",
-        "url": "https://www.fool.com/investing/2026/05/02/if-the-market-crashes-im-buying-these-3-stocks-bef/?.tsrc=rss",
+        "title": "SMH는 10년 동안 S&P 500을 2,041%나 압도했지만 최근 42% 상승은 위험한 가치 평가를 나타냅니다.",
+        "description": "반도체처럼 인내심을 보상해 주는 부문 ETF는 거의 없습니다. VanEck Semiconductor ETF(NYSEARCA:SMH)는 약 141%의 수익률을 올린 후 약 510달러에 거래됩니다.",
+        "url": "https://247wallst.com/investing/2026/05/03/smh-has-crushed-the-sp-500-by-2041-over-a-decade-but-recent-42-rally-signals-dangerous-valuations/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 01:35",
-        "score": 6
+        "publishedAt": "05/03 19:15",
+        "score": 5
       },
       {
-        "title": "전망이 좋은 S&P 500 주식 2개와 우리가 피하는 주식 1개",
-        "description": "S&P 500(^GSPC)은 종종 강력한 기업의 벤치마크로 간주되지만 이것이 모든 주식을 소유할 가치가 있다는 의미는 아닙니다. 일부 회사는 시그니피(signifi)에 직면해 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-promising-142855379.html?.tsrc=rss",
+        "title": "월스트리트는 이 두 AI 주식이 20% 이상 하락할 수 있다고 말했습니다. 판매할 시간인가?",
+        "description": "분석가들은 이 두 AI 주식에 대해 약세를 보이고 있습니다. 그 말이 맞나요?",
+        "url": "https://www.fool.com/investing/2026/05/03/wall-street-ai-stocks-fall-time-sell-nvts-mrvl/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/02 23:28",
-        "score": 6
+        "publishedAt": "05/04 03:22",
+        "score": 4
       }
     ],
     "kr_market": [
       {
-        "title": "메모리 슈퍼사이클이 다시 시작되고 있으며 삼성과 SK 하이닉스가 가장 큰 토크를 가진 주식일 수 있습니다.",
-        "description": "메모리반도체 제조사들은 폭발적인 상승세 이후 진입하는 순환적이고 위험했습니다. 하지만 이번에 AI를 사용하면 상황이 달라집니다.",
-        "url": "https://247wallst.com/investing/2026/05/01/the-memory-supercycle-is-back-in-motion-and-samsung-and-sk-hynix-may-be-the-stocks-with-the-most-torque/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/02 08:02",
+        "title": "동영상 시장 커지는데…네이버·카카오만 '역주행'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050328331",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 17:11",
+        "score": 6
+      },
+      {
+        "title": "\"코스피 200 ETF로 절반 채우고…반도체·美 담아라\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202604309180i",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 17:00",
         "score": 5
+      },
+      {
+        "title": "코스피, 단기 급등 후 '숨 고르기' 들어갈까…\"순환매 유효\" [주간전망]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050216956",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 08:00",
+        "score": 5
+      },
+      {
+        "title": "현대차그룹, 美서 '최고의 하이브리드·전기차' 7관왕",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050329301",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 17:34",
+        "score": 3
+      },
+      {
+        "title": "\"당뇨 있는 할머니와 뭐 먹죠?\"…네이버 열었더니 '깜짝'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202604309329g",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 16:01",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "경기 침체 수준의 정서에도 불구하고 미국 지출이 급증함에 따라 Amazon과 Tesla는 FDIS의 1/3을 주도합니다.",
-        "description": "임의 소비재 이름은 가구가 지갑을 여는 것이 편안하다고 느끼는지에 따라 생사를 결정하며 현재 이러한 신호가 opp에서 깜박이고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/05/02/amazon-and-tesla-drive-one-third-of-fdis-as-u-s-spending-surges-despite-recession-level-sentiment/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/02 23:56",
-        "score": 5
-      },
-      {
-        "title": "COP Q1 심층 분석: 거시적 변동성과 프로젝트 마일스톤이 전망을 형성합니다.",
-        "description": "석유 및 가스 생산업체인 ConocoPhillips(NYSE:COP)는 2026년 1분기 실적이 시장 매출 기대치를 초과했다고 보고했지만 매출은 전년 동기 대비 6.1% 감소했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/cop-q1-deep-dive-macro-123655248.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/02 21:36",
+        "title": "현대경제연구원, 韓 성장률 2.7%로 상향…반도체·추경 효과",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050326617",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 14:51",
         "score": 1
       }
     ],
-    "bonds": [],
+    "bonds": [
+      {
+        "title": "베센트 재무장관은 올해 말 에너지 가격이 하락할 것이라고 밝혔습니다.",
+        "description": "Investing.com -- 스콧 베센트 미국 재무장관은 일요일, 현재의 상승에도 불구하고 에너지 가격이 올해 후반에 하락할 것으로 예상된다고 밝혔습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/energy-prices-fall-later-says-152044734.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/04 00:20",
+        "score": 3
+      }
+    ],
     "commodities": [
       {
-        "title": "유가가 다시 100달러를 넘었습니다. 에너지 투자자가 다음에 해야 할 일은 다음과 같습니다.",
-        "description": "유가는 특히 북미 지역에서 해당 부문의 이익을 창출할 것입니다.",
-        "url": "https://www.fool.com/investing/2026/05/02/oil-price-crossed-100-energy-investors-stock/?.tsrc=rss",
+        "title": "내가 여전히 에너지 전송 LP를 건드리지 않는 이유는 다음과 같습니다. 6.9%의 수익률에도 불구하고",
+        "description": "높은 수익률은 종종 더 높은 위험을 의미하며, 이것도 예외는 아닙니다. 기본 비즈니스는 여전히 지속적인 투자와 규율 있는 실행에 달려 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/03/heres-why-i-still-wouldnt-touch-energy-transfer-lp/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 03:08",
-        "score": 8
-      },
-      {
-        "title": "쉐브론의 1분기 생산량은 유가와 함께 급증했지만 이익은 감소했다. 석유 재고는 어떻게 되었나요?",
-        "description": "Chevron은 1분기에 전쟁으로 인한 역풍에 직면했습니다.",
-        "url": "https://www.fool.com/investing/2026/05/02/chevrons-production-soared-along-with-oil-prices-i/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/03 02:25",
-        "score": 5
-      },
-      {
-        "title": "1분기에 유가가 폭등하는 동안 ExxonMobil의 이익은 감소했습니다. 일어난 일은 다음과 같습니다.",
-        "description": "엑슨은 1쿼터에 몇 가지 역풍에 직면했다.",
-        "url": "https://www.fool.com/investing/2026/05/02/while-oil-prices-skyrocketed-in-the-first-quarter/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/02 22:20",
-        "score": 5
-      },
-      {
-        "title": "더 나은 석유 재고: Diamondback Energy vs. Chevron",
-        "description": "Diamondback Energy는 2026년에 Chevron보다 더 많이 상승했지만 투자자들은 유가가 하락할 때 어떤 일이 일어나는지 고려하고 싶을 수도 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/02/better-oil-stock-diamondback-energy-vs-chevron/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/03 06:35",
+        "publishedAt": "05/04 04:25",
         "score": 3
       },
       {
-        "title": "에너지 전환은 죽지 않았습니다. 이 3가지 재생 가능 에너지는 수십 년 동안 지속됩니다.",
-        "description": "세계는 석유에 초점을 맞추고 있지만 더 깨끗한 대안을 향한 지속적인 변화를 잊지 마십시오.",
-        "url": "https://www.fool.com/investing/2026/05/02/the-energy-transition-isnt-dead-these-3-renewable/?.tsrc=rss",
+        "title": "베센트 재무장관은 올해 말 에너지 가격이 하락할 것이라고 밝혔습니다.",
+        "description": "Investing.com -- 스콧 베센트 미국 재무장관은 일요일, 현재의 상승에도 불구하고 에너지 가격이 올해 후반에 하락할 것으로 예상된다고 밝혔습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/energy-prices-fall-later-says-152044734.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 02:35",
+        "publishedAt": "05/04 00:20",
         "score": 3
+      },
+      {
+        "title": "이것은 에너지 부문에서 가장 인기 있는 주식입니다. 투자해야 할까요?",
+        "description": "Baker Hughes의 주가는 1분기 매출 및 수익 추정치를 상회한 후 지난 주 급등했습니다.",
+        "url": "https://www.fool.com/investing/2026/05/03/this-is-the-hottest-stock-in-the-energy-sector/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/03 23:20",
+        "score": 3
+      },
+      {
+        "title": "[풍산 분석] “구리는 웃고 방산은 주춤”…매각 이슈 지속 체크해야",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605033027i",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 18:40",
+        "score": 3
+      },
+      {
+        "title": "Par Pacific, 재생 가능 연료 성장과 원유 공급 위험 변화의 균형 유지",
+        "description": "Par Pacific Holdings(NYSE:PARR)는 Hawaii Renewables가 운영을 확대함에 따라 재생 가능 연료 부문을 확장하고 있습니다. 회사도 이익을 본다",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/par-pacific-balances-renewable-fuels-210709478.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/04 06:07",
+        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "암호화폐는 '부적절'합니까? 비트코인이 달러를 대체하는 것이 '웃기다'고 말하는 사람은 다음과 같습니다.",
-        "description": "베어드 시장 전략가 마이클 안토넬리(Michael Antonelli)는 이번 주에 암호화폐가 “부적절하다”고 선언하면서 피터 쉬프(Peter Schiff), 마이클 버리(Michael Burry), 마이크 맥글론(Mike McGlone)과 함께 성장하는 암호화폐 시장에 합류했습니다.",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-irrelevant-heres-says-bitcoin-013121387.html?.tsrc=rss",
+        "title": "6000억 규모 불법 외환거래 적발",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050329481",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 18:11",
+        "score": 3
+      },
+      {
+        "title": "Dollar Tree는 뉴잉글랜드 유일의 NASCAR 컵 시리즈 경주의 자격 후원자로 선정되었습니다.",
+        "description": "Speedway Motorsports와 Dollar Tree 관계자는 오늘 이 가치 소매업체가 NASCAR 컵 시리즈(NCS)의 자격 스폰서로 선정되었다고 발표했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-named-entitlement-sponsor-183000049.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/02 10:31",
+        "publishedAt": "05/04 03:30",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Jensen Huang은 일부 CEO들이 AI 종말 경고와 관련하여 '신 콤플렉스'를 갖고 있다고 말하며 이로 인해 핵심 인력이 부족해질 수 있습니다.",
-        "description": "\"따라서 우리는 이 기술의 중요성과 그것이 무엇을 할 수 있는지를 어떻게 전달하는지 염두에 두어야 합니다.\"",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/jensen-huang-says-ceos-god-164658935.html?.tsrc=rss",
+        "title": "AI Capex Boom은 암호화폐가 아닌 반도체로 가장 인기 있는 ETF 거래를 유도합니다.",
+        "description": "2026년 가장 인기 있는 ETF 거래에서 AI 투자 슈퍼사이클이 암호화폐 펀드를 능가함에 따라 소매 자금이 반도체 ETF에 쏟아집니다.",
+        "url": "https://beincrypto.com/ai-capex-semiconductor-etfs-not-crypto/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 01:46",
+        "publishedAt": "05/04 04:30",
         "score": 1
       },
       {
-        "title": "이란 전쟁 격차: 월스트리트 매각은 CEO들이 투자하는 것보다 더 빠르다",
-        "description": "엑슨모빌과 쉐브론의 거물들의 말을 들어보면, 이란 전쟁이 끝난다고 해서 휘발유 가격은 물론 유가가 즉각적으로 큰 하락을 가져오지는 않을 것입니다.",
-        "url": "https://www.thestreet.com/economy/iran-war-reveals-major-gap-in-wall-street-thinking?.tsrc=rss",
+        "title": "주식이 최고치를 회복함에 따라 트레이더들은 양면 꼬리 위험에 맞서 싸우고 있습니다.",
+        "description": "(블룸버그) -- 이란 오일쇼크 이후 V자형 회복 이후 주가가 다시 최고점으로 돌아오면서 투자자들은 점점 좌파와 좌파 사이에 끼어들고 있습니다.",
+        "url": "https://finance.yahoo.com/news/traders-grapple-two-sided-tail-140000302.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 01:17",
+        "publishedAt": "05/03 23:00",
         "score": 1
       },
       {
-        "title": "스피릿 항공(Spirit Airlines) 폐쇄, 업계 최초 이란 전쟁 사상자 발생",
-        "description": "이야기: 파산한 할인 항공사 Spirit Airlines는 미국 정부 구제 계획에 대한 채권자 지원을 확보하지 못한 후 운영을 중단했습니다.::",
-        "url": "https://finance.yahoo.com/video/spirit-airlines-shuts-down-industrys-155327653.html?.tsrc=rss",
+        "title": "AI 붐과 석유 수출이 전쟁 위험을 상쇄하면서 신흥 시장이 사상 최고치를 기록했습니다.",
+        "description": "Investing.com -- 신흥 시장 주식은 현재 MSCI 신흥 시장 지수를 통해 갈등으로 인한 경기 침체에 대한 기대치를 뛰어넘고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/emerging-markets-hit-record-highs-073029346.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 00:53",
-        "score": 1
-      },
-      {
-        "title": "워렌 버핏이 투자자들에게 준 이별 선물이 6개월 만에 시장을 압도하고 있다",
-        "description": "거의 60년 동안 투자자들은 워렌 버핏이라는 하나의 벤치마크를 기준으로 자신을 측정해 왔습니다. Berkshire Hathaway(NYSE:BRK-A)를 인수한 이후",
-        "url": "https://247wallst.com/investing/2026/05/02/warren-buffetts-parting-gift-to-investors-is-crushing-the-market-6-months-later/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/02 22:46",
-        "score": 1
-      },
-      {
-        "title": "올해의 아시아계 미국인 엔지니어 상 및 컨퍼런스에서 2025~2026년 수상자 첫 번째 단계 발표",
-        "description": "AAEOY(Asian American Engineer of the Year Award) 집행 위원회는 AAEOY 2025-2026 1단계 수상자를 다음과 같이 발표합니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/asian-american-engineer-award-conference-012000386.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/02 10:20",
+        "publishedAt": "05/03 16:30",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "투자자는 OpenAI에 무슨 일이 일어나든 관계없이 이 3개 OpenAI 파트너의 주식을 구매해야 합니다.",
-        "description": "Amazon, CoreWeave 및 Oracle은 OpenAI의 거래 유무에 관계없이 성공할 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/02/investors-should-buy-the-stocks-of-these-3-openai/?.tsrc=rss",
+        "title": "이것은 내가 가장 좋아하는 AI 칩 주식입니다(단연코). 이는 Nvidia, Intel 또는 Broadcom이 아닙니다.",
+        "description": "세계에서 가장 잘 알려진 거대 기술 기업 중 하나가 반도체 업계의 거대 기업과 맞먹을 만큼 큰 규모의 칩 사업을 조용히 구축하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/03/this-is-my-favorite-chip-stock-by-far-and-its-not/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 04:05",
-        "score": 6
+        "publishedAt": "05/04 04:27",
+        "score": 13
       },
       {
-        "title": "Elon Musk의 SpaceX는 제안된 규칙 변경에 따라 IPO 후 S&P 500에 빠르게 진입할 수 있습니다.",
-        "description": "S&P 글로벌 다우존스 지수가 관리하는 S&P 500 지수는 목요일 잠재적으로 도움이 될 수 있는 규칙 변경에 대한 협의를 시작했다고 발표했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-spacex-could-fast-180121306.html?.tsrc=rss",
+        "title": "Intel CEO Lip-Bu Tan은 Nvidia가 지원하는 '내결함성' 양자 컴퓨팅 회사에서 새로운 역할을 맡았습니다.",
+        "description": "Intel Corporation의 CEO인 Lip-Bu Tan이 현재 가치가 평가되는 양자 컴퓨팅 회사인 PsiQuantum의 이사회 구성원으로 새로운 역할을 맡았습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/intel-ceo-lip-bu-tan-193020702.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 03:01",
-        "score": 6
+        "publishedAt": "05/04 04:30",
+        "score": 11
       },
       {
-        "title": "Hudbay Minerals Inc(HBM) 2026년 1분기 실적 발표 하이라이트: 기록적인 수익 및 전략적 ...",
-        "description": "Hudbay Minerals Inc(HBM)는 기록적인 재무 성과를 보고하고 외부 과제에 따른 전략적 이니셔티브를 설명합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hudbay-minerals-inc-hbm-q1-070434327.html?.tsrc=rss",
+        "title": "Gorilla Technology Group(GRRR)은 대규모 인도 GPU 거래 및 Astrikos.AI 투자 이후 17.9% 상승했습니다.",
+        "description": "Gorilla Technology Group은 최근 인도의 Yotta Data Services와의 AI 인프라 협력을 확장하여 20,736개의 추가 배포를 지원했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/gorilla-technology-group-grrr-17-180552744.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/02 16:04",
-        "score": 5
+        "publishedAt": "05/04 03:05",
+        "score": 10
       },
       {
-        "title": "TSMC, AI 파트너십을 두 배로 늘리면서 높은 NA EUV 지연",
-        "description": "TSMC(NYSE:TSM)는 ASML의 높은 개구수 EUV 리소그래피 기계의 배포를 몇 년 동안 연기하기로 결정했습니다. 회사는 계속 유지할 계획이다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-delays-high-na-euv-161207420.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/03 01:12",
-        "score": 4
+        "title": "메타, 휴머노이드 스타트업 품고 인간형 로봇 AI 경쟁 가세",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050321157",
+        "source": "hankyung.com",
+        "publishedAt": "05/03 07:04",
+        "score": 9
       },
       {
-        "title": "AI가 메모리를 금광으로 바꾸면서 Micron과 Nvidia의 충격적인 유사성",
-        "description": "Nvidia(NASDAQ:NVDA)는 강력한 GPU로 AI 열풍의 첫 번째 물결을 주도했습니다. 데이터 센터가 칩을 확보하기 위해 경쟁하면서 투자자들이 몰려들었습니다.",
-        "url": "https://247wallst.com/investing/2026/05/02/the-shocking-similarity-between-micron-and-nvidia-as-ai-turns-memory-into-a-goldmine/?.tsrc=rss",
+        "title": "예측: 이는 내년에 가장 성과가 좋은 인공 지능(AI) 반도체 주식이 될 것입니다. (힌트: Nvidia, Broadcom 또는 Micron이 아닙니다.)",
+        "description": "AI 칩 주식은 올해에도 기술 투자자들에게 가장 큰 승자 중 하나입니다.",
+        "url": "https://www.fool.com/investing/2026/05/03/prediction-this-will-be-the-top-performing-artific/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/02 23:51",
-        "score": 4
+        "publishedAt": "05/04 05:31",
+        "score": 8
       }
     ]
   }
