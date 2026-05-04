@@ -1,236 +1,283 @@
 {
-  "generated_at_kst": "2026-05-04 08:09 KST",
-  "period": "05/03 07:00 ~ 05/04 07:00 KST",
+  "generated_at_kst": "2026-05-05 08:26 KST",
+  "period": "05/04 07:00 ~ 05/05 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "S&P 500이 Apple의 1000억 달러 자사주 매입으로 신기록을 세운 후 비트코인을 주식으로 버려야 할까요?",
-        "description": "돈을 어디에 투자할지에 관해 암호화폐와 주식 중 하나를 선택하는 것은 항상 투자에서 가장 어려운 일 중 하나였습니다. 한쪽은 준다",
-        "url": "https://247wallst.com/investing/2026/05/03/should-you-dump-bitcoin-for-stocks-after-the-sp-500-hit-a-new-record-on-apples-100-billion-buyback/?.tsrc=rss",
+        "title": "S&P 500, 나스닥이 기록에서 후퇴, 미국-이란 긴장이 다시 고조되는 가운데 유가 상승",
+        "description": "S&P 500과 나스닥은 Midd의 하락 조짐 속에 유가가 급등하면서 사상 최고치에서 후퇴했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-retreat-record-204438005.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 02:59",
-        "score": 9
+        "publishedAt": "05/05 05:44",
+        "score": 10
       },
       {
-        "title": "이 천연자원 ETF는 연초 대비 S&P 500 지수를 조용히 능가하는 동시에 5% 수익률을 기록했습니다.",
-        "description": "Amplify Natural Resources Dividend Income ETF(NYSEARCA:NDIV)는 성과 순위표에 거의 나타나지 않지만 조용히 나타나는 펀드 중 하나입니다.",
-        "url": "https://247wallst.com/investing/2026/05/03/this-natural-resources-etf-has-silently-outperformed-the-sp-500-year-to-date-while-yielding-5/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/04 05:05",
-        "score": 5
+        "title": "뉴욕증시, 호르무즈 위기감에 하락 출발후 상승 시도",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605045811i",
+        "source": "hankyung.com",
+        "publishedAt": "05/04 23:38",
+        "score": 8
       },
       {
-        "title": "Envista Holdings Corp.(NVST), 시장 점유율 상승이 가속화되면서 수익이 앞지르며 뛰어올랐습니다.",
-        "description": "투자 관리 회사인 Ariel Investments는 \"Ariel Fund\" 2026년 1분기 투자자 서한을 발표했습니다. 편지 사본은 여기에서 다운로드할 수 있습니다. 티",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/envista-holdings-corp-nvst-jumps-162030237.html?.tsrc=rss",
+        "title": "시장 붕괴 시 주저 없이 사고 싶은 배당주 2개",
+        "description": "시장 붕괴는 월스트리트가 두려움으로 가득 차는 시기이며, 이는 건전한 투자자들이 잘 운영되는 기업을 매수하기에 좋은 시기입니다.",
+        "url": "https://www.fool.com/investing/2026/05/04/2-dividend-stocks-id-buy-without-hesitation-during/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 01:20",
-        "score": 5
+        "publishedAt": "05/05 06:35",
+        "score": 6
       },
       {
-        "title": "SMH는 10년 동안 S&P 500을 2,041%나 압도했지만 최근 42% 상승은 위험한 가치 평가를 나타냅니다.",
-        "description": "반도체처럼 인내심을 보상해 주는 부문 ETF는 거의 없습니다. VanEck Semiconductor ETF(NYSEARCA:SMH)는 약 141%의 수익률을 올린 후 약 510달러에 거래됩니다.",
-        "url": "https://247wallst.com/investing/2026/05/03/smh-has-crushed-the-sp-500-by-2041-over-a-decade-but-recent-42-rally-signals-dangerous-valuations/?.tsrc=rss",
+        "title": "이 9개 S&P 500 주식은 2026년에 두 배로 올랐습니다. 화요일에 3번째 보고서가 나왔습니다.",
+        "description": "벤치마크 지수는 2026년 상승했지만 샌디스크와 인텔은 최소 두 배 이상 상승한 S&P 500 주식 8개 중 하나입니다.",
+        "url": "https://finance.yahoo.com/m/a2576931-d1cd-3e46-b842-6f1d473489aa/these-nine-s%26p-500-stocks.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 19:15",
-        "score": 5
+        "publishedAt": "05/05 05:34",
+        "score": 6
       },
       {
-        "title": "월스트리트는 이 두 AI 주식이 20% 이상 하락할 수 있다고 말했습니다. 판매할 시간인가?",
-        "description": "분석가들은 이 두 AI 주식에 대해 약세를 보이고 있습니다. 그 말이 맞나요?",
-        "url": "https://www.fool.com/investing/2026/05/03/wall-street-ai-stocks-fall-time-sell-nvts-mrvl/?.tsrc=rss",
+        "title": "5월 S&P 500에 투자하는 가장 현명한 방법은 다음과 같습니다.",
+        "description": "4개의 가장 큰 S&P 500 ETF 중 하나가 다른 ETF보다 우위에 있습니다. 이유는 다음과 같습니다.",
+        "url": "https://www.fool.com/investing/2026/05/04/smartest-way-to-invest-in-sp-500-in-may/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 03:22",
-        "score": 4
+        "publishedAt": "05/04 23:35",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "동영상 시장 커지는데…네이버·카카오만 '역주행'",
+        "title": "SK하이닉스와 삼성전자, TSMC가 끌어 올린 아시아 증시",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026050328331",
+        "url": "https://www.hankyung.com/article/202605045547i",
         "source": "hankyung.com",
-        "publishedAt": "05/03 17:11",
+        "publishedAt": "05/04 19:06",
+        "score": 10
+      },
+      {
+        "title": "'인공위성 영상 AI 솔루션' 텔레픽스 등 4社 코스닥 상장예심 신청",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050451376",
+        "source": "hankyung.com",
+        "publishedAt": "05/04 16:14",
         "score": 6
       },
       {
-        "title": "\"코스피 200 ETF로 절반 채우고…반도체·美 담아라\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202604309180i",
-        "source": "hankyung.com",
-        "publishedAt": "05/03 17:00",
+        "title": "삼성, 사상 최고 기록 경신했지만 SK하이닉스 12% 급등으로 상승세 꺾어",
+        "description": "SK하이닉스가 고대역폭 메모리 분야에서 선두를 확대함에 따라 삼성의 노동 분쟁은 AI 칩 복귀에 압력을 가할 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-hits-record-high-sk-131825136.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/04 22:18",
         "score": 5
       },
       {
-        "title": "코스피, 단기 급등 후 '숨 고르기' 들어갈까…\"순환매 유효\" [주간전망]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026050216956",
-        "source": "hankyung.com",
-        "publishedAt": "05/03 08:00",
+        "title": "삼성전자, SK하이닉스에 뒤처지기 시작",
+        "description": "파업 위험이 단기 전망을 흐리게 하기 시작합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-gains-starts-lag-behind-131655638.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/04 22:16",
         "score": 5
       },
       {
-        "title": "현대차그룹, 美서 '최고의 하이브리드·전기차' 7관왕",
+        "title": "DX 노조, 공동투쟁본부 탈퇴…삼성전자 '노노 갈등' 가속화",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026050329301",
+        "url": "https://www.hankyung.com/article/2026050453931",
         "source": "hankyung.com",
-        "publishedAt": "05/03 17:34",
-        "score": 3
-      },
-      {
-        "title": "\"당뇨 있는 할머니와 뭐 먹죠?\"…네이버 열었더니 '깜짝'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202604309329g",
-        "source": "hankyung.com",
-        "publishedAt": "05/03 16:01",
-        "score": 3
+        "publishedAt": "05/04 17:32",
+        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "현대경제연구원, 韓 성장률 2.7%로 상향…반도체·추경 효과",
+        "title": "\"금리 인상 고민할 때 됐다\"…한은 '피벗' 신호",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026050326617",
+        "url": "https://www.hankyung.com/article/2026050454161",
         "source": "hankyung.com",
-        "publishedAt": "05/03 14:51",
-        "score": 1
-      }
-    ],
-    "bonds": [
+        "publishedAt": "05/04 17:35",
+        "score": 5
+      },
       {
-        "title": "베센트 재무장관은 올해 말 에너지 가격이 하락할 것이라고 밝혔습니다.",
-        "description": "Investing.com -- 스콧 베센트 미국 재무장관은 일요일, 현재의 상승에도 불구하고 에너지 가격이 올해 후반에 하락할 것으로 예상된다고 밝혔습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/energy-prices-fall-later-says-152044734.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/04 00:20",
+        "title": "해외IB, 韓 성장률·물가 전망 줄상향",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050454201",
+        "source": "hankyung.com",
+        "publishedAt": "05/04 17:33",
+        "score": 3
+      },
+      {
+        "title": "중동에서 벌어지는 쩐의 전쟁… 美 물가지표 눈여겨볼 필요",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605045171i",
+        "source": "hankyung.com",
+        "publishedAt": "05/04 16:45",
         "score": 3
       }
     ],
+    "bonds": [],
     "commodities": [
       {
-        "title": "내가 여전히 에너지 전송 LP를 건드리지 않는 이유는 다음과 같습니다. 6.9%의 수익률에도 불구하고",
-        "description": "높은 수익률은 종종 더 높은 위험을 의미하며, 이것도 예외는 아닙니다. 기본 비즈니스는 여전히 지속적인 투자와 규율 있는 실행에 달려 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/03/heres-why-i-still-wouldnt-touch-energy-transfer-lp/?.tsrc=rss",
+        "title": "미국 주가지수 하락, 이란 휴전으로 인해 원유 선물 상승",
+        "description": "호르무 해협 파업 소식이 전해지자 미국 주가지수는 하락했고 원유 선물은 급등했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-crude-205844453.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 04:25",
+        "publishedAt": "05/05 05:58",
+        "score": 5
+      },
+      {
+        "title": "업데이트: 중동 폭력 사태가 심화되면서 WTI 원유 가격 상승",
+        "description": "WTI(West Texas Intermediate) 원유는 거래자들의 눈높이 상승으로 변동성이 커지면서 월요일 상승세로 마감했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-moves-higher-escalating-184341328.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/05 03:43",
+        "score": 5
+      },
+      {
+        "title": "Diamondback Energy, 석유 주식은 견조한 랠리 이후 수익 하락",
+        "description": "Diamondback Energy는 1분기 실적 추정치를 상회한 후 월요일 늦게 긍정적인 지침을 제시했습니다.  Tidewater와 Transocean은 혼합 대표를 제공했습니다.",
+        "url": "https://finance.yahoo.com/m/c0f502ec-0944-37fb-bdde-59b59386dae1/diamondback-energy%2C-oil.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/05 06:57",
         "score": 3
       },
       {
-        "title": "베센트 재무장관은 올해 말 에너지 가격이 하락할 것이라고 밝혔습니다.",
-        "description": "Investing.com -- 스콧 베센트 미국 재무장관은 일요일, 현재의 상승에도 불구하고 에너지 가격이 올해 후반에 하락할 것으로 예상된다고 밝혔습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/energy-prices-fall-later-says-152044734.html?.tsrc=rss",
+        "title": "Alvopetro, 4월 판매량, 분기별 천연가스 가격 업데이트 및 2026년 1분기 실적 발표 세부 정보 발표",
+        "description": "Alvopetro Energy Ltd.(TSXV: ALV)(OTCQX: ALVOF)는 4월 판매량 3,133 boepd(현장 추정치 기준)를 발표했습니다. 브라질의 4월 평균 판매량",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/alvopetro-announces-april-sales-volumes-210000214.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 00:20",
+        "publishedAt": "05/05 06:00",
         "score": 3
       },
       {
-        "title": "이것은 에너지 부문에서 가장 인기 있는 주식입니다. 투자해야 할까요?",
-        "description": "Baker Hughes의 주가는 1분기 매출 및 수익 추정치를 상회한 후 지난 주 급등했습니다.",
-        "url": "https://www.fool.com/investing/2026/05/03/this-is-the-hottest-stock-in-the-energy-sector/?.tsrc=rss",
+        "title": "Crescent Energy(NYSE:CRGY), 2026년 1분기 예상에 부합하는 보고서 발표",
+        "description": "석유 및 가스 생산업체인 Crescent Energy(NYSE:CRGY)는 2026년 1분기에 월스트리트의 매출 기대치를 충족했으며 매출은 전년 동기 대비 24.5% 증가한 11억 8천만 달러를 기록했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/crescent-energy-nyse-crgy-reports-205512171.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 23:20",
+        "publishedAt": "05/05 05:55",
         "score": 3
-      },
-      {
-        "title": "[풍산 분석] “구리는 웃고 방산은 주춤”…매각 이슈 지속 체크해야",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202605033027i",
-        "source": "hankyung.com",
-        "publishedAt": "05/03 18:40",
-        "score": 3
-      },
-      {
-        "title": "Par Pacific, 재생 가능 연료 성장과 원유 공급 위험 변화의 균형 유지",
-        "description": "Par Pacific Holdings(NYSE:PARR)는 Hawaii Renewables가 운영을 확대함에 따라 재생 가능 연료 부문을 확장하고 있습니다. 회사도 이익을 본다",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/par-pacific-balances-renewable-fuels-210709478.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/04 06:07",
-        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "6000억 규모 불법 외환거래 적발",
+        "title": "게임스탑, 이베이 560억달러에 인수 추진…\"아마존 경쟁자로\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026050329481",
+        "url": "https://www.hankyung.com/article/202605044942i",
         "source": "hankyung.com",
-        "publishedAt": "05/03 18:11",
+        "publishedAt": "05/04 15:22",
         "score": 3
       },
       {
-        "title": "Dollar Tree는 뉴잉글랜드 유일의 NASCAR 컵 시리즈 경주의 자격 후원자로 선정되었습니다.",
-        "description": "Speedway Motorsports와 Dollar Tree 관계자는 오늘 이 가치 소매업체가 NASCAR 컵 시리즈(NCS)의 자격 스폰서로 선정되었다고 발표했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-named-entitlement-sponsor-183000049.html?.tsrc=rss",
+        "title": "\"웹3 데이터 인프라 케이젠, ARR 8580만달러\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050447506",
+        "source": "hankyung.com",
+        "publishedAt": "05/04 15:20",
+        "score": 3
+      },
+      {
+        "title": "달러부족 시달리는 산유국…중동發 금융위기 '경고등'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026050328991",
+        "source": "hankyung.com",
+        "publishedAt": "05/04 14:04",
+        "score": 3
+      },
+      {
+        "title": "업데이트: 달러 및 수익률 상승으로 금 하락",
+        "description": "(가격 업데이트.) 금은 달러와 수익률이 상승하면서 월요일 오후 중반에 낮게 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-dollar-yields-climb-180008968.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 03:30",
+        "publishedAt": "05/05 03:00",
+        "score": 1
+      },
+      {
+        "title": "웨스턴 유니온, 앵커리지 디지털을 통해 솔라나에서 USDPT 스테이블코인 출시",
+        "description": "거대 송금업체인 Western Union의 USDPT 토큰은 국경 간 결제와 40개 이상의 국가에서 출시되는 소비자 지출 제품을 지원합니다.",
+        "url": "https://decrypt.co/366677/western-union-usdpt-stablecoin-solana-anchorage-digital?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/05 02:31",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "AI Capex Boom은 암호화폐가 아닌 반도체로 가장 인기 있는 ETF 거래를 유도합니다.",
-        "description": "2026년 가장 인기 있는 ETF 거래에서 AI 투자 슈퍼사이클이 암호화폐 펀드를 능가함에 따라 소매 자금이 반도체 ETF에 쏟아집니다.",
-        "url": "https://beincrypto.com/ai-capex-semiconductor-etfs-not-crypto/?.tsrc=rss",
+        "title": "미국-이란 긴장이 호르무즈 해협 근처에서 고조됨에 따라 Exchange-Traded Funds, Equity Futures가 월요일 Pre-Bell을 하락시켰습니다.",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.3% 하락했고 활발한 거래가 이루어졌습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130447905.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 04:30",
-        "score": 1
+        "publishedAt": "05/04 22:04",
+        "score": 6
       },
       {
-        "title": "주식이 최고치를 회복함에 따라 트레이더들은 양면 꼬리 위험에 맞서 싸우고 있습니다.",
-        "description": "(블룸버그) -- 이란 오일쇼크 이후 V자형 회복 이후 주가가 다시 최고점으로 돌아오면서 투자자들은 점점 좌파와 좌파 사이에 끼어들고 있습니다.",
-        "url": "https://finance.yahoo.com/news/traders-grapple-two-sided-tail-140000302.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/03 23:00",
-        "score": 1
+        "title": "이란 \"美 군함, 호르무즈 해협서 이란 미사일에 피격 후 회항\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605045676i",
+        "source": "hankyung.com",
+        "publishedAt": "05/04 20:22",
+        "score": 5
       },
       {
-        "title": "AI 붐과 석유 수출이 전쟁 위험을 상쇄하면서 신흥 시장이 사상 최고치를 기록했습니다.",
-        "description": "Investing.com -- 신흥 시장 주식은 현재 MSCI 신흥 시장 지수를 통해 갈등으로 인한 경기 침체에 대한 기대치를 뛰어넘고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/emerging-markets-hit-record-highs-073029346.html?.tsrc=rss",
+        "title": "오늘 5월 4일 주식 시장: 지정학적 긴장이 고조되면서 유가 급등과 주식 하락",
+        "description": "2026년 5월 4일 오늘, 중동의 긴장이 고조되고 있다는 보고로 시장이 하락하고 유가가 급등했으며 암호화폐 주식은 워싱턴에서 상승세를 보였습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/04/stock-market-today-may-4-oil-spikes-and-stocks-fall-as-geopolitical-tensions-flare/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/03 16:30",
+        "publishedAt": "05/05 06:26",
+        "score": 3
+      },
+      {
+        "title": "상원의원이 명확성법안 스테이블코인 거래 제안을 공개하자 은행들은 입을 다물고 있다",
+        "description": "상원의원들은 스테이블코인 보상에 관한 명확성법(Clarity Act) 타협안을 공개했습니다. 암호화폐는 충분히 행복해 보이지만 은행은 어떻습니까?",
+        "url": "https://decrypt.co/366680/banks-stay-tight-lipped-as-senators-reveal-proposed-clarity-act-stablecoin-deal?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/05 03:01",
+        "score": 3
+      },
+      {
+        "title": "수수께끼의 무역업자, UAE 공격 앞두고 5,600만 달러 상당의 석유 구매",
+        "description": "걸프 지역의 새로운 혼란으로 인해 석유 시장이 다시 불안해졌고, 미국-이란 갈등에 또 다른 불안한 장을 더했습니다. 그런데 이번에 시장이",
+        "url": "https://www.thestreet.com/crypto/markets/mysterious-trader-buys-56-million-in-oil-ahead-of-uae-attack?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/05 06:17",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "이것은 내가 가장 좋아하는 AI 칩 주식입니다(단연코). 이는 Nvidia, Intel 또는 Broadcom이 아닙니다.",
-        "description": "세계에서 가장 잘 알려진 거대 기술 기업 중 하나가 반도체 업계의 거대 기업과 맞먹을 만큼 큰 규모의 칩 사업을 조용히 구축하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/03/this-is-my-favorite-chip-stock-by-far-and-its-not/?.tsrc=rss",
+        "title": "Intel과 NVIDIA의 지지 패턴에도 불구하고 AMD는 6% 하락: 선택적 AI 칩 거래가 시작되었습니다",
+        "description": "Advanced Micro Devices(NASDAQ:AMD)의 주가는 월요일 정오 거래에서 6% 하락하여 금요일을 $360.54로 마감한 후 약 $340에 거래되었습니다. s",
+        "url": "https://247wallst.com/investing/2026/05/04/amd-sinks-6-despite-a-holding-pattern-in-intel-and-nvidia-the-selective-ai-chip-trade-is-here/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 04:27",
+        "publishedAt": "05/05 01:27",
+        "score": 16
+      },
+      {
+        "title": "Broadcom, Qualcomm 또는 TSMC: 4월에 AI 칩 주식 중 하나가 결정적으로 승리한 이유",
+        "description": "2026년 4월 인공지능(AI) 칩 거래 점수판이 나왔고, 승자는 월스트리트에서 가장 주목받는 이름이 아니다. 퀄컴",
+        "url": "https://247wallst.com/investing/2026/05/04/broadcom-qualcomm-or-tsmc-why-one-ai-chip-stock-won-decisively-in-april/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/05 04:37",
         "score": 13
       },
       {
-        "title": "Intel CEO Lip-Bu Tan은 Nvidia가 지원하는 '내결함성' 양자 컴퓨팅 회사에서 새로운 역할을 맡았습니다.",
-        "description": "Intel Corporation의 CEO인 Lip-Bu Tan이 현재 가치가 평가되는 양자 컴퓨팅 회사인 PsiQuantum의 이사회 구성원으로 새로운 역할을 맡았습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/intel-ceo-lip-bu-tan-193020702.html?.tsrc=rss",
+        "title": "HSBC, AMD를 77% 랠리 이후 보유로 하향 조정: AI 칩이 스팀에서 거래됩니까?",
+        "description": "Advanced Micro Devices(NASDAQ:AMD) 주식은 5월 4일 월요일 HSBC로부터 분석가의 하향 조정을 받았으며 회사는 투자 등급을 매수에서 보류로 하향 조정했습니다.",
+        "url": "https://247wallst.com/investing/2026/05/04/hsbc-downgrades-amd-to-hold-after-77-rally-is-the-ai-chip-trade-out-of-steam/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 04:30",
-        "score": 11
-      },
-      {
-        "title": "Gorilla Technology Group(GRRR)은 대규모 인도 GPU 거래 및 Astrikos.AI 투자 이후 17.9% 상승했습니다.",
-        "description": "Gorilla Technology Group은 최근 인도의 Yotta Data Services와의 AI 인프라 협력을 확장하여 20,736개의 추가 배포를 지원했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/gorilla-technology-group-grrr-17-180552744.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/04 03:05",
+        "publishedAt": "05/05 00:07",
         "score": 10
       },
       {
-        "title": "메타, 휴머노이드 스타트업 품고 인간형 로봇 AI 경쟁 가세",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026050321157",
-        "source": "hankyung.com",
-        "publishedAt": "05/03 07:04",
-        "score": 9
+        "title": "MediaTek, AI 칩 패키징 강화를 위해 전 TSMC 임원 고용",
+        "description": "대만 칩 설계사 MediaTek은 첨단 패키징 작업을 강화하기 위해 전 TSMC 임원인 Douglas Yu를 시간제 고문으로 임명했다고 밝혔습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/mediatek-hires-former-tsmc-executive-030028783.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/04 12:00",
+        "score": 10
       },
       {
-        "title": "예측: 이는 내년에 가장 성과가 좋은 인공 지능(AI) 반도체 주식이 될 것입니다. (힌트: Nvidia, Broadcom 또는 Micron이 아닙니다.)",
-        "description": "AI 칩 주식은 올해에도 기술 투자자들에게 가장 큰 승자 중 하나입니다.",
-        "url": "https://www.fool.com/investing/2026/05/03/prediction-this-will-be-the-top-performing-artific/?.tsrc=rss",
+        "title": "Nvidia는 양자 컴퓨팅 시장을 놀라게 했습니다. IonQ, D-Wave 및 Rigetti에 대한 의미는 무엇입니까?",
+        "description": "Jensen Huang의 변화는 실제로 양자 스타트업에 도움이 될 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/04/nvidia-stun-quantum-computing-ionq-d-wave-rigetti/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/04 05:31",
+        "publishedAt": "05/05 05:59",
         "score": 8
       }
     ]
