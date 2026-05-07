@@ -1,44 +1,37 @@
 [
   {
-    "received_at_kst": "2026-05-07T22:03:17.349346+09:00",
+    "received_at_kst": "2026-05-08T00:37:00.802390+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
-    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A01606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"74538437967c540d\",\"key\":\"rglqvazwbedyjfmeexotdpjrbvqxwvap\"}}}"
+    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A01606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"a86ec822caee54e6\",\"key\":\"qtquecvydmquovwpsjkmxrvvagwqaqwq\"}}}"
   },
   {
-    "received_at_kst": "2026-05-07T22:03:17.556717+09:00",
+    "received_at_kst": "2026-05-08T00:37:00.991969+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
-    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"74538437967c540d\",\"key\":\"rglqvazwbedyjfmeexotdpjrbvqxwvap\"}}}"
+    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"a86ec822caee54e6\",\"key\":\"qtquecvydmquovwpsjkmxrvvagwqaqwq\"}}}"
   },
   {
-    "received_at_kst": "2026-05-07T22:03:17.556829+09:00",
+    "received_at_kst": "2026-05-08T00:37:00.992052+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFASP0",
-    "raw": "{\"header\":{\"tr_id\":\"H0MFASP0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"74538437967c540d\",\"key\":\"rglqvazwbedyjfmeexotdpjrbvqxwvap\"}}}"
+    "raw": "{\"header\":{\"tr_id\":\"H0MFASP0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"a86ec822caee54e6\",\"key\":\"qtquecvydmquovwpsjkmxrvvagwqaqwq\"}}}"
   },
   {
-    "received_at_kst": "2026-05-07T22:03:17.886428+09:00",
+    "received_at_kst": "2026-05-08T00:37:00.992100+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "trade",
     "tr_id": "H0MFCNT0",
-    "raw": "0|H0MFCNT0|001|A01606^220317^-11.85^5^-1.02^1146.85^1153.95^1153.95^1143.70^1^5955^1710959687^1149.45^-3.01^-0.23^0.00^0.00^10.10^194914^140^000000^5^-7.10^000000^5^-7.10^000000^2^3.15^0.51^103.75^-2.60^1^-0.41^1147.05^1146.85^3^1^2354^2395^41^2903^3012^345^517^20.00^1170.00^1123.70^2"
+    "raw": "0|H0MFCNT0|001|A01606^003700^-18.75^5^-1.62^1139.95^1153.95^1153.95^1131.00^2^15342^4391524637^1149.45^-9.91^-0.83^0.00^0.00^3.80^194631^-143^000000^5^-14.00^000000^5^-14.00^000000^2^8.95^0.50^100.73^-9.50^6^-0.41^1140.20^1139.95^1^2^6034^6136^102^7623^7679^531^943^51.51^1163.10^1116.80^2"
   },
   {
-    "received_at_kst": "2026-05-07T22:03:18.054851+09:00",
+    "received_at_kst": "2026-05-08T00:37:10.312953+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
-    "msg_type": "trade",
-    "tr_id": "H0MFCNT0",
-    "raw": "0|H0MFCNT0|001|A01606^220317^-11.90^5^-1.03^1146.80^1153.95^1153.95^1143.70^1^5956^1711246387^1149.45^-3.06^-0.23^0.00^0.00^10.15^194914^140^000000^5^-7.15^000000^5^-7.15^000000^2^3.10^0.51^103.72^-2.65^0^-0.41^1147.05^1146.70^3^2^2355^2395^40^2904^3012^345^515^20.00^1169.95^1123.65^2"
-  },
-  {
-    "received_at_kst": "2026-05-07T22:03:22.490037+09:00",
-    "ws_url": "ws://ops.koreainvestment.com:21000",
-    "msg_type": "trade",
-    "tr_id": "H0MFCNT0",
-    "raw": "0|H0MFCNT0|001|A01606^220322^-12.00^5^-1.04^1146.70^1153.95^1153.95^1143.70^1^5957^1711533062^1149.45^-3.16^-0.24^0.00^0.00^10.20^194913^139^000000^5^-7.25^000000^5^-7.25^000000^2^3.00^0.51^103.68^-2.75^-1^-0.41^1146.80^1146.65^1^1^2356^2395^39^2905^3012^343^514^20.00^1169.85^1123.55^2"
+    "msg_type": "quote",
+    "tr_id": "H0MFASP0",
+    "raw": "0|H0MFASP0|001|A06606^003710^2019.20^2019.30^2019.80^2019.90^2020.30^2018.30^2018.00^2017.80^2017.40^2017.00^1^1^1^1^1^1^1^1^1^1^1^1^1^2^1^1^1^1^1^1^218^144^383^189^-1^0"
   }
 ]
