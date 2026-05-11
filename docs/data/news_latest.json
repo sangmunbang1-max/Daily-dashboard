@@ -1,269 +1,325 @@
 {
-  "generated_at_kst": "2026-05-11 08:13 KST",
-  "period": "05/10 07:00 ~ 05/11 07:00 KST",
+  "generated_at_kst": "2026-05-12 08:29 KST",
+  "period": "05/11 07:00 ~ 05/12 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "주식 시장 붕괴: 지금 당장 구매할 수 있는 최고의 배당주",
-        "description": "이 두 스포츠 모두 배당수익률이 5% 이상입니다.",
-        "url": "https://www.fool.com/investing/2026/05/10/stock-market-crash-the-best-dividend-stocks-to-buy/?.tsrc=rss",
+        "title": "트레이더들이 미국-이란 분쟁을 추적하면서 S&P 500, 나스닥이 새로운 최고점에 도달",
+        "description": "S&P 500과 나스닥 종합 지수는 거래자들이 계속해서 발전을 추적하면서 월요일 최고치를 경신했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-reach-peaks-205223932.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 01:20",
-        "score": 9
+        "publishedAt": "05/12 05:52",
+        "score": 10
       },
       {
-        "title": "시장 전문가 야데니(Yardeni)는 수익이 '광란의 2020년대'를 뒷받침하면서 올해 S&P 500이 8,250에 도달할 것으로 예상하며 이는 월스트리트 최고 예측가 중 가장 높은 수치입니다.",
-        "description": "\"우리의 주요 가정은 경제가 회복력을 유지하고 수익도 회복될 것이라는 것입니다.\"",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-guru-yardeni-sees-p-201327031.html?.tsrc=rss",
+        "title": "강력한 수익과 AI 낙관주의로 S&P 500과 Nasdaq 100이 사상 최고치를 기록했습니다.",
+        "description": "오늘 S&P 500 지수($SPX )(SPY )는 +0.17% 상승했고, 다우존스 산업평균지수($DOWI )(DIA )는 +0.10% 상승했으며, 나스닥 100 지수($IUXX )는 +0.10% 상승했습니다.",
+        "url": "https://www.barchart.com/story/news/1850843/strong-earnings-and-ai-optimism-push-the-s-p-500-and-nasdaq-100-to-record-highs?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 05:13",
+        "publishedAt": "05/11 23:10",
+        "score": 10
+      },
+      {
+        "title": "뉴욕증시, 유가 상승에 혼조세 출발",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605119352i",
+        "source": "hankyung.com",
+        "publishedAt": "05/11 23:20",
         "score": 8
       },
       {
-        "title": "한 부동산 펀드가 S&P 500보다 주가가 뒤떨어져 있음에도 불구하고 InvenTrust Properties에 500만 달러를 투자한 이유",
-        "description": "이 소매 REIT는 Sun Belt 시장 전반에 걸쳐 식료품점 중심 센터를 전문으로 하며 필수 임차인과 안정적인 현금 흐름을 강조합니다.",
-        "url": "https://www.fool.com/coverage/filings/2026/05/10/why-one-real-estate-fund-made-a-usd5-million-bet-on-inventrust-properties-despite-the-stock-lagging-the-s-and-p-500/?.tsrc=rss",
+        "title": "Barrick, 북미 IPO를 앞두고 30억 달러 규모의 자사주 매입 발표",
+        "description": "Barrick은 연말까지 North American Barrick을 뉴욕에 상장할 준비를 하면서 대규모 자사주 매입을 승인했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/barrick-unveils-3-billion-buyback-212833644.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 02:35",
+        "publishedAt": "05/12 06:28",
         "score": 6
       },
       {
-        "title": "예측: AI 인프라 주식은 2026년에 S&P 500을 압도할 것입니다",
-        "description": "일부 AI 주식은 현재 매우 합리적인 수준에서 거래되고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/10/prediction-ai-infrastructure-stocks-will-crush-the/?.tsrc=rss",
+        "title": "빠르게 성장하는 결제 주식이 나스닥으로 이전되었습니다. 미국 은행에는 현명한 일이 일어날까?",
+        "description": "영국에 설립된 핀테크 회사는 최대 시장 기회에 더욱 집중하고 있으며 미국 결제 수단으로의 보다 직접적인 경로를 추구하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/11/this-fast-growing-payments-stock-just-moved-to-nas/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 01:35",
+        "publishedAt": "05/12 01:48",
         "score": 6
-      },
-      {
-        "title": "S&P 500은 이전에 세 번만 했던 일을 방금 했습니다. 트럼프의 AI 집회가 위험한 이유",
-        "description": "주식 시장은 계속 오르고 있으며 투자자들은 더 이상 눈치채지 못하는 것 같습니다. S&P 500이 또 다시 사상 최고치를 경신하며 랠리를 이어갔습니다.",
-        "url": "https://247wallst.com/investing/2026/05/10/the-sp-500-just-did-something-its-only-done-3-times-before-why-trumps-ai-rally-is-in-danger/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/11 03:03",
-        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "\"이대로 파업 가면 다 죽어\"…삼성전자 내부서 흘러나오는 '우려' [이슈+]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202605106723g",
-        "source": "hankyung.com",
-        "publishedAt": "05/10 19:40",
+        "title": "마이크론과 SK하이닉스 주가 급등. 삼성의 트러블에 감사드립니다.",
+        "description": "마이크론과 SK하이닉스 주가는 월요일 상승했다. 메모리 칩 경쟁사인 삼성이 곧 생산에 타격을 입을 수도 있다.",
+        "url": "https://finance.yahoo.com/m/509f89aa-e248-306d-889c-795b20ca92e7/micron-and-sk-hynix-stocks.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/12 05:39",
         "score": 5
       },
       {
-        "title": "두산퓨얼셀 최다 매수…삼성전자 우선주도 담아",
+        "title": "이러다 삼성전자 '43조' 날아간다…초조한 개미들 [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051065961",
+        "url": "https://www.hankyung.com/article/2026051184136",
         "source": "hankyung.com",
-        "publishedAt": "05/10 17:45",
+        "publishedAt": "05/11 22:00",
         "score": 5
       },
       {
-        "title": "\"코스닥 순환매 가능성…10% 이상 추가상승 여력있다\"",
+        "title": "내년 영업익 1000조 시대…반도체가 바꾼 '코스피 체급'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051065981",
+        "url": "https://www.hankyung.com/article/2026051191291",
         "source": "hankyung.com",
-        "publishedAt": "05/10 17:44",
+        "publishedAt": "05/11 17:49",
         "score": 5
       },
       {
-        "title": "현대차그룹-KAI, 미래 항공 모빌리티 개발 손잡는다",
+        "title": "코스피 내년 영업이익 1000조…'올해 1만피 간다' 전망까지",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051066391",
+        "url": "https://www.hankyung.com/article/202605118961i",
         "source": "hankyung.com",
-        "publishedAt": "05/10 18:18",
-        "score": 3
+        "publishedAt": "05/11 17:18",
+        "score": 5
       },
       {
-        "title": "[단독] 현대차 로봇이 나라 지킨다…軍 최전방 정찰에 투입",
+        "title": "현대차 로봇이 나라 지킨다… 軍 최전방 정찰에 투입",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051066111",
+        "url": "https://www.hankyung.com/article/202605119198i",
         "source": "hankyung.com",
-        "publishedAt": "05/10 18:00",
+        "publishedAt": "05/11 18:29",
         "score": 3
       }
     ],
     "macro": [
       {
-        "title": "전쟁發 수입물가 상승세 계속됐나",
+        "title": "뱅크오브아메리카 \"연준, 올해 금리인하 불가…내년 7월 가능\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051066041",
+        "url": "https://www.hankyung.com/article/202605129373i",
         "source": "hankyung.com",
-        "publishedAt": "05/10 18:23",
-        "score": 3
+        "publishedAt": "05/12 00:30",
+        "score": 5
       },
       {
-        "title": "뉴욕·상하이 증시…트럼프 방중 앞두고, 美 4월 물가 발표",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026051066021",
-        "source": "hankyung.com",
-        "publishedAt": "05/10 18:18",
-        "score": 3
+        "title": "미국 달러는 월요일 초반 상승, 이번 주 4월 CPI, 소매 판매에 초점",
+        "description": "미국 달러는 월요일 오전 주요 거래 상대국 대비 하락세를 제외하고는 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-monday-113535483.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/11 20:35",
+        "score": 5
+      },
+      {
+        "title": "트럼프가 이란의 평화 제안에 대한 대응을 거부한 후 유가가 상승함에 따라 주식은 소폭 개방될 예정이며 미국 인플레이션 데이터가 기다리고 있습니다",
+        "description": "오늘 오전 6월 S&P 500 E-Mini 선물(ESM26)은 -0.03% 하락했고, 6월 Nasdaq 100 E-Mini 선물(NQM26)은 -0.04% 하락해 소폭 상승세를 나타냈습니다.",
+        "url": "https://www.barchart.com/story/news/1845020/stocks-set-for-muted-open-as-oil-rises-after-trump-rejects-irans-response-to-peace-proposal-u-s-inflation-data-awaited?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/11 19:40",
+        "score": 5
+      },
+      {
+        "title": "2개의 상징적인 ETF, 2개의 매우 다른 미국 경제 부문: IWM 대 SPY",
+        "description": "비용 비율, 부문 노출 및 포트폴리오 구성은 이 두 헤비급 ETF 간의 주요 차이점을 드러냅니다. 그들의 위험과 보상은 어떻게 됩니까?",
+        "url": "https://www.fool.com/coverage/etfs/2026/05/11/2-iconic-etfs-2-very-different-slices-of-the-u-s-economy-iwm-vs-spy/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/11 22:05",
+        "score": 1
+      },
+      {
+        "title": "이 \"UFO\" ETF는 우주 경제에 투자할 수 있는 몇 안 되는 실제 방법 중 하나입니다.",
+        "description": "ETF를 통해 \"공간 노출\"을 구매하려고 시도한 적이 있다면 아마도 동일한 트릭을 발견했을 것입니다. 대부분의 우주 자금은 조용히 양동이를 채웁니다.",
+        "url": "https://247wallst.com/investing/2026/05/11/this-ufo-etf-is-among-the-few-real-ways-to-invest-in-the-space-economy/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/11 21:47",
+        "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "환율·채권, 환율 1400원 중후반 박스권 계속될 듯",
+        "title": "트럼프 대통령이 이란을 길들이기 위한 옵션을 모색함에 따라 미국 주가지수 상승, 재무부 채권 수익률은 원유 상승으로 상승",
+        "description": "월요일 미국 주가지수는 원유 선물 및 국채 수익률과 함께 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-advance-treasury-210926452.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/12 06:09",
+        "score": 8
+      },
+      {
+        "title": "美빅테크, AI 투자자금 조달에 일본·스위스 등서 채권 발행",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051066031",
+        "url": "https://www.hankyung.com/article/202605119355i",
         "source": "hankyung.com",
-        "publishedAt": "05/10 18:19",
+        "publishedAt": "05/11 23:41",
         "score": 3
       },
       {
-        "title": "MONECO Advisors는 이 확정 만기 채권 ETF에 투자하고 있습니다. 이것이 중요한 이유는 다음과 같습니다.",
-        "description": "Invesco BulletShares 2032 회사채 ETF는 고정 만기 및 월별 재조정을 통해 투자 등급 미국 회사채를 목표로 합니다.",
-        "url": "https://www.fool.com/coverage/filings/2026/05/10/moneco-advisors-loads-up-on-this-defined-maturity-bond-etf-here-s-why-it-matters/?.tsrc=rss",
+        "title": "재무부 매도는 '억제' 상태를 유지합니다. 우리가 아는 방법.",
+        "description": "10년물 수익률은 0.023%포인트 오른 4.382%에 거래되고 있으며, 30년물 수익률은 4.96%에 거래되고 있다.  \"4.30%-4.40%에는 많은 양의 t가 포함되어 있습니다.",
+        "url": "https://finance.yahoo.com/m/4a7cdf72-bb0d-3f56-aedb-4f62a96224fa/treasury-selloff-remains.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 00:38",
-        "score": 1
+        "publishedAt": "05/11 23:09",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Marjorie Taylor Greene은 9억 2천만 달러 상당의 원유 공매도를 골라내고 계속 반복되는 전쟁 수사법은 단지 '내부자 거래'일 뿐이라고 말합니다.",
-        "description": "마조리 테일러 그린 전 미국 하원의원(공화당-조지아)은 수요일 중부 긴장 고조와 관련된 내부자 거래 혐의를 증폭시켰습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/marjorie-taylor-greene-singles-920-104603996.html?.tsrc=rss",
+        "title": "오늘 5월 11일 주식시장: 유가 상승에도 불구하고 시장은 조금씩 상승",
+        "description": "2026년 5월 11일, AI와 칩 주식은 석유 급등과 가치 평가 경고가 신경을 테스트하면서 새로운 기록을 세웠습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/11/stock-market-today-may-11-markets-eke-small-gains-as-oil-rises/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/10 19:46",
+        "publishedAt": "05/12 06:32",
         "score": 5
       },
       {
-        "title": "고유가에 제주항공도 승무원 무급휴직",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026051066401",
-        "source": "hankyung.com",
-        "publishedAt": "05/10 18:30",
+        "title": "트럼프 대통령이 이란을 길들이기 위한 옵션을 모색함에 따라 미국 주가지수 상승, 재무부 채권 수익률은 원유 상승으로 상승",
+        "description": "월요일 미국 주가지수는 원유 선물 및 국채 수익률과 함께 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-advance-treasury-210926452.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/12 06:09",
         "score": 5
       },
       {
-        "title": "유가 급등과 파이프라인이 이란 전쟁의 타격을 상쇄하면서 사우디 아람코 이익이 증가합니다.",
-        "description": "사우디 아람코(Saudi Aramco)는 동서 파이프라인을 통한 선적이 영향을 완화하면서 올해 첫 3개월 동안 수익이 증가했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/saudi-aramco-profits-rise-oil-062454631.html?.tsrc=rss",
+        "title": "미국 주가지수는 혼조세를 보이고, 이란 평화 계획이 지연되면서 원유 상승세를 보이고 있습니다.",
+        "description": "미국 주가지수는 월요일 마감을 앞두고 혼조세를 보였으며 원유 선물은 재무부와 함께 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-crude-200010501.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/10 15:24",
+        "publishedAt": "05/12 05:00",
         "score": 5
       },
       {
-        "title": "멈출 수 없는 2가지 녹색 에너지 주식으로 지구를 축하하세요",
-        "description": "청정 에너지는 글로벌 에너지 믹스에서 여전히 중요하고 성장하는 부분으로 남아 있으며, 이 두 회사는 업계 선두주자입니다.",
-        "url": "https://www.fool.com/investing/2026/05/10/celebrate-earth-with-these-2-unstoppable-green-ene/?.tsrc=rss",
+        "title": "업데이트: 미국이 이란의 평화 제안에 대한 대응을 거부함에 따라 WTI 유가 상승",
+        "description": "미국이 이란의 대응을 거부한 후 월요일 서부 텍사스 중질유(WTI)가 상승했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-rises-united-states-183549901.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 06:35",
-        "score": 3
+        "publishedAt": "05/12 03:35",
+        "score": 5
       },
       {
-        "title": "Jim Cramer는 Nvidia가 Corning 거래에서 '이기기가 어렵다'고 말하고 Google과 Amazon이 여전히 '여러 다리를 가진 상대'를 가지고 있다고 지적합니다.",
-        "description": "Nvidia Corp.는 Corning Inc.에 5억 달러를 투자하여 AI 인프라 경쟁을 더욱 강화했습니다. 이는 중요한 네트워크 문제를 해결하기 위한 조치입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-nvidia-tough-203128088.html?.tsrc=rss",
+        "title": "트럼프는 호르무즈 해협 근처에서 화재가 발생하자 미국-이란 공습을 '사랑의 탭'이라고 불렀습니다. 브렌트유는 102달러 이상 상승",
+        "description": "목요일 미국과 이란군이 호르무즈 해협 근처에서 총격전을 벌였습니다. 유가가 오르는 동안 도널드 트럼프 대통령은 대결을 경시했다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/trump-calls-us-iran-strike-163103243.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 05:31",
-        "score": 3
+        "publishedAt": "05/12 01:31",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, 환율 1400원 중후반 박스권 계속될 듯",
+        "title": "위안화 값 오르고, 루피 추락…전쟁 충격 다른 中·인도",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051066031",
+        "url": "https://www.hankyung.com/article/2026051190961",
         "source": "hankyung.com",
-        "publishedAt": "05/10 18:19",
-        "score": 5
+        "publishedAt": "05/11 18:01",
+        "score": 3
       },
       {
-        "title": "달러의 다음 움직임은 향후 12개월 동안 EDIV 수익을 높이거나 깨뜨릴 것입니다.",
-        "description": "SPDR S&P Emerging Markets Dividend ETF(NYSEARCA:EDIV)는 조용히 2026년 수익률 거래 중 하나로 자리 잡았으며 주가는 42달러에 가깝습니다.",
-        "url": "https://247wallst.com/investing/2026/05/09/the-dollars-next-move-will-make-or-break-your-ediv-returns-over-the-next-12-months/?.tsrc=rss",
+        "title": "AI 경주가 가속화됨에 따라 Alphabet 계획에서 엔화 채권 판매 개시",
+        "description": "(블룸버그) - 알파벳(Alphabet Inc.)은 인공지능 통신으로 투자 자금을 조달하는 데 도움이 될 수 있는 움직임으로 처음으로 엔 채권을 발행할 계획입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-plans-debut-yen-bond-041848113.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/10 08:46",
+        "publishedAt": "05/11 13:18",
+        "score": 3
+      },
+      {
+        "title": "중국, 트럼프-시 회담 앞두고 환율 3년래 최고치로 고정",
+        "description": "당국이 통화 가치 상승에 대한 관용을 표명하면서 중국 위안화가 달러 대비 3년래 최고치로 강세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/china-fixes-currency-3-high-031617754.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/11 12:16",
+        "score": 3
+      },
+      {
+        "title": "대만 반도체(TSM)가 수십억 달러의 매출을 올리고 있다고 뉴스레터가 밝혔습니다.",
+        "description": "Taiwan Semiconductor Manufacturing Co. Ltd.(NYSE:TSM)은 급등할 14개 주식 중 하나입니다. 이 주식은 Adam O'Dell이 발표한 또 다른 주식입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-tsm-just-rolling-152948583.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/12 00:29",
+        "score": 1
+      },
+      {
+        "title": "미국이 이란의 평화 요구를 일축하고 달러와 수익률을 높이면서 금 하락",
+        "description": "금은 미국이 이란의 협상을 거부한 후 달러와 수익률이 상승하면서 월요일 오전에 하락세로 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-u-dismisses-iran-130838820.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/11 22:08",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "사우디 석유대기업 아람코, 호르무즈 해협에서 수출품 이전 후 1분기 이익 25% 증가",
-        "description": "세계 최대 석유회사인 아람코는 이란 전쟁으로 인해 석유 공급이 중단되고 가격이 상승하면서 1분기 이익이 25% 증가했다고 일요일 밝혔다.  ㅎ",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/saudi-oil-giant-aramco-sees-150943813.html?.tsrc=rss",
+        "title": "트럼프는 호르무즈 해협 근처에서 화재가 발생하자 미국-이란 공습을 '사랑의 탭'이라고 불렀습니다. 브렌트유는 102달러 이상 상승",
+        "description": "목요일 미국과 이란군이 호르무즈 해협 근처에서 총격전을 벌였습니다. 유가가 오르는 동안 도널드 트럼프 대통령은 대결을 경시했다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/trump-calls-us-iran-strike-163103243.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 00:09",
+        "publishedAt": "05/12 01:31",
         "score": 5
       },
       {
-        "title": "Kevin O'Leary는 AI가 관세를 흡수했지만 가족은 이미 1,700달러 더 가난하다고 말했습니다.",
-        "description": "Kevin O'Leary는 테마파크 출석이 건강한 경제를 보여준다고 주장합니다. 그러나 그의 숫자는 전체 이야기를 보여주지는 않습니다.",
-        "url": "https://finance.yahoo.com/economy/articles/kevin-oleary-says-ai-absorbed-161500567.html?.tsrc=rss",
+        "title": "미국-이란 휴전 계획이 아무 소용이 없게 되자 시장은 매도세를 보이고, 트럼프 대통령은 호르무즈 해협을 재개할 수 있는 군사 옵션을 남겨두고 있다.",
+        "description": "트럼프 대통령은 이란의 반응을 \"완전히 받아들일 수 없다\"고 비난했다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/markets-sell-off-u-iran-223424941.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 01:15",
-        "score": 3
+        "publishedAt": "05/11 07:34",
+        "score": 5
       },
       {
-        "title": "쉘은 가치 격차가 확대됨에 따라 공급 충격 경고와 세금 압력에 직면",
-        "description": "Shell의 CEO인 Wael Sawan은 중동의 긴장과 혼란으로 인해 전 세계 원유 공급이 수십억 배럴에 가까운 잠재적으로 부족할 수 있다고 경고했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/shell-faces-supply-shock-warning-120439232.html?.tsrc=rss",
+        "title": "트레이더들이 미국-이란 분쟁을 추적하면서 S&P 500, 나스닥이 새로운 최고점에 도달",
+        "description": "S&P 500과 나스닥 종합 지수는 거래자들이 계속해서 발전을 추적하면서 월요일 최고치를 경신했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-reach-peaks-205223932.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/10 21:04",
+        "publishedAt": "05/12 05:52",
+        "score": 2
+      },
+      {
+        "title": "시장 상승에 따른 Okta(OKTA) 주가 하락: 거래하기 전에 알아야 할 사실",
+        "description": "Okta(OKTA)는 가장 최근 거래일을 $81.69로 마감하여 이전 거래 세션보다 2.63% 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-stock-slides-market-215003680.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/12 06:50",
         "score": 1
       },
       {
-        "title": "Marjorie Taylor Greene은 9억 2천만 달러 상당의 원유 공매도를 골라내고 계속 반복되는 전쟁 수사법은 단지 '내부자 거래'일 뿐이라고 말합니다.",
-        "description": "마조리 테일러 그린 전 미국 하원의원(공화당-조지아)은 수요일 중부 긴장 고조와 관련된 내부자 거래 혐의를 증폭시켰습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/marjorie-taylor-greene-singles-920-104603996.html?.tsrc=rss",
+        "title": "오늘 5월 11일 주식시장: 유가 상승에도 불구하고 시장은 조금씩 상승",
+        "description": "2026년 5월 11일, AI와 칩 주식은 석유 급등과 가치 평가 경고가 신경을 테스트하면서 새로운 기록을 세웠습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/11/stock-market-today-may-11-markets-eke-small-gains-as-oil-rises/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/10 19:46",
-        "score": 1
-      },
-      {
-        "title": "파이프라인 능선 시추로의 Manuka의 전환은 ASX:MKR 투자자를 위한 금 전략을 재구성합니까?",
-        "description": "Manuka Resources Limited는 최근 Mt Boppy 금 프로젝트에서 다이아몬드 시추의 초기 단계를 완료하고 ~3,165m 자원 정의를 시작했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/does-manuka-shift-toward-pipeline-101056292.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/10 19:10",
+        "publishedAt": "05/12 06:32",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "CoreWeave CEO는 IREN 거래가 인프라를 강화함에 따라 Nvidia가 AI 용량을 확장하지 않으면 고객을 AMD로 잃을 위험이 있다고 말합니다.",
-        "description": "Nvidia Corp.와 IREN Ltd.의 최근 파트너십은 수요 급증에 따라 AI 인프라를 전 세계적으로 확장하려는 칩 거대 기업의 공격적인 전략을 강조합니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/coreweave-ceo-says-nvidia-must-193110849.html?.tsrc=rss",
+        "title": "어플라이드 머티어리얼즈 TSMC 얼라이언스, AI 칩 도구 및 성장 스토리 심화",
+        "description": "어플라이드 머티리얼즈와 TSMC가 AI 및 고성능 컴퓨팅 칩 기술 가속화에 초점을 맞춘 새로운 협력에 합의했습니다. 파트너",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-tsmc-alliance-deepens-201544104.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 04:31",
-        "score": 7
+        "publishedAt": "05/12 05:15",
+        "score": 10
       },
       {
-        "title": "NVIDIA의 Huang은 AI가 지능을 수십억의 상품으로 만들 것이라고 말했습니다.",
-        "description": "Investing.com -- NVIDIA의 Jensen Huang 최고경영자(CEO)는 일요일 인공지능이 지능 자체를 상품화할 것이라고 말했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-huang-says-ai-intelligence-172540508.html?.tsrc=rss",
+        "title": "Applied Materials(AMAT)와 TSMC, 차세대 AI 칩 발전을 위해 파트너십 확대",
+        "description": "Applied Materials Inc.(NASDAQ:AMAT)는 Taiwan Semiconductor Manufacturing Co.와 새로운 전략적 협력을 발표했습니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/28121/applied-materials-amat-and-tsmc-expand-partnership-to-advance-next-generation-ai-chips?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 02:25",
-        "score": 7
+        "publishedAt": "05/11 22:42",
+        "score": 10
       },
       {
-        "title": "\"AI 데이터센터로 광통신 특수…국방·드론 등 방산 영토 확장\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026051065601",
-        "source": "hankyung.com",
-        "publishedAt": "05/10 17:22",
-        "score": 7
+        "title": "엔비디아, AI 투자 추진 확대",
+        "description": "엔비디아의 지분 약속은 올해 400억 달러를 넘어섰습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-expands-ai-investment-push-213531266.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/12 06:35",
+        "score": 9
       },
       {
-        "title": "AMD(Advanced Micro Devices) 주식이 12개월간 320% 상승한 후 매수하기에는 너무 늦은 걸까요?",
-        "description": "인공지능 인프라 붐은 둔화될 기미를 보이지 않고 있다.",
-        "url": "https://www.fool.com/investing/2026/05/10/is-it-too-late-to-buy-amd-after-12-month-gain-of/?.tsrc=rss",
+        "title": "Nvidia, Lumentum, Intel, Micron, Qualcomm, Tesla, Moderna, Circle Internet 등의 주식이 오늘날의 주가를 주도합니다.",
+        "description": "모더나 파레스는 미국 보건부가 송환 항공편에 탑승한 승객이 한타바이러스에 대해 경미한 양성 반응을 보였다고 발표한 후 이익을 얻었습니다. 모더나는 이렇게 말한다",
+        "url": "https://finance.yahoo.com/m/55525edd-bb1f-3c33-b548-1b914b6e442d/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 02:35",
-        "score": 4
+        "publishedAt": "05/12 05:40",
+        "score": 9
       },
       {
-        "title": "Jim Cramer는 Nvidia가 Corning 거래에서 '이기기가 어렵다'고 말하고 Google과 Amazon이 여전히 '여러 다리를 가진 상대'를 가지고 있다고 지적합니다.",
-        "description": "Nvidia Corp.는 Corning Inc.에 5억 달러를 투자하여 AI 인프라 경쟁을 더욱 강화했습니다. 이는 중요한 네트워크 문제를 해결하기 위한 조치입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-nvidia-tough-203128088.html?.tsrc=rss",
+        "title": "OpenAI, 기업의 AI 배포를 돕기 위한 컨설팅 부문 출시",
+        "description": "OpenAI 배포 회사는 40억 달러 규모, 19명의 투자자, 기업 내부에 엔지니어를 포함시키는 Palantir 스타일 플레이북을 통해 출시되었습니다.",
+        "url": "https://decrypt.co/367403/openai-launched-consulting-arm-help-companies-deploy-ai?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/11 05:31",
-        "score": 3
+        "publishedAt": "05/12 00:15",
+        "score": 9
       }
     ]
   }
