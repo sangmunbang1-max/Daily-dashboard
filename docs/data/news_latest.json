@@ -1,309 +1,325 @@
 {
-  "generated_at_kst": "2026-05-15 08:27 KST",
-  "period": "05/14 07:00 ~ 05/15 07:00 KST",
+  "generated_at_kst": "2026-05-16 08:27 KST",
+  "period": "05/15 07:00 ~ 05/16 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "S&P 500, 나스닥 종합지수, 기술로 인해 위험 심리가 높아짐에 따라 기록 경신",
-        "description": "미국 주가지수는 부문 1위 기술주가 S&P 500과 나스닥을 새로운 수준으로 끌어올리면서 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-composite-break-204146486.html?.tsrc=rss",
+        "title": "다우존스 선물: S&P 500, 나스닥은 최고치 부근 유지; 엔비디아, 월마트 실적 직기",
+        "description": "금요일의 수익률 급증 이후 일주일 동안 지수는 거의 변하지 않았습니다. 작은 모자는 매진되었습니다. Nvidia와 Walmart의 실적이 밝아집니다.",
+        "url": "https://finance.yahoo.com/m/fb4e2544-bb05-342b-8de5-a2ec001e3c84/dow-jones-futures%3A-s%26p-500%2C.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 05:41",
+        "publishedAt": "05/16 05:51",
+        "score": 15
+      },
+      {
+        "title": "월스트리트는 연준 금리 인상을 우려하고 있다",
+        "description": "이번 주 예상보다 높은 소비자 가격과 도매 가격 수치는 이미 중동 전쟁에 대해 초조해하고 있던 투자자들을 동요시켰습니다.",
+        "url": "https://finance.yahoo.com/m/7476313f-b588-3c57-9ce1-37a2f5d0d4bb/wall-street-is-worrying-about.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/15 21:18",
+        "score": 13
+      },
+      {
+        "title": "나스닥, S&P 500 지수, 인플레이션 우려 속 수익률 급등으로 사상 최고치 후퇴",
+        "description": "나스닥 종합 지수와 S&P 500 지수는 인플레이션 우려로 인해 재무부가 사상 최고치에서 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-retreat-record-210217389.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/16 06:02",
         "score": 10
       },
       {
-        "title": "SpaceX IPO로 인덱스 펀드가 하루 만에 70억 달러를 매입하게 됩니다. 나스닥에 앞으로 무슨 일이 일어날까요?",
-        "description": "오랫동안 ETF 분석가였던 Dave Nadig는 Barry Ritholtz의 Masters in Business: At The Money 팟캐스트에 출연하여 다가오는 SpaceX IPO를 \"하나의 기회\"라고 설명했습니다.",
-        "url": "https://247wallst.com/investing/2026/05/14/spacex-ipo-will-force-index-funds-to-buy-7-billion-in-one-day-what-happens-to-nasdaq-next/?.tsrc=rss",
+        "title": "예측. S&P 500은 이동평균보다 훨씬 높기 때문에 올여름 10% 조정이 불가능하지 않습니다.",
+        "description": "RIA Advisors의 Lance Roberts는 Thoughtful Money 팟캐스트에서 S&P 500이 주요 이동 평균을 훨씬 뛰어넘어 평균 R이",
+        "url": "https://247wallst.com/investing/2026/05/15/prediction-the-sp-500-is-so-far-above-its-moving-averages-that-a-10-correction-this-summer-is-not-out-of-the-question/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/14 21:03",
-        "score": 9
+        "publishedAt": "05/15 23:35",
+        "score": 10
       },
       {
-        "title": "Fortress Private Ledger는 S&P 500을 능가하는 글로벌 주식 ETF인 FEGE를 280만 달러 규모로 매입했습니다.",
-        "description": "이 적극적으로 관리되는 ETF는 미국 및 글로벌 주식에 투자하며 1년 동안 S&P 500보다 가격 상승률이 높습니다.",
-        "url": "https://www.fool.com/coverage/filings/2026/05/14/fortress-private-ledger-buys-usd2-8-million-worth-of-fege-a-global-equity-etf-outpacing-the-s-and-p-500/?.tsrc=rss",
+        "title": "이 기술주는 3년 연속 나스닥을 능가했지만 2026년에는 25% 하락했습니다. 지금이 매수 시점인가요?",
+        "description": "Palantir 주가는 지난 3년 동안 엄청난 상승세를 보인 후 2026년에 하락했습니다.",
+        "url": "https://www.fool.com/investing/2026/05/15/this-tech-stock-has-outperformed-the-nasdaq-3-year/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 04:58",
-        "score": 8
-      },
-      {
-        "title": "오늘, 5월 14일 주식 시장: Cisco Pops 및 AI 칩 제조사 Cerebras의 출시로 미국 지수가 상승했습니다.",
-        "description": "2026년 5월 14일, Cisco의 수익에 힘입은 급증은 광범위한 AI 주도 랠리 속에서 미국의 주요 벤치마크를 새로운 기록으로 끌어올리는 데 도움이 되었습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/14/stock-market-today-may-14-u-s-indexes-move-higher-as-cisco-pops-and-ai-chipmaker-cerebras-debuts/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/15 06:24",
-        "score": 5
-      },
-      {
-        "title": "투자자들은 몬스터 IPO 데뷔 후 Cerebras 주식을 구매해야 합니까?",
-        "description": "Nvidia의 잠재적 경쟁자로서 Cerebras는 IPO 이전에 엄청난 과대광고를 일으켰습니다.",
-        "url": "https://www.fool.com/investing/2026/05/14/should-investors-buy-cerebras-stock-after-its-mons/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/15 06:19",
-        "score": 5
+        "publishedAt": "05/16 01:20",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "\"코스피 8000인데 버려진 종목 많다...코스닥은 결코 저평가 아냐\" [KIW 2026]",
+        "title": "코스피 사상 첫 8000 터치한 날 매도 사이드카 발동",
         "description": "",
-        "url": "https://www.hankyung.com/article/202605146889i",
+        "url": "https://www.hankyung.com/article/202605158937i",
         "source": "hankyung.com",
-        "publishedAt": "05/14 17:00",
+        "publishedAt": "05/15 16:45",
         "score": 10
       },
       {
-        "title": "김정관 장관 \"삼성전자 파업땐 긴급조정권\"…노사 타협 촉구",
+        "title": "[포토] 삼성전자, 호주서 테크세미나",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051476571",
+        "url": "https://www.hankyung.com/article/2026051598321",
         "source": "hankyung.com",
-        "publishedAt": "05/14 22:50",
+        "publishedAt": "05/16 00:51",
         "score": 5
       },
       {
-        "title": "김정관 장관 \"삼성전자 파업시 긴급조정권 발동 불가피\"",
+        "title": "삼성전자도 더 이상 남일 아니다?…GM·인텔 보니 '섬뜩'",
         "description": "",
-        "url": "https://www.hankyung.com/article/202605147593i",
+        "url": "https://www.hankyung.com/article/2026051599311",
         "source": "hankyung.com",
-        "publishedAt": "05/14 21:35",
+        "publishedAt": "05/15 18:02",
         "score": 5
       },
       {
-        "title": "삼성전자, 파업 위협에 노조에 대화 재개 촉구",
-        "description": "삼성전자는 목요일 정부 중재 협상이 결렬되자 한국 노조에 임금협상 재개를 제안했다고 노조가 전했다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/samsung-electronics-urges-union-resume-080729594.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/14 17:07",
+        "title": "[포토] 파랗게 질린 코스피",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605159712i",
+        "source": "hankyung.com",
+        "publishedAt": "05/15 17:09",
         "score": 5
       },
       {
-        "title": "코스피, 사상 최고치 경신 7981선 마감…'팔천피' 임박",
+        "title": "\"삼성전자·삼성바이오, 현금 여력 기준으로 성과급 책정해야\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051467086",
+        "url": "https://www.hankyung.com/article/202605159283i",
         "source": "hankyung.com",
-        "publishedAt": "05/14 16:13",
+        "publishedAt": "05/15 17:09",
         "score": 5
       }
     ],
     "macro": [
       {
-        "title": "제롬 파월 연준의장 마지막 날: 내일 무엇을 볼 것인가",
-        "description": "Yahoo Finance의 Josh Lipton은 Cerebras(CBRS)의 두 번째 거래일인 5월 15일 금요일을 포함하여 투자자들이 볼 수 있는 주요 뉴스를 살펴봅니다.",
-        "url": "https://finance.yahoo.com/video/jerome-powells-last-day-fed-213000127.html?.tsrc=rss",
+        "title": "유가 상승은 인플레이션을 두 배로 증가시킬 것으로 예상됩니다: 전문가들은 경제적 영향을 예측합니다",
+        "description": "숫자를 살펴보세요: 오늘날 경제 뉴스의 눈에 띄는 인물",
+        "url": "https://www.investopedia.com/iran-war-doubled-inflation-rate-forecasters-say-11976284?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 06:30",
-        "score": 5
-      },
-      {
-        "title": "시장이 연방준비은행 금리 경로에 무게를 두면서 금 하락",
-        "description": "(블룸버그) -- 이번 주 미국 데이터가 전쟁으로 인한 인플레이션 급등을 보여준 후 투자자들이 연준의 금리 경로에 무게를 두면서 금은 하락했습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-steady-climbing-us-060718980.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/15 05:49",
-        "score": 5
-      },
-      {
-        "title": "TSX 마감: 캐나다 연방 정부가 경제 전반에 걸쳐 부양책을 마련함에 따라 지수는 상승 마감",
-        "description": "토론토 증권 거래소는 목요일에 상승세로 마감했으며 대부분의 부문이 캐나다 연방 지수로 상승했습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/tsx-closer-index-closes-higher-201732801.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/15 05:17",
+        "publishedAt": "05/16 04:48",
         "score": 1
       },
       {
-        "title": "강력한 1분기 실적 성장은 경제에 대해 무엇을 말합니까?",
-        "description": "우리는 기술, 에너지, 소매 부문의 경제 상황과 수익 전망에 대해 논의합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/does-strong-q1-earnings-growth-201500452.html?.tsrc=rss",
+        "title": "교차로의 매크로 지표. 다우 인더스트리얼스, 소형주, 10년 수익률 차트가 이야기를 들려줍니다.",
+        "description": "이자율, 경제 성장 기대, 인플레이션 추세 및 신용 상태는 종종 시장의 어느 부분이 주도하고 어느 부분이 하락할지를 결정합니다.",
+        "url": "https://finance.yahoo.com/m/46f48d03-6ca6-330d-8d38-4d94bffdd344/macro-indicators-at-a.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 05:15",
+        "publishedAt": "05/15 23:30",
         "score": 1
       },
       {
-        "title": "콜롬비아 최고 무역 관계자는 국가가 베네수엘라에 '보완 경제'를 구축하기를 원한다고 말했습니다.",
-        "description": "Sofia Cañón은 콜롬비아의 제조 야망, 중국 전략, 두 바다의 경쟁 우위에 대해 논의합니다.",
-        "url": "https://finance.yahoo.com/m/be403ba6-09d0-3750-92e5-f4b9465fcde6/a-top-colombian-trade.html?.tsrc=rss",
+        "title": "SocGen의 야간 경제 뉴스 요약",
+        "description": "Societe Generale은 금요일 초 경제 뉴스 요약에서 다음과 같이 지적했습니다. -- United Sta로 위험을 감수하세요",
+        "url": "https://finance.yahoo.com/economy/policy/articles/socgen-apos-overnight-economic-news-095824347.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 02:00",
+        "publishedAt": "05/15 18:58",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "트럼프가 시을 만나면서 재무부는 냉각되고 있다",
-        "description": "미국의 인플레이션 불안 속에서 트럼프 대통령이 중국의 시진핑을 만나면서 국채에 대한 수요가 밤새 상승하고 수익률은 하락했습니다. 주간 일자리",
-        "url": "https://finance.yahoo.com/m/2f32784a-15f7-30d1-9a7e-5b6cb24fce8c/treasury-yields-cool-down-as.html?.tsrc=rss",
+        "title": "호르무즈 재개 일정에 대한 불확실성으로 인해 국채 수익률이 높아지면서 미국 주가 지수가 하락했습니다.",
+        "description": "미국 주가지수는 호해협 재개 일정에 대한 불확실성이 지속되면서 하락했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-uncertainty-204734654.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/14 21:50",
+        "publishedAt": "05/16 05:47",
         "score": 8
+      },
+      {
+        "title": "업데이트: 인플레이션 우려로 USD와 재무부가 급등하면서 금 하락",
+        "description": "(가격 업데이트) 금은 달러와 수익률이 상승함에 따라 금요일 오후 중반에 낮게 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-usd-treasury-yields-180138422.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/16 03:01",
+        "score": 8
+      },
+      {
+        "title": "치솟는 국채수익률이 주식시장을 불안하게 만드는 이유",
+        "description": "국채 수익률 상승은 글로벌 주식을 압박하고 투자자들로 하여금 인플레이션 및 연준 금리 인하에 대한 기대를 다시 생각하게 만들고 있습니다.",
+        "url": "https://finance.yahoo.com/m/780529fa-0669-32d8-8677-5fa38ea7b6b9/why-soaring-treasury-yields.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/15 23:00",
+        "score": 8
+      },
+      {
+        "title": "인플레이션 우려로 USD와 재무부가 급등하면서 금 하락",
+        "description": "금은 인플레이션에 대한 우려로 달러화와 수익률이 상승하면서 금요일 초반 급락세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-usd-treasury-yields-132228331.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/15 22:22",
+        "score": 8
+      },
+      {
+        "title": "교차로의 매크로 지표. 다우 인더스트리얼스, 소형주, 10년 수익률 차트가 이야기를 들려줍니다.",
+        "description": "이자율, 경제 성장 기대, 인플레이션 추세 및 신용 상태는 종종 시장의 어느 부분이 주도하고 어느 부분이 하락할지를 결정합니다.",
+        "url": "https://finance.yahoo.com/m/46f48d03-6ca6-330d-8d38-4d94bffdd344/macro-indicators-at-a.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/15 23:30",
+        "score": 5
       }
     ],
     "commodities": [
       {
-        "title": "원유 가격은 달러 강세로 하락",
-        "description": "6월 WTI 원유(CLM26)는 오늘 -0.19(-0.19%) 하락했고, 6월 RBOB 휘발유(RBM26)는 -0.0534(-1.48%) 하락했습니다. 원유와 휘발유 가격은",
-        "url": "https://www.barchart.com/story/news/1936179/crude-oil-prices-slip-on-dollar-strength?.tsrc=rss",
+        "title": "중국 회의에 대한 미국의 성명이 공급 문제에 다시 초점을 맞추면서 원유 가격이 급등했습니다.",
+        "description": "도널드 트럼프 미국 대통령과 시진핑 중국 국가주석의 발언으로 유가가 급등했다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/crude-oil-prices-surge-u-095147693.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 00:35",
+        "publishedAt": "05/15 18:51",
         "score": 10
       },
       {
-        "title": "시장이 미중 회담 결과를 기다리면서 원유 가격이 상승",
-        "description": "시장이 미중 정상회담 결과를 기다리면서 목요일 원유 가격은 소폭 상승했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/crude-oil-prices-rise-market-095939280.html?.tsrc=rss",
+        "title": "TSX 클로저: 유가 상승과 인플레이션에 대한 우려로 지수가 급락하여 파이프라인 합의를 무색하게 함",
+        "description": "토론토 증권거래소는 상승하는 글로벌 채권 수익률로 인해 투자자들이 위축되면서 금요일 급락세로 마감했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/tsx-closer-index-plunges-concerns-202647601.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/14 18:59",
-        "score": 10
-      },
-      {
-        "title": "호르무즈 해협 6월 재개설 '컨센서스'에도 불구하고 유가 정체",
-        "description": "유가는 목요일 대체로 보합세를 보였지만 호르무즈 해협이 언제 열릴지에 대한 사람들의 생각이 바뀌기 시작했다.  “있는 것 같아요",
-        "url": "https://finance.yahoo.com/m/f66ebf89-174f-3455-81ce-702af6d323a9/oil-prices-stay-stuck-despite.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/15 05:20",
+        "publishedAt": "05/16 05:26",
         "score": 5
       },
       {
-        "title": "업데이트: 이란이 중국 선박의 호르무즈 해협 통과를 허용했다는 보도에도 불구하고 WTI 석유 가격 상승",
-        "description": "이란이 석유를 허용했다는 보도에도 불구하고 서부텍사스산 중질유(WTI)가 목요일 상승세를 보였다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-edges-despite-reports-183803361.html?.tsrc=rss",
+        "title": "글로벌 채권 수익률은 인플레이션과 유가로 인해 수년래 최고치를 기록했습니다.",
+        "description": "미국 30년 만기 국채 수익률은 이란의 전쟁 에너지 비용이 뜨거운 인플레이션 데이터를 악화시키면서 2025년 이후 최고치를 기록했습니다.",
+        "url": "https://qz.com/global-bond-yields-surge-inflation-oil-prices-051526?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 03:38",
+        "publishedAt": "05/16 05:05",
         "score": 5
       },
       {
-        "title": "캐나다의 에너지 분지: 육상, 해상, 개척지 및 향후 계획",
-        "description": "(석유 및 가스 360 작성) 파트 II – 파트 I이 캐나다가 건설한 것에 관한 것이라면 파트 II는 […]",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/canada-energy-basins-onshore-offshore-213023914.html?.tsrc=rss",
+        "title": "트럼프의 중국 방문이 호르무즈를 재개하지 못하면서 유가가 주간 상승세를 기록했습니다.",
+        "description": "백악관 성명에 따르면 양국은 호르무즈 해협을 계속 개방해야 한다는 데 동의했다.",
+        "url": "https://finance.yahoo.com/m/39f2fc96-dc21-34c9-9645-2e1bcf585e7c/oil-prices-notch-weekly-gain.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 06:30",
-        "score": 3
+        "publishedAt": "05/16 04:53",
+        "score": 5
+      },
+      {
+        "title": "유가 상승은 인플레이션을 두 배로 증가시킬 것으로 예상됩니다: 전문가들은 경제적 영향을 예측합니다",
+        "description": "숫자를 살펴보세요: 오늘날 경제 뉴스의 눈에 띄는 인물",
+        "url": "https://www.investopedia.com/iran-war-doubled-inflation-rate-forecasters-say-11976284?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/16 04:48",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "유한양행, 렉라자 유럽 상업화 마일스톤 3000만달러 수령",
+        "title": "'팔천피'에 취한 사이…어느새 원·달러 환율 1500원 [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/202605146328i",
+        "url": "https://www.hankyung.com/article/2026051593986",
         "source": "hankyung.com",
-        "publishedAt": "05/14 13:44",
+        "publishedAt": "05/15 17:29",
+        "score": 8
+      },
+      {
+        "title": "억만장자가 가장 많은 유럽 국가는 어디이며, 각 국가에는 몇 명이 있습니까?",
+        "description": "유럽에는 전 세계 억만장자의 5분의 1 이상이 살고 있습니다. 독일은 대륙을 선도하며 억만장자 수에서 세계 4위를 차지합니다.유로 보기",
+        "url": "https://www.euronews.com/2025/10/08/which-european-countries-have-the-most-billionaires-and-how-many-are-in-each?utm_source=yahoo&utm_campaign=feeds_business_articles_2024&utm_medium=referral&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/15 23:00",
         "score": 3
       },
       {
-        "title": "업데이트: 미국 소매 판매 데이터에 따라 달러 가치가 상승함에 따라 금 거래가 하락했습니다.",
-        "description": "(가격 업데이트.) 보고서가 나온 후 달러가 상승하면서 금은 목요일 오후 중반 하락했습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-trading-lower-dollar-rises-180013401.html?.tsrc=rss",
+        "title": "석유, 금리 하락 유럽 증권 거래소 정오",
+        "description": "거래자들이 유가 상승과 금리 상승을 모니터링함에 따라 유럽 증권 거래소는 금요일 정오 하락을 추적했습니다.",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/oil-interest-rates-damp-european-115103966.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 03:00",
-        "score": 1
+        "publishedAt": "05/15 20:51",
+        "score": 3
       },
       {
-        "title": "달러 강세 압력 커피 가격",
-        "description": "7월 아라비카 커피(KCN26 )는 오늘 -5.00(-1.78%) 하락했고, 7월 ICE 로부스타 커피(RMN26 )는 -77(-2.16%) 하락했습니다. 커피 가격이 후퇴하고 있습니다.",
-        "url": "https://www.barchart.com/story/news/1936398/dollar-strength-pressures-coffee-prices?.tsrc=rss",
+        "title": "Wall Street Pre-Bell에서 직기를 매각합니다. 아시아, 유럽 꺼짐",
+        "description": "월스트리트 선물은 유가 상승과 금리가 완화됨에 따라 금요일 프리벨 하락을 지적했습니다.",
+        "url": "https://finance.yahoo.com/markets/articles/sell-off-looms-wall-street-112335078.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 00:46",
-        "score": 1
+        "publishedAt": "05/15 20:23",
+        "score": 3
       },
       {
-        "title": "원유 가격은 달러 강세로 하락",
-        "description": "6월 WTI 원유(CLM26)는 오늘 -0.19(-0.19%) 하락했고, 6월 RBOB 휘발유(RBM26)는 -0.0534(-1.48%) 하락했습니다. 원유와 휘발유 가격은",
-        "url": "https://www.barchart.com/story/news/1936179/crude-oil-prices-slip-on-dollar-strength?.tsrc=rss",
+        "title": "RBC Capital Markets는 USD/CAD 편향이 1.3500-1.3900 범위의 상단으로 치우쳐 있다고 말합니다",
+        "description": "RBC Capital Markets은 USD/CAD가 예상 범위인 1.3500 내에서 계속 거래될 것으로 예상한다고 밝혔습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/rbc-capital-markets-says-usd-195705519.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 00:35",
-        "score": 1
-      },
-      {
-        "title": "미국 달러는 실업수당 청구, 소매 판매, 수입 가격에 앞서 목요일 오전 상승합니다.",
-        "description": "미국 달러는 바쁜 경제 상황을 앞두고 목요일 오전 주요 무역 상대국 대비 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-thursday-113145520.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/14 20:31",
+        "publishedAt": "05/16 04:57",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "호르무즈 해협 6월 재개설 '컨센서스'에도 불구하고 유가 정체",
-        "description": "유가는 목요일 대체로 보합세를 보였지만 호르무즈 해협이 언제 열릴지에 대한 사람들의 생각이 바뀌기 시작했다.  “있는 것 같아요",
-        "url": "https://finance.yahoo.com/m/f66ebf89-174f-3455-81ce-702af6d323a9/oil-prices-stay-stuck-despite.html?.tsrc=rss",
+        "title": "업데이트: 호르무즈 해협 재개에 대한 희미한 희망으로 WTI 유가 상승",
+        "description": "서부텍사스산 중질유(WTI)는 미국에 대한 희망이 사라지면서 금요일 4.2% 상승했다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-rises-fading-hopes-183713295.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 05:20",
+        "publishedAt": "05/16 03:37",
         "score": 5
       },
       {
-        "title": "업데이트: 이란이 중국 선박의 호르무즈 해협 통과를 허용했다는 보도에도 불구하고 WTI 석유 가격 상승",
-        "description": "이란이 석유를 허용했다는 보도에도 불구하고 서부텍사스산 중질유(WTI)가 목요일 상승세를 보였다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-edges-despite-reports-183803361.html?.tsrc=rss",
+        "title": "석유 급등, 높은 수익률, 지정학적 불확실성으로 인해 Exchange-Traded Funds, 주식 선물이 Pre-Bell Friday를 낮추었습니다.",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.9% 하락했으며 활발한 거래가 이루어졌습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131414580.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 03:38",
-        "score": 5
+        "publishedAt": "05/15 22:14",
+        "score": 4
       },
       {
-        "title": "이란이 중국 선박의 호르무즈 해협 통과를 허용했다는 보도 이후 석유 거래 감소",
-        "description": "이란이 중국 선박의 세인트루이스 통과를 허용했다는 보도 이후 유가는 목요일 오전부터 하락세를 보였습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-trading-lower-reports-iran-124445003.html?.tsrc=rss",
+        "title": "Jim Cramer는 중국 베팅이 아닌 가치 평가를 위해 Nvidia를 구매한다고 말했습니다. Intel 및 AMD보다 주식 거래가 저렴합니다.",
+        "description": "Jim Cramer는 Mad Money Friday에서 직관에 반하는 말을 했습니다. “당신은 중국을 위해서가 아니라 Cerebras IPO 때문이 아니라 NVIDIA를 구매하는 이유가 무엇입니까?",
+        "url": "https://247wallst.com/investing/2026/05/15/jim-cramer-says-buy-nvidia-for-valuation-not-china-bet-stock-trades-cheaper-than-intel-and-amd/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/14 21:44",
-        "score": 5
+        "publishedAt": "05/16 06:34",
+        "score": 1
       },
       {
-        "title": "시진핑, 대만 갈등 경고. 이 주식은 무너질 수 있습니다.",
-        "description": "Taiwan Semiconductor Manufacturing은 AI 붐의 중심에 있으며 시장 가치가 약 30조 달러에 달하는 기업을 섬의 Chi와 연결합니다.",
-        "url": "https://finance.yahoo.com/m/e4d1c03c-3fd2-371c-b8ae-4e72f7d691c2/xi-warns-of-taiwan-conflict..html?.tsrc=rss",
+        "title": "트럼프의 3,700건 이상의 거래, 월스트리트 내부자들을 놀라게 하다",
+        "description": "(블룸버그) -- 도널드 트럼프 대통령의 최근 재무 공개에 따르면 그와 그의 투자 고문들은 첫해에 3,700건 이상의 거래를 한 것으로 나타났다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trump-traded-nvidia-boeing-intel-030913697.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 04:41",
-        "score": 2
+        "publishedAt": "05/16 05:44",
+        "score": 1
       },
       {
-        "title": "석유 선물은 범위 내 거래에서 1인치 더 높아졌습니다.",
-        "description": "트럼프 대통령과 시진핑 대통령이 회담하는 동안 호르무즈 해협 통제를 주장하는 이란과의 횡보 무역 세션에서 원유 선물이 상승했습니다.",
-        "url": "https://finance.yahoo.com/m/902b1e43-6086-3d86-8dfe-dccd7b0a8c57/oil-futures-inch-higher-in.html?.tsrc=rss",
+        "title": "Fed-Cut 희망이 사라지면서 금은 $ 4,550로 하락",
+        "description": "즐거운 금요일 되세요, 상인 여러분. 시장 뉴스에 초점을 맞춰 지난 5거래일을 되돌아보는 주간 시장 랩에 오신 것을 환영합니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-toward-4-550-201103107.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 04:43",
+        "publishedAt": "05/16 05:11",
         "score": 1
       }
     ],
     "tech": [
       {
+        "title": "Jim Cramer는 중국 베팅이 아닌 가치 평가를 위해 Nvidia를 구매한다고 말했습니다. Intel 및 AMD보다 주식 거래가 저렴합니다.",
+        "description": "Jim Cramer는 Mad Money Friday에서 직관에 반하는 말을 했습니다. “당신은 중국을 위해서가 아니라 Cerebras IPO 때문이 아니라 NVIDIA를 구매하는 이유가 무엇입니까?",
+        "url": "https://247wallst.com/investing/2026/05/15/jim-cramer-says-buy-nvidia-for-valuation-not-china-bet-stock-trades-cheaper-than-intel-and-amd/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/16 06:34",
+        "score": 9
+      },
+      {
         "title": "인텔이 엔비디아나 TSMC보다 보잉에 더 가까운 이유",
         "description": "Intel의 턴어라운드 스토리는 투자자들이 단기 이익보다는 장기 이익에 더 집중하기 때문에 Boeing을 Nvidia나 TSMC보다 더 나은 비교로 만들 수 있습니다.",
         "url": "https://finance.yahoo.com/m/fa103316-010c-3bd0-995b-585f4e95a0ca/why-intel-is-more-like-boeing.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 05:17",
+        "publishedAt": "05/15 17:58",
         "score": 9
       },
       {
-        "title": "Broadcom 대 Taiwan Semiconductor: 현재 어느 AI 칩 거대 기업이 더 나은 구매입니까?",
-        "description": "두 회사 모두 AI 구축에 매우 중요합니다. 그러나 성장 프로필과 주문서는 구매를 더욱 매력적으로 만듭니다.",
-        "url": "https://www.fool.com/investing/2026/05/14/broadcom-vs-taiwan-semiconductor-which-ai-chip-gia/?.tsrc=rss",
+        "title": "Nvidia 수익만으로는 S&P 500을 새로운 매도 신호에서 구출할 수 없습니다",
+        "description": "과매수 경고는 대규모 기술 및 소매 수익 라인업에 앞서 나옵니다.",
+        "url": "https://www.marketwatch.com/story/nvidia-earnings-alone-wont-rescue-the-s-p-500-from-its-new-sell-signal-5a41acc3?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 04:07",
+        "publishedAt": "05/15 12:11",
         "score": 8
       },
       {
-        "title": "어플라이드 머티어리얼즈, NEXX 패키징 인수로 AI 칩 역할 확장",
-        "description": "Applied Materials(NasdaqGS:AMAT)는 ASMPT의 NEXX 사업을 인수하여 자사 포트폴리오에 고급 패널 레벨 패키징 도구를 추가합니다. 거래는 직접적이다",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/applied-materials-extends-ai-chip-201231859.html?.tsrc=rss",
+        "title": "Rocket Lab, SpaceX IPO 보고서에 이어 57%의 이익으로 우주 랠리 주도",
+        "description": "지난 3월 SpaceX의 IPO 소식이 전해진 이후 우주 관련 주식은 상승세를 보이고 있으며 이러한 상승세는 멈출 기미를 보이지 않습니다.",
+        "url": "https://www.fool.com/investing/2026/05/14/rocket-lab-leads-space-rally-with-57-gain-followin/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/15 05:12",
-        "score": 7
+        "publishedAt": "05/15 07:25",
+        "score": 8
       },
       {
-        "title": "SpaceX의 대규모 IPO에 앞서 Rocket Lab과 3개의 추가 우주 주식을 매입할 예정",
-        "description": "뉴스트리트리서치는 수요일 10개 우주주에 대한 취재를 시작했다. 브로커는 주식 4개 매수에 전화를 겁니다.",
-        "url": "https://finance.yahoo.com/m/c10ece3e-476a-349d-9e78-d7c5a5214b8f/rocket-lab-and-3-more-space.html?.tsrc=rss",
+        "title": "Cathie Wood는 기록적인 실행 후 뜨거운 AI 칩 거인에서 수백만 달러를 덤프했습니다.",
+        "description": "Cathie Wood가 사상 최고치로 TSMC를 매각했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-dumps-millions-red-150426620.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/14 21:41",
+        "publishedAt": "05/16 00:04",
         "score": 7
-      },
-      {
-        "title": "Palantir가 지원하는 Ondas 주식이 급등합니다. 자율 드론 회사, 매출 1,065% 증가",
-        "description": "자율 드론 회사와 Palantir 파트너가 1분기 매출 급증을 보고한 후 Ondas 주가가 급등했습니다. 회사는 또한 연간 수익을 높입니다.",
-        "url": "https://finance.yahoo.com/m/8102ea99-a654-36aa-a771-6f0982af6df7/palantir-backed-ondas-stock.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/15 06:03",
-        "score": 6
       }
     ]
   }
