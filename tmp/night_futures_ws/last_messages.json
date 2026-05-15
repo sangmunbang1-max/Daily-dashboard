@@ -1,6 +1,6 @@
 [
   {
-    "received_at_kst": "2026-05-15T05:53:17.299044+09:00",
+    "received_at_kst": "2026-05-15T20:22:39.950611+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -15,14 +15,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "a699fcc8fde39753",
-          "key": "uwhdsdnlrrfokhgdkfyklfaoqobljiqg"
+          "iv": "f9e48a6a707b9373",
+          "key": "wzousdcumtznxpqauqzrndxlhnlfccia"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-05-15T05:53:17.535258+09:00",
+    "received_at_kst": "2026-05-15T20:22:40.183431+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -37,14 +37,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "a699fcc8fde39753",
-          "key": "uwhdsdnlrrfokhgdkfyklfaoqobljiqg"
+          "iv": "f9e48a6a707b9373",
+          "key": "wzousdcumtznxpqauqzrndxlhnlfccia"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-05-15T05:53:17.535357+09:00",
+    "received_at_kst": "2026-05-15T20:22:40.183530+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFASP0",
@@ -59,22 +59,68 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "a699fcc8fde39753",
-          "key": "uwhdsdnlrrfokhgdkfyklfaoqobljiqg"
+          "iv": "f9e48a6a707b9373",
+          "key": "wzousdcumtznxpqauqzrndxlhnlfccia"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-05-15T05:53:27.367824+09:00",
+    "received_at_kst": "2026-05-15T20:22:47.286184+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
-    "msg_type": "ack",
-    "tr_id": "PINGPONG",
+    "msg_type": "trade",
+    "tr_id": "H0MFCNT0",
+    "symbol": "A01606",
     "parsed": {
-      "header": {
-        "tr_id": "PINGPONG",
-        "datetime": "20260515055327"
-      }
+      "FUTS_SHRN_ISCD": "A01606",
+      "BSOP_HOUR": "202247",
+      "FUTS_PRDY_VRSS": "-1.35",
+      "PRDY_VRSS_SIGN": "5",
+      "FUTS_PRDY_CTRT": "-0.12",
+      "FUTS_PRPR": "1171.35",
+      "FUTS_OPRC": "1165.30",
+      "FUTS_HGPR": "1176.60",
+      "FUTS_LWPR": "1158.05",
+      "LAST_CNQN": "1",
+      "ACML_VOL": "7458",
+      "ACML_TR_PBMN": "2172741937",
+      "HTS_THPR": "1162.39",
+      "MRKT_BASIS": "8.96",
+      "DPRT": "0.77",
+      "NMSC_FCTN_STPL_PRC": "0.00",
+      "FMSC_FCTN_STPL_PRC": "0.00",
+      "SPEAD_PRC": "8.15",
+      "HTS_OTST_STPL_QTY": "193186",
+      "OTST_STPL_QTY_ICDC": "167",
+      "OPRC_HOUR": "000000",
+      "OPRC_VRSS_PRPR_SIGN": "2",
+      "OPRC_VRSS_NMIX_PRPR": "6.05",
+      "HGPR_HOUR": "000000",
+      "HGPR_VRSS_PRPR_SIGN": "5",
+      "HGPR_VRSS_NMIX_PRPR": "-5.25",
+      "LWPR_HOUR": "000000",
+      "LWPR_VRSS_PRPR_SIGN": "2",
+      "LWPR_VRSS_NMIX_PRPR": "13.30",
+      "SHNU_RATE": "0.52",
+      "CTTR": "110.07",
+      "ESDG": "8.96",
+      "OTST_STPL_RGBF_QTY_ICDC": "-2",
+      "THPR_BASIS": "0.00",
+      "FUTS_ASKP1": "1171.45",
+      "FUTS_BIDP1": "1171.15",
+      "ASKP_RSQN1": "1",
+      "BIDP_RSQN1": "2",
+      "SELN_CNTG_CSNU": "2870",
+      "SHNU_CNTG_CSNU": "3004",
+      "NTBY_CNTG_CSNU": "134",
+      "SELN_CNTG_SMTN": "3537",
+      "SHNU_CNTG_SMTN": "3893",
+      "TOTAL_ASKP_RSQN": "462",
+      "TOTAL_BIDP_RSQN": "1566",
+      "PRDY_VOL_VRSS_ACML_VOL_RATE": "37.93",
+      "DYNM_MXPR": "1194.80",
+      "DYNM_LLAM": "1147.90",
+      "DYNM_PRC_LIMT_YN": "2"
     }
   }
 ]
