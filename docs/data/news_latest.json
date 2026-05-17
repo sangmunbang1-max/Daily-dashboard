@@ -1,252 +1,309 @@
 {
-  "generated_at_kst": "2026-05-17 08:25 KST",
-  "period": "05/16 07:00 ~ 05/17 07:00 KST",
+  "generated_at_kst": "2026-05-18 08:29 KST",
+  "period": "05/17 07:00 ~ 05/18 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "채권금리 급등·'빈손' 미중 정상회담에 하락…나스닥 1.5%↓ [뉴욕증시 브리핑]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026051604807",
-        "source": "hankyung.com",
-        "publishedAt": "05/16 07:30",
-        "score": 8
-      },
-      {
-        "title": "지배력 발견: 이 놀라운 투자는 꾸준하고 인상적인 이익으로 S&P 500을 능가합니다.",
-        "description": "산업용 REIT 부문은 1994년부터 2025년까지 연평균 13.5%의 수익률을 제공했습니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/this-surprising-investment-outshines-sp500/?.tsrc=rss",
+        "title": "트럼프 대통령은 케빈 워시(Kevin Warsh) 연준 의장의 계획에 큰 타격을 가했고, 이는 현재의 강세장을 무너뜨릴 수도 있습니다.",
+        "description": "워시는 연준 정책에 영향을 미치려고 줄타기를 하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/17/president-trump-threw-a-wrench-in-kevin-warshs-pla/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 01:05",
-        "score": 6
-      },
-      {
-        "title": "케빈 워시가 있습니다. 제롬 파월이 아웃되었습니다. 새로운 Fed 의장이 트럼프의 강세장에 미치는 영향은 다음과 같습니다.",
-        "description": "케빈 워시(Kevin Warsh)가 연방준비제도(Fed) 의장을 맡고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/kevin-warsh-is-in-jerome-powell-is-out-heres-what/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/17 03:50",
+        "publishedAt": "05/18 06:20",
         "score": 5
       },
       {
-        "title": "전문 펀드 매니저의 90%가 S&P 500에서 패하는 이유. 효과적인 전략은 다음과 같습니다.",
-        "description": "전문 자금 관리에서 가장 불편한 사실은 S&P 다우존스 지수를 통해 밝혀졌습니다. 액티브 펀드 매니저의 90%가 수익률이 저조했습니다.",
-        "url": "https://247wallst.com/investing/2026/05/16/why-90-of-professional-fund-managers-lose-to-the-sp-500-heres-the-one-strategy-that-works/?.tsrc=rss",
+        "title": "월스트리트가 아직 완전히 가격을 책정하지 않은 AI 주식은 10년 먼저 시작했습니다.",
+        "description": "Alphabet은 10여년 전에 개발한 TPU를 통해 큰 이점을 갖고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/17/the-ai-stock-with-a-10-year-head-start-that-wall-s/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/16 18:13",
-        "score": 5
-      },
-      {
-        "title": "주식 시장 주간 전망: Nvidia, Alphabet, Atlanta Fed가 한 주를 주도했습니다.",
-        "description": "주식 시장 투자자들은 Nvidia 수익과 Google I/O 컨퍼런스는 물론 애틀랜타 연방준비제도(Fed)의 주요 컨퍼런스를 기다리고 있습니다.",
-        "url": "https://finance.yahoo.com/m/fdb57847-743e-3d47-99ac-7ac8f6a24107/stock-market-week-ahead%3A.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/16 21:28",
+        "publishedAt": "05/18 04:35",
         "score": 4
+      },
+      {
+        "title": "뉴욕·상하이 증시, 엔비디아·월마트·타깃 실적발표",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026051718771",
+        "source": "hankyung.com",
+        "publishedAt": "05/17 17:42",
+        "score": 3
+      },
+      {
+        "title": "AngloGold Ashanti(AU)는 20억 달러 규모의 자사주 매입 계획 및 안전 조사 이후 13.8% 하락했습니다. 상승 추세가 바뀌었나요?",
+        "description": "이달 초 AngloGold Ashanti plc는 2026년 1분기 금 생산량이 724,000온스이고 순이익이 12억 8천만 달러에 달하는 결과를 보고했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/anglogold-ashanti-au-down-13-231117420.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/17 08:11",
+        "score": 3
+      },
+      {
+        "title": "에릭 트럼프는 가족 자산이 '광범위한 시장 지수'에 투자했다고 밝혔습니다. 트럼프 자신의 공개에는 3,642건의 개별 거래가 나열되어 있습니다.",
+        "description": "새로운 연방 서류에 따르면 대통령은 2026년 첫 3개월 동안 수천 건의 주식 거래를 실행했으며, 여기에는 타이밍이 c인 구매도 포함됩니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/eric-trump-says-family-assets-192500434.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/18 04:25",
+        "score": 2
       }
     ],
     "kr_market": [
       {
-        "title": "총파업 D-3…삼성전자 노사, 18일 중노위 재협상 나선다 [종합]",
+        "title": "대기업 1분기 영업익 156조…삼성전자·SK하이닉스가 60%",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051608397",
+        "url": "https://www.hankyung.com/article/2026051711447",
         "source": "hankyung.com",
-        "publishedAt": "05/16 16:43",
+        "publishedAt": "05/17 07:52",
+        "score": 10
+      },
+      {
+        "title": "반도체 랠리에 코스피 시총 6000조 돌파…수도권 집값도 넘어섰다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026051822427",
+        "source": "hankyung.com",
+        "publishedAt": "05/18 06:53",
         "score": 5
       },
       {
-        "title": "삼성전자 노조, 18일 성과급 교섭 재개…사측 협상자 교체",
+        "title": "삼성전자 노사, 총파업 사흘 앞 막판 조정…성과급 갈등 분수령",
         "description": "",
-        "url": "https://www.hankyung.com/article/202605160809i",
+        "url": "https://www.hankyung.com/article/2026051821917",
         "source": "hankyung.com",
-        "publishedAt": "05/16 15:52",
+        "publishedAt": "05/18 06:06",
         "score": 5
       },
       {
-        "title": "[속보] 삼성전자 노조 \"사측 대표교섭위원 교체…노사 미팅 예정\"",
+        "title": "삼성전자부터 스타트업까지…국민성장펀드 투자기업은",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051608057",
+        "url": "https://www.hankyung.com/article/2026051718321",
         "source": "hankyung.com",
-        "publishedAt": "05/16 15:47",
+        "publishedAt": "05/17 19:03",
         "score": 5
       },
       {
-        "title": "삼성전자 경영진 만난 노동장관 \"대화 적극 나서달라\"",
+        "title": "이재용 '한 가족' 절박한 호소…삼성전자 노사 '최후 담판'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051607617",
+        "url": "https://www.hankyung.com/article/2026051719401",
         "source": "hankyung.com",
-        "publishedAt": "05/16 14:50",
-        "score": 5
-      },
-      {
-        "title": "\"삼성전자, 메모리 600%·파운드리 50∼100% 성과급 제안\" 로이터 보도 나왔다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026051607187",
-        "source": "hankyung.com",
-        "publishedAt": "05/16 13:35",
+        "publishedAt": "05/17 17:47",
         "score": 5
       }
     ],
     "macro": [
       {
-        "title": "케빈 워시가 있습니다. 제롬 파월이 아웃되었습니다. 새로운 Fed 의장이 트럼프의 강세장에 미치는 영향은 다음과 같습니다.",
-        "description": "케빈 워시(Kevin Warsh)가 연방준비제도(Fed) 의장을 맡고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/kevin-warsh-is-in-jerome-powell-is-out-heres-what/?.tsrc=rss",
+        "title": "트럼프 대통령은 케빈 워시(Kevin Warsh) 연준 의장의 계획에 큰 타격을 가했고, 이는 현재의 강세장을 무너뜨릴 수도 있습니다.",
+        "description": "워시는 연준 정책에 영향을 미치려고 줄타기를 하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/17/president-trump-threw-a-wrench-in-kevin-warshs-pla/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 03:50",
+        "publishedAt": "05/18 06:20",
         "score": 5
       },
       {
-        "title": "앞으로 몇 년 동안 월스트리트에 울려 퍼지게 될 제롬 파월 현 전 연준 의장의 6가지 말",
-        "description": "연준 의장이 주식 가치 평가에 대해 의견을 개진하는 경우는 매우 드물며, 이런 일이 발생하더라도 무시해서는 안 됩니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/6-word-former-fed-chair-jerome-powell-echo-wall-st/?.tsrc=rss",
+        "title": "TRX Gold Corporation (TRX): 중앙 은행이 금괴를 매입함에 따라 매입할 최고의 금 채굴 주식 10개",
+        "description": "0.68%라는 인상적인 짧은 주식 비율을 보유한 TRX Gold Corporation(NYSEAMERICAN:TRX)은 10대 금 채굴 주식 중 하나입니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/trx-gold-corporation-trx-10-194607274.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/16 22:26",
-        "score": 5
+        "publishedAt": "05/18 04:46",
+        "score": 3
       },
       {
-        "title": "Wolfe Research는 유가가 계속 상승함에 따라 중앙은행의 위험을 지적합니다.",
-        "description": "울프 리서치(Wolfe Research)는 이란 분쟁과 관련된 유가 상승이 주요 글로벌 중앙은행의 정책 실수 위험을 증가시킬 수 있다고 경고했습니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/28482/wolfe-research-flags-central-bank-risks-as-oil-prices-stay-elevated?.tsrc=rss",
+        "title": "AngloGold Ashanti plc(AU)가 중앙 은행이 금괴를 매입함에 따라 매입해야 할 최고의 금 채굴 주식 10개 중 하나인 이유는 다음과 같습니다.",
+        "description": "발행 주식 비율이 0.73%로 매우 짧은 AngloGold Ashanti plc(NYSE:AU)는 매수해야 할 최고의 금 채굴 주식 10개 중 하나입니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/why-anglogold-ashanti-plc-au-194557279.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/16 20:21",
+        "publishedAt": "05/18 04:45",
+        "score": 3
+      },
+      {
+        "title": "Barrick Mining Corporation(B)은 중앙 은행이 금괴를 매입함에 따라 매입할 최고의 금광업 주식 10개 중 하나입니까?",
+        "description": "0.73%라는 인상적인 짧은 발행 주식 비율을 보유한 Barrick Mining Corporation(NYSE:B)은 매수해야 할 최고의 금 채굴 주식 10개 중 하나입니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/barrick-mining-corporation-b-among-192208811.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/18 04:22",
+        "score": 3
+      },
+      {
+        "title": "중동戰 지속…4월 생산자물가 얼마나 올랐을까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026051718761",
+        "source": "hankyung.com",
+        "publishedAt": "05/17 18:50",
         "score": 3
       }
     ],
     "bonds": [
       {
-        "title": "채권금리 급등·'빈손' 미중 정상회담에 하락…나스닥 1.5%↓ [뉴욕증시 브리핑]",
+        "title": "미국 국채를 가장 많이 보유하고 있는 외국인들이 곧 국채를 버리고 돈을 본국으로 가져올 수 있어 차입 비용이 급증할 가능성이 있습니다.",
+        "description": "10년 및 30년 만기 JGB의 수익률은 1990년대 이후 최고 수준으로 치솟았고 중앙은행은 이후 5번째 긴축정책을 시행할 것으로 예상됩니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/top-foreign-holders-u-debt-172313041.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/18 02:23",
+        "score": 4
+      },
+      {
+        "title": "고물가에 빅테크 회사채도 급증…美 국채금리 '껑충'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051604807",
+        "url": "https://www.hankyung.com/article/2026051718961",
         "source": "hankyung.com",
-        "publishedAt": "05/16 07:30",
+        "publishedAt": "05/17 18:43",
+        "score": 3
+      },
+      {
+        "title": "환율·채권, 1500원 뚫린 환율…\"당분간 원화 약세\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026051718781",
+        "source": "hankyung.com",
+        "publishedAt": "05/17 18:43",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "원유 가격 급등은 냉혹한 현실 점검 신호",
-        "description": "최근 석유와 석유 정치는 우리 모두를 비참하게 만드는 나쁜 습관을 갖고 있습니다. 주말 내내 계속할 수도 있는 것처럼요. 원유가 급등, e",
-        "url": "https://www.thestreet.com/automotive/crude-oil-price-spike-sends-harsh-reality-check?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/17 01:03",
-        "score": 10
-      },
-      {
-        "title": "Wolfe Research는 유가가 계속 상승함에 따라 중앙은행의 위험을 지적합니다.",
-        "description": "울프 리서치(Wolfe Research)는 이란 분쟁과 관련된 유가 상승이 주요 글로벌 중앙은행의 정책 실수 위험을 증가시킬 수 있다고 경고했습니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/28482/wolfe-research-flags-central-bank-risks-as-oil-prices-stay-elevated?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/16 20:21",
-        "score": 5
-      },
-      {
-        "title": "'23조' 벌고도 직원 4000명 자르는 이유가…'무서운 경고'",
+        "title": "고유가 지원금 2차 신청 오늘부터 시작…최대 25만원",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026051608147",
+        "url": "https://www.hankyung.com/article/2026051822237",
         "source": "hankyung.com",
-        "publishedAt": "05/16 16:08",
+        "publishedAt": "05/18 06:29",
         "score": 5
       },
       {
-        "title": "Devon Energy 대 Chevron: 지금 당장 소유할 수 있는 더 나은 석유 주식은 다음과 같습니다.",
-        "description": "현재 유가가 높아 Devon Energy에는 큰 이점이 있지만 Chevron은 더 강력한 비즈니스 모델을 가질 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/devon-energy-vs-chevron-heres-the-better-oil-stock/?.tsrc=rss",
+        "title": "도둑들은 매년 10억 달러 상당의 텍사스 원유를 훔치기 위해 트럭을 복제하고 파이프라인을 폭파하고 있습니다.",
+        "description": "주에서는 도난을 막기 위한 조치를 취하고 있습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/thieves-cloning-trucks-blowing-pipelines-114500371.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 03:35",
+        "publishedAt": "05/17 20:45",
+        "score": 5
+      },
+      {
+        "title": "FNV(Franco-Nevada)의 금과 에너지 노출을 지켜볼 가치가 있는 이유",
+        "description": "1.55%라는 인상적인 짧은 주식 비율을 보유한 Franco-Nevada Corporation(NYSE:FNV)은 Bu의 10대 금 채굴 주식 중 하나입니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/why-franco-nevada-fnv-exposure-192106434.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/18 04:21",
         "score": 3
       },
       {
-        "title": "Valeura Energy 1분기 실적 발표 하이라이트",
-        "description": "Valeura Energy(TSE:VLE) 경영진은 회사의 2026년 연례 총회에서 주주들에게 태국에 초점을 맞춘 생산업체가 이익을 얻고 있다고 말했습니다.",
-        "url": "https://www.marketbeat.com/instant-alerts/valeura-energy-q1-earnings-call-highlights-2026-05-16/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "title": "2026년 1분기 결과 및 동남아시아 성장 진행 상황 이후 Valeura Energy의 가치 평가",
+        "description": "Valeura Energy(TSX:VLE)는 성장 스토리 뒤에 새로운 수치를 제시하여 고체 석유 생산과 긍정적인 측면을 결합한 2026년 1분기 결과를 보고했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-valeura-energy-valuation-q1-110929139.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 03:09",
+        "publishedAt": "05/17 20:09",
         "score": 3
       }
     ],
-    "fx": [],
+    "fx": [
+      {
+        "title": "환율·채권, 1500원 뚫린 환율…\"당분간 원화 약세\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026051718781",
+        "source": "hankyung.com",
+        "publishedAt": "05/17 18:43",
+        "score": 10
+      },
+      {
+        "title": "“실질적으로 동일한 효과”까지 규제…가상자산 외환법 논란 커진다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605171783i",
+        "source": "hankyung.com",
+        "publishedAt": "05/18 06:01",
+        "score": 3
+      },
+      {
+        "title": "유럽, 일본 및 미국인들이 무시하는 많은 주식을 위한 하나의 저비용 ETF",
+        "description": "미국 투자자들은 본국 문제를 안고 있습니다. 전 세계 시가총액의 약 60%가 미국 주식에 속해 있지만 대부분의 미국 중개 계좌는 미국 주식을 보유하고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/05/17/one-low-cost-etf-for-europe-japan-and-a-lot-of-stocks-americans-ignore/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/18 04:58",
+        "score": 3
+      },
+      {
+        "title": "ING Groep의 Fed 견해는 미국 달러와 외환 위험에 초점을 맞추고 있습니다",
+        "description": "ING Groep(ENXTAM:INGA)은 미국 연준의 정책 기대에 대한 새로운 분석을 발표했습니다. ING 통화 전략가는 최근 호키가 어떻게 거래되는지 강조했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/ing-groep-fed-view-puts-101033516.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/17 19:10",
+        "score": 2
+      }
+    ],
     "geopolitics": [
       {
-        "title": "위험한 통합인가 아니면 보상적인 수익인가? SoundHound의 LivePerson 인수에 따른 위험.",
-        "description": "SoundHound의 LivePerson 인수에 따른 단기 리스크가 주가를 짓누르고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/risky-integration-returns-soundhound-liveperson/?.tsrc=rss",
+        "title": "트럼프 대통령은 케빈 워시(Kevin Warsh) 연준 의장의 계획에 큰 타격을 가했고, 이는 현재의 강세장을 무너뜨릴 수도 있습니다.",
+        "description": "워시는 연준 정책에 영향을 미치려고 줄타기를 하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/17/president-trump-threw-a-wrench-in-kevin-warshs-pla/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 04:50",
+        "publishedAt": "05/18 06:20",
         "score": 1
       },
       {
-        "title": "케빈 워시가 있습니다. 제롬 파월이 아웃되었습니다. 새로운 Fed 의장이 트럼프의 강세장에 미치는 영향은 다음과 같습니다.",
-        "description": "케빈 워시(Kevin Warsh)가 연방준비제도(Fed) 의장을 맡고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/kevin-warsh-is-in-jerome-powell-is-out-heres-what/?.tsrc=rss",
+        "title": "에릭 트럼프는 가족 자산이 '광범위한 시장 지수'에 투자했다고 밝혔습니다. 트럼프 자신의 공개에는 3,642건의 개별 거래가 나열되어 있습니다.",
+        "description": "새로운 연방 서류에 따르면 대통령은 2026년 첫 3개월 동안 수천 건의 주식 거래를 실행했으며, 여기에는 타이밍이 c인 구매도 포함됩니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/eric-trump-says-family-assets-192500434.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 03:50",
+        "publishedAt": "05/18 04:25",
         "score": 1
       },
       {
-        "title": "NANC 거래자는 군중을 33포인트 차로 이겼고 그 차이는 계속 커지고 있습니다.",
-        "description": "두 가지 색다른 ETF는 전통적인 펀드 매니저들이 무시했던 정보 우위를 통해 수익을 창출할 것을 약속합니다. 특이한 고래의 전복적인 민주적 거래",
-        "url": "https://247wallst.com/investing/2026/05/16/nanc-traders-beat-the-crowd-by-33-points-and-the-difference-keeps-growing/?.tsrc=rss",
+        "title": "경험 많은 투자자는 '주식과 옵션은 잊어버리고 선물을 거래하세요'라고 말하며 '데이 트레이딩에 이상적인 상품'이라고 말합니다.",
+        "description": "많은 소매 거래자들은 변동성이 큰 주식 사이를 뛰어다니고, 뉴스 헤드라인을 쫓고, 어느 회사가 다음 번 주식을 만들 것인지 예측하려고 노력하며 하루를 보냅니다.",
+        "url": "https://finance.yahoo.com/markets/options/articles/forget-stocks-options-trade-futures-190035074.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 02:15",
+        "publishedAt": "05/18 04:00",
         "score": 1
       },
       {
-        "title": "워렌 버핏은 이 투자를 \"대부분의 사람들에게 옳은 일\"이라고 부릅니다. 1 Vanguard ETF는 자신의 주장을 완벽하게 해냅니다.",
-        "description": "버핏은 대부분의 투자자들이 포트폴리오에 최소한 작은 현금 포지션을 유지해야 한다고 제안합니다. 여기 그 일을 하는 Vanguard ETF가 있습니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/warren-buffett-investment-right-thing-investors/?.tsrc=rss",
+        "title": "왜 지금은 모두가 선물을 거래하는 것처럼 보일까요? 이것이 정말로 '모든 성공적인 트레이더를 위한 최종 게임'인가요?",
+        "description": "온라인 소매 거래 대화는 점점 더 하나의 거대한 선물 거래 컨벤션처럼 들립니다. Reddit, YouTube 또는 Discord 거래 gr을 스크롤하세요.",
+        "url": "https://finance.yahoo.com/markets/options/articles/why-does-seem-everybody-trades-133046678.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 01:50",
+        "publishedAt": "05/17 22:30",
         "score": 1
       },
       {
-        "title": "Chevron의 CEO는 1970년대 스타일의 석유 위기를 경고하고 있습니다. 이 3가지 에너지 주식은 여름 전에 급등할 수 있습니다.",
-        "description": "가스 라인에 갇히기 전에 Mike Wirth의 낙관적인 예측에서 이익을 얻는 방법은 다음과 같습니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/chevron-ceo-is-warning-of-a-1970s-style-oil-crisis/?.tsrc=rss",
+        "title": "HSBC, 2026년과 2027년 은 전망치를 상향 조정했지만 상승 여력은 제한적일 수 있다고 경고",
+        "description": "HSBC는 2026년과 2027년 모두 은 가격 전망을 높였지만, 은행은 계속해서 2020년 이후 귀금속 상승 여력이 제한적일 것으로 예상하고 있습니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/28488/hsbc-raises-silver-forecasts-for-2026-and-2027-but-warns-upside-may-be-limited?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 00:20",
+        "publishedAt": "05/17 20:30",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Rocket Lab은 로봇 공학의 변화가 확대된 가치 평가 위험을 충족함에 따라 Motiv를 인수합니다.",
-        "description": "로켓랩(Rocket Lab)이 우주 로봇공학 및 정밀 메커니즘 전문 기업인 모티브 스페이스 시스템즈(Motiv Space Systems)를 인수했다고 발표했습니다. 거래는 비행 증명을 가져옵니다",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-buys-motiv-robotics-201108663.html?.tsrc=rss",
+        "title": "NVIDIA SAP AI 푸시로 H200 칩에 대한 중국 수출 불확실성 충족",
+        "description": "NVIDIA와 SAP는 NVIDIA의 OpenShell 런타임과 NemoClaw 에이전트 청사진을 SAP의 엔터프라이즈용 AI 플랫폼에 통합하기 위해 파트너십을 확장하고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-sap-ai-push-meets-211406521.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/17 05:11",
-        "score": 7
-      },
-      {
-        "title": "SpaceX IPO는 약한 우주 주식을 '모호하게' 만들 수 있다고 Rocket Lab CFO는 말합니다.",
-        "description": "Rocket Lab Corp. CFO Adam Spice는 잠재적인 SpaceX IPO가 공개적으로 거래되는 우주 주식에 결정적인 순간이 될 수 있으며 투자자들이 분리를 강요할 수 있다고 말했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-ipo-could-put-weak-220226743.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/16 07:02",
-        "score": 7
-      },
-      {
-        "title": "SpaceX IPO가 6월 12일에 열립니다. 서두르지 말고 구매해야 하는 이유는 다음과 같습니다.",
-        "description": "수년 동안 투자자들은 민간 기업이 더 오랫동안 비상장 상태를 유지하는 것을 지켜봤고 월스트리트의 가장 큰 이익은 점점 더 벤처 캐피탈 기업에 돌아갔습니다.",
-        "url": "https://247wallst.com/investing/2026/05/16/the-spacex-ipo-is-coming-june-12-heres-why-you-shouldnt-rush-in-to-buy/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/17 02:22",
-        "score": 6
-      },
-      {
-        "title": "이 양자 컴퓨팅 회사는 모든 대형 기술 회사가 조용히 관심을 기울이고 있습니다.",
-        "description": "이온큐(IonQ)는 양자컴퓨터의 선두주자입니다.",
-        "url": "https://www.fool.com/investing/2026/05/16/quantum-computing-ionq-has-big-tech-attention/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/16 22:05",
-        "score": 6
-      },
-      {
-        "title": "2026년에 IonQ를 무너뜨릴 수 있는 양자컴퓨팅 주식을 만나보세요",
-        "description": "Infleqtion은 IonQ와 유사한 기술을 사용합니다. 정말 뛰어난 성능을 발휘할 수 있을까요?",
-        "url": "https://www.fool.com/investing/2026/05/16/meet-the-quantum-computing-stock-that-could-crush/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/17 05:35",
+        "publishedAt": "05/18 06:14",
         "score": 5
+      },
+      {
+        "title": "Nvidia 주식은 급성장하는 우주 경제에서 로켓을 발사할 준비가 되어 있습니다.",
+        "description": "Nvidia는 지구상의 인공 지능(AI)을 지배하고 있으며 우주의 AI에도 동일한 역할을 해야 합니다.",
+        "url": "https://www.fool.com/investing/2026/05/17/nvda-stock-space-stocks-to-buy-space-economy/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/18 04:50",
+        "score": 5
+      },
+      {
+        "title": "AMD, 급증하는 기술주 650만 달러 매입",
+        "description": "이 글을 쓰는 시점인 5월 17일 일요일 오전 Yahoo Finance에 따르면 AMD(Advanced Micro Devices)는 현재까지 약 98%의 수익을 올렸습니다. 한편,",
+        "url": "https://www.thestreet.com/investing/stocks/amd-buys-6-5-million-of-marvell-stock?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/18 05:07",
+        "score": 4
+      },
+      {
+        "title": "Palantir Technologies(PLTR) 주식이 오늘 낮게 거래되는 이유",
+        "description": "데이터 분석 회사인 Palantir Technologies(NASDAQ:PLTR)의 주가는 4월 PPI 보고서가 국채 수익률을 보인 후 오후 세션에서 4.2% 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-technologies-pltr-stock-104455030.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/17 19:44",
+        "score": 4
+      },
+      {
+        "title": "[단독] AI·반도체 기업으로 변신…두산 '마지막 퍼즐' 채웠다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026051718931",
+        "source": "hankyung.com",
+        "publishedAt": "05/17 17:57",
+        "score": 4
       }
     ]
   }
