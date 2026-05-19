@@ -1,5 +1,5 @@
 {
-  "updated_kst": "2026-05-19 08:00 KST",
+  "updated_kst": "2026-05-19 19:46 KST",
   "macro": {
     "us10y": 4.59,
     "us10y_1d_bp": 12.00000000000001,
@@ -8,13 +8,13 @@
     "curve_2s10s": 0.5,
     "curve_2s10s_1d_bp": 3.000000000000025,
     "curve_2s10s_5d_bp": 2.0000000000000018,
-    "dxy": 98.9540023803711,
-    "dxy_1d": -0.3183179947426562,
-    "dxy_5d": 1.0353276635575837,
-    "dxy_ma20": 98.47470054626464,
-    "gold": 4579.7001953125,
-    "gold_1d": 0.5246145934772795,
-    "gold_5d": -2.945726455308195,
+    "dxy": 99.22899627685547,
+    "dxy_1d": 0.2616904647447571,
+    "dxy_5d": 0.9553315216011882,
+    "dxy_ma20": 98.51645011901856,
+    "gold": 4545.39990234375,
+    "gold_1d": -0.15596040980230264,
+    "gold_5d": -2.826239792895935,
     "hy_oas": 2.8,
     "hy_oas_1d_bp": 4.0000000000000036,
     "hy_oas_5d_bp": -1.000000000000023
@@ -23,28 +23,28 @@
     "meeting_date": "2026-06-17",
     "current_range": "350-375",
     "probabilities": {
-      "325-350": 2.0,
-      "350-375": 98.0
+      "350-375": 78.0,
+      "375-400": 22.0
     },
-    "ease_prob": 2.0,
-    "hold_prob": 98.0,
-    "hike_prob": 0.0,
+    "ease_prob": 0.0,
+    "hold_prob": 78.0,
+    "hike_prob": 22.0,
     "zq_ticker": "ZQ=F",
-    "zq_price": 96.375,
-    "implied_rate": 3.625,
+    "zq_price": 96.315,
+    "implied_rate": 3.685,
     "dff": 3.63,
-    "as_of": "2026-05-19 08:00 KST",
+    "as_of": "2026-05-19 19:46 KST",
     "source": "ZQ Futures + FRED DFF"
   },
   "us_results": {
     "SPY": {
       "asset": "SPY",
-      "total_score": 77,
-      "signal": "매수",
-      "original_signal": "매수",
+      "total_score": 67,
+      "signal": "보유",
+      "original_signal": "보유",
       "module_scores": {
         "trend": 35,
-        "vix": 25,
+        "vix": 15,
         "tactical": 10,
         "breadth": 5,
         "rates": 2
@@ -58,10 +58,10 @@
           "max_score": 35
         },
         "vix": {
-          "vix": 17.81999969482422,
-          "vix_5d_chg": -3.046787222589986,
-          "vix_ratio20": 0.9898350172556623,
-          "off_10d_high": -3.309824201035161,
+          "vix": 18.15999984741211,
+          "vix_5d_chg": 0.9449698635731529,
+          "vix_ratio20": 1.0124888480559555,
+          "off_10d_high": -1.4650051725058622,
           "max_score": 25
         },
         "tactical": {
@@ -89,12 +89,12 @@
     },
     "QQQ": {
       "asset": "QQQ",
-      "total_score": 72,
-      "signal": "보유",
-      "original_signal": "매수",
+      "total_score": 62,
+      "signal": "매도",
+      "original_signal": "보유",
       "module_scores": {
         "trend": 30,
-        "vix": 25,
+        "vix": 15,
         "tactical": 10,
         "breadth": 3,
         "rates": 4
@@ -108,10 +108,10 @@
           "max_score": 30
         },
         "vix": {
-          "vix": 17.81999969482422,
-          "vix_5d_chg": -3.046787222589986,
-          "vix_ratio20": 0.9898350172556623,
-          "off_10d_high": -3.309824201035161,
+          "vix": 18.15999984741211,
+          "vix_5d_chg": 0.9449698635731529,
+          "vix_ratio20": 1.0124888480559555,
+          "off_10d_high": -1.4650051725058622,
           "max_score": 25
         },
         "tactical": {
@@ -124,9 +124,9 @@
         "breadth": {
           "bucket": "weak",
           "approx_pct": 35.0,
-          "ratio": 0.2053198803161709,
-          "ratio_ma20": 0.2060892809956691,
-          "ret20": -3.2853810796957372,
+          "ratio": 0.20531817259768106,
+          "ratio_ma20": 0.20608919560974465,
+          "ret20": -3.2861854895888,
           "max_score": 10
         },
         "rates": {
@@ -143,13 +143,13 @@
   "kr_results": {
     "KOSPI": {
       "asset": "KOSPI",
-      "total_score": 91,
+      "total_score": 89,
       "signal": "보유",
       "original_signal": "매수",
       "module_scores": {
         "trend": 40,
         "vkospi": 8,
-        "tactical": 14,
+        "tactical": 12,
         "leadership": 6,
         "turnover": 10,
         "flow": 0,
@@ -158,10 +158,10 @@
       },
       "module_meta": {
         "trend": {
-          "close": 7493.18017578125,
-          "ma50": 6131.41740234375,
-          "ma200": 4570.84505859375,
-          "ret20": 23.01264584273701,
+          "close": 7271.66015625,
+          "ma50": 6203.796005859375,
+          "ma200": 4612.879809570312,
+          "ret20": 17.437890799596122,
           "max_score": 40
         },
         "vkospi": {
@@ -172,18 +172,18 @@
           "max_score": 27
         },
         "tactical": {
-          "dist20": 7.788936020517112,
-          "ret10": 11.990618379397212,
+          "dist20": 2.849397077077942,
+          "ret10": 4.82442544342363,
           "above_5dma": 0,
-          "two_of_three_up": 1,
+          "two_of_three_up": 0,
           "max_score": 17
         },
         "leadership": {
           "bucket": "kosdaq_weak",
           "approx_pct": 28.0,
-          "rel": 0.1507797650376485,
-          "rel_ma20": 0.17253403482231716,
-          "rel_ret20": -20.302462556440904,
+          "rel": 0.14912137834433226,
+          "rel_ma20": 0.16859389314440604,
+          "rel_ret20": -21.08409947341916,
           "max_score": 6
         },
         "turnover": {
@@ -193,31 +193,32 @@
           "max_score": 12
         },
         "flow": {
-          "foreign_1d_bil": 0.0,
-          "foreign_5d_bil": -151207.8,
-          "foreign_20d_bil": -326767.7,
-          "foreign_5d_ratio": -8.89,
+          "foreign_1d_bil": -57242.4,
+          "foreign_5d_bil": -208450.2,
+          "foreign_20d_bil": -384010.1,
+          "foreign_5d_ratio": -12.25,
           "max_score": 20
         },
         "fx": {
-          "usdkrw": 1497.1500244140625,
-          "usdkrw_ret20": 2.1840766793009614,
+          "usdkrw": 1507.77001953125,
+          "usdkrw_ret20": 2.621047977190094,
           "max_score": 20
         },
         "oil": {
-          "wti": 102.44999694824219,
-          "wti_ret20": 14.328753766806003,
+          "wti": 103.11000061035156,
+          "wti_ret20": 11.91794603741425,
           "max_score": 10
         }
       },
       "guardrail_reasons": [
+        "외국인 1일 순매도 → 매수 제한",
         "5일·20일 누적 수급 동반 부진 → 매수 제한",
         "원/달러 급등 + 단기 수급 약세 → 매수 제한"
       ]
     },
     "KOSDAQ": {
       "asset": "KOSDAQ",
-      "total_score": 50,
+      "total_score": 62,
       "signal": "보유",
       "original_signal": "보유",
       "module_scores": {
@@ -226,16 +227,16 @@
         "tactical": 0,
         "leadership": 1,
         "turnover": 8,
-        "flow": 6,
+        "flow": 18,
         "fx": 8,
         "oil": 5
       },
       "module_meta": {
         "trend": {
-          "close": 1129.8199462890625,
-          "ma50": 1145.5824047851563,
-          "ma200": 971.2258004760743,
-          "ret20": -1.9619505191719178,
+          "close": 1084.3599853515625,
+          "ma50": 1144.0698022460938,
+          "ma200": 974.0297503662109,
+          "ret20": -7.322830916076084,
           "max_score": 36
         },
         "vkospi": {
@@ -246,8 +247,8 @@
           "max_score": 27
         },
         "tactical": {
-          "dist20": -5.120174916630593,
-          "ret10": -7.411540389161264,
+          "dist20": -8.40877300040649,
+          "ret10": -10.659614573449872,
           "above_5dma": 0,
           "two_of_three_up": 0,
           "max_score": 17
@@ -255,9 +256,9 @@
         "leadership": {
           "bucket": "weak",
           "approx_pct": 28.0,
-          "rel": 0.1507797650376485,
-          "rel_ma20": 0.17253403482231716,
-          "rel_ret20": -20.302462556440904,
+          "rel": 0.14912137834433226,
+          "rel_ma20": 0.16859389314440604,
+          "rel_ret20": -21.08409947341916,
           "max_score": 12
         },
         "turnover": {
@@ -267,20 +268,20 @@
           "max_score": 12
         },
         "flow": {
-          "foreign_1d_bil": 0.0,
-          "foreign_5d_bil": -915.6,
-          "foreign_20d_bil": 12252.3,
-          "foreign_5d_ratio": -0.13,
+          "foreign_1d_bil": 1306.8,
+          "foreign_5d_bil": 391.2,
+          "foreign_20d_bil": 13559.1,
+          "foreign_5d_ratio": 0.06,
           "max_score": 18
         },
         "fx": {
-          "usdkrw": 1497.1500244140625,
-          "usdkrw_ret20": 2.1840766793009614,
+          "usdkrw": 1507.77001953125,
+          "usdkrw_ret20": 2.621047977190094,
           "max_score": 20
         },
         "oil": {
-          "wti": 102.44999694824219,
-          "wti_ret20": 14.328753766806003,
+          "wti": 103.11000061035156,
+          "wti_ret20": 11.91794603741425,
           "max_score": 10
         }
       },
