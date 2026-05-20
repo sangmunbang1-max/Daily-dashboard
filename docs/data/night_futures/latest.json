@@ -1,9 +1,9 @@
 {
-  "generated_at_kst": "2026-05-21T03:03:49.894421+09:00",
+  "generated_at_kst": "2026-05-21T05:30:27.935064+09:00",
   "biz_date": "2026-05-20",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
+  "note": "market_status={'kospi': 'no_trade_or_quote_for_A01606', 'kosdaq': 'quote_fallback_ok'}",
   "token_status": "ready",
   "series": {
     "kospi": [
@@ -122,6 +122,30 @@
           "TOTAL_ASKP_RSQN": "663",
           "TOTAL_BIDP_RSQN": "213"
         }
+      },
+      {
+        "time": "05:30",
+        "bsop_hour": "053040",
+        "price": 1830.45,
+        "change": null,
+        "change_pct": null,
+        "symbol": "A06606",
+        "name": "KOSDAQ Night Futures",
+        "open": null,
+        "session_high": null,
+        "session_low": null,
+        "ask1": 1832.7,
+        "bid1": 1828.2,
+        "acml_vol": null,
+        "last_cnqn": null,
+        "tr_key": "A06606",
+        "source_type": "quote_fallback",
+        "raw_fields": {
+          "FUTS_ASKP1": "1832.70",
+          "FUTS_BIDP1": "1828.20",
+          "TOTAL_ASKP_RSQN": "216",
+          "TOTAL_BIDP_RSQN": "279"
+        }
       }
     ]
   },
@@ -145,20 +169,20 @@
       "source_type": "trade"
     },
     "kosdaq": {
-      "last": 1824.5,
+      "last": 1830.45,
       "change": null,
       "change_pct": null,
-      "high": 1824.5,
+      "high": 1830.45,
       "low": 1824.5,
-      "points": 1,
+      "points": 2,
       "last_symbol": "A06606",
       "last_name": "KOSDAQ Night Futures",
       "open": null,
       "session_high": null,
       "session_low": null,
-      "ask1": 1826.0,
-      "bid1": 1823.0,
-      "spread": 3.0,
+      "ask1": 1832.7,
+      "bid1": 1828.2,
+      "spread": 4.5,
       "acml_vol": null,
       "source_type": "quote_fallback"
     }
@@ -183,14 +207,14 @@
       "kosdaq": "A06606"
     },
     "received_symbols": {
-      "trade": [
-        "A01606"
-      ],
-      "quote": []
+      "trade": [],
+      "quote": [
+        "A06606"
+      ]
     },
     "market_status": {
-      "kospi": "trade_ok",
-      "kosdaq": "no_trade_or_quote_for_A06606"
+      "kospi": "no_trade_or_quote_for_A01606",
+      "kosdaq": "quote_fallback_ok"
     }
   }
 }
