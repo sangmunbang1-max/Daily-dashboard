@@ -1,10 +1,10 @@
 {
-  "generated_at_kst": "2026-05-22T03:05:30.328933+09:00",
+  "generated_at_kst": "2026-05-22T05:11:24.105195+09:00",
   "biz_date": "2026-05-21",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'trade_ok'}",
-  "token_status": "ready",
+  "note": "snapshot update failed: RuntimeError: all websocket urls failed: wss://ops.koreainvestment.com:21000 -> ConnectionResetError: ",
+  "token_status": "error",
   "series": {
     "kospi": [
       {
@@ -148,7 +148,7 @@
       "ws://ops.koreainvestment.com:21000",
       "wss://ops.koreainvestment.com:21000"
     ],
-    "connected_ws_url": "ws://ops.koreainvestment.com:21000",
+    "connected_ws_url": null,
     "wait_seconds": 12,
     "debug_files": {
       "raw_frames": "tmp/night_futures_ws/raw_frames.json",
@@ -157,19 +157,6 @@
     "configured_tr_keys": {
       "kospi": "A01606",
       "kosdaq": "A06606"
-    },
-    "received_symbols": {
-      "trade": [
-        "A01606",
-        "A06606"
-      ],
-      "quote": [
-        "A06606"
-      ]
-    },
-    "market_status": {
-      "kospi": "trade_ok",
-      "kosdaq": "trade_ok"
     }
   }
 }
