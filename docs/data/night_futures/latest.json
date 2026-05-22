@@ -1,9 +1,9 @@
 {
-  "generated_at_kst": "2026-05-23T03:59:18.751758+09:00",
+  "generated_at_kst": "2026-05-23T05:44:17.774114+09:00",
   "biz_date": "2026-05-22",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'quote_fallback_ok'}",
+  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
   "token_status": "ready",
   "series": {
     "kospi": [
@@ -64,6 +64,36 @@
           "FUTS_ASKP1": "1228.80",
           "FUTS_BIDP1": "1228.40",
           "ACML_VOL": "13627",
+          "LAST_CNQN": "1"
+        }
+      },
+      {
+        "time": "05:44",
+        "bsop_hour": "054428",
+        "price": 1216.05,
+        "change": -12.1,
+        "change_pct": -0.99,
+        "symbol": "A01606",
+        "name": "KOSPI Night Futures",
+        "open": 1228.25,
+        "session_high": 1232.5,
+        "session_low": 1210.05,
+        "ask1": 1216.75,
+        "bid1": 1216.0,
+        "acml_vol": 15394.0,
+        "last_cnqn": 1.0,
+        "tr_key": "A01606",
+        "source_type": "trade",
+        "raw_fields": {
+          "FUTS_PRPR": "1216.05",
+          "FUTS_PRDY_VRSS": "-12.10",
+          "FUTS_PRDY_CTRT": "-0.99",
+          "FUTS_OPRC": "1228.25",
+          "FUTS_HGPR": "1232.50",
+          "FUTS_LWPR": "1210.05",
+          "FUTS_ASKP1": "1216.75",
+          "FUTS_BIDP1": "1216.00",
+          "ACML_VOL": "15394",
           "LAST_CNQN": "1"
         }
       },
@@ -215,8 +245,8 @@
       "change": 1.0,
       "change_pct": 0.08,
       "high": 1229.15,
-      "low": 1225.2,
-      "points": 4,
+      "low": 1216.05,
+      "points": 5,
       "last_symbol": "A01606",
       "last_name": "KOSPI Night Futures",
       "open": 1228.25,
@@ -270,13 +300,11 @@
       "trade": [
         "A01606"
       ],
-      "quote": [
-        "A06606"
-      ]
+      "quote": []
     },
     "market_status": {
       "kospi": "trade_ok",
-      "kosdaq": "quote_fallback_ok"
+      "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
 }
