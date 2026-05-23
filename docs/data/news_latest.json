@@ -1,341 +1,228 @@
 {
-  "generated_at_kst": "2026-05-23 08:37 KST",
-  "period": "05/22 07:00 ~ 05/23 07:00 KST",
+  "generated_at_kst": "2026-05-24 08:28 KST",
+  "period": "05/23 07:00 ~ 05/24 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Nasdaq, S&P 500 선물은 퀀텀 주식이 계속 뜨거워지고 Warsh Fed의 맹세에 모든 시선이 집중되고 있습니다. IBM, RGTI, QBTS, INFQ, AMD, RKLB가 주목받는 이유",
-        "description": "Stocktwits의 데이터에 따르면 SPY와 QQQ에 대한 소매 정서는 여전히 '매우 낙관적'인 것으로 나타났습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp-500-futures-rise-quantum-stocks-rally-rgti-qbts-infq-ibm-amd-stock-warsh-fed/cZgR5Q6Reo4?.tsrc=rss",
+        "title": "VOO 대 IVV: 인기 있는 S&P 500 ETF 중 투자자에게 더 나은 매수 방법은 무엇입니까?",
+        "description": "동일한 수수료와 수익을 지닌 이 두 S&P 500 ETF는 투자자에게 차이를 만들 수 있는 몇 가지 사소한 차이점이 있습니다.",
+        "url": "https://www.fool.com/coverage/etfs/2026/05/23/voo-vs-ivv-which-popular-s-and-p-500-etf-is-the-better-buy-for-investors/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/22 17:49",
-        "score": 11
+        "publishedAt": "05/24 05:18",
+        "score": 6
       },
       {
-        "title": "Dominic Chu: 트럼프 강세장의 AI 랠리가 S&P 500을 8주 연속 상승세로 이끌고 있습니다.",
-        "description": "CNBC의 도미닉 추(Dominic Chu)는 금요일 시장 취재를 시작하면서 “오늘 주식이 더 높게 출발할 것으로 보인다”고 말했습니다.",
-        "url": "https://247wallst.com/investing/2026/05/22/dominic-chu-the-trump-bull-markets-ai-rally-is-powering-the-sp-500-toward-an-8th-straight-winning-week/?.tsrc=rss",
+        "title": "이번 주 목표로 삼을 S&P 500 주식 1개와 실망스러운 주식 ​​2개",
+        "description": "S&P 500(^GSPC)은 시장에서 가장 크고 가장 잘 알려진 기업이 소재하고 있어 안정성을 추구하는 투자자들이 선호하는 지수입니다. 하지만 n",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-target-140455209.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 03:45",
-        "score": 10
+        "publishedAt": "05/23 23:04",
+        "score": 6
       },
       {
-        "title": "Waller 연설에서 Fed 금리 인상 위험을 제안함에 따라 Bitcoin은 $ 77,000 아래로 떨어졌습니다.",
-        "description": "월러 연준 총재의 매파적 연설이 10월 금리 인상 가능성과 압력 위험을 높인 후 비트코인은 77,000달러 아래로 하락했습니다.",
-        "url": "https://beincrypto.com/bitcoin-price-drops-waller-fed-hawkish-speech/?.tsrc=rss",
+        "title": "RBC는 S&P 500 지수 하락폭이 5~10%로 제한될 수 있다고 밝혔습니다.",
+        "description": "RBC Capital Markets은 S&P 500의 12개월 목표를 7,900으로 설정했는데, 이는 5월 초 수준보다 약 7.7% 상승할 가능성이 있음을 의미합니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/28864/rbc-says-any-sp-500-pullback-may-be-limited-to-5-10?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 00:58",
-        "score": 10
+        "publishedAt": "05/24 00:04",
+        "score": 5
       },
       {
-        "title": "나스닥, S&P 500, 다우 선물은 트럼프의 20억 달러 양자 컴퓨팅 베팅이 이란 불안을 능가함에 따라 상승: RKLB, IBM, RGTI, NIO 집중",
-        "description": "트럼프 행정부는 지난 금요일 양자컴퓨팅 주식에 20억 달러를 투자하겠다고 밝혔는데, 그 중 약 절반은 IBM에 배정될 예정이다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-climb-as-trump-quantum-computing-bet-outweighs-iran-jitters/cZgbH1xRe8r?.tsrc=rss",
+        "title": "PJUL은 S&P 500 상승률을 11%로 제한하는 동시에 40% 붕괴로부터 보호합니다: 퇴직자를 위한 수학",
+        "description": "2026년에 40만 달러의 주식을 보유한 68세 은퇴자는 진짜 문제에 직면해 있습니다. SPY는 지난 1년 동안 27% 상승했지만 VIX는 여전히 급등했습니다.",
+        "url": "https://247wallst.com/investing/2026/05/23/pjul-caps-your-sp-500-gains-at-11-while-protecting-against-40-crashes-the-math-for-retirees/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/22 11:01",
-        "score": 10
+        "publishedAt": "05/23 22:54",
+        "score": 5
       },
       {
-        "title": "오늘 5월 22일 주식시장: S&P 500이 8주 연속 상승세를 기록했습니다.",
-        "description": "2026년 5월 22일 오늘, 다우지수는 채권수익률 완화로 현충일에 미국 주식이 상승하면서 사상 마감 기록을 세웠습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/22/stock-market-today-may-22-s-and-p-500-reaches-eighth-straight-week-of-gains/?.tsrc=rss",
+        "title": "월스트리트에 따르면, 124%나 급등하기 전에 사야 할 눈부신 성장주 1위",
+        "description": "이 주식은 가치가 너무 높아서 최근에 제가 직접 주식을 샀습니다.",
+        "url": "https://www.fool.com/investing/2026/05/23/growth-stock-buy-before-soars-sea-limited/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 06:30",
-        "score": 9
+        "publishedAt": "05/24 06:50",
+        "score": 4
       }
     ],
     "kr_market": [
       {
-        "title": "코스피, 개인·기관 매수에 강세…코스닥선 '매수 사이드카' 발동",
+        "title": "\"직원들만 6억 돈잔치?\"…뿔난 삼성전자 개미들 '초강수'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026052239066",
+        "url": "https://www.hankyung.com/article/2026052356477",
         "source": "hankyung.com",
-        "publishedAt": "05/22 11:05",
-        "score": 15
-      },
-      {
-        "title": "이제는 코스닥의 시간?…5% 급등에 사이드카 발동",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202605224536i",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 16:40",
-        "score": 10
-      },
-      {
-        "title": "코스피, 개인·기관 매수에 강세…코스닥 5% '급등'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052244876",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 15:52",
-        "score": 10
-      },
-      {
-        "title": "[포토] 코스피 오름세…삼성전자 30만원선 출발",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202605223570i",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 09:45",
-        "score": 10
-      },
-      {
-        "title": "[속보] 코스닥, 급등해 이틀 연속 매수 사이드카 발동",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052235726",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 09:41",
-        "score": 10
+        "publishedAt": "05/23 21:14",
+        "score": 5
       }
     ],
-    "macro": [
-      {
-        "title": "지루함이 훌륭함을 이긴다: 유틸리티 ETF가 금세기 모든 경기 침체에서 조용히 S&P 500을 압도한 방법",
-        "description": "최근 유틸리티주가 시장에서 각광을 받고 있는데, 인공지능에 의한 전력 수요 증가가 큰 이유다.",
-        "url": "https://247wallst.com/investing/2026/05/22/boring-beats-brilliant-how-a-utilities-etf-has-quietly-trounced-the-sp-500-in-every-recession-this-century/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/23 00:20",
-        "score": 5
-      },
-      {
-        "title": "경기 침체가 걱정되나요? 경제학자들이 말하는 매도가 이미 너무 늦은 이유는 다음과 같습니다.",
-        "description": "The Investing for Beginners Podcast의 Andrew Sather는 최근 경기 침체 헤드라인에 대한 투자자들의 생각을 바꿔야 할 요점을 제시했습니다. \"페 때",
-        "url": "https://247wallst.com/investing/2026/05/21/worried-about-a-recession-heres-why-selling-when-economists-call-it-is-already-too-late-2/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/22 11:45",
-        "score": 5
-      },
-      {
-        "title": "Hassett는 신임 Fed 의장 Warsh의 통화 정책에 대한 초점을 지지하고 오일 쇼크로 인한 인플레이션 위험을 경시합니다.",
-        "description": "케빈 해셋(Kevin Hassett) 백악관 국가경제위원회 이사는 2026년 5월 22일 CNBC 스쿼크박스(Squawk Box) 출연을 이용해 케빈 워시(Kevin Warsh)에게 특이한 모습을 선사했다.",
-        "url": "https://247wallst.com/investing/2026/05/22/hassett-backs-incoming-fed-chair-warshs-focus-on-monetary-policy-downplays-inflation-risks-from-oil-shock/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/23 03:26",
-        "score": 3
-      },
-      {
-        "title": "미국 달러는 미시간 정서, 주 실업률, 주요 지표를 앞두고 금요일 이른 아침에 상승합니다.",
-        "description": "미국 달러는 결승전 발표를 앞두고 금요일 오전 주요 거래 상대국 대비 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-friday-115514253.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/22 20:55",
-        "score": 3
-      },
-      {
-        "title": "[미국 주식 101]⑥ 내 계좌 지키는 美 경제 지표",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202605235150i",
-        "source": "hankyung.com",
-        "publishedAt": "05/23 05:55",
-        "score": 1
-      }
-    ],
+    "macro": [],
     "bonds": [
       {
-        "title": "Hawkish Waller에 재무부 수익률 상승, 소비자 심리 하락",
-        "description": "월러 연준 총재가 매파 성향으로 변하고 미국 소비자 심리가 예상보다 하락하면서 국채 수익률이 상승했습니다.  월러는 중동이 장기화될 것이라고 말했습니다.",
-        "url": "https://finance.yahoo.com/m/9176ef26-7c6d-3ceb-8ac3-0bb1dc48f93f/treasury-yields-rise-on.html?.tsrc=rss",
+        "title": "연준의 이자 비용으로 인해 더 큰 적자가 발생할 수 있기 때문에 미국 부채는 채권 시장의 대패 속에서 '방 안의 코끼리'라고 분석가들은 경고합니다.",
+        "description": "\"우리의 견해로는 지속 불가능한 재정 역학이 리플레이션 스토리와 혼합되어 단기적인 문제를 장기적인 매도로 전환시키고 있습니다.\"",
+        "url": "https://finance.yahoo.com/economy/policy/articles/u-debt-elephant-room-amid-195359486.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 00:26",
-        "score": 8
+        "publishedAt": "05/24 04:53",
+        "score": 1
       },
       {
-        "title": "시장이 호르무즈 돌파를 기다리면서 국채 수익률은 하락",
-        "description": "WSJ 컨센서스에 따르면 4월 컨퍼런스보드 선행지표는 3월 0.6% 감소 이후 0.3% 감소할 것으로 전망됐다.  더 메이 유니버시티",
-        "url": "https://finance.yahoo.com/m/36c788b3-c05e-35e2-ab04-93960a02a39c/treasury-yields-decline-as.html?.tsrc=rss",
+        "title": "부채 감소 및 개선된 분기 실적 이후 Americas Gold and Silver (TSX:USA) 가치 평가 살펴보기",
+        "description": "Americas Gold and Silver (TSX:USA)는 Sprott에 대한 남은 은 인도 의무를 종료함으로써 미화 4,500만 달러 이상의 변동 미래 부채를 청산했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/look-americas-gold-silver-tsx-171031037.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/22 22:07",
-        "score": 8
-      },
-      {
-        "title": "USD와 국채 수익률이 안정적으로 유지되면서 금 가장자리가 하락했습니다.",
-        "description": "금 가격은 금요일 초반에 완화되었으며 달러와 수익률이 안정되면서 범위를 유지했습니다. J의 골드",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-edges-lower-usd-treasury-130447055.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/22 22:04",
-        "score": 8
-      },
-      {
-        "title": "연금 슈퍼개미 '원픽'은 삼전닉스 채권혼합 ETF",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026051718271",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 10:39",
-        "score": 3
-      },
-      {
-        "title": "Dave Ramsey가 젊은 커플에게: 281,000달러의 소득은 12개월 안에 207,000달러의 부채를 청산할 수 있음을 의미합니다.",
-        "description": "25세의 조(Joe)는 결혼식 12일 전에 램지 쇼(The Ramsey Show)에 전화해 대부분의 약혼한 커플들이 속삭이는 질문을 했습니다.",
-        "url": "https://247wallst.com/personal-finance/2026/05/22/dave-ramsey-to-young-couple-281k-income-means-you-can-eliminate-207k-debt-in-12-months/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/22 20:44",
+        "publishedAt": "05/24 02:10",
         "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "이란 평화 회담이 진행됨에 따라 미국 주가 지수가 상승하고 원유가 장중 최고치를 기록했습니다.",
-        "description": "미국 주가지수는 국채 수익률에 대한 압력이 완화되고 원유 가격이 하락하면서 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-crude-204155808.html?.tsrc=rss",
+        "title": "브렌트유는 1월 이후 85% 상승했습니다. OXY, XOM 및 CVX는 매우 다르게 플레이하고 있습니다.",
+        "description": "Occidental Petroleum, ExxonMobil, Chevron이 1분기에 왜 더 나은 성과를 내지 못했습니까?",
+        "url": "https://www.fool.com/investing/2026/05/23/brent-crude-is-up-85-since-january-oxy-xom-and-cvx/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 05:41",
+        "publishedAt": "05/24 06:35",
         "score": 5
       },
       {
-        "title": "이란 평화협정 희망 속에 원유 하락으로 이번 주 미국 주가지수 상승",
-        "description": "그는 원유 가격이 하락하고 이란 평화 회담이 진전된 후 이번 주 미국 주가 지수가 상승했다고 말했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202126576.html?.tsrc=rss",
+        "title": "2027년까지 유가가 하락할 것으로 예상하지 마십시오. 이 정확한 시나리오에 대해 매수할 주식 2개는 다음과 같습니다.",
+        "description": "에너지 업계 경영진은 중동 공급 중단으로 인해 에너지 가격이 더 높아질 수 있다고 경고하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/23/dont-expect-oil-prices-to-drop-until-2027-here-are/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 05:21",
+        "publishedAt": "05/24 03:35",
         "score": 5
       },
       {
-        "title": "이란 평화 협정을 둘러싼 모멘텀이 구축되면서 미국 주가 지수가 상승하고 원유가 세션 최고치에서 벗어났습니다.",
-        "description": "미국 주가지수는 국채 수익률에 대한 압력이 완화되고 원유 가격이 하락하면서 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-crude-195852757.html?.tsrc=rss",
+        "title": "이란 전쟁 원자재 충격 – 장기적으로 선물 거래자들의 위치는 어디입니까?",
+        "description": "미국-이스라엘이 이란과 전쟁을 벌인 지 거의 3개월 만에 원유 선물이 '백워데이션' 거래를 하고 있어 이란 재개에 대한 낙관론이 부각됐다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/iran-war-commodity-shock-where-190108361.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 04:58",
-        "score": 5
+        "publishedAt": "05/24 04:01",
+        "score": 3
       },
       {
-        "title": "업데이트: 이란과의 전쟁을 종식시키기 위한 외교적 합의에 대한 희망이 사라지면서 WTI 원유 상승",
-        "description": "WTI(서부텍사스산 중질유) 원유는 빠른 상승에 대한 희망이 사라지면서 금요일 소폭 상승세로 마감했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-edges-hopes-diplomatic-183629347.html?.tsrc=rss",
+        "title": "Viper Energy(VNOM)의 Riverbend 거래 및 지배구조 전환이 주주들에게 의미하는 것",
+        "description": "2026년 초 Viper Energy는 Riverbend 인수와 함께 애널리스트 기대치를 뛰어넘는 조정 주당 순이익 1.22달러로 1분기 결과를 보고했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/viper-energy-vnom-riverbend-deal-161421253.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 03:36",
-        "score": 5
+        "publishedAt": "05/24 01:14",
+        "score": 3
       },
       {
-        "title": "이란이 미국의 거래 희망을 완화하면서 유가가 상승",
-        "description": "이란이 미국과의 단기 합의에 대한 시장 기대에 찬물을 끼얹은 후 금요일 유가가 상승세로 돌아섰습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-rise-iran-tempers-183100814.html?.tsrc=rss",
+        "title": "미국 석유 가격은 올해 거의 두 배로 올랐으며, 모든 석유 ETF를 추적한 결과 이들 3개는 에너지 거래가 다음으로 어디로 갈지 정확히 보여줍니다.",
+        "description": "서부텍사스산 중질유는 2026년 배럴당 57달러로 시작하여 현재 112달러 근처에서 거래되고 있습니다. 이는 해협 주변의 이란 관련 긴장으로 인해 두 배 가까이 오른 것입니다.",
+        "url": "https://247wallst.com/investing/2026/05/23/us-oil-has-nearly-doubled-this-year-and-after-tracking-every-oil-etf-these-3-show-exactly-where-the-energy-trade-goes-next/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 03:31",
-        "score": 5
+        "publishedAt": "05/24 00:13",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "\"환율 움직임 과도하다\"…구두개입 나선 외환당국",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052248631",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 17:50",
-        "score": 8
-      },
-      {
-        "title": "\"나라 망한다\"던 1500원이 뉴노멀…'무역 흑자=원화 강세' 공식 깨졌다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052248641",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 17:56",
-        "score": 5
-      },
-      {
-        "title": "환율 1500원이면 나라 망한다더니…한국인들 차분한 이유",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052248491",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 17:56",
-        "score": 5
-      },
-      {
-        "title": "\"꼬리가 몸통을 흔드는 격\"…NDF가 高환율 부추기나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052248621",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 17:49",
-        "score": 5
-      },
-      {
-        "title": "골드만삭스는 광범위한 에너지 충격으로 인해 달러가 강세를 보이고 유럽에 부담이 될 수 있다고 경고",
-        "description": "골드만삭스 전략가들은 미국이 이렇게 말했다.",
-        "url": "https://investorshub.advfn.com/market-news/article/28860/goldman-warns-broader-energy-shock-could-strengthen-dollar-and-weigh-on-europe?.tsrc=rss",
+        "title": "Cathie Wood의 Ark Invest에 따르면 930% 상승하기 전에 구매해야 할 막을 수 없는 암호화폐 1위",
+        "description": "Ark Invest는 이 암호화폐가 2030년까지 16조 달러의 시가총액을 축적할 것이라고 믿습니다.",
+        "url": "https://www.fool.com/investing/2026/05/23/1-cryptocurrency-to-buy-soars-930-cathie-woods-ark/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/22 23:59",
-        "score": 4
+        "publishedAt": "05/24 06:11",
+        "score": 3
+      },
+      {
+        "title": "50만 달러. ETF 2개. 교장과 접촉하지 않고 한 달에 $1,400.",
+        "description": "나는 더 많은 퇴직자들이 포트폴리오 인출 자금을 조달하기 위해 주식을 판매하는 것에 익숙해져야 한다고 생각합니다. 수학적으로 r 사이에는 큰 차이가 없습니다.",
+        "url": "https://247wallst.com/investing/2026/05/23/half-a-million-dollars-two-etfs-1400-a-month-without-touching-the-principal/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/24 02:30",
+        "score": 1
+      },
+      {
+        "title": "Goldman은 FX 시장 역학의 중요한 변화에 주목해야 한다고 말합니다.",
+        "description": "Investing.com -- 글로벌 연구 보고서에 따르면 다양한 거시경제 지표가 미국 달러의 확고한 기반을 확인하기 시작했다고 합니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/goldman-says-pay-attention-important-030818938.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/23 12:08",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "'버핏 지표'는 시장 최고점을 경고합니다 — 주식이 연기로 움직이고 있다는 8가지 중요한 징후",
-        "description": "기괴한 230%의 가치 격차부터 시급한 에너지 위기까지, 이 멈출 수 없는 시장은 보기보다 더 취약합니다.",
-        "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?.tsrc=rss",
+        "title": "이란 전쟁 원자재 충격 – 장기적으로 선물 거래자들의 위치는 어디입니까?",
+        "description": "미국-이스라엘이 이란과 전쟁을 벌인 지 거의 3개월 만에 원유 선물이 '백워데이션' 거래를 하고 있어 이란 재개에 대한 낙관론이 부각됐다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/iran-war-commodity-shock-where-190108361.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 05:32",
+        "publishedAt": "05/24 04:01",
+        "score": 2
+      },
+      {
+        "title": "AMD(Advanced Micro Devices)가 여전히 가장 많이 거래되는 주식 중 하나인 이유",
+        "description": "Advanced Micro Devices, Inc.(NASDAQ:AMD)는 2026년 현재까지 가장 많이 거래되는 미국 주식 중 하나입니다. 5월 19일 Evercore ISI는 Advanc의 목표 가격을 높였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-advanced-micro-devices-amd-201200295.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/24 05:12",
         "score": 1
       },
       {
-        "title": "AI 거래: 투자자들은 인프라 외부를 살펴보고 싶어할 수도 있음, Nvidia",
-        "description": "세 가지 주요 평균(^DJI, ^IXIC, ^GSPC) 모두 금요일 세션을 플러스 영역으로 마감했습니다. 다우존스 산업평균지수가",
-        "url": "https://finance.yahoo.com/video/ai-trade-investors-may-want-to-look-outside-infrastructure-nvidia-202822905.html?.tsrc=rss",
+        "title": "연준의 이자 비용으로 인해 더 큰 적자가 발생할 수 있기 때문에 미국 부채는 채권 시장의 대패 속에서 '방 안의 코끼리'라고 분석가들은 경고합니다.",
+        "description": "\"우리의 견해로는 지속 불가능한 재정 역학이 리플레이션 스토리와 혼합되어 단기적인 문제를 장기적인 매도로 전환시키고 있습니다.\"",
+        "url": "https://finance.yahoo.com/economy/policy/articles/u-debt-elephant-room-amid-195359486.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 05:28",
+        "publishedAt": "05/24 04:53",
         "score": 1
       },
       {
-        "title": "Nvidia 주식은 금요일 랠리를 놓쳤습니다. 다음 주에 얼마나 많은 거래자들이 움직일 것으로 보는지는 다음과 같습니다.",
-        "description": "Nvidia 주가는 칩 제조업체의 강력한 결과에도 불구하고 이번 주 상승에 실패했습니다. 다음주 실적은 더 좋아질 수 있을까?",
-        "url": "https://www.investopedia.com/nvidia-stock-misses-out-on-friday-rally-here-is-how-much-traders-see-it-moving-next-week-nvda-11981602?.tsrc=rss",
+        "title": "Elon Musk는 방금 SpaceX, xAI, Tesla 및 Nvidia를 1 Trade로 연결했습니다. 포트폴리오를 포지셔닝하는 방법은 다음과 같습니다.",
+        "description": "다가오는 SpaceX IPO에 모든 관심이 집중되면서 투자자들은 Elon Musk가 구축한 더 넓은 생태계로부터 이익을 얻을 수 있는 다른 방법을 간과하고 있을 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/23/elon-musk-just-linked-spacex-xai-tesla-and-nvidia/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 05:15",
+        "publishedAt": "05/24 03:34",
         "score": 1
       },
       {
-        "title": "SpaceX와 같은 대규모 IPO가 옵션 거래에 큰 기회를 제공합니까?",
-        "description": "Yahoo Finance의 옵션 플레이북 최신 기사의 일부로 BayCrest 전무이사 David Boole은 대규모 IPO가 미치는 영향에 대해 설명합니다.",
-        "url": "https://finance.yahoo.com/video/are-mega-ipos-like-spacex-huge-opportunities-for-options-trades-195554470.html?.tsrc=rss",
+        "title": "미국 석유 가격은 올해 거의 두 배로 올랐으며, 모든 석유 ETF를 추적한 결과 이들 3개는 에너지 거래가 다음으로 어디로 갈지 정확히 보여줍니다.",
+        "description": "서부텍사스산 중질유는 2026년 배럴당 57달러로 시작하여 현재 112달러 근처에서 거래되고 있습니다. 이는 해협 주변의 이란 관련 긴장으로 인해 두 배 가까이 오른 것입니다.",
+        "url": "https://247wallst.com/investing/2026/05/23/us-oil-has-nearly-doubled-this-year-and-after-tracking-every-oil-etf-these-3-show-exactly-where-the-energy-trade-goes-next/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 04:55",
-        "score": 1
-      },
-      {
-        "title": "Oracle Samsung Java 거래, 반도체 소프트웨어와 장기 클라우드 스토리 연결",
-        "description": "오라클과 삼성전자는 Oracle Java SE Universal Subscript에서 반도체 소프트웨어 개발을 표준화하기 위해 파트너십을 확대했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-samsung-java-deal-ties-192012035.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/23 04:20",
+        "publishedAt": "05/24 00:13",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "AI 칩 관련 최신 뉴스 - AMD, 2nm EPYC 프로세서로 AI 혁신 개척",
-        "description": "AMD(Advanced Micro Devices, Inc.)는 TS를 활용하여 코드명 \"Venice\"인 6세대 EPYC 프로세서의 대규모 생산을 시작했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/latest-news-ai-chips-amd-113829305.html?.tsrc=rss",
+        "title": "Elon Musk는 방금 SpaceX, xAI, Tesla 및 Nvidia를 1 Trade로 연결했습니다. 포트폴리오를 포지셔닝하는 방법은 다음과 같습니다.",
+        "description": "다가오는 SpaceX IPO에 모든 관심이 집중되면서 투자자들은 Elon Musk가 구축한 더 넓은 생태계로부터 이익을 얻을 수 있는 다른 방법을 간과하고 있을 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/23/elon-musk-just-linked-spacex-xai-tesla-and-nvidia/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/22 20:38",
+        "publishedAt": "05/24 03:34",
         "score": 10
       },
       {
-        "title": "스페이스X 투자 노렸는데…NASA ETF, 되레 비중 축소",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052247641",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 18:02",
-        "score": 10
-      },
-      {
-        "title": "SpaceX IPO 불안에서 로켓 연구소 주식 반등",
-        "description": "Rocket Lab 주가는 SpaceX의 IPO 신청에 대한 투자자 반응으로 인해 급격한 매도세를 보인 후 금요일 반등했습니다. 새로운 우주군 계약과 성공적인 l",
-        "url": "https://finance.yahoo.com/m/893b51f2-7983-308f-b116-5017ce50e716/rocket-lab-stock-rebounds.html?.tsrc=rss",
+        "title": "이 Space ETF는 SpaceX IPO를 앞두고 소매업에서 '가장 선호하는' 상품입니다.",
+        "description": "Vanda Research에 따르면 소매 투자자들이 일부 우주 관련 거래에 뛰어들고 있습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/these-space-et-fs-are-retail-s-standout-favorite-ahead-of-space-x-ipo/cZgRqI9ReYe?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 05:12",
+        "publishedAt": "05/23 08:04",
         "score": 7
       },
       {
-        "title": "스페이스X의 힘…'TIGER 미국우주테크' ETF 순자산 1조원 돌파",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052244166",
-        "source": "hankyung.com",
-        "publishedAt": "05/22 15:28",
-        "score": 7
-      },
-      {
-        "title": "SpaceX의 S-1 서류 제출에서 투자자들이 배운 7가지 중요한 사항은 다음과 같습니다.",
-        "description": "역사상 가장 뜨거운 IPO로 인해 화상을 입지 마십시오.",
-        "url": "https://www.fool.com/investing/2026/05/22/here-are-x-important-things-investors-learned-from/?.tsrc=rss",
+        "title": "Citi는 Micron Technology, Inc.(MU)의 DRAM 급증에 더욱 낙관적입니다.",
+        "description": "Micron Technology, Inc.(NASDAQ:MU)는 2026년 현재까지 가장 많이 거래되는 미국 주식 중 하나입니다. 5월 18일 Citi는 Micron Technology의 목표 주가를 상향 조정했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/citi-turns-even-more-bullish-145157503.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/23 06:40",
+        "publishedAt": "05/23 23:51",
         "score": 6
+      },
+      {
+        "title": "Canaccord는 Hudbay Minerals(HBM)에 대해 매수 투자의견을 유지합니다",
+        "description": "Hudbay Minerals Inc.(NYSE:HBM)는 2026년 현재까지 가장 실적이 좋은 캐나다 주식 10개 중 하나입니다. 2026년 5월 4일 Canaccord는 회사 가격을 인하했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/canaccord-maintains-buy-rating-hudbay-023146534.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/23 11:31",
+        "score": 6
+      },
+      {
+        "title": "AMD(Advanced Micro Devices)가 여전히 가장 많이 거래되는 주식 중 하나인 이유",
+        "description": "Advanced Micro Devices, Inc.(NASDAQ:AMD)는 2026년 현재까지 가장 많이 거래되는 미국 주식 중 하나입니다. 5월 19일 Evercore ISI는 Advanc의 목표 가격을 높였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-advanced-micro-devices-amd-201200295.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/24 05:12",
+        "score": 4
       }
     ]
   }
