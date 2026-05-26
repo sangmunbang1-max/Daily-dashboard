@@ -1,285 +1,293 @@
 {
-  "generated_at_kst": "2026-05-26 08:37 KST",
-  "period": "05/25 07:00 ~ 05/26 07:00 KST",
+  "generated_at_kst": "2026-05-27 08:38 KST",
+  "period": "05/26 07:00 ~ 05/27 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "지수 투자자들을 겁나게 하는 수학: AI 칩이 S&P 500의 거의 모든 이익을 설명합니다",
-        "description": "모든 패시브 지수 투자자를 잠시 멈추게 만드는 데이터 포인트는 다음과 같습니다. Retire SMART Podcast Ep 416에서 진행자는 다음과 같은 계산을 내놓았습니다.",
-        "url": "https://247wallst.com/investing/2026/05/25/the-math-that-should-terrify-index-investors-ai-chips-account-for-nearly-all-sp-500-gains/?.tsrc=rss",
+        "title": "오늘, 5월 26일 주식 시장: 기술주 급등으로 S&P 500과 나스닥이 신고가를 경신했습니다.",
+        "description": "2026년 5월 26일, 마이크론의 급등은 다우지수가 부진했음에도 불구하고 S&P 500과 나스닥이 새로운 기록을 세우는 데 도움이 되었습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/26/stock-market-today-may-26-soaring-tech-stocks-push-s-and-p-500-and-nasdaq-to-new-highs/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/25 20:39",
-        "score": 7
+        "publishedAt": "05/27 06:36",
+        "score": 14
       },
       {
-        "title": "시장 붕괴: 주저 없이 사고 싶은 주식 2개",
-        "description": "코스트코와 아마존은 다음 시장 붕괴에서 회복할 것이다.",
-        "url": "https://www.fool.com/investing/2026/05/25/market-crash-2-stocks-id-buy-without-hesitation/?.tsrc=rss",
+        "title": "S&P 500과 Nasdaq 100이 기술주 강세에서 최고치를 기록하며 상승",
+        "description": "오늘 S&P 500 지수($SPX )(SPY )는 +0.81% 상승했고, 다우존스 산업평균지수($DOWI )(DIA )는 -0.10% 하락했으며, 나스닥 100 지수($IUXX)는",
+        "url": "https://www.barchart.com/story/news/2132344/s-p-500-and-nasdaq-100-climb-to-record-highs-on-tech-stock-strength?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/26 02:46",
-        "score": 6
+        "publishedAt": "05/27 00:12",
+        "score": 11
       },
       {
-        "title": "미국 주식이 ATH를 위반하면서 유가가 하락했습니다: 비트코인이 S&P 500을 반영할 수 있습니까?",
-        "description": "중동의 긴장 완화로 유가가 폭락하면서 S&P 500 지수는 현충일에 7,534까지 폭등했습니다. 잠정적 기본 계약 b",
-        "url": "https://cryptonews.com/news/oil-price-bitcoin-sp500-7500-breakout-risk-on-surge/?.tsrc=rss",
+        "title": "S&P 500과 나스닥은 사상 최고치로 마감하고 다우지수는 미국과 이란 간의 외교적 해결에 대한 희망 속에 상승 — MU, QCOM, LUNR, LLY, CODX In Focus",
+        "description": "투자자들은 최근의 군사 교류를 상쇄하면서 미국-이란 회담에 대한 희망을 유지했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-and-nasdaq-close-at-record-highs-dow-climbs-amid-hopes-of-diplomatic-resolution-between-us-and-iran-mu-qcom-lunr-lly-codx-in-focus/cZgOiKbReqx?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/25 23:43",
-        "score": 6
+        "publishedAt": "05/27 06:38",
+        "score": 10
       },
       {
-        "title": "인플레이션 통제를 위한 연준의 심사율 인상: 매수할 수 있는 안전한 주식 3개",
-        "description": "연준의 금리 인상 우려와 유가로 인한 인플레이션 상승으로 인해 NYT, TSN, ARKO가 방어적 선택지로 주목을 받고 있습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/fed-mulling-rate-hike-control-131300785.html?.tsrc=rss",
+        "title": "트럼프가 이란과의 '그레이트 딜'을 조롱하면서 호르무즈 재개 희망에 S&P 500, 나스닥, 다우 선물 상승: BB, INFQ, NVTS, ASTS 집중",
+        "description": "도널드 트럼프 미국 대통령은 2일(현지시간) 트루스 소셜(Truth Social)에 올린 글에서 이란과의 협상이 순조롭게 진행되고 있다고 밝혔다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-dow-futures-rise-on-hopes-of-hormuz-reopening-as-trump-teases-great-deal-with-iran/cZgaNZgRepe?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/25 22:13",
-        "score": 6
+        "publishedAt": "05/26 10:44",
+        "score": 10
       },
       {
-        "title": "엔비디아 팔고 스페이스X로?…美 증시 'IPO 빅뱅'에 초긴장",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052574531",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 17:53",
-        "score": 6
+        "title": "XOVR은 사전 IPO SpaceX 상승을 약속했지만 YTD 2% 하락한 반면 S&P 500은 9% 상승했습니다.",
+        "description": "ERShares Private-Public Crossover ETF(NYSEARCA:XOVR)의 전략은 간단합니다. 중개 앱에서는 SpaceX 주식을 구매할 수 없지만 XOVR은 가능합니다.",
+        "url": "https://247wallst.com/investing/2026/05/26/xovr-promised-pre-ipo-spacex-upside-but-it-is-down-2-ytd-while-the-sp-500-is-up-9/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/27 01:59",
+        "score": 8
       }
     ],
     "kr_market": [
       {
-        "title": "삼성전자 임협 합의안 투표 나흘째…합산 투표율 87.4%",
+        "title": "[포토] 상장 앞둔 삼성전자·SK하이닉스 단일종목 레버리지 ETF",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026052574967",
+        "url": "https://www.hankyung.com/article/202605269884i",
         "source": "hankyung.com",
-        "publishedAt": "05/25 18:18",
+        "publishedAt": "05/26 18:19",
+        "score": 11
+      },
+      {
+        "title": "개미들은 코스피 팔고 코스닥 '폭풍 매수'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026052600311",
+        "source": "hankyung.com",
+        "publishedAt": "05/26 18:12",
+        "score": 10
+      },
+      {
+        "title": "코스피 변동성 급증에 한국, 레버리지 AI ETF 공개",
+        "description": "새로운 삼성 및 SK 하이닉스 레버리지 ETF는 소매 투자자로부터 최대 35억 달러를 유치할 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/options/articles/south-korea-unveils-leveraged-ai-124848690.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/26 21:48",
+        "score": 6
+      },
+      {
+        "title": "삼전 이어 마이크론도 '1조달러 클럽'…SK하이닉스도 눈앞",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026052704257",
+        "source": "hankyung.com",
+        "publishedAt": "05/27 05:57",
         "score": 5
       },
       {
-        "title": "[단독] '중국車=싸구려' 무시하다간 당한다…현대차 파격 행보",
+        "title": "코스피 8000 시대 열렸다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026052573691",
+        "url": "https://www.hankyung.com/article/2026052600501",
         "source": "hankyung.com",
-        "publishedAt": "05/25 18:04",
-        "score": 3
-      },
-      {
-        "title": "[단독] \"중국車 배워라\"…품평회 여는 현대차그룹",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052574421",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 18:00",
-        "score": 3
-      },
-      {
-        "title": "삼성바이오·셀트리온 밸류에이션 바닥…\"하반기엔 뛴다\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052574311",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 17:41",
-        "score": 3
-      },
-      {
-        "title": "성장 멈춘 카카오택시, 피지컬AI 전환 '사활'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052574201",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 17:37",
-        "score": 3
+        "publishedAt": "05/26 18:12",
+        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "\"한은, 이르면 7월 기준금리 올린다\"",
+        "title": "블룸버그 \"반도체 보너스, 한국 물가와 주택 시장 압박\" 경고",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026052574431",
+        "url": "https://www.hankyung.com/article/202605260254i",
         "source": "hankyung.com",
-        "publishedAt": "05/25 17:57",
-        "score": 5
-      },
-      {
-        "title": "골드만삭스는 중앙은행 매수 전망 상승으로 금 전망 강세 유지",
-        "description": "골드만삭스(Goldman Sachs)는 금에 대한 전망치를 상향 조정한 후 연말 전망을 트로이 온스당 5,400달러로 유지하면서 금에 대한 긍정적인 입장을 재확인했습니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/28870/goldman-maintains-bullish-gold-outlook-as-central-bank-buying-forecasts-rise?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/25 23:10",
+        "publishedAt": "05/26 20:55",
         "score": 3
-      },
-      {
-        "title": "뉴욕·상하이 증시, 美 4월 물가지수 발표 주목",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052573411",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 18:40",
-        "score": 3
-      },
-      {
-        "title": "상업 우주 경제는 실제 수익 임계값을 넘어섰으며 수년 동안 이 산업을 추적한 결과 소유할 가치가 있는 3가지 ETF를 소개합니다.",
-        "description": "상업 공간 부문은 규모에 따라 반복적인 상업 수익을 창출했습니다. SpaceX의 Starlink 사업부는 이제 구독 현금 흐름을 중단하고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/05/25/the-commercial-space-economy-just-crossed-a-real-revenue-threshold-and-after-following-this-industry-for-years-these-are-the-3-etfs-worth-owning/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/25 21:13",
-        "score": 1
-      },
-      {
-        "title": "한은, 올 경제성장률 전망치 얼마나 올릴까",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052573421",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 18:48",
-        "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "환율·채권…원·달러 환율, 1500원선 '뉴노멀' 되나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052573401",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 18:46",
-        "score": 3
+        "title": "호르무즈 재개 기대 속에 미 국채 수익률 하락",
+        "description": "미국과 이란이 호르무즈 해협 재개를 협상하면서 국채수익률이 하락했습니다. 최종 거래가 남아 있지만 석유는 배럴당 100달러 미만으로 거래됩니다.",
+        "url": "https://finance.yahoo.com/m/e7db71be-51cd-3634-8dfd-65ee900e37fc/treasury-yields-fall-amid.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/26 21:55",
+        "score": 8
+      },
+      {
+        "title": "TLT 보유자 감소 -50%!  귀하의 장기 국채가 단 하나의 채무 불이행 없이도 절반으로 줄어들 수 있다는 잔혹한 알림",
+        "description": "iShares 20+ Year Treasury Bond ETF(NASDAQ:TLT)는 사람들이 세상에서 가장 안전한 것을 원할 때 구매하는 펀드입니다. 국채는 디폴트가 아닙니다. 그만큼",
+        "url": "https://247wallst.com/investing/2026/05/26/tlt-holders-down-50-a-brutal-reminder-your-long-treasuries-can-halve-without-a-single-default/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/26 21:30",
+        "score": 8
+      },
+      {
+        "title": "EMB의 6% 신흥 시장 채권 수익률은 대부분의 소득 투자자들이 한 번도 모델링한 적이 없는 경화 국가 부도 위험을 숨깁니다.",
+        "description": "iShares J.P. Morgan USD Emerging Markets Bond ETF(NASDAQ:EMB)는 더 높은 쿠폰을 원하는 퇴직자와 소득 투자자를 위한 기본 수단입니다.",
+        "url": "https://247wallst.com/investing/2026/05/26/embs-6-percent-emerging-market-bond-yield-hides-hard-currency-sovereign-default-risk-most-income-investors-have-never-modeled/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/27 05:34",
+        "score": 5
       }
     ],
     "commodities": [
       {
-        "title": "미국과 이란 간의 평화 협상에 대한 시장의 희망으로 원유 가격이 하락했습니다.",
-        "description": "시장에서는 미국과 이란이 가까워질 것으로 예상하면서 원유 가격이 월요일 2주 최저치로 떨어졌습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/crude-oil-prices-fall-market-094138566.html?.tsrc=rss",
+        "title": "USO의 프론트 먼스 원유 전략은 2014년 이후 원유 자체를 절반으로 뒤처졌으며, 롤 비용이 그 이유입니다.",
+        "description": "원유 가격 상승에 투자하기 위해 United States Oil Fund(NYSEARCA:USO)를 매입했다면 이 펀드는 그 명성에 부응하는 것입니다. USO는 올해 114% 상승했다.",
+        "url": "https://247wallst.com/investing/2026/05/26/usos-front-month-oil-strategy-has-lagged-crude-oil-itself-by-half-since-2014-and-the-roll-cost-is-the-reason/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/25 18:41",
-        "score": 10
-      },
-      {
-        "title": "유가 충격으로 인한 다이아몬드백 에너지(FANG) 이익",
-        "description": "Yachtman Asset Management는 AMG \"Yacktman Focused Fund\"에 대한 2026년 1분기 투자자 서한을 발표했습니다. 편지 사본을 만들 수 있습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/diamondback-energy-fang-gains-oil-155944653.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/26 00:59",
-        "score": 8
-      },
-      {
-        "title": "멕시코의 Pemex는 유가 급등에도 불구하고 여전히 어려움을 겪고 있습니다.",
-        "description": "무디스는 Pemex가 여전히 정부 지원에 크게 의존하고 있으며 멕시코의 국가 등급, 유동성 또는 상품이 더욱 악화될 것이라고 경고했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/mexico-pemex-still-struggles-despite-220000883.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/26 07:00",
+        "publishedAt": "05/27 02:33",
         "score": 5
       },
       {
-        "title": "TSX Closer: RBC와 National Bank가 모두 유가 충격을 맥락에 맞추려고 노력하는 동안에도 지수는 사상 최고치를 기록했습니다.",
-        "description": "자원이 많은 토론토 증권 거래소는 장중 최고 기록을 경신했으며 리가 끝난 후 최고치를 마감했습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/tsx-closer-index-posts-record-201242879.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/26 05:12",
+        "title": "美 5월 소비자신뢰지수, 이란 전쟁발 유가 상승에 악화",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605270383i",
+        "source": "hankyung.com",
+        "publishedAt": "05/27 00:21",
         "score": 5
       },
       {
-        "title": "이란의 원유 하락으로 미국 주식 선물 상승: 시장 마무리",
-        "description": "(블룸버그) -- 미국이 이란과 해협 재개를 위한 협상에 가까워지고 있다는 관료들의 신호가 나온 후 원유가 하락하면서 글로벌 증시는 사상 최고치를 기록했다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-gain-crude-170202219.html?.tsrc=rss",
+        "title": "평화에 대한 희망이 사라지는 가운데 브렌트 원유가 2% 상승할 것으로 예상되는 석유 ETF에 베팅하세요",
+        "description": "이란과 미국의 평화가 약화되면서 공급 우려 속에서 USO와 같은 석유 ETF가 다시 활성화되기를 희망하면서 브렌트유는 98달러 이상으로 상승했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/bet-oil-etfs-brent-crude-135000888.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/26 02:02",
+        "publishedAt": "05/26 22:50",
+        "score": 5
+      },
+      {
+        "title": "8월 원유 수급 위기설에 정부 '신중 모드'…\"방출은 최후 수단\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026052603067",
+        "source": "hankyung.com",
+        "publishedAt": "05/26 22:17",
+        "score": 5
+      },
+      {
+        "title": "성공적인 평화 회담을 희망하는 미국의이란 공격으로 유가가 일찍 혼합되었습니다.",
+        "description": "미국이 이란에 대한 공격을 단행한 후 화요일 오전 유가는 혼조세를 보였습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-mixed-early-u-124217715.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/26 21:42",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "환율·채권…원·달러 환율, 1500원선 '뉴노멀' 되나",
+        "title": "삼전 이어 마이크론도 '1조달러 클럽'…SK하이닉스도 눈앞",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026052573401",
+        "url": "https://www.hankyung.com/article/2026052704257",
         "source": "hankyung.com",
-        "publishedAt": "05/25 18:46",
-        "score": 8
+        "publishedAt": "05/27 05:57",
+        "score": 3
       },
       {
-        "title": "美 2천억달러 IPO '유동성 블랙홀' 되나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052574461",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 17:51",
+        "title": "EMB의 6% 신흥 시장 채권 수익률은 대부분의 소득 투자자들이 한 번도 모델링한 적이 없는 경화 국가 부도 위험을 숨깁니다.",
+        "description": "iShares J.P. Morgan USD Emerging Markets Bond ETF(NASDAQ:EMB)는 더 높은 쿠폰을 원하는 퇴직자와 소득 투자자를 위한 기본 수단입니다.",
+        "url": "https://247wallst.com/investing/2026/05/26/embs-6-percent-emerging-market-bond-yield-hides-hard-currency-sovereign-default-risk-most-income-investors-have-never-modeled/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/27 05:34",
+        "score": 3
+      },
+      {
+        "title": "IEFA의 22% 이익은 2026년에 역전될 수 있는 통화 베팅을 숨깁니다.",
+        "description": "iShares Core MSCI EAFE ETF(NYSEARCA:IEFA)는 조용히 올해의 주요 핵심 보유 자산 중 하나로 자리 잡았으며, 연초 대비 8% 상승한 후 약 97달러에 거래되고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/05/26/iefas-22-gain-hides-a-currency-bet-that-could-reverse-in-2026/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/27 00:15",
+        "score": 3
+      },
+      {
+        "title": "IDVO의 국제 배당 전략은 1년 수익률을 휩쓸어버릴 수 있는 헤지되지 않은 통화 위험을 수반합니다",
+        "description": "월별 확인을 위해 Amplify CWP International Enhanced Dividend Income ETF(NYSEARCA:IDVO)를 구입한 경우 가장 중요한 투자 설명서 세부 정보",
+        "url": "https://247wallst.com/investing/2026/05/26/idvos-international-dividend-strategy-carries-an-unhedged-currency-risk-that-can-wipe-out-a-year-of-yield/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/27 00:00",
+        "score": 3
+      },
+      {
+        "title": "Omdia: 가격이 사상 최고치를 기록하면서 유럽 스마트폰 시장은 2026년 1분기에 2% 성장합니다.",
+        "description": "런던, 2026년 5월 26일 -- Omdia의 최신 연구에 따르면 유럽의 스마트폰 시장(러시아 제외)은 2026년 1분기에 2% 성장한 3,300만 대를 기록했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/omdia-european-smartphone-market-grows-102000846.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/26 19:20",
         "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "연결 끊김의 해부: 4조 3500억 달러의 기업 이익이 어떻게 사상 최고치를 달성했는지",
-        "description": "Morgan Stanley의 Global Strategies 그룹을 운영하는 Andrew Slimmon은 Barron의 Streetwise 팟캐스트에서 반대 메시지를 전달했습니다.",
-        "url": "https://247wallst.com/investing/2026/05/25/the-anatomy-of-a-disconnect-how-4-35-trillion-in-corporate-profits-cleared-the-way-for-record-highs/?.tsrc=rss",
+        "title": "Allegro MicroSystems 및 Penguin Solutions 주식 거래, 알아야 할 사항",
+        "description": "마이크론의 UBS 주도 급등이 반도체 랠리를 촉발한 이후 오후 세션에서 많은 주식이 급등했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/allegro-microsystems-penguin-solutions-stocks-215928481.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/26 05:42",
-        "score": 3
-      },
-      {
-        "title": "케빈 워시(Kevin Warsh)는 월스트리트가 거의 이야기를 중단한 연준을 물려받았습니다.",
-        "description": "케빈 워시(Kevin Warsh)가 이번 주에 연준의장으로 취임했는데, 그의 취임에서 가장 놀라운 점은 월스트리트가 얼마나 관심을 두지 않는지입니다.",
-        "url": "https://247wallst.com/investing/2026/05/25/kevin-warsh-inherits-a-fed-that-wall-street-has-almost-stopped-talking-about/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/26 05:50",
+        "publishedAt": "05/27 06:59",
         "score": 1
       },
       {
-        "title": "이 AI ETF는 다른 접근 방식을 취합니다. 투자자들은 보상을 받고 있습니다.",
-        "description": "VistaShares 인공지능 슈퍼사이클 ETF가 투자자 목록에 올랐습니다.",
-        "url": "https://www.fool.com/investing/2026/05/25/this-ai-etf-takes-a-different-approach-investors-a/?.tsrc=rss",
+        "title": "시장 상승에 따른 넷플릭스(NFLX) 주가 하락: 거래하기 전에 알아야 할 사실",
+        "description": "가장 최근 거래 세션에서 넷플릭스(NFLX)는 $87.68로 마감해 전 거래일보다 -1.04% 변동했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-stock-slides-market-214504239.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/26 03:21",
+        "publishedAt": "05/27 06:45",
         "score": 1
       },
       {
-        "title": "실제 자금 흐름 + Fed 일시 중지 + 계절적 타이밍: AUD 설정 트레이더가 주목하고 있습니다!",
-        "description": "6월 선물 만기일에 대한 AUD 계절 설정은 지난 몇 달 동안 가장 깔끔한 것 중 하나입니다. EOFY 송환 및 헤지 흐름이 호주 기업으로 타격을 받고 있습니다.",
-        "url": "https://www.barchart.com/story/news/2117431/real-money-flows-fed-pause-seasonal-timing-the-aud-setup-traders-are-watching?.tsrc=rss",
+        "title": "오늘, 5월 26일 주식 시장: NASA 탐사선 상이 Astrolab, Lunar Outpost로 이동한 후 직관적인 기계가 하락세로 반전",
+        "description": "기록적인 1분기 수익과 11억 달러의 잔고로 Intuitive Machines는 강력한 운영 배경을 얻었지만 NASA의 로버는 Lunar Outpost와 Astrola에 상을 수여했습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/26/stock-market-today-may-26-intuitive-machines-reverses-lower-after-nasa-rover-awards-go-to-astrolab-lunar-outpost/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/26 01:55",
+        "publishedAt": "05/27 06:31",
         "score": 1
       },
       {
-        "title": "AI 인프라 이외의 S&P 500은 0% 성장 중입니다. Lance Roberts는 AI 붐이 흔들리면 어떻게 되는지 경고합니다.",
-        "description": "S&P 500의 향후 수익 그림에서 AI 인프라와 에너지를 제거하면 성장이 0으로 붕괴됩니다. 그게 제일 불편한 마비야",
-        "url": "https://247wallst.com/investing/2026/05/25/sp-500-other-than-ai-infrastructure-is-growing-at-0-lance-roberts-warns-what-happens-if-the-ai-boom-stumbles/?.tsrc=rss",
+        "title": "카니발 및 말리부 보트 주식 거래, 알아야 할 사항",
+        "description": "이란-미국 평화 협정 진행으로 WTI 원유가 4.7% 하락한 92.94달러를 기록한 후 오후 세션에서 많은 주식이 급등하여 경제에 직접적인 안도감을 안겨주었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/carnival-malibu-boats-stocks-trade-212728162.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/25 21:31",
+        "publishedAt": "05/27 06:27",
+        "score": 1
+      },
+      {
+        "title": "Synopsys는 귀하의 조언자가 경고하지 않는 '성장 함정'입니다",
+        "description": "SNPS의 불리한 상황은 구조적입니다. Synopsys(NASDAQ:SNPS)는 AI 하드웨어를 설계하는 소프트웨어를 판매하기 때문에 AI 하드웨어 승자와 동점을 이룹니다.",
+        "url": "https://247wallst.com/investing/2026/05/26/synopsys-is-the-growth-trap-your-advisor-wont-warn-you-about/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/27 05:33",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "인류가 철거한 레거시 SaaS 주식. 이제 Palantir가 출시됩니다.",
-        "description": "올해 초 Anthropic은 많은 파일에서 제공하는 프로그램과 유사한 기능을 수행할 수 있는 도구 모음인 Claude Cowork를 출시했습니다.",
-        "url": "https://www.fool.com/investing/2026/05/25/anthropic-demolished-legacy-saas-stocks-now-its-co/?.tsrc=rss",
+        "title": "SpaceX의 우주선이 폭발한 후 Rocket Lab, AST 및 기타 우주 주식이 상승합니다.",
+        "description": "화요일에도 우주주가 급등했습니다.  SpaceX가 금요일 이브에 발사된 거대한 우주선 로켓의 12번째 테스트에서 다시 한 번 원인인 것 같습니다.",
+        "url": "https://finance.yahoo.com/m/e0b93cfe-8af3-374f-a80b-bad8a93534e8/rocket-lab%2C-ast%2C-other-space.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/26 05:05",
-        "score": 8
+        "publishedAt": "05/27 05:55",
+        "score": 12
       },
       {
-        "title": "엔비디아 팔고 스페이스X로?…美 증시 'IPO 빅뱅'에 초긴장",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052574531",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 17:53",
-        "score": 8
-      },
-      {
-        "title": "엔비디아는 여전히 지금 당장 매수할 수 있는 최고의 인공지능(AI) 주식입니다",
-        "description": "칩 제조업체는 수요일에 놀라운 분기별 실적을 발표했지만 시장은 아무 조치도 취하지 않았습니다.",
-        "url": "https://www.fool.com/investing/2026/05/25/nvidia-is-still-a-top-artificial-intelligence-ai-s/?.tsrc=rss",
+        "title": "SpaceX Prospectus, 우주선 폭발 이후 우주 주식 ​​랠리가 계속됩니다",
+        "description": "SpaceX 투자 설명서, Starship 출시 이후 선두업체 중 Redwire, Rocket Lab, Firefly Aerospace를 중심으로 우주 주식이 계속 급등하고 있습니다.",
+        "url": "https://finance.yahoo.com/m/a9c54691-fd22-397e-9e6f-e98662f71c72/space-stock-rally-continues.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/26 02:58",
-        "score": 7
+        "publishedAt": "05/27 06:25",
+        "score": 11
       },
       {
-        "title": "지수 투자자들을 겁나게 하는 수학: AI 칩이 S&P 500의 거의 모든 이익을 설명합니다",
-        "description": "모든 패시브 지수 투자자를 잠시 멈추게 만드는 데이터 포인트는 다음과 같습니다. Retire SMART Podcast Ep 416에서 진행자는 다음과 같은 계산을 내놓았습니다.",
-        "url": "https://247wallst.com/investing/2026/05/25/the-math-that-should-terrify-index-investors-ai-chips-account-for-nearly-all-sp-500-gains/?.tsrc=rss",
+        "title": "SpaceX IPO가 행복감을 불러일으키면서 로켓, 위성 주식 급등",
+        "description": "(블룸버그) - 우주 및 위성 관련 주식은 업계를 둘러싼 투자자들의 열정이 고조되면서 화요일 급등했습니다. Bloomberg에서 가장 많이 읽은 이란",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-satellite-stocks-surge-spacex-154532336.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/25 20:39",
-        "score": 7
+        "publishedAt": "05/27 05:52",
+        "score": 10
       },
       {
-        "title": "\"AI로 눌림목 발굴…반도체·로봇 모멘텀 주목\" [인터뷰+]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052233016",
-        "source": "hankyung.com",
-        "publishedAt": "05/25 14:55",
-        "score": 7
+        "title": "Qualcomm, TikTok 소유자 ByteDance와 AI 칩 계약 체결",
+        "description": "(블룸버그) - PE에 따르면 Qualcomm Inc.는 TikTok 소유주인 ByteDance Ltd.와 인공 지능 데이터 센터용 칩을 공급하기로 계약을 체결했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/qualcomm-strikes-ai-chip-deal-144955570.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/26 23:49",
+        "score": 10
+      },
+      {
+        "title": "이 인공 지능(AI) 칩 주식은 Nvidia, Broadcom, Taiwan Semiconductor 및 Samsung과 함께 1조 달러 클럽에 합류했습니다. 지금 구매인가요?",
+        "description": "놀라운 성과를 거둔 마이크론은 이제 막 엘리트 클럽에 합류했습니다.",
+        "url": "https://www.fool.com/investing/2026/05/26/why-micron-technology-is-soaring-today/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/27 03:02",
+        "score": 9
       }
     ]
   }
