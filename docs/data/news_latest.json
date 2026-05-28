@@ -1,293 +1,317 @@
 {
-  "generated_at_kst": "2026-05-28 08:43 KST",
-  "period": "05/27 07:00 ~ 05/28 07:00 KST",
+  "generated_at_kst": "2026-05-29 08:48 KST",
+  "period": "05/28 07:00 ~ 05/29 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "S&P 500, 나스닥 선물은 트럼프의 이란 '항복' 최후 통첩 이후 거의 깜박이지 않습니다. '지금은 AI가 중요하기 때문' — MU, RDW, MNTS, ZS 집중",
-        "description": "시장은 미국-이란 전쟁이 13주째로 접어들면서 중동 지역의 상황을 면밀히 추적해 왔다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-futures-barely-blink-after-trump-iran-surrender-ultimatum-because-ai-is-all-that-matters-right-now/cZgXuoFReAT?.tsrc=rss",
+        "title": "Synopsys는 AI와 합병에 초점을 맞춰 수익이 상회했음에도 불구하고 목요일 최악의 S&P 500 주식이었습니다",
+        "description": "칩 설계 소프트웨어 및 하드웨어 회사인 이 회사는 수익과 수익 모두에서 분석가의 기대치를 뛰어넘었습니다. 또한 연간 가이던스를 상향 조정했습니다.",
+        "url": "https://finance.yahoo.com/m/8e0e42f7-aa80-3dda-94c6-a5a79e4cf61a/synopsys-was-the-worst-s%26p.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/27 11:19",
+        "publishedAt": "05/29 06:12",
+        "score": 11
+      },
+      {
+        "title": "미국-이란 휴전 협상에 대한 긍정적인 보고 속에 S&P 500, 나스닥, 다우 지수가 사상 최고치로 마감했습니다. — IBM, SNOW, CZR, AKTX, LLY In Focus",
+        "description": "미국과 이란 협상가가 휴전 연장을 위한 60일간의 양해각서에 합의했다고 언론이 보도했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-and-dow-close-at-record-highs-amid-positive-reports-of-us-iran-ceasefire-negotiations-ibm-snow-czr-aktx-lly-in-focus/cZgiu45Ret7?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/29 06:16",
         "score": 10
       },
       {
-        "title": "국제유가 배럴당 90달러 아래로…뉴욕증시는 '숨고르기'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202605272853i",
-        "source": "hankyung.com",
-        "publishedAt": "05/27 23:42",
-        "score": 8
+        "title": "AI 기반 기술 랠리가 '방어적' 이란 공격을 압도하면서 S&P 500, 나스닥, 다우 선물 상승: ONDS, NBIS, RCAT, SNOW 집중",
+        "description": "로이터 통신의 보도에 따르면 미군은 이란에서 야간 공격을 감행했으며, 이는 군사 기지와 드론을 표적으로 삼았습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-sp500-nasdaq-dow-futures-are-climbing-despite-purely-defensive-us-strikes-in-iran/cZgibqmRerC?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/28 11:15",
+        "score": 10
       },
       {
-        "title": "다우지수는 이란 휴전 낙관주의로 사상 최고치를 기록했고, 나스닥은 약한 칩 주식으로 4일 연속 승리를 기록했습니다. — META, BA, AAL, DY, VRRM 초점",
-        "description": "이란 국영 언론은 이란이 호르무즈 해협을 통한 상업 교통을 복구하기 위해 최선을 다하고 있다고 전했다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-closes-at-record-highs-on-iran-truce-optimism-while-nasdaq-snaps-four-day-win-streak-on-weak-chip-stocks-meta-ba-aal-dy-vrrm-in-focus/cZggnpYRerv?.tsrc=rss",
+        "title": "5월 28일 오늘의 주식 시장: 인플레이션이 주식 시장 상승을 막지는 못합니다",
+        "description": "2026년 5월 28일 오늘, Snowflake의 견고한 수익 급증과 수십억 달러 규모의 Amazon 계약으로 인해 기술주가 미국 주식을 새로운 상승세로 이끄는 데 도움이 되었습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/28/stock-market-today-may-28-inflation-isn-t-stopping-this-stock-market-rally/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 06:42",
-        "score": 6
+        "publishedAt": "05/29 06:50",
+        "score": 9
       },
       {
-        "title": "눈송이 주식은 34% 상승합니다. Amazon과 Earnings Beat가 이익을 촉진하는 방법.",
-        "description": "Snowflake는 AI 에이전트의 등장과 함께 수익 모델과 데이터 웨어하우징이 번성할 것으로 기대하고 있습니다. 회사는 마감 후 수익을 보고했습니다.",
-        "url": "https://finance.yahoo.com/m/09032fd4-c156-338f-ae57-d662c999c974/snowflake-stock-jumps-34%25..html?.tsrc=rss",
+        "title": "Space Stock Short Squeeze: SpaceX IPO 과대광고의 마지막 행위?",
+        "description": "현재 우주주를 공매도하는 투자자들을 가리키는 월스트리트의 기술 용어는 \"얼굴이 찢어지는 것\"입니다.  상업공간회사의 지분",
+        "url": "https://finance.yahoo.com/m/97e273b0-9367-34b8-ae70-dc1637d901c4/space-stock-short-squeeze%3A.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 05:55",
-        "score": 6
-      },
-      {
-        "title": "트럼프 강세장에 좋은 소식: 주식은 사상 두 번째로 좋은 8주 상승세를 보였습니다. 역사에는 다음에 올 일에 대한 명확한 패턴이 있습니다.",
-        "description": "월스트리트는 기록적인 연속 행진을 하락에 대비하는 이유로 간주하는 경향이 있지만 이번 주 역사적 기록은 반대 방향을 가리킵니다.",
-        "url": "https://247wallst.com/investing/2026/05/27/good-news-for-the-trump-bull-market-stocks-just-had-their-second-best-8-week-rally-ever-history-has-a-clear-pattern-for-what-comes-next/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/27 23:26",
-        "score": 6
+        "publishedAt": "05/28 07:15",
+        "score": 7
       }
     ],
     "kr_market": [
       {
-        "title": "SK하이닉스-마이크론, AI 붐 이끌며 1조달러 클럽 합류",
-        "description": "Yahoo Finance 기술 편집자 Dan Howley가 진행자 Josh Lipton과 함께 시장 지배에 참여하여 SK Hynix(000)를 포함한 그날의 주요 기술 스토리를 분석합니다.",
-        "url": "https://finance.yahoo.com/video/sk-hynix-and-micron-lead-ai-boom-join-trillion-dollar-club-203420020.html?.tsrc=rss",
+        "title": "그들은 왜 한국 주식을 팔까?…﻿외국인 순매도에 대한 오해와 진실",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605284265i",
+        "source": "hankyung.com",
+        "publishedAt": "05/28 17:13",
+        "score": 6
+      },
+      {
+        "title": "Roundhill 메모리 ETF(DRAM)는 Micron, Sandisk, Samsung 및 SK Hynix를 단 60달러에 하나의 티커로 패키지합니다. 하지만 문제가 있습니다.",
+        "description": "Roundhill Memory ETF는 최고의 AI 메모리 및 스토리지 주식에 노출될 수 있는 깔끔한 방법입니다.",
+        "url": "https://www.fool.com/investing/2026/05/28/roundhill-memory-etf-dram-micron-sandisk-dram/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 05:34",
+        "publishedAt": "05/29 01:26",
         "score": 5
       },
       {
-        "title": "엔비디아, TSMC, SK하이닉스, 주요 AI 확장 회담 준비",
-        "description": "Nvidia의 AI Empire는 Huang이 타이페이에서 최고의 칩 파트너를 만나면서 주요 테스트에 직면해 있습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-tsmc-sk-hynix-gear-181731710.html?.tsrc=rss",
+        "title": "Micron 이후 Nvidia 공급업체인 SK Hynix는 AI 칩 열풍이 새로운 정점에 도달하면서 1조 달러 클럽에 합류했습니다. 분석가는 메모리 붐이 아직 끝나지 않았다고 말합니다",
+        "description": "SK하이닉스가 시가총액 1조 달러를 돌파하며 삼성전자, 마이크론 테크놀로지와 대열에 합류했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-nvidia-supplier-sk-hynix-153110096.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 03:17",
+        "publishedAt": "05/29 00:31",
         "score": 5
       },
       {
-        "title": "SK하이닉스, AI 메모리 주가 1조 달러 돌파에 1,000% 급등",
-        "description": "투자자들이 AI로 인한 HBM 부족이 2027년까지 지속될 수 있다고 베팅함에 따라 SK하이닉스와 마이크론이 랠리를 벌이고 있습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/sk-hynix-surges-1-000-172746881.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/28 02:27",
+        "title": "코스피지수, 하루새 412p 들썩…'삼전 2배' 5% 하락",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605284685i",
+        "source": "hankyung.com",
+        "publishedAt": "05/28 16:17",
         "score": 5
       },
       {
-        "title": "반도체 거대 기업 SK하이닉스, 마이크론에 합류해 1조 달러 돌파",
-        "description": "한국 메모리 칩 제조업체 SK하이닉스의 시장 가치가 컴퓨팅에 대한 전 세계 수요 증가에 힘입어 수요일 1조 달러를 넘어 급등했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/value-south-korean-chip-giant-041243863.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/27 23:07",
-        "score": 5
-      },
-      {
-        "title": "브로드컴, 삼성전자와 협력해 세계 최초 통합 5G 및 Wi-Fi 8 FWA 플랫폼 공개",
-        "description": "캘리포니아주 팔로알토, 2026년 5월 27일(GLOBE NEWSWIRE) -- 세미 반도체를 설계, 개발, 공급하는 글로벌 기술 리더 Broadcom Inc.(NASDAQ: AVGO)",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/broadcom-unveils-world-first-integrated-130100127.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/27 22:01",
-        "score": 5
+        "title": "\"사장님, 은행 가지 마세요\"…국민銀·네이버 손잡자 난리난 이유",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026052851391",
+        "source": "hankyung.com",
+        "publishedAt": "05/28 19:00",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "CopAur는 Kinsley Mountain Gold 프로젝트에 대한 예비 경제성 평가 및 52% 광물 자원 추정 성장을 제공합니다.",
-        "description": "브리티시컬럼비아주 밴쿠버--(Newsfile Corp. - 2026년 5월 27일) - CopAur Minerals Inc.(TSXV: CPAU)(\"회사\" 또는 \"CopAur\")는",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/copaur-delivers-preliminary-economic-assessment-120000620.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/27 21:00",
-        "score": 1
+        "title": "[속보] 美 4월 PCE물가 전년대비 3.8%↑…2년 11개월만에 최고",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026052853867",
+        "source": "hankyung.com",
+        "publishedAt": "05/28 21:34",
+        "score": 8
       },
       {
-        "title": "'90만원 넘게 주고도 못 구할 지경'…9살부터 30대까지 열광 [덕질경제학]",
+        "title": "경제 데이터 덤프트럭: PCE, 청구서, 상품 등",
+        "description": "변동성이 큰 식품 및 에너지 비용을 제외하고 분기 대비 1분기 핵심 PCE 분기는 첫 번째 읽기에서 +2.7%로 크게 증가하여 이번에는 +4.4%를 기록했습니다.",
+        "url": "https://finance.yahoo.com/economy/articles/dump-truck-economic-data-pce-145900543.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/28 23:59",
+        "score": 6
+      },
+      {
+        "title": "美 4월 PCE 연 3.8%↑…약 3년만에 최고",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026052722027",
+        "url": "https://www.hankyung.com/article/202605285391i",
         "source": "hankyung.com",
-        "publishedAt": "05/27 19:31",
-        "score": 1
+        "publishedAt": "05/28 21:49",
+        "score": 5
+      },
+      {
+        "title": "다우존스 선물 하락, 눈송이 급증으로 수익 상승; 연준 인플레이션 데이터 기한",
+        "description": "다우존스 선물은 S&P 500 선물 및 나스닥 선물과 함께 목요일 오전에 소폭 하락했습니다. 유가가 소폭 상승했습니다. 마벨 테크놀로지",
+        "url": "https://finance.yahoo.com/m/d8eb4dab-2933-3960-8489-129018f226f2/dow-jones-futures-fall%2C.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/28 21:08",
+        "score": 5
+      },
+      {
+        "title": "미국 PCE 인플레이션이 오늘 '핫'하게 올 것입니다: JPMorgan, UBS, 기타 월스트리트 거인",
+        "description": "연준이 선호하는 인플레이션 지표인 미국 개인소비지출(PCE) 인플레이션은 오늘 3.8%로 뜨거울 것으로 예상됩니다. 주식과 암호화폐",
+        "url": "https://coingape.com/us-pce-inflation-to-come-in-hot-today-jpmorgan-ubs-other-wall-street-giants/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/28 20:11",
+        "score": 5
       }
     ],
     "bonds": [
       {
-        "title": "시장이 미국 지표를 기다리면서 국채 수익률은 하락",
-        "description": "시장이 호르무즈 해협을 완전히 재개하고 일련의 미국 지표를 앞두고 거래에 대한 희망을 키우면서 국채 수익률은 하락했습니다. 유가 폭락",
-        "url": "https://finance.yahoo.com/m/96a0a160-bc1c-35d9-baa6-cec4d52eba2c/treasury-yields-fall-as.html?.tsrc=rss",
+        "title": "달러의 2.4% 3월 랠리로 국채 수요 압박",
+        "description": "골드만삭스는 미-이란 분쟁이 발생한 첫 달 동안 정부가 통화를 방어하자 외국 공식 기관들이 국채를 매도했다고 밝혔습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/dollars-2-4-march-rally-151703544.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 00:31",
-        "score": 8
+        "publishedAt": "05/29 00:17",
+        "score": 3
       },
       {
-        "title": "미국 재무부 수익률 하락, 달러는 신중한 중동 낙관론에 완화",
-        "description": "투자자들이 중동 평화 협정에 대해 신중한 낙관론을 유지함에 따라 미국 국채 수익률은 만기 전반에 걸쳐 하락했고 달러화는 약세를 보였습니다.",
-        "url": "https://finance.yahoo.com/m/0b23bad2-2bc4-3d4f-bd74-1eeb59a281ab/u.s.-treasury-yields-fall%2C.html?.tsrc=rss",
+        "title": "Apollo는 Anthropic을 위해 Google 칩을 구매하기 위해 360억 달러의 부채 거래를 쇼핑합니다.",
+        "description": "(블룸버그) -- Apollo Global Management Inc.와 Blackstone Inc.는 약 360억 달러 규모의 부채 자금 조달에 추가 투자자를 유치하기 위해 노력하고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-shops-36-billion-debt-210011269.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/27 19:27",
-        "score": 8
+        "publishedAt": "05/29 06:00",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "맥쿼리는 5월 22일로 끝나는 주 미국 원유 재고가 140만 배럴 감소할 것으로 예상한다고 밝혔습니다.",
-        "description": "5월 2일로 끝나는 주 미국 원유 재고는 140만 배럴 감소할 것으로 전망됐다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/u-crude-oil-stocks-likely-101341914.html?.tsrc=rss",
+        "title": "이란이 미국의 공격에 대한 보복 공격으로 원유 가격이 급등했습니다.",
+        "description": "미국의 이란 공격에 대한 보복 공격으로 목요일 원유 가격이 상승했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/crude-oil-prices-jump-iran-095159380.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/27 19:13",
-        "score": 6
+        "publishedAt": "05/28 18:51",
+        "score": 10
       },
       {
-        "title": "미국 주식 지수는 원유 폭락으로 상승하고 기술 거대 기업은 숨을 쉬고 있습니다.",
-        "description": "미국 주가지수는 투자자들이 진행 중인 협상을 분석하면서 원유 가격이 하락하는 가운데 상승세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-edge-higher-210005336.html?.tsrc=rss",
+        "title": "이란 분쟁 재점화로 유가 폭등. 시장은 아직 호르무즈에 희망을 품고 있다.",
+        "description": "미국은 이란에 대해 새로운 공격을 감행했고, 이란은 이를 “중대한 국제법 위반”이라고 비난했습니다.",
+        "url": "https://finance.yahoo.com/m/37121fd9-6d12-3a21-bb48-854e2bcfd470/oil-prices-pop-as-iran.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 06:00",
+        "publishedAt": "05/29 04:20",
         "score": 5
       },
       {
-        "title": "$4,300 이상의 주요 지원이 테스트됨에 따라 금 가격은 빠르게 약세로 변하고 있습니다.",
-        "description": "Gold(XAU)는 4H RSI가 27이고 일일 BBWP가 확대되면서 약세 채널 붕괴가 가속화됨에 따라 $4,376 지원을 테스트합니다.",
-        "url": "https://beincrypto.com/gold-price-bearish-channel-breakdown-accelerates/?.tsrc=rss",
+        "title": "업데이트: WTI 원유는 상승 마감했지만 이란과 미국이 휴전을 연장할 것이라는 보도에 따라 조기 상승세를 포기했습니다.",
+        "description": "WTI(서부텍사스산 중질유) 원유는 목요일 소폭 상승세로 마감했지만 초반 최고가로 하락했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-closes-higher-gives-185840744.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 04:34",
+        "publishedAt": "05/29 03:58",
         "score": 5
       },
       {
-        "title": "업데이트: 이란과의 전쟁이 거의 끝나갈 것이라는 전망에 WTI 유가가 한 달 최저치로 급락",
-        "description": "서부텍사스산 중질유(WTI)는 미국 시장 기대감으로 수요일 5.6% 급락했다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-plunges-month-low-184326867.html?.tsrc=rss",
+        "title": "업데이트: WTI Oi는 이란과 미국의 휴전 연장 보도에 따라 상승 마감했지만 조기 상승 포기",
+        "description": "WTI(서부텍사스산 중질유) 원유는 목요일 소폭 상승세로 마감했지만 초반 최고가로 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/wti-oi-closes-higher-gives-184627958.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 03:43",
+        "publishedAt": "05/29 03:46",
         "score": 5
       },
       {
-        "title": "업데이트: 유가 하락으로 인플레이션 우려가 완화되었음에도 불구하고 금 거래는 2개월 최저 수준",
-        "description": "(가격 업데이트.) 달러 가치가 하락했음에도 불구하고 금은 수요일 오전 2개월 최저치로 하락했습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-trading-two-month-low-180006632.html?.tsrc=rss",
+        "title": "금값은 유가 상승과 미국의 4월 인플레이션 급증 보고로 인플레이션 우려로 인해 2개월 만에 최저치로 하락",
+        "description": "금은 유가 상승에 따른 인플레이션 우려로 목요일 오전 2개월 만에 최저치로 거래됐다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-two-month-low-125740667.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 03:00",
+        "publishedAt": "05/28 21:57",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "테슬라 주가 상승. 유럽 ​​EV 판매가 도움이 됩니다.",
-        "description": "Tesla가 4월에 10,654대의 자동차를 판매했다는 유럽 판매 데이터가 도움이 되었습니다. 이는 전년 대비 46.5% 증가한 수치입니다.  유럽 ​​EV 샐이 강세를 보인 한 해였습니다.",
-        "url": "https://finance.yahoo.com/m/4574eb5c-2086-3e9f-aa75-6a3a0d45e299/tesla-stock-rises.-europe-ev.html?.tsrc=rss",
+        "title": "과대광고를 넘어서: Akash Garg가 설립한 Step Traders가 인도에서 새로운 종류의 분석 외환 트레이더를 엔지니어링하는 방법",
+        "description": "DELHI, IN / ACCESS Newswire / 2026년 5월 28일 / 2026년 인도 무역 시장은 중요한 전환을 맞이하고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/beyond-hype-step-traders-founded-165000439.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 05:34",
+        "publishedAt": "05/29 01:50",
         "score": 3
       },
       {
-        "title": "국제유가 배럴당 90달러 아래로…뉴욕증시는 '숨고르기'",
+        "title": "\"전세계 부자들,달러화·부동산 줄이고 신흥시장 주식·인프라투자 확대\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/202605272853i",
+        "url": "https://www.hankyung.com/article/202605285380i",
         "source": "hankyung.com",
-        "publishedAt": "05/27 23:42",
+        "publishedAt": "05/29 00:13",
         "score": 3
       },
       {
-        "title": "하이닉스도 1조달러 클럽 합류…한국, 미국외 유일한 1조클럽 2개 보유",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202605272678i",
-        "source": "hankyung.com",
-        "publishedAt": "05/27 19:16",
-        "score": 3
-      },
-      {
-        "title": "글로벌 반도체 랠리…SK하이닉스·마이크론도 시총 '1조 달러 클럽'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202605271855i",
-        "source": "hankyung.com",
-        "publishedAt": "05/27 17:40",
-        "score": 3
-      },
-      {
-        "title": "SK하이닉스-마이크론, AI 붐 이끌며 1조달러 클럽 합류",
-        "description": "Yahoo Finance 기술 편집자 Dan Howley가 진행자 Josh Lipton과 함께 시장 지배에 참여하여 SK Hynix(000)를 포함한 그날의 주요 기술 스토리를 분석합니다.",
-        "url": "https://finance.yahoo.com/video/sk-hynix-and-micron-lead-ai-boom-join-trillion-dollar-club-203420020.html?.tsrc=rss",
+        "title": "Wix, 통화 압력과 AI 변화를 이유로 인력을 20% 감축",
+        "description": "Investing.com -- 공동 창립자이자 CEO인 Avish의 전사적 메시지에 따르면 Wix는 목요일 직원을 약 20% 줄일 것이라고 발표했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/wix-cut-workforce-20-citing-143420442.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 05:34",
-        "score": 1
+        "publishedAt": "05/28 23:34",
+        "score": 3
+      },
+      {
+        "title": "국제 금값, 2개월 만에 최저…온스당 4,385달러로 ↓",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605285261i",
+        "source": "hankyung.com",
+        "publishedAt": "05/28 19:08",
+        "score": 3
+      },
+      {
+        "title": "25달러 vs 1.15달러…中 AI, B2B 시장 파고든다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026052850481",
+        "source": "hankyung.com",
+        "publishedAt": "05/28 17:52",
+        "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "[포토] \"AI 확산·지정학 갈등…대체투자 공식이 바뀐다\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026052725801",
-        "source": "hankyung.com",
-        "publishedAt": "05/27 17:54",
+        "title": "호르무즈 해협이 곧 열리지 않으면 미국 경제는 어떻게 될까?",
+        "description": "전문가들은 호르무즈 해협이 폐쇄되면 유가가 150달러를 넘어 급등해 인플레이션과 유가 상승으로 미국 경제를 위협할 수 있다고 경고했다.",
+        "url": "https://www.investopedia.com/what-will-happen-if-the-strait-of-hormuz-doesnt-open-soon-11985314?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/29 04:42",
+        "score": 5
+      },
+      {
+        "title": "지정학적 긴장이 고조되고 있음에도 불구하고 Nvidia의 대만에 대한 1,500억 달러 투자가 성공할 수 있습니까?",
+        "description": "Nvidia CEO Jensen Huang은 Computex 컨퍼런스에 앞서 대만 공급망에 대한 신뢰 투표를 했습니다.",
+        "url": "https://finance.yahoo.com/m/3b29fc47-640e-361b-bae8-1e502b2ebc6e/can-nvidia%E2%80%99s-%24150-billion-bet.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/28 07:34",
         "score": 3
       },
       {
-        "title": "세일즈포스는 소프트웨어 슬럼프에서 벗어날 수 없다",
-        "description": "클라우드 회사의 수입과 수익은 월스트리트 예측을 상회했지만 잔고는 예상만큼 늘어나지 않았습니다.",
-        "url": "https://finance.yahoo.com/m/847331c6-f731-304d-8ec3-39fc52b4c5ac/salesforce-can%E2%80%99t-escape-the.html?.tsrc=rss",
+        "title": "JP모건, 2026년 가장 혼잡한 거래에 대해 엄중한 경고 발표",
+        "description": "JPMorgan Chase는 투자자들이 올해 가장 인기 있는 거래 중 하나에서 물러나고 있으며 비트코인(BTC)과 금 모두 이를 느끼고 있다고 말했습니다. 대부분의 경우",
+        "url": "https://www.thestreet.com/crypto/markets/jpmorgan-issues-stark-warning-on-2026s-most-crowded-trade?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 06:55",
+        "publishedAt": "05/29 04:25",
+        "score": 2
+      },
+      {
+        "title": "5월 28일 오늘 주식 시장: 슈퍼 마이크로 컴퓨터가 대만 당국과 협력하여 불법 수출 시도를 저지한 후 상승",
+        "description": "2026년 5월 28일 오늘, 이 데이터 센터 리더의 거래가 급증함에 따라 투자자들은 AI 서버 성장 희망과 수출 통제 협력을 비교하고 있습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/28/stock-market-today-may-28-super-micro-computer-jumps-after-collaboration-with-taiwanese-authorities-thwarts-illegal-export-attempt/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/29 06:56",
         "score": 1
       },
       {
-        "title": "주식시장은 보기 드문 경고 신호를 보내고 있다. 역사가 말하는 다음은 다음과 같습니다.",
-        "description": "버핏이 선호하는 가치 평가 지표가 전례 없는 영역에 도달했습니다.",
-        "url": "https://www.fool.com/investing/2026/05/27/the-stock-market-is-flashing-a-rare-warning-signal/?.tsrc=rss",
+        "title": "인플레이션은 케빈 워시 신임 연준의장의 첫 번째 보고서에서 거의 3년 만에 최고 수준으로 치솟았습니다. 하지만 좋은 소식이 있었어요",
+        "description": "오늘 오전 4월 개인소비지출 물가지수가 발표되었습니다.",
+        "url": "https://www.fool.com/investing/2026/05/28/inflation-just-spiked-to-the-highest-level-in-almost-3-years-in-the-first-report-under-new-fed-chair-kevin-warsh-but-there-was-some-good-news/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 06:35",
-        "score": 1
-      },
-      {
-        "title": "IREN, Dell과 16억 달러 규모의 Nvidia Blackwell 하드웨어 거래 마무리",
-        "description": "IREN은 Nvidia Blackwell GPU를 인수하기 위해 Dell과 16억 달러 규모의 계약을 체결했습니다.",
-        "url": "https://blockspace.media/short/iren-finalizes-1-6-billion-nvidia-blackwell-hardware-deal-with-dell/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/28 06:24",
-        "score": 1
-      },
-      {
-        "title": "대담한 AI 경고에 대해 교황 레오 14세, Anthropic 창립자와 협력",
-        "description": "무언가를 만드는 사람들이 그것에 대해 경고하는 사람들 옆에 서 있다면, 그것은 대개 방에 있는 모든 사람들이 같은 것에 대해 걱정하고 있다는 것을 의미합니다.",
-        "url": "https://www.thestreet.com/technology/pope-leo-xiv-teams-with-anthropic-founder-on-bold-ai-warning?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/28 06:17",
+        "publishedAt": "05/29 06:53",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "엔비디아, TSMC, SK하이닉스, 주요 AI 확장 회담 준비",
-        "description": "Nvidia의 AI Empire는 Huang이 타이페이에서 최고의 칩 파트너를 만나면서 주요 테스트에 직면해 있습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-tsmc-sk-hynix-gear-181731710.html?.tsrc=rss",
+        "title": "Micron 이후 Nvidia 공급업체인 SK Hynix는 AI 칩 열풍이 새로운 정점에 도달하면서 1조 달러 클럽에 합류했습니다. 분석가는 메모리 붐이 아직 끝나지 않았다고 말합니다",
+        "description": "SK하이닉스가 시가총액 1조 달러를 돌파하며 삼성전자, 마이크론 테크놀로지와 대열에 합류했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-nvidia-supplier-sk-hynix-153110096.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/28 03:17",
+        "publishedAt": "05/29 00:31",
+        "score": 13
+      },
+      {
+        "title": "Elon Musk는 SpaceX와 인류애적 AI 거래를 명확히 했습니다. 예상만큼 크지는 않습니다.",
+        "description": "Elon Musk는 Anthropic과 SpaceX의 AI 컴퓨팅 계약이 암시된 IPO 투자설명서보다 훨씬 짧다는 점을 분명히 했습니다. 우주주가 반등세를 보이고 있다.",
+        "url": "https://finance.yahoo.com/m/6435c0f0-c5da-39d1-b134-11dc8db7056d/elon-musk-clarifies-spacex%2C.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/29 05:16",
+        "score": 12
+      },
+      {
+        "title": "Anthropic은 OpenAI를 능가하고 새로운 자금 조달 라운드를 통해 가치 평가액이 1조 달러에 가까워졌습니다.",
+        "description": "Anthropic의 자금 조달 라운드를 통해 Anthropic은 처음으로 OpenAI를 앞지르는 9,650억 달러로 가장 가치 있는 AI 스타트업이 되었습니다.",
+        "url": "https://finance.yahoo.com/m/82095d41-5475-3377-aa08-c1063563decb/anthropic-surpasses-openai%2C.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/29 04:20",
+        "score": 11
+      },
+      {
+        "title": "TSMC는 에너지 사용으로 인해 AI 칩 설계를 재고하게 된다고 밝혔습니다.",
+        "description": "TSMC의 한 고위 임원은 목요일 AI로 인한 전력 수요 급증으로 인해 컴퓨팅 성능보다는 에너지 효율성이 주요 요인이 되고 있다고 말했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/energy-forcing-rethink-ai-chip-161812671.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/29 01:18",
         "score": 10
       },
       {
-        "title": "AI 열풍 속에서 메모리 칩 거대 기업인 SK하이닉스와 마이크론의 가치가 1조 달러를 넘어섰습니다.",
-        "description": "한국 SK하이닉스와 미국 반도체 제조사 마이크론은 모두 24시간 만에 시가총액 1조 달러(8600억 유로)를 돌파했다. 서울 KOS",
-        "url": "https://www.euronews.com/2026/05/27/memory-chip-giants-sk-hynix-and-micron-cross-1tn-valuation-amid-ai-mania?utm_source=yahoo&utm_campaign=feeds_business_articles_2024&utm_medium=referral&.tsrc=rss",
+        "title": "ARM 대 SNPS: 투자자는 어떤 AI 칩 설계 주식을 사야 할까요?",
+        "description": "Arm Holdings의 AI 하이퍼스케일러 모멘텀은 중국과 가치 평가 위험을 충족시키는 반면 Synopsys는 빠르게 성장하지만 마진 압박에 직면해 있습니다. 어느 주식이 승리할까?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/arm-vs-snps-ai-chip-131100445.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/27 19:09",
+        "publishedAt": "05/28 22:11",
         "score": 10
-      },
-      {
-        "title": "SK하이닉스, AI 칩 붐으로 삼성·마이크론에 이어 1조 달러 클럽 합류",
-        "description": "SK하이닉스가 메모리반도체 경쟁사인 삼성전자, 마이크론테크놀로지와 함께 수요일 사상 처음으로 시가총액 1조 달러를 넘어섰다.",
-        "url": "https://finance.yahoo.com/news/sk-hynix-joins-1-trillion-002240430.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/27 09:22",
-        "score": 10
-      },
-      {
-        "title": "다가오는 IPO는 곧 세계에서 가장 가치 있는 회사로서 NVIDIA를 능가할 수 있습니다(SpaceX가 아닙니다).",
-        "description": "현재 가장 큰 IPO 대화는 SpaceX의 보고된 6월 12일 상장에 집중되어 있습니다. 개빈 베이커(Gavin Baker), Atreides Man의 설립자이자 최고 투자 책임자(CIO)",
-        "url": "https://247wallst.com/investing/2026/05/27/an-upcoming-ipo-could-soon-surpass-nvidia-as-the-worlds-most-valuable-company-its-not-spacex/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/28 01:02",
-        "score": 9
-      },
-      {
-        "title": "Nvidia가 대규모 AI 추진을 공개한 후 TSMC 주가가 사상 최고치를 기록했습니다.",
-        "description": "TSMC는 Nvidia가 대만에서 AI 지출을 과급하면서 새로운 최고치를 경신했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-soars-record-high-183134019.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/28 03:31",
-        "score": 7
       }
     ]
   }
