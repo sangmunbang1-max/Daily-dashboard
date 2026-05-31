@@ -1,203 +1,269 @@
 {
-  "generated_at_kst": "2026-05-31 08:32 KST",
-  "period": "05/30 07:00 ~ 05/31 07:00 KST",
+  "generated_at_kst": "2026-06-01 08:36 KST",
+  "period": "05/31 07:00 ~ 06/01 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "3년 만에 최고 수준의 인플레이션으로 인해 이란과의 평화 협정은 여전히 ​​연준의 금리 인상을 초래할 수 있습니다.",
-        "description": "인플레이션이 3년 만에 최고 수준에 도달하고 이란 전쟁이 3개월을 넘기면서 연준 관리들은 신중하게 대응하고 있습니다.",
-        "url": "https://finance.yahoo.com/economy/article/with-inflation-at-3-year-high-a-peace-deal-with-iran-could-still-spell-a-fed-rate-hike-160420528.html?.tsrc=rss",
+        "title": "United Rentals: 어떤 시장 붕괴에도 기꺼이 버틸 수 있는 산업 재고 주력 제품",
+        "description": "United Rentals는 장비 렌탈 업계에서 부러워할 만한 위치를 차지하고 있으며 장기 투자자는 보상을 받을 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/05/31/united-rentals-industrial-stock-workhorse-hold/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 01:04",
-        "score": 10
+        "publishedAt": "06/01 04:35",
+        "score": 6
       },
       {
-        "title": "AI 랠리·종전협상 기대감에 '쑥'…美 3대지수 또 최고치 [뉴욕증시 브리핑]",
+        "title": "S&P 500의 배당수익률은 1800년대 이래로 이렇게 낮았던 적이 없습니다. 이것이 이 최고 배당금 ETF를 더욱 매력적으로 만듭니다.",
+        "description": "Schwab 미국 배당주 ETF는 단지 더 높은 수익률 그 이상을 제공합니다.",
+        "url": "https://www.fool.com/investing/2026/05/31/the-sp-500s-dividend-yield-hasnt-been-this-low-sin/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/01 03:50",
+        "score": 5
+      },
+      {
+        "title": "6월 에너지 보유량 소진 및 금리 인상으로 '크런치 포인트' 지정",
+        "description": "Reuters Morning Bid의 진행자는 투자자들을 잠시 멈추게 할 수 있는 프레임으로 한 주를 시작했습니다. 현재 매크로 환경은 서핑 시 더 차분해 보입니다.",
+        "url": "https://247wallst.com/investing/2026/05/31/june-labeled-crunch-point-as-energy-reserves-burn-through-and-rate-hikes-loom/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/01 01:35",
+        "score": 5
+      },
+      {
+        "title": "S&P 500 배당수익률은 1.08%를 기록했습니다. 1800년대 이후 최저 지급률은 은퇴 위험 신호입니다.",
+        "description": "S&P 500 배당수익률은 1.08%로 떨어졌는데, 이는 1800년대 이후 지수에서 볼 수 없었던 수준입니다. 주식을 중심으로 소득계획을 세운 은퇴자들을 위한",
+        "url": "https://247wallst.com/personal-finance/2026/05/31/sp-500-dividend-yield-hits-1-08-the-lowest-payout-rate-since-the-1800s-is-a-retirement-red-flag/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/31 21:26",
+        "score": 5
+      },
+      {
+        "title": "JPMorgan은 2026년 주식 시장 메시지를 두 배로 늘렸습니다.",
+        "description": "S&P 500지수는 사상 최고치에 근접했습니다. 마이크론은 48거래일 만에 1조 달러 규모의 기업이 되었습니다. 신용 스프레드는 역사적으로 타이트합니다. 제이미 다이먼은",
+        "url": "https://www.thestreet.com/investing/stocks/jpmorgan-jamie-dimon-stock-market-message-2026?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/01 06:17",
+        "score": 4
+      }
+    ],
+    "kr_market": [
+      {
+        "title": "SK하이닉스 노조 임단협서 주택자금대출 5억 요구할 듯",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026053078347",
+        "url": "https://www.hankyung.com/article/2026053191421",
         "source": "hankyung.com",
-        "publishedAt": "05/30 07:25",
+        "publishedAt": "05/31 18:38",
+        "score": 5
+      },
+      {
+        "title": "이 아시아 펀드 투자자가 중국의 거대 인터넷 기업보다 한국 주식을 선호하는 이유",
+        "description": "Matthews Asia CIO인 Sean Taylor는 한국 주식의 추가 상승을 예상합니다. 그는 바이두(Baidu)와 다른 중국 거대 기술 기업에는 관심이 적습니다.",
+        "url": "https://finance.yahoo.com/m/60978d9d-634e-35fa-8ab6-b1acf48011fe/why-this-asia-fund-investor.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/31 15:00",
+        "score": 5
+      },
+      {
+        "title": "'코스닥 1위' 회사마저 제쳤다…'28조' 뚫은 ETF 뭐길래",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026053186017",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 09:26",
+        "score": 5
+      },
+      {
+        "title": "코스피, 최고치 랠리 이어갈까…\"美 경제지표·AI 이벤트 변수\" [주간전망]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026052968376",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 08:00",
+        "score": 5
+      },
+      {
+        "title": "외국인, 이달 코스피 44조 팔아치웠다…역대 최대 규모",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026053184527",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 07:22",
+        "score": 5
+      }
+    ],
+    "macro": [
+      {
+        "title": "5월 소비자물가, 3%대 상승률 진입할까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026053190961",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 19:02",
         "score": 8
       },
       {
-        "title": "내일 시장이 폭락한다면 매수할 인공지능(AI) 주식은 다음과 같습니다.",
-        "description": "그리고 아니요, Nvidia가 아닙니다.",
-        "url": "https://www.fool.com/investing/2026/05/30/artificial-intelligence-ai-stock-buy-market-crash/?.tsrc=rss",
+        "title": "Fed의 Waller는 스테이블 코인이 미국 통화 정책 범위를 확장한다고 말합니다.",
+        "description": "Investing.com - 크리스토퍼 월러 연방준비제도이사회(FRB) 총재는 일요일 전 세계적으로 스테이블코인이 채택되면 미국 통화의 범위가 확대될 수 있다고 말했다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-waller-says-stablecoins-extend-145503126.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 02:05",
-        "score": 6
+        "publishedAt": "05/31 23:55",
+        "score": 3
       },
       {
-        "title": "American Express 주식은 S&P 500보다 실적이 저조합니까?",
-        "description": "지난 1년 동안 아메리칸 익스프레스가 SPX보다 뒤처졌지만 분석가들은 주식 전망에 대해 어느 정도 낙관하고 있습니다.",
-        "url": "https://www.barchart.com/story/news/2216881/is-american-express-stock-underperforming-the-s-p-500?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/30 23:18",
-        "score": 6
+        "title": "美증시 변수는 '종전MOU·비농업 고용'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026053190971",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 18:50",
+        "score": 3
       },
       {
-        "title": "Intuit의 주식은 S&P 500보다 저조한 성과를 내고 있나요?",
-        "description": "인튜이트는 지난 1년 동안 더 광범위한 S&P 500 지수를 따라잡는 데 어려움을 겪었지만 월스트리트 분석가들은 주식에 대해 여전히 매우 낙관적입니다.",
-        "url": "https://www.barchart.com/story/news/2216478/is-intuits-stock-underperforming-the-s-p-500?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/30 22:41",
-        "score": 6
-      }
-    ],
-    "kr_market": [],
-    "macro": [
+        "title": "국가데이터처, 내달 1일부터 경제총조사",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202605319213i",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 17:49",
+        "score": 1
+      },
       {
-        "title": "2026년 여름 이전에 은퇴 소득을 경기 침체로부터 보호하는 방법",
-        "description": "높은 에너지 가격으로 인해 투자자들은 경기 침체를 우려하고 있습니다. 이러한 기업은 타격에서 잘 살아남아야 합니다.",
-        "url": "https://www.fool.com/retirement/2026/05/30/how-to-recession-proof-your-retirement-income-befo/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/30 22:35",
-        "score": 5
+        "title": "코스피, 최고치 랠리 이어갈까…\"美 경제지표·AI 이벤트 변수\" [주간전망]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026052968376",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 08:00",
+        "score": 1
       }
     ],
-    "bonds": [],
+    "bonds": [
+      {
+        "title": "국채수익률 상승이 시장 상승을 위협할 것인가?",
+        "description": "Investing.com -- 미국 국채 장기 수익률의 급격한 상승으로 인해 금리 인상이 주가 하락을 약화시킬 수 있는지에 대한 의문이 제기되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/higher-treasury-yields-threaten-market-121509684.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/31 21:15",
+        "score": 8
+      }
+    ],
     "commodities": [
       {
-        "title": "쉐브론 CEO, 유가에 대해 엄중한 경고 철회",
-        "description": "한동안 원유시장 해설을 시청해 왔습니다. CEO는 평가받는 경향이 있습니다. 그들은 범위에서 말합니다. 그들은 자격이 있습니다. 그들은 헤지합니다. 92일이 지났어요",
-        "url": "https://www.thestreet.com/investing/stocks/chevron-ceo-drops-a-stark-warning-on-rising-oil-price-pressure-in-june-and-july?.tsrc=rss",
+        "title": "미즈호, 유가 상승으로 데본 에너지(DVN) 목표 가격 인상 전망",
+        "description": "Devon Energy Corporation(NYSE:DVN)은 억만장자가 투자해야 할 10대 장기 배당주에 포함되었습니다. 미즈호 애널리스트 Nit",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/mizuho-raises-devon-energy-dvn-142907532.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 03:33",
+        "publishedAt": "05/31 23:29",
+        "score": 8
+      },
+      {
+        "title": "엑슨(Exxon)과 쉐브론(Chevron)은 앞으로 몇 주 안에 유가가 급등할 수 있다고 경고하고 있습니다. 이것이 투자자에게 의미하는 바는 다음과 같습니다.",
+        "description": "석유시장이 위험지대에 가까워지고 있다.",
+        "url": "https://www.fool.com/investing/2026/05/31/exxon-and-chevron-are-warning-that-oil-prices-coul/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "05/31 20:05",
         "score": 5
       },
       {
-        "title": "이란 전쟁에 대한 우려로 유가가 하락하고 달러가 상승함에 따라 금은 2개월 최저치로 하락",
-        "description": "이란 전쟁에 대한 불확실성이 재부상하면서 유가와 미국 달러가 상승하면서 금값이 2개월 만에 최저치로 떨어졌습니다. 현물 금 가격 fe",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-two-month-low-180128827.html?.tsrc=rss",
+        "title": "이란 전쟁의 첫 90일간의 에너지 시장 변화",
+        "description": "전 세계적으로 이미 약 10억 배럴의 원유 및 콘덴세이트 공급이 손실됨에 따라 전 세계 재고가 급격히 감소하고 있으며, 부족 현상이 발생하고 있습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/iran-war-first-90-days-210000356.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 03:01",
-        "score": 5
-      },
-      {
-        "title": "Nio의 배터리 교환 네트워크는 5일 만에 중국 전체 EV 에너지의 16%를 공급했습니다. 시장은 이것에 대해 자고 있습니까?",
-        "description": "배터리 교체는 중국 EV 소유자에게 인기 있는 옵션입니다.",
-        "url": "https://www.fool.com/investing/2026/05/30/nios-battery-swap-network-ev-energy-china/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/31 06:05",
+        "publishedAt": "06/01 06:00",
         "score": 3
       },
       {
-        "title": "Anglo Asian Mining은 이제 수익성 있는 구리 및 금 생산업체입니다 - ICYMI",
-        "description": "Anglo Asian Mining Plc(LSE:AAZ, OTC:AGXKF, FRA:A4A)는 2025년이 회사가 단일 광산 운영업체에서 다중 광산 운영업체로 확장하는 중요한 해였다고 밝혔습니다.",
-        "url": "https://www.proactiveinvestors.com/companies/news/1093066/anglo-asian-mining-is-now-a-profitable-copper-and-gold-producer-icymi-1093066.html?.tsrc=rss",
+        "title": "360 Energy Pulse: 이번 달 에너지 분야에서 중요한 점",
+        "description": "(By Oil & Gas 360) – 5월은 궁극적으로 에너지 시장이 지정학적 혼란에 대한 대처를 중단한 달로 기억될 수 있습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/360-energy-pulse-mattered-month-183019766.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/30 16:23",
+        "publishedAt": "06/01 03:30",
         "score": 3
       },
       {
-        "title": "Panoro Energy ASA(PESAF) 2026년 1분기 실적 발표 하이라이트: 강력한 생산 및 전략적 ...",
-        "description": "Panoro Energy ASA(PESAF)는 수익 압박과 운영상의 장애물에도 불구하고 강력한 생산 성장과 전략적 인수를 보고했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/panoro-energy-asa-pesaf-q1-010018548.html?.tsrc=rss",
+        "title": "6월 에너지 보유량 소진 및 금리 인상으로 '크런치 포인트' 지정",
+        "description": "Reuters Morning Bid의 진행자는 투자자들을 잠시 멈추게 할 수 있는 프레임으로 한 주를 시작했습니다. 현재 매크로 환경은 서핑 시 더 차분해 보입니다.",
+        "url": "https://247wallst.com/investing/2026/05/31/june-labeled-crunch-point-as-energy-reserves-burn-through-and-rate-hikes-loom/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/30 10:00",
+        "publishedAt": "06/01 01:35",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "이란 전쟁에 대한 우려로 유가가 하락하고 달러가 상승함에 따라 금은 2개월 최저치로 하락",
-        "description": "이란 전쟁에 대한 불확실성이 재부상하면서 유가와 미국 달러가 상승하면서 금값이 2개월 만에 최저치로 떨어졌습니다. 현물 금 가격 fe",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-two-month-low-180128827.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/31 03:01",
-        "score": 1
-      },
-      {
-        "title": "SaaS는 잊어버리세요: AI 에이전트가 ServiceNow와 Palantir Technologies를 차세대 수조 달러 플랫폼으로 만들 수 있는 이유",
-        "description": "이들 플랫폼은 고객이 인공지능(AI)을 효과적으로 사용할 수 있도록 지원합니다.",
-        "url": "https://www.fool.com/investing/2026/05/30/forget-saas-why-ai-agents-could-make-servicenow-an/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/30 17:05",
-        "score": 1
+        "title": "\"2분기 원·달러 평균 환율 1480원\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026053190981",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 18:53",
+        "score": 8
       }
     ],
     "geopolitics": [
       {
-        "title": "워렌 버핏의 후계자인 그렉 아벨(Greg Abel)은 지난 분기에 3번의 대규모 구매를 했으며 모두 뛰어난 성과를 거두었습니다.",
-        "description": "새로운 CEO는 세 가지 가장 큰 투자를 통해 강력한 출발을 시작했습니다.",
-        "url": "https://www.fool.com/investing/2026/05/30/warren-buffett-successor-greg-abel-made-3-big-purc/?.tsrc=rss",
+        "title": "이란 전쟁의 첫 90일간의 에너지 시장 변화",
+        "description": "전 세계적으로 이미 약 10억 배럴의 원유 및 콘덴세이트 공급이 손실됨에 따라 전 세계 재고가 급격히 감소하고 있으며, 부족 현상이 발생하고 있습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/iran-war-first-90-days-210000356.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 06:50",
+        "publishedAt": "06/01 06:00",
         "score": 1
       },
       {
-        "title": "Exxon Mobil은 석유 공급 부족과 투자자 평가 위험에 대해 경고합니다.",
-        "description": "Exxon Mobil(NYSE:XOM) 경영진은 전 세계 석유 재고가 곧 사상 최저치를 기록할 수 있다고 경고했습니다. 회사는 급격한 상승 위험을 경고했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/exxon-mobil-warns-oil-supply-210807071.html?.tsrc=rss",
+        "title": "소프트웨어는 올해 시장에서 가장 뒤처진 분야였습니다. Snowflake의 분출은 그것을 변화시키는 불꽃이 될 수 있습니다.",
+        "description": "데이터 클라우드 회사는 이제 막 재가동하여 전망을 높였으며 나머지 그룹도 이를 따르기 시작했습니다.",
+        "url": "https://www.fool.com/investing/2026/05/31/software-was-the-markets-big-laggard-this-year-sno/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 06:08",
+        "publishedAt": "06/01 05:31",
         "score": 1
       },
       {
-        "title": "쉐브론 CEO, 유가에 대해 엄중한 경고 철회",
-        "description": "한동안 원유시장 해설을 시청해 왔습니다. CEO는 평가받는 경향이 있습니다. 그들은 범위에서 말합니다. 그들은 자격이 있습니다. 그들은 헤지합니다. 92일이 지났어요",
-        "url": "https://www.thestreet.com/investing/stocks/chevron-ceo-drops-a-stark-warning-on-rising-oil-price-pressure-in-june-and-july?.tsrc=rss",
+        "title": "Diamondback Energy Inc.(FANG) Citi가 낙관하는 미국-이란 전쟁 중에 매수할 수 있는 최고의 석유 주식 중 하나",
+        "description": "Diamondback Energy Inc.(NASDAQ:FANG)는 미국-이란 분쟁 중에 현재 매수할 수 있는 최고의 석유 주식 중 하나입니다. 5월 20일, Citi의 애널리스트들은 다음과 같은 입장을 반복했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/diamondback-energy-inc-fang-one-115958968.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 03:33",
+        "publishedAt": "05/31 20:59",
         "score": 1
       },
       {
-        "title": "이란 전쟁에 대한 우려로 유가가 하락하고 달러가 상승함에 따라 금은 2개월 최저치로 하락",
-        "description": "이란 전쟁에 대한 불확실성이 재부상하면서 유가와 미국 달러가 상승하면서 금값이 2개월 만에 최저치로 떨어졌습니다. 현물 금 가격 fe",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-two-month-low-180128827.html?.tsrc=rss",
+        "title": "엑슨(Exxon)과 쉐브론(Chevron)은 앞으로 몇 주 안에 유가가 급등할 수 있다고 경고하고 있습니다. 이것이 투자자에게 의미하는 바는 다음과 같습니다.",
+        "description": "석유시장이 위험지대에 가까워지고 있다.",
+        "url": "https://www.fool.com/investing/2026/05/31/exxon-and-chevron-are-warning-that-oil-prices-coul/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 03:01",
-        "score": 1
-      },
-      {
-        "title": "금은 2026년에 다시 상승하며 금에 접근하는 모든 방법을 검토한 후 이 3가지 ETF는 세 가지 다른 위험 수준에서 거래를 다룹니다.",
-        "description": "금은 지난 2년 동안 해왔던 일을 계속하고 있습니다. 가끔 급락을 하면서 더 높이 갈고 닦는 것입니다. 금속이 SPDR Gold T를 밀어냈습니다.",
-        "url": "https://247wallst.com/investing/2026/05/30/gold-is-up-again-in-2026-and-after-reviewing-every-way-to-access-the-metal-these-3-etfs-cover-the-trade-at-three-different-risk-levels/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/30 22:36",
+        "publishedAt": "05/31 20:05",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX IPO가 가까워지고 소매업이 복귀합니다.",
-        "description": "SpaceX가 회사의 다가오는 IPO를 예상하여 로켓 발사 및 AI로 얼마나 많은 돈을 벌고 있는지 알아보세요.",
-        "url": "https://www.fool.com/investing/2026/05/30/spacex-ipo-nears-and-retail-makes-a-comeback/?.tsrc=rss",
+        "title": "SpaceX, OpenAI Windfall, 차세대 아시아 AI 승자에 대한 투자 촉진",
+        "description": "(블룸버그) - 미국에서 전례 없는 주식 공모 물결의 순풍으로부터 이익을 얻을 수 있는 기업과 투자자를 찾기 위한 연구가 진행 중입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-openai-windfall-fuels-bets-000000236.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/31 05:42",
+        "publishedAt": "05/31 09:00",
+        "score": 12
+      },
+      {
+        "title": "인공지능(AI) 메모리 칩 2개 주식이 1조 달러 클럽에 합류했습니다. 단 $60에 두 제품을 모두 구입할 수 있는 방법은 다음과 같습니다.",
+        "description": "SK하이닉스와 마이크론테크놀로지가 시가총액 1조 달러를 돌파했습니다.",
+        "url": "https://www.fool.com/investing/2026/05/31/these-2-artificial-intelligence-ai-memory-chip-sto/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/01 06:20",
+        "score": 10
+      },
+      {
+        "title": "'로켓은 어렵다': Elon Musk는 자신의 SpaceX가 $1.8T IPO로 활공하면서 Jeff Bezos의 로켓 폭발에 반응합니다.",
+        "description": "Blue Origin의 New Glenn 로켓은 뜨거운 화재 테스트 중에 폭발했으며 Elon Musk는 SpaceX가 가장 큰 일을 향해 나아가는 동안 이에 대해 몇 가지 생각을 했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rockets-hard-elon-musk-responds-151500401.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/01 00:15",
         "score": 7
       },
       {
-        "title": "IBM은 AI로 인해 버스를 놓쳤습니다. 새로운 연방 자금 지원은 IBM 주식이 양자 컴퓨팅 분야의 승자가 될 수 있음을 의미합니다.",
-        "description": "IBM은 양자컴퓨팅 파운드리 설립을 위해 10억 달러의 자금을 지원받을 예정이다.",
-        "url": "https://www.barchart.com/story/news/2216620/ibm-missed-the-bus-on-ai-new-federal-funding-means-ibm-stock-could-be-a-winner-in-quantum-computing?.tsrc=rss",
+        "title": "엔비디아와 AMD, 중국 자회사에 대한 새로운 수출 제한 직면",
+        "description": "Investing.com -- 미 상무부는 일요일 기업들이 ADVA 수출을 허용할 수 있는 잠재적인 허점을 막는 지침을 발표했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-amd-face-export-limits-204921248.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "05/30 23:00",
+        "publishedAt": "06/01 05:49",
         "score": 6
       },
       {
-        "title": "이 우주 주식은 2026년에 220% 급등했습니다. SpaceX IPO 매니아가 이제 막 시작되었습니다.",
-        "description": "Redwire 주식은 SpaceX IPO 열정으로 급등하고 있지만 분석가들은 성장의 상당 부분이 이미 가격에 반영되었을 수 있다고 말합니다.",
-        "url": "https://www.barchart.com/story/news/2216030/this-space-stock-has-soared-220-in-2026-the-spacex-ipo-mania-is-just-getting-started?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/30 22:00",
+        "title": "엔비디아, MS와 손잡고 '인공지능 PC' 선보인다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026053191491",
+        "source": "hankyung.com",
+        "publishedAt": "05/31 18:38",
         "score": 6
-      },
-      {
-        "title": "Palantir Technologies Inc.(PLTR): Renaissance Technologies, 계속해서 지분 축소",
-        "description": "Jim Simons의 Renaissance Technologies와 Palantir Technologies Inc.(NASDAQ:PLTR)가 2위로 선정한 투자할 최고의 주식 12개를 방금 다루었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-renaissance-155106404.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/31 00:51",
-        "score": 5
-      },
-      {
-        "title": "SaaS는 잊어버리세요: AI 에이전트가 ServiceNow와 Palantir Technologies를 차세대 수조 달러 플랫폼으로 만들 수 있는 이유",
-        "description": "이들 플랫폼은 고객이 인공지능(AI)을 효과적으로 사용할 수 있도록 지원합니다.",
-        "url": "https://www.fool.com/investing/2026/05/30/forget-saas-why-ai-agents-could-make-servicenow-an/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "05/30 17:05",
-        "score": 5
       }
     ]
   }
