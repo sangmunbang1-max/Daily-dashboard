@@ -1,65 +1,41 @@
 {
-  "generated_at_kst": "2026-05-30T04:09:59.893022+09:00",
-  "biz_date": "2026-05-29",
+  "generated_at_kst": "2026-06-02T00:23:31.780863+09:00",
+  "biz_date": "2026-06-01",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'trade_ok', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
+  "note": "market_status={'kospi': 'no_trade_or_quote_for_A01606', 'kosdaq': 'quote_fallback_ok'}",
   "token_status": "ready",
   "series": {
-    "kospi": [
+    "kospi": [],
+    "kosdaq": [
       {
-        "time": "04:09",
-        "bsop_hour": "041010",
-        "price": 1346.1,
-        "change": -3.9,
-        "change_pct": -0.29,
-        "symbol": "A01606",
-        "name": "KOSPI Night Futures",
-        "open": 1352.0,
-        "session_high": 1364.9,
-        "session_low": 1342.2,
-        "ask1": 1346.6,
-        "bid1": 1345.4,
-        "acml_vol": 19168.0,
-        "last_cnqn": 1.0,
-        "tr_key": "A01606",
-        "source_type": "trade",
+        "time": "00:23",
+        "bsop_hour": "002337",
+        "price": 1846.35,
+        "change": null,
+        "change_pct": null,
+        "symbol": "A06606",
+        "name": "KOSDAQ Night Futures",
+        "open": null,
+        "session_high": null,
+        "session_low": null,
+        "ask1": 1847.4,
+        "bid1": 1845.3,
+        "acml_vol": null,
+        "last_cnqn": null,
+        "tr_key": "A06606",
+        "source_type": "quote_fallback",
         "raw_fields": {
-          "FUTS_PRPR": "1346.10",
-          "FUTS_PRDY_VRSS": "-3.90",
-          "FUTS_PRDY_CTRT": "-0.29",
-          "FUTS_OPRC": "1352.00",
-          "FUTS_HGPR": "1364.90",
-          "FUTS_LWPR": "1342.20",
-          "FUTS_ASKP1": "1346.60",
-          "FUTS_BIDP1": "1345.40",
-          "ACML_VOL": "19168",
-          "LAST_CNQN": "1"
+          "FUTS_ASKP1": "1847.40",
+          "FUTS_BIDP1": "1845.30",
+          "TOTAL_ASKP_RSQN": "645",
+          "TOTAL_BIDP_RSQN": "169"
         }
       }
-    ],
-    "kosdaq": []
+    ]
   },
   "summary": {
     "kospi": {
-      "last": 1346.1,
-      "change": -3.9,
-      "change_pct": -0.29,
-      "high": 1346.1,
-      "low": 1346.1,
-      "points": 1,
-      "last_symbol": "A01606",
-      "last_name": "KOSPI Night Futures",
-      "open": 1352.0,
-      "session_high": 1364.9,
-      "session_low": 1342.2,
-      "ask1": 1346.6,
-      "bid1": 1345.4,
-      "spread": 1.2,
-      "acml_vol": 19168.0,
-      "source_type": "trade"
-    },
-    "kosdaq": {
       "last": null,
       "change": null,
       "change_pct": null,
@@ -76,6 +52,24 @@
       "spread": null,
       "acml_vol": null,
       "source_type": null
+    },
+    "kosdaq": {
+      "last": 1846.35,
+      "change": null,
+      "change_pct": null,
+      "high": 1846.35,
+      "low": 1846.35,
+      "points": 1,
+      "last_symbol": "A06606",
+      "last_name": "KOSDAQ Night Futures",
+      "open": null,
+      "session_high": null,
+      "session_low": null,
+      "ask1": 1847.4,
+      "bid1": 1845.3,
+      "spread": 2.1,
+      "acml_vol": null,
+      "source_type": "quote_fallback"
     }
   },
   "meta": {
@@ -98,14 +92,14 @@
       "kosdaq": "A06606"
     },
     "received_symbols": {
-      "trade": [
-        "A01606"
-      ],
-      "quote": []
+      "trade": [],
+      "quote": [
+        "A06606"
+      ]
     },
     "market_status": {
-      "kospi": "trade_ok",
-      "kosdaq": "no_trade_or_quote_for_A06606"
+      "kospi": "no_trade_or_quote_for_A01606",
+      "kosdaq": "quote_fallback_ok"
     }
   }
 }
