@@ -1,325 +1,301 @@
 {
-  "generated_at_kst": "2026-06-05 08:44 KST",
-  "period": "06/04 07:00 ~ 06/05 07:00 KST",
+  "generated_at_kst": "2026-06-06 08:45 KST",
+  "period": "06/05 07:00 ~ 06/06 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Nasdaq, S&P 500, Dow Futures가 투자자 눈으로 혼합됨 Jobs 보고서, 이란 긴장: AVGO, CRWD, TSM, NVDA, MSTR, BMNR에 초점을 맞춘 이유",
-        "description": "투자자들은 금요일의 비농업 급여 발표에 관심을 돌리기 전에 초기 실업수당 청구와 Challenger 감원 보고서를 모니터링할 것입니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stock-market-today-dow-nasdaq-futures-avgo-crwd-nvda-mstr-jobs-data/cZ0Z4TMReyE?.tsrc=rss",
+        "title": "나스닥, S&P 500은 AI 주식이 폭락하고 연준의 금리 인상 가능성이 높아지면서 최악의 날을 맞이했습니다.",
+        "description": "투자자들은 강한 고용 데이터로 인해 연방 준비 은행 금리 인상 가능성이 높아지고 월스트리트가 어려움을 겪은 후 금요일 주식, 채권, 비트 코인 및 금을 매도했습니다.",
+        "url": "https://www.cnn.com/2026/06/05/markets/stock-market-sell-off-fed?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 17:40",
+        "publishedAt": "06/06 05:05",
+        "score": 16
+      },
+      {
+        "title": "Nasdaq은 2025년 4월 이후 최악의 하락세를 기록했으며 S&P 500 및 Dow 하락은 강력한 고용 데이터로 인해 금리 인상 베팅이 촉발되었습니다 — TSLA, GME, META, BA, MSTR, GOOGL 집중",
+        "description": "나스닥, S&P 500, 다우존스 지수는 모두 6월 5일로 끝나는 주를 하락세로 마감했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-posts-worst-drop-since-april-2025-s-and-p-500-and-dow-drop-as-strong-jobs-data-ignites-rate-hike-bets-tsla-gme-meta-ba-mstr-in-focus/cZ0FUXKReCv?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/06 06:53",
+        "score": 15
+      },
+      {
+        "title": "기술 약점과 연준 금리 인상 추측으로 주가 하락",
+        "description": "오늘 S&P 500 지수($SPX )(SPY )는 -0.90% 하락했고, 다우존스 산업평균지수($DOWI )(DIA )는 -0.32% 하락했으며, 나스닥 100 지수($IUX",
+        "url": "https://www.barchart.com/story/news/2326133/stocks-tumble-on-tech-weakness-and-fed-rate-hike-speculation?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/05 23:10",
         "score": 11
       },
       {
-        "title": "미국-이란 긴장이 다시 고조되면서 S&P 500, 나스닥 선물 하락, 칩 제조업체 손실: AVGO, KEEL, CRWD, MSTR 주식에 집중",
-        "description": "도널드 트럼프 미국 대통령은 다시 긴장이 고조되는 가운데 미군이 사망할 경우 이란과의 휴전 종료를 고려할 것이라고 밝혔습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-futures-slip-amid-renewed-us-iran-tensions-chipmaker-losses/cZ0mD4iReUM?.tsrc=rss",
+        "title": "나스닥, 금리인상 우려로 1100포인트 급락",
+        "description": "금요일 거래에서 미국 주식(^DJI, ^IXIC, ^GSPC)이 하락했고 Nasdaq Composite가 손실을 주도하며 1,100포인트 이상 하락(4.18%)하여 마감했습니다. 시장은",
+        "url": "https://finance.yahoo.com/video/nasdaq-plunges-1100-points-over-renewed-rate-hike-concerns-201137413.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 10:53",
-        "score": 11
-      },
-      {
-        "title": "Dow는 사상 최고치를 기록하고 S&P 500은 유가 하락으로 상승하고 칩 약세는 Nasdaq을 압박합니다 — AVGO, UNH, META, PINS, RUM In Focus",
-        "description": "브로드컴 주가는 거의 13% 하락해 나스닥 100 지수도 하락했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-hits-record-high-and-s-and-p-500-gains-as-oil-slides-while-chip-weakness-weighs-on-nasdaq-avgo-unh-meta-pins-rum-in-focus/cZ0ZpheRezJ?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/05 06:22",
+        "publishedAt": "06/06 05:11",
         "score": 10
       },
       {
-        "title": "다우, 3월 이후 최악의 날 기록, 미국-이란 거래소 화재 이후 S&P 500 및 나스닥 스냅 연속 승리 — SNDK, TSLA, GOOGL, META, IREN 집중",
-        "description": "이란 준군사조직 혁명수비대가 바레인에 있는 미 해군 5함대 본부를 공격해 미국과 이란의 휴전이 무산됐다고 밝혔다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-logs-worst-day-since-march-s-and-p-500-and-nasdaq-snap-win-streak-after-us-iran-exchange-fire-sndk-tsla-googl-meta-iren-in-focus/cZ0jVb2ReUp?.tsrc=rss",
+        "title": "나스닥은 AI 버블에 대한 두려움으로 1,121포인트 하락: 오늘의 주식 시장",
+        "description": "기술 중심 지수는 AI 칩 제조업체인 Broadcom의 실망스러운 지침으로 인해 상당한 매도 압력으로 인해 하락했습니다.",
+        "url": "https://www.kiplinger.com/investing/stocks/nasdaq-falls-1-121-points-on-fear-of-an-ai-bubble-stock-market-today?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 08:43",
-        "score": 10
-      },
-      {
-        "title": "슬라이딩 기술로 인해 나스닥 종합 지수가 하락하고 원유 싱크대가 낮아지면서 미국 주가 지수가 혼합되었습니다.",
-        "description": "미국 주가지수는 광범위한 랠리에 따른 기술 하락과 원유 가격 하락으로 혼조세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-sliding-205433109.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:54",
+        "publishedAt": "06/06 05:19",
         "score": 9
       }
     ],
     "kr_market": [
       {
-        "title": "삼성화재, 코스피 약세에도 13% 급등…금리 인상 기대·외국인 매수 몰려",
+        "title": "'검은 금요일' 코스피·코스닥 '와르르'…환율 1539원 마감",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606047943i",
+        "url": "https://www.hankyung.com/article/2026060599236",
         "source": "hankyung.com",
-        "publishedAt": "06/04 17:45",
-        "score": 5
+        "publishedAt": "06/05 15:53",
+        "score": 10
       },
       {
-        "title": "SK하이닉스는 투자자들에게 미국 상장 계획이 강력한 지지를 받고 있다고 전했다.",
-        "description": "SK하이닉스는 이번 주 투자자들에게 강력한 디마의 혜택을 누리고 있기 때문에 미국 상장 제안에 대해 \"매우 긍정적인\" 피드백을 받았다고 말했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-tells-investors-us-070258447.html?.tsrc=rss",
+        "title": "엔비디아, 삼성, SK하이닉스, 마이크론에 HBM4 공급 인증",
+        "description": "Vera Rubin은 3분기에 납품될 예정으로 본격적인 생산에 들어갔습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-certifies-samsung-sk-hynix-183947167.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 16:02",
+        "publishedAt": "06/06 03:39",
         "score": 5
       },
       {
-        "title": "외인 7조 던졌다…코스피 1.8% 하락에 환율도 1530원 목전",
+        "title": "Nvidia는 Vera Rubin HBM4 공급을 위해 Samsung, SK Hynix 및 Micron을 인증했습니다.",
+        "description": "Bloomberg가 보도한 이 발표는 어느 칩 제조업체가 Vera Rubin의 뒤를 잇을 자격이 있는지에 대한 공급망 추측을 종식시켰습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-certifies-samsung-sk-hynix-133001560.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/05 22:30",
+        "score": 5
+      },
+      {
+        "title": "삼성전자 '5년간 5조원 사회공헌' 본격 시동",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026060477836",
+        "url": "https://www.hankyung.com/article/2026060501411",
         "source": "hankyung.com",
-        "publishedAt": "06/04 16:01",
+        "publishedAt": "06/05 20:00",
         "score": 5
       },
       {
-        "title": "엔비디아 CEO, TV 토크쇼와 야구 출연으로 한국에 매력을 더하다",
-        "description": "엔비디아 젠슨 황 CEO가 이번 주 7개월 만에 두 번째 한국 방문을 할 때, 탑 메모리 칩과 로보티만 만나는 것은 아닐 것이다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-ceo-mounts-charm-push-071323853.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/04 16:13",
-        "score": 1
+        "title": "반도체로 급등했던 코스피, 반도체 악재에 '급락'…\"대형 IPO 앞두고 현금화\" 움직임도",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202606059708i",
+        "source": "hankyung.com",
+        "publishedAt": "06/05 16:55",
+        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "삼성화재, 코스피 약세에도 13% 급등…금리 인상 기대·외국인 매수 몰려",
+        "title": "[속보] 美 '깜짝 고용수치'에 미국채금리 급등…30년물 5.0% 돌파",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606047943i",
+        "url": "https://www.hankyung.com/article/2026060504647",
         "source": "hankyung.com",
-        "publishedAt": "06/04 17:45",
-        "score": 5
-      },
-      {
-        "title": "ASTS, RKLB, SPCE, RDW 주식은 하룻밤 사이에 매도세를 연장합니다. 분석가는 Jefferies Court SpaceX Bears로 '우주에 대한 베팅' 거래를 지지합니다",
-        "description": "SpaceX에 대한 약세 베팅을 모색하는 헤지 펀드는 IPO 인수 라인업에 없었던 Jefferies에 접근한 것으로 알려졌습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/asts-rklb-spce-rdw-stocks-selloff-spacex-bear-trade/cZ0mDd6ReUt?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/04 10:51",
-        "score": 5
-      },
-      {
-        "title": "중앙은행은 2025년에 금을 덜 샀지만 여전히 45년 최고치를 기록했습니다",
-        "description": "2025년 금 가격은 1980년 이후 최고의 해인 44% 상승해 글로벌 불확실성 속에서 중앙은행과 소매 투자자들이 몰려들면서 4,550달러를 기록했습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/central-banks-bought-less-gold-170000214.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/05 02:00",
+        "publishedAt": "06/05 21:39",
         "score": 3
       },
       {
-        "title": "투자자들이 경제 데이터를 평가함에 따라 상장지수펀드는 하락하고 주식 선물은 벨 전 목요일에 혼합되었습니다.",
-        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.4% 하락했으며 적극적으로 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-124940562.html?.tsrc=rss",
+        "title": "정부 스테이블코인 지급, '탈세 경제' 촉진할 것\" 국회의원 경고",
+        "description": "브래드 셔먼(Brad Sherman) 하원의원은 스테이블코인으로 정부 지불을 허용하면 “미국 달러에 대한 대안이 신성화될 것”이라고 경고했습니다.",
+        "url": "https://decrypt.co/370121/government-stablecoin-payments-would-fuel-tax-evasion-economy-lawmaker-warns?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 21:49",
+        "publishedAt": "06/06 00:52",
+        "score": 1
+      },
+      {
+        "title": "테일러 스위프트, 과대광고의 경제학, 그리고 월드컵이 잘못한 것",
+        "description": "Swift의 팬들은 지갑으로 결제합니다. 월드컵 개최국은 예산을 지불합니다.",
+        "url": "https://finance.yahoo.com/economy/articles/taylor-swift-economics-hype-world-070500037.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/05 16:05",
+        "score": 1
+      },
+      {
+        "title": "도지OS 창업자 \"도지코인 사용자 1000만 시대…실사용 경제 구축\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026060592086",
+        "source": "hankyung.com",
+        "publishedAt": "06/05 11:05",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "중동의 확대에 대한 두려움이 완화되면서 국채 수익률, 달러 하락",
-        "description": "유가 하락은 국채수익률과 달러화 가치를 하락시킵니다. 이스라엘-레바논 휴전이 협상을 촉진할 수 있다는 희망에 원유는 3% 하락했습니다.",
-        "url": "https://finance.yahoo.com/m/22d6a7e0-7a08-3afc-bf91-f8d36b23166f/treasury-yields%2C-dollar-fall.html?.tsrc=rss",
+        "title": "재무부는 인기 있는 일자리 보고서에 상승세를 보이고 있습니다. 주식 선물은 낮게 유지됩니다.",
+        "description": "인기 있는 일자리 보고서로 인해 채권 수익률이 높아진 후 주식 선물은 계속 하락했습니다. 다우 선물은 보합세를 보였습니다. S&P 500 선물은 0.6% 하락했습니다. 나스닥 100 선물",
+        "url": "https://finance.yahoo.com/m/5e343eb3-ffe2-3df4-be45-01d9b2bd1dc3/treasury-yields-jump-on-hot.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 22:58",
+        "publishedAt": "06/05 21:38",
         "score": 8
-      },
-      {
-        "title": "베센트 재무장관 \"이란 분쟁 중단됐다\"",
-        "description": "지정학적 긴장과 불확실성이 이번 주 금융시장을 계속 압박하고 있습니다. 투자자들은 이제 Middl의 발전을 면밀히 모니터링하고 있습니다.",
-        "url": "https://www.thestreet.com/crypto/markets/treasury-secretary-bessent-says-iran-conflict-has-been-halted?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:03",
-        "score": 3
-      },
-      {
-        "title": "Vanguard, Vanguard U.S. High-Yield Corporate Bond Index ETF로 고수익 상품 확대",
-        "description": "Vanguard는 오늘 Vanguard U.S. High-Yield Corporate Bond Index ETF(VCHY) 출시를 발표하여 지수 기반으로 채권 라인업을 확장했습니다.",
-        "url": "https://finance.yahoo.com/markets/options/articles/vanguard-expands-high-yield-offering-132400304.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/04 22:24",
-        "score": 3
-      },
-      {
-        "title": "'빅스텝' 우려에…국고채 금리 2년7개월만에 최고치",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026060481841",
-        "source": "hankyung.com",
-        "publishedAt": "06/04 18:10",
-        "score": 3
-      },
-      {
-        "title": "UBS, 8개의 ETRACS Exchange Traded Notes에 대한 쿠폰 지급 선언",
-        "description": "뉴욕, 2026년 6월 4일 -- UBS 투자 은행은 오늘 NYSE Arca에서 거래되는 5개의 ETRACS Exchange Traded Notes에 대한 쿠폰 지급을 발표했으며 예상되는 금액은 2026년 6월 4일입니다.",
-        "url": "https://finance.yahoo.com/markets/options/articles/ubs-declares-coupon-payments-8-203000461.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:30",
-        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "미국 주식 시장은 기술주 매도세와 원유 가격 하락으로 혼조세를 보이고 있습니다.",
-        "description": "목요일 미국 주가지수는 기술주 매도와 원유 하락으로 혼조세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-amid-201326977.html?.tsrc=rss",
+        "title": "독일 유명 은행, 2026년 남은 기간 동안 금 가격 목표 재설정",
+        "description": "금 가격은 2026년 1월 온스당 5,595달러로 사상 최고치를 기록했고, 이후 몇 달 동안 투자자들이 혼란스러워하는 일을 하면서 보냈습니다.",
+        "url": "https://www.thestreet.com/investing/popular-german-bank-resets-gold-price-target-for-the-rest-of-2026?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:13",
-        "score": 10
-      },
-      {
-        "title": "슬라이딩 기술로 인해 나스닥 종합 지수가 하락하고 원유 싱크대가 낮아지면서 미국 주가 지수가 혼합되었습니다.",
-        "description": "미국 주가지수는 광범위한 랠리에 따른 기술 하락과 원유 가격 하락으로 혼조세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-sliding-205433109.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:54",
+        "publishedAt": "06/06 04:13",
         "score": 5
       },
       {
-        "title": "머피 오일은 고유가로 인해 현금 흐름이 향상될 것이라고 KeyBanc이 밝혔습니다.",
-        "description": "Murphy Oil(MUR)의 현금 흐름은 원유 가격 상승으로 이익을 얻을 것이며 Middle E에는 끝이 없습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/murphy-oil-poised-cash-flow-202004851.html?.tsrc=rss",
+        "title": "업데이트: 이스라엘이 휴전 협정에도 불구하고 레바논을 계속 공격하는 가운데 WTI 유가 하락",
+        "description": "서부 텍사스 중질유(WTI) 원유는 금요일 전망에 거의 변화가 없는 가운데 2.7% 하락 마감했습니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-falls-even-israel-183644958.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:20",
+        "publishedAt": "06/06 03:36",
         "score": 5
       },
       {
-        "title": "업데이트: 이스라엘과 레바논이 휴전 협정을 맺으면서 WTI가 폭락하여 미국-이란 휴전 가능성이 완화됨",
-        "description": "이스라엘과 레바논이 합의함에 따라 서부 텍사스 중질유(WTI) 원유는 목요일 3.1% 하락 마감했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-falls-israel-lebanon-reach-184010441.html?.tsrc=rss",
+        "title": "중유 가격 변동성을 극복하기 위해 Cenovus가 구축된 방법은 다음과 같습니다.",
+        "description": "CVE는 WCS 중유 가격 변동성을 완화하고 저렴한 중유를 고부가가치 연료로 전환하기 위해 파이프라인 접근과 캐나다 및 미국 정유를 사용합니다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/heres-cenovus-built-weather-heavy-173700934.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/05 03:40",
+        "publishedAt": "06/06 02:37",
         "score": 5
       },
       {
-        "title": "이스라엘과 레바논이 휴전 협정을 체결하고 잠재적인 미국-이란 휴전이 쉬워지면서 유가가 하락했습니다.",
-        "description": "이스라엘과 레바논이 이란의 주요 합의 중 하나인 휴전에 합의함에 따라 목요일 일찍 유가가 하락했습니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-fall-israel-lebanon-124025177.html?.tsrc=rss",
+        "title": "원유와 브라질 레알 약세로 인해 설탕 가격이 하락",
+        "description": "7월 뉴욕 세계 설탕 #11(SBN26)은 오늘 -0.10(-0.70%) 하락했고, 8월 런던 ICE 백설탕 #5(SWQ26)은 -2.50(-0.56%) 하락했습니다. 설탕 가격은 mov입니다.",
+        "url": "https://www.barchart.com/story/news/2328451/crude-oil-and-brazilian-real-weakness-undercuts-sugar-prices?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 21:40",
+        "publishedAt": "06/06 01:23",
+        "score": 5
+      },
+      {
+        "title": "Microsoft Copilot AI 금 가격 예측을 믿는 사람은 아무도 없습니다.",
+        "description": "Microsoft Copilot AI 금 가격 예측은 2026년 말까지 금 온스당 5,500~6,000달러를 목표로 하고 있으며 매크로 설정이 다음과 같이 강력하다고 말합니다.",
+        "url": "https://99bitcoins.com/news/altcoins/nobody-believes-this-microsoft-copilot-ai-gold-price-prediction/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/05 21:56",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "달러는 여전히 세계에서 가장 강력한 통화입니다. 유로를 판매하세요.",
-        "description": "9월 유로화 선물은 가격 약세에 따른 매도 기회를 제공합니다.",
-        "url": "https://www.barchart.com/story/news/2307306/the-dollar-is-still-the-strongest-currency-in-the-world-sell-the-euro?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/05 00:11",
-        "score": 7
+        "title": "원·달러 환율 야간 거래서 1550원 돌파…\"글로벌 금융위기 이후 최고\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026060504867",
+        "source": "hankyung.com",
+        "publishedAt": "06/05 22:11",
+        "score": 8
       },
       {
-        "title": "[속보] 환율, 야간거래서 1540원 넘어…금융위기 이후 최고",
+        "title": "미친 듯이 파는 외국인…증시·환율 '검은 금요일'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026060480177",
+        "url": "https://www.hankyung.com/article/2026060502691",
         "source": "hankyung.com",
-        "publishedAt": "06/04 17:11",
+        "publishedAt": "06/06 01:26",
         "score": 5
       },
       {
-        "title": "외인 7조 던졌다…코스피 1.8% 하락에 환율도 1530원 목전",
+        "title": "주가 급등에 마냥 좋아했는데…\"환율 1550원 될 판\" 초비상",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026060477836",
+        "url": "https://www.hankyung.com/article/2026060502321",
         "source": "hankyung.com",
-        "publishedAt": "06/04 16:01",
+        "publishedAt": "06/05 17:54",
         "score": 5
       },
       {
-        "title": "뱅가드 S&P 500, ETF 최초로 운용자산 1조달러 돌파",
+        "title": "'검은 금요일' 코스피·코스닥 '와르르'…환율 1539원 마감",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606047629i",
+        "url": "https://www.hankyung.com/article/2026060599236",
         "source": "hankyung.com",
-        "publishedAt": "06/04 15:31",
-        "score": 3
+        "publishedAt": "06/05 15:53",
+        "score": 5
       },
       {
-        "title": "ASML, 유럽 역사상 가장 큰 회사가 되다",
-        "description": "주가 상승으로 수요일 ASML의 시가총액은 6,680억 달러로 늘어났으며, 이는 2024년 6월 Novo Nordisk가 세운 유럽 기록을 넘어섰습니다.",
-        "url": "https://www.thedailyupside.com/technology/semiconductors/asml-becomes-biggest-company-in-european-history/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/04 13:01",
-        "score": 3
+        "title": "환율 1540원 넘어 금융위기 후 최고…K증시 '빨간불' [분석+]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026060589856",
+        "source": "hankyung.com",
+        "publishedAt": "06/05 10:18",
+        "score": 5
       }
     ],
     "geopolitics": [
       {
-        "title": "석유 서비스업체가 다시 이를 준비하고 있지만 호르무즈 해협 무역에서 무시할 수 없는 문제가 있습니다.",
-        "description": "2025년 12월 31일 마감 시점에 VanEck Oil Services ETF(NYSEARCA:OIH)에 10,000달러를 투자했다면 5년 동안 약 15,100달러에 머물렀을 것입니다.",
-        "url": "https://247wallst.com/investing/2026/06/04/oil-services-are-setting-up-to-do-it-again-but-theres-a-catch-the-strait-of-hormuz-trade-cant-ignore/?.tsrc=rss",
+        "title": "다우존스 선물은 상승하고, AI 거래가 냉각되면서 기술주는 하락합니다. 채용 보고서",
+        "description": "다우존스 선물은 금요일 오전에 소폭 상승한 반면 S&P 500 선물, 특히 나스닥 선물은 하락했습니다. 5월 일자리 보고서가 개장 전에 공개됩니다.",
+        "url": "https://finance.yahoo.com/m/24ee26d7-b02a-37d3-9e51-fec9bcb33482/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 20:15",
-        "score": 6
-      },
-      {
-        "title": "소매 거래자가 위험을 통제할 수 있도록 돕는 SureShotFX의 무료 랏 계산기 및 핍 계산기",
-        "description": "영국 런던 / ACCESS Newswire / 2026년 6월 4일 /SureShotFX(SSF), 150개 이상의 국가에 진출한 거래 신호 및 도구 플랫폼, 계속",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/free-lot-calculator-pip-calculator-211000287.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/05 06:10",
+        "publishedAt": "06/06 06:15",
         "score": 1
       },
       {
-        "title": "UBS, 8개의 ETRACS Exchange Traded Notes에 대한 쿠폰 지급 선언",
-        "description": "뉴욕, 2026년 6월 4일 -- UBS 투자 은행은 오늘 NYSE Arca에서 거래되는 5개의 ETRACS Exchange Traded Notes에 대한 쿠폰 지급을 발표했으며 예상되는 금액은 2026년 6월 4일입니다.",
-        "url": "https://finance.yahoo.com/markets/options/articles/ubs-declares-coupon-payments-8-203000461.html?.tsrc=rss",
+        "title": "골드 강세장, 비트코인이 '검은 월요일'에 직면할 수 있다고 경고",
+        "description": "비트코인은 6월 5일 2024년 10월 이후 처음으로 60,000달러 아래로 떨어졌고, 돈 미국 대통령 이후 얻은 모든 이익을 지워버리는 매도세를 이어갔습니다.",
+        "url": "https://www.thestreet.com/crypto/markets/gold-bull-warns-bitcoin-could-face-a-black-monday?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:30",
+        "publishedAt": "06/06 05:47",
         "score": 1
       },
       {
-        "title": "베센트 재무장관 \"이란 분쟁 중단됐다\"",
-        "description": "지정학적 긴장과 불확실성이 이번 주 금융시장을 계속 압박하고 있습니다. 투자자들은 이제 Middl의 발전을 면밀히 모니터링하고 있습니다.",
-        "url": "https://www.thestreet.com/crypto/markets/treasury-secretary-bessent-says-iran-conflict-has-been-halted?.tsrc=rss",
+        "title": "TSMC CEO, Stark AI 공급 경고 발행 - Wedbush는 큰 기회를 본다",
+        "description": "TSMC의 AI 수요 예측은 월스트리트 최고 기업의 낙관적 전화를 촉발합니다",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-ceo-issues-stark-ai-173626584.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:03",
+        "publishedAt": "06/06 02:36",
         "score": 1
       },
       {
-        "title": "Broadcom의 속도 충돌로 인해 AI 거래가 '건전한' 일시 중지를 보이고 있습니다.",
-        "description": "Broadcom(AVGO)과 같은 AI 칩 주식이 이번 주에 약간의 속도 향상을 겪었지만, 투자자들은 여전히 ​​AI의 장기적인 탄력성에 베팅해야 합니다.",
-        "url": "https://finance.yahoo.com/video/ai-trade-taking-healthy-pause-191500047.html?.tsrc=rss",
+        "title": "정부 스테이블코인 지급, '탈세 경제' 촉진할 것\" 국회의원 경고",
+        "description": "브래드 셔먼(Brad Sherman) 하원의원은 스테이블코인으로 정부 지불을 허용하면 “미국 달러에 대한 대안이 신성화될 것”이라고 경고했습니다.",
+        "url": "https://decrypt.co/370121/government-stablecoin-payments-would-fuel-tax-evasion-economy-lawmaker-warns?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/05 04:15",
+        "publishedAt": "06/06 00:52",
+        "score": 1
+      },
+      {
+        "title": "마이크론, 샌디스크, 마벨이 \"파라볼릭 7\" 거래 청산으로 급락",
+        "description": "2026년 가장 폭발적인 반도체 이름 세 곳의 주가가 금요일 오전 거래에서 크게 하락하고 있습니다. Micron Technology (NASDAQ:MU) 주식은 d입니다.",
+        "url": "https://247wallst.com/investing/2026/06/05/micron-sandisk-and-marvell-plummet-as-parabolic-7-trade-unwinds/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/05 23:51",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX, Anthropic 및 OpenAI를 포함하여 지금 가장 인기 있는 IPO에 투자하고 싶으십니까? 이것이 당신을 위한 기금입니다.",
-        "description": "ARK 벤처 펀드는 뜨거운 IPO에 조기에 진입할 수 있는 방법입니다.",
-        "url": "https://www.fool.com/investing/2026/06/04/invest-in-hottest-ipo-now-spacex-openai-fund/?.tsrc=rss",
+        "title": "엔비디아, 삼성, SK하이닉스, 마이크론에 HBM4 공급 인증",
+        "description": "Vera Rubin은 3분기에 납품될 예정으로 본격적인 생산에 들어갔습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-certifies-samsung-sk-hynix-183947167.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/05 06:05",
-        "score": 17
+        "publishedAt": "06/06 03:39",
+        "score": 16
       },
       {
-        "title": "TSMC, AI 칩 부족이 수년간 지속될 수 있다고 경고",
-        "description": "TSMC는 미국의 확장에도 불구하고 AI 수요가 계속해서 공급을 앞지를 수 있으며 올해 매출도 여전히 30% 이상 증가할 것으로 예상한다고 밝혔습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-warns-ai-chip-shortage-131112167.html?.tsrc=rss",
+        "title": "Nvidia는 Vera Rubin HBM4 공급을 위해 Samsung, SK Hynix 및 Micron을 인증했습니다.",
+        "description": "Bloomberg가 보도한 이 발표는 어느 칩 제조업체가 Vera Rubin의 뒤를 잇을 자격이 있는지에 대한 공급망 추측을 종식시켰습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-certifies-samsung-sk-hynix-133001560.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 22:11",
-        "score": 15
+        "publishedAt": "06/05 22:30",
+        "score": 16
       },
       {
-        "title": "TSM 주식이 오늘 시판 전 하락했습니다. CEO는 AI 칩 부족이 곧 끝나지 않을 것이라고 말했습니다.",
-        "description": "Wei의 논평은 하이퍼스케일러와 칩 회사가 AI 인프라 구축을 위해 막대한 투자를 하고 있는 상황에서 생산 능력이 병목 현상임을 암시했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tsm-stock-falls-ceo-warns-ai-chip-demand-capacity-gap/cZ0ZaT8Reyf?.tsrc=rss",
+        "title": "Blue Origin의 패드 붕괴 후 SpaceX의 NASA 출시 독점으로 이익을 얻을 상위 5개 주식",
+        "description": "Blue Origin의 New Glenn 패드는 뜨거운 화재 테스트로 인해 회사의 유일한 발사 인프라가 없어진 후 재구축하는 데 최소 1년이 걸릴 것입니다.",
+        "url": "https://247wallst.com/investing/2026/06/05/top-5-stocks-that-will-profit-from-spacexs-nasa-launch-monopoly-after-blue-origins-pad-collapse/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 20:09",
-        "score": 12
+        "publishedAt": "06/05 22:04",
+        "score": 16
       },
       {
-        "title": "TSMC, 지속적인 AI 칩 수요 예측",
-        "description": "TSM 주식은 회사의 연례 주주총회 이후 목요일에 상승했습니다.  회의에서 C.C. Wei는 계약 칩 제조업체가 될 것이라고 말했습니다.",
-        "url": "https://finance.yahoo.com/m/f98832cb-f6af-3a8c-8e9a-af0cdb7a76af/tsmc-forecasts-sustained-ai.html?.tsrc=rss",
+        "title": "Nvidia를 통한 Micron의 HBM4 인증으로 AI 메모리 마진에 초점을 맞췄습니다.",
+        "description": "Micron Technology(NasdaqGS:MU)는 Nvidia의 차세대 Vera Rubin AI 플랫폼을 위한 HBM4 메모리 공급업체로 인증을 받았습니다. 삼성과 SK하이니",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-hbm4-certification-nvidia-puts-151437687.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/05 05:35",
-        "score": 10
+        "publishedAt": "06/06 00:14",
+        "score": 14
       },
       {
-        "title": "TSMC CEO는 AI 칩 수요가 수년간 공급을 앞설 것이라고 말했습니다.",
-        "description": "TSMC 최고경영자(CEO) C.C. 웨이는 AI에 대한 욕구가 식을 기미가 보이지 않으며 주문을 따라가는 것이 점점 더 어려워지고 있다고 말했습니다.",
-        "url": "https://qz.com/tsmc-ceo-ai-chip-demand-supply-shareholders-meeting-060426?.tsrc=rss",
+        "title": "Nvidia는 Vera Rubin AI 플랫폼을 위한 3개의 HBM4 공급업체 자격을 획득했습니다.",
+        "description": "엔비디아는 삼성, SK하이닉스, 마이크론을 HBM4 공급업체로 승인했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-qualifies-three-hbm4-suppliers-123240769.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/04 23:30",
-        "score": 10
+        "publishedAt": "06/05 21:32",
+        "score": 14
       }
     ]
   }
