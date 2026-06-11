@@ -1,341 +1,341 @@
 {
-  "generated_at_kst": "2026-06-11 08:55 KST",
-  "period": "06/10 07:00 ~ 06/11 07:00 KST",
+  "generated_at_kst": "2026-06-12 08:59 KST",
+  "period": "06/11 07:00 ~ 06/12 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "지금 당장 S&P 500이나 Nasdaq-100에 투자해야 할까요?",
-        "description": "S&P 500의 다각화는 더 큰 장기적 안전성을 제공할 수 있는 반면, Nasdaq-100은 더 많은 상승 여력을 제공할 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/06/10/should-you-invest-in-the-sp-500-or-the-nasdaq-100/?.tsrc=rss",
+        "title": "오늘 6월 11일 주식 시장: Micron, Intel, Nvidia가 반등을 주도하고 SpaceX IPO 접근 방식",
+        "description": "2026년 6월 11일 오늘, 시장은 평화회담에 대한 희망이 되살아나면서 회복되었고, 칩은 S&P 500과 Nasdaq에 힘을 실어주었습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/11/stock-market-today-june-11-micron-intel-and-nvidia-lead-rebound-and-spacex-ipo-approaches/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 23:20",
-        "score": 11
+        "publishedAt": "06/12 06:18",
+        "score": 7
       },
       {
-        "title": "투자자들이 AI 및 칩에서 숨을 쉬면서 S&P 500, Nasdaq은 하락 마감 — AAPL, ASTS, APLD, RIVN, ZVRA In Focus",
-        "description": "도널드 트럼프 미국 대통령은 이란과의 협상이 \"2~3일\" 앞으로 다가왔다고 밝혔습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-as-investors-take-breather-from-ai-and-chips-aapl-asts-apld-rivn-zvra-in-focus/cZ0UqXaR7RY?.tsrc=rss",
+        "title": "금은 2022년 이후 처음으로 하락장에 진입했습니다. 투자자가 알아야 할 사항은 다음과 같습니다.",
+        "description": "금값 폭락은 경고인가, 기회인가?",
+        "url": "https://www.fool.com/investing/2026/06/11/gold-just-tumbled-into-its-first-bear-market-since-2022-heres-what-investors-need-to-know/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 07:07",
-        "score": 11
-      },
-      {
-        "title": "업데이트: 중동의 재확산 속에 나스닥, S&P 500이 5주 최저치를 기록했습니다.",
-        "description": "(하루가 끝날 때 시장 움직임에 따른 업데이트.) Nasdaq Composite와 S&P 500은 t로 떨어졌습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-hit-5-203702085.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/11 05:37",
-        "score": 10
-      },
-      {
-        "title": "미국이 이란에 대한 새로운 '자위 공격'을 개시함에 따라 S&P 500, 다우, 나스닥 선물 하락: SMCI, TLRY, DKNG, CBRL 집중",
-        "description": "미국은 호르무즈 해협 인근에서 미군 전투헬기 격추에 대한 보복으로 이란에 대한 새로운 공격을 가했다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-nasdaq-futures-decline-as-us-launches-fresh-self-defense-strikes-on-iran/cZ062FHR7Rx?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/10 11:14",
-        "score": 10
-      },
-      {
-        "title": "IPO 대어 등장에 미 증시 긴장…코스피도 -4%대 급락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202606108485i",
-        "source": "hankyung.com",
-        "publishedAt": "06/10 16:08",
+        "publishedAt": "06/12 02:52",
         "score": 6
+      },
+      {
+        "title": "로켓 연구소(RKLB)는 SpaceX IPO 및 지정학적 불안을 앞두고 부문 교체 후 8.4% 하락했습니다.",
+        "description": "최근 며칠간 SpaceX의 초대형 IPO를 앞두고 투자자들이 우주 부문으로 순환하면서 Rocket Lab의 주가는 약세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-down-8-043419103.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/11 13:34",
+        "score": 6
+      },
+      {
+        "title": "Marvell은 한 달 만에 57%의 수익을 올렸습니다. 6월 22일 S&P 500 상장이 Sell-the-News 이벤트가 될까요?",
+        "description": "Marvell Technology(NASDAQ:MRVL)의 주가는 오늘 8% 상승하여 6월 11일 목요일 정오 거래에서 약 273달러에 거래되었습니다.",
+        "url": "https://247wallst.com/investing/2026/06/11/marvell-just-ripped-57-in-a-month-will-the-june-22-sp-500-listing-be-a-sell-the-news-event/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 03:38",
+        "score": 5
+      },
+      {
+        "title": "ECB의 금리 인상은 연준의 손을 강요할 수 있다",
+        "description": "ECB는 2023년 이후 처음으로 금리를 인상했습니다. 이것이 Fed, Kevin Warsh 및 글로벌 인플레이션에 미치는 영향은 다음과 같습니다.",
+        "url": "https://beincrypto.com/ecb-rate-hike-fed-fomc-june-2026/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/11 16:53",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "사흘 연속 사이드카…극단적인 널뛰기에 코스피 '변동성 쇼크' [분석+]",
+        "title": "[포토] 삼성전자, 가격 낮춘 '스팀 로봇청소기' 출시",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026061087826",
+        "url": "https://www.hankyung.com/article/2026061114381",
         "source": "hankyung.com",
-        "publishedAt": "06/10 22:00",
-        "score": 10
-      },
-      {
-        "title": "'엔비디아 핵심 파트너 뜬다'…SK하이닉스, 美상장 초읽기",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202606109197i",
-        "source": "hankyung.com",
-        "publishedAt": "06/10 19:12",
-        "score": 6
-      },
-      {
-        "title": "코스피, 미 기술주 약세·중동 리스크에 4.5% 급락…7700선 후퇴",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026061085346",
-        "source": "hankyung.com",
-        "publishedAt": "06/10 16:16",
+        "publishedAt": "06/12 00:48",
         "score": 5
       },
       {
-        "title": "IPO 대어 등장에 미 증시 긴장…코스피도 -4%대 급락",
+        "title": "거래소, 코스닥시장위원장에 김우찬 고려대 교수 추천",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606108485i",
+        "url": "https://www.hankyung.com/article/202606111829i",
         "source": "hankyung.com",
-        "publishedAt": "06/10 16:08",
+        "publishedAt": "06/11 22:31",
         "score": 5
       },
       {
-        "title": "'결국 4%대' 인플레의 이면…수급 지옥에 빠진 기술주 [빈난새의 개장전요것만]",
+        "title": "방산 공략나선 네이버 \"전장서 쓰는 AI 만든다\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606109373i",
+        "url": "https://www.hankyung.com/article/2026061114461",
         "source": "hankyung.com",
-        "publishedAt": "06/11 00:09",
+        "publishedAt": "06/11 17:37",
         "score": 3
+      },
+      {
+        "title": "네이버, AI·결제 솔루션 들고 부산 골목상권 직접 찾는다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202606110813g",
+        "source": "hankyung.com",
+        "publishedAt": "06/11 14:22",
+        "score": 3
+      },
+      {
+        "title": "한국은 칩 난제에 직면해 있습니다. 막대한 이익과 심각한 매도세를 보이고 있습니다.",
+        "description": "한국은 뜨거운 시장이었지만 주가는 다시 하락세를 보이고 있으며, 특히 메모리 칩 제조업체인 삼성과 SK하이닉스의 주가는 더욱 그렇습니다.",
+        "url": "https://finance.yahoo.com/m/6fb52058-7e0d-379e-9943-78f59008a8bc/south-korea-has-a-chip.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/11 22:01",
+        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "美 소비자물가 전망…\"5월 정점\" VS \"유가상승 여파 오래갈 것\"",
+        "title": "투자자들이 지정학적 긴장, 인플레이션 데이터를 고려함에 따라 달러 거래가 꾸준히 유지됨",
+        "description": "투자자들이 중동 분쟁의 최신 상황과 수요일 미국 인플레이션 데이터를 고려함에 따라 달러는 안정적으로 거래되었습니다.",
+        "url": "https://finance.yahoo.com/m/6f2de3ca-cc58-31f2-8e11-2a75c29fb8ae/dollar-trades-steady-as.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/11 16:39",
+        "score": 5
+      },
+      {
+        "title": "역대급 수출에도 일자리 줄었다…뜻밖의 '고용 쇼크'에 경고",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606109320i",
+        "url": "https://www.hankyung.com/article/2026061115531",
         "source": "hankyung.com",
-        "publishedAt": "06/10 22:39",
-        "score": 8
+        "publishedAt": "06/11 17:53",
+        "score": 3
       },
       {
-        "title": "[속보] 美 5월 소비자물가, 연 4.2% 상승…37개월 만에 최대",
+        "title": "Palantir는 잊어버리세요: 끈적한 거시적 변동성이 기술 시장을 강타함에 따라 이 주식은 더 나은 매수입니다.",
+        "description": "Palantir(NASDAQ:PLTR)는 AI 정부 소프트웨어 설명을 타고 가장 부유한 가치 중 하나로 모든 소매 거래자가 계속 트윗하는 종목입니다.",
+        "url": "https://247wallst.com/investing/2026/06/11/forget-palantir-as-sticky-macro-volatility-hits-tech-this-stock-is-a-better-buy/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 01:09",
+        "score": 1
+      },
+      {
+        "title": "\"AI 너무 비싸요\" 불붙은 경제성 논란...반도체는 \"정점 멀었다\" [빈난새의 개장전요것만]",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606109284i",
+        "url": "https://www.hankyung.com/article/202606111852i",
         "source": "hankyung.com",
-        "publishedAt": "06/10 21:32",
-        "score": 8
+        "publishedAt": "06/12 00:13",
+        "score": 1
       },
       {
-        "title": "달러는 미국 5월 CPI 예상대로 약세",
-        "description": "오늘 달러 지수(DXY00)는 -0.13% 하락했습니다. 미국 5월 소비자 물가가 예상대로 상승하고 인플레이션이 완화되면서 달러화는 오늘 압박을 받고 있습니다.",
-        "url": "https://www.barchart.com/story/news/2402386/dollar-weakens-on-as-expected-us-may-cpi?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/10 23:36",
-        "score": 5
-      },
-      {
-        "title": "CPI 인플레이션율 +4.2%: 3년 만에 최고",
-        "description": "+4.2%의 인플레이션율은 2023년 4월 이후로 이렇게 높은 적이 없었습니다. 당시 높은 연방기금 금리로 인해 202년 6월부터 인플레이션 지표가 하향 조정되었습니다.",
-        "url": "https://finance.yahoo.com/economy/articles/cpi-inflation-rate-4-2-142400883.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/10 23:24",
-        "score": 5
-      },
-      {
-        "title": "국채 수익률, 달러는 인플레이션 데이터에 거의 변화하지 않음, 이란 긴장",
-        "description": "미국의 인플레이션이 기대치를 충족하고 이란 전쟁이 본격화되면서 국채수익률과 달러화는 화요일부터 거의 변하지 않았습니다. 12개월 만기 5월 C",
-        "url": "https://finance.yahoo.com/m/52a4fa6a-1e97-3de5-86fc-cccdea215061/treasury-yields%2C-dollar.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/10 21:56",
-        "score": 5
+        "title": "쿠팡 개인정보 유출에 과징금 6246억원…'역대 최대' [퇴근길 30초 경제]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026061113157",
+        "source": "hankyung.com",
+        "publishedAt": "06/11 18:11",
+        "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "국채 수익률, 달러는 인플레이션 데이터에 거의 변화하지 않음, 이란 긴장",
-        "description": "미국의 인플레이션이 기대치를 충족하고 이란 전쟁이 본격화되면서 국채수익률과 달러화는 화요일부터 거의 변하지 않았습니다. 12개월 만기 5월 C",
-        "url": "https://finance.yahoo.com/m/52a4fa6a-1e97-3de5-86fc-cccdea215061/treasury-yields%2C-dollar.html?.tsrc=rss",
+        "title": "국채 수익률, 전쟁 수사에 따른 달러 상승, 미국 데이터",
+        "description": "예상보다 높은 미국의 도매 인플레이션과 트럼프 대통령이 이란에 대한 군사적 위협을 재개하는 가운데 국채 수익률과 달러가 상승했습니다. 엄마",
+        "url": "https://finance.yahoo.com/m/790bb758-d9b3-36f8-bbb4-6720dc175d7b/treasury-yields%2C-dollar-rise.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 21:56",
+        "publishedAt": "06/11 22:02",
         "score": 8
       },
       {
-        "title": "미국 국채수익률, 달러는 중동 긴장 고조로 거의 변동하지 않았습니다. 이 공간을 보세요.",
-        "description": "국채 수익률과 달러는 CPI 데이터를 기다리는 초기 거래에서 거의 변하지 않는 반면, 새로운 중동 에스컬레이션은 안전 피난처인 러시아를 지원할 수 있습니다.",
-        "url": "https://finance.yahoo.com/m/15612b51-570c-3c95-b967-c2ce363dbb12/u.s.-treasury-yields%2C-dollar.html?.tsrc=rss",
+        "title": "PGIM, 핵심 듀레이션 익스포저를 갖춘 AAA 등급 CLO ETF를 포함해 2개의 새로운 유동화 신용 ETF 출시",
+        "description": "뉴저지주 뉴워크, 2026년 6월 11일 -- AAAD와 PINC는 모두 경상 소득과 자본 가치 상승의 조합을 통해 총 수익을 극대화하려고 합니다.",
+        "url": "https://finance.yahoo.com/markets/options/articles/pgim-launches-two-securitized-credit-130000782.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 18:48",
-        "score": 8
+        "publishedAt": "06/11 22:00",
+        "score": 3
       },
       {
-        "title": "Hyperliquid 뉴스: HYPE 및 Paradigm, 미국 재무부에 GENIUS 법 규칙 경고",
-        "description": "오늘 하이퍼리퀴드(Hyperliquid) 뉴스에서 하이퍼리퀴드 정책 센터(Hyperliquid Policy Center)와 벤처 캐피탈 회사인 패러다임(Paradigm)은 화요일 미국 재무부에 공동 서한을 제출해 다음과 같은 조치를 촉구했습니다.",
-        "url": "https://99bitcoins.com/news/altcoins/hyperliquid-news-paradigm-genius-act-defi-stablecoin-warning/?.tsrc=rss",
+        "title": "고금리에 채권 수익률 '초비상'…자산배분 공식 흔들린다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026061115241",
+        "source": "hankyung.com",
+        "publishedAt": "06/11 18:04",
+        "score": 3
+      },
+      {
+        "title": "회사채 찍느니 은행 간다…'금리 역전'에 외면",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026061115251",
+        "source": "hankyung.com",
+        "publishedAt": "06/11 18:04",
+        "score": 3
+      },
+      {
+        "title": "CoreWeave, AI 확장을 위해 글로벌 부채 35억 5천만 달러 추구",
+        "description": "이 기사는 GuruFocus에 처음 게재되었습니다.  CoreWeave(NASDAQ:CRWV)는",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-seeks-3-55-billion-184309897.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 20:28",
-        "score": 3
-      },
-      {
-        "title": "연체채권 세제혜택 받는 금융권, 반복적 '빚 독촉' 관행 제동 걸려",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026061090141",
-        "source": "hankyung.com",
-        "publishedAt": "06/10 18:01",
-        "score": 3
-      },
-      {
-        "title": "국민은행, 은행권 첫 블록체인 기반 디지털채권 발행",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026061090171",
-        "source": "hankyung.com",
-        "publishedAt": "06/10 17:59",
-        "score": 3
+        "publishedAt": "06/12 03:43",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "유가 상승. 트럼프, 이란에 대한 추가 공격이 오고 있다고 밝혔습니다.",
-        "description": "도널드 트럼프 대통령이 이란 평화 회담에 인내심을 잃고 있으며 더 많은 공격이 있을 것이라고 말한 후 수요일 유가가 상승했습니다.  이리저리",
-        "url": "https://finance.yahoo.com/m/fe6c1f25-fc8b-3b7a-a33b-66c2ff9d5c9c/oil-prices-rise.-trump-says.html?.tsrc=rss",
+        "title": "미국-이란 적대행위가 본격화되면 원유 가격이 배럴당 150달러까지 오를 수 있다고 Rystad Energy가 밝혔습니다.",
+        "description": "라이스타드 에너지(Rystad Energy)는 미국 간 적대행위가 지속되면 원유 가격이 배럴당 150달러까지 오를 것으로 예상하고 있다.",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/crude-oil-prices-may-hit-105418987.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/11 05:08",
+        "publishedAt": "06/11 19:54",
+        "score": 14
+      },
+      {
+        "title": "CME그룹, WTI 원유 및 금 연중무휴 거래 확대",
+        "description": "세계 최고의 파생상품 시장인 CME그룹은 오늘 소규모 신규 원유 및 금에 대한 연중무휴 거래를 제공할 것이라고 발표했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/cme-group-expand-24-7-211500524.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 06:15",
+        "score": 10
+      },
+      {
+        "title": "업데이트: 트럼프 대통령이 이번 주말 이란 평화 협정에 서명하길 희망하면서 미국 주가 지수는 급등하고 원유는 하락했습니다.",
+        "description": "(지수 및 가격 변동은 물론 시장에 영향을 미치는 기타 정보를 처음부터 업데이트합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-jump-crude-204631184.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 05:46",
         "score": 5
       },
       {
-        "title": "유가가 상승했습니다. 투자가 따르지 않는다",
-        "description": "글로벌 석유 및 가스 투자는 석유 및 가스 가격 상승에도 불구하고 2026년에 소폭 감소할 것으로 예상됩니다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-investment-isnt-following-200000316.html?.tsrc=rss",
+        "title": "트럼프 대통령이 이란에 대한 추가 공격을 취소하자 미국 증시는 반등하고 유가는 하락했다.",
+        "description": "도널드 트럼프 미국 대통령이 이란에 대한 미국의 추가 공격을 철회한 후 목요일 증시가 상승하고 유가가 폭락했습니다.",
+        "url": "https://finance.yahoo.com/markets/articles/stocks-drop-oil-rises-iran-025207691.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/11 05:00",
+        "publishedAt": "06/12 05:38",
         "score": 5
       },
       {
-        "title": "업데이트: 이란과 미국의 무역 공격으로 WTI 석유 가격은 상승하고 미국 석유 재고는 다시 감소합니다.",
-        "description": "서부텍사스산 중질유(WTI) 원유는 미국과 미국의 무역전쟁으로 수요일 상승했다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-rises-iran-u-183853488.html?.tsrc=rss",
+        "title": "트럼프가 이란에 대한 공격을 취소한 후 유가는 하락했습니다.",
+        "description": "브렌트유와 WTI 가격은 트럼프 대통령이 이란과의 합의의 '최종 사항'이 '승인됐다'고 말한 후 목요일 거의 3% 하락했다.",
+        "url": "https://finance.yahoo.com/m/1982933a-63a3-3e8e-a4b7-ae044366926e/oil-prices-fall-after-trump.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/11 03:38",
-        "score": 5
-      },
-      {
-        "title": "美 소비자물가 전망…\"5월 정점\" VS \"유가상승 여파 오래갈 것\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202606109320i",
-        "source": "hankyung.com",
-        "publishedAt": "06/10 22:39",
-        "score": 5
-      },
-      {
-        "title": "이란과 미국의 무역 공격으로 유가가 오르고 미국의 석유 재고는 다시 감소합니다.",
-        "description": "미국과 이란의 전쟁이 재개되면서 유가는 수요일 일찍 상승했다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-rise-iran-u-124658079.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/10 21:46",
+        "publishedAt": "06/12 05:26",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "삼성·애플폰 신제품 출격…환율 악조건 속에도 K디스플레이 달린다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202606108646i",
-        "source": "hankyung.com",
-        "publishedAt": "06/10 16:48",
-        "score": 5
+        "title": "15년간의 추세선 재시험 이후 미국 달러 지수(DXY)가 상승세를 향하고 있나요?",
+        "description": "미국 달러 지수는 DXY가 100.5에서 저항에 맞서 싸우면서 15년 추세선을 다시 테스트합니다. 주요 수준은 115 이상을 가리킵니다.",
+        "url": "https://beincrypto.com/us-dollar-index-trendline-analysis/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 06:00",
+        "score": 11
       },
       {
-        "title": "Tencent, 대규모 이중 통화 AI 자금 지원으로 미군 브랜드 평가",
-        "description": "Tencent Holdings (SEHK:700)는 미 국방부에 의해 \"중국 군사 회사\"로 확인되어 미국 정부와 긴밀한 관계를 맺고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tencent-weighs-us-military-label-140610371.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/10 23:06",
+        "title": "개인투자자 돈 153조 몰렸다…스페이스X, 공모가 135달러 확정",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026061219557",
+        "source": "hankyung.com",
+        "publishedAt": "06/12 06:24",
         "score": 3
       },
       {
-        "title": "SKT·NTT, 5억달러 펀드로 'AI 동맹' 구축",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026061089721",
-        "source": "hankyung.com",
-        "publishedAt": "06/10 17:28",
+        "title": "Ondas, Eurosatory 2026 출시를 앞두고 LADOS 방어 플랫폼 공개",
+        "description": "새로운 명령 및 제어 시스템은 드론, 센서, 로봇 공학 및 AI 소프트웨어를 통합 운영 프레임워크로 연결합니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/ondas-unveils-lados-defense-platform-174326636.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 02:43",
         "score": 3
       },
       {
-        "title": "SpaceX IPO로 미국 달러화, 대학 기부금 증대 평가가 타격을 입습니다.",
-        "description": "SpaceX는 이번 주에 Starlink를 출시할 예정입니다. IPO는 미국 달러와 대학 기부금을 늘려야 합니다. 그러나 SpaceX의 가치는 기술 슬라이드에서 하락했습니다.",
-        "url": "https://finance.yahoo.com/m/f11cb908-b93f-3646-b7d6-d21e640b652b/spacex-ipo-to-boost-u.s..html?.tsrc=rss",
+        "title": "달러 강세로 설탕 가격 하락",
+        "description": "7월 뉴욕 세계 설탕 #11(SBN26)은 오늘 -0.05(-0.36%) 하락했고, 8월 런던 ICE 백설탕 #5(SWQ26)은 +4.80(+1.08%) 상승했습니다. 설탕 가격이 엇갈려요",
+        "url": "https://www.barchart.com/story/news/2425795/dollar-strength-undercuts-sugar-prices?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/11 05:09",
+        "publishedAt": "06/12 01:21",
         "score": 1
       },
       {
-        "title": "달러는 미국 5월 CPI 예상대로 약세",
-        "description": "오늘 달러 지수(DXY00)는 -0.13% 하락했습니다. 미국 5월 소비자 물가가 예상대로 상승하고 인플레이션이 완화되면서 달러화는 오늘 압박을 받고 있습니다.",
-        "url": "https://www.barchart.com/story/news/2402386/dollar-weakens-on-as-expected-us-may-cpi?.tsrc=rss",
+        "title": "Zelle®, 인도로 향하고 다른 시장을 위한 ZelleUSD℠ 스테이블코인 공개",
+        "description": "Zelle의 네트워크 운영업체인 Early Warning Services LLC는 오늘 인도가 미국 소비자가 Zelle을 사용하여 다음을 수행할 수 있는 첫 번째 국가가 될 것이라고 발표했습니다.",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/zelle-heads-india-unveils-zelleusd-145100638.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 23:36",
+        "publishedAt": "06/11 23:51",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "거래자들은 마치 호르무즈 위기가 끝난 것처럼 석유를 공매도하고 있습니다.",
-        "description": "석유 거래자들은 점점 더 낮은 가격에 베팅하고 있으며, 약 1,300만 달러의 손실에도 불구하고 3월 말 이후 브렌트유 매도 포지션이 3배로 늘어났습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/traders-shorting-oil-hormuz-crisis-220000844.html?.tsrc=rss",
+        "title": "투자자들이 지정학적 긴장, 인플레이션 데이터를 고려함에 따라 달러 거래가 꾸준히 유지됨",
+        "description": "투자자들이 중동 분쟁의 최신 상황과 수요일 미국 인플레이션 데이터를 고려함에 따라 달러는 안정적으로 거래되었습니다.",
+        "url": "https://finance.yahoo.com/m/6f2de3ca-cc58-31f2-8e11-2a75c29fb8ae/dollar-trades-steady-as.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/11 07:00",
+        "publishedAt": "06/11 16:39",
+        "score": 4
+      },
+      {
+        "title": "로켓 연구소(RKLB)는 SpaceX IPO 및 지정학적 불안을 앞두고 부문 교체 후 8.4% 하락했습니다.",
+        "description": "최근 며칠간 SpaceX의 초대형 IPO를 앞두고 투자자들이 우주 부문으로 순환하면서 Rocket Lab의 주가는 약세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-down-8-043419103.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/11 13:34",
+        "score": 3
+      },
+      {
+        "title": "트럼프가 이란 공격을 취소하고 전쟁의 '대단한 해결'을 주장하자 주가는 급등했다.",
+        "description": "이란은 즉각 이 주장을 부인했다. 트럼프 대통령은 전쟁을 끝내기 위한 협상이 구체화되지 않은 채 코앞에 다가왔다고 여러 차례 밝혔습니다.",
+        "url": "https://qz.com/dow-trump-iran-strikes-cancelled-deal-061126?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 05:05",
         "score": 1
       },
       {
-        "title": "유출: Broadcom(AVGO)이 또 다른 AI 거래입니까?",
-        "description": "Broadcom(AVGO)이 또 다른 AI 거래인가요? IPO Edge 편집 직원 Broadcom(AVGO)의 AI 비즈니스는 거의 모든 사람이 예상한 것보다 빠르게 성장하고 있습니다. 마지막 q",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spill-broadcom-avgo-other-ai-214117164.html?.tsrc=rss",
+        "title": "1분기 수익 풀기: 기타 하드웨어 및 인프라 주식의 맥락에서 본 IonQ(NYSE:IONQ)",
+        "description": "하드웨어 및 인프라 주식의 1분기 실적을 되돌아보면서 IonQ(NYSE:IONQ)와 그 회사를 포함하여 이번 분기 최고의 성과와 최악의 성과를 조사합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/unpacking-q1-earnings-ionq-nyse-192937442.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/11 06:41",
+        "publishedAt": "06/12 04:29",
         "score": 1
       },
       {
-        "title": "반도체 주도 기술 하락으로 미국 주가지수 하락, 트럼프, 이란 공격 경고",
-        "description": "미국 주가지수는 대형주 반도체 회사의 매각으로 인해 하락했고, Don 대통령은",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-semiconductors-205107081.html?.tsrc=rss",
+        "title": "AI 소프트웨어는 잊어라: 스마트 머니가 자율 무기에 수십억 달러를 투자하는 이유",
+        "description": "미 국방부의 2027 회계연도 예산 요청은 총 1조 5천억 달러이며, 그중 540억 달러는 자율 및 원격 운영 시스템에 할당되고 390억 달러는 추가로 할당됩니다.",
+        "url": "https://247wallst.com/investing/2026/06/11/forget-ai-software-why-the-smart-money-is-betting-billions-on-autonomous-weapons/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/11 05:51",
-        "score": 1
-      },
-      {
-        "title": "ASML은 64% 급등했지만 10년 만에 가장 저렴한 상대 가치 평가로 거래되었습니다.",
-        "description": "투자자들은 고급 칩 제조에서 ASML의 중심 역할에도 불구하고 가격 결정력, 도구 채택 및 용량 증가에 의문을 제기합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-surges-64-yet-trades-194713064.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/11 04:47",
-        "score": 1
-      },
-      {
-        "title": "업데이트: 이란과 미국의 무역 공격으로 WTI 석유 가격은 상승하고 미국 석유 재고는 다시 감소합니다.",
-        "description": "서부텍사스산 중질유(WTI) 원유는 미국과 미국의 무역전쟁으로 수요일 상승했다.",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/wti-oil-rises-iran-u-183853488.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/11 03:38",
+        "publishedAt": "06/11 23:16",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "TSMC, AI칩 수요 지속에 월간 매출 30% 증가",
-        "description": "(Bloomberg) - Taiwan Semiconductor Manufacturing Co.는 g 수요에 따른 지속적인 수요 강세를 반영하여 월 매출이 30% 증가했다고 보고했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-monthly-sales-rise-30-053530874.html?.tsrc=rss",
+        "title": "Nvidia Corp(NVDA), Micron HBM4로 AI 플랫폼 강화",
+        "description": "Nvidia Corp(NASDAQ:NVDA)는 억만장자들이 투자할 최고의 데이터 센터 주식 중 하나입니다. 엔비디아 주가는 지난 한 달 동안 14% 상승했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-corp-nvda-strengthens-ai-005824804.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 14:35",
+        "publishedAt": "06/11 09:58",
+        "score": 14
+      },
+      {
+        "title": "오늘 6월 11일 주식 시장: Micron, Intel, Nvidia가 반등을 주도하고 SpaceX IPO 접근 방식",
+        "description": "2026년 6월 11일 오늘, 시장은 평화회담에 대한 희망이 되살아나면서 회복되었고, 칩은 S&P 500과 Nasdaq에 힘을 실어주었습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/11/stock-market-today-june-11-micron-intel-and-nvidia-lead-rebound-and-spacex-ipo-approaches/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 06:18",
+        "score": 12
+      },
+      {
+        "title": "GOOGL, TSMC 용량 부족 속에서 차세대 AI 칩을 위한 삼성 파트너십 모색: 보고서",
+        "description": "보고된 계획에 따르면 Google은 미래 AI 칩에 대한 추가 생산 능력을 모색하면서 TSMC와 삼성 간에 생산을 분할할 예정입니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/google-explores-samsung-partnership-next-gen-ai-chip-tsmc-capacity-crunch-report/cZKTxK6R72Y?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/12 02:01",
         "score": 10
       },
       {
-        "title": "SpaceX는 6월 12일 IPO를 앞두고 슈퍼칩을 확보했지만 아무도 이에 대해 이야기하지 않습니다. 지금 주목해야 할 3가지 인기 주식",
-        "description": "이륙하기 전에 칩을 몇 개 챙겨야 합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-just-got-superchip-ahead-123000304.html?.tsrc=rss",
+        "title": "목요일 최고의 월스트리트 분석가 연구 통화는 다음과 같습니다: Callaway Golf, Chewy, CME Group, Danaher, General Dynamics, Intel, SpaceX, Rocket Lab, Toast 등",
+        "description": "시장 전 주식 선물: 모든 주요 지수가 낮게 거래되는 월스트리트의 끔찍한 하루 이후 선물은 높게 거래되고 있으며 우리도 같은 현상을 보았습니다.",
+        "url": "https://247wallst.com/investing/2026/06/11/here-are-thursdays-best-wall-street-analyst-research-calls-callaway-golf-chewy-cme-group-danaher-general-dynamics-intel-spacex-rocket-lab-toast-and-more/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 21:30",
-        "score": 7
+        "publishedAt": "06/11 21:04",
+        "score": 10
       },
       {
-        "title": "대만, 미국에 맞춰 AI 칩 중국 판매 억제",
-        "description": "(블룸버그) - 대만 당국은 미국의 조치에 더욱 부합하기 위해 중국에 대한 AI 칩 판매에 대해 훨씬 더 엄격한 수출 통제를 고려하고 있다고 합니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/taiwan-eyes-curbs-ai-chip-125854688.html?.tsrc=rss",
+        "title": "Palantir CEO, Anthropic을 겨냥하다",
+        "description": "Palantir(PLTR) CEO Alex Karp는 Anthropic, OpenAI 또는 기타 대규모 언어 모델 회사가 단순히 Palant로 이전할 수 있다는 생각을 받아들이지 않습니다.",
+        "url": "https://www.thestreet.com/technology/palantir-ceo-takes-pointed-shot-at-anthropic?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/10 14:05",
-        "score": 7
-      },
-      {
-        "title": "한국 최고 주가지수 추락 후 AI 칩 랠리 급증",
-        "description": "코스피는 48시간 만에 16% 급락했다. 삼성과 SK하이닉스가 이를 주도했다. 월스트리트는 근본적인 변화는 없으며 여전히 긍정적이라고 말합니다.",
-        "url": "https://beincrypto.com/south-korea-stock-kospi-crash-and-recovery-ai-chip-drama/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/10 14:04",
-        "score": 7
-      },
-      {
-        "title": "SpaceX는 언제 귀하의 포트폴리오에 표시됩니까?",
-        "description": "우리는 이미 SpaceX를 보유하고 있거나 곧 추가할 가능성이 있는 ETF를 강조합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-show-portfolio-211800806.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/11 06:18",
-        "score": 6
+        "publishedAt": "06/12 01:03",
+        "score": 8
       }
     ]
   }
