@@ -1,229 +1,309 @@
 {
-  "generated_at_kst": "2026-06-21 08:43 KST",
-  "period": "06/20 07:00 ~ 06/21 07:00 KST",
+  "generated_at_kst": "2026-06-22 08:49 KST",
+  "period": "06/21 07:00 ~ 06/22 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Wells Fargo의 새로운 S&P 500 목표는 투자자에게 명확한 신호를 보냅니다.",
-        "description": "올해 들어 주가는 이미 10% 이상 상승했다. 대부분의 전략가들은 이를 좋은 실행이라고 부르고 그대로 놔둘 것입니다. Wells Fargo는 동일한 시장을 살펴보았습니다.",
-        "url": "https://www.thestreet.com/investing/stocks/wells-fargo-raises-sp-500-target-stock-market?.tsrc=rss",
+        "title": "이란, 호르무즈 해협 다시 봉쇄: 연준 금리 인상 다시 테이블로 올라오나요?",
+        "description": "지난주 미국과 이란의 휴전은 투자자들에게 최근에는 별로 갖지 못했던 희망을 잠시 제공했습니다. 양해각서(M",
+        "url": "https://247wallst.com/investing/2026/06/21/iran-closes-strait-of-hormuz-again-are-fed-rate-hikes-back-on-the-table/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/21 01:47",
+        "publishedAt": "06/21 21:15",
+        "score": 10
+      },
+      {
+        "title": "뉴욕·상하이 증시, 美·이란 후속 협상에 뉴욕증시 '촉각'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026062188671",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 17:35",
+        "score": 8
+      },
+      {
+        "title": "경고: S&P 500이 155년 만에 처음으로 무언가를 하기 직전일 수 있으며 이는 투자자들에게 좋은 소식이 아닙니다.",
+        "description": "S&P 500 CAPE 비율은 역사상 두 번째로 높은 수치를 기록하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/06/21/warning-the-sp-500-is-about-to-do-something-for/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/22 00:05",
         "score": 6
       },
       {
-        "title": "이 우주 주식은 SpaceX를 제치고 Nasdaq-100에 오를 것입니다 — 그리고 매수해야 할 주식입니다",
-        "description": "공간 투자는 새로운 국면을 맞이하고 있습니다. SpaceX(NASDAQ:SPCX)의 블록버스터 IPO는 빠르게 최대 규모이자 가장 기대되는 공개 목록 중 하나가 되었습니다.",
-        "url": "https://247wallst.com/investing/2026/06/20/this-space-stock-will-beat-spacex-to-the-nasdaq-100-and-its-the-one-to-buy/?.tsrc=rss",
+        "title": "XLV가 2026년에 S&P 500을 따라잡을지 여부를 결정하는 2가지 요소",
+        "description": "Health Care Select Sector SPDR ETF(NYSEARCA:XLV)는 실망스러운 한 해를 보내고 있습니다. 이 펀드의 가격은 149달러로 전년 대비 약 3% 하락했습니다.",
+        "url": "https://247wallst.com/investing/2026/06/21/the-2-factors-that-will-decide-whether-xlv-finally-catches-the-sp-500-in-2026/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/20 23:44",
-        "score": 6
-      },
-      {
-        "title": "금 약세 시장: 최고의 금 주식/ETF를 매수할 시간",
-        "description": "금은 약세장에 있으며 이는 VanEck Gold Miners ETF에 걸림돌이 되지만 두 자산 모두 반등할 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/06/20/gold-bear-market-time-to-buy-this-top-gold-stocket/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/20 21:57",
-        "score": 6
-      },
-      {
-        "title": "Vanguard S&P 500 ETF(VOO)는 세계에서 가장 인기 있는 ETF입니다. 여기 내가 더 좋아하는 것이 있습니다.",
-        "description": "이 ETF는 시간이 지남에 따라 시장보다 우수한 성과를 보였습니다.",
-        "url": "https://www.fool.com/investing/2026/06/20/vanguard-sp-500-etf-voo-most-popular-voog/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/21 04:49",
+        "publishedAt": "06/22 05:17",
         "score": 5
       },
       {
-        "title": "SpaceX IPO 이후 매수할 산업주 2종",
-        "description": "Rocket Lab과 Leidos는 SpaceX보다 가격이 더 좋은 우주 주식입니다.",
-        "url": "https://www.fool.com/investing/2026/06/20/2-industrial-stocks-to-buy-after-the-spacex-ipo/?.tsrc=rss",
+        "title": "Charles Schwab (SCHW), Cboe와 함께 예 또는 아니요 S&P 500 옵션 출시",
+        "description": "Charles Schwab(NYSE:SCHW)은 Cboe Global Markets와 제휴하여 S&P 500과 관련된 예 또는 아니요 옵션을 출시했습니다. 신제품은 단순 바이너리를 추적합니다.",
+        "url": "https://finance.yahoo.com/markets/options/articles/charles-schwab-schw-launches-yes-180727746.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/21 01:05",
-        "score": 4
+        "publishedAt": "06/22 03:07",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "\"삼성·SK하이닉스에 '이것' 더해라\"…수익률 78% 낸 1위의 승부수",
+        "title": "\"스마트폰 때문에 더 불편\"…삼성전자가 꺼낸 '비장의 무기'",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606185415i",
+        "url": "https://www.hankyung.com/article/2026062190947",
         "source": "hankyung.com",
-        "publishedAt": "06/20 21:56",
+        "publishedAt": "06/21 21:15",
         "score": 5
       },
       {
-        "title": "“증시 호황은 남의 잔치”…코스닥 투자자 대응전략 물어보니",
+        "title": "삼성전자, 평택캠퍼스 '마지막 반도체 공장' 본격 착공",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606196901i",
+        "url": "https://www.hankyung.com/article/2026062189891",
         "source": "hankyung.com",
-        "publishedAt": "06/20 08:00",
+        "publishedAt": "06/21 18:30",
         "score": 5
       },
       {
-        "title": "\"SK하이닉스 대신 담았는데\"…한 달 새 40% 넘게 오른 기업 [종목+]",
+        "title": "코스피 최고치 랠리 이어갈까…美지표·마이크론 실적 주목 [주간전망]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026061971246",
+        "url": "https://www.hankyung.com/article/2026061956506",
         "source": "hankyung.com",
-        "publishedAt": "06/20 07:43",
+        "publishedAt": "06/21 09:27",
         "score": 5
       },
       {
-        "title": "\"2만원 넘게 쌓였어요\" 우르르…네이버, 웃는 진짜 이유는",
+        "title": "현대차, 부산서 '디올뉴 아반떼' 공개",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026061973891",
+        "url": "https://www.hankyung.com/article/2026062189841",
         "source": "hankyung.com",
-        "publishedAt": "06/20 08:00",
+        "publishedAt": "06/21 18:25",
+        "score": 3
+      },
+      {
+        "title": "6월에만 20% 밀린 '로봇테마' 현대차…지금 사도 되는지 물어보니",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202606196923i",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 08:00",
         "score": 3
       }
     ],
     "macro": [
       {
-        "title": "스태그플레이션 위험 완화로 유럽 주식이 다시 선두로 돌아섰습니다.",
-        "description": "(블룸버그) - 투자자들이 경제 성장에 베팅함에 따라 중동의 평화에 대한 전망이 유럽 증시를 하반기에 두드러지게 형성하고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/europe-stocks-back-lead-stagflation-070000193.html?.tsrc=rss",
+        "title": "케빈 워시 연준 의장은 첫 번째 FOMC 회의에서 도널드 트럼프 대통령과 제롬 파월을 미묘하게 곤경에 빠뜨렸습니다.",
+        "description": "인플레이션은 여전히 ​​높은 수준이고, 신임 연준 의장은 이를 바꾸는 것을 목표로 하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/06/21/fed-chair-kevin-warsh-threw-trump-powell-under-bus/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/20 16:00",
-        "score": 5
+        "publishedAt": "06/21 22:26",
+        "score": 10
       },
       {
-        "title": "\"친절한 연준씨 이제 없다\"…워시 Fed의 진짜 뜻 [빈난새의 빈틈없이월가]",
+        "title": "한·미 금리 인상 시사…3년째 이자 부담 큰 기업은? [한경우의 케이스스터디]",
         "description": "",
-        "url": "https://www.hankyung.com/article/202606207724i",
+        "url": "https://www.hankyung.com/article/2026062184796",
         "source": "hankyung.com",
-        "publishedAt": "06/20 10:00",
+        "publishedAt": "06/22 06:30",
         "score": 5
       },
       {
-        "title": "경제에 대한 트럼프의 두려움으로 이란 회담에서 미국의 영향력이 약화됨",
-        "description": "(블룸버그) -- 도널드 트럼프 대통령은 세계 경제 붕괴 전망이 이란과 임시 평화협정을 체결한 큰 이유라고 말했다. 그",
-        "url": "https://finance.yahoo.com/news/trumps-fears-about-economy-undercut-us-leverage-in-iran-talks-163341928.html?.tsrc=rss",
+        "title": "계란 10개 5200원…벌써 '열' 받는 물가",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026062189741",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 18:00",
+        "score": 3
+      },
+      {
+        "title": "'반도체 훈풍'…체감 물가·기업경기 영향은",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026062188651",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 17:38",
+        "score": 3
+      },
+      {
+        "title": "주식 시장이 얼마나 잘 돌아가는지 보고 놀랐다면 Jamie Dimon도 마찬가지입니다. 그는 경제에 '작은 쓰나미'가 다가오고 있다고 말합니다.",
+        "description": "\"우크라이나, 이란, 석유, 러시아, 그리고 중국과의 관계가 있다고 생각해서 놀랐습니다. 그런 것들은 무료로 정말 중요합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/surprised-well-stock-market-doing-123000855.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/21 01:33",
+        "publishedAt": "06/21 21:30",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Enbridge(TSX:ENB), 모회사 부채 통합을 위해 채권 교환 완료",
-        "description": "Enbridge Inc.(TSX:ENB)와 Enbridge Pipelines Inc.는 이전에 발표된 지폐 교환 거래를 완료했습니다. Enbri가 발행한 중기채권",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/enbridge-tsx-enb-completes-note-001524926.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/20 09:15",
-        "score": 1
+        "title": "환율·채권, 원·달러 환율 1500원대 박스권 장세",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026062188681",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 17:35",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "골드만삭스, 연준 회의 후 금 목표가 재검토",
-        "description": "금값은 1월 말 온스당 5,600달러 근처로 사상 최고치를 기록했다. 그 이후로 거의 쉬지 않고 미끄러지고 있으며 6월 19일에 은행이 가장 많이 응답했습니다.",
-        "url": "https://www.thestreet.com/investing/goldman-sachs-revisits-its-gold-price-target-after-fed-meeting-rate-cut?.tsrc=rss",
+        "title": "유가가 정점에서 하락했지만, 향후 다시 상승할 수 있는 이유는 다음과 같습니다.",
+        "description": "중동 분쟁을 종식시키기로 한 합의로 유가가 하락했지만 이는 일시적인 유예일 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/06/21/while-oil-prices-have-fallen-from-their-peak-heres/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/21 04:47",
+        "publishedAt": "06/22 03:35",
         "score": 5
       },
       {
-        "title": "에너지 인프라 펀드는 소득 사냥꾼에게 2.8%의 수익률을 제공하면서 19%의 이익을 제공합니다.",
-        "description": "First Trust 북미 에너지 인프라 펀드(NYSEARCA:EMLP)는 2026년 1분기에 투자자들에게 주당 0.2993달러를 지급했습니다. 계속",
-        "url": "https://247wallst.com/investing/2026/06/20/energy-infrastructure-fund-delivers-19-gains-while-paying-2-8-yield-to-income-hunters/?.tsrc=rss",
+        "title": "Bloom Energy는 새로운 AI 파워 보고서 이후 급등했습니다. 연료전지 주식은 매수인가?",
+        "description": "올해 주가가 급등하면서 연료전지 업체의 밸류에이션이 비즈니스를 뛰어넘는 걸까?",
+        "url": "https://www.fool.com/investing/2026/06/21/bloom-energy-soared-after-a-new-ai-power-report-is/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/21 04:32",
+        "publishedAt": "06/22 05:06",
+        "score": 4
+      },
+      {
+        "title": "1 놓치고 싶지 않을 상대적으로 알려지지 않은 에너지 주식",
+        "description": "올해 에너지 부문은 뜨거웠지만 EQT 주가는 틀에 박혔습니다. 이 천연가스 회사에는 여전히 몇 가지 매력적인 특성이 있습니다.",
+        "url": "https://www.fool.com/investing/2026/06/21/1-relatively-unknown-energy-stock-you-wont-want-to/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/22 05:25",
         "score": 3
       },
       {
-        "title": "AI 전력 붐을 활용하기 위해 제가 가장 선호하는 원자력 에너지 주식입니다.",
-        "description": "원자력 분야의 최첨단은 흥미롭지만, 저는 좀 더 지루하고 다양한 것을 선호합니다.",
-        "url": "https://www.fool.com/investing/2026/06/20/this-is-my-favorite-nuclear-energy-stock-to-capita/?.tsrc=rss",
+        "title": "Global X의 MLPX 또는 Alerian의 AMLP: 어느 에너지 인프라 ETF가 장기적으로 더 나은가요?",
+        "description": "투자 전략을 위해 이 두 가지 주요 미드스트림 에너지 ETF를 평가하면서 포트폴리오 집중도, 비용 효율성 및 장기 성장을 비교하세요.",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/21/global-x-s-mlpx-or-alerian-s-amlp-which-energy-infrastructure-etf-is-the-better-long-term-buy/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/21 03:35",
+        "publishedAt": "06/21 21:50",
         "score": 3
       },
       {
-        "title": "Vanguard Energy ETF(VDE)란 무엇이며 누가 구매해야 합니까?",
-        "description": "에너지주는 S&P 500에서 차지하는 비중이 3%에 불과하기 때문에 이 ETF는 많은 투자자들에게 좋지 않은 선택이 될 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/06/20/what-is-the-vanguard-energy-etf-vde-and-who-should/?.tsrc=rss",
+        "title": "모건스탠리에서 PBF에너지(PBF) 목표주가를 상향했다. 이유는 다음과 같습니다",
+        "description": "PBF Energy Inc.(NYSE:PBF)는 지금 구매할 수 있는 미국 최고의 석유 주식 12개 기업에 포함되어 있습니다. PBF Energy Inc.(NYSE:PBF)는 정제 및 공급에 참여합니다.",
+        "url": "https://finance.yahoo.com/energy/articles/pbf-energy-pbf-price-target-011830097.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/20 23:13",
-        "score": 3
-      },
-      {
-        "title": "Augustine, Kingking Copper-Gold 프로젝트 발전을 위한 재무 자문사로 ELD 임명 발표",
-        "description": "필리핀 마닐라--(Newsfile Corp. - 2026년 6월 19일) - St. Augustine Gold and Copper Limited(TSX: SAU)(\"St. Augustine\" 또는 \"회사\")가 발표했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/st-augustine-announces-appointment-eld-220000296.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/20 07:00",
+        "publishedAt": "06/21 10:18",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "스태그플레이션 위험 완화로 유럽 주식이 다시 선두로 돌아섰습니다.",
-        "description": "(블룸버그) - 투자자들이 경제 성장에 베팅함에 따라 중동의 평화에 대한 전망이 유럽 증시를 하반기에 두드러지게 형성하고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/europe-stocks-back-lead-stagflation-070000193.html?.tsrc=rss",
+        "title": "환율·채권, 원·달러 환율 1500원대 박스권 장세",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026062188681",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 17:35",
+        "score": 8
+      },
+      {
+        "title": "6월 환율 1520원 넘었다…\"외환위기 후 최고\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026062184627",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 09:32",
+        "score": 8
+      },
+      {
+        "title": "Citi는 USDJPY가 155엔 아래로 움직일 것으로 예상되면서 엔화 회복을 예측했습니다.",
+        "description": "씨티는 일본 엔화가 미국 대비 강세를 보일 것으로 예상하고 있다.",
+        "url": "https://mx.advfn.com/noticias-de-mercado/article/7270/citi-forecasts-yen-recovery-as-usdjpy-expected-to-move-below-%c2%a5155?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/20 16:00",
-        "score": 3
+        "publishedAt": "06/21 20:00",
+        "score": 4
+      },
+      {
+        "title": "Citi는 2026년 말까지 달러-엔이 155엔 이하로 떨어질 것으로 예상합니다.",
+        "description": "씨티그룹은 달러-엔 환율이 연말 이전에 하락할 가능성이 높다고 보고 있다.",
+        "url": "https://investorshub.advfn.com/market-news/article/30825/citi-expects-dollar-yen-to-fall-below-%c2%a5155-by-the-end-of-2026?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/21 20:00",
+        "score": 4
+      },
+      {
+        "title": "일본 연기금, 달러 리스크 헤지 위해 암호화폐 할당 계획",
+        "description": "일본 연금 기금은 2026년부터 암호화폐에 1%를 할당하여 비트코인을 미국 달러 약세에 대한 헤지로 취급할 예정입니다.",
+        "url": "https://beincrypto.com/japanese-pension-fund-crypto-dollar-hedge/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/21 23:54",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "IRGC는 미국의 협상에 따른 이란 제재 완화로 이익을 얻을 예정 - 로이터 통신",
-        "description": "Investing.com -- 이란의 이슬람혁명수비대(IRGC)가 향후 AG에 따른 제재 완화의 주요 수혜자가 될 수 있습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/irgc-set-benefit-iran-sanctions-054105488.html?.tsrc=rss",
+        "title": "골드만삭스, 호르무즈 해협 재개로 공급 회복 가속화로 석유 전망 하향",
+        "description": "골드만삭스는 트럼프 대통령이 미국 경제를 종식시키는 임시 합의를 발표한 이후 2026년과 2027년 유가 전망치를 하향 조정했다.",
+        "url": "https://investorshub.advfn.com/market-news/article/30829/goldman-sachs-lowers-oil-outlook-as-strait-of-hormuz-reopening-accelerates-supply-recovery?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/20 14:41",
-        "score": 6
+        "publishedAt": "06/22 00:21",
+        "score": 5
       },
       {
-        "title": "충돌 경고: Barchart의 Ultimate Trader 치트 시트는 심지어 메가캡 기술 주식도 악화되기 시작하고 있음을 경고했습니다.",
-        "description": "Barchart에서 이러한 관심 목록을 쉽게 복제할 수 있습니다.",
-        "url": "https://www.barchart.com/story/news/2566657/crash-warning-barcharts-ultimate-trader-cheat-sheet-alerted-me-that-even-mega-cap-tech-stocks-are-starting-to-deteriorate?.tsrc=rss",
+        "title": "이란, 호르무즈 해협 다시 봉쇄: 연준 금리 인상 다시 테이블로 올라오나요?",
+        "description": "지난주 미국과 이란의 휴전은 투자자들에게 최근에는 별로 갖지 못했던 희망을 잠시 제공했습니다. 양해각서(M",
+        "url": "https://247wallst.com/investing/2026/06/21/iran-closes-strait-of-hormuz-again-are-fed-rate-hikes-back-on-the-table/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/20 22:00",
-        "score": 2
+        "publishedAt": "06/21 21:15",
+        "score": 5
+      },
+      {
+        "title": "호르무즈와 무역 긴장이 2027년에 부활할 수 있는 이유",
+        "description": "Investing.com -- 미-이란 잠정 합의는 주식에 대한 단기적인 지원을 제공하고 유가와 채권 수익률에 대한 압력을 줄일 수 있습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/why-hormuz-trade-tensions-could-081848688.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/21 17:18",
+        "score": 4
+      },
+      {
+        "title": "경고: S&P 500이 155년 만에 처음으로 무언가를 하기 직전일 수 있으며 이는 투자자들에게 좋은 소식이 아닙니다.",
+        "description": "S&P 500 CAPE 비율은 역사상 두 번째로 높은 수치를 기록하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/06/21/warning-the-sp-500-is-about-to-do-something-for/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/22 00:05",
+        "score": 1
+      },
+      {
+        "title": "이 메가캡 주식이 우리가 가진 최고의 충돌 경고일 수 있는 이유",
+        "description": "Berkshire Hathaway의 실적이 급격히 저조해지기 시작하면 겁을 먹을 때입니다.",
+        "url": "https://www.barchart.com/story/news/2572149/why-this-mega-cap-stock-might-be-the-best-crash-warning-we-have?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/22 00:00",
+        "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX 주식이 1달러 상승할 때마다 Elon Musk의 순자산은 47억 6천만 달러 증가합니다. 1,000달러, 7,000달러 또는 15,000달러를 투자하여 얻을 수 있는 수익은 다음과 같습니다.",
-        "description": "SpaceX의 작은 발걸음이자 Musk의 거대한 도약입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-gain-spacex-stock-adds-124500506.html?.tsrc=rss",
+        "title": "SpaceX는 역사상 가장 큰 IPO를 기록했습니다. Anthropic 및 OpenAI가 상장될 때 투자자에게 구매에 대해 알려주는 내용은 다음과 같습니다.",
+        "description": "SpaceX의 블록버스터 IPO는 Anthropic과 OpenAI가 결국 상장될 때 투자자들이 더 많은 정보를 바탕으로 선택을 내리는 데 도움이 될 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/06/21/spacex-big-ipo-what-tell-anthropic-openai/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/20 21:45",
+        "publishedAt": "06/22 03:04",
+        "score": 17
+      },
+      {
+        "title": "SpaceX 주식을 구매하기 전에 기다려야 하는 2가지 이유와 지금 당장 구매해야 하는 1가지 이유",
+        "description": "양측 모두에게 설득력 있는 사건이 있습니다.",
+        "url": "https://www.fool.com/investing/2026/06/21/2-reasons-to-wait-before-buying-spacex-shares-and/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "06/22 04:59",
         "score": 7
       },
       {
-        "title": "12개월 후, 오늘 SpaceX를 구입하고 싶나요?",
-        "description": "휴스턴, 평가에 문제가 있습니다.",
-        "url": "https://www.fool.com/investing/2026/06/20/12-months-from-now-will-you-wish-you-bought-spacex/?.tsrc=rss",
+        "title": "인텔이 파운드리 스포트라이트를 훔치고 있습니다. TSMC는 여전히 칩 분야에서 가장 중요한 회사입니까?",
+        "description": "인텔의 턴어라운드가 구체화되고 있다.",
+        "url": "https://www.fool.com/investing/2026/06/21/intel-is-stealing-the-foundry-spotlight-is-tsmc-st/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "06/21 04:25",
+        "publishedAt": "06/22 03:41",
+        "score": 7
+      },
+      {
+        "title": "AI 투자로 100% 수익률…타임폴리오 대회서 25세 대학생 1위",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202606218710i",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 14:56",
         "score": 6
       },
       {
-        "title": "SpaceX IPO 이후 매수할 산업주 2종",
-        "description": "Rocket Lab과 Leidos는 SpaceX보다 가격이 더 좋은 우주 주식입니다.",
-        "url": "https://www.fool.com/investing/2026/06/20/2-industrial-stocks-to-buy-after-the-spacex-ipo/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/21 01:05",
-        "score": 6
-      },
-      {
-        "title": "이 우주 주식은 SpaceX를 제치고 Nasdaq-100에 오를 것입니다 — 그리고 매수해야 할 주식입니다",
-        "description": "공간 투자는 새로운 국면을 맞이하고 있습니다. SpaceX(NASDAQ:SPCX)의 블록버스터 IPO는 빠르게 최대 규모이자 가장 기대되는 공개 목록 중 하나가 되었습니다.",
-        "url": "https://247wallst.com/investing/2026/06/20/this-space-stock-will-beat-spacex-to-the-nasdaq-100-and-its-the-one-to-buy/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/20 23:44",
-        "score": 6
-      },
-      {
-        "title": "이 회사는 AI 추론의 엔비디아가 될 수 있다",
-        "description": "ON Semiconductor의 데이터 센터와 관련된 빠르게 성장하는 수익은 앞으로 수년 동안 주요 성장 동력이 될 가능성이 높습니다.",
-        "url": "https://www.fool.com/investing/2026/06/20/this-company-could-become-the-nvidia-of-ai-inferen/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "06/21 06:20",
-        "score": 4
+        "title": "삼성, 글로벌 전략회의…HBM 공급 확대 점검",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026062189881",
+        "source": "hankyung.com",
+        "publishedAt": "06/21 18:24",
+        "score": 5
       }
     ]
   }
