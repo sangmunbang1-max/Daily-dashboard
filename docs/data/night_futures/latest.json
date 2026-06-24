@@ -1,10 +1,10 @@
 {
-  "generated_at_kst": "2026-06-24T23:36:14.540620+09:00",
+  "generated_at_kst": "2026-06-25T01:55:16.573371+09:00",
   "biz_date": "2026-06-24",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
-  "note": "market_status={'kospi': 'no_trade_or_quote_for_A01606', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
-  "token_status": "ready",
+  "note": "snapshot update failed: ConnectTimeout: HTTPSConnectionPool(host='openapi.koreainvestment.com', port=9443): Max retries exceeded with url: /oauth2/Approval (Caused by ConnectTimeoutError(<HTTPSConnection(host='openapi.koreainvestment.com', port=9443) at 0x7f1999ceac10>, 'Connection to openapi.koreainvestment.com timed out. (connect timeout=20)'))",
+  "token_status": "error",
   "series": {
     "kospi": [],
     "kosdaq": []
@@ -56,7 +56,7 @@
       "ws://ops.koreainvestment.com:21000",
       "wss://ops.koreainvestment.com:21000"
     ],
-    "connected_ws_url": "ws://ops.koreainvestment.com:21000",
+    "connected_ws_url": null,
     "wait_seconds": 12,
     "debug_files": {
       "raw_frames": "tmp/night_futures_ws/raw_frames.json",
@@ -65,14 +65,6 @@
     "configured_tr_keys": {
       "kospi": "A01606",
       "kosdaq": "A06606"
-    },
-    "received_symbols": {
-      "trade": [],
-      "quote": []
-    },
-    "market_status": {
-      "kospi": "no_trade_or_quote_for_A01606",
-      "kosdaq": "no_trade_or_quote_for_A06606"
     }
   }
 }
