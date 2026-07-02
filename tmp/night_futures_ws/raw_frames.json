@@ -1,30 +1,30 @@
 [
   {
-    "received_at_kst": "2026-07-03T03:57:26.192040+09:00",
+    "received_at_kst": "2026-07-03T05:24:19.234014+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
-    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A01606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"c4ddf4d98d6b5fc4\",\"key\":\"pvogfjrjhcydnygvfujjibvwtronbqtq\"}}}"
+    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A01606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"96015bbd142c0f1e\",\"key\":\"yjmkecssgohfwmmxantjpuutbzemkaqk\"}}}"
   },
   {
-    "received_at_kst": "2026-07-03T03:57:26.423013+09:00",
+    "received_at_kst": "2026-07-03T05:24:19.464755+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
-    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"c4ddf4d98d6b5fc4\",\"key\":\"pvogfjrjhcydnygvfujjibvwtronbqtq\"}}}"
+    "raw": "{\"header\":{\"tr_id\":\"H0MFCNT0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"96015bbd142c0f1e\",\"key\":\"yjmkecssgohfwmmxantjpuutbzemkaqk\"}}}"
   },
   {
-    "received_at_kst": "2026-07-03T03:57:26.423114+09:00",
+    "received_at_kst": "2026-07-03T05:24:19.464867+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFASP0",
-    "raw": "{\"header\":{\"tr_id\":\"H0MFASP0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"c4ddf4d98d6b5fc4\",\"key\":\"pvogfjrjhcydnygvfujjibvwtronbqtq\"}}}"
+    "raw": "{\"header\":{\"tr_id\":\"H0MFASP0\",\"tr_key\":\"A06606\",\"encrypt\":\"N\"},\"body\":{\"rt_cd\":\"0\",\"msg_cd\":\"OPSP0000\",\"msg1\":\"SUBSCRIBE SUCCESS\",\"output\":{\"iv\":\"96015bbd142c0f1e\",\"key\":\"yjmkecssgohfwmmxantjpuutbzemkaqk\"}}}"
   },
   {
-    "received_at_kst": "2026-07-03T03:57:36.300578+09:00",
+    "received_at_kst": "2026-07-03T05:24:29.694422+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "PINGPONG",
-    "raw": "{\"header\":{\"tr_id\":\"PINGPONG\",\"datetime\":\"20260703035736\"}}"
+    "raw": "{\"header\":{\"tr_id\":\"PINGPONG\",\"datetime\":\"20260703052429\"}}"
   }
 ]
