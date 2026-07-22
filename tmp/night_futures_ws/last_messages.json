@@ -1,6 +1,6 @@
 [
   {
-    "received_at_kst": "2026-07-23T00:05:18.562873+09:00",
+    "received_at_kst": "2026-07-23T01:46:30.568319+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -15,14 +15,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "723cf60ca2fbb87c",
-          "key": "gvaxifhqzgoabthmtdwrdziecauhkezq"
+          "iv": "d5c4b57ca0aca055",
+          "key": "mqwefiftbfiwdsoxrefigcstukwctlng"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-07-23T00:05:18.758951+09:00",
+    "received_at_kst": "2026-07-23T01:46:30.775427+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFCNT0",
@@ -37,14 +37,14 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "723cf60ca2fbb87c",
-          "key": "gvaxifhqzgoabthmtdwrdziecauhkezq"
+          "iv": "d5c4b57ca0aca055",
+          "key": "mqwefiftbfiwdsoxrefigcstukwctlng"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-07-23T00:05:18.759053+09:00",
+    "received_at_kst": "2026-07-23T01:46:30.775516+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "H0MFASP0",
@@ -59,21 +59,21 @@
         "msg_cd": "OPSP0000",
         "msg1": "SUBSCRIBE SUCCESS",
         "output": {
-          "iv": "723cf60ca2fbb87c",
-          "key": "gvaxifhqzgoabthmtdwrdziecauhkezq"
+          "iv": "d5c4b57ca0aca055",
+          "key": "mqwefiftbfiwdsoxrefigcstukwctlng"
         }
       }
     }
   },
   {
-    "received_at_kst": "2026-07-23T00:05:29.108648+09:00",
+    "received_at_kst": "2026-07-23T01:46:40.855472+09:00",
     "ws_url": "ws://ops.koreainvestment.com:21000",
     "msg_type": "ack",
     "tr_id": "PINGPONG",
     "parsed": {
       "header": {
         "tr_id": "PINGPONG",
-        "datetime": "20260723000529"
+        "datetime": "20260723014640"
       }
     }
   }
