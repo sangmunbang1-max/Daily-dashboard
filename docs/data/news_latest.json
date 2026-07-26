@@ -1,268 +1,285 @@
 {
-  "generated_at_kst": "2026-07-26 08:28 KST",
-  "period": "07/25 07:00 ~ 07/26 07:00 KST",
+  "generated_at_kst": "2026-07-27 08:27 KST",
+  "period": "07/26 07:00 ~ 07/27 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "S&P 500, Dow, Nasdaq은 유가 상승으로 두 번째 주 종료, 칩 제조업체 대패 — PSKY, UBER, QCOM, VZ, INTC 집중",
-        "description": "그러나 파키스탄이 미국과 이란 간 대화를 중재하는 데 도움을 줄 수 있다는 희망 속에 유가는 금요일 하락세를 보였습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-second-week-lower-over-elevated-oil-prices-chipmaker-rout/cZZp9fpR7zL?.tsrc=rss",
+        "title": "한국 코스피는 밈 주식처럼 거래되고 있으며 S&P 500 또는 나스닥 종합지수가 다음 차례가 될 수 있습니다",
+        "description": "한국 주식 시장에서 관찰된 극심한 변동성은 한국에서는 결코 일어날 수 없다고 생각한다면, 데이터에 따르면 큰 착각일 것입니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/kospi-trading-like-a-meme-stock-sp-500-nasdaq-next/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 07:54",
-        "score": 10
+        "publishedAt": "07/26 22:26",
+        "score": 11
       },
       {
-        "title": "S&P 500 인덱스 펀드에 50,000달러를 투자하면 은퇴 후 포트폴리오를 100만 달러로 늘릴 수 있을까요?",
-        "description": "인덱스 펀드에 투자하는 것은 투자자가 전체 시장을 다양화하고 추적하는 효과적인 방법이 될 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/07/25/could-investing-50000-into-sp-500-index-funds-be-e/?.tsrc=rss",
+        "title": "AI 시대에 공격적인 자사주 매입을 하는 기업은 S&P 500보다 뒤처졌습니다.",
+        "description": "Investing.com -- Barclays는 미국 주요 기술 기업들의 자사주 매입이 급격하게 둔화되는 것이 전체 기업에 큰 부담이 될 가능성은 낮다고 말했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/companies-aggressive-buybacks-lagged-p-131321741.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 23:20",
+        "publishedAt": "07/26 22:13",
         "score": 8
       },
       {
-        "title": "룰렛 휠이 S&P 500 주식을 점령했습니다. 집을 잃지 않는 방법은 다음과 같습니다.",
-        "description": "SPDR S&P 500 Trust(SPY)는 연속적인 패턴이 나타나는 경향이 있는 룰렛 휠과 훨씬 더 비슷합니다.",
-        "url": "https://www.barchart.com/story/news/3462694/a-roulette-wheel-has-taken-over-s-p-500-stocks-heres-how-not-to-lose-your-house?.tsrc=rss",
+        "title": "뉴욕·상하이 증시, 빅테크 실적·FOMC 회의에 촉각",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026072664941",
+        "source": "hankyung.com",
+        "publishedAt": "07/26 17:10",
+        "score": 8
+      },
+      {
+        "title": "지금 Vanguard S&P 500 ETF에 투자하는 것이 정말 안전한가요? 역사가 말하는 내용은 다음과 같습니다.",
+        "description": "2026년 S&P 500 지수의 10% 상승은 투자자들이 여전히 낙관적이라는 것을 보여줍니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/is-it-really-safe-to-invest-in-the-vanguard-sp-500/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 23:00",
+        "publishedAt": "07/27 02:22",
         "score": 6
       },
       {
-        "title": "모든 커버드 콜 Nasdaq-100 ETF를 비교한 후 이들 3개 ETF는 AI 상승 여력을 제한하지 않고 최대 14%의 수익을 냅니다.",
-        "description": "Nasdaq-100의 모든 커버콜 ETF가 동일하게 구축되는 것은 아니며, 잘못된 것을 선택하면 해당 지수를 구매한 AI 랠리를 희생할 수 있습니다.",
-        "url": "https://247wallst.com/investing/2026/07/25/after-comparing-every-covered-call-nasdaq-100-etf-these-3-pay-up-to-14-percent-without-capping-your-ai-upside/?.tsrc=rss",
+        "title": "S&P 500에 동일 가중치를 적용하는 것이 가치가 있나요? 데이터가 말하는 내용은 다음과 같습니다.",
+        "description": "S&P 500에 동일 가중치를 부여하는 것은 대형주 집중을 완전히 해결하는 것처럼 들리지만, 이 전략은 거의 관심을 끌지 못하는 상충관계를 수반합니다.",
+        "url": "https://247wallst.com/investing/2026/07/26/is-equal-weighting-the-sp-500-worth-it-heres-what-the-data-says/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/26 04:34",
-        "score": 5
-      },
-      {
-        "title": "예측: Kevin Warsh와 연방공개시장위원회(FOMC)는 2026년에 금리를 인상하지 않을 것입니다.",
-        "description": "시장은 현재 연준이 올해 말 금리를 인상할 것으로 예상하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/07/25/prediction-kevin-warsh-and-the-federal-open-market/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/25 20:25",
+        "publishedAt": "07/27 05:02",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "씨티, 메모리 '피크아웃' 우려 해소, 삼성·SK하이닉스 매수 의지 재확인",
-        "description": "Investing.com - 한국 메모리 칩 제조사들은 순환적 침체에 대한 근거 없는 두려움으로 인해 부당한 주가 하락에 직면하고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/citi-brush-off-memory-peak-112454050.html?.tsrc=rss",
+        "title": "한국 코스피는 밈 주식처럼 거래되고 있으며 S&P 500 또는 나스닥 종합지수가 다음 차례가 될 수 있습니다",
+        "description": "한국 주식 시장에서 관찰된 극심한 변동성은 한국에서는 결코 일어날 수 없다고 생각한다면, 데이터에 따르면 큰 착각일 것입니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/kospi-trading-like-a-meme-stock-sp-500-nasdaq-next/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 20:24",
-        "score": 5
+        "publishedAt": "07/26 22:26",
+        "score": 6
       },
       {
-        "title": "삼성전자와 SK하이닉스, 9500억 달러 규모 미국 칩 공급 파트너십 발표",
-        "description": "Investing.com -- 삼성전자와 SK하이닉스가 미국의 주요 기술 기업들과 메모리 칩 공급 파트너십을 추진할 예정이다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-sk-hynix-unveil-950-074847076.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/25 16:48",
-        "score": 5
-      },
-      {
-        "title": "삼성전자, 브로드컴과 290조원 규모 AI 반도체 초대형 동맹",
+        "title": "'MSD가 찜한' 인제니아테라퓨틱스, KDR로 코스닥 상장 도전",
         "description": "",
-        "url": "https://www.hankyung.com/article/202607255637i",
+        "url": "https://www.hankyung.com/article/202607244544i",
         "source": "hankyung.com",
-        "publishedAt": "07/25 15:05",
+        "publishedAt": "07/26 14:14",
+        "score": 6
+      },
+      {
+        "title": "'롤러코스피' 멈출까…미 하이퍼스케일러 실적 발표에 쏠린 눈 [주간전망]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026072442356",
+        "source": "hankyung.com",
+        "publishedAt": "07/26 08:00",
         "score": 5
       },
       {
-        "title": "[속보] 삼성전자, 브로드컴 제품에 2nm 이하 첨단 파운드리 공정 적용",
+        "title": "[단독]카카오엔터 2대주주 앵커PE, 지분 매각 나선다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026072556167",
+        "url": "https://www.hankyung.com/article/202607243796i",
         "source": "hankyung.com",
-        "publishedAt": "07/25 14:18",
-        "score": 5
+        "publishedAt": "07/26 16:58",
+        "score": 3
       },
       {
-        "title": "정의선 현대차그룹 회장 \"국내 로봇·AI 기술 고도화 위한 생태계 조성\"",
+        "title": "카카오 계열사 2대 주주들, 회수 통로 막히자 '각자도생' 추진",
         "description": "",
-        "url": "https://www.hankyung.com/article/202607255631g",
+        "url": "https://www.hankyung.com/article/202607266468i",
         "source": "hankyung.com",
-        "publishedAt": "07/25 15:14",
+        "publishedAt": "07/26 16:50",
         "score": 3
       }
     ],
     "macro": [
       {
-        "title": "예측: Kevin Warsh와 연방공개시장위원회(FOMC)는 2026년에 금리를 인상하지 않을 것입니다.",
-        "description": "시장은 현재 연준이 올해 말 금리를 인상할 것으로 예상하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/07/25/prediction-kevin-warsh-and-the-federal-open-market/?.tsrc=rss",
+        "title": "FOMC 미리보기: 연준은 유가 급등에도 불구하고 금리를 유지할 가능성이 높으며 Citi는 비둘기파적인 결과를 전망",
+        "description": "Investing.com -- 연준은 유가 상승에도 불구하고 7월 정책회의에서 금리를 동결할 가능성이 높다고 씨티가 주장했다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fomc-preview-fed-likely-hold-173617583.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 20:25",
+        "publishedAt": "07/27 02:36",
         "score": 5
       },
       {
-        "title": "Nvidia vs. Planet Labs: 인공 지능 거대 기업과 우주 기반 경제의 떠오르는 스타 간의 수익 추세 비교",
-        "description": "Nvidia의 수익은 지난 2년 동안 거의 3배 증가한 반면 Planet Labs는 꾸준한 한 자릿수 성장을 기록했습니다.",
-        "url": "https://www.fool.com/coverage/charts/2026/07/25/nvidia-vs-planet-labs-comparing-revenue-trends-between-an-artificial-intelligence-giant-and-a-rising-star-of-the-space-based-economy/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/26 04:26",
-        "score": 1
+        "title": "뉴욕·상하이 증시, 빅테크 실적·FOMC 회의에 촉각",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026072664941",
+        "source": "hankyung.com",
+        "publishedAt": "07/26 17:10",
+        "score": 5
       },
       {
-        "title": "이 대통령, EU '러 LNG 韓수출 제재 면제'에 \"경제에 큰 도움\"",
+        "title": "Barclays는 거대 기술 수익과 중앙은행이 여름 시장을 주도할 것이라고 말했습니다.",
+        "description": "Barclays는 주식 시장의 다음 단계가 다가오는 Big Tech 수익과 투자자로서 일련의 중앙 은행 회의에 의해 결정될 것이라고 믿습니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/32650/barclays-says-big-tech-earnings-and-central-banks-will-drive-summer-markets?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "07/27 00:10",
+        "score": 3
+      },
+      {
+        "title": "두 중앙은행이 다음 주 금리를 결정합니다: 비트코인에 대한 의미",
+        "description": "연준과 BoJ의 금리 결정은 다음 주 이틀 간격으로 이루어지며, 비트코인은 64,000달러에 가까워지고 엔화는 40년 만에 최저 수준이 됩니다.",
+        "url": "https://beincrypto.com/fed-boj-rate-decisions-bitcoin-impact/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "07/26 20:00",
+        "score": 3
+      }
+    ],
+    "bonds": [
+      {
+        "title": "Schwab의 SCHQ 또는 iShares TLT 중 어느 장기 재무 ETF가 더 낫습니까?",
+        "description": "SCHQ의 425억 달러 규모의 경쟁사인 TLT는 유동성과 자산 면에서 압도적이지만 Schwab 펀드의 낮은 수수료와 뛰어난 5년 성과는 매수 후 투자에 매력적일 수 있습니다.",
+        "url": "https://www.fool.com/coverage/etfs/2026/07/26/which-long-term-treasury-etf-is-better-schwab-s-schq-or-the-ishares-tlt/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "07/27 05:21",
+        "score": 6
+      },
+      {
+        "title": "환율·채권, 원·달러 1400원대 중후반 유지할듯",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026072557777",
+        "url": "https://www.hankyung.com/article/2026072664951",
         "source": "hankyung.com",
-        "publishedAt": "07/25 20:35",
+        "publishedAt": "07/26 17:10",
+        "score": 3
+      },
+      {
+        "title": "100달러 유가가 AI 부채 폭발과 충돌함에 따라 마이클 버리(Michael Burry)의 오싹한 경고: '얼마나 더 걸릴지 확실하지 않음'",
+        "description": "마이클 버리(Michael Burry)는 유가 상승, 인공지능 부채 폭증, 장기 트레(Tre)에 대한 압박 증가 등 시장 충돌에 대해 경고했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burrys-chilling-warning-100-143119536.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "07/26 23:31",
         "score": 1
       }
     ],
-    "bonds": [],
     "commodities": [
       {
-        "title": "이란이 아닌 데이터 센터가 미국의 다가오는 에너지 위기를 부채질하고 있습니다.",
-        "description": "이란의 분쟁은 유가를 급등시키고 시장을 동요시키고 있지만, 보다 조용한 에너지 위협은 이미 미국인들의 공과금 지불 방식을 바꾸고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/07/25/data-centers-not-iran-are-fueling-the-u-s-s-coming-energy-crisis/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/25 22:44",
-        "score": 9
+        "title": "국제유가 고공행진에…원유·신재생에너지 '들썩'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026072665381",
+        "source": "hankyung.com",
+        "publishedAt": "07/26 17:31",
+        "score": 11
       },
       {
-        "title": "기름값은 왜 안 오르나요? 에너지 수요의 엄청난 감소로 인해 전략가들은 어리둥절해졌습니다.",
-        "description": "석유 시장은 그 어느 때보다 타이트한데 왜 가격은 변동폭이 큽니까? JPMorgan은 시장이 재조정되었다고 말했습니다.",
-        "url": "https://finance.yahoo.com/energy/article/why-arent-oil-prices-higher-staggering-drop-in-energy-demand-leaves-strategists-puzzled-100000046.html?.tsrc=rss",
+        "title": "에너지 가격 상승으로 단기 인플레이션 위험 상승: JPMorgan",
+        "description": "JP모건의 수석 이코노미스트인 브루스 카스먼(Bruce Kasman)에 따르면 지난 며칠간 에너지 가격이 상승하면서 단기 인플레이션 위험이 상승하고 있다고 한다.  \"",
+        "url": "https://finance.yahoo.com/m/709a46d5-fba7-30f3-8f3c-c230d138971a/rising-energy-prices-shifting.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 19:00",
-        "score": 8
+        "publishedAt": "07/27 02:32",
+        "score": 3
       },
       {
-        "title": "유가 상승으로 호르무즈 해협의 훨씬 더 큰 경고가 가려졌습니다.",
-        "description": "브렌트유 가격이 94달러로 거의 4% 상승한 후 유가가 헤드라인을 장식했습니다. 11번째 연속 밤 이후 배럴당 23달러입니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/32638/oil-price-rally-masks-a-much-bigger-warning-from-the-strait-of-hormuz?.tsrc=rss",
+        "title": "이란 전쟁이 다시 항공사를 강타함에 따라 미국 제트 연료 비용이 급등",
+        "description": "항공사가 추가 연료 비용으로 수십억 달러를 흡수하기 때문에 연료 비용이 높을수록 항공료가 더 높아질 가능성이 높습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/u-jet-fuel-costs-soar-210000933.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 20:00",
-        "score": 5
-      },
-      {
-        "title": "쿠웨이트 석유회사(Kuwait Oil Company)는 Blackstone, Brookfield 및 KKR로 구성된 컨소시엄과 원유 파이프라인 네트워크를 포함하는 미화 160억 달러 규모의 인프라 파트너십을 체결했습니다.",
-        "description": "쿠웨이트 쿠웨이트 시티, 2026년 7월 25일 - 쿠웨이트의 석유 및 가스 부문을 감독하는 국영 기업인 Kuwait Petroleum Corporation(\"KPC\")이 오늘",
-        "url": "https://finance.yahoo.com/energy/articles/kuwait-oil-company-signs-us-053900701.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/25 14:39",
-        "score": 5
-      },
-      {
-        "title": "골드만삭스, 2026년 유가 전망 두 배로 하향",
-        "description": "사우디산 원유를 실은 유조선 2척이 7월 22일 홍해에서 회항했다. 이들은 중국과 인도를 향해 향하던 중이었다. Houthis가 방금 주장했습니다.",
-        "url": "https://www.thestreet.com/investing/goldman-sachs-doubles-down-oil-price-forecast-2026?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/25 11:03",
-        "score": 5
+        "publishedAt": "07/27 06:00",
+        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "삼성·SK, 美 빅테크와 9500억달러 'AI 동맹'…메모리·파운드리 전방위 구축",
+        "title": "환율·채권, 원·달러 1400원대 중후반 유지할듯",
         "description": "",
-        "url": "https://www.hankyung.com/article/202607255676i",
+        "url": "https://www.hankyung.com/article/2026072664951",
         "source": "hankyung.com",
-        "publishedAt": "07/25 15:52",
-        "score": 3
+        "publishedAt": "07/26 17:10",
+        "score": 8
       },
       {
-        "title": "[속보] 네이버 이해진 \"엔비디아·브룩필드서 100억달러 거금 투자\"",
+        "title": "원화가치 상승폭은 주요국 통화 1위…엔화는 40년 만에 최저",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026072554217",
+        "url": "https://www.hankyung.com/article/2026072665721",
         "source": "hankyung.com",
-        "publishedAt": "07/25 09:36",
-        "score": 3
+        "publishedAt": "07/26 21:19",
+        "score": 4
       },
       {
-        "title": "민간 우주 경쟁자보다 수조 달러 규모의 주식에 5,000달러를 투자하는 가장 현명한 방법",
-        "description": "개인적인 우주 경쟁은 잊어버리세요. 이 1조 달러 규모의 칩 제조업체는 우주의 미래에 투자하는 가장 현명한 방법일 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/07/25/the-smartest-way-to-invest-5000-in-a-trillion-doll/?.tsrc=rss",
+        "title": "IonQ, Rigetti Computing, D-Wave Quantum은 잊어버리세요. 이 조 달러 규모의 인공 지능(AI) 주식은 최고의 양자 컴퓨팅 기회이며 현재 7년 최저 가치로 거래되고 있습니다.",
+        "description": "양자 컴퓨팅 순수 플레이는 투자자를 유혹할 수 있지만 더 나은 주식 선택은 양자 시스템과 컴퓨터 사이에 다리를 제공하는 메가캡일 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/forget-ionq-rigetti-computing-and-d-wave-quantum-t/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/26 03:41",
+        "publishedAt": "07/27 06:43",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "유가 상승으로 호르무즈 해협의 훨씬 더 큰 경고가 가려졌습니다.",
-        "description": "브렌트유 가격이 94달러로 거의 4% 상승한 후 유가가 헤드라인을 장식했습니다. 11번째 연속 밤 이후 배럴당 23달러입니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/32638/oil-price-rally-masks-a-much-bigger-warning-from-the-strait-of-hormuz?.tsrc=rss",
+        "title": "트럼프 대통령의 호르무즈 해협 봉쇄로 S&P 500 지수가 0.79% 하락했습니다.",
+        "description": "변동성이 높을수록 매수 기회가 될 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/president-trumps-strait-of-hormuz-blockade-pushed/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 20:00",
-        "score": 6
-      },
-      {
-        "title": "호르무즈 해협은 언제 영원히 개방될 것인가? 분석가가 타임라인 제공",
-        "description": "Kpler는 이제 호르무즈 해협이 내년에 재개장하여 유가를 높게 유지하고 연준의 금리 위험을 그대로 유지할 것으로 예상하고 있습니다.",
-        "url": "https://beincrypto.com/kpler-hormuz-reopening-timeline-oil/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/26 03:06",
+        "publishedAt": "07/26 13:50",
         "score": 5
       },
       {
-        "title": "걸프 석유 생산자들은 석유 가격이 100달러에 도달함에 따라 호르무즈 해협에 대한 대안을 건설하기 위해 경쟁하고 있습니다.",
-        "description": "걸프 석유 생산자들은 이란이 수로를 장악함에 따라 호르무즈 해협 주변으로 원유를 수송하기 위해 설계된 파이프라인에 수십억 달러를 지출하고 있습니다.",
-        "url": "https://www.euronews.com/2026/07/23/gulf-oil-producers-race-to-build-alternative-routes-to-the-strait-of-hormuz?.tsrc=rss",
+        "title": "이란 전쟁이 다시 항공사를 강타함에 따라 미국 제트 연료 비용이 급등",
+        "description": "항공사가 추가 연료 비용으로 수십억 달러를 흡수하기 때문에 연료 비용이 높을수록 항공료가 더 높아질 가능성이 높습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/u-jet-fuel-costs-soar-210000933.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 20:46",
-        "score": 5
-      },
-      {
-        "title": "PayPal 이사회는 주당 60.50달러가 부적절하다고 주장한 것으로 알려졌습니다. 주식은 $56에 거래됩니다.",
-        "description": "PayPal 이사회는 주당 60.50달러 이상을 원합니다. 그런데 그 주식의 가치가 정말 그 정도일까?",
-        "url": "https://www.fool.com/investing/2026/07/25/paypals-board-reportedly-called-6050-a-share-inade/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/26 04:43",
+        "publishedAt": "07/27 06:00",
         "score": 1
       },
       {
-        "title": "BofA는 석유 변동성이 c를 강제할 수 있다고 경고합니다. 은행들, '룩스루(look-through)' 정책 포기",
-        "description": "Investing.com - 글로벌 운송 중단과 지정학적 마찰로 인한 지속적인 유가 변동성이 핵심 인플레이션 고착을 위협하고 있습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/bofa-warns-oil-volatility-could-191823723.html?.tsrc=rss",
+        "title": "한국 최대 은행, 무역 결제에 JPMorgan 블록체인 활용",
+        "description": "KB국민은행은 오는 8월 JPMorgan의 Kinexys 블록체인을 기반으로 10개국을 대상으로 달러 거래 결제를 출시할 예정이다.",
+        "url": "https://beincrypto.com/kb-kookmin-jpmorgan-kinexys-trade-payments/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/26 04:18",
+        "publishedAt": "07/27 03:00",
+        "score": 1
+      },
+      {
+        "title": "에너지 가격 상승으로 단기 인플레이션 위험 상승: JPMorgan",
+        "description": "JP모건의 수석 이코노미스트인 브루스 카스먼(Bruce Kasman)에 따르면 지난 며칠간 에너지 가격이 상승하면서 단기 인플레이션 위험이 상승하고 있다고 한다.  \"",
+        "url": "https://finance.yahoo.com/m/709a46d5-fba7-30f3-8f3c-c230d138971a/rising-energy-prices-shifting.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "07/27 02:32",
+        "score": 1
+      },
+      {
+        "title": "더 나은 AI 소프트웨어 주식: Palantir 대 ServiceNow",
+        "description": "AI가 소프트웨어 회사를 쓸모없게 만드는 것에 대한 우려는 과장되었을 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/better-ai-software-stock-palantir-vs-servicenow/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "07/27 01:07",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "[속보] 삼성-브로드컴 '5년간 200억불' 첨단 메모리 반도체·파운드리 MOU 체결",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026072555697",
-        "source": "hankyung.com",
-        "publishedAt": "07/25 13:03",
-        "score": 11
-      },
-      {
-        "title": "Micron, Nvidia 또는 SpaceX: 지금 1,000달러를 투자하기에 가장 좋은 AI 주식은 무엇입니까?",
-        "description": "각각의 장점이 있지만, 하나는 생각할 필요 없이 구매하는 것처럼 보입니다.",
-        "url": "https://www.fool.com/investing/2026/07/25/micron-nvidia-or-spacex-which-is-the-best-ai-stock/?.tsrc=rss",
+        "title": "IonQ, Rigetti Computing, D-Wave Quantum은 잊어버리세요. 이 조 달러 규모의 인공 지능(AI) 주식은 최고의 양자 컴퓨팅 기회이며 현재 7년 최저 가치로 거래되고 있습니다.",
+        "description": "양자 컴퓨팅 순수 플레이는 투자자를 유혹할 수 있지만 더 나은 주식 선택은 양자 시스템과 컴퓨터 사이에 다리를 제공하는 메가캡일 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/forget-ionq-rigetti-computing-and-d-wave-quantum-t/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/26 03:20",
-        "score": 10
-      },
-      {
-        "title": "Intel 대 IonQ: 인공 지능과 양자 컴퓨팅 칩 제조업체의 수익 추세 비교",
-        "description": "인텔의 매출은 8분기 동안 거의 변동이 없는 반면, IonQ는 2024년 중반 이후 5배 이상 성장했습니다.",
-        "url": "https://www.fool.com/coverage/charts/2026/07/25/intel-vs-ionq-comparing-revenue-trends-between-artificial-intelligence-and-quantum-computing-chipmakers/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "07/25 21:16",
+        "publishedAt": "07/27 06:43",
         "score": 9
       },
       {
-        "title": "이재용·올트먼, 오픈AI 본사서 회동…'HBM·파운드리 협의' 관측",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026072556727",
-        "source": "hankyung.com",
-        "publishedAt": "07/25 15:34",
-        "score": 9
+        "title": "IonQ vs. Rigetti: 2조 7천억 달러 규모의 양자 컴퓨팅 경쟁에서 누가 승리할까요?",
+        "description": "두 주식이 귀하의 포트폴리오에 포함될 자격이 있는지 여부는 다음과 같습니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/ionq-vs-rigetti-whos-winning-the-27-trillion-quant/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "07/26 23:45",
+        "score": 5
       },
       {
-        "title": "Palantir Technologies(NasdaqGS:PLTR), 개방형 AI 모델 방어를 위해 Nvidia에 합류",
-        "description": "Nvidia CEO Jensen Huang은 Palantir Technologies(NasdaqGS:PLTR)와 공동 서명자로 개방형 AI 모델을 옹호하는 공개 서한을 발행했습니다. 편지",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-nasdaqgs-pltr-joins-060929813.html?.tsrc=rss",
+        "title": "[포토] 스페이스X, 상장 후 첫 시험 발사 성공",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026072666371",
+        "source": "hankyung.com",
+        "publishedAt": "07/26 18:13",
+        "score": 5
+      },
+      {
+        "title": "스마트 양자 컴퓨팅 투자자가 구매하는 3가지 주식",
+        "description": "양자 컴퓨팅이 곧 다가오고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/07/26/3-stocks-smart-quantum-computing-investors-are-buy/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "07/25 15:09",
-        "score": 8
+        "publishedAt": "07/26 13:20",
+        "score": 5
+      },
+      {
+        "title": "\"사업계획 못 쓰면 GPU도 없다\"…벼랑 끝 국산 AI가 살아남는 법 [허진의 테크토닉]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202607244829i",
+        "source": "hankyung.com",
+        "publishedAt": "07/26 08:30",
+        "score": 5
       }
     ]
   }
