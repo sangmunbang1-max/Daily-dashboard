@@ -1,317 +1,309 @@
 {
-  "generated_at_kst": "2026-08-06 08:28 KST",
-  "period": "08/05 07:00 ~ 08/06 07:00 KST",
+  "generated_at_kst": "2026-08-07 10:35 KST",
+  "period": "08/06 07:00 ~ 08/07 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Fed 금리 결정에 따라 MoneySimpler는 투자자가 변동성을 탐색하는 데 도움이 되는 AI 자동 거래를 시작합니다.",
-        "description": "AI 자동화, 퀀트 트레이딩, 지능형 리스크를 통해 투자자가 거래 효율성을 향상하고 장기 수익 잠재력을 추구할 수 있도록 지원",
-        "url": "https://finance.yahoo.com/markets/options/articles/following-fed-rate-decision-moneysimpler-125500605.html?.tsrc=rss",
+        "title": "S&P 500, Dow, Nasdaq은 투자자들이 연준 금리 과정을 판단하기 위해 고용 데이터를 기다리고 있기 때문에 Hormuz 불확실성 속에서 하락세로 종료 — SOUN, GOOGL, SPCX, NVDA In Focus",
+        "description": "다우지수는 5회 연속 상승세를 이어가며 하락세로 마감했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-amid-hormuz-uncertainty/cZoB9g9RJJo?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 21:55",
+        "publishedAt": "08/07 06:04",
+        "score": 16
+      },
+      {
+        "title": "수정: S&P 500은 AI 수익화 낙관주의 속에서 주간 상승세를 기록했습니다.",
+        "description": "(7월 31일에 게시된 기사에 3분기 데이터가 포함되어 있으므로 자세한 Microsoft 정보를 제거하도록 수정했습니다.)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/correction-p-500-posts-weekly-135622152.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/06 22:56",
+        "score": 10
+      },
+      {
+        "title": "오늘 미국 주식 시장: 인플레이션 우려 완화로 S&P 500 선물 상승",
+        "description": "The Morning Bull - 미국 시장 아침 업데이트 2026년 8월 6일 목요일 미국 시장 주식 선물은 오늘 아침 E mini S&P 500 대비 상승세를 보이고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081048089.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/06 17:10",
         "score": 9
       },
       {
-        "title": "S&P500 이후 미국 주식 선물은 보합세, 다우지수는 견조한 수익으로 기록적인 최고치 마감, 지정학적 우려 완화 — PLTR, AZN, CMG, MRNA In Focus",
-        "description": "도널드 트럼프 대통령은 카타르 국왕 타밈 빈 하마드 알타니와 미국-이란 긴장을 완화하기 위한 노력에 대해 논의했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-flat-after-s-and-p500-dow-end-at-record-highs/cZo5yAlRJ4k?.tsrc=rss",
+        "title": "IONQ 2분기 수익 예상치 미달, 수익 상회, 주가 상승",
+        "description": "IONQ는 예상보다 넓은 2분기 손실을 기록했지만 매출 추정치를 상회하고 2026년 매출 전망을 상향 조정했으며 결과 이후 주가가 상승할 것으로 예상합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-q2-earnings-miss-estimates-143900622.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 07:45",
+        "publishedAt": "08/06 23:39",
         "score": 6
       },
       {
-        "title": "Michael Burry는 S&P 500 붕괴에 대해 엄중한 경고를 보냅니다.",
-        "description": "마이클 버리(Michael Burry)는 새로운 시장 최고치에도 불구하고 1987년 스타일의 매도세에 경고를 울립니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sends-stark-warning-171931417.html?.tsrc=rss",
+        "title": "실업수당 청구에 앞서 나스닥, 다우선물 혼합: SPCX, SNDK, SOUN, IONQ, FIG 주식이 주목받는 이유",
+        "description": "소매업자들은 낙관론을 되돌리고 있는 것으로 보입니다. Stocktwits에서는 이제 SPY와 QQQ에 대한 정서가 '중립'입니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-futures-falling-premarket-jobless-claims-spcx-sndk-soun-ionq-fig-stocks-in-focus/cZoJAYjRJ7T?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 02:19",
-        "score": 5
-      },
-      {
-        "title": "호르무즈 재개방 기대감…S&P500·다우지수 '사상 최고치'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608057326i",
-        "source": "hankyung.com",
-        "publishedAt": "08/05 23:20",
-        "score": 5
-      },
-      {
-        "title": "오늘, 8월 5일 주식 시장: SpaceX는 수익을 앞지르지만 자본 지출 압박에 직면해 있습니다.",
-        "description": "2026년 8월 5일 오늘, 재사용 가능한 로켓 공급업체의 첫 번째 공개 수익 보고서에서는 강력한 외형 결과에도 불구하고 손실이 확대된 것으로 나타났습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/05/stock-market-today-aug-5-spacex-beats-revenue-but-faces-capital-spending-pressure/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/06 06:20",
-        "score": 4
+        "publishedAt": "08/06 17:48",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "\"레버리지 상품만 막아선 한계…코스피200 쏠림부터 손봐야\"",
+        "title": "코스피 33% 급락했는데…피치가 내놓은 '뜻밖의 경고' 뭐길래",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026080570681",
+        "url": "https://www.hankyung.com/article/2026080686936",
         "source": "hankyung.com",
-        "publishedAt": "08/05 18:06",
-        "score": 8
+        "publishedAt": "08/06 22:00",
+        "score": 5
       },
       {
-        "title": "[단독] 코스피200 레버리지로 옮겨간 개미들…삼전닉스 '몰빵' 막으려다 증시 전체 흔들릴 판",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608056563i",
-        "source": "hankyung.com",
-        "publishedAt": "08/05 17:09",
-        "score": 8
-      },
-      {
-        "title": "삼성과 SK 하이닉스, 미국의 규제가 여전히 우려되는 가운데 중국 칩 장비 평가",
-        "description": "삼성전자(USOTC:SSNHZ)와 SK하이닉스(NASDAQ:SKHY)가 중국 어드밴스드 마이크로(Advanced Micr)가 공급하는 반도체 제조 장비를 테스트해왔다.",
-        "url": "https://investorshub.advfn.com/market-news/article/33464/samsung-and-sk-hynix-evaluate-chinese-chip-equipment-as-u-s-restrictions-remain-a-concern?.tsrc=rss",
+        "title": "Samsung Electronics (KOSE:A005930) 메모리 낙관론이 실적 전망을 높이면서 적정 주가 상승",
+        "description": "최근 분석가 업데이트에서 삼성전자의 중심 공정가치 추정치는 주당 239,873원에서 471,908원으로 변경되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-stock-043203299.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 19:51",
+        "publishedAt": "08/06 13:32",
         "score": 5
       },
       {
-        "title": "[단독] 삼전닉스서 지수형 레버리지로 환승…코스피 변동성 더 커지나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026080570671",
-        "source": "hankyung.com",
-        "publishedAt": "08/05 18:00",
+        "title": "분석-삼성·SK하이닉스 주주들, AI캐시산에 배당금 더 늘려야",
+        "description": "삼성전자와 SK하이닉스는 쌍방 거래 이후 배당이나 자사주 매입을 통해 잉여현금의 더 많은 지분을 원하는 투자자들의 요구가 커지고 있다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-samsung-sk-hynix-shareholders-042824815.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/06 13:28",
         "score": 5
       },
       {
-        "title": "전고점 뚫은 S&P, 코스피 반등…증시 조정장 끝났나",
+        "title": "설마했는데 현대차마저…'이러다 中에 다 먹힐 판' 발칵",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026080569991",
+        "url": "https://www.hankyung.com/article/2026080692421",
         "source": "hankyung.com",
-        "publishedAt": "08/05 17:44",
-        "score": 5
+        "publishedAt": "08/06 18:10",
+        "score": 3
+      },
+      {
+        "title": "카톡서 배달주문…카카오, 쿠팡이츠와 'AI 커머스' 첫발",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026080692471",
+        "source": "hankyung.com",
+        "publishedAt": "08/06 18:09",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "Fed 금리 결정에 따라 MoneySimpler는 투자자가 변동성을 탐색하는 데 도움이 되는 AI 자동 거래를 시작합니다.",
-        "description": "AI 자동화, 퀀트 트레이딩, 지능형 리스크를 통해 투자자가 거래 효율성을 향상하고 장기 수익 잠재력을 추구할 수 있도록 지원",
-        "url": "https://finance.yahoo.com/markets/options/articles/following-fed-rate-decision-moneysimpler-125500605.html?.tsrc=rss",
+        "title": "업데이트: 비농업 고용에 앞서 원유로 인해 재무부가 급등하고 호르무즈 해협 재개 협상에 나서면서 미국 주가 지수는 하락했습니다.",
+        "description": "(지수/가격 변동, 거시 경제 데이터 및 첫 번째 부분의 회사/지정학적 뉴스 업데이트",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-213139298.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 21:55",
-        "score": 5
+        "publishedAt": "08/07 06:31",
+        "score": 6
       },
       {
-        "title": "美 ADP 7월 민간고용 4만4000명 증가 그쳐…예상치 밑돌아",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608057298i",
-        "source": "hankyung.com",
-        "publishedAt": "08/05 21:48",
+        "title": "FX 트레이더들은 미국 급여 보고서를 앞두고 달러 변동성에 대비하고 있습니다.",
+        "description": "(블룸버그) -- 케빈 워시 연방준비제도이사회(FRB) 의장이 금요일 발표를 앞두고 트레이더들은 미국 달러 변동에 대비해 헤지하고 있다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/fx-traders-brace-dollar-volatility-162017558.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/07 01:20",
         "score": 3
       },
       {
-        "title": "미국 달러는 ADP 급여, 환불, 서비스 데이터에 앞서 수요일 일찍 하락합니다.",
-        "description": "미국 달러는 바쁜 경제 상황을 앞두고 수요일 오전 주요 무역 상대국 대비 하락했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-wednesday-113622588.html?.tsrc=rss",
+        "title": "호의적인 미국 경제 뉴스에 대한 달러 상승",
+        "description": "오늘 달러 지수(DXY00)는 +0.17% 상승했습니다. 오늘 달러는 미국 경제에 긍정적인 소식이 전해지면서 상승세를 보이고 있습니다. 주간 실업수당 청구는 덜 증가했습니다.",
+        "url": "https://www.barchart.com/story/news/3695518/dollar-gains-on-favorable-us-economic-news?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 20:36",
-        "score": 3
-      },
-      {
-        "title": "움직이는 시장: 경제 전망은 더 넓은 부문 회전을 지원합니다",
-        "description": "주요 시사점역사적인 구리-금 판독 및 내부자 매도 감소 이후 강력한 장기 시장 수익률이 이어졌습니다. 순간",
-        "url": "https://investorshub.advfn.com/market-news/article/33560/markets-in-motion-economic-outlook-sector-rotation?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/06 03:09",
-        "score": 1
-      },
-      {
-        "title": "미국 경제 보고서의 주식 강세 및 약세에 대한 달러 슬라이드",
-        "description": "오늘 달러 지수(DXY00)는 -0.20% 하락했습니다. 주식 강세로 인해 달러 유동성 수요가 감소함에 따라 달러 가치는 오늘 하락하고 있습니다. 또한,",
-        "url": "https://www.barchart.com/story/news/3666269/dollar-slides-on-stock-strength-and-weakness-in-us-economic-reports?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/05 23:35",
+        "publishedAt": "08/06 23:42",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "투자자들이 금요일의 고용 데이터를 예상함에 따라 재무부 수익률은 엇갈렸습니다.",
-        "description": "유가가 상승함에 따라 국채수익률은 혼조세를 보이고 있습니다.  중동 중재자들은 호르무즈 해협의 임시 해결을 위해 노력하고 있으며, 미국은 이를 지적했다.",
-        "url": "https://finance.yahoo.com/m/e639d414-0fe1-3035-91c7-07a01155cbc2/treasury-yields-mixed-as.html?.tsrc=rss",
+        "title": "업데이트: 비농업 고용에 앞서 원유로 인해 재무부가 급등하고 호르무즈 해협 재개 협상에 나서면서 미국 주가 지수는 하락했습니다.",
+        "description": "(지수/가격 변동, 거시 경제 데이터 및 첫 번째 부분의 회사/지정학적 뉴스 업데이트",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-213139298.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 22:14",
+        "publishedAt": "08/07 06:31",
         "score": 8
       },
       {
-        "title": "미국 재무부가 통화 시장에 개입하는 이유는 무엇이며 이는 투자자에게 무엇을 의미합니까?",
-        "description": "미국 재무부는 다른 세계 통화 대비 엔화의 가치를 높이기 위해 엔화를 매입해 왔습니다.",
-        "url": "https://www.fool.com/investing/2026/08/05/us-treasury-intervening-in-currency-markets-and/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/06 03:25",
+        "title": "국고채 입찰 담합, 15조 과징금 맞나",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026080692921",
+        "source": "hankyung.com",
+        "publishedAt": "08/06 21:00",
         "score": 3
+      },
+      {
+        "title": "Hecla Mining(HL)은 강력한 2분기 이익 및 부채 없는 대차대조표 업데이트 후 16.9% 상승했습니다.",
+        "description": "Hecla Mining Company는 최근 2026년 2분기 실적을 보고하여 매출 3억 3,385만 달러, 순이익 1억 1,788만 달러를 기록했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hecla-mining-hl-16-9-201103982.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/07 05:11",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "유가로 인해 Hawaiian Tropic 모회사의 실적이 부진한 이유",
-        "description": "Edgewell Personal Care(EPC) CEO Rod Little은 Yahoo Finance의 Josh Lipton과 함께 회사의 3분기 실적에 대해 논의합니다.",
-        "url": "https://finance.yahoo.com/video/oil-prices-caused-hawaiian-tropic-202055723.html?.tsrc=rss",
+        "title": "업데이트: 비농업 고용에 앞서 원유로 인해 재무부가 급등하고 호르무즈 해협 재개 협상에 나서면서 미국 주가 지수는 하락했습니다.",
+        "description": "(지수/가격 변동, 거시 경제 데이터 및 첫 번째 부분의 회사/지정학적 뉴스 업데이트",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-213139298.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 05:20",
+        "publishedAt": "08/07 06:31",
         "score": 5
       },
       {
-        "title": "벌써 7월 하락장 탈출한 항공주...환율·유가 안정에 주가도 이륙",
+        "title": "주가 급등에 유가 급등",
+        "description": "유가는 목요일 다시 급등하여 변동성이 확대되었으며, 글로벌 주식 시장은 미국의 주요 고용 지표를 앞지르는 엇갈린 하루를 보냈습니다.Th",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-mostly-down-tech-025427719.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/07 05:34",
+        "score": 5
+      },
+      {
+        "title": "프로야구 보던 20대 관중 쓰러진 이유가…극한 폭염에 '경고'",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608056871i",
+        "url": "https://www.hankyung.com/article/202608068833i",
         "source": "hankyung.com",
-        "publishedAt": "08/05 17:04",
+        "publishedAt": "08/06 15:38",
         "score": 5
       },
       {
-        "title": "Talos Energy Inc(TALO)(2026년 2분기) 실적 발표 하이라이트: 기록적인 무료 현금 흐름 및 전략적 ...",
-        "description": "Talos Energy Inc(TALO)는 기록적인 무료 현금 흐름을 제공하고 생산 지침을 높이는 동시에 아메리 만에서 영향력이 큰 성장 프로젝트를 진행합니다.",
-        "url": "https://finance.yahoo.com/energy/articles/talos-energy-inc-talo-q2-210629080.html?.tsrc=rss",
+        "title": "TSX 클로저: 기술 약점이 석유 기반 에너지 이익을 상쇄함에 따라 지수가 사상 최고치에서 미끄러졌습니다.",
+        "description": "S&P/TSX 종합 지수는 이전 세션의 최고치에서 하락하여 목요일에 마감되었습니다.",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-slips-record-203317614.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 06:06",
+        "publishedAt": "08/07 05:33",
         "score": 3
       },
       {
-        "title": "TSX 마감: 금속 랠리가 에너지 약세를 상쇄하면서 지수가 처음으로 36,000을 돌파했습니다.",
-        "description": "S&P/TSX 종합지수는 수요일 두 번째 연속 세션에서 또 다른 최고 기록으로 마감했습니다.",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-tops-36-202911459.html?.tsrc=rss",
+        "title": "NovaRed Mining은 Wilmac의 대규모 해석된 저분 위의 여러 반암 구리-금 타겟을 해석합니다.",
+        "description": "브리티시컬럼비아주 밴쿠버--(Newsfile Corp. - 2026년 8월 6일) - NovaRed Mining Inc.(CSE: NRED)(OTCQB: NREDF)(\"NovaRed\" 또는 \"회사\")를 방문해 주시기 바랍니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/novared-mining-interprets-multiple-porphyry-181700302.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 05:29",
-        "score": 3
-      },
-      {
-        "title": "Diversified Energy, 2분기 배당금 발표",
-        "description": "앨라배마주 버밍엄, 2026년 8월 5일 (GLOBE NEWSWIRE) -- Diversified Energy Company(NYSE:DEC, LSE: DEC)(“Diversified” 또는 “회사”)가",
-        "url": "https://finance.yahoo.com/energy/articles/diversified-energy-announces-second-quarter-201600774.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/06 05:16",
+        "publishedAt": "08/07 03:17",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "미국 달러 가격 예측: NFP 주간은 DXY, EUR/USD 및 GBP/USD에 초점을 맞춥니다.",
-        "description": "투자자들이 연준 금리 기대치, 노동 시장 데이터 냉각,",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-064558902.html?.tsrc=rss",
+        "title": "미국 달러 가격 예측: NFP 카운트다운으로 DXY, EUR/USD 및 GBP/USD에 초점 유지",
+        "description": "미국 달러 가격 예측: DXY는 금요일 미국 비농업 급여 보고서를 앞두고 주요 지지선 근처에서 거래되고 EUR/USD는 저항과 GBP/USD conso를 테스트합니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-080927300.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 15:45",
+        "publishedAt": "08/06 17:09",
         "score": 7
       },
       {
-        "title": "외평채 발행에…외환보유액 두 달 연속 늘어 4279억달러",
+        "title": "\"美 개입에 1300원대도 가시권\"…환율 열달 만에 최저치 '뚝' [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026080570371",
+        "url": "https://www.hankyung.com/article/2026080691206",
         "source": "hankyung.com",
-        "publishedAt": "08/05 18:24",
-        "score": 6
-      },
-      {
-        "title": "벌써 7월 하락장 탈출한 항공주...환율·유가 안정에 주가도 이륙",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608056871i",
-        "source": "hankyung.com",
-        "publishedAt": "08/05 17:04",
+        "publishedAt": "08/07 06:30",
         "score": 5
       },
       {
-        "title": "미국 재무부가 통화 시장에 개입하는 이유는 무엇이며 이는 투자자에게 무엇을 의미합니까?",
-        "description": "미국 재무부는 다른 세계 통화 대비 엔화의 가치를 높이기 위해 엔화를 매입해 왔습니다.",
-        "url": "https://www.fool.com/investing/2026/08/05/us-treasury-intervening-in-currency-markets-and/?.tsrc=rss",
+        "title": "미국-일본 엔화 움직임으로 인해 이러한 ETF 분야에 초점이 맞춰졌습니다.",
+        "description": "엔화를 지원하기 위한 미국과 일본의 드문 개입은 재무부, 일본 및 금융 ETF의 성과를 재편할 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-japan-yen-move-puts-153400029.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 03:25",
+        "publishedAt": "08/07 00:34",
         "score": 3
       },
       {
-        "title": "토종 PEF '홈플 사태' 발묶이자…해외 큰손, 달러 실탄 앞세워 역습",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026080570921",
-        "source": "hankyung.com",
-        "publishedAt": "08/05 17:49",
-        "score": 3
+        "title": "FX 트레이더들은 미국 급여 보고서를 앞두고 달러 변동성에 대비하고 있습니다.",
+        "description": "(블룸버그) -- 케빈 워시 연방준비제도이사회(FRB) 의장이 금요일 발표를 앞두고 트레이더들은 미국 달러 변동에 대비해 헤지하고 있다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/fx-traders-brace-dollar-volatility-162017558.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/07 01:20",
+        "score": 2
+      },
+      {
+        "title": "NFP에 앞서 달러 가치에 대한 일부 손실",
+        "description": "걸프 지역의 명백한 긴장 완화와 연준의 두 차례 금리 인상에 대한 낮은 기대는 미국 달러에 부정적인 영향을 미쳤습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/losses-dollar-ahead-nfp-174711178.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/07 02:47",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "미국 구리 거래, 관세 위험 기록에 근접, 호르무즈 추측",
-        "description": "(블룸버그) -- 투자자들이 미국 관세에 대한 결정을 기다리는 동시에 향후 추세를 추적하면서 뉴욕의 구리 선물은 사상 최고치에 조금 못 미치는 수준으로 거래되었습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/us-copper-trades-near-record-044606533.html?.tsrc=rss",
+        "title": "업데이트: 비농업 고용에 앞서 원유로 인해 재무부가 급등하고 호르무즈 해협 재개 협상에 나서면서 미국 주가 지수는 하락했습니다.",
+        "description": "(지수/가격 변동, 거시 경제 데이터 및 첫 번째 부분의 회사/지정학적 뉴스 업데이트",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-213139298.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 13:46",
-        "score": 4
+        "publishedAt": "08/07 06:31",
+        "score": 5
       },
       {
-        "title": "S&P500 이후 미국 주식 선물은 보합세, 다우지수는 견조한 수익으로 기록적인 최고치 마감, 지정학적 우려 완화 — PLTR, AZN, CMG, MRNA In Focus",
-        "description": "도널드 트럼프 대통령은 카타르 국왕 타밈 빈 하마드 알타니와 미국-이란 긴장을 완화하기 위한 노력에 대해 논의했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-flat-after-s-and-p500-dow-end-at-record-highs/cZo5yAlRJ4k?.tsrc=rss",
+        "title": "Palantir의 위험 보상 비율은 매력적이지 않습니다. 이유는 다음과 같습니다.",
+        "description": "PLTR 주식의 높은 가치, 경쟁 우려 및 수익에 대한 잠재적인 위협 모두가 주식을 매력적이지 않게 만듭니다.",
+        "url": "https://www.barchart.com/story/news/3700166/palantir-s-risk-reward-ratio-is-not-attractive-here-s-why?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 07:45",
-        "score": 3
-      },
-      {
-        "title": "Michael Burry는 S&P 500 붕괴에 대해 엄중한 경고를 보냅니다.",
-        "description": "마이클 버리(Michael Burry)는 새로운 시장 최고치에도 불구하고 1987년 스타일의 매도세에 경고를 울립니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sends-stark-warning-171931417.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/06 02:19",
+        "publishedAt": "08/07 03:48",
         "score": 1
       },
       {
-        "title": "마이크론(MU)은 삼성의 2028년 경고로 인해 엔비디아(NVDA)가 잃는 것보다 더 많은 이익을 얻었습니다.",
-        "description": "삼성은 7월 30일 메모리 부족이 2027년에 악화되어 2028년까지 지속될 수 있다고 밝혔습니다. 이 경고는 마이크론 T의 가격 전망을 강화했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-more-gain-nvidia-171417442.html?.tsrc=rss",
+        "title": "Sandisk의 전망은 전체 AI 메모리 거래를 뒤흔들었습니다.",
+        "description": "웨스턴디지털, 마이크론, SK하이닉스, 삼성전자도 하락했다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sandisks-outlook-just-shook-entire-170146630.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 02:14",
+        "publishedAt": "08/07 02:01",
         "score": 1
       },
       {
-        "title": "은 주식은 반등할 수 있을 것 같습니다. SIL ETF를 거래하는 방법은 다음과 같습니다.",
-        "description": "SIL은 기술자에게 있어서 고전적인 위치에 있습니다. 탈옥을 시도하고 있지만 실패할 확률도 높습니다.",
-        "url": "https://www.barchart.com/story/news/3666813/silver-stocks-look-like-they-could-bounce-back-heres-how-to-trade-the-sil-etf-here?.tsrc=rss",
+        "title": "메모리 붐에 대한 확실한 백도어 거래는 다음과 같습니다.",
+        "description": "마이크론, SK하이닉스 등 메모리반도체 주식은 급등세를 보이고 있으며 일부 유명 하락세도 이미 돌고 있다. 그러나 시장의 좀 더 조용한 곳에서는 그렇지 않을 수도 있습니다.",
+        "url": "https://247wallst.com/investing/2026/08/06/heres-a-solid-backdoor-trade-on-the-memory-boom/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 00:00",
+        "publishedAt": "08/07 01:30",
+        "score": 1
+      },
+      {
+        "title": "FX 트레이더들은 미국 급여 보고서를 앞두고 달러 변동성에 대비하고 있습니다.",
+        "description": "(블룸버그) -- 케빈 워시 연방준비제도이사회(FRB) 의장이 금요일 발표를 앞두고 트레이더들은 미국 달러 변동에 대비해 헤지하고 있다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/fx-traders-brace-dollar-volatility-162017558.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/07 01:20",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Anthropic은 AI 칩 설계팀을 채용합니다.",
-        "description": "Anthropic은 자체 맞춤형 AI 칩을 설계하기 위한 팀을 구성하고 있습니다. Claude 제조사는 자사의 기술을 돕기 위해 하드웨어와 모델을 공동 설계할 것이라고 말했습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-hiring-ai-chip-design-141318260.html?.tsrc=rss",
+        "title": "AI 메모리 부족이 2년차에 막 시작되었습니다. 이 3개의 ETF는 DRAM에서 HBM까지 모든 레이어를 소유합니다.",
+        "description": "HBM 공급은 여전히 ​​제한되어 있고 Micron의 마진은 메모리 사이클의 모습을 재편했으며 세 가지 매우 다른 ETF가 샘을 놓고 경쟁하고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/08/06/the-ai-memory-shortage-just-entered-year-2-these-3-etfs-own-every-layer-from-dram-to-hbm/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 23:13",
-        "score": 12
-      },
-      {
-        "title": "스페이스X, 1조弗 비전에도…'AI 투자'가 주가 발목",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026080570861",
-        "source": "hankyung.com",
-        "publishedAt": "08/05 17:48",
+        "publishedAt": "08/06 21:00",
         "score": 11
       },
       {
-        "title": "치솟는 AI 비용으로 SpaceX 크레이터 12% 증가; 우주 부문 동료들은 SPCX 주식으로 하락",
-        "description": "SpaceX는 첫 공개 수익 보고서에서 블록버스터급 수익을 달성했지만 다른 모든 우주 주식은 거의 움츠러들지 않는 반면 주가는 하락하고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/08/05/spacex-falls-10-on-soaring-ai-costs-as-other-space-stocks-hold-steady/?.tsrc=rss",
+        "title": "RedCloud, Microsoft, NVIDIA 및 OpenAI와 함께 Open Weights 및 American AI Leadership Letter에 서명",
+        "description": "RedCloud는 개방형 AI를 지원하기 위해 Microsoft, NVIDIA, Meta, OpenAI 등에 합류하여 회사가 FMCG 전통에 대한 고급 모델을 전문화할 수 있도록 합니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/redcloud-signs-open-weights-american-121500550.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/05 22:38",
-        "score": 7
+        "publishedAt": "08/06 21:15",
+        "score": 9
       },
       {
-        "title": "오늘, 8월 5일 주식 시장: SpaceX는 수익을 앞지르지만 자본 지출 압박에 직면해 있습니다.",
-        "description": "2026년 8월 5일 오늘, 재사용 가능한 로켓 공급업체의 첫 번째 공개 수익 보고서에서는 강력한 외형 결과에도 불구하고 손실이 확대된 것으로 나타났습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/05/stock-market-today-aug-5-spacex-beats-revenue-but-faces-capital-spending-pressure/?.tsrc=rss",
+        "title": "Cathie Wood는 Amazon, Alphabet 및 Shopify에 대한 투자를 줄인 후 TSMC, SpaceX에 총 2,870만 달러를 투자합니다.",
+        "description": "ARK Invest 창립자는 지난 몇 주 동안 특정 주식의 울퉁불퉁한 상승에도 불구하고 단념하지 않았습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-invests-combined-28-114500645.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 06:20",
-        "score": 6
+        "publishedAt": "08/06 20:45",
+        "score": 9
       },
       {
-        "title": "오늘의 주식 시장: Dow는 SpaceX 크레이터로 기록을 세웠습니다. 상어닌자 솟아오르다",
-        "description": "오늘의 주식 시장: 다우존스 지수는 호르무즈 해협 거래 소식으로 수요일 상승했습니다. AMD 주식과 SpaceX 하락.",
-        "url": "https://finance.yahoo.com/m/df8bb7aa-2f8c-3068-aac6-ba6ee88129f0/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "SpaceX는 락업 만료가 매도를 유발하지 못함에 따라 3% 상승합니다. AST SpaceMobile 및 Rocket Lab은 5% 상승",
+        "description": "SpaceX의 첫 번째 락업 만료로 인해 새로 잠금 해제된 주식이 시장에 넘쳐나고 주가가 폭락할 예정이었지만, 2019년에 예상치 못한 일이 발생했습니다.",
+        "url": "https://247wallst.com/investing/2026/08/06/spacex-climbs-3-as-lockup-expiration-fails-to-trigger-a-selloff-ast-spacemobile-and-rocket-lab-rise-5/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/06 05:44",
-        "score": 6
+        "publishedAt": "08/07 00:11",
+        "score": 8
+      },
+      {
+        "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608069505i",
+        "source": "hankyung.com",
+        "publishedAt": "08/06 20:38",
+        "score": 8
       }
     ]
   }
