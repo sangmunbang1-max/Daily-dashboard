@@ -1,139 +1,261 @@
 {
-  "generated_at_kst": "2026-08-09 07:56 KST",
-  "period": "08/08 07:00 ~ 08/09 07:00 KST",
+  "generated_at_kst": "2026-08-10 07:58 KST",
+  "period": "08/09 07:00 ~ 08/10 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "알파벳과 아마존 없이도 S&P 500은 역대 최대 수익을 기록했습니다.",
-        "description": "S&P 500의 수익은 2008년 이후 유지된 기록을 깨뜨렸지만 두 거대 기술 기업이 투자의 모든 것을 변화시키는 왜곡에 책임이 있습니다.",
-        "url": "https://247wallst.com/investing/2026/08/08/even-without-alphabet-and-amazon-the-sp-500-just-posted-its-biggest-earnings-beat-ever/?.tsrc=rss",
+        "title": "Cathie Wood의 Ark는 Meta의 실적 부진 이후 Nvidia와 Taiwan Semiconductor에 쌓였습니다. 인공 지능(AI) 주식에 대한 신호는 다음과 같습니다.",
+        "description": "Ark Invest는 Nvidia와 TSMC 주식을 두 배로 늘렸고 그 이유는 분명합니다.",
+        "url": "https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/09 01:38",
-        "score": 10
+        "publishedAt": "08/09 16:25",
+        "score": 6
       },
       {
-        "title": "다우존스 선물: 시장 상승에 따라 해야 할 일; 버핏의 버크셔는 Cisco, Lumentum Due와 함께 승리했습니다.",
-        "description": "강세장이 다시 돌아오면서 투자자들이 해야 할 일은 다음과 같습니다. 워렌 버핏의 버크셔 주가가 토요일 조회수를 상회했습니다. 루멘텀, 시스코. 어플라이드 머티어리얼즈 수익",
-        "url": "https://finance.yahoo.com/m/6bf0da8a-faae-33c1-af5a-bcc389ef390c/dow-jones-futures%3A-what-to-do.html?.tsrc=rss",
+        "title": "기록적인 미국 증시 상승에 대한 우려가 실적 개선으로 완화 - WSJ",
+        "description": "Investing.com -- 주요 미국 기업들의 2분기 실적 호조로 주가지수가 최고치로 상승했고 상승세에 대한 우려가 완화되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beats-ease-concerns-over-070820398.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/09 04:03",
+        "publishedAt": "08/09 16:08",
+        "score": 6
+      },
+      {
+        "title": "S&P 500의 긍정적인 이익은 5년 평균 이상 추세를 보이고 있습니다.",
+        "description": "실적 시즌이 진행됨에 따라 S&P 500 기업 중 약 86%가 해당 분기에 긍정적인 주당 이익을 기록했습니다.",
+        "url": "https://finance.yahoo.com/m/c2304190-f675-3c0b-8b8f-7982c61ec921/s%26p-500-positive-profit.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/10 06:01",
         "score": 5
       },
       {
-        "title": "SocGen, 수익 모멘텀 확산에 따라 S&P 500 목표를 8,000으로 인상",
-        "description": "Societe Generale은 미국의 힘을 믿습니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/33785/socgen-raises-sp-500-target-to-8000-as-earnings-momentum-spreads?.tsrc=rss",
+        "title": "AI 지출이 둔화되고 있습니다. S&P 500은 어떻게 반응할까요?",
+        "description": "AI가 글로벌 시장에 가장 큰 위험인가? S&P 500 농도가 현재 실제로 드러내고 있는 내용은 다음과 같습니다.",
+        "url": "https://beincrypto.com/ai-biggest-risk-global-markets-sp500/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/08 23:34",
+        "publishedAt": "08/10 03:04",
         "score": 5
       },
       {
-        "title": "월스트리트는 Palantir에 동의할 수 없습니다. 투자자가 다음에 해야 할 일은 다음과 같습니다.",
-        "description": "Palantir의 블록버스터 Q2 결과는 월스트리트를 가치 평가에 대한 두려움과 성장 황소 싸움으로 분열시켰습니다.",
-        "url": "https://www.barchart.com/story/news/3737462/wall-street-can-t-agree-on-palantir-here-s-what-investors-should-do-next?.tsrc=rss",
+        "title": "주식 시장의 백만장자가 되고 싶나요? 역사에 따르면 이 투자를 통해 목표를 달성할 수 있습니다.",
+        "description": "특히 지금 시작한다면 생각보다 쉬울 수도 있습니다.",
+        "url": "https://www.fool.com/investing/2026/08/09/want-to-become-a-stock-market-millionaire-history/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/09 00:30",
-        "score": 4
-      },
-      {
-        "title": "미국 주식이 사상 최고치를 기록한 후 인플레이션이 월스트리트의 다음 큰 시험이 됨",
-        "description": "월스트리트는 올해 가장 큰 회복 중 하나를 보았지만 또 다른 중요한 도전이 곧 다가올 것입니다. 주식 시장은 방금 gr을 회복했습니다.",
-        "url": "https://www.fodmapeveryday.com/inflation-becomes-wall-streets-next-big-test-after-u-s-stocks-hit-record-highs/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/08 23:30",
-        "score": 4
+        "publishedAt": "08/10 02:50",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "레버리지 ETF가 한국 주식시장을 카지노로 변화시킨 방법과 미국이 다음 차례가 될 수 있는 이유",
-        "description": "한국의 벤치마크 코스피 지수는 6월 최고점 대비 44% 폭락했는데, 이는 2020년 팬데믹 폭락보다 더 심각한 붕괴였다.",
-        "url": "https://www.barchart.com/story/news/3736801/how-leveraged-etfs-turned-south-koreas-stock-market-into-a-casino-and-why-the-u-s-might-be-next?.tsrc=rss",
+        "title": "삼성전자, 美 국립연구소와 '차세대 난방 기술' 협력",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026080927961",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 18:07",
+        "score": 5
+      },
+      {
+        "title": "\"150조 풀까\"…늪에 빠진 코스피 살릴 '삼전닉스'의 결단",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026080928621",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 17:46",
+        "score": 5
+      },
+      {
+        "title": "숨고르는 코스피…최고 '年 4%' 정기예금 들어볼까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026080927711",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 17:32",
+        "score": 5
+      },
+      {
+        "title": "고액자산가의 선택은 삼성전자...874억원 쓸어담아",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608092440i",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 13:24",
+        "score": 5
+      },
+      {
+        "title": "\"코스닥 PER 50배…프리미엄지수 도입 땐 옥석 가리기 본격화\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608071093i",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 11:28",
+        "score": 5
+      }
+    ],
+    "macro": [
+      {
+        "title": "인플레이션 데이터, Super Micro, Cisco, Rocket Lab, Tapestry 등 이번 주에 시청할 콘텐츠",
+        "description": "이번 주 경제 뉴스에는 소비자 및 생산자 물가, 기존 주택 판매, 중소기업 낙관론에 대한 데이터가 포함될 것입니다. 실적시즌이 다가오면서",
+        "url": "https://finance.yahoo.com/m/d4b2fc78-3222-32a3-8225-f1b696dbd55a/inflation-data%2C-super-micro%2C.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/08 23:00",
+        "publishedAt": "08/10 03:00",
+        "score": 5
+      },
+      {
+        "title": "미 고용 쇼크 주식시장엔 호재…환율 하락 영향도 주목",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608092406i",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 13:27",
+        "score": 3
+      },
+      {
+        "title": "트럼프는 미국이 이란의 경제가 어려움에 처해 있는 동안 이란에 대해 '낮은 태도'를 취하고 있다고 말했습니다.",
+        "description": "Investing.com -- 트럼프 대통령은 일요일 이란에 대한 경제 압박을 주문하기보다는 건설을 계속하도록 허용할 의향이 있다고 밝혔습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/fire-saudi-aramco-jazan-refinery-043350430.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/09 13:33",
         "score": 1
       }
     ],
-    "macro": [],
-    "bonds": [],
+    "bonds": [
+      {
+        "title": "환율·채권, 원·달러 환율 1300원대 진입 가능성",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026080928371",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 18:03",
+        "score": 3
+      }
+    ],
     "commodities": [
       {
-        "title": "Ero Copper Q2 수익 통화 하이라이트",
-        "description": "Ero Copper(NYSE:ERO)는 금 매출 증가, 구리 생산량 증가 및 Co.",
-        "url": "https://www.marketbeat.com/instant-alerts/ero-copper-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "title": "미국 에너지, 호르무즈의 글로벌 공급 충격 완화에 도움",
+        "description": "미국은 기록적인 석유 생산, LNG 수출 및 연료 운송을 통해 호르무즈 붕괴로 인한 글로벌 에너지 충격을 완화하는 데 도움을 주었습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/u-energy-helps-cushion-global-230000293.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/08 16:03",
+        "publishedAt": "08/09 08:00",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "온도의 USDY, 3년 만에 시가총액 21억 달러 돌파",
-        "description": "Ondo Finance는 토큰화된 재무부 채권인 USDY가 시가총액 2.1달러 지폐로 3주년을 맞이하면서 초기 제품 중 하나에 대한 이정표를 세웠습니다.",
-        "url": "https://www.thestreet.com/crypto/innovation/ondos-usdy-crosses-2-1b-market-cap-in-3-years?.tsrc=rss",
+        "title": "환율·채권, 원·달러 환율 1300원대 진입 가능성",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026080928371",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 18:03",
+        "score": 8
+      },
+      {
+        "title": "미 고용 쇼크 주식시장엔 호재…환율 하락 영향도 주목",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608092406i",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 13:27",
+        "score": 5
+      },
+      {
+        "title": "버크셔의 지난 분기 영업이익은 18억 달러 증가했습니다. 통화 변동은 12억 달러였습니다.",
+        "description": "대기업의 16% 점프는 어떤 라인이 대부분의 리프팅을 수행했는지 확인할 때까지 인상적으로 보입니다.",
+        "url": "https://www.fool.com/investing/2026/08/09/berkshires-operating-earnings-rose-18-billion-last/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/09 06:30",
-        "score": 1
+        "publishedAt": "08/10 06:49",
+        "score": 3
+      },
+      {
+        "title": "유럽 ​​주식 ETF, 이란 전쟁 개시 이후 첫 번째 긍정적인 달 기록",
+        "description": "유럽 ​​주식 ETF는 은행들이 Stoxx 600 랠리에서 강세를 보이면서 2월 이후 처음으로 긍정적인 달을 보였습니다.",
+        "url": "https://beincrypto.com/european-stock-etfs-july-inflows-return/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/10 01:00",
+        "score": 3
+      },
+      {
+        "title": "국제 ETF의 숨겨진 비용: 지난 10년 동안 실제로 얼마나 많은 통화 위험이 수익률에 영향을 미쳤는가",
+        "description": "지난 10년 동안 국제 주식 ETF에서 통화 노출을 헤징했다면 수천 달러를 절약했을 것입니다.",
+        "url": "https://www.fool.com/investing/2026/08/09/hidden-cost-international-etfs-currency-risk/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/09 20:20",
+        "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "도널드 트럼프 대통령은 이란 전쟁으로 인해 주식 시장이 \"20~25% 하락\"할 것으로 예상했습니다. 그의 예언은 여전히 ​​실현될 수 있습니다.",
-        "description": "뜨거운 강세장을 향한 역풍이 불고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/08/08/trump-iran-war-drive-stock-market-down-20-to-25/?.tsrc=rss",
+        "title": "관세 파동: 포트폴리오를 바꿔야 할까요?",
+        "description": "관세가 영향을 미친다는 것은 의심의 여지가 없습니다. 하지만 이는 이제 이에 대해 뭔가 조치를 취해야 할 때라는 뜻입니까?",
+        "url": "https://www.fool.com/investing/2026/08/09/tariff-wave-ahead-should-you-make-shifts-to-your-p/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/08 22:26",
+        "publishedAt": "08/09 13:50",
+        "score": 3
+      },
+      {
+        "title": "Warby Parker 2분기 실적 발표 하이라이트",
+        "description": "Warby Parker(NYSE:WRBY)는 소매 판매 증가, 시력 검사 확대 및",
+        "url": "https://www.marketbeat.com/instant-alerts/warby-parker-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/10 02:03",
         "score": 1
       },
       {
-        "title": "중동 혼란 심화에도 불구하고 석유 거래자들은 약세 유지",
-        "description": "중동의 지속적인 혼란에도 불구하고 석유 시장은 놀랍게도 약세를 유지하고 있으며 거래자들은 외교적 돌파구에 베팅하고 있습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/oil-traders-stay-bearish-despite-230000144.html?.tsrc=rss",
+        "title": "유럽 ​​주식 ETF, 이란 전쟁 개시 이후 첫 번째 긍정적인 달 기록",
+        "description": "유럽 ​​주식 ETF는 은행들이 Stoxx 600 랠리에서 강세를 보이면서 2월 이후 처음으로 긍정적인 달을 보였습니다.",
+        "url": "https://beincrypto.com/european-stock-etfs-july-inflows-return/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/08 08:00",
+        "publishedAt": "08/10 01:00",
+        "score": 1
+      },
+      {
+        "title": "이제 GTA VI를 확인하는 TTWO(Two Interactive Software)가 무엇을 의미합니까?",
+        "description": "Take-Two Interactive Software(NasdaqGS:TTWO)는 공식 Grand Theft Auto VI 출시 날짜를 확정하고 전례 없는 사전 주문 수요를 보고했습니다. 그만큼",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-two-interactive-software-ttwo-020710440.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/09 11:07",
+        "score": 1
+      },
+      {
+        "title": "레버리지 거래가 줄어들면서 한국 주식 변동성은 완화됩니다.",
+        "description": "Investing.com -- 강제청산으로 인해 레버리지 포지션이 감소하고 한국 주식시장 혼란의 가장 심각한 단계는 지났을 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/south-korea-stock-volatility-eases-014910119.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/09 10:49",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "\"반도체 근원 경쟁력 회복 신호탄\"…삼성, 3D HBM 승부수 [강경주의 테크X]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026080710996",
-        "source": "hankyung.com",
-        "publishedAt": "08/08 14:00",
-        "score": 9
+        "title": "Cathie Wood의 Ark는 Meta의 실적 부진 이후 Nvidia와 Taiwan Semiconductor에 쌓였습니다. 인공 지능(AI) 주식에 대한 신호는 다음과 같습니다.",
+        "description": "Ark Invest는 Nvidia와 TSMC 주식을 두 배로 늘렸고 그 이유는 분명합니다.",
+        "url": "https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/09 16:25",
+        "score": 8
       },
       {
-        "title": "AMD(AMD), Taalas 인수: AI 추론이 Nvidia의 다음 전장이 될까요?",
-        "description": "Advanced Micro Devices, Inc.(NASDAQ:AMD)는 AI-in 분야에서 NVIDIA Corporation(NASDAQ:NVDA)과 큰 경쟁을 벌일 수 있는 인수를 발표했습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-taalas-ai-194609482.html?.tsrc=rss",
+        "title": "IonQ vs. 메타 플랫폼: 최첨단 양자 컴퓨팅 기업과 인공 지능 거대 기업의 수익 추세 비교",
+        "description": "IonQ의 수익은 2년 만에 5배 증가한 반면 Meta는 훨씬 더 크지만 안정적인 기반을 유지하고 있습니다. 그들의 다양한 성장 패턴은 다음을 암시합니다.",
+        "url": "https://www.fool.com/coverage/charts/2026/08/08/ionq-vs-meta-platforms-comparing-revenue-trends-between-a-cutting-edge-quantum-computing-company-and-an-artificial-intelligence-giant/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/09 04:46",
-        "score": 7
+        "publishedAt": "08/09 08:05",
+        "score": 8
       },
       {
-        "title": "SpaceX 주가가 15.8% 상승한 이유",
-        "description": "SpaceX 주가는 금요일 기대치를 깨고 목요일에 9억 주가 넘는 주식을 발행한 락업 만료 후 상승했습니다.",
-        "url": "https://www.fool.com/investing/2026/08/08/why-spacex-stock-just-jumped-today/?.tsrc=rss",
+        "title": "Jim Cramer는 SpaceX 투자의 가장 중요한 측면에 대해 모든 사람에게 상기시켰습니다.",
+        "description": "CNBC의 Jim Cramer는 방금 SpaceX에 대한 투자에 접근하는 방법에 대한 자신의 견해를 제시했습니다.",
+        "url": "https://www.fool.com/investing/2026/08/09/jim-cramer-just-reminded-everyone-about-spacex/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/09 03:20",
-        "score": 7
-      },
-      {
-        "title": "Xanadu, 확장 가능한 양자 컴퓨팅 경쟁에서 투자자들이 다음 촉매를 기다리면서 칩 생산 가속화 – 분기별 업데이트 보고서",
-        "description": "여기에서 전체 보고서를 다운로드하세요 Xanadu Quantum Technologies(XNDU) 광 손실 진행 및 더 높은 웨이퍼 처리량 Gro와 같은 고급 하드웨어 로드맵",
-        "url": "https://finance.yahoo.com/technology/ai/articles/xanadu-accelerates-chip-production-investors-164143794.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/09 01:41",
-        "score": 7
-      },
-      {
-        "title": "마이크로소프트, AI 투자의 모습 '매그니피센트 세븐' 보여",
-        "description": "투자자들이 '매그니피센트 7'의 AI 데이터센터 자본 지출을 면밀히 조사할 때 이번 분기에 가장 눈에 띄는 기업은 마이크로소프트다.",
-        "url": "https://www.fool.com/investing/2026/08/08/microsoft-shows-the-magnificent-seven-what-ai-investment-looks-like/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/09 06:01",
+        "publishedAt": "08/10 04:31",
         "score": 6
+      },
+      {
+        "title": "Palantir 대 Salesforce: 엔터프라이즈 AI의 두 가지 비전, 하나의 확실한 승자",
+        "description": "Palantir는 방금 월스트리트가 자체 스프레드시트에 의문을 제기하게 만드는 성장 수치를 게시했으며 Salesforce는 조용히 주주들에게 수십억 달러를 돌려주었습니다.",
+        "url": "https://247wallst.com/investing/2026/08/09/palantir-vs-salesforce-two-visions-of-enterprise-ai-one-clear-winner/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/09 23:30",
+        "score": 4
+      },
+      {
+        "title": "삼전닉스 급락 맞힌 '반도체 저승사자'…\"이젠 사야할 때\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026080929927",
+        "source": "hankyung.com",
+        "publishedAt": "08/09 21:55",
+        "score": 3
       }
     ]
   }
