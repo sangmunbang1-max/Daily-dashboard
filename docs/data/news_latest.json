@@ -1,309 +1,309 @@
 {
-  "generated_at_kst": "2026-08-11 08:05 KST",
-  "period": "08/10 07:00 ~ 08/11 07:00 KST",
+  "generated_at_kst": "2026-08-12 08:10 KST",
+  "period": "08/11 07:00 ~ 08/12 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "뉴욕증시, 국제 유가·국채금리 오르자 하락",
+        "title": "CPI 카운트다운이 시작되면서 S&P 500, Nasdaq, Dow 선물이 혼합되었습니다: INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI 주식이 주목받는 이유",
+        "description": "Stocktwits에 대한 소매 심리는 SPY에서는 '중립'으로, QQQ에서는 '매우 약세'로 하락했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-dow-futures-mixed-premarket-cpi-countdown-intc-sls-spcx-rklb-asts-frmi-riot-stocks-focus/cZoZqRXRJQ5?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/11 17:33",
+        "score": 11
+      },
+      {
+        "title": "S&P500, Nasdaq, Dow 선물은 투자자들이 주요 인플레이션 데이터에 대비함에 따라 세션 종료 후에도 약간 하락 - SPCX, TSLA, INTC, NFLX, PLTR 초점",
+        "description": "인텔의 주가는 150억 달러 규모의 주식 공모를 발표한 후 나스닥에 부담을 주면서 4% 하락했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p500-nasdaq-dow-futures-unchanged/cZok3PvRJfL?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/11 08:02",
+        "score": 11
+      },
+      {
+        "title": "호르무즈 불확실성에 꺾인 뉴욕증시, 나스닥 0.6% 하락",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608105327i",
+        "url": "https://www.hankyung.com/article/2026081254157",
         "source": "hankyung.com",
-        "publishedAt": "08/10 23:08",
+        "publishedAt": "08/12 06:04",
         "score": 8
       },
       {
-        "title": "미국 금리 인상 우려 완화로 매수해야 할 배당 성장주 5종",
-        "description": "Dell Technologies, Taiwan Semiconductor 및 기타 3개 기업과 같은 배당 성장주는 금리 인상 우려가 완화됨에 따라 소득, 성장 및 회복력을 제공합니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/5-dividend-growth-stocks-buy-144300270.html?.tsrc=rss",
+        "title": "Rocket Lab 주식은 2분기 수익 추정치가 빗나간 후 하락합니다.",
+        "description": "로켓연구소 주가 실적 후 폭락. 약한 마진 지침으로 인해 매도세가 촉발됨",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-stock-sinks-q2-155501792.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/10 23:43",
+        "publishedAt": "08/12 00:55",
         "score": 6
       },
       {
-        "title": "Barrick Mining, 2분기 실적 부진으로 주가 하락",
-        "description": "Barrick Gold Corp.(TSX:ABX, NYSE:GOLD) 주가는 전년 동기 대비 강한 실적을 보인 2분기 실적을 발표한 후 월요일에 8% 하락했습니다.",
-        "url": "https://www.proactiveinvestors.com/companies/news/1096808/barrick-mining-shares-slide-on-second-quarter-earnings-miss-1096808.html?.tsrc=rss",
+        "title": "SK 하이닉스는 메모리 플래그로 IPO 이후 어려움을 겪었습니다. 월스트리트 전문가는 160%의 수익률이 예상되는 낙관적입니다.",
+        "description": "SK하이닉스는 역사상 최대 규모의 기술 기업공개(IPO) 중 하나를 진행했지만, 몇 주 만에 투자자들에게 막대한 손실을 입혔습니다. 이제 한 월스트리트 분석가가 내기를 걸었습니다.",
+        "url": "https://247wallst.com/investing/2026/08/11/sk-hynix-has-suffered-post-ipo-as-memory-flags-a-wall-street-pro-remains-sanguine-with-160-returns-predicted/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/10 23:29",
+        "publishedAt": "08/11 21:33",
         "score": 6
-      },
-      {
-        "title": "신흥시장 주식 가치는 S&P 500의 절반 이하로 하락",
-        "description": "(블룸버그) -- 최소 20년 만에 처음으로 신흥시장 주식 가치가 미국 주식 가치의 절반 이하로 떨어졌습니다.",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/emerging-market-stock-valuations-sink-115217478.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/10 20:52",
-        "score": 6
-      },
-      {
-        "title": "케빈 워시가 고용 부진에도 불구하고 다음 FOMC 회의에서 금리를 인상할 수 있는 이유",
-        "description": "케빈 워시 연준의장은 인플레이션을 2%로 끌어올리는 데 초점을 맞추고 있다.",
-        "url": "https://www.fool.com/investing/2026/08/10/why-kevin-warsh-might-raise-interest-rates-at-the/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/11 06:41",
-        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "[포토] 코스닥 6.97% 급등해 854.47 마감…코스피는 0.65% 오른 6299.66",
+        "title": "코스피, 외인·기관 '사자'에 강세 마감…삼성전자 4%대 반등",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608104862i",
+        "url": "https://www.hankyung.com/article/2026081144966",
         "source": "hankyung.com",
-        "publishedAt": "08/10 16:47",
+        "publishedAt": "08/11 15:47",
         "score": 10
       },
       {
-        "title": "이달 들어서만 사이드카 3번 발동…다시 '천스닥' 도전하는 코스닥",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608103692i",
-        "source": "hankyung.com",
-        "publishedAt": "08/10 15:45",
-        "score": 10
+        "title": "한국 소매업체가 2008년 이후 최악의 KOSPI 폭락을 겪으면서 190억 달러 규모의 AI 베팅이 역효과를 냄",
+        "description": "2008년 이후 최악의 KOSPI 붕괴로 인해 190억 달러 규모의 레버리지 AI ETF 베팅이 풀리면서 한국 개인 투자자들은 수십억 달러의 손실을 입었습니다.",
+        "url": "https://beincrypto.com/kospi-crash-korean-retail-leveraged-etf/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/11 20:18",
+        "score": 7
       },
       {
-        "title": "코스피, 6300선 회복 실패…코스닥은 6%대 급등 마감",
+        "title": "정기 공채 관례 깬 네이버·카카오…AI 인재 수시로 뽑는다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026081045156",
+        "url": "https://www.hankyung.com/article/2026081159401",
         "source": "hankyung.com",
-        "publishedAt": "08/10 15:44",
-        "score": 10
+        "publishedAt": "08/11 15:57",
+        "score": 6
       },
       {
-        "title": "정책·수급·실적 '3박자'…불붙은 코스닥",
+        "title": "삼성전자 8000억 풀자 난리 났다…뜻밖의 '대박' 터진 곳",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026081051001",
+        "url": "https://www.hankyung.com/article/2026081150471",
         "source": "hankyung.com",
-        "publishedAt": "08/10 17:52",
-        "score": 8
+        "publishedAt": "08/12 01:20",
+        "score": 5
       },
       {
-        "title": "리노공업·휴젤…코스닥 '1부리그' 후보 올랐다",
+        "title": "\"35만원\" vs \"60만원\"…삼성전자 두고 증권가 '극과 극' 전망",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026081051121",
+        "url": "https://www.hankyung.com/article/2026081146746",
         "source": "hankyung.com",
-        "publishedAt": "08/10 17:52",
+        "publishedAt": "08/11 22:00",
         "score": 5
       }
     ],
     "macro": [
       {
-        "title": "케빈 워시가 고용 부진에도 불구하고 다음 FOMC 회의에서 금리를 인상할 수 있는 이유",
-        "description": "케빈 워시 연준의장은 인플레이션을 2%로 끌어올리는 데 초점을 맞추고 있다.",
-        "url": "https://www.fool.com/investing/2026/08/10/why-kevin-warsh-might-raise-interest-rates-at-the/?.tsrc=rss",
+        "title": "미국 노동시장 약세. 이 2가지 배당주는 경기 침체를 극복할 수 있는 것으로 보입니다.",
+        "description": "이 주식은 (거의) 어떤 폭풍우에도 견딜 수 있도록 도와줍니다.",
+        "url": "https://www.fool.com/investing/2026/08/11/the-us-labor-market-is-weakening-these-2-dividend/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 06:41",
+        "publishedAt": "08/12 06:50",
         "score": 5
       },
       {
-        "title": "월스트리트가 안정적인 인플레이션 데이터를 기대함에 따라 재무부 수익률이 상승",
-        "description": "국채 수익률은 이번 주 후반에 발표될 미국 인플레이션 데이터와 7월 예상치 못한 마이너스 급여 수치 발표를 앞두고 상승했습니다. 이란은 강력한 요구를 한다",
-        "url": "https://finance.yahoo.com/m/3f9fa9fd-1e7d-3908-935f-fc91a628ec97/treasury-yields-rise-as-wall.html?.tsrc=rss",
+        "title": "업데이트: 7월 소비자 물가 인플레이션 데이터를 앞두고 원유 상승으로 인해 성장 부문이 타격을 입으면서 미국 주가 지수가 하락했습니다.",
+        "description": "(첫 번째 단락의 지수/가격 변동, 거시경제 데이터 및 지정학적 뉴스 업데이트)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-growth-205722038.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/10 22:26",
+        "publishedAt": "08/12 05:57",
         "score": 5
       },
       {
-        "title": "거래자들이 중동 발전을 평가하고 주요 인플레이션 데이터를 기다리면서 주식은 벨 이전에 대부분 상승했습니다.",
-        "description": "벤치 마크 미국 주식 측정은 거래자로서 월요일 개장 벨 이전에 대부분 상승을 가리키고 있었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-pre-bell-traders-114357539.html?.tsrc=rss",
+        "title": "금값은 수요일 CPI 보고서를 앞두고 2개월 최고치에 근접했습니다.",
+        "description": "이란 회담이 중단되고 유가가 상승하며 거래자들이 수요일 CPI 보고서를 기다리는 동안 금은 4,450달러에 가까워지고 Barrick은 뉴몬트 거래 이후 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-nears-two-month-high-170000325.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/10 20:43",
+        "publishedAt": "08/12 02:00",
         "score": 5
       },
       {
-        "title": "미국 달러 가격 예측: 고용 데이터가 DXY를 약화시킵니다 – CPI가 EUR/USD 및 GBP/USD를 상승시킬까요?",
-        "description": "시장이 연준의 새로운 단서를 찾기 위해 7월 CPI로 전환하고 EUR/USD와 GBP/USD가 큰 저항을 테스트하면서 약한 미국 급여가 달러에 압력을 가하고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-jobs-080330349.html?.tsrc=rss",
+        "title": "금값, 2개월 만에 최고치…내일 CPI 상승 둔화시 랠리 기대",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608125372i",
+        "source": "hankyung.com",
+        "publishedAt": "08/12 00:14",
+        "score": 5
+      },
+      {
+        "title": "독점: CPI가 내일 상륙하여 PLTR, TSLA 급등을 보낼 수 있지만 이는 '심각한 충격'인 경우에만 가능하다고 Cato Economist는 말합니다.",
+        "description": "7월 소비자 물가 지수는 수요일 오전 8시 30분(동부 표준시)에 발표되며 트레이더들은 소프트 넘버가 Pala와 같은 하이 베타 이름의 모멘텀을 다시 불러일으킬 수 있기를 바라고 있습니다.",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61112578/july-cpi-high-beta-stocks?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/10 17:03",
+        "publishedAt": "08/11 23:31",
         "score": 5
       }
     ],
     "bonds": [
       {
-        "title": "업데이트: 호르무즈의 신속한 원유 재개, 국채 수익률에 대한 희망이 사라지면서 미국 주식 지수 하락",
-        "description": "(첫 번째 단락의 지수/가격 변동 및 기업/지정학적 뉴스로 업데이트됩니다.) 미국 주식",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-fading-210504190.html?.tsrc=rss",
+        "title": "일일 ETF 흐름: TLT 유입 급증",
+        "description": "2026년 8월 10일 일일 ETF 자금 흐름은 다음과 같습니다.",
+        "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-tlt-inflows-surge?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 06:05",
-        "score": 8
-      },
-      {
-        "title": "월스트리트가 안정적인 인플레이션 데이터를 기대함에 따라 재무부 수익률이 상승",
-        "description": "국채 수익률은 이번 주 후반에 발표될 미국 인플레이션 데이터와 7월 예상치 못한 마이너스 급여 수치 발표를 앞두고 상승했습니다. 이란은 강력한 요구를 한다",
-        "url": "https://finance.yahoo.com/m/3f9fa9fd-1e7d-3908-935f-fc91a628ec97/treasury-yields-rise-as-wall.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/10 22:26",
-        "score": 8
+        "publishedAt": "08/12 06:00",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "업데이트: 미국-이란 불일치로 인해 원유 가격이 상승한 후 미국 주식 시장이 하락세로 마감",
-        "description": "도널드 트럼프 대통령의 연설 이후 원유 가격이 상승하면서 미국 주가 지수는 월요일 하락세로 마감했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-202215593.html?.tsrc=rss",
+        "title": "오늘, 8월 11일 주식시장: 유가 상승으로 시장이 하락하고, 혼합 수익에 대한 업워크 하락",
+        "description": "2026년 8월 11일, 중동의 긴장 속에 원유 가격이 올랐고, 주요 AI 인프라 자금 조달 추진에도 불구하고 기술주는 어려움을 겪었습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/11/stock-market-today-aug-11-markets-slip-as-oil-prices-rise-upwork-tumbles-on-mixed-earnings/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 05:22",
-        "score": 10
+        "publishedAt": "08/12 06:33",
+        "score": 5
       },
       {
-        "title": "미국-이란 불일치로 인해 원유 가격이 상승한 후 미국 주식 시장은 하락세로 마감했습니다.",
-        "description": "도널드 트럼프 대통령의 연설 이후 원유 가격이 상승하면서 미국 주가 지수는 월요일 하락세로 마감했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-202021991.html?.tsrc=rss",
+        "title": "업데이트: 7월 소비자 물가 인플레이션 데이터를 앞두고 원유 상승으로 인해 성장 부문이 타격을 입으면서 미국 주가 지수가 하락했습니다.",
+        "description": "(첫 번째 단락의 지수/가격 변동, 거시경제 데이터 및 지정학적 뉴스 업데이트)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-growth-205722038.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 05:20",
-        "score": 10
+        "publishedAt": "08/12 05:57",
+        "score": 5
       },
       {
-        "title": "TSX 마감: 유가 급등으로 에너지 주식이 부양되면서 지수가 사상 최고치로 마감",
-        "description": "S&P/TSX 종합지수는 유가 급등으로 인해 월요일에 사상 최고치를 경신하며 마감했습니다.",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-closes-fresh-205146847.html?.tsrc=rss",
+        "title": "유가 상승, 인플레이션 보고서 앞두고 주식 혼조세",
+        "description": "시장이 영향을 미칠 것으로 예상되는 주요 인플레이션 보고서를 기다리면서 유가는 화요일 상승세로 마감하기 전에 반등세를 보였습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-further-hopes-023238970.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 05:51",
-        "score": 8
+        "publishedAt": "08/12 05:36",
+        "score": 5
       },
       {
-        "title": "에너지 부문 순환 및 유가 하락 압력 TotalEnergies SE(TTE)",
-        "description": "Antipodes Partners는 주요 성과 주식인 포트폴리오 c를 강조하는 \"Antipodes 글로벌 전략\" 2026년 2분기 투자자 서한을 발표했습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/energy-sector-rotation-falling-oil-161152521.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/11 01:11",
-        "score": 8
-      },
-      {
-        "title": "호르무즈 협상 꼬이자 유가 5% 급등…'공급 불안' 다시 덮쳤다",
+        "title": "금값, 2개월 만에 최고치…내일 CPI 상승 둔화시 랠리 기대",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026081154447",
+        "url": "https://www.hankyung.com/article/202608125372i",
         "source": "hankyung.com",
-        "publishedAt": "08/11 06:58",
+        "publishedAt": "08/12 00:14",
+        "score": 5
+      },
+      {
+        "title": "원유 변동으로 달러는 소폭 상승",
+        "description": "오늘 달러 지수(DXY00)는 +0.05% 상승했습니다. 달러화는 오늘 WTI 원유 가격이 1주 최고치로 +2% 이상 상승한 후 지지를 얻었습니다.",
+        "url": "https://www.barchart.com/story/news/3781711/dollar-posts-modest-gains-as-crude-oil-fluctuates?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/11 23:33",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "미국 달러 가격 예측: 고용 데이터가 DXY를 약화시킵니다 – CPI가 EUR/USD 및 GBP/USD를 상승시킬까요?",
-        "description": "시장이 연준의 새로운 단서를 찾기 위해 7월 CPI로 전환하고 EUR/USD와 GBP/USD가 큰 저항을 테스트하면서 약한 미국 급여가 달러에 압력을 가하고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-jobs-080330349.html?.tsrc=rss",
+        "title": "외환 시장 예측 – 미국 수익률 하락에 따른 유로, 파운드, 엔 테스트 지원",
+        "description": "통화 시장은 화요일 초반 거래에서 지원 영역을 테스트하고 있습니다. 현 시점에서는 미국의 금리가 계속해서 큰 역할을 하고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-market-forecast-euro-pound-133208907.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/10 17:03",
-        "score": 7
+        "publishedAt": "08/11 22:32",
+        "score": 9
       },
       {
-        "title": "Rocket Lab, 유럽에 주권 우주 역량 제공을 위해 Rocket Lab Germany 설립",
-        "description": "뮌헨, Aug. 10, 2026 (GLOBE NEWSWIRE) -- 발사 서비스 및 우주 시스템 분야의 글로벌 리더인 Rocket Lab Corporation(Nasdaq: RKLB)이 공식적으로",
-        "url": "https://finance.yahoo.com/technology/articles/rocket-lab-establishes-rocket-lab-201500800.html?.tsrc=rss",
+        "title": "'Dollar Smile' 제작자는 엔화 개입이 정점을 찍는다고 말합니다. 다음은 125인가요?",
+        "description": "Eurizon은 미-일 엔화 개입을 전환점이라고 부르며 엔화가 159로 다시 하락하더라도 125를 앞당길 것으로 내다보고 있습니다.",
+        "url": "https://beincrypto.com/dollar-smile-yen-intervention-peak/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 05:15",
+        "publishedAt": "08/12 06:41",
+        "score": 4
+      },
+      {
+        "title": "제이미 다이먼은 달러 지배력이 군대에 달려 있다고 경고했다: '만약 우리가 25년 만에 가장 강한 군대가 아니라면...우리도 기축통화가 될 수 없을 것이다'",
+        "description": "JPMorgan Chase CEO는 미군이 세계가 “우리에게 매우 위험한” 상황이 되는 것을 막는 유일한 수단일 수 있다고 말했습니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/jamie-dimon-warns-dollar-dominance-160034090.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/12 01:00",
+        "score": 4
+      },
+      {
+        "title": "도이체방크, 중국 화폐 인지 획득",
+        "description": "독일 대출 기관은 유럽 최초의 위안화 청산 은행이 되었으며, 중국 국경 너머로 위안화를 밀 수 있는 또 다른 교두보를 중국에 제공했습니다.",
+        "url": "https://app.moby.co/home/news/news-deutsche-bank-gets-chinas-currency-stamp?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/12 01:47",
         "score": 3
       },
       {
-        "title": "미-일 개입이 풀리면서 엔화 가치 하락",
-        "description": "일본 엔화는 미국의 부진한 통화를 지탱하려는 시도가 무너지면서 2월 이후 가장 급격한 매도세를 겪었습니다.",
-        "url": "https://www.telegraph.co.uk/business/2026/08/10/yen-sinks-as-us-japan-intervention-unravels/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/11 00:45",
-        "score": 3
-      },
-      {
-        "title": "늘어나는 AI 컴퓨팅 수요에…인텔, 150억달러 유증 '승부수'",
+        "title": "비트코인 떨어지자 2억달러 순손실…트럼프미디어, 핵융합으로 돌파구",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026081053291",
+        "url": "https://www.hankyung.com/article/2026081149711",
         "source": "hankyung.com",
-        "publishedAt": "08/10 22:55",
-        "score": 3
-      },
-      {
-        "title": "인텔, 150억달러 규모 보통주 발행…투자 자금 조달 목적",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608105318i",
-        "source": "hankyung.com",
-        "publishedAt": "08/10 22:37",
+        "publishedAt": "08/11 17:40",
         "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "케빈 워시가 고용 부진에도 불구하고 다음 FOMC 회의에서 금리를 인상할 수 있는 이유",
-        "description": "케빈 워시 연준의장은 인플레이션을 2%로 끌어올리는 데 초점을 맞추고 있다.",
-        "url": "https://www.fool.com/investing/2026/08/10/why-kevin-warsh-might-raise-interest-rates-at-the/?.tsrc=rss",
+        "title": "제이미 다이먼은 달러 지배력이 군대에 달려 있다고 경고했다: '만약 우리가 25년 만에 가장 강한 군대가 아니라면...우리도 기축통화가 될 수 없을 것이다'",
+        "description": "JPMorgan Chase CEO는 미군이 세계가 “우리에게 매우 위험한” 상황이 되는 것을 막는 유일한 수단일 수 있다고 말했습니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/jamie-dimon-warns-dollar-dominance-160034090.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 06:41",
+        "publishedAt": "08/12 01:00",
         "score": 1
       },
       {
-        "title": "AI 거래에 '신중한' 시장 전문가, 헬스케어·에너지주 좋아",
-        "description": "스토리: Isherwood는 의료 기업의 펀더멘털이 긍정적이라고 생각합니다. \"우리는 또한 AI 도구가 약물 개발에 도움이 될 잠재력이 있다고 생각합니다.",
-        "url": "https://finance.yahoo.com/video/market-expert-cautious-ai-trade-212036260.html?.tsrc=rss",
+        "title": "마이클 버리(Michael Burry)는 현재 시장에 베팅하는 투자자들에게 엄중한 경고를 했습니다.",
+        "description": "마이클 버리(Michael Burry), 주가 급등에 '트럼프 시장' 비난",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-stark-warning-investors-155418654.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 06:20",
+        "publishedAt": "08/12 00:54",
         "score": 1
       },
       {
-        "title": "Michael Burry는 AI 랠리가 단기 베팅에 부담을 주더라도 약세 Palantir 거래를 새로 고칩니다.",
-        "description": "유명한 \"빅 숏\" 투자자인 Michael Burry가 Palantir의 신규 외가격 풋옵션을 매입하고 자신의 Zoetis 지분을 추가합니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-refreshes-bearish-palantir-trade/cZokb9jRJfQ?.tsrc=rss",
+        "title": "Michael Burry가 Palantir 주식 팬들에게 새로운 경고를 보냅니다.",
+        "description": "Michael Burry, 2027년 풋으로 Palantir Bulls에 새로운 도전을 보냅니다",
+        "url": "https://finance.yahoo.com/markets/options/articles/michael-burry-sends-fresh-warning-154136593.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 05:01",
+        "publishedAt": "08/12 00:41",
         "score": 1
       },
       {
-        "title": "Palantir CEO, AI에 크게 투자하는 기업에 대해 엄중한 경고 전달",
-        "description": "Palantir CEO는 AI 지출에 대해 경고합니다: 기업이 너무 많은 비용을 지불하고 있습니까?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-sends-stark-warning-193127572.html?.tsrc=rss",
+        "title": "미국-이란 회담이 중단된 가운데 상장지수펀드가 상승하고 주식 선물이 화요일 프리 벨을 혼합했습니다.",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.2% 상승했고 적극적으로 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130332588.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 04:31",
+        "publishedAt": "08/11 22:03",
         "score": 1
       },
       {
-        "title": "뉴욕 주 경찰은 미국인의 저축을 빼앗는 투자 사기에 대해 경고합니다.",
-        "description": "뉴욕주 경찰은 사기꾼들이 피해자들에게 저축금을 청산하고 금을 사도록 설득하는 투자 사기가 증가하고 있다고 8월 7일 주민들에게 경고했습니다.",
-        "url": "https://www.thestreet.com/crypto/markets/new-york-state-police-warn-of-investment-scam-draining-americans-savings?.tsrc=rss",
+        "title": "이온큐(IONQ) 주식이 상승하는 이유는 다음과 같습니다.",
+        "description": "양자 컴퓨팅 회사 IonQ(NYSE:IONQ)의 주가는 양자 컴퓨팅 회사가 대규모 2분기 실적을 발표한 후 오후 세션에서 11% 급등했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-ionq-stock-trades-why-030122182.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 04:30",
+        "publishedAt": "08/11 12:01",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Zacks 투자 아이디어 주요 내용: Palantir, SpaceX, Cerebras 및 NVIDIA",
-        "description": "7월의 급격한 일자리 감소는 금리 인상 우려를 완화할 수 있으며 Palantir, SpaceX, Cerebras 및 NVIDIA는 AI 주식 안정화 조짐을 보여줍니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-151400333.html?.tsrc=rss",
+        "title": "Microsoft의 새로운 AI 칩은 Marvell과 TSMC에 큰 승리가 될 수 있습니다.",
+        "description": "Microsoft의 새로운 AI 칩이 Nvidia에 새로운 위협이 될 수 있습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-ai-chip-could-big-192055770.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 00:14",
-        "score": 12
-      },
-      {
-        "title": "TSMC 매출은 강력한 AI 칩 수요로 45% 증가했지만 투자자들은 어깨를 으쓱함",
-        "description": "TSMC는 AI 칩에 대한 강한 수요 덕분에 7월 매출이 6월보다 약 6%, 전년 대비 45% 증가했다고 밝혔습니다.",
-        "url": "https://finance.yahoo.com/m/f4a2cd6d-e861-305e-b2e4-431697498054/tsmc-sales-jump-45%25-on-strong.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/11 06:01",
+        "publishedAt": "08/12 04:20",
         "score": 10
       },
       {
-        "title": "삼성의 HBM4 추진이 훨씬 더 강력해졌습니다.",
-        "description": "80%의 생산 수율은 삼성이 예상보다 빠르게 차세대 AI 메모리를 확장하는 데 도움이 될 수 있습니다.",
-        "url": "https://finance.yahoo.com/technology/articles/samsungs-hbm4-push-just-got-151018816.html?.tsrc=rss",
+        "title": "우주 너머: AI 컴퓨팅 및 Starlink가 SpaceX 성장을 주도합니다",
+        "description": "AI 컴퓨팅 하드웨어 및 Starlink와 같은 비전통적인 부문의 폭발적인 성장에 힘입어 SpaceX는 전례 없는 규모의 기반을 마련하고 있습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/beyond-space-ai-compute-starlink-141200534.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/11 00:10",
+        "publishedAt": "08/11 23:12",
         "score": 10
       },
       {
-        "title": "TSMC 2026년 7월 매출은 AI 칩 수요로 44.7% 증가",
-        "description": "세계 최대의 칩 제조업체는 7월 매출 NT$4,675억 8천만을 기록하여 연간 성장 목표인 40%를 앞지릅니다.",
-        "url": "https://qz.com/tsmc-july-revenue-ai-chip-demand-081026?.tsrc=rss",
+        "title": "TSMC는 AI 투자가 수익을 입증해야 하기 때문에 2028~29년 수익 '불확실성'에 직면해 있다고 Morningstar 분석가가 밝혔습니다.",
+        "description": "Morningstar 분석가 Phenix Lee는 CNBC와의 인터뷰에서 지정학적 우려를 세계 최대 사기꾼의 또 다른 우려 영역으로 강조했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/tsmc-revenue-uncertainty-2028-2029-ai-investments-prove-returns/cZoZHWrRJQO?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/10 20:08",
-        "score": 10
-      },
-      {
-        "title": "TSMC, 7월 매출도 45% 증가…AI 투자 수요는 지속된다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608105222i",
-        "source": "hankyung.com",
-        "publishedAt": "08/10 19:04",
+        "publishedAt": "08/11 20:16",
         "score": 9
+      },
+      {
+        "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin 및 오늘날 시장을 설명하는 기타 주식",
+        "description": "최신 소비자 물가 지수 수치는 수요일에 나옵니다.  Micron Technology는 늦게 반등하여 $868.52로 0.9%를 마감했습니다.  주가는 12% 하락",
+        "url": "https://finance.yahoo.com/m/94261b05-0288-3d65-a248-d76403e2cb46/micron%2C-spacex%2C-rocket-lab%2C.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/12 05:16",
+        "score": 8
+      },
+      {
+        "title": "SpaceX vs. Rocket Lab: 지금 당장 어떤 우주 주식을 구매하는 것이 더 좋을 것 같나요?",
+        "description": "SpaceX는 발사 시장에서 가장 큰 점유율을 차지하고 있지만 2위 로켓 연구소도 눈에 띄게 성장하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/08/11/spacex-vs-rocket-lab-which-space-stock-looks-like/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/12 05:35",
+        "score": 7
       }
     ]
   }
