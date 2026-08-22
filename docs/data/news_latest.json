@@ -1,300 +1,261 @@
 {
-  "generated_at_kst": "2026-08-22 07:49 KST",
-  "period": "08/21 07:00 ~ 08/22 07:00 KST",
+  "generated_at_kst": "2026-08-23 07:46 KST",
+  "period": "08/22 07:00 ~ 08/23 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "다우존스 선물: 시장 반등으로 일부 피해 복구; 엔비디아, 크라우드스트라이크, 워쉬 인 포커스",
-        "description": "지난주 비트코인과 금이 빛을 발했지만 시장 랠리는 피해를 입었습니다. Nvidia와 CrowdStrike 수익은 매우 중요하며 Fed의 Warsh는",
+        "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
+        "description": "The market rally suffered damage last week, though bitcoin and gold shined. New Trump tariffs on Canada began Saturday. Nvidia, CrowdStrike and Fed's",
         "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 05:48",
+        "publishedAt": "08/23 00:25",
         "score": 10
       },
       {
-        "title": "VTV의 0.03% 수수료로 실제 비용이 숨겨집니다. 250,000달러가 10년 동안 S&P 500을 229,000달러 추월합니다.",
-        "description": "Vanguard의 VTV는 ETF 세계에서 가장 낮은 비용 비율 중 하나를 수행하지만 25만 달러 투자는 조용히 b보다 훨씬 뒤쳐졌습니다.",
-        "url": "https://247wallst.com/investing/etf/2026/08/21/vtvs-0-03-fee-hides-the-real-cost-250000-trails-the-sp-500-by-229000-over-a-decade/?.tsrc=rss",
+        "title": "If a Stock Market Crash Is Coming, History Says Buying and Holding These Stocks Is a Smart Move",
+        "description": "Bear markets are a normal part of investing, so you should always own some stocks that are resilient to market downturns.",
+        "url": "https://www.fool.com/investing/2026/08/22/if-a-stock-market-crash-is-coming-history-says-buy/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 06:55",
-        "score": 5
+        "publishedAt": "08/22 21:35",
+        "score": 9
       },
       {
-        "title": "S&P 500, 미국의 이란 경고 속에 7월 이후 첫 주간 하락세 기록",
-        "description": "스탠더드앤드푸어스(S&P) 500지수는 이번 주 1.4% 하락해 한 달 만에 첫 주간 손실을 기록했다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-first-weekly-204508360.html?.tsrc=rss",
+        "title": "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
+        "description": "Historical precedent suggests that the Trump bull market is running on borrowed time.",
+        "url": "https://www.fool.com/investing/2026/08/22/stock-market-crash-donald-trump-history-tells-us/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 05:45",
-        "score": 5
+        "publishedAt": "08/22 17:26",
+        "score": 9
       },
       {
-        "title": "UBS, 2026년 남은 기간 동안 S&P 500 목표 가격 수정",
-        "description": "UBS, 새로운 8,100년 연말 목표로 S&P 500 추가 상승에 베팅",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-revamps-p-500-price-181835657.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/22 03:18",
-        "score": 5
+        "title": "美 국채금리 또 올랐지만…3대 지수 하루 만에 반등 [뉴욕증시 브리핑]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026082258497",
+        "source": "hankyung.com",
+        "publishedAt": "08/22 07:13",
+        "score": 8
       },
       {
-        "title": "UBS는 S&P 500을 8,100으로 보았지만 예측 시장에서는 이를 받아들이지 않았습니다.",
-        "description": "UBS Group AG(NYSE:UBS)의 일부인 UBS Global Wealth Management는 State Street SPDR S&P 500 ETF Trust(NASDAQ:SPY)로 측정한 S&P 500을 예상합니다.",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61356024/sp-500-8100-ubs-prediction-markets?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "This S&P 500 Stock Pays a 2.67% Dividend Yield and Has Increased Its Payout in 17 Straight Years. Here's Why None of This Matters to Investors as Much as the Federal Reserve and Kevin Warsh.",
+        "description": "Given the nature of this business, investors can't really ignore macroeconomic conditions.",
+        "url": "https://www.fool.com/investing/2026/08/22/this-sp-500-stock-pays-a-267-dividend-yield-and-ha/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/21 23:06",
-        "score": 5
+        "publishedAt": "08/23 02:20",
+        "score": 7
       }
     ],
     "kr_market": [
       {
-        "title": "삼성전자, 110조원 역대급 주주환원…SK하이닉스와 다른 점은?",
+        "title": "\"번 돈 국민과 나누겠다\"던 삼성전자…'110조 잭팟' 터뜨린다",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608215407i",
+        "url": "https://www.hankyung.com/article/2026082259237",
         "source": "hankyung.com",
-        "publishedAt": "08/21 18:24",
-        "score": 10
-      },
-      {
-        "title": "코스피, 0.88% 오른 6912.95…코스닥, 4%대 하락 마감",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082150696",
-        "source": "hankyung.com",
-        "publishedAt": "08/21 15:37",
-        "score": 10
-      },
-      {
-        "title": "코스닥 800선 붕괴...코스피는 반도체 상승에 힘입어 6800선 회복",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608214177i",
-        "source": "hankyung.com",
-        "publishedAt": "08/21 11:13",
-        "score": 10
-      },
-      {
-        "title": "[속보] 코스닥 4%대 급락…매도 사이드카 발동",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082141836",
-        "source": "hankyung.com",
-        "publishedAt": "08/21 10:09",
-        "score": 10
-      },
-      {
-        "title": "삼성전자, 110조+α 역대급 주주환원…성과급용 자사주 15조 매입",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082156601",
-        "source": "hankyung.com",
-        "publishedAt": "08/21 20:08",
+        "publishedAt": "08/22 18:52",
         "score": 5
+      },
+      {
+        "title": "카카오AI·카카오X 쪼갠다…지배구조 손 본 이유는 [정지은의 산업노트]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608215737i",
+        "source": "hankyung.com",
+        "publishedAt": "08/22 08:00",
+        "score": 3
       }
     ],
-    "macro": [],
+    "macro": [
+      {
+        "title": "This S&P 500 Stock Pays a 2.67% Dividend Yield and Has Increased Its Payout in 17 Straight Years. Here's Why None of This Matters to Investors as Much as the Federal Reserve and Kevin Warsh.",
+        "description": "Given the nature of this business, investors can't really ignore macroeconomic conditions.",
+        "url": "https://www.fool.com/investing/2026/08/22/this-sp-500-stock-pays-a-267-dividend-yield-and-ha/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/23 02:20",
+        "score": 5
+      },
+      {
+        "title": "Where are central banks keeping their gold?",
+        "description": "Investing.com -- Central banks still favour the Bank of England and New York Fed for gold custody, but are increasingly spreading reserves across seve",
+        "url": "https://finance.yahoo.com/economy/policy/articles/where-central-banks-keeping-gold-083355037.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/22 17:33",
+        "score": 3
+      }
+    ],
     "bonds": [
       {
-        "title": "미국 주식 지수는 장기 국채 수익률 상승으로 인한 압력으로 주말 하락세 — PSKY, MSTR, WMT, TSLA, NVDA 집중",
-        "description": "미국 30년 만기 국채수익률이 2주 연속 상승했다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-indices-end-week-lower-on-pressure-from-elevated-long-duration-treasury-yields-psky/cZY97YMRJVO?.tsrc=rss",
+        "title": "Arbor Realty, Icahn Enterprises and Herzfeld: 3 Unconventional High Yield Bets",
+        "description": "Double-digit yields sound compelling until you read the fine print buried inside a stressed mortgage REIT, an activist's limited partnership, and a fr",
+        "url": "https://247wallst.com/investing/2026/08/22/arbor-realty-icahn-enterprises-and-herzfeld-3-unconventional-high-yield-bets/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 06:48",
-        "score": 11
+        "publishedAt": "08/22 23:00",
+        "score": 3
       },
       {
-        "title": "유가 상승과 국채 수익률로 인해 급격한 매도세를 보인 후 시장이 반등을 시도하면서 미국 주식 지수가 상승했습니다.",
-        "description": "미국 주가지수는 금요일 정오 이후 급등한 매도 이후 시장이 반등을 시도하면서 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-markets-174706083.html?.tsrc=rss",
+        "title": "Bitcoin Hits Its Stride As Dollar Weakness And Treasury Buybacks Fuel Hard-Asset Rally, Galaxy Analysts Call Bottom",
+        "description": "With a base case aim of $80,000 and \"risks skewed to much higher,\" a Galaxy trading analyst said that the market shifted from a \"sell rips\" to a \"buy",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-dollar-weakness-treasury-buybacks-bottom/cZYQ2GTRJVZ?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 02:47",
-        "score": 8
-      },
-      {
-        "title": "스콧 베센트(Scott Bessent)는 재무부의 부채 환매가 달러를 엔화와 같은 평가절하 악순환에 빠뜨릴 위험이 있기 때문에 '불장난'하고 있다고 이코노미스트가 경고했습니다.",
-        "description": "\"시장은 달러 가치 하락이 재개될 준비가 되어 있으며, 일본이 보여주듯이 일단 가치 하락에 진입하면 통화를 안정화하는 것이 거의 불가능할 수 있습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-playing-fire-treasury-163237123.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/22 01:32",
-        "score": 4
-      },
-      {
-        "title": "미국 부채 위기가 다가오고 있을 수 있습니다: 재무부는 채권 환매 금액을 40조 달러로 두 배로 늘렸습니다.",
-        "description": "재무부는 자체 자문위원회에 먼저 알리지 않고 가장 긴 부채에 대한 채권 환매를 두 배로 늘렸고 시장은 이를 알아차렸습니다. 여기에 그 내용이 있습니다",
-        "url": "https://247wallst.com/investing/2026/08/21/a-u-s-debt-crisis-may-be-brewing-the-treasury-just-doubled-its-bond-buybacks-at-40-trillion/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/21 22:45",
-        "score": 4
-      },
-      {
-        "title": "트레이더들이 미국 재무부의 조치를 평가함에 따라 비트코인이 급등하고 주식이 반등했습니다.",
-        "description": "금요일 투자자들이 미국 재무부의 장기 하락 노력을 평가함에 따라 비트코인은 반등했고 글로벌 주식은 최근 손실 중 일부를 만회했습니다.",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-markets-extend-rally-traders-023442615.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/22 05:43",
+        "publishedAt": "08/22 22:08",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "미국 주식 시장은 이란이 곧 전쟁을 끝내고 싶다는 희망을 암시한 후 상승세로 마감하고 원유 가격은 하락했습니다.",
-        "description": "미국 주가지수는 이란 대통령이 이란이 경기를 종료하고 싶다고 암시한 후 금요일 상승세로 마감했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-203610880.html?.tsrc=rss",
+        "title": "How Bessent’s Efforts to Calm Bond Market Set Gold Prices Ablaze",
+        "description": "Prices of gold, silver, platinum and Bitcoin rose following the Treasury buyback announcement, while the dollar fell.",
+        "url": "https://finance.yahoo.com/m/eca903dd-2ba5-319b-b145-41fac305b72b/how-bessent%E2%80%99s-efforts-to-calm.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 05:36",
-        "score": 10
-      },
-      {
-        "title": "유가 90달러 돌파에도…정부, 석유 최고가격 4주 더 묶는다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608215002i",
-        "source": "hankyung.com",
-        "publishedAt": "08/21 19:01",
-        "score": 6
-      },
-      {
-        "title": "석유, 금 가격이 상승함에 따라 미국 달러는 루니에 대해 계속 약세를 보이고 있습니다.",
-        "description": "유가와 금 가격이 지속되면서 금요일 오후 미국 달러는 캐나다 달러 대비 약세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-continues-weaken-against-180646425.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/22 03:06",
+        "publishedAt": "08/22 07:22",
         "score": 5
       },
       {
-        "title": "유가 상승과 국채 수익률로 인해 급격한 매도세를 보인 후 시장이 반등을 시도하면서 미국 주식 지수가 상승했습니다.",
-        "description": "미국 주가지수는 금요일 정오 이후 급등한 매도 이후 시장이 반등을 시도하면서 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-markets-174706083.html?.tsrc=rss",
+        "title": "Can Bloom Energy Keep Beating the Market?",
+        "description": "Bloom Energy is far outpacing the market. Can it keep it up?",
+        "url": "https://www.fool.com/investing/2026/08/22/can-bloom-energy-keep-beating-the-market/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 02:47",
-        "score": 5
+        "publishedAt": "08/23 01:05",
+        "score": 3
       },
       {
-        "title": "미국 석유 시추업체들은 유가 상승으로 하락세를 보임",
-        "description": "Baker Hughes가 금요일에 발표한 새로운 데이터에 따르면, 미국 내 석유 및 가스 시추 장비의 총 수가 이번 주 감소했다고 합니다.",
-        "url": "https://finance.yahoo.com/energy/articles/us-oil-drillers-see-pullback-171600604.html?.tsrc=rss",
+        "title": "Gold, Silver, and Copper Are Rebounding in August. Here's One Stock to Invest in to Own All of Them.",
+        "description": "Royal Gold's assets are revenue streams and royalties.",
+        "url": "https://www.fool.com/investing/2026/08/22/gold-silver-and-copper-are-rebounding-in-august/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 02:16",
-        "score": 5
+        "publishedAt": "08/23 00:50",
+        "score": 3
+      },
+      {
+        "title": "As Global Fuel Markets Whipsaw Through Historic Volatility, JSV Global's Jason Venturelli Calls for a New Playbook on Fuel Risk",
+        "description": "Twelve months ago, the consensus on global fuel prices was uniformly bearish. The World Bank projected a six-year low in commodity prices. Major banks",
+        "url": "https://finance.yahoo.com/energy/articles/global-fuel-markets-whipsaw-historic-170000873.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/23 02:00",
+        "score": 1
+      },
+      {
+        "title": "Bitcoin Hits Its Stride As Dollar Weakness And Treasury Buybacks Fuel Hard-Asset Rally, Galaxy Analysts Call Bottom",
+        "description": "With a base case aim of $80,000 and \"risks skewed to much higher,\" a Galaxy trading analyst said that the market shifted from a \"sell rips\" to a \"buy",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-dollar-weakness-treasury-buybacks-bottom/cZYQ2GTRJVZ?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/22 22:08",
+        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "스콧 베센트(Scott Bessent)는 재무부의 부채 환매가 달러를 엔화와 같은 평가절하 악순환에 빠뜨릴 위험이 있기 때문에 '불장난'하고 있다고 이코노미스트가 경고했습니다.",
-        "description": "\"시장은 달러 가치 하락이 재개될 준비가 되어 있으며, 일본이 보여주듯이 일단 가치 하락에 진입하면 통화를 안정화하는 것이 거의 불가능할 수 있습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-playing-fire-treasury-163237123.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/22 01:32",
-        "score": 4
-      },
-      {
-        "title": "유로 가격 상승 추세에 베팅해야 하는 이유",
-        "description": "12월 유로화 선물은 가격 강세를 바탕으로 매수 기회를 제공합니다.",
-        "url": "https://www.barchart.com/story/news/3971134/why-you-should-bet-on-the-uptrend-in-euro-prices?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/21 23:26",
-        "score": 3
-      },
-      {
-        "title": "유가 90달러 돌파에도…정부, 석유 최고가격 4주 더 묶는다",
+        "title": "'20년만의 최저' 향하는 원·엔환율…현 시점 대응 전략은",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608215002i",
+        "url": "https://www.hankyung.com/article/202608215246i",
         "source": "hankyung.com",
-        "publishedAt": "08/21 19:01",
-        "score": 3
+        "publishedAt": "08/22 08:00",
+        "score": 5
       },
       {
-        "title": "가상화폐株, 비트코인 7만달러 돌파 소식에 급등",
+        "title": "'2조달러' 앤트로픽 IPO 추진…스페이스X 넘는 자금 블랙홀 될까",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026082140936",
+        "url": "https://www.hankyung.com/article/2026082261777",
         "source": "hankyung.com",
-        "publishedAt": "08/21 10:01",
+        "publishedAt": "08/22 19:30",
         "score": 3
       },
       {
-        "title": "석유, 금 가격이 상승함에 따라 미국 달러는 루니에 대해 계속 약세를 보이고 있습니다.",
-        "description": "유가와 금 가격이 지속되면서 금요일 오후 미국 달러는 캐나다 달러 대비 약세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-continues-weaken-against-180646425.html?.tsrc=rss",
+        "title": "Active ETFs Now Take 42% of Every Dollar Flowing Into ETFs, Up From 26% in 2024",
+        "description": "The undaunted rise of actively managed ETFs is an opportunity for investors considering both funds and individual stocks.",
+        "url": "https://www.fool.com/investing/2026/08/22/active-etfs-now-take-42-of-every-dollar-flowing-in/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 03:06",
+        "publishedAt": "08/23 05:50",
+        "score": 1
+      },
+      {
+        "title": "Bitcoin Hits Its Stride As Dollar Weakness And Treasury Buybacks Fuel Hard-Asset Rally, Galaxy Analysts Call Bottom",
+        "description": "With a base case aim of $80,000 and \"risks skewed to much higher,\" a Galaxy trading analyst said that the market shifted from a \"sell rips\" to a \"buy",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-dollar-weakness-treasury-buybacks-bottom/cZYQ2GTRJVZ?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/22 22:08",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "억만장자 자금 관리자 17명의 상위 보유 주식을 조사했는데 이 3가지 주식이 공통 분모였습니다",
-        "description": "인공 지능(AI)은 월스트리트의 가장 유능한 자산 관리자에게 큰 주제입니다.",
-        "url": "https://www.fool.com/investing/2026/08/21/examine-top-holding-17-billionaire-3-common-stocks/?.tsrc=rss",
+        "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
+        "description": "The market rally suffered damage last week, though bitcoin and gold shined. New Trump tariffs on Canada began Saturday. Nvidia, CrowdStrike and Fed's",
+        "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/21 17:26",
+        "publishedAt": "08/23 00:25",
         "score": 3
       },
       {
-        "title": "Palantir는 $180까지 4% 상승, BigBear.ai는 4% 상승, ServiceNow는 보합세 유지: 거래자들은 소프트웨어 승자를 어떻게 선택합니까?",
-        "description": "정부 AI 주식과 기업 소프트웨어 이름은 금요일에 같은 테이프에서 거래되지만 어디에 있는지에 대해서는 완전히 다른 이야기를 하고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/08/21/palantir-climbs-4-through-180-bigbear-ai-rises-4-servicenow-holds-flat-how-are-traders-picking-the-software-winners/?.tsrc=rss",
+        "title": "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
+        "description": "Alphabet's value proposition was so appealing that even Buffett and Abel could not ignore it.",
+        "url": "https://www.fool.com/investing/2026/08/22/warren-buffetts-hand-picked-successor-greg-abel-ha/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 02:10",
-        "score": 2
-      },
-      {
-        "title": "워렌 버핏의 후계자인 그렉 아벨(Greg Abel)은 버크셔의 뱅크 오브 아메리카(Bank of America) 지분을 17억 달러 삭감했습니다. 그는 델타항공에 16억 달러를 추가했습니다.",
-        "description": "이 대기업의 신임 CEO는 버핏이 2년 동안 팔아치웠던 은행을 팔면서 2분기를 보냈다. 그리고 매진된 버핏 항공사를 인수했다.",
-        "url": "https://www.fool.com/investing/2026/08/21/warren-buffett-successor-greg-abel-cut-berkshire-s-bank-of-america-stake-by-usd1-7-billion-he-added-usd1-6-billion-of-delta-air-lines/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/22 06:53",
+        "publishedAt": "08/23 03:20",
         "score": 1
       },
       {
-        "title": "Anthropic, AI 연구소가 하드웨어에 진출함에 따라 전 Google 칩 책임자 고용 - Bloomberg",
-        "description": "Investing.com -- Anthropic (NASDAQ:ANTP)은 전 Google 임원인 Amir Salek를 인공 지능 연구소의 컴퓨팅 팀에 합류시키기 위해 고용했습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-hires-ex-google-chip-211528852.html?.tsrc=rss",
+        "title": "This S&P 500 Stock Pays a 2.67% Dividend Yield and Has Increased Its Payout in 17 Straight Years. Here's Why None of This Matters to Investors as Much as the Federal Reserve and Kevin Warsh.",
+        "description": "Given the nature of this business, investors can't really ignore macroeconomic conditions.",
+        "url": "https://www.fool.com/investing/2026/08/22/this-sp-500-stock-pays-a-267-dividend-yield-and-ha/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 06:15",
+        "publishedAt": "08/23 02:20",
         "score": 1
       },
       {
-        "title": "다우존스 선물: 시장 반등으로 일부 피해 복구; 엔비디아, 크라우드스트라이크, 워쉬 인 포커스",
-        "description": "지난주 비트코인과 금이 빛을 발했지만 시장 랠리는 피해를 입었습니다. Nvidia와 CrowdStrike 수익은 매우 중요하며 Fed의 Warsh는",
-        "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "title": "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
+        "description": "And you don't need to be a billionaire to do it.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dies-warren-buffett-wants-90-150500152.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 05:48",
+        "publishedAt": "08/23 00:05",
+        "score": 1
+      },
+      {
+        "title": "Rocket Lab Trades at 59 Times Revenue With Neutron Still Unflown",
+        "description": "The launch company keeps setting records, and its backlog has more than doubled. The valuation assumes a much bigger company -- one that needs a rocke",
+        "url": "https://www.fool.com/investing/2026/08/22/rocket-lab-trades-at-59-times-revenue-with-neutron-still-unflown/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/22 22:47",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Anthropic, AI 연구소가 하드웨어에 진출함에 따라 전 Google 칩 책임자 고용 - Bloomberg",
-        "description": "Investing.com -- Anthropic (NASDAQ:ANTP)은 전 Google 임원인 Amir Salek를 인공 지능 연구소의 컴퓨팅 팀에 합류시키기 위해 고용했습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-hires-ex-google-chip-211528852.html?.tsrc=rss",
+        "title": "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole",
+        "description": "A tricky stock market struggles against industry rotation and wavering investor confidence heading into the final full week of August.",
+        "url": "https://finance.yahoo.com/m/61407c76-e1fb-356e-9266-46425a25eb7a/stock-market-week-ahead%3A-a.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 06:15",
+        "publishedAt": "08/23 02:49",
+        "score": 8
+      },
+      {
+        "title": "Rocket Lab's HASTE Is Flying Hypersonic Missions for the Pentagon. Here's the Defense Business Hiding Inside a Space Stock.",
+        "description": "Rocket Lab is building on its space business and has secured several major defense contracts, providing stability amid its rapid expansion.",
+        "url": "https://www.fool.com/investing/2026/08/22/rocket-labs-haste-fly-hypersonic-space-stock/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/22 18:20",
         "score": 7
       },
       {
-        "title": "오늘 주식시장: 다우지수가 500포인트 상승했습니다. SpaceX, 연속 패배, 비트코인 ​​팝",
-        "description": "오늘의 주식 시장: 다우존스 지수는 하루 전 매도세를 보인 후 금요일 상승했습니다. Nvidia는 2분기 실적을 앞지릅니다.",
-        "url": "https://finance.yahoo.com/m/ab896025-9eb7-3478-b19c-7560fd065b92/stock-market-today%3A-dow-gains.html?.tsrc=rss",
+        "title": "1 Quantum Computing Stock That Looks Like a Screaming Buy Right Now",
+        "description": "IonQ continues to make strides towards a commercially viable quantum computer.",
+        "url": "https://www.fool.com/investing/2026/08/22/1-quantum-computing-stock-that-looks-like-a-scream/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 05:40",
-        "score": 7
+        "publishedAt": "08/23 02:50",
+        "score": 5
       },
       {
-        "title": "Moderna, Robinhood, Marvell, Tesla, SpaceX 및 오늘날 시장을 설명하는 기타 주식",
-        "description": "모더나(Moderna) 주가가 상승해 일주일간 급등세를 마감했습니다. 암호화폐 주식도 최근 상승세를 이어가고 있습니다.",
-        "url": "https://finance.yahoo.com/m/8441cc58-de4e-35b7-8284-d4ebc8ed02e5/moderna%2C-robinhood%2C-marvell%2C.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/22 05:18",
-        "score": 7
+        "title": "'2조달러' 앤트로픽 IPO 추진…스페이스X 넘는 자금 블랙홀 될까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026082261777",
+        "source": "hankyung.com",
+        "publishedAt": "08/22 19:30",
+        "score": 5
       },
       {
-        "title": "마이크로소프트(MSFT)가 자체 AI 칩에 큰 투자를 하고 있다. 이미 너무 늦었나요?",
-        "description": "Microsoft Corporation(NASDAQ:MSFT)은 대부분 Nvidia에 의존하면서 Google과 Amazon이 자체 AI 칩을 구축하는 것을 지켜보며 수년을 보냈습니다. 목",
-        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-betting-big-own-201414728.html?.tsrc=rss",
+        "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence (AI) Stocks",
+        "description": "Amazon, Alphabet, and Taiwan Semiconductor remain well positioned to keep winning amid the AI infrastructure build-out.",
+        "url": "https://www.fool.com/investing/2026/08/22/billionaire-stanley-druckenmiller-just-sold-sandis/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/22 05:14",
-        "score": 7
-      },
-      {
-        "title": "TSMC는 Nvidia의 중요한 AI 수요 테스트를 앞두고 상승했습니다.",
-        "description": "투자자들이 반도체 기대치를 재설정할 수 있는 수익 보고서를 준비하면서 세계 최대 파운드리 업체가 반등하고 있습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-rises-ahead-nvidias-critical-193930535.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/22 04:39",
-        "score": 7
+        "publishedAt": "08/23 05:04",
+        "score": 4
       }
     ]
   }
