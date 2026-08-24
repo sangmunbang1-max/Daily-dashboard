@@ -1,309 +1,325 @@
 {
-  "generated_at_kst": "2026-08-24 07:46 KST",
-  "period": "08/23 07:00 ~ 08/24 07:00 KST",
+  "generated_at_kst": "2026-08-25 07:52 KST",
+  "period": "08/24 07:00 ~ 08/25 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "The S&P 500 Just Did Something Seen Only 1 Other Time Since 1871 — and It's Not Good News for Wall Street",
-        "description": "The stock market is making history, but not necessarily in a good way.",
-        "url": "https://www.fool.com/investing/2026/08/23/the-s-and-p-500-just-did-something-seen-only-1-other-time-since-1871-and-it-s-not-good-news-for-wall-street/?.tsrc=rss",
+        "title": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves",
+        "description": "STORY: Wall Street's main indexes ended mixed on Monday, with the Dow adding about a quarter of a percent, the S&P 500 shedding roughly the same amoun",
+        "url": "https://finance.yahoo.com/video/p-500-nasdaq-end-down-215152032.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/23 17:44",
-        "score": 8
+        "publishedAt": "08/25 06:51",
+        "score": 12
       },
       {
-        "title": "If Amazon Is a Top Growth Stock, Then Why Does It Trade at Just 21.3x Forward Earnings While the S&P 500 Trades at 20.4x? This Is the Only Answer I Can Think Of.",
-        "description": "The company is reporting some of its best performance in years.",
-        "url": "https://www.fool.com/investing/2026/08/23/if-amazon-is-a-top-growth-stock-then-why-does-it-t/?.tsrc=rss",
+        "title": "Markets News, Aug. 24, 2026: Nasdaq, S&P 500 Close Lower to Begin Week as Chip Stocks Sink; Bitcoin Nears $80,000",
+        "description": "The S&P 500 and Nasdaq Composite finished lower Monday as semiconductor stocks dropped, while the Dow Jones Industrial Average advanced. Meanwhile, cr",
+        "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-08242026-12066087?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/23 20:35",
+        "publishedAt": "08/24 19:50",
+        "score": 11
+      },
+      {
+        "title": "Stock Market Midday, Aug. 24: Dow Edges Higher as Chip Weakness Pressures Nasdaq",
+        "description": "On Aug. 24, 2026, blue chip strength offsets a tech sell-off driven by earnings anxiety and geopolitical uncertainty.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/24/stock-market-midday-aug-24-dow-edges-higher-as-chip-weakness-pressures-nasdaq/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 01:35",
+        "score": 9
+      },
+      {
+        "title": "US Stock Market Today S&P 500 Futures Rise As Higher Yields Test Growth",
+        "description": "The Morning Bull - US Market Morning Update Monday, Aug, 24 2026 US stock futures are pointing higher this morning, with E-mini S&P 500 contracts up a",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-080848022.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/24 17:08",
+        "score": 9
+      },
+      {
+        "title": "3 Nasdaq 100 Stocks to Keep an Eye On",
+        "description": "The Nasdaq 100 (^NDX) is where investors find some of the most innovative and disruptive companies shaping the future. A select few continue to execut",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-nasdaq-100-stocks-keep-122536725.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/24 21:25",
         "score": 6
-      },
-      {
-        "title": "Does Billionaire Bill Ackman Know Something Wall Street Doesn’t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Year",
-        "description": "Bill Ackman is shopping for great deals. Investors might want to follow suit.",
-        "url": "https://www.fool.com/investing/2026/08/23/does-billionaire-bill-ackman-know-something-wall-street-doesn-t-he-invested-in-these-2-stocks-that-have-dropped-33-and-18-over-the-past-year/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/24 06:35",
-        "score": 5
-      },
-      {
-        "title": "UBS revamps S&P 500 target for rest of 2026",
-        "description": "Stronger profits are changing the math for stocks again",
-        "url": "https://www.thestreet.com/markets/ubs-sp-500-2026-target?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/24 05:23",
-        "score": 5
-      },
-      {
-        "title": "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO)",
-        "description": "To benefit from the compounding ability of owning the S&P 500 index, investors must keep some key information in mind.",
-        "url": "https://www.fool.com/investing/2026/08/23/know-3-things-before-buying-vanguard-sp500-etf/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/23 23:05",
-        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "SK Hynix Is Buying Back 3.3% of Its Shares and Canceling Every One",
-        "description": "The memory giant is retiring roughly one share in every 30 -- and it says its shareholder-return target is moving from a ceiling to a floor.",
-        "url": "https://www.fool.com/investing/2026/08/23/sk-hynix-is-buying-back-3-3-of-its-shares-and-canceling-every-one/?.tsrc=rss",
+        "title": "한투운용, 'ACE 삼성전자SK하이닉스플러스채권혼합50' ETF 상장",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026082481236",
+        "source": "hankyung.com",
+        "publishedAt": "08/24 10:15",
+        "score": 11
+      },
+      {
+        "title": "[속보] 코스피 3.12% 내린 6696.96 마감…삼성전자 8.7% 폭락",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026082490716",
+        "source": "hankyung.com",
+        "publishedAt": "08/24 15:31",
+        "score": 10
+      },
+      {
+        "title": "Samsung Electronics stock drops after shareholder return plan disappoints",
+        "description": "Investors had expected a larger buyback commitment, but Samsung's ownership structure complicated that path",
+        "url": "https://qz.com/samsung-electronics-stock-drop-shareholder-return-plan-082426?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/24 05:57",
+        "publishedAt": "08/24 22:05",
         "score": 5
       },
       {
-        "title": "무너지는 코넥스…올 코스닥행 0건",
+        "title": "\"삼성전자, IR 이렇게밖에 못하나\"…110조 푼다는데 폭락 [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026082371691",
+        "url": "https://www.hankyung.com/article/2026082492776",
         "source": "hankyung.com",
-        "publishedAt": "08/23 18:29",
+        "publishedAt": "08/24 19:00",
         "score": 5
       },
       {
-        "title": "\"40조 자사주 약발 더 갈까\"…월요일 SK하이닉스에 쏠린 눈",
+        "title": "삼성전자, 30조 특별배당 이어 40조 더 풀듯",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026082368767",
+        "url": "https://www.hankyung.com/article/2026082494731",
         "source": "hankyung.com",
-        "publishedAt": "08/23 14:50",
-        "score": 5
-      },
-      {
-        "title": "삼성전자 역대급 특별배당…지분 들고 있는 수혜주 뽑아보니",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608215035i",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 12:00",
-        "score": 5
-      },
-      {
-        "title": "코스피 급락 맞춘 이재만 실장이 꼽은 '내년에 삼전닉스 능가할 두 업종'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608225785i",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 10:00",
+        "publishedAt": "08/24 17:44",
         "score": 5
       }
     ],
     "macro": [
       {
-        "title": "Tilray Posted Record Fiscal 2026 Revenue -- Why Isn't the Stock Rallying?",
-        "description": "Recent results and legalization progress aren't the game changers you'd think they'd be for this cannabis stock.",
-        "url": "https://www.fool.com/investing/2026/08/23/tilray-posted-record-fiscal-2026-revenue-why-isnt/?.tsrc=rss",
+        "title": "Update: US Equity Indexes Mixed as Chipmakers Push Technology Lower, Bessent Unveils Plans to Choke Iran's Economy",
+        "description": "(Updates with index/price moves, macroeconomic data, analyst comments, and company/geopolitical news",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-chipmakers-210802812.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/24 05:59",
+        "publishedAt": "08/25 06:08",
         "score": 1
       },
       {
-        "title": "Jim Cramer Says Stocks and the Economy Are Telling Two Very Different Stories: ‘Jarring Gulf’",
-        "description": "CNBC commentator Jim Cramer recently pointed to a growing disconnect between the stock market and the underlying economy as concerns over the economic",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-stocks-economy-203116548.html?.tsrc=rss",
+        "title": "US Equity Markets Mixed as Crude Oil Prices Drop Ahead of Upcoming US Economic Sanctions on Iran",
+        "description": "US equity indexes were mixed Monday as crude oil prices dropped ahead of US economic sanctions on Ir",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-crude-200750110.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/24 05:31",
+        "publishedAt": "08/25 05:07",
         "score": 1
       },
       {
-        "title": "Bitcoin’s Rally Leans on Fears That Fiscal Strains Are Mounting",
-        "description": "Crypto’s true believers suddenly have a spring in their step again.",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rally-leans-fears-fiscal-180000766.html?.tsrc=rss",
+        "title": "Treasury's Bessent calls for 'economic asphyxiation' of Iran through sanctions",
+        "description": "At a press conference on Monday, Department of the Treasury Secretary Scott Bessent answered Yahoo Finance Senior Reporter Jennifer Schonberger's ques",
+        "url": "https://finance.yahoo.com/video/treasurys-bessent-calls-economic-asphyxiation-200000855.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/24 03:00",
+        "publishedAt": "08/25 05:00",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Trump’s Bond Buyback Push Puts Kevin Warsh in a Tough Spot — Peter Schiff Says Treasury ‘Pulled the Rug Out From Under’",
-        "description": "The Donald Trump administration’s aggressive expansion of a Treasury bond buyback program has effectively neutralized the Federal Reserve’s ability to",
-        "url": "https://finance.yahoo.com/economy/policy/articles/trump-bond-buyback-push-puts-183139508.html?.tsrc=rss",
+        "title": "Treasury Yields Fall, Gold Rises On Bessent's $1 Trillion Warning",
+        "description": "Treasury yields fell and the price of gold continued its recent rally Monday after Treasury Secretary Scott Bessent essentially warned investors not t",
+        "url": "https://finance.yahoo.com/m/2924db1b-14e4-3adf-855b-9fcfa56643f2/treasury-yields-fall%2C-gold.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/24 03:31",
+        "publishedAt": "08/24 23:07",
+        "score": 8
+      },
+      {
+        "title": "Treasury's Bessent calls for 'economic asphyxiation' of Iran through sanctions",
+        "description": "At a press conference on Monday, Department of the Treasury Secretary Scott Bessent answered Yahoo Finance Senior Reporter Jennifer Schonberger's ques",
+        "url": "https://finance.yahoo.com/video/treasurys-bessent-calls-economic-asphyxiation-200000855.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 05:00",
         "score": 3
       },
       {
-        "title": "AI 투자 늘자…美데이터센터 채권 금리 年 7%로 급등",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082371451",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 18:21",
+        "title": "Treasury Sec. Bessent says investors must wait for Q4 to hear more bond intervention updates",
+        "description": "US Treasury Secretary Scott Bessent held a press conference on Monday about the war in Iran, Treasury yields (^FVX, ^TNX, ^TYX), and more. Yahoo Finan",
+        "url": "https://finance.yahoo.com/video/treasury-sec-bessent-says-investors-193643862.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 04:36",
         "score": 3
       },
       {
-        "title": "환율·채권, 잇단 달러매도…환율 1300원대 안착하나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082371541",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 18:12",
+        "title": "EXCLUSIVE: How AI's $220 Billion Bond Boom Competes With the Treasury",
+        "description": "AI companies have issued roughly $220 billion of debt this year, according to BNP Paribas data, adding to a supply wave that has helped push long-term",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61392587/ai-bond-boom-treasury-220-billion?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 03:21",
         "score": 3
       },
       {
-        "title": "'보이는 손' 美 국채…채권·주식·부동산까지 흔든다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608215215i",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 17:30",
-        "score": 3
-      },
-      {
-        "title": "만기 1년 안 남았는데 연 4.3%…SK에코플랜트 회사채 '눈길'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608215109i",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 11:09",
+        "title": "US Treasury Secretary Bessent Launches Operation Outcast Against Iran",
+        "description": "US Treasury Secretary Scott Bessent announced what he called an \"unprecedented\" US campaign to sever Iran from the global economy. He says any country",
+        "url": "https://finance.yahoo.com/video/us-treasury-secretary-bessent-launches-175036221.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 02:50",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "금값 3개월 만에 최고…귀금속 ETF '고공행진'",
+        "title": "US Equity Markets Mixed as Crude Oil Prices Drop Ahead of Upcoming US Economic Sanctions on Iran",
+        "description": "US equity indexes were mixed Monday as crude oil prices dropped ahead of US economic sanctions on Ir",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-crude-200750110.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 05:07",
+        "score": 10
+      },
+      {
+        "title": "Global Gold Recycling Market Size to Reach USD 1.94 Billion by 2033, Growing at 5.5% CAGR as Gold Price Volatility and Compliance-Driven Traceability Fuel Secondary Recovery - Verified Market Research",
+        "description": "The Global Gold Recycling Market is expanding steadily as industrial buyers, jewelry manufacturers, and electronics producers increasingly turn to sec",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/global-gold-recycling-market-size-212600284.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 06:26",
+        "score": 6
+      },
+      {
+        "title": "국제유가, 대이란 제재에도 2%대 하락…차익실현 매물 영향",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026082370831",
+        "url": "https://www.hankyung.com/article/2026082500087",
         "source": "hankyung.com",
-        "publishedAt": "08/23 18:11",
+        "publishedAt": "08/25 06:55",
         "score": 5
       },
       {
-        "title": "2 Energy Stocks Riding the Data Center Power Crunch",
-        "description": "These companies operate in two different phases of the power supply chain and complement each other.",
-        "url": "https://www.fool.com/investing/2026/08/23/2-energy-stocks-riding-the-data-center-power-crunc/?.tsrc=rss",
+        "title": "Oil prices fall as Bessent outlines new steps to punish Iran",
+        "description": "Oil prices retreated as US Treasury Secretary outlined plans for more sanctions to punish Iran while stock markets mostly faltered on Monday as invest",
+        "url": "https://finance.yahoo.com/energy/articles/oil-falls-trump-pledges-economic-030019769.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/24 03:55",
-        "score": 3
+        "publishedAt": "08/25 05:32",
+        "score": 5
       },
       {
-        "title": "President Donald Trump Claims Fuel Prices Are \"Tumbling Down,\" but Trumpflation Has Become a Broad-Based Problem",
-        "description": "Energy prices aren't the headline inflation story any longer.",
-        "url": "https://www.fool.com/investing/2026/08/23/trump-prices-are-tumbling-trumpflation-broad-based/?.tsrc=rss",
+        "title": "TotalEnergies (ENXTPA:TTE) CEO Reaffirms All Energy Plan As Hormuz Flows Hold Steady",
+        "description": "TotalEnergies (ENXTPA:TTE) CEO reaffirmed the group’s all energy investment approach, covering oil, gas and low carbon projects. Management highlighte",
+        "url": "https://finance.yahoo.com/energy/articles/totalenergies-enxtpa-tte-ceo-reaffirms-211038284.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/23 17:26",
-        "score": 1
+        "publishedAt": "08/25 06:10",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, 잇단 달러매도…환율 1300원대 안착하나",
+        "title": "비트코인·금 동반 랠리…다시 뜨는 '달러 대체자산'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026082371541",
+        "url": "https://www.hankyung.com/article/202608248087i",
         "source": "hankyung.com",
-        "publishedAt": "08/23 18:12",
-        "score": 8
-      },
-      {
-        "title": "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says",
-        "description": "\"Taming inflation is the key to restoring stability in Venezuela, and all the other progress flows from that.\"",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/venezuela-abandoning-bolivar-adopting-u-231110931.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/23 08:11",
-        "score": 7
-      },
-      {
-        "title": "몸값 2조달러 노리는 앤트로픽…스페이스X 기록 넘어설까",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082370601",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 18:08",
+        "publishedAt": "08/24 15:32",
         "score": 3
       },
       {
-        "title": "Why does the USD outlook depend on UST and Fed policy credibility?",
-        "description": "Investing.com -- The U.S. dollar faces further downside as investors question whether Treasury efforts to suppress long-term yields and the Federal Re",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/why-does-usd-outlook-depend-094522087.html?.tsrc=rss",
+        "title": "엔비디아, AI 스타트업 풀사이드와 60억달러 라이선스 계약",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608248746i",
+        "source": "hankyung.com",
+        "publishedAt": "08/24 14:26",
+        "score": 3
+      },
+      {
+        "title": "Global Gold Recycling Market Size to Reach USD 1.94 Billion by 2033, Growing at 5.5% CAGR as Gold Price Volatility and Compliance-Driven Traceability Fuel Secondary Recovery - Verified Market Research",
+        "description": "The Global Gold Recycling Market is expanding steadily as industrial buyers, jewelry manufacturers, and electronics producers increasingly turn to sec",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/global-gold-recycling-market-size-212600284.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/23 18:45",
+        "publishedAt": "08/25 06:26",
         "score": 1
       },
       {
-        "title": "Sell U.S. dollar versus these currencies, BCA says",
-        "description": "Investing.com -- Investors should sell the U.S. dollar against the South Korean won, Japanese yen, Taiwan dollar, Singapore dollar and euro as America",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/sell-u-dollar-versus-currencies-090007888.html?.tsrc=rss",
+        "title": "Canadian dollar slips as trade tensions weigh on loonie",
+        "description": "Investing.com -- The USD/CAD The Canadian dollar fell on Monday, with the loonie weakening about 0.6% against the U.S. dollar, as investors assessed e",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-slips-trade-tensions-210009703.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/23 18:00",
+        "publishedAt": "08/25 06:00",
+        "score": 1
+      },
+      {
+        "title": "Why the Bitcoin Rally Looks Like a Vote Against the Dollar",
+        "description": "Bitcoin and gold rose as the dollar weakened following expanded Treasury bond buybacks, reflecting concerns about U.S. fiscal policy, analysts say.",
+        "url": "https://decrypt.co/376394/bitcoins-price-rally-trade-against-dollar?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 05:16",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Stock Futures Could Reflect Unease With Trump’s Tariff Fight With Canada",
-        "description": "The U.S. imposed a 50% tariff on about $20 billion worth of Canadian imports after talks between the countries broke down late Friday night. The levy",
-        "url": "https://finance.yahoo.com/m/25ddf905-0fdf-367b-948c-ab9fb45f3657/stock-futures-could-reflect.html?.tsrc=rss",
+        "title": "Exchange-Traded Funds, Equity Futures Fall Pre-Bell Monday as Investors Await Details on US Sanctions Against Iran",
+        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.2% and the actively tr",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131908789.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/24 05:54",
-        "score": 3
+        "publishedAt": "08/24 22:19",
+        "score": 7
       },
       {
-        "title": "G7 정부부채 GDP 대비 124%",
+        "title": "국제유가, 대이란 제재에도 2%대 하락…차익실현 매물 영향",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026082372491",
+        "url": "https://www.hankyung.com/article/2026082500087",
         "source": "hankyung.com",
-        "publishedAt": "08/23 20:09",
-        "score": 3
+        "publishedAt": "08/25 06:55",
+        "score": 6
       },
       {
-        "title": "If Amazon Is a Top Growth Stock, Then Why Does It Trade at Just 21.3x Forward Earnings While the S&P 500 Trades at 20.4x? This Is the Only Answer I Can Think Of.",
-        "description": "The company is reporting some of its best performance in years.",
-        "url": "https://www.fool.com/investing/2026/08/23/if-amazon-is-a-top-growth-stock-then-why-does-it-t/?.tsrc=rss",
+        "title": "Bessent's Iran Sanctions: Markets Price Limited Teeth Until a Major Bank Gets Hit",
+        "description": "Bessent threatened to cut Iran's enablers from the dollar system. Oil fell, Bitcoin rose, and no institution was named.",
+        "url": "https://beincrypto.com/bessent-iran-sanctions-limited-teeth-bank/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/23 20:35",
-        "score": 2
+        "publishedAt": "08/25 05:25",
+        "score": 6
       },
       {
-        "title": "Trump’s Bond Buyback Push Puts Kevin Warsh in a Tough Spot — Peter Schiff Says Treasury ‘Pulled the Rug Out From Under’",
-        "description": "The Donald Trump administration’s aggressive expansion of a Treasury bond buyback program has effectively neutralized the Federal Reserve’s ability to",
-        "url": "https://finance.yahoo.com/economy/policy/articles/trump-bond-buyback-push-puts-183139508.html?.tsrc=rss",
+        "title": "US Equity Markets Mixed as Crude Oil Prices Drop Ahead of Upcoming US Economic Sanctions on Iran",
+        "description": "US equity indexes were mixed Monday as crude oil prices dropped ahead of US economic sanctions on Ir",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-crude-200750110.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/24 03:31",
-        "score": 1
+        "publishedAt": "08/25 05:07",
+        "score": 6
       },
       {
-        "title": "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold",
-        "description": "President Trump's accounts executed more than 1,000 trades in a single month, including moves in a major defense contractor timed suspiciously close t",
-        "url": "https://247wallst.com/investing/2026/08/23/trump-continues-trading-stocks-at-warp-speed-berkshire-bought-meta-sold/?.tsrc=rss",
+        "title": "Treasury's Bessent calls for 'economic asphyxiation' of Iran through sanctions",
+        "description": "At a press conference on Monday, Department of the Treasury Secretary Scott Bessent answered Yahoo Finance Senior Reporter Jennifer Schonberger's ques",
+        "url": "https://finance.yahoo.com/video/treasurys-bessent-calls-economic-asphyxiation-200000855.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/23 22:44",
-        "score": 1
+        "publishedAt": "08/25 05:00",
+        "score": 6
       }
     ],
     "tech": [
       {
-        "title": "AI 투자 늘자…美데이터센터 채권 금리 年 7%로 급등",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082371451",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 18:21",
+        "title": "Semiconductor Stocks Slide Ahead of NVIDIA Earnings: Intel Falls 5%, AMD Slides 4%, Taiwan Semiconductor Slips 3%",
+        "description": "Chip stocks are selling off at twice the rate of broad tech ahead of NVIDIA's most consequential earnings report in years, and the name leading the gr",
+        "url": "https://247wallst.com/investing/2026/08/24/semiconductor-stocks-slide-ahead-of-nvidia-earnings-intel-falls-5-amd-slides-4-taiwan-semiconductor-slips-3/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/24 23:43",
+        "score": 16
+      },
+      {
+        "title": "Elon Musk Praises New SpaceX and NVIDIA Partnership, Yet Both Stocks Fall",
+        "description": "Elon Musk celebrated the new SpaceX-NVIDIA partnership on X, confirming a space-optimized Vera Rubin launch by 2027.",
+        "url": "https://beincrypto.com/elon-musk-spacex-nvidia-partnership-stocks-fall/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 06:39",
+        "score": 10
+      },
+      {
+        "title": "GF Securities Picks 3 AI Chip Winners: Marvell and Intel Stand Out",
+        "description": "GF Securities Sees Big AI Chip Opportunity for Marvell and Intel",
+        "url": "https://finance.yahoo.com/technology/ai/articles/gf-securities-picks-3-ai-173809626.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/25 02:38",
+        "score": 10
+      },
+      {
+        "title": "Stocks Set to Open Lower as Chipmakers Get Hit, Nvidia Earnings and Warsh’s Jackson Hole Speech Awaited",
+        "description": "September S&P 500 E-Mini futures (ESU26) are down -0.19%, and September Nasdaq 100 E-Mini futures (NQU26) are down -0.59% this morning, pointing to a",
+        "url": "https://www.barchart.com/story/news/3999070/stocks-set-to-open-lower-as-chipmakers-get-hit-nvidia-earnings-and-warshs-jackson-hole-speech-awaited?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/24 19:40",
+        "score": 10
+      },
+      {
+        "title": "Beyond Nvidia, AMD, and Broadcom: Why This Chip Stock Will Emerge as the Biggest Winner of the AI Semiconductor Boom",
+        "description": "This company has the technology and scale to benefit from the continued AI build-out.",
+        "url": "https://www.fool.com/investing/2026/08/24/beyond-nvidia-amd-and-broadcom-why-this-chip-stock/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/24 18:35",
         "score": 9
-      },
-      {
-        "title": "삼성, '계산하는 HBM' 공개…GPU 연산 'aHBM'이 맡는다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608247371i",
-        "source": "hankyung.com",
-        "publishedAt": "08/24 03:15",
-        "score": 8
-      },
-      {
-        "title": "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC. Here's What Lisa Su Is Actually Buying With That Money.",
-        "description": "AMD's biggest AI challenge may no longer be winning customers but making enough hardware to serve them.",
-        "url": "https://www.fool.com/investing/2026/08/23/amd-is-investing-more-than-xx-billion-in-taiwan-to/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/24 00:50",
-        "score": 8
-      },
-      {
-        "title": "Nvidia earnings and Jackson Hole: What to watch this week",
-        "description": "Nvidia earnings headline a busy week with an all-important inflation reading",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/23 19:00",
-        "score": 8
-      },
-      {
-        "title": "\"변동성 장세 지속…엔비디아 실적·잭슨홀 미팅 주목\" [주간전망]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082151136",
-        "source": "hankyung.com",
-        "publishedAt": "08/23 08:00",
-        "score": 8
       }
     ]
   }
