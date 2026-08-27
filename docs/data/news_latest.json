@@ -1,317 +1,285 @@
 {
-  "generated_at_kst": "2026-08-26 07:53 KST",
-  "period": "08/25 07:00 ~ 08/26 07:00 KST",
+  "generated_at_kst": "2026-08-27 12:25 KST",
+  "period": "08/26 07:00 ~ 08/27 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Stock Market Today: Nasdaq Leads As Key Inflation Report Looms; Nvidia, Micron Gain",
-        "description": "Stock Market Today: The Dow Jones index rises Tuesday as Treasury yields and oil prices drop. Nvidia, Micron and Sandisk rebound.",
-        "url": "https://finance.yahoo.com/m/de79ffd0-f04e-3c28-992c-6801c26cfde3/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "Why Are Nasdaq, S&P 500 Futures Slipping Premarket? NVDA, INTU, CRWD, CRM, CRML, SLS Stocks In Focus",
+        "description": "Retail sentiment on Stocktwits remained ‘bearish’ on SPY and QQQ.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-sp500-futures-slipping-premarket-nvda-intu-crwd-crm-crml-sls-stocks-in-focus/cZYNY7cRJYJ?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:46",
-        "score": 9
+        "publishedAt": "08/26 18:10",
+        "score": 11
       },
       {
-        "title": "US Stock Market Today: S&P 500 Futures Edge Lower As Strong PMI Complicates Fed Path",
-        "description": "The Morning Bull - US Market Morning Update Tuesday, Aug, 25 2026 US stock futures are slightly softer this morning, with E-mini S&P 500 contracts dow",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081741008.html?.tsrc=rss",
+        "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading — MRNA, SPCX, PSKY, OpenAI In Focus",
+        "description": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/25 17:17",
-        "score": 9
+        "publishedAt": "08/26 09:02",
+        "score": 11
       },
       {
-        "title": "JPMorgan sends another strong message to stock market investors",
-        "description": "JPMorgan just published something about AI stocks and the stock market that investors should read.",
-        "url": "https://www.thestreet.com/investing/stocks/jpmorgan-warns-investors-about-artificial-intelligence-ai-stocks?.tsrc=rss",
+        "title": "Stock Market Midday, Aug. 26: Markets Muted as Investors Await Nvidia Earnings",
+        "description": "July inflation came in hotter than expected, weighing on major indexes as investors brace for Nvidia earnings after the bell today, Aug. 26, 2026.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/26/stock-market-midday-aug-26-markets-muted-as-investors-await-nvidia-earnings/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 06:33",
+        "publishedAt": "08/27 01:47",
         "score": 5
       },
       {
-        "title": "Rate cuts may not be enough to tame bond market chaos. Here's why.",
-        "description": "Treasury yields (^TYX, ^TNX, ^FVX) are cooling slightly on Tuesday ahead of Federal Reserve Chairman Kevin Warsh's keynote speech at the Jackson Hole",
-        "url": "https://finance.yahoo.com/video/rate-cuts-may-not-enough-150000506.html?.tsrc=rss",
+        "title": "These 3 International Dividend ETFs Pay Up to Three Times SCHD and Are Beating the S&P 500 This Year",
+        "description": "SCHD is the default income benchmark, but three international dividend ETFs are quietly outpacing it on yield and, in some cases, total return too. Th",
+        "url": "https://247wallst.com/investing/etf/2026/08/25/these-3-international-dividend-etfs-pay-up-to-three-times-schd-and-are-beating-the-sp-500-this-year/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 00:00",
+        "publishedAt": "08/26 07:05",
         "score": 5
       },
       {
-        "title": "Cleveland-Cliffs (CLF) Laps the Stock Market: Here's Why",
-        "description": "Cleveland-Cliffs (CLF) closed the most recent trading day at $11.52, moving +1.95% from the previous trading session.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cleveland-cliffs-clf-laps-stock-215002344.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Slides On Inflation; Nvidia Loses Ahead Of Earnings, Micron Climbs",
+        "description": "Stock Market Today: The Dow index retreats Wednesday after key inflation data. Abercrombie & Fitch spikes while Micron and Sandisk rise.",
+        "url": "https://finance.yahoo.com/m/d7f80b14-8dc7-32d8-aa94-5ee0dea18bdb/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 06:50",
+        "publishedAt": "08/27 05:26",
         "score": 4
       }
     ],
     "kr_market": [
       {
-        "title": "코스피, 반등해 6700선 회복…코스닥도 오름세",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082516606",
-        "source": "hankyung.com",
-        "publishedAt": "08/25 15:41",
+        "title": "SK hynix (SKHY) and Samsung Electronics: SK hynix Is Spending $720 Billion on Memory Chips. Its Stock Has Already Fallen 21%",
+        "description": "On August 13, 2026, CNBC reported that SK hynix Inc. (NASDAQ:SKHY) is spending $720 billion on what it calls the largest network of memory factories i",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-skhy-samsung-electronics-203911366.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 05:39",
         "score": 10
       },
       {
-        "title": "450조원 '몰빵' 후폭풍…'롤러코스피' 더 심해진 이유 있었다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082522511",
-        "source": "hankyung.com",
-        "publishedAt": "08/26 06:00",
+        "title": "Samsung Electronics (KOSE:A005930) Stock Could Still Be A Bargain",
+        "description": "Samsung Electronics stock has delivered very strong gains over the past three years, yet current valuation checks still point to shares that screen as",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-stock-201835773.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 05:18",
         "score": 5
       },
       {
-        "title": "ETF가 공모펀드 밀어내자…'롤러코스피' 더 거칠어졌다",
+        "title": "\"삼성전자 분위기 어때요?\"…현직자들에 질문 쏟아졌다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026082521581",
+        "url": "https://www.hankyung.com/article/202608264647g",
         "source": "hankyung.com",
-        "publishedAt": "08/26 06:00",
+        "publishedAt": "08/26 17:02",
         "score": 5
       },
       {
-        "title": "SK하이닉스, '성과급 60% 자사주' 부결",
+        "title": "카카오 \"로컬 AI기업 100곳 만들 것\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026082520971",
+        "url": "https://www.hankyung.com/article/2026082648271",
         "source": "hankyung.com",
-        "publishedAt": "08/25 18:59",
-        "score": 5
+        "publishedAt": "08/26 17:36",
+        "score": 3
       },
       {
-        "title": "기타법인 순매수에 반도체 낙폭 만회…코스피 6700 지켰다",
+        "title": "'기업가치 17조 제고' 전망에도…카카오 노조는 \"인적분할 반대\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608251696i",
+        "url": "https://www.hankyung.com/article/202608264360g",
         "source": "hankyung.com",
-        "publishedAt": "08/25 16:31",
-        "score": 5
+        "publishedAt": "08/26 16:10",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "US Equity Markets Higher as Crude Oil Prices, Bond Yields Drop After US Treasury Threatens Economic Sanctions on Iran",
-        "description": "US equity indexes ended higher Tuesday as crude oil prices and government bond yields dropped, after",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-higher-crude-201819661.html?.tsrc=rss",
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release",
+        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131226701.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:18",
+        "publishedAt": "08/26 22:12",
+        "score": 5
+      },
+      {
+        "title": "Dollar, Treasury Yields Edge Higher Ahead of PCE Data",
+        "description": "The dollar and U.S. Treasury yields were rising in early trade, awaiting July's release of PCE data, the Federal Reserve's preferred gauge of inflatio",
+        "url": "https://finance.yahoo.com/m/c94e24fb-e015-34eb-ae69-a7f6b870cef8/dollar%2C-treasury-yields-edge.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/26 19:44",
+        "score": 5
+      },
+      {
+        "title": "“뇌에서 타그리소보다 40배”…보로노이, 표적항암제 VRN11 640㎎ 고용량 도전",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608264976i",
+        "source": "hankyung.com",
+        "publishedAt": "08/26 18:21",
+        "score": 3
+      },
+      {
+        "title": "Dollar Supported by US Economic Strength",
+        "description": "The dollar index (DXY00 ) rose by +0.24% on Wednesday. The dollar moved higher on Wednesday due to signs of strength in the US economy after July pers",
+        "url": "https://www.barchart.com/story/news/4132749/dollar-supported-by-us-economic-strength?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 04:37",
         "score": 1
       },
       {
-        "title": "Scott Bessent's Bond Plan 'Won't Work,' Citi Economist Says: US Fiscal Position Is 'Absolutely Out of Control'",
-        "description": "Treasury Secretary Scott Bessent is facing a brutal verdict on his attempt to tame long-term yields: it won’t work, according to a former senior Treas",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61414185/bessent-bond-plan-citi-economist?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "Dollar Rises on US Economic News",
+        "description": "The dollar index (DXY00 ) is up by +0.23% today. The dollar is moving higher today on signs of strength in the US economy after July personal spending",
+        "url": "https://www.barchart.com/story/news/4110074/dollar-rises-on-us-economic-news?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 00:57",
-        "score": 1
-      },
-      {
-        "title": "Dollar Slips on Weaker-Than-Expected US Economic News",
-        "description": "The dollar index (DXY00 ) is down by -0.04% today. The dollar gave up an early advance today and turned lower on weaker-than-expected US economic news",
-        "url": "https://www.barchart.com/story/news/4024416/dollar-slips-on-weaker-than-expected-us-economic-news?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/25 23:33",
+        "publishedAt": "08/26 23:39",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Update: US Equity Indexes Rise With Tech While Treasury Yields, Crude Oil Slide as Process to Tighten Noose Around Iran Begins",
-        "description": "(Updates with index/price moves, macroeconomic data, analyst comments and company/geopolitical news",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-tech-211306671.html?.tsrc=rss",
+        "title": "Dollar, Treasury Yields Edge Higher Ahead of PCE Data",
+        "description": "The dollar and U.S. Treasury yields were rising in early trade, awaiting July's release of PCE data, the Federal Reserve's preferred gauge of inflatio",
+        "url": "https://finance.yahoo.com/m/c94e24fb-e015-34eb-ae69-a7f6b870cef8/dollar%2C-treasury-yields-edge.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 06:13",
+        "publishedAt": "08/26 19:44",
         "score": 8
-      },
-      {
-        "title": "Update: US Equity Indexes Advance Amid Slumping Treasury Yields, Crude Oil",
-        "description": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-advance-amid-194052810.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 04:40",
-        "score": 8
-      },
-      {
-        "title": "US Equity Markets Higher as Crude Oil Prices, Bond Yields Drop After US Treasury Threatens Economic Sanctions on Iran",
-        "description": "US equity indexes ended higher Tuesday as crude oil prices and government bond yields dropped, after",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-higher-crude-201819661.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:18",
-        "score": 3
-      },
-      {
-        "title": "부실채권 시장점유율 43%→16%…유암코에 무슨 일이?",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082522071",
-        "source": "hankyung.com",
-        "publishedAt": "08/25 18:24",
-        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "US Equity Markets Higher as Crude Oil Prices, Bond Yields Drop After US Treasury Threatens Economic Sanctions on Iran",
-        "description": "US equity indexes ended higher Tuesday as crude oil prices and government bond yields dropped, after",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-higher-crude-201819661.html?.tsrc=rss",
+        "title": "NuScale Power Tumbles 7% Despite Deploying AI Tools, Oklo Slides 6%, Uranium Energy Dips",
+        "description": "Nuclear stocks are reversing hard today even as NuScale announced a real operational win, and the gap between improving fundamentals and falling share",
+        "url": "https://247wallst.com/investing/2026/08/26/nuscale-power-tumbles-7-despite-deploying-ai-tools-oklo-slides-6-uranium-energy-dips/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:18",
-        "score": 10
+        "publishedAt": "08/27 02:54",
+        "score": 3
       },
       {
-        "title": "Update: US Equity Indexes Rise With Tech While Treasury Yields, Crude Oil Slide as Process to Tighten Noose Around Iran Begins",
-        "description": "(Updates with index/price moves, macroeconomic data, analyst comments and company/geopolitical news",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-tech-211306671.html?.tsrc=rss",
+        "title": "What Just Happened With Woodside Energy Group (ASX:WDS) Shares?",
+        "description": "Woodside Energy Group (ASX:WDS) is back in focus after its 24 August 2026 half year earnings release and a declared interim dividend of US$0.57 per sh",
+        "url": "https://finance.yahoo.com/energy/articles/just-happened-woodside-energy-group-150747843.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 06:13",
-        "score": 5
-      },
-      {
-        "title": "TSX Closer: The Index Closes at Record High as Base Metals, Financials, Rally While Oil Prices Tumble",
-        "description": "The S&P/TSX Composite Index closed at a record high on Tuesday as gains in base metals and financial",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-closes-record-202608492.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:26",
-        "score": 5
-      },
-      {
-        "title": "Update: US Equity Indexes Advance Amid Slumping Treasury Yields, Crude Oil",
-        "description": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-advance-amid-194052810.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 04:40",
-        "score": 5
-      },
-      {
-        "title": "Easing Oil Prices, Firming Tech Sector Undergird Asian Stock Markets",
-        "description": "Asian stock markets traded moderately higher Tuesday, as oil prices softened and traders assessed va",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/easing-oil-prices-firming-tech-103457880.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/25 19:34",
-        "score": 5
+        "publishedAt": "08/27 00:07",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "환율 내려오자 달러 '줍줍'…예금부터 ETF까지 돈 몰렸다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608251781i",
-        "source": "hankyung.com",
-        "publishedAt": "08/25 16:10",
-        "score": 8
-      },
-      {
-        "title": "European Equities Mostly Higher in Tuesday Trading; Equinor Plans Higher Output Outside Norway",
-        "description": "European stock markets closed mostly higher in Tuesday trading, with the Stoxx 600 adding 0.4%, Germ",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/european-equities-mostly-higher-tuesday-160511525.html?.tsrc=rss",
+        "title": "3 Things to Know About Revolut’s New Euro Stablecoin",
+        "description": "Revolut has launched EURR in Europe. Here’s how it differs from USDC, what it offers users, and what remains unclear.",
+        "url": "https://beincrypto.com/revolut-euro-stablecoin-things-to-know/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 01:05",
+        "publishedAt": "08/26 22:30",
         "score": 3
       },
       {
-        "title": "Scott Bessent Predicted a Potentially Gold-Backed Renminbi in 2023: Now, China Has Quietly Acquired ‘Far More Gold’ Than Reported",
-        "description": "In 2023, the current Treasury Secretary Scott Bessent had floated a scenario wherein China could develop a Renminbi backed by or exchangeable for gold",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/scott-bessent-predicted-potentially-gold-133107849.html?.tsrc=rss",
+        "title": "Revolut debuts Euro-pegged stablecoin",
+        "description": "The e-money token (EMT) is issued by Bridge Building, a MiCA-registered crypto-asset service provider (CASP).",
+        "url": "https://www.electronicpaymentsinternational.com/news/revolut-debuts-euro-pegged-stablecoin/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/25 22:31",
+        "publishedAt": "08/26 21:27",
         "score": 3
       },
       {
-        "title": "What the new US sanctions on Iran mean for European businesses",
-        "description": "The US has unveiled a sweeping expansion of secondary sanctions intended to sever Iran's remaining links to the global economy, warning that companies",
-        "url": "https://www.euronews.com/2026/08/25/what-the-new-us-sanctions-on-iran-mean-for-european-businesses?.tsrc=rss",
+        "title": "Canadian dollar weakens as trade tensions and U.S. inflation weigh",
+        "description": "Investing.com --The Canadian dollar weakened on Wednesday, with the U.S. dollar rising against the loonie as renewed trade tensions with the United St",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-weakens-trade-tensions-211808212.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/25 19:19",
-        "score": 3
+        "publishedAt": "08/27 06:18",
+        "score": 1
       },
       {
-        "title": "[구영권의 글로벌 투자 브리핑]아포텍스 헬스 등 22곳, 6월 '1억달러 이상' 투자 유치 헬스테크 4곳, 의료기기 2곳, 진단·솔루션 1곳 등 포함",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202607305406i",
-        "source": "hankyung.com",
-        "publishedAt": "08/25 08:55",
-        "score": 3
+        "title": "Dollar Supported by US Economic Strength",
+        "description": "The dollar index (DXY00 ) rose by +0.24% on Wednesday. The dollar moved higher on Wednesday due to signs of strength in the US economy after July pers",
+        "url": "https://www.barchart.com/story/news/4132749/dollar-supported-by-us-economic-strength?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 04:37",
+        "score": 1
+      },
+      {
+        "title": "Analyst says Bitcoin surge is a warning sign for U.S. dollar",
+        "description": "The Professional Capital Management CEO tied Bitcoin’s $80,000 return directly to a single Treasury announcement, and said the structural case for Bit",
+        "url": "https://www.thestreet.com/crypto/markets/analyst-says-bitcoin-surge-is-a-warning-sign-for-u-s-dollar?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 04:30",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Oil down as traders weigh US sanctions threat against Iran",
-        "description": "Oil prices fell for a second day on Tuesday as traders judged the risk of renewed military strikes on Iran to have receded, after the United States in",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-stagger-oil-rises-traders-024603014.html?.tsrc=rss",
+        "title": "Canadian dollar weakens as trade tensions and U.S. inflation weigh",
+        "description": "Investing.com --The Canadian dollar weakened on Wednesday, with the U.S. dollar rising against the loonie as renewed trade tensions with the United St",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-weakens-trade-tensions-211808212.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:35",
-        "score": 7
-      },
-      {
-        "title": "US Equity Markets Higher as Crude Oil Prices, Bond Yields Drop After US Treasury Threatens Economic Sanctions on Iran",
-        "description": "US equity indexes ended higher Tuesday as crude oil prices and government bond yields dropped, after",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-higher-crude-201819661.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:18",
-        "score": 6
-      },
-      {
-        "title": "What the new US sanctions on Iran mean for European businesses",
-        "description": "The US has unveiled a sweeping expansion of secondary sanctions intended to sever Iran's remaining links to the global economy, warning that companies",
-        "url": "https://www.euronews.com/2026/08/25/what-the-new-us-sanctions-on-iran-mean-for-european-businesses?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/25 19:19",
-        "score": 6
-      },
-      {
-        "title": "Update: Equities Rise Despite US-Canada Trade Tensions",
-        "description": "(Updates with market moves at the end of the day, and other changes, if any.) Stocks rose Tuesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/equities-rise-despite-us-canada-204357386.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:43",
+        "publishedAt": "08/27 06:18",
         "score": 4
       },
       {
-        "title": "Why Canadian oil escaped the 50% tariff policy",
-        "description": "After the US-Canada trade talks collapsed, the US moved to raise tariffs to 50% one global commodity was left out of the tariff policy:  oil. The US i",
-        "url": "https://finance.yahoo.com/video/why-canadian-oil-escaped-50-195100869.html?.tsrc=rss",
+        "title": "Abercrombie & Fitch Soars 37% on a $100M Tariff Refund and Raised Guidance, Ross and Kohl’s Hold Steady",
+        "description": "A $100 million tariff refund sent Abercrombie surging in a single session while the same catalyst left Kohl's nearly unchanged and Ross investors shru",
+        "url": "https://247wallst.com/investing/2026/08/26/abercrombie-fitch-soars-37-on-a-100m-tariff-refund-and-raised-guidance-ross-stores-holds-flat/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 04:51",
+        "publishedAt": "08/27 00:30",
         "score": 3
+      },
+      {
+        "title": "Kohl’s Falls 6% Despite Raised Guidance and a $150M Tariff Refund, Ross and TJX Hold Flat",
+        "description": "Kohl's posted a blowout earnings beat and raised its full-year outlook, yet shares are cratering while rivals Ross and TJX barely flinch. The reason b",
+        "url": "https://247wallst.com/investing/2026/08/26/kohls-falls-6-despite-raised-guidance-and-a-150m-tariff-refund-ross-and-tjx-hold-flat/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/26 22:20",
+        "score": 3
+      },
+      {
+        "title": "Record ETF flows show the ‘debasement trade’ is overtaking AI, analyst says",
+        "description": "Analyst says fears over a weaker dollar are overtaking the AI mania.",
+        "url": "https://www.thestreet.com/crypto/markets/record-etf-flows-show-the-debasement-trade-is-overtaking-ai-analyst-says?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 06:26",
+        "score": 1
+      },
+      {
+        "title": "Analyst says Bitcoin surge is a warning sign for U.S. dollar",
+        "description": "The Professional Capital Management CEO tied Bitcoin’s $80,000 return directly to a single Treasury announcement, and said the structural case for Bit",
+        "url": "https://www.thestreet.com/crypto/markets/analyst-says-bitcoin-surge-is-a-warning-sign-for-u-s-dollar?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 04:30",
+        "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX Rises 3% as Musk Pulls the NVIDIA Orbital Data Center Into 2027, JPMorgan Sees 75% Upside",
-        "description": "SpaceX stock is surging on a timeline shift that has nothing to do with rockets and everything to do with AI compute in orbit, but a looming share unl",
-        "url": "https://247wallst.com/investing/2026/08/25/spacex-rises-3-as-musk-pulls-the-nvidia-orbital-data-center-into-2027-jpmorgan-sees-75-upside/?.tsrc=rss",
+        "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading — MRNA, SPCX, PSKY, OpenAI In Focus",
+        "description": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 01:22",
-        "score": 12
+        "publishedAt": "08/26 09:02",
+        "score": 14
       },
       {
-        "title": "\"반도체 반등 트리거 될까\"…대망의 엔비디아 실적발표 '주목 포인트'는",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608251796i",
-        "source": "hankyung.com",
-        "publishedAt": "08/25 16:20",
-        "score": 11
+        "title": "Intel Just Found an Opening in the AI Chip Race",
+        "description": "New processors and TSMC packaging issues could reshape the opportunity.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/intel-may-found-opening-ai-144250683.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/26 23:42",
+        "score": 10
       },
       {
-        "title": "Cathie Wood's Biggest Buy Last Week Was SpaceX. She Sold Almost Exactly That Much Palantir the Same Day.",
-        "description": "Two trades of nearly identical size, on the same day, in opposite directions. The pairing says a lot about how she ranks two of the market's most-owne",
-        "url": "https://www.fool.com/investing/2026/08/25/cathie-wood-s-biggest-buy-last-week-was-spacex-she-sold-almost-exactly-that-much-palantir-the-same-day/?.tsrc=rss",
+        "title": "SK hynix (SKHY) and Samsung Electronics: SK hynix Is Spending $720 Billion on Memory Chips. Its Stock Has Already Fallen 21%",
+        "description": "On August 13, 2026, CNBC reported that SK hynix Inc. (NASDAQ:SKHY) is spending $720 billion on what it calls the largest network of memory factories i",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-skhy-samsung-electronics-203911366.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 05:47",
+        "publishedAt": "08/27 05:39",
         "score": 9
       },
       {
-        "title": "Are Emerging Markets Now An AI Trade? TSMC, Samsung, SK Hynix Drive More Than Half The Gains",
-        "description": "The South Korean market has run sharply thanks to AI-driven gains in Samsung and SK Hynix.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/are-emerging-markets-now-an-ai-trade-tsmc-samsung-sk-hynix-drive-more-than-half-the-gains/cZYkBgSRJFU?.tsrc=rss",
+        "title": "Stock Market Midday, Aug. 26: Markets Muted as Investors Await Nvidia Earnings",
+        "description": "July inflation came in hotter than expected, weighing on major indexes as investors brace for Nvidia earnings after the bell today, Aug. 26, 2026.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/26/stock-market-midday-aug-26-markets-muted-as-investors-await-nvidia-earnings/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/25 12:45",
-        "score": 7
+        "publishedAt": "08/27 01:47",
+        "score": 9
       },
       {
-        "title": "TSMC Jumps Before Nvidia Tests Its Capacity Bet",
-        "description": "The foundry is already building for aggressive demand forecasts that Wednesday's earnings must help validate.",
-        "url": "https://finance.yahoo.com/technology/articles/tsmc-jumps-nvidia-tests-capacity-195825384.html?.tsrc=rss",
+        "title": "TSMC's July Surge Raises the Bar for Nvidia's Foundry",
+        "description": "Another 44.7% revenue jump leaves little room for tonight's largest AI customer to deliver ordinary guidance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmcs-july-surge-raises-bar-190325583.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 04:58",
-        "score": 6
+        "publishedAt": "08/27 04:03",
+        "score": 7
       }
     ]
   }
