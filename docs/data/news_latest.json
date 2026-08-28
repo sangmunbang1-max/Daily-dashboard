@@ -1,285 +1,277 @@
 {
-  "generated_at_kst": "2026-08-27 12:25 KST",
-  "period": "08/26 07:00 ~ 08/27 07:00 KST",
+  "generated_at_kst": "2026-08-28 15:13 KST",
+  "period": "08/27 07:00 ~ 08/28 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Why Are Nasdaq, S&P 500 Futures Slipping Premarket? NVDA, INTU, CRWD, CRM, CRML, SLS Stocks In Focus",
-        "description": "Retail sentiment on Stocktwits remained ‘bearish’ on SPY and QQQ.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-sp500-futures-slipping-premarket-nvda-intu-crwd-crm-crml-sls-stocks-in-focus/cZYNY7cRJYJ?.tsrc=rss",
+        "title": "나스닥, S&P 500 선물이 시장 전 상승세를 보이는 이유는 무엇입니까? NVDA, MU, MRVL, OKTA, CRM, WEN, RKLB 주식에 집중",
+        "description": "Stocktwits에 대한 소매 심리는 QQQ에서 '약세'를 유지했고 SPY에서는 '중립'으로 개선되었습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-futures-soaring-premarket-nvda-mu-mrvl-okta-crm-wen-rklb-stocks-in-focus/cZY8vxLRJpv?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 18:10",
+        "publishedAt": "08/27 17:54",
         "score": 11
       },
       {
-        "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading — MRNA, SPCX, PSKY, OpenAI In Focus",
-        "description": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom?.tsrc=rss",
+        "title": "오늘, 8월 27일 주식 시장: Salesforce, 인류애적 파트너십으로 23% 급등 및 2분기 실적 상회",
+        "description": "2026년 8월 27일 오늘, 클라우드 소프트웨어 대기업의 주가는 기록적인 분기 실적 이후 22.6% 급등했으며 2027 회계연도 전망을 상향 조정했습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/27/stock-market-today-aug-27-salesforce-surges-23-on-anthropic-partnership-and-q2-earnings-beat/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 09:02",
-        "score": 11
+        "publishedAt": "08/28 06:47",
+        "score": 9
       },
       {
-        "title": "Stock Market Midday, Aug. 26: Markets Muted as Investors Await Nvidia Earnings",
-        "description": "July inflation came in hotter than expected, weighing on major indexes as investors brace for Nvidia earnings after the bell today, Aug. 26, 2026.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/26/stock-market-midday-aug-26-markets-muted-as-investors-await-nvidia-earnings/?.tsrc=rss",
+        "title": "애널리스트들이 선정한 지금 매수할 S&P 500 상위 주식",
+        "description": "Wynn Resorts, AutoZone 및 Diamondback Energy는 이번 달 월스트리트의 최고 등급 주식 목록에 올랐습니다. 다른 이름 중 일부는 당신을 놀라게 할 수도 있습니다.",
+        "url": "https://www.kiplinger.com/investing/analysts-top-sandp-500-stocks-to-buy-now?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 01:47",
+        "publishedAt": "08/28 06:47",
+        "score": 6
+      },
+      {
+        "title": "두 번의 수익 상승으로 사이버 보안 주식 반등: Okta 스파이크 22%, CrowdStrike 점프 13%",
+        "description": "Okta와 CrowdStrike는 둘 다 수익을 크게 깎아내렸지만 성장 둔화와 부진한 실적에도 불구하고 한 주식이 다른 주식보다 거의 두 배나 급등하고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/08/27/cybersecurity-stocks-rally-on-twin-earnings-beats-okta-spikes-22-crowdstrike-jumps-13/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 22:34",
+        "score": 6
+      },
+      {
+        "title": "억만장자 이스라엘 잉글랜드인의 가장 큰 투자 2가지가 S&P 500에 있었고 그는 방금 더 많이 샀습니다.",
+        "description": "정교한 헤지펀드라도 인덱스 펀드의 단순성에 의존합니다.",
+        "url": "https://www.fool.com/investing/2026/08/27/billionaire-israel-englander-big-bets-sp-500/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/28 01:49",
         "score": 5
-      },
-      {
-        "title": "These 3 International Dividend ETFs Pay Up to Three Times SCHD and Are Beating the S&P 500 This Year",
-        "description": "SCHD is the default income benchmark, but three international dividend ETFs are quietly outpacing it on yield and, in some cases, total return too. Th",
-        "url": "https://247wallst.com/investing/etf/2026/08/25/these-3-international-dividend-etfs-pay-up-to-three-times-schd-and-are-beating-the-sp-500-this-year/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 07:05",
-        "score": 5
-      },
-      {
-        "title": "Stock Market Today: Dow Slides On Inflation; Nvidia Loses Ahead Of Earnings, Micron Climbs",
-        "description": "Stock Market Today: The Dow index retreats Wednesday after key inflation data. Abercrombie & Fitch spikes while Micron and Sandisk rise.",
-        "url": "https://finance.yahoo.com/m/d7f80b14-8dc7-32d8-aa94-5ee0dea18bdb/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/27 05:26",
-        "score": 4
       }
     ],
     "kr_market": [
       {
-        "title": "SK hynix (SKHY) and Samsung Electronics: SK hynix Is Spending $720 Billion on Memory Chips. Its Stock Has Already Fallen 21%",
-        "description": "On August 13, 2026, CNBC reported that SK hynix Inc. (NASDAQ:SKHY) is spending $720 billion on what it calls the largest network of memory factories i",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-skhy-samsung-electronics-203911366.html?.tsrc=rss",
+        "title": "NVIDIA의 2,790억 달러 메모리 약속에도 불구하고 Micron은 뒤처집니다. 웨스턴디지털 4% 하락, SK하이닉스 상승",
+        "description": "NVIDIA는 방금 한 분기에 거의 3배나 증가한 메모리 약속을 공개했지만, 지명된 공급업체의 주가는 목요일에 크게 하락하고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/08/27/micron-lags-despite-nvidias-279b-memory-commitment-western-digital-drops-4-sk-hynix-ticks-up/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 05:39",
-        "score": 10
-      },
-      {
-        "title": "Samsung Electronics (KOSE:A005930) Stock Could Still Be A Bargain",
-        "description": "Samsung Electronics stock has delivered very strong gains over the past three years, yet current valuation checks still point to shares that screen as",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-stock-201835773.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/27 05:18",
+        "publishedAt": "08/28 03:18",
         "score": 5
       },
       {
-        "title": "\"삼성전자 분위기 어때요?\"…현직자들에 질문 쏟아졌다",
+        "title": "SKT·네이버클라우드 'K미토스' 공모 도전",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608264647g",
+        "url": "https://www.hankyung.com/article/2026082777341",
         "source": "hankyung.com",
-        "publishedAt": "08/26 17:02",
-        "score": 5
-      },
-      {
-        "title": "카카오 \"로컬 AI기업 100곳 만들 것\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026082648271",
-        "source": "hankyung.com",
-        "publishedAt": "08/26 17:36",
-        "score": 3
-      },
-      {
-        "title": "'기업가치 17조 제고' 전망에도…카카오 노조는 \"인적분할 반대\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608264360g",
-        "source": "hankyung.com",
-        "publishedAt": "08/26 16:10",
+        "publishedAt": "08/27 18:44",
         "score": 3
       }
     ],
     "macro": [
       {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release",
-        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131226701.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 22:12",
-        "score": 5
-      },
-      {
-        "title": "Dollar, Treasury Yields Edge Higher Ahead of PCE Data",
-        "description": "The dollar and U.S. Treasury yields were rising in early trade, awaiting July's release of PCE data, the Federal Reserve's preferred gauge of inflatio",
-        "url": "https://finance.yahoo.com/m/c94e24fb-e015-34eb-ae69-a7f6b870cef8/dollar%2C-treasury-yields-edge.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 19:44",
-        "score": 5
-      },
-      {
-        "title": "“뇌에서 타그리소보다 40배”…보로노이, 표적항암제 VRN11 640㎎ 고용량 도전",
+        "title": "'백투백' 금리 인상한 한은…원화 강세 가속화되나 [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608264976i",
+        "url": "https://www.hankyung.com/article/2026082772126",
         "source": "hankyung.com",
-        "publishedAt": "08/26 18:21",
+        "publishedAt": "08/27 20:00",
+        "score": 5
+      },
+      {
+        "title": "중앙 은행 회의에 따른 긴축 정책 가능성",
+        "description": "트레이더들은 케빈 워시(Kevin Warsh) 연준 의장의 첫 심포지엄에서 정책에 대한 힌트를 찾습니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/probabilities-tighter-policy-view-central-150109537.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/28 00:01",
         "score": 3
       },
       {
-        "title": "Dollar Supported by US Economic Strength",
-        "description": "The dollar index (DXY00 ) rose by +0.24% on Wednesday. The dollar moved higher on Wednesday due to signs of strength in the US economy after July pers",
-        "url": "https://www.barchart.com/story/news/4132749/dollar-supported-by-us-economic-strength?.tsrc=rss",
+        "title": "TSX Closer: 기술주 상승으로 지수 상승; 투자자들은 경제 데이터와 BoC 전망을 중요하게 생각합니다",
+        "description": "S&P/TSX 종합 지수는 목요일 정보 기술 부문의 상승으로 소폭 상승세로 마감했습니다.",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-higher-technology-203145423.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 04:37",
+        "publishedAt": "08/28 05:31",
         "score": 1
       },
       {
-        "title": "Dollar Rises on US Economic News",
-        "description": "The dollar index (DXY00 ) is up by +0.23% today. The dollar is moving higher today on signs of strength in the US economy after July personal spending",
-        "url": "https://www.barchart.com/story/news/4110074/dollar-rises-on-us-economic-news?.tsrc=rss",
+        "title": "미국 경제 데이터가 약세를 보이고 있으므로 지금 1번 거래하세요",
+        "description": "12월 영국 파운드 선물은 가격 강세를 바탕으로 매수 기회를 제공합니다.",
+        "url": "https://www.barchart.com/story/news/4215307/as-u-s-economic-data-shows-weakness-make-this-1-trade-now?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 23:39",
+        "publishedAt": "08/27 23:19",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Dollar, Treasury Yields Edge Higher Ahead of PCE Data",
-        "description": "The dollar and U.S. Treasury yields were rising in early trade, awaiting July's release of PCE data, the Federal Reserve's preferred gauge of inflatio",
-        "url": "https://finance.yahoo.com/m/c94e24fb-e015-34eb-ae69-a7f6b870cef8/dollar%2C-treasury-yields-edge.html?.tsrc=rss",
+        "title": "비트코인의 반등이 국채 거래에 도달함에 따라 전략이 10% 급등하고 MARA가 9% 급등했습니다.",
+        "description": "비트코인의 3% 반등은 오늘날 Strategy 주식과 MARA에 매우 다른 영향을 미치고 있으며, 두 움직임 사이의 격차는 비트코인의 구조적 격차를 드러냅니다.",
+        "url": "https://247wallst.com/investing/2026/08/27/strategy-spikes-10-as-bitcoins-rebound-reaches-the-treasury-trade-mara-surges-9/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 19:44",
-        "score": 8
+        "publishedAt": "08/28 00:02",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "NuScale Power Tumbles 7% Despite Deploying AI Tools, Oklo Slides 6%, Uranium Energy Dips",
-        "description": "Nuclear stocks are reversing hard today even as NuScale announced a real operational win, and the gap between improving fundamentals and falling share",
-        "url": "https://247wallst.com/investing/2026/08/26/nuscale-power-tumbles-7-despite-deploying-ai-tools-oklo-slides-6-uranium-energy-dips/?.tsrc=rss",
+        "title": "원유가격은 언제 안정될 것인가?",
+        "description": "원유 가격은 2026년 3월 고점에서 하락했지만 중동 지역의 불확실성과 적대감으로 인해 여전히 높은 변동성을 보이고 있습니다. Cr",
+        "url": "https://www.barchart.com/story/news/4235848/when-will-crude-oil-prices-stabilize?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 02:54",
+        "publishedAt": "08/28 04:00",
+        "score": 10
+      },
+      {
+        "title": "원유는 미국-이란 전쟁을 종식시키기 위한 외교적 의심에 더 높은 안착을 보이고 있습니다.",
+        "description": "10월 WTI 원유(CLV26 )는 목요일에 +1.30(+1.58%) 상승 마감했고, 10월 RBOB 휘발유(RBV26 )는 +0.0298(+1.01%) 상승 마감했습니다. 원유 및 가스",
+        "url": "https://www.barchart.com/story/news/4237036/crude-oil-settles-higher-on-diplomacy-doubts-to-end-us-iran-war?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/28 04:16",
+        "score": 5
+      },
+      {
+        "title": "위험 선호도가 회복되면서 플러그 전력이 4% 증가합니다. FuelCell 인치 증가, Bloom Energy는 변동 없음",
+        "description": "하나의 티커가 해당 부문으로 유입되는 거의 모든 위험 선호도를 흡수함에 따라 수소 주식은 목요일 급격하게 분할되었으며 그 이유는 없습니다.",
+        "url": "https://247wallst.com/investing/2026/08/27/plug-power-gains-4-as-risk-appetite-returns-fuelcell-inches-higher-bloom-energy-holds-flat/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/28 01:29",
+        "score": 4
+      },
+      {
+        "title": "부문 업데이트: 늦은 오후 에너지 주식 혼합",
+        "description": "에너지 주식은 목요일 오후 늦게 NYSE 에너지 부문 지수가 0.2% 상승했고,",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-afternoon-194619383.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/28 04:46",
         "score": 3
       },
       {
-        "title": "What Just Happened With Woodside Energy Group (ASX:WDS) Shares?",
-        "description": "Woodside Energy Group (ASX:WDS) is back in focus after its 24 August 2026 half year earnings release and a declared interim dividend of US$0.57 per sh",
-        "url": "https://finance.yahoo.com/energy/articles/just-happened-woodside-energy-group-150747843.html?.tsrc=rss",
+        "title": "EPD 대 Exxon: 퇴직자는 어떤 에너지 배당금을 신뢰해야 합니까?",
+        "description": "2020년 석유가 붕괴되었을 때, 수십 년 동안 배당금을 인상한 두 개의 에너지 블루칩은 똑같은 잔인한 시장에 직면했지만 단 하나만 계속해서 배당금을 올렸습니다.",
+        "url": "https://247wallst.com/investing/2026/08/27/epd-vs-exxon-which-energy-dividend-should-retirees-trust/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 00:07",
+        "publishedAt": "08/28 03:47",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "3 Things to Know About Revolut’s New Euro Stablecoin",
-        "description": "Revolut has launched EURR in Europe. Here’s how it differs from USDC, what it offers users, and what remains unclear.",
-        "url": "https://beincrypto.com/revolut-euro-stablecoin-things-to-know/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 22:30",
-        "score": 3
+        "title": "'백투백' 금리 인상한 한은…원화 강세 가속화되나 [분석+]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026082772126",
+        "source": "hankyung.com",
+        "publishedAt": "08/27 20:00",
+        "score": 5
       },
       {
-        "title": "Revolut debuts Euro-pegged stablecoin",
-        "description": "The e-money token (EMT) is issued by Bridge Building, a MiCA-registered crypto-asset service provider (CASP).",
-        "url": "https://www.electronicpaymentsinternational.com/news/revolut-debuts-euro-pegged-stablecoin/?.tsrc=rss",
+        "title": "잭슨 홀보다 EUR/USD, USD/JPY 및 USD/CAD 선호 달러",
+        "description": "EUR/USD는 USD/JPY와 USD/CAD가 하락세에도 강세를 유지하면서 1.1600을 목표로 삼고 잭슨 홀 연설에 앞서 미국 달러 강세에 초점을 맞췄습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-jpy-usd-130222892.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 21:27",
-        "score": 3
+        "publishedAt": "08/27 22:02",
+        "score": 2
       },
       {
-        "title": "Canadian dollar weakens as trade tensions and U.S. inflation weigh",
-        "description": "Investing.com --The Canadian dollar weakened on Wednesday, with the U.S. dollar rising against the loonie as renewed trade tensions with the United St",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-weakens-trade-tensions-211808212.html?.tsrc=rss",
+        "title": "달러는 Fed Chair Warsh보다 약간 높게 마감됩니다.",
+        "description": "달러 지수(DXY00)는 목요일에 1주 최고치로 상승한 후 +0.03% 상승으로 마감했습니다. 달러는 미국의 주간 일자리 이후 목요일에 약간의 지지를 얻었습니다.",
+        "url": "https://www.barchart.com/story/news/4238252/dollar-finishes-slightly-higher-ahead-of-fed-chair-warsh?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 06:18",
+        "publishedAt": "08/28 04:35",
         "score": 1
       },
       {
-        "title": "Dollar Supported by US Economic Strength",
-        "description": "The dollar index (DXY00 ) rose by +0.24% on Wednesday. The dollar moved higher on Wednesday due to signs of strength in the US economy after July pers",
-        "url": "https://www.barchart.com/story/news/4132749/dollar-supported-by-us-economic-strength?.tsrc=rss",
+        "title": "달러 제너럴(Dollar General)은 연간 전망치 상향으로 5% 상승, 달러 트리(Dollar Tree)는 3% 하락",
+        "description": "Dollar General과 Dollar Tree는 같은 세션에서 급격히 갈라지고 있으며, 각 이름이 움직이는 방향은 얼마나 복잡한 이야기를 말합니까?",
+        "url": "https://247wallst.com/investing/2026/08/27/dollar-general-advances-5-on-a-raised-full-year-outlook-dollar-tree-slips-3/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 04:37",
+        "publishedAt": "08/28 02:17",
         "score": 1
       },
       {
-        "title": "Analyst says Bitcoin surge is a warning sign for U.S. dollar",
-        "description": "The Professional Capital Management CEO tied Bitcoin’s $80,000 return directly to a single Treasury announcement, and said the structural case for Bit",
-        "url": "https://www.thestreet.com/crypto/markets/analyst-says-bitcoin-surge-is-a-warning-sign-for-u-s-dollar?.tsrc=rss",
+        "title": "Fed의 Warsh는 Jackson Hole에서 많은 말을 하지 않을 수도 있습니다. 그러나 미국 달러의 신호는 무엇입니까?",
+        "description": "투자자들은 이번 금요일 잭슨 홀 경제 정책 심포지엄에서 케빈 워시 연준 의장의 연설에서 새로운 내용을 들을 것으로 기대하지 않습니다.",
+        "url": "https://finance.yahoo.com/video/feds-warsh-may-not-much-143500594.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 04:30",
+        "publishedAt": "08/27 23:35",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Canadian dollar weakens as trade tensions and U.S. inflation weigh",
-        "description": "Investing.com --The Canadian dollar weakened on Wednesday, with the U.S. dollar rising against the loonie as renewed trade tensions with the United St",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-weakens-trade-tensions-211808212.html?.tsrc=rss",
+        "title": "트럼프의 캐나다 무역 전쟁은 '해결하기가 훨씬 더 어렵다': 최고의 경제학자가 마크 카니가 물러서지 않는 이유를 설명합니다",
+        "description": "점점 고조되고 있는 미국-캐나다 무역 분쟁은 경제만의 문제가 아니라 국가 주권과 정치적 생존에 관한 문제라고 이코노미스트 저스틴은 설명합니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trumps-canada-trade-war-much-133042869.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 06:18",
-        "score": 4
+        "publishedAt": "08/27 22:30",
+        "score": 7
       },
       {
-        "title": "Abercrombie & Fitch Soars 37% on a $100M Tariff Refund and Raised Guidance, Ross and Kohl’s Hold Steady",
-        "description": "A $100 million tariff refund sent Abercrombie surging in a single session while the same catalyst left Kohl's nearly unchanged and Ross investors shru",
-        "url": "https://247wallst.com/investing/2026/08/26/abercrombie-fitch-soars-37-on-a-100m-tariff-refund-and-raised-guidance-ross-stores-holds-flat/?.tsrc=rss",
+        "title": "달러는 Fed Chair Warsh보다 약간 높게 마감됩니다.",
+        "description": "달러 지수(DXY00)는 목요일에 1주 최고치로 상승한 후 +0.03% 상승으로 마감했습니다. 달러는 미국의 주간 일자리 이후 목요일에 약간의 지지를 얻었습니다.",
+        "url": "https://www.barchart.com/story/news/4238252/dollar-finishes-slightly-higher-ahead-of-fed-chair-warsh?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 00:30",
-        "score": 3
-      },
-      {
-        "title": "Kohl’s Falls 6% Despite Raised Guidance and a $150M Tariff Refund, Ross and TJX Hold Flat",
-        "description": "Kohl's posted a blowout earnings beat and raised its full-year outlook, yet shares are cratering while rivals Ross and TJX barely flinch. The reason b",
-        "url": "https://247wallst.com/investing/2026/08/26/kohls-falls-6-despite-raised-guidance-and-a-150m-tariff-refund-ross-and-tjx-hold-flat/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 22:20",
-        "score": 3
-      },
-      {
-        "title": "Record ETF flows show the ‘debasement trade’ is overtaking AI, analyst says",
-        "description": "Analyst says fears over a weaker dollar are overtaking the AI mania.",
-        "url": "https://www.thestreet.com/crypto/markets/record-etf-flows-show-the-debasement-trade-is-overtaking-ai-analyst-says?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/27 06:26",
+        "publishedAt": "08/28 04:35",
         "score": 1
       },
       {
-        "title": "Analyst says Bitcoin surge is a warning sign for U.S. dollar",
-        "description": "The Professional Capital Management CEO tied Bitcoin’s $80,000 return directly to a single Treasury announcement, and said the structural case for Bit",
-        "url": "https://www.thestreet.com/crypto/markets/analyst-says-bitcoin-surge-is-a-warning-sign-for-u-s-dollar?.tsrc=rss",
+        "title": "원유는 미국-이란 전쟁을 종식시키기 위한 외교적 의심에 더 높은 안착을 보이고 있습니다.",
+        "description": "10월 WTI 원유(CLV26 )는 목요일에 +1.30(+1.58%) 상승 마감했고, 10월 RBOB 휘발유(RBV26 )는 +0.0298(+1.01%) 상승 마감했습니다. 원유 및 가스",
+        "url": "https://www.barchart.com/story/news/4237036/crude-oil-settles-higher-on-diplomacy-doubts-to-end-us-iran-war?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 04:30",
+        "publishedAt": "08/28 04:16",
+        "score": 1
+      },
+      {
+        "title": "비트코인의 반등이 국채 거래에 도달함에 따라 전략이 10% 급등하고 MARA가 9% 급등했습니다.",
+        "description": "비트코인의 3% 반등은 오늘날 Strategy 주식과 MARA에 매우 다른 영향을 미치고 있으며, 두 움직임 사이의 격차는 비트코인의 구조적 격차를 드러냅니다.",
+        "url": "https://247wallst.com/investing/2026/08/27/strategy-spikes-10-as-bitcoins-rebound-reaches-the-treasury-trade-mara-surges-9/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/28 00:02",
+        "score": 1
+      },
+      {
+        "title": "Fed의 Warsh는 Jackson Hole에서 많은 말을 하지 않을 수도 있습니다. 그러나 미국 달러의 신호는 무엇입니까?",
+        "description": "투자자들은 이번 금요일 잭슨 홀 경제 정책 심포지엄에서 케빈 워시 연준 의장의 연설에서 새로운 내용을 들을 것으로 기대하지 않습니다.",
+        "url": "https://finance.yahoo.com/video/feds-warsh-may-not-much-143500594.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/27 23:35",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading — MRNA, SPCX, PSKY, OpenAI In Focus",
-        "description": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom?.tsrc=rss",
+        "title": "OpenAI는 9개월 만에 Nvidia를 능가하는 추론 칩을 구축했습니다. Broadcom(AVGO)이 이를 실현하는 데 도움을 주었습니다.",
+        "description": "OpenAI는 자체 개발한 최초의 추론 칩이 비교 시스템보다 와트당 최대 1.9배 더 많은 AI 작업을 수행할 수 있다고 밝혔습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/openai-built-nvidia-beating-inference-175825708.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/26 09:02",
-        "score": 14
-      },
-      {
-        "title": "Intel Just Found an Opening in the AI Chip Race",
-        "description": "New processors and TSMC packaging issues could reshape the opportunity.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/intel-may-found-opening-ai-144250683.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/26 23:42",
+        "publishedAt": "08/28 02:58",
         "score": 10
       },
       {
-        "title": "SK hynix (SKHY) and Samsung Electronics: SK hynix Is Spending $720 Billion on Memory Chips. Its Stock Has Already Fallen 21%",
-        "description": "On August 13, 2026, CNBC reported that SK hynix Inc. (NASDAQ:SKHY) is spending $720 billion on what it calls the largest network of memory factories i",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-skhy-samsung-electronics-203911366.html?.tsrc=rss",
+        "title": "Taiwan Semiconductor Manufacturing(TSM)이 3nm AI 칩 작업을 더 많이 수주하는 이유는 무엇입니까?",
+        "description": "Taiwan Semiconductor Manufacturing(NYSE:TSM)은 3나노미터를 사용하여 새로운 Xring O3 프로세서를 포함한 Xiaomi용 고급 칩을 생산할 예정입니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/why-taiwan-semiconductor-manufacturing-tsm-061348015.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 05:39",
-        "score": 9
+        "publishedAt": "08/27 15:13",
+        "score": 8
       },
       {
-        "title": "Stock Market Midday, Aug. 26: Markets Muted as Investors Await Nvidia Earnings",
-        "description": "July inflation came in hotter than expected, weighing on major indexes as investors brace for Nvidia earnings after the bell today, Aug. 26, 2026.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/26/stock-market-midday-aug-26-markets-muted-as-investors-await-nvidia-earnings/?.tsrc=rss",
+        "title": "Palantir의 억만장자 Peter Thiel이 이 놀라운 인공 지능(AI) 주식을 방금 구입했으며 IPO 이후 347,260% 상승했습니다.",
+        "description": "Thiel은 PayPal과 Palantir의 공동 창립자이자 Facebook 최초의 외부 투자자로 가장 유명합니다.",
+        "url": "https://www.fool.com/investing/2026/08/27/palantir-billionaire-peter-thiel-just-bought-this/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/27 01:47",
-        "score": 9
-      },
-      {
-        "title": "TSMC's July Surge Raises the Bar for Nvidia's Foundry",
-        "description": "Another 44.7% revenue jump leaves little room for tonight's largest AI customer to deliver ordinary guidance.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmcs-july-surge-raises-bar-190325583.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/27 04:03",
+        "publishedAt": "08/28 03:32",
         "score": 7
+      },
+      {
+        "title": "NVIDIA의 2,790억 달러 메모리 약속에도 불구하고 Micron은 뒤처집니다. 웨스턴디지털 4% 하락, SK하이닉스 상승",
+        "description": "NVIDIA는 방금 한 분기에 거의 3배나 증가한 메모리 약속을 공개했지만, 지명된 공급업체의 주가는 목요일에 크게 하락하고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/08/27/micron-lags-despite-nvidias-279b-memory-commitment-western-digital-drops-4-sk-hynix-ticks-up/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/28 03:18",
+        "score": 6
+      },
+      {
+        "title": "Nvidia가 파운드리 활주로를 확장함에 따라 TSMC ADR이 2% 증가합니다.",
+        "description": "7월 매출은 이미 44.7% 증가했습니다. 엔비디아의 새로운 전망은 활용도에 대한 기대감을 다시 한 번 높인다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-adrs-jump-2-nvidia-170617812.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/28 02:06",
+        "score": 6
       }
     ]
   }
