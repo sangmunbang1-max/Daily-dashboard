@@ -1,221 +1,300 @@
 {
-  "generated_at_kst": "2026-08-31 09:44 KST",
-  "period": "08/30 07:00 ~ 08/31 07:00 KST",
+  "generated_at_kst": "2026-09-01 10:20 KST",
+  "period": "08/31 07:00 ~ 09/01 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Amazon Has Badly Underperformed the S&P 500 and Nasdaq-100 Since Jeff Bezos Stepped Down as CEO. Could Apple Do the Same Starting Sept. 1 When Tim Cook Steps Down?",
-        "description": "Tim Cook has set Apple's course at a pivotal time, and now he's walking away.",
-        "url": "https://www.fool.com/investing/2026/08/30/amazon-has-badly-underperformed-the-sp-500-and-nas/?.tsrc=rss",
+        "title": "Why Are Nasdaq, S&P 500 Futures Subdued Premarket? NVDA, AAPL, INTC, CRWD, RKLB, SLS Stocks In Focus",
+        "description": "Retail sentiment on Stocktwits remained constructive despite rising geopolitical friction: ‘bullish’ on SPY and ‘neutral’ on QQQ.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-sp500-futures-subdued-premarket-iran-strikes-nvda-aapl-intc-crwd-rklb-sls-stocks-in-focus/cZYynypRJsT?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/30 23:35",
-        "score": 10
+        "publishedAt": "08/31 17:33",
+        "score": 11
       },
       {
-        "title": "This 2 ETF Portfolio Historically Outperforms the S&P 500 With Less Volatility",
-        "description": "Combining two factors that produce strong returns may be all you need.",
-        "url": "https://www.fool.com/investing/2026/08/30/2-etf-portfolio-historically-outperforms-sp-500/?.tsrc=rss",
+        "title": "Gold posts best month since February despite investor concerns over rate hikes",
+        "description": "Gold saw monthly gains as investors assessed the Fed's next likely move.",
+        "url": "https://finance.yahoo.com/markets/article/gold-posts-best-month-since-february-despite-investor-concerns-over-rate-hikes-165315959.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/30 22:15",
-        "score": 9
-      },
-      {
-        "title": "The Stock Market Is Doing Something That's Been Witnessed Just 3 Times Over Nearly 156 Years -- and This Signal Has Proven Disastrous for Wall Street",
-        "description": "History has an uncanny knack for foreshadowing the future on Wall Street.",
-        "url": "https://www.fool.com/investing/2026/08/30/stock-market-doing-something-witnessed-3-times-over-156-years-disastrous-for-wall-street/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/30 19:56",
-        "score": 7
-      },
-      {
-        "title": "Is Netflix Stock Underperforming the S&P 500?",
-        "description": "Netflix has significantly underperformed the broader S&P 500 over the past year, but analysts remain steadily optimistic about the stock’s long-term p",
-        "url": "https://www.barchart.com/story/news/4346048/is-netflix-stock-underperforming-the-s-p-500?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/31 03:07",
+        "publishedAt": "09/01 01:53",
         "score": 6
       },
       {
-        "title": "Prediction: If Artificial Intelligence (AI) Leads to Unprecedented Economic Growth, These 2 S&P 500 Stocks Are Once-in-a-Decade Buying Opportunities Right Now",
-        "description": "Instead of investing only in the companies at the infrastructure layer, it's time for AI believers to consider the dominant card payment networks.",
-        "url": "https://www.fool.com/investing/2026/08/30/prediction-ai-unprecedented-once-decade-buy/?.tsrc=rss",
+        "title": "S&P500, Dow End Lower On US-Iran Flare-Up, While Dow Records Fifth Straight Month Of Gains — NVDA, META, AON, MSTR, TSLA In Focus",
+        "description": "U.S. crude rose to hit $86 per barrel, with higher energy costs lifting Treasury 10-year yields to the highest since January 2025.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dow-records-fifth-straight-month-of-gains/cZYzITkRJsC?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/30 20:57",
-        "score": 6
+        "publishedAt": "09/01 06:44",
+        "score": 5
+      },
+      {
+        "title": "Gold prices surge in August. Will rate hike forecasts rain on gold's parade?",
+        "description": "Gold prices (GC=F) have already surged by over 10% in the month of August. On August's final trading day, Yahoo Finance Senior Business Reporter Ines",
+        "url": "https://finance.yahoo.com/video/gold-prices-surge-august-rate-200000150.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 05:00",
+        "score": 5
+      },
+      {
+        "title": "ETFs to Buy as Salesforce Jumps on Q2 Earnings Beat, Anthropic Gains",
+        "description": "Salesforce's Q2 beat, Anthropic gain and AI momentum send shares soaring, while CRM-heavy ETFs offer diversified exposure with less single-stock risk.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buy-salesforce-jumps-q2-142500840.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/31 23:25",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "[포토] 삼성전자, 獨서 갤럭시폰 게임대회 개최",
+        "title": "네이버·카카오 컨설팅 받았더니…소상공인 매출 '껑충'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026083019091",
+        "url": "https://www.hankyung.com/article/2026083145631",
         "source": "hankyung.com",
-        "publishedAt": "08/30 18:08",
+        "publishedAt": "08/31 21:23",
+        "score": 6
+      },
+      {
+        "title": "\"330만원→240만원\" 충격 리포트…SK하이닉스 주주 '패닉' [종목+]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026083143326",
+        "source": "hankyung.com",
+        "publishedAt": "08/31 22:00",
         "score": 5
       },
       {
-        "title": "Korean day traders flee leveraged chip ETFs as regulatory curbs bite",
-        "description": "Investing.com -- South Korean retail investors are pulling back sharply from leveraged exchange-traded funds tied to Samsung Electronics and SK Hynix,",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/korean-day-traders-flee-leveraged-011237120.html?.tsrc=rss",
+        "title": "Update: Market Chatter: SK Hynix Denies Report of Intel Foundry Partnership for HBM4E",
+        "description": "(Updates with SK Hynix's response in the headline and in first and second paragraphs.) SK Hynix (",
+        "url": "https://finance.yahoo.com/technology/articles/market-chatter-sk-hynix-denies-110516290.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/30 10:12",
-        "score": 2
+        "publishedAt": "08/31 20:05",
+        "score": 5
       },
       {
-        "title": "South Korea may be getting too old to take advantage of its AI boom",
-        "description": "Korea could keep getting richer from AI while elderly households become reluctant or unable to spend those gains",
-        "url": "https://finance.yahoo.com/economy/articles/south-korea-may-getting-too-110000570.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/30 20:00",
-        "score": 1
-      }
-    ],
-    "macro": [
-      {
-        "title": "뉴욕·상하이 증시, 美 8월 고용지표·브로드컴 실적 주목",
+        "title": "코스피 막판 반등…삼전닉스 주주환원이 떠받쳤다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026083019291",
+        "url": "https://www.hankyung.com/article/2026083146481",
         "source": "hankyung.com",
-        "publishedAt": "08/30 17:35",
-        "score": 3
+        "publishedAt": "08/31 17:54",
+        "score": 5
       },
       {
-        "title": "Prediction: If Artificial Intelligence (AI) Leads to Unprecedented Economic Growth, These 2 S&P 500 Stocks Are Once-in-a-Decade Buying Opportunities Right Now",
-        "description": "Instead of investing only in the companies at the infrastructure layer, it's time for AI believers to consider the dominant card payment networks.",
-        "url": "https://www.fool.com/investing/2026/08/30/prediction-ai-unprecedented-once-decade-buy/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/30 20:57",
-        "score": 1
+        "title": "삼성전자 목표가 상향…HBM4 수율개선 효과",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026083146451",
+        "source": "hankyung.com",
+        "publishedAt": "08/31 17:51",
+        "score": 5
       }
     ],
+    "macro": [],
     "bonds": [
       {
-        "title": "환율·채권, 좁아진 한미 금리차…원화 강세 이어질듯",
+        "title": "Update: US Equity Indexes Fall Amid Gains in Crude Oil, Benchmark Treasury Yield as Iran War Hostilities Resurge",
+        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-amid-210357286.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 06:03",
+        "score": 8
+      },
+      {
+        "title": "U.S. Treasury Yields, Dollar Retreat",
+        "description": "U.S. Treasury yields and the dollar were declining, reversing some of Friday's rises after Federal Reserve Chairman Kevin Warsh warned about inflation",
+        "url": "https://finance.yahoo.com/m/4eee0e3e-814c-3235-a5c9-f638bf08fc8f/u.s.-treasury-yields%2C-dollar.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/31 19:56",
+        "score": 8
+      },
+      {
+        "title": "Gold Falls as Hawkish Fed Outlook Keeps Treasury Yields Elevated",
+        "description": "Gold prices were falling as elevated U.S. Treasury yields and a more hawkish Federal Reserve outlook weigh on the non-yielding metal. The 10-year Trea",
+        "url": "https://finance.yahoo.com/m/52b6bf9e-1295-37f3-8694-d6ec24c2686d/gold-falls-as-hawkish-fed.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/31 19:06",
+        "score": 8
+      },
+      {
+        "title": "국제유가 상승에 인플레 부각…美 주식·채권 동반 하락",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026083019301",
+        "url": "https://www.hankyung.com/article/202608314949i",
         "source": "hankyung.com",
-        "publishedAt": "08/30 17:35",
+        "publishedAt": "08/31 23:40",
         "score": 3
+      },
+      {
+        "title": "IREN Climbs 4% as Co-CEO Says Debt and Prepayments Can Fund FY27 Capex, TeraWulf Slips",
+        "description": "IREN's co-CEO just made a bold claim about how the company funds its massive fiscal 2027 buildout without a big equity raise, and the market is reacti",
+        "url": "https://247wallst.com/investing/2026/08/31/iren-climbs-4-as-co-ceo-says-debt-and-prepayments-can-fund-fy27-capex-terawulf-slips/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 02:47",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "Energy Transfer Is Quietly Becoming One of the Biggest Natural Gas Suppliers to AI Data Centers",
-        "description": "Energy Transfer is an overlooked AI power name.",
-        "url": "https://www.fool.com/investing/2026/08/30/energy-transfer-is-quietly-becoming-one-of-the-biggest-natural-gas-suppliers-to-ai-data-centers/?.tsrc=rss",
+        "title": "Chevron and Exxon Mobil Rise 3% as U.S. Strikes on Iran Push WTI Crude Oil to $86",
+        "description": "U.S. strikes on Iran sent oil surging over the weekend, and now traders are betting that two integrated giants respond identically to a crude spike, b",
+        "url": "https://247wallst.com/investing/2026/08/31/chevron-and-exxon-mobil-rise-3-as-u-s-strikes-on-iran-push-wti-crude-oil-to-86/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 04:35",
-        "score": 6
+        "publishedAt": "08/31 23:07",
+        "score": 10
       },
       {
-        "title": "非중동산 원유 수입 40% 늘어…이라크산은 20년 만에 '제로'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026083019081",
-        "source": "hankyung.com",
-        "publishedAt": "08/30 18:09",
+        "title": "Stock Market Today, Aug. 31: Stocks Edge Lower as Oil Prices Surge Again",
+        "description": "WTI crude climbed above $90 a barrel following U.S. military strikes, stoking inflation and rate-hike concerns, today, Aug. 31, 2026.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/31/stock-market-today-aug-31-stocks-edge-lower-as-oil-prices-surge-again/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 06:27",
         "score": 5
       },
       {
-        "title": "Iran War Adds $330 Billion to Global Energy Import Bill",
-        "description": "The Iran war added an estimated $330 billion to global oil, fuel and LNG import bills between March and August, with crude accounting for nearly half",
-        "url": "https://finance.yahoo.com/energy/articles/iran-war-adds-330-billion-230000013.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Fall Amid Gains in Crude Oil, Benchmark Treasury Yield as Iran War Hostilities Resurge",
+        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-amid-210357286.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/30 08:00",
-        "score": 3
+        "publishedAt": "09/01 06:03",
+        "score": 5
+      },
+      {
+        "title": "Gold prices surge in August. Will rate hike forecasts rain on gold's parade?",
+        "description": "Gold prices (GC=F) have already surged by over 10% in the month of August. On August's final trading day, Yahoo Finance Senior Business Reporter Ines",
+        "url": "https://finance.yahoo.com/video/gold-prices-surge-august-rate-200000150.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 05:00",
+        "score": 5
+      },
+      {
+        "title": "국제유가 상승에 인플레 부각…美 주식·채권 동반 하락",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608314949i",
+        "source": "hankyung.com",
+        "publishedAt": "08/31 23:40",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, 좁아진 한미 금리차…원화 강세 이어질듯",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026083019301",
-        "source": "hankyung.com",
-        "publishedAt": "08/30 17:35",
-        "score": 10
+        "title": "US Dollar Price Forecast: Hawkish Warsh Lifts DXY as EUR/USD and GBP/USD Fall",
+        "description": "Warsh’s hawkish Jackson Hole remarks revive September Fed hike bets as DXY rebounds while EUR/USD and GBP/USD break key technical support.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081954940.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/31 17:19",
+        "score": 7
       },
       {
-        "title": "Japan’s Yen Falls Again Despite $97 Billion Aid. Risk For Bitcoin?",
-        "description": "Japan’s yen weakened despite a $97 billion rescue. Here’s why the gains are fading and how a sharp yen rebound could put pressure on Bitcoin.",
-        "url": "https://beincrypto.com/japan-yen-slide-bitcoin-impact/?.tsrc=rss",
+        "title": "Dollar Weakens on Strength in the Chinese Yuan",
+        "description": "The dollar index (DXY00 ) is down by -0.16% today. The dollar is modestly lower today, consolidating below last Friday’s 2-week high. Today’s rally in",
+        "url": "https://www.barchart.com/story/news/4356237/dollar-weakens-on-strength-in-the-chinese-yuan?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 06:28",
+        "publishedAt": "08/31 23:31",
+        "score": 4
+      },
+      {
+        "title": "日 엔화 다시 약세…베선트 \"BOJ 올바른 결정 기대\" 금리인상 간접 압박",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608314879i",
+        "source": "hankyung.com",
+        "publishedAt": "08/31 21:29",
         "score": 3
+      },
+      {
+        "title": "Dear Palantir Stock Fans, Here’s What Maven’s Billion-Dollar ARR Means for PLTR",
+        "description": "PLTR stock continues to rise amid strong quarterly results and bullish commentary about Palantir's Maven smart system.",
+        "url": "https://www.barchart.com/story/news/4354758/dear-palantir-stock-fans-heres-what-mavens-billion-dollar-arr-means-for-pltr?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/31 22:30",
+        "score": 1
+      },
+      {
+        "title": "Dollar Tree (DLTR) Q2 2027 Earnings Call Transcript",
+        "description": "Tariff refunds and positive traffic drive margin expansion and raised guidance.",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/31/dollar-tree-dltr-q2-2027-earnings-call-transcript/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/31 22:21",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why Greg Abel Is Still Holding.",
-        "description": "Sometimes, the classics really are tough to beat.",
-        "url": "https://www.fool.com/investing/2026/08/30/meet-the-dividend-stock-that-warren-buffett-backed/?.tsrc=rss",
+        "title": "베선트 \"G20, 막대한 무역흑자 중국과의 교역조건 재검토해야\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202608314785i",
+        "source": "hankyung.com",
+        "publishedAt": "08/31 19:00",
+        "score": 4
+      },
+      {
+        "title": "Update: US Equity Indexes Fall Amid Gains in Crude Oil, Benchmark Treasury Yield as Iran War Hostilities Resurge",
+        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-amid-210357286.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 06:25",
+        "publishedAt": "09/01 06:03",
         "score": 1
       },
       {
-        "title": "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race.",
-        "description": "Taiwan Semiconductor is primed to be a major winner over the next few years.",
-        "url": "https://www.fool.com/investing/2026/08/30/not-nvidia-not-amd-this-semiconductor-giant-will/?.tsrc=rss",
+        "title": "Iran War Triggers Billions in New Oil Pipeline and Port Investment",
+        "description": "Gulf producers are accelerating alternative oil routes, including expanded pipelines through Saudi Arabia, the UAE, Iraq, Syria and Turkey to bypass H",
+        "url": "https://finance.yahoo.com/energy/articles/iran-war-triggers-billions-oil-210000940.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 02:35",
+        "publishedAt": "09/01 06:00",
         "score": 1
       },
       {
-        "title": "Korean day traders flee leveraged chip ETFs as regulatory curbs bite",
-        "description": "Investing.com -- South Korean retail investors are pulling back sharply from leveraged exchange-traded funds tied to Samsung Electronics and SK Hynix,",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/korean-day-traders-flee-leveraged-011237120.html?.tsrc=rss",
+        "title": "Software Stocks & ETFs: Is the AI Sell-Off Over?",
+        "description": "We examine why software stocks are rebounding and highlight software ETFs.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/software-stocks-etfs-ai-sell-205000363.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/30 10:12",
+        "publishedAt": "09/01 05:50",
         "score": 1
       },
       {
-        "title": "Iran War Adds $330 Billion to Global Energy Import Bill",
-        "description": "The Iran war added an estimated $330 billion to global oil, fuel and LNG import bills between March and August, with crude accounting for nearly half",
-        "url": "https://finance.yahoo.com/energy/articles/iran-war-adds-330-billion-230000013.html?.tsrc=rss",
+        "title": "How to Play the Micron vs. CXMT Memory-Chip War",
+        "description": "Micron stock was shrugging off CXMT's claimed advance in smartphone memory but investors might want to spread their bets.",
+        "url": "https://finance.yahoo.com/m/4c4c8fde-6994-3181-a95b-ead59b8bbc55/how-to-play-the-micron-vs..html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/30 08:00",
+        "publishedAt": "09/01 05:19",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race.",
-        "description": "Taiwan Semiconductor is primed to be a major winner over the next few years.",
-        "url": "https://www.fool.com/investing/2026/08/30/not-nvidia-not-amd-this-semiconductor-giant-will/?.tsrc=rss",
+        "title": "Update: Market Chatter: SK Hynix Denies Report of Intel Foundry Partnership for HBM4E",
+        "description": "(Updates with SK Hynix's response in the headline and in first and second paragraphs.) SK Hynix (",
+        "url": "https://finance.yahoo.com/technology/articles/market-chatter-sk-hynix-denies-110516290.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 02:35",
-        "score": 11
+        "publishedAt": "08/31 20:05",
+        "score": 16
       },
       {
-        "title": "\"우주산업 이끌 '한국판 스페이스X' 필요\"",
+        "title": "삼성전자 목표가 상향…HBM4 수율개선 효과",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026083019071",
+        "url": "https://www.hankyung.com/article/2026083146451",
         "source": "hankyung.com",
-        "publishedAt": "08/30 18:09",
+        "publishedAt": "08/31 17:51",
+        "score": 10
+      },
+      {
+        "title": "ETFs to Buy as Salesforce Jumps on Q2 Earnings Beat, Anthropic Gains",
+        "description": "Salesforce's Q2 beat, Anthropic gain and AI momentum send shares soaring, while CRM-heavy ETFs offer diversified exposure with less single-stock risk.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buy-salesforce-jumps-q2-142500840.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "08/31 23:25",
         "score": 6
       },
       {
-        "title": "반도체 4% 뛸 동안 30% 가까이 상승한 건설주...데이터센터·원전 매력↑",
+        "title": "엔비디아, 대만 반도체업체 미디어텍에 4.8조원 투자",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608301665i",
+        "url": "https://www.hankyung.com/article/202608314903i",
         "source": "hankyung.com",
-        "publishedAt": "08/30 15:32",
+        "publishedAt": "08/31 22:19",
         "score": 6
       },
       {
-        "title": "Energy Transfer Is Quietly Becoming One of the Biggest Natural Gas Suppliers to AI Data Centers",
-        "description": "Energy Transfer is an overlooked AI power name.",
-        "url": "https://www.fool.com/investing/2026/08/30/energy-transfer-is-quietly-becoming-one-of-the-biggest-natural-gas-suppliers-to-ai-data-centers/?.tsrc=rss",
+        "title": "The Memory Shortage Isn’t Close to Ending — Samsung Just Locked Up 70% of HBM Capacity Through 2031",
+        "description": "Microsoft, Nvidia, and Google are quietly signing deals that stretch nearly a decade into the future, and the reason why tells you everything about wh",
+        "url": "https://247wallst.com/investing/2026/08/31/the-memory-shortage-isnt-close-to-ending-samsung-just-locked-up-70-of-hbm-capacity-through-2031/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 04:35",
-        "score": 4
-      },
-      {
-        "title": "Prediction: If Artificial Intelligence (AI) Leads to Unprecedented Economic Growth, These 2 S&P 500 Stocks Are Once-in-a-Decade Buying Opportunities Right Now",
-        "description": "Instead of investing only in the companies at the infrastructure layer, it's time for AI believers to consider the dominant card payment networks.",
-        "url": "https://www.fool.com/investing/2026/08/30/prediction-ai-unprecedented-once-decade-buy/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/30 20:57",
-        "score": 4
+        "publishedAt": "09/01 00:52",
+        "score": 5
       }
     ]
   }
