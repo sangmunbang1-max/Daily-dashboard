@@ -1,300 +1,284 @@
 {
-  "generated_at_kst": "2026-09-01 10:20 KST",
-  "period": "08/31 07:00 ~ 09/01 07:00 KST",
+  "generated_at_kst": "2026-09-02 09:23 KST",
+  "period": "09/01 07:00 ~ 09/02 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Why Are Nasdaq, S&P 500 Futures Subdued Premarket? NVDA, AAPL, INTC, CRWD, RKLB, SLS Stocks In Focus",
-        "description": "Retail sentiment on Stocktwits remained constructive despite rising geopolitical friction: ‘bullish’ on SPY and ‘neutral’ on QQQ.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-sp500-futures-subdued-premarket-iran-strikes-nvda-aapl-intc-crwd-rklb-sls-stocks-in-focus/cZYynypRJsT?.tsrc=rss",
+        "title": "Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red",
+        "description": "Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.",
+        "url": "https://finance.yahoo.com/m/01f4a532-05e7-3571-8eb1-b7afa3f67969/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 17:33",
-        "score": 11
+        "publishedAt": "09/02 05:46",
+        "score": 10
       },
       {
-        "title": "Gold posts best month since February despite investor concerns over rate hikes",
-        "description": "Gold saw monthly gains as investors assessed the Fed's next likely move.",
-        "url": "https://finance.yahoo.com/markets/article/gold-posts-best-month-since-february-despite-investor-concerns-over-rate-hikes-165315959.html?.tsrc=rss",
+        "title": "Gold declines as Treasury yields rise and markets increase Fed rate hike expectations",
+        "description": "Gold prices fell on Tuesday as higher oil prices and government bond yields coincided with increased market expectations for another Federal Reserve i",
+        "url": "https://investorshub.advfn.com/market-news/article/35334/gold-declines-as-treasury-yields-rise-and-markets-increase-fed-rate-hike-expectations?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 01:53",
+        "publishedAt": "09/01 18:32",
+        "score": 10
+      },
+      {
+        "title": "올해 주가 3배 급등한 마이크론, 밸류에이션은 S&P500 하위권",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090174331",
+        "source": "hankyung.com",
+        "publishedAt": "09/01 18:08",
+        "score": 8
+      },
+      {
+        "title": "Most Investors Fear Bear Markets. My 7-Year Track Record Shows They Should Welcome Them.",
+        "description": "It's better to buy assets when they're on sale.",
+        "url": "https://www.fool.com/investing/2026/09/01/most-investors-fear-bear-markets-my-7-year-track-r/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 06:30",
         "score": 6
       },
       {
-        "title": "S&P500, Dow End Lower On US-Iran Flare-Up, While Dow Records Fifth Straight Month Of Gains — NVDA, META, AON, MSTR, TSLA In Focus",
-        "description": "U.S. crude rose to hit $86 per barrel, with higher energy costs lifting Treasury 10-year yields to the highest since January 2025.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-records-fifth-straight-month-of-gains/cZYzITkRJsC?.tsrc=rss",
+        "title": "S&P 500 biggest August 2026 winners: Moderna, software stocks",
+        "description": "Moderna stock led the index after melanoma vaccine data, while a hedge fund's forced unwind turbocharged a rebound in enterprise software",
+        "url": "https://qz.com/sp500-august-winners-moderna-cancer-vaccine-situational-awareness-090126?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 06:44",
-        "score": 5
-      },
-      {
-        "title": "Gold prices surge in August. Will rate hike forecasts rain on gold's parade?",
-        "description": "Gold prices (GC=F) have already surged by over 10% in the month of August. On August's final trading day, Yahoo Finance Senior Business Reporter Ines",
-        "url": "https://finance.yahoo.com/video/gold-prices-surge-august-rate-200000150.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/01 05:00",
-        "score": 5
-      },
-      {
-        "title": "ETFs to Buy as Salesforce Jumps on Q2 Earnings Beat, Anthropic Gains",
-        "description": "Salesforce's Q2 beat, Anthropic gain and AI momentum send shares soaring, while CRM-heavy ETFs offer diversified exposure with less single-stock risk.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buy-salesforce-jumps-q2-142500840.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/31 23:25",
-        "score": 5
+        "publishedAt": "09/01 21:37",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "네이버·카카오 컨설팅 받았더니…소상공인 매출 '껑충'",
+        "title": "네이버·카카오 어쩌나…\"판교 노조 5만명\" 통합교섭 '시험대' [김대영의 노무스쿨]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026083145631",
+        "url": "https://www.hankyung.com/article/202608314963g",
         "source": "hankyung.com",
-        "publishedAt": "08/31 21:23",
+        "publishedAt": "09/01 14:49",
         "score": 6
       },
       {
-        "title": "\"330만원→240만원\" 충격 리포트…SK하이닉스 주주 '패닉' [종목+]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026083143326",
-        "source": "hankyung.com",
-        "publishedAt": "08/31 22:00",
-        "score": 5
-      },
-      {
-        "title": "Update: Market Chatter: SK Hynix Denies Report of Intel Foundry Partnership for HBM4E",
-        "description": "(Updates with SK Hynix's response in the headline and in first and second paragraphs.) SK Hynix (",
-        "url": "https://finance.yahoo.com/technology/articles/market-chatter-sk-hynix-denies-110516290.html?.tsrc=rss",
+        "title": "Kospi Gains as Chip Buybacks Offset Broad Investor Selling",
+        "description": "Kospi rises as Samsung and SK Hynix gains from chip buybacks offset renewed US-Iran tensions and a hawkish Fed speech.",
+        "url": "https://beincrypto.com/kospi-chip-stocks-offset-iran-tensions/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 20:05",
+        "publishedAt": "09/01 19:03",
         "score": 5
       },
       {
-        "title": "코스피 막판 반등…삼전닉스 주주환원이 떠받쳤다",
+        "title": "[포토] 카카오페이손해보험, '2026 올해의 브랜드 대상' 펫보험 부문 수상",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026083146481",
+        "url": "https://www.hankyung.com/article/202609028031H",
         "source": "hankyung.com",
-        "publishedAt": "08/31 17:54",
-        "score": 5
+        "publishedAt": "09/02 03:09",
+        "score": 3
       },
       {
-        "title": "삼성전자 목표가 상향…HBM4 수율개선 효과",
+        "title": "스쿨존에서 자동 감속하는 카카오 자율주행",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026083146451",
+        "url": "https://www.hankyung.com/article/2026090174101",
         "source": "hankyung.com",
-        "publishedAt": "08/31 17:51",
-        "score": 5
+        "publishedAt": "09/01 17:37",
+        "score": 3
       }
     ],
     "macro": [],
     "bonds": [
       {
-        "title": "Update: US Equity Indexes Fall Amid Gains in Crude Oil, Benchmark Treasury Yield as Iran War Hostilities Resurge",
-        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-amid-210357286.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Drop as Treasury Yields, Crude Oil Surge Following Fresh Military Strikes on Iran",
+        "description": "(Updates with index/price moves, macroeconomic data and geopolitical news from the first paragraph.)",
+        "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-drop-treasury-211755099.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 06:03",
+        "publishedAt": "09/02 06:17",
         "score": 8
       },
       {
-        "title": "U.S. Treasury Yields, Dollar Retreat",
-        "description": "U.S. Treasury yields and the dollar were declining, reversing some of Friday's rises after Federal Reserve Chairman Kevin Warsh warned about inflation",
-        "url": "https://finance.yahoo.com/m/4eee0e3e-814c-3235-a5c9-f638bf08fc8f/u.s.-treasury-yields%2C-dollar.html?.tsrc=rss",
+        "title": "Stocks slip as 10-year Treasury yield hits highest level since January 2025: AlphaCheck",
+        "description": "Stocks slipped in early trading on Tuesday as long-dated bond yields rose and speculation of a rate hike this year grew.",
+        "url": "https://finance.yahoo.com/markets/article/stocks-slip-as-10-year-treasury-yield-hits-highest-level-since-january-2025-alphacheck-134150677.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 19:56",
+        "publishedAt": "09/01 22:41",
         "score": 8
       },
       {
-        "title": "Gold Falls as Hawkish Fed Outlook Keeps Treasury Yields Elevated",
-        "description": "Gold prices were falling as elevated U.S. Treasury yields and a more hawkish Federal Reserve outlook weigh on the non-yielding metal. The 10-year Trea",
-        "url": "https://finance.yahoo.com/m/52b6bf9e-1295-37f3-8694-d6ec24c2686d/gold-falls-as-hawkish-fed.html?.tsrc=rss",
+        "title": "Gold declines as Treasury yields rise and markets increase Fed rate hike expectations",
+        "description": "Gold prices fell on Tuesday as higher oil prices and government bond yields coincided with increased market expectations for another Federal Reserve i",
+        "url": "https://investorshub.advfn.com/market-news/article/35334/gold-declines-as-treasury-yields-rise-and-markets-increase-fed-rate-hike-expectations?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 19:06",
+        "publishedAt": "09/01 18:32",
         "score": 8
       },
       {
-        "title": "국제유가 상승에 인플레 부각…美 주식·채권 동반 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608314949i",
-        "source": "hankyung.com",
-        "publishedAt": "08/31 23:40",
-        "score": 3
-      },
-      {
-        "title": "IREN Climbs 4% as Co-CEO Says Debt and Prepayments Can Fund FY27 Capex, TeraWulf Slips",
-        "description": "IREN's co-CEO just made a bold claim about how the company funds its massive fiscal 2027 buildout without a big equity raise, and the market is reacti",
-        "url": "https://247wallst.com/investing/2026/08/31/iren-climbs-4-as-co-ceo-says-debt-and-prepayments-can-fund-fy27-capex-terawulf-slips/?.tsrc=rss",
+        "title": "Inflation Isn’t Causing the Bond Selloff. Blame This Instead.",
+        "description": "Inflation is the traditional enemy of bonds, because it makes future returns worth less. But there’s another factor in play now.",
+        "url": "https://finance.yahoo.com/m/8c6826ea-3863-3387-8d5e-99bdef306701/inflation-isn%E2%80%99t-causing-the.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 02:47",
-        "score": 1
+        "publishedAt": "09/02 04:08",
+        "score": 5
       }
     ],
     "commodities": [
       {
-        "title": "Chevron and Exxon Mobil Rise 3% as U.S. Strikes on Iran Push WTI Crude Oil to $86",
-        "description": "U.S. strikes on Iran sent oil surging over the weekend, and now traders are betting that two integrated giants respond identically to a crude spike, b",
-        "url": "https://247wallst.com/investing/2026/08/31/chevron-and-exxon-mobil-rise-3-as-u-s-strikes-on-iran-push-wti-crude-oil-to-86/?.tsrc=rss",
+        "title": "Update: US Equity Indexes Drop as Treasury Yields, Crude Oil Surge Following Fresh Military Strikes on Iran",
+        "description": "(Updates with index/price moves, macroeconomic data and geopolitical news from the first paragraph.)",
+        "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-drop-treasury-211755099.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 23:07",
-        "score": 10
-      },
-      {
-        "title": "Stock Market Today, Aug. 31: Stocks Edge Lower as Oil Prices Surge Again",
-        "description": "WTI crude climbed above $90 a barrel following U.S. military strikes, stoking inflation and rate-hike concerns, today, Aug. 31, 2026.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/31/stock-market-today-aug-31-stocks-edge-lower-as-oil-prices-surge-again/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/01 06:27",
+        "publishedAt": "09/02 06:17",
         "score": 5
       },
       {
-        "title": "Update: US Equity Indexes Fall Amid Gains in Crude Oil, Benchmark Treasury Yield as Iran War Hostilities Resurge",
-        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-amid-210357286.html?.tsrc=rss",
+        "title": "Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red",
+        "description": "Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.",
+        "url": "https://finance.yahoo.com/m/01f4a532-05e7-3571-8eb1-b7afa3f67969/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 06:03",
+        "publishedAt": "09/02 05:46",
         "score": 5
       },
       {
-        "title": "Gold prices surge in August. Will rate hike forecasts rain on gold's parade?",
-        "description": "Gold prices (GC=F) have already surged by over 10% in the month of August. On August's final trading day, Yahoo Finance Senior Business Reporter Ines",
-        "url": "https://finance.yahoo.com/video/gold-prices-surge-august-rate-200000150.html?.tsrc=rss",
+        "title": "Gold prices dip despite notching best month since Feb.: Why Goldman Sachs still expects a rally",
+        "description": "Gold (GC=F) prices are under pressure on Tuesday, although August was the precious metal's best month since February. Yahoo Finance Senior Business Re",
+        "url": "https://finance.yahoo.com/video/gold-prices-dip-despite-notching-141932305.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 05:00",
+        "publishedAt": "09/01 23:19",
         "score": 5
       },
       {
-        "title": "국제유가 상승에 인플레 부각…美 주식·채권 동반 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608314949i",
-        "source": "hankyung.com",
-        "publishedAt": "08/31 23:40",
+        "title": "Canada Commodities: Oil Prices Move Higher as the Middle East Conflict Drags On",
+        "description": "Oil prices jumped Tuesday morning as the United States and Iran conflict continued to grind on and t",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-move-135652205.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 22:56",
+        "score": 5
+      },
+      {
+        "title": "Newmont shares fall 2.6% as gold prices retreat",
+        "description": "Newmont Goldcorp Corp (NYSE:NEM) shares fell 2. 6% in pre-market trading to $122.",
+        "url": "https://investorshub.advfn.com/market-news/article/35383/newmont-shares-fall-2-6-as-gold-prices-retreat?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 22:35",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "US Dollar Price Forecast: Hawkish Warsh Lifts DXY as EUR/USD and GBP/USD Fall",
-        "description": "Warsh’s hawkish Jackson Hole remarks revive September Fed hike bets as DXY rebounds while EUR/USD and GBP/USD break key technical support.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081954940.html?.tsrc=rss",
+        "title": "Bitcoin and Gold Gain as Currency Debasement Fears Surge 750% in Two Weeks",
+        "description": "The word “debasement” appeared in 1,533 Bloomberg articles last week, up 750% in two weeks and the third-highest weekly total on record, according to",
+        "url": "https://www.ccn.com/news/crypto/bitcoin-gold-currency-debasement-fears-750-percent/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 17:19",
-        "score": 7
-      },
-      {
-        "title": "Dollar Weakens on Strength in the Chinese Yuan",
-        "description": "The dollar index (DXY00 ) is down by -0.16% today. The dollar is modestly lower today, consolidating below last Friday’s 2-week high. Today’s rally in",
-        "url": "https://www.barchart.com/story/news/4356237/dollar-weakens-on-strength-in-the-chinese-yuan?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/31 23:31",
-        "score": 4
-      },
-      {
-        "title": "日 엔화 다시 약세…베선트 \"BOJ 올바른 결정 기대\" 금리인상 간접 압박",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608314879i",
-        "source": "hankyung.com",
-        "publishedAt": "08/31 21:29",
+        "publishedAt": "09/02 00:30",
         "score": 3
       },
       {
-        "title": "Dear Palantir Stock Fans, Here’s What Maven’s Billion-Dollar ARR Means for PLTR",
-        "description": "PLTR stock continues to rise amid strong quarterly results and bullish commentary about Palantir's Maven smart system.",
-        "url": "https://www.barchart.com/story/news/4354758/dear-palantir-stock-fans-heres-what-mavens-billion-dollar-arr-means-for-pltr?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "08/31 22:30",
-        "score": 1
+        "title": "\"달러 빼고 다 산다\"…ABD 투자 시대",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090175141",
+        "source": "hankyung.com",
+        "publishedAt": "09/01 19:00",
+        "score": 3
       },
       {
-        "title": "Dollar Tree (DLTR) Q2 2027 Earnings Call Transcript",
-        "description": "Tariff refunds and positive traffic drive margin expansion and raised guidance.",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/31/dollar-tree-dltr-q2-2027-earnings-call-transcript/?.tsrc=rss",
+        "title": "4억달러 손실에도…애크먼, 넷플릭스 '재베팅'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090174351",
+        "source": "hankyung.com",
+        "publishedAt": "09/01 18:10",
+        "score": 3
+      },
+      {
+        "title": "USD/JPY Eyes Breakout as Rising Yields Support US Dollar",
+        "description": "Currency markets continue to watch yields in the USA and their influence on the US dollar overall. They are rising yet again in early Tuesday trading.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/usd-jpy-eyes-breakout-rising-131242961.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 22:21",
+        "publishedAt": "09/01 22:12",
+        "score": 2
+      },
+      {
+        "title": "Dollar Supported by Rising T-Note Yields and Falling Stocks",
+        "description": "The dollar index (DXY00 ) is up by +0.12% today. Soaring T-note yields today have strengthened the dollar’s interest rate differentials and are pushin",
+        "url": "https://www.barchart.com/story/news/4378734/dollar-supported-by-rising-t-note-yields-and-falling-stocks?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 23:34",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "베선트 \"G20, 막대한 무역흑자 중국과의 교역조건 재검토해야\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608314785i",
-        "source": "hankyung.com",
-        "publishedAt": "08/31 19:00",
-        "score": 4
+        "title": "Commvault, Sprinklr, Upland Software, Samsara, and Cadence Design Systems Stocks Trade Down, What You Need To Know",
+        "description": "A number of stocks fell in the afternoon session after escalating geopolitical tensions in the Middle East and climbing global bond yields dampened in",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/commvault-sprinklr-upland-software-samsara-210620562.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 06:06",
+        "score": 2
       },
       {
-        "title": "Update: US Equity Indexes Fall Amid Gains in Crude Oil, Benchmark Treasury Yield as Iran War Hostilities Resurge",
-        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-amid-210357286.html?.tsrc=rss",
+        "title": "Wars May Rattle Markets at First, But This Wealth Manager Says the S&P 500 Has Historically Turned Conflict Into a Long-Term ‘Boost for Asset Owners’",
+        "description": "While the escalating military conflict between the U.S. and Iran has sparked short-term market anxiety, historical S&P 500 data reveals a massive 685%",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wars-may-rattle-markets-first-183106921.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 06:03",
+        "publishedAt": "09/02 03:31",
+        "score": 2
+      },
+      {
+        "title": "Solaris Energy Infrastructure, TETRA Technologies, SLB, and Weatherford Stocks Trade Down, What You Need To Know",
+        "description": "A number of stocks fell in the afternoon session after a surge in crude oil prices offered a near-term lift, but broader market volatility and a sharp",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/solaris-energy-infrastructure-tetra-technologies-212220800.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 06:22",
         "score": 1
       },
       {
-        "title": "Iran War Triggers Billions in New Oil Pipeline and Port Investment",
-        "description": "Gulf producers are accelerating alternative oil routes, including expanded pipelines through Saudi Arabia, the UAE, Iraq, Syria and Turkey to bypass H",
-        "url": "https://finance.yahoo.com/energy/articles/iran-war-triggers-billions-oil-210000940.html?.tsrc=rss",
+        "title": "Tenable, Upstart, SentinelOne, monday.com, and DigitalOcean Stocks Trade Down, What You Need To Know",
+        "description": "A number of stocks fell in the afternoon session after escalating geopolitical tensions in the Middle East and climbing global bond yields dampened in",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tenable-upstart-sentinelone-monday-com-205820303.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 06:00",
+        "publishedAt": "09/02 05:58",
         "score": 1
       },
       {
-        "title": "Software Stocks & ETFs: Is the AI Sell-Off Over?",
-        "description": "We examine why software stocks are rebounding and highlight software ETFs.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/software-stocks-etfs-ai-sell-205000363.html?.tsrc=rss",
+        "title": "Software Stocks Just Did Something They've Done Only Three Times Before",
+        "description": "Palantir, Palo Alto and Microsoft are its largest holdings",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/software-stocks-just-did-something-194325770.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 05:50",
-        "score": 1
-      },
-      {
-        "title": "How to Play the Micron vs. CXMT Memory-Chip War",
-        "description": "Micron stock was shrugging off CXMT's claimed advance in smartphone memory but investors might want to spread their bets.",
-        "url": "https://finance.yahoo.com/m/4c4c8fde-6994-3181-a95b-ead59b8bbc55/how-to-play-the-micron-vs..html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/01 05:19",
+        "publishedAt": "09/02 04:43",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Update: Market Chatter: SK Hynix Denies Report of Intel Foundry Partnership for HBM4E",
-        "description": "(Updates with SK Hynix's response in the headline and in first and second paragraphs.) SK Hynix (",
-        "url": "https://finance.yahoo.com/technology/articles/market-chatter-sk-hynix-denies-110516290.html?.tsrc=rss",
+        "title": "What Is Cathie Wood Buying Now? Nvidia, SpaceX And Crypto Stocks Led ARK’s August Trades – While Cutting These Growth Stocks",
+        "description": "Nvidia was ARK’s biggest August purchase, with roughly 548,000 shares added during the month.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-invest-nvidia-spacex-buys-roblox-sell-august/cZsoiDFRJMG?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 20:05",
-        "score": 16
+        "publishedAt": "09/01 19:54",
+        "score": 9
       },
       {
-        "title": "삼성전자 목표가 상향…HBM4 수율개선 효과",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026083146451",
-        "source": "hankyung.com",
-        "publishedAt": "08/31 17:51",
-        "score": 10
-      },
-      {
-        "title": "ETFs to Buy as Salesforce Jumps on Q2 Earnings Beat, Anthropic Gains",
-        "description": "Salesforce's Q2 beat, Anthropic gain and AI momentum send shares soaring, while CRM-heavy ETFs offer diversified exposure with less single-stock risk.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buy-salesforce-jumps-q2-142500840.html?.tsrc=rss",
+        "title": "Palantir to Deliver Eight TITAN Systems to the U.S. Army",
+        "description": "MIAMI, September 01, 2026--Palantir Technologies Inc. (NASDAQ: PLTR) today announced that the Army Contracting Command has awarded Palantir USG, Inc.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-deliver-eight-titan-systems-210200015.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "08/31 23:25",
+        "publishedAt": "09/02 06:02",
         "score": 6
       },
       {
-        "title": "엔비디아, 대만 반도체업체 미디어텍에 4.8조원 투자",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202608314903i",
-        "source": "hankyung.com",
-        "publishedAt": "08/31 22:19",
+        "title": "Nio Falls 4% as Memory Chip Costs and Revenue Miss Overshadow Doubled Vehicle Margin, XPeng Holds Steady",
+        "description": "Nio just posted its most profitable quarter in years, yet investors are dumping the stock. The culprit is a cost pressure that has nothing to do with",
+        "url": "https://247wallst.com/investing/2026/09/01/nio-falls-4-as-memory-chip-costs-and-revenue-miss-overshadow-doubled-vehicle-margin-xpeng-holds-steady/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 03:03",
         "score": 6
       },
       {
-        "title": "The Memory Shortage Isn’t Close to Ending — Samsung Just Locked Up 70% of HBM Capacity Through 2031",
-        "description": "Microsoft, Nvidia, and Google are quietly signing deals that stretch nearly a decade into the future, and the reason why tells you everything about wh",
-        "url": "https://247wallst.com/investing/2026/08/31/the-memory-shortage-isnt-close-to-ending-samsung-just-locked-up-70-of-hbm-capacity-through-2031/?.tsrc=rss",
+        "title": "The Zacks Analyst Blog Highlights Broadcom, Nvidia, Palantir, Fortinet and Quanta Services",
+        "description": "Broadcom, Nvidia, Palantir, Fortinet and Quanta Services draw attention as markets brace for key data and rate decisions.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-broadcom-130400276.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 00:52",
-        "score": 5
+        "publishedAt": "09/01 22:04",
+        "score": 6
+      },
+      {
+        "title": "Palantir Vs. Intel: Choose One for The Rest of 2026",
+        "description": "Palantir posted record software growth while Intel staged its biggest revenue comeback in fifteen years, and choosing between them for the second half",
+        "url": "https://247wallst.com/investing/2026/09/01/palantir-vs-intel-choose-one-for-the-rest-of-2026-2/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/01 20:33",
+        "score": 6
       }
     ]
   }
