@@ -1,283 +1,340 @@
 {
-  "generated_at_kst": "2026-09-02 09:23 KST",
-  "period": "09/01 07:00 ~ 09/02 07:00 KST",
+  "generated_at_kst": "2026-09-03 09:28 KST",
+  "period": "09/02 07:00 ~ 09/03 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red",
-        "description": "Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.",
-        "url": "https://finance.yahoo.com/m/01f4a532-05e7-3571-8eb1-b7afa3f67969/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus",
+        "description": "The ‌U.S. military on Tuesday said it began striking Islamic Revolutionary Guard Corps (IRGC) targets in ⁠Iran.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-flat/cZsAInURJMx?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 05:46",
+        "publishedAt": "09/02 09:01",
         "score": 10
       },
       {
-        "title": "Gold declines as Treasury yields rise and markets increase Fed rate hike expectations",
-        "description": "Gold prices fell on Tuesday as higher oil prices and government bond yields coincided with increased market expectations for another Federal Reserve i",
-        "url": "https://investorshub.advfn.com/market-news/article/35334/gold-declines-as-treasury-yields-rise-and-markets-increase-fed-rate-hike-expectations?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/01 18:32",
-        "score": 10
-      },
-      {
-        "title": "올해 주가 3배 급등한 마이크론, 밸류에이션은 S&P500 하위권",
+        "title": "유가 하락에 국채 수익률 소폭 내리자…뉴욕증시 반등",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090174331",
+        "url": "https://www.hankyung.com/article/202609020640i",
         "source": "hankyung.com",
-        "publishedAt": "09/01 18:08",
+        "publishedAt": "09/02 23:15",
         "score": 8
       },
       {
-        "title": "Most Investors Fear Bear Markets. My 7-Year Track Record Shows They Should Welcome Them.",
-        "description": "It's better to buy assets when they're on sale.",
-        "url": "https://www.fool.com/investing/2026/09/01/most-investors-fear-bear-markets-my-7-year-track-r/?.tsrc=rss",
+        "title": "Bond yields still high as investors weigh rate hike risk: AlphaCheck",
+        "description": "Stocks were little changed as Treasury yields stayed elevated.",
+        "url": "https://finance.yahoo.com/markets/article/bond-yields-still-high-as-investors-weigh-rate-hike-risk-alphacheck-135357686.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 06:30",
+        "publishedAt": "09/02 22:53",
         "score": 6
       },
       {
-        "title": "S&P 500 biggest August 2026 winners: Moderna, software stocks",
-        "description": "Moderna stock led the index after melanoma vaccine data, while a hedge fund's forced unwind turbocharged a rebound in enterprise software",
-        "url": "https://qz.com/sp500-august-winners-moderna-cancer-vaccine-situational-awareness-090126?.tsrc=rss",
+        "title": "S&P 500 Q3 Earnings Preview: Earnings and Revenue Growth Expected to Surge",
+        "description": "For 2026 Q3, the expectation is that total S&P 500 earnings will increase +23.0% from the same period last year on +11.1% higher revenues, with 14 of",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-q3-earnings-preview-212000628.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 21:37",
-        "score": 6
+        "publishedAt": "09/03 06:20",
+        "score": 5
+      },
+      {
+        "title": "GitLab Q2 Earnings Beat on Revenue Growth and Sales Productivity",
+        "description": "GTLB's fiscal Q2 revenues increase 21.3% as customer expansion, sales productivity, and AI product traction support growth.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/gitlab-q2-earnings-beat-revenue-172700924.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/03 02:27",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "네이버·카카오 어쩌나…\"판교 노조 5만명\" 통합교섭 '시험대' [김대영의 노무스쿨]",
+        "title": "개인도, 외인도, 기관도 안 산다…코스피, 역대 최악의 '수급 공백'",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608314963g",
+        "url": "https://www.hankyung.com/article/202609028998i",
         "source": "hankyung.com",
-        "publishedAt": "09/01 14:49",
-        "score": 6
+        "publishedAt": "09/02 17:44",
+        "score": 8
       },
       {
-        "title": "Kospi Gains as Chip Buybacks Offset Broad Investor Selling",
-        "description": "Kospi rises as Samsung and SK Hynix gains from chip buybacks offset renewed US-Iran tensions and a hawkish Fed speech.",
-        "url": "https://beincrypto.com/kospi-chip-stocks-offset-iran-tensions/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/01 19:03",
+        "title": "임단협 부결 뒤 첫 메시지…SK하이닉스 \"불이익 없도록 할 것\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090307317",
+        "source": "hankyung.com",
+        "publishedAt": "09/03 06:26",
         "score": 5
       },
       {
-        "title": "[포토] 카카오페이손해보험, '2026 올해의 브랜드 대상' 펫보험 부문 수상",
+        "title": "'코스닥 활성화' 위해 출시됐지만…정부, BDC 세제혜택 줄인 이유는",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609028031H",
+        "url": "https://www.hankyung.com/article/202609020470i",
         "source": "hankyung.com",
-        "publishedAt": "09/02 03:09",
-        "score": 3
+        "publishedAt": "09/02 19:00",
+        "score": 5
       },
       {
-        "title": "스쿨존에서 자동 감속하는 카카오 자율주행",
+        "title": "\"9월엔 주식 쉬어야 하나\"…26년간 코스피 수익률 따져보니 [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090174101",
+        "url": "https://www.hankyung.com/article/2026090294426",
         "source": "hankyung.com",
-        "publishedAt": "09/01 17:37",
-        "score": 3
+        "publishedAt": "09/02 19:00",
+        "score": 5
+      },
+      {
+        "title": "Samsung Electronics (KOSE:A005930), Why Is The Market Taking A Closer Look?",
+        "description": "Samsung Electronics buyback plan and upcoming investor event Samsung Electronics (KOSE:A005930) has announced a new share repurchase program and is pr",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-why-061124092.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 15:11",
+        "score": 5
       }
     ],
-    "macro": [],
+    "macro": [
+      {
+        "title": "8월 美 민간고용 눈에 띄게 둔화",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090206121",
+        "source": "hankyung.com",
+        "publishedAt": "09/02 22:53",
+        "score": 3
+      },
+      {
+        "title": "美 8월 민간고용 3만8천명증가 그쳐…예상 밑돌아",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609020606i",
+        "source": "hankyung.com",
+        "publishedAt": "09/02 22:17",
+        "score": 3
+      },
+      {
+        "title": "US Dollar Rises Early Wednesday Ahead of ADP Private Payrolls, Factory Orders, Beige Book",
+        "description": "The US dollar rose against its major trading partners early Wednesday, except for a decline versus t",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-wednesday-113120089.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 20:31",
+        "score": 3
+      },
+      {
+        "title": "Bond Yields Are Near 5%: New York Fed's Williams Calls That A Sign Of 'Strong Economy'",
+        "description": "The bond market is shouting to the world that money is getting expensive. But New York Fed President John Williams sees something different behind the",
+        "url": "https://finance.yahoo.com/economy/articles/bond-yields-near-5-york-192109806.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/03 04:21",
+        "score": 1
+      },
+      {
+        "title": "Pasqal Stock Slump Highlights Growing Macro Risks Facing Quantum Computing Industry",
+        "description": "Pasqal stock is stumbling out of the gate after its Nasdaq debut. Here’s why investors shouldn’t panic.",
+        "url": "https://finance.yahoo.com/m/3e774aa4-ff09-3d6e-a9e6-c3915cf19696/pasqal-stock-slump-highlights.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/03 03:24",
+        "score": 1
+      }
+    ],
     "bonds": [
       {
-        "title": "Update: US Equity Indexes Drop as Treasury Yields, Crude Oil Surge Following Fresh Military Strikes on Iran",
-        "description": "(Updates with index/price moves, macroeconomic data and geopolitical news from the first paragraph.)",
-        "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-drop-treasury-211755099.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Close Higher Amid Declining Treasury Yields, Rising Crude Oil",
+        "description": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-close-higher-205552192.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 06:17",
+        "publishedAt": "09/03 05:55",
         "score": 8
       },
       {
-        "title": "Stocks slip as 10-year Treasury yield hits highest level since January 2025: AlphaCheck",
-        "description": "Stocks slipped in early trading on Tuesday as long-dated bond yields rose and speculation of a rate hike this year grew.",
-        "url": "https://finance.yahoo.com/markets/article/stocks-slip-as-10-year-treasury-yield-hits-highest-level-since-january-2025-alphacheck-134150677.html?.tsrc=rss",
+        "title": "10-year Treasury yields jump to multi-year high as inflation fears persist",
+        "description": "Ten-year Treasury yields (^TYX, ^TNX, ^FVX) have hit their highest level since 2023 as inflation fears continue to pressure the bond market. Yahoo Fin",
+        "url": "https://finance.yahoo.com/video/10-year-treasury-yields-jump-to-multi-year-high-as-inflation-fears-persist-191922921.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 22:41",
+        "publishedAt": "09/03 04:19",
         "score": 8
       },
       {
-        "title": "Gold declines as Treasury yields rise and markets increase Fed rate hike expectations",
-        "description": "Gold prices fell on Tuesday as higher oil prices and government bond yields coincided with increased market expectations for another Federal Reserve i",
-        "url": "https://investorshub.advfn.com/market-news/article/35334/gold-declines-as-treasury-yields-rise-and-markets-increase-fed-rate-hike-expectations?.tsrc=rss",
+        "title": "Gold Futures Edge Up as Treasury Yields Ease",
+        "description": "Gold futures snap a three-session losing streak as Treasury yields ease. The market is closely watching for Friday's employment report, where a strong",
+        "url": "https://finance.yahoo.com/m/8d3cf7af-6301-36a8-b6dc-9a7392be3642/gold-futures-edge-up-as.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 18:32",
+        "publishedAt": "09/03 03:42",
         "score": 8
       },
       {
-        "title": "Inflation Isn’t Causing the Bond Selloff. Blame This Instead.",
-        "description": "Inflation is the traditional enemy of bonds, because it makes future returns worth less. But there’s another factor in play now.",
-        "url": "https://finance.yahoo.com/m/8c6826ea-3863-3387-8d5e-99bdef306701/inflation-isn%E2%80%99t-causing-the.html?.tsrc=rss",
+        "title": "US 10-year yield touches highest level since 2023",
+        "description": "Global bond yields are up sharply in recent weeks and US oil prices are back above $90 per barrel. Now, investors are on alert for potential pressure",
+        "url": "https://www.cnn.com/2026/09/02/investing/bond-market-stocks-ai?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 04:08",
+        "publishedAt": "09/03 06:13",
+        "score": 5
+      },
+      {
+        "title": "Global Bond Selloff Undercuts Wall Street Pre-Bell; Asia, Europe Off",
+        "description": "Wall Street futures pointed moderately lower pre-bell as global bond yields continued to grind highe",
+        "url": "https://finance.yahoo.com/markets/articles/global-bond-selloff-undercuts-wall-112339759.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 20:23",
         "score": 5
       }
     ],
     "commodities": [
       {
-        "title": "Update: US Equity Indexes Drop as Treasury Yields, Crude Oil Surge Following Fresh Military Strikes on Iran",
-        "description": "(Updates with index/price moves, macroeconomic data and geopolitical news from the first paragraph.)",
-        "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-drop-treasury-211755099.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Close Higher Amid Declining Treasury Yields, Rising Crude Oil",
+        "description": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-close-higher-205552192.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 06:17",
+        "publishedAt": "09/03 05:55",
         "score": 5
       },
       {
-        "title": "Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red",
-        "description": "Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.",
-        "url": "https://finance.yahoo.com/m/01f4a532-05e7-3571-8eb1-b7afa3f67969/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "Dollar Erases Early Gains as Crude Oil and T-note Yields Move Lower",
+        "description": "The dollar index (DXY00 ) fell from a 2.5-week high today and is down by -0.11%. The dollar gave up an overnight advance and turned lower today when W",
+        "url": "https://www.barchart.com/story/news/4403076/dollar-erases-early-gains-as-crude-oil-and-t-note-yields-move-lower?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 05:46",
+        "publishedAt": "09/02 23:43",
         "score": 5
       },
       {
-        "title": "Gold prices dip despite notching best month since Feb.: Why Goldman Sachs still expects a rally",
-        "description": "Gold (GC=F) prices are under pressure on Tuesday, although August was the precious metal's best month since February. Yahoo Finance Senior Business Re",
-        "url": "https://finance.yahoo.com/video/gold-prices-dip-despite-notching-141932305.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/01 23:19",
+        "title": "유가 하락에 국채 수익률 소폭 내리자…뉴욕증시 반등",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609020640i",
+        "source": "hankyung.com",
+        "publishedAt": "09/02 23:15",
         "score": 5
       },
       {
-        "title": "Canada Commodities: Oil Prices Move Higher as the Middle East Conflict Drags On",
-        "description": "Oil prices jumped Tuesday morning as the United States and Iran conflict continued to grind on and t",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-move-135652205.html?.tsrc=rss",
+        "title": "10-year Treasury touches highest level since 2023 as oil prices stay elevated",
+        "description": "Bond yields stayed elevated on Wednesday as oil prices hovered near $95 a barrel, spurring worries of higher inflation.",
+        "url": "https://finance.yahoo.com/markets/article/10-year-treasury-touches-highest-level-since-2023-as-oil-prices-stay-elevated-134238599.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 22:56",
+        "publishedAt": "09/02 22:42",
         "score": 5
       },
       {
-        "title": "Newmont shares fall 2.6% as gold prices retreat",
-        "description": "Newmont Goldcorp Corp (NYSE:NEM) shares fell 2. 6% in pre-market trading to $122.",
-        "url": "https://investorshub.advfn.com/market-news/article/35383/newmont-shares-fall-2-6-as-gold-prices-retreat?.tsrc=rss",
+        "title": "Stock Market Today, Sept. 2: Eos Energy Surges 19% on Google Partnership for $350M West Virginia Project",
+        "description": "On Sept. 2, 2026, the battery storage provider climbed 18.75% after the clean-energy collaboration announcement tied to about 200 expected jobs.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-eos-energy-surges-19-on-google-partnership-for-usd350m-west-virginia-project/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 22:35",
-        "score": 5
+        "publishedAt": "09/03 06:55",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "Bitcoin and Gold Gain as Currency Debasement Fears Surge 750% in Two Weeks",
-        "description": "The word “debasement” appeared in 1,533 Bloomberg articles last week, up 750% in two weeks and the third-highest weekly total on record, according to",
-        "url": "https://www.ccn.com/news/crypto/bitcoin-gold-currency-debasement-fears-750-percent/?.tsrc=rss",
+        "title": "Global Bond Selloff Undercuts Wall Street Pre-Bell; Asia, Europe Off",
+        "description": "Wall Street futures pointed moderately lower pre-bell as global bond yields continued to grind highe",
+        "url": "https://finance.yahoo.com/markets/articles/global-bond-selloff-undercuts-wall-112339759.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 00:30",
+        "publishedAt": "09/02 20:23",
         "score": 3
       },
       {
-        "title": "\"달러 빼고 다 산다\"…ABD 투자 시대",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090175141",
-        "source": "hankyung.com",
-        "publishedAt": "09/01 19:00",
-        "score": 3
-      },
-      {
-        "title": "4억달러 손실에도…애크먼, 넷플릭스 '재베팅'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090174351",
-        "source": "hankyung.com",
-        "publishedAt": "09/01 18:10",
-        "score": 3
-      },
-      {
-        "title": "USD/JPY Eyes Breakout as Rising Yields Support US Dollar",
-        "description": "Currency markets continue to watch yields in the USA and their influence on the US dollar overall. They are rising yet again in early Tuesday trading.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/usd-jpy-eyes-breakout-rising-131242961.html?.tsrc=rss",
+        "title": "EUR/USD, USD/CAD and USD/CHF Face Key Dollar Tests",
+        "description": "The forex markets continue to watch the ten-year yield in the United States, while the jobs data on Friday could be a big mover if we get an unexpecte",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-cad-usd-141114155.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 22:12",
+        "publishedAt": "09/02 23:11",
         "score": 2
       },
       {
-        "title": "Dollar Supported by Rising T-Note Yields and Falling Stocks",
-        "description": "The dollar index (DXY00 ) is up by +0.12% today. Soaring T-note yields today have strengthened the dollar’s interest rate differentials and are pushin",
-        "url": "https://www.barchart.com/story/news/4378734/dollar-supported-by-rising-t-note-yields-and-falling-stocks?.tsrc=rss",
+        "title": "Goldman Sachs, BofA Among 21 Banks Planning Joint Dollar Stablecoin Launch",
+        "description": "The bank-led consortium wants a U.S. dollar token live by the first half of 2027, with a euro version queued up next.",
+        "url": "https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 23:34",
+        "publishedAt": "09/03 05:01",
+        "score": 1
+      },
+      {
+        "title": "Dollar Erases Early Gains as Crude Oil and T-note Yields Move Lower",
+        "description": "The dollar index (DXY00 ) fell from a 2.5-week high today and is down by -0.11%. The dollar gave up an overnight advance and turned lower today when W",
+        "url": "https://www.barchart.com/story/news/4403076/dollar-erases-early-gains-as-crude-oil-and-t-note-yields-move-lower?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 23:43",
+        "score": 1
+      },
+      {
+        "title": "Iranian rial in freefall as dollar breaks 2.1 million mark",
+        "description": "The rial has lost 63% of its value against the dollar since March, with the euro hitting 2.55 million rials and gold coins changing hands at 2.26 bill",
+        "url": "https://www.euronews.com/2026/09/02/iranian-rial-hits-record-low-as-us-dollar-breaks-22-million-mark?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/02 21:42",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Commvault, Sprinklr, Upland Software, Samsara, and Cadence Design Systems Stocks Trade Down, What You Need To Know",
-        "description": "A number of stocks fell in the afternoon session after escalating geopolitical tensions in the Middle East and climbing global bond yields dampened in",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/commvault-sprinklr-upland-software-samsara-210620562.html?.tsrc=rss",
+        "title": "G20 summit marred by US, Canada trade spats: Top takeaways",
+        "description": "The latest G20 summit with global finance leaders was largely characterized by the back-and-forth remarks between President Trump and Canadian Prime M",
+        "url": "https://finance.yahoo.com/video/g20-summit-marred-us-canada-134121754.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 06:06",
-        "score": 2
+        "publishedAt": "09/02 22:41",
+        "score": 4
       },
       {
-        "title": "Wars May Rattle Markets at First, But This Wealth Manager Says the S&P 500 Has Historically Turned Conflict Into a Long-Term ‘Boost for Asset Owners’",
-        "description": "While the escalating military conflict between the U.S. and Iran has sparked short-term market anxiety, historical S&P 500 data reveals a massive 685%",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wars-may-rattle-markets-first-183106921.html?.tsrc=rss",
+        "title": "Stock Market Today, Sept. 2: Dell Helps Stocks Edge Higher Despite Geopolitical Tensions",
+        "description": "Today, Sept. 2, 2026, major indexes snapped losing streaks amid Iran-U.S. hostilities and rising Treasury yields pressuring tech valuations.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-dell-helps-stocks-edge-higher-despite-geopolitical-tensions/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 03:31",
-        "score": 2
+        "publishedAt": "09/03 06:31",
+        "score": 3
       },
       {
-        "title": "Solaris Energy Infrastructure, TETRA Technologies, SLB, and Weatherford Stocks Trade Down, What You Need To Know",
-        "description": "A number of stocks fell in the afternoon session after a surge in crude oil prices offered a near-term lift, but broader market volatility and a sharp",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/solaris-energy-infrastructure-tetra-technologies-212220800.html?.tsrc=rss",
+        "title": "AI has become a 'non-negotiable', Sam Altman says at G20 summit",
+        "description": "Big Tech CEOs convened in North Carolina to speak at the G20 summit on Wednesday, laying out the virtues and benefits of AI to world leaders. Yahoo Fi",
+        "url": "https://finance.yahoo.com/video/ai-become-non-negotiable-sam-194000759.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 06:22",
-        "score": 1
+        "publishedAt": "09/03 04:40",
+        "score": 3
       },
       {
-        "title": "Tenable, Upstart, SentinelOne, monday.com, and DigitalOcean Stocks Trade Down, What You Need To Know",
-        "description": "A number of stocks fell in the afternoon session after escalating geopolitical tensions in the Middle East and climbing global bond yields dampened in",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tenable-upstart-sentinelone-monday-com-205820303.html?.tsrc=rss",
+        "title": "Dutch shift gold from US to UK because of ‘geopolitical unrest’",
+        "description": "The Netherlands has moved its gold from the US to Britain because of “increasing geopolitical unrest”.",
+        "url": "https://www.telegraph.co.uk/business/2026/09/02/dutch-shift-gold-from-us-to-uk-because-of-geopolitical-unre/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 05:58",
-        "score": 1
+        "publishedAt": "09/03 02:54",
+        "score": 3
       },
       {
-        "title": "Software Stocks Just Did Something They've Done Only Three Times Before",
-        "description": "Palantir, Palo Alto and Microsoft are its largest holdings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/software-stocks-just-did-something-194325770.html?.tsrc=rss",
+        "title": "Nvidia’s $1 Billion Nokia Bet Was Worth About $2.2 Billion by June. Is 6G the Hidden AI Trade?",
+        "description": "Nvidia’s less famous telecom investment had more than doubled on paper by midyear. In October 2025, NVIDIA Corporation (NASDAQ:NVDA) agreed to invest",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-1-billion-nokia-bet-215606198.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 04:43",
+        "publishedAt": "09/03 06:56",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "What Is Cathie Wood Buying Now? Nvidia, SpaceX And Crypto Stocks Led ARK’s August Trades – While Cutting These Growth Stocks",
-        "description": "Nvidia was ARK’s biggest August purchase, with roughly 548,000 shares added during the month.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-ark-invest-nvidia-spacex-buys-roblox-sell-august/cZsoiDFRJMG?.tsrc=rss",
+        "title": "Broadcom Q3 FY2026 earnings: Record revenue on AI chip demand",
+        "description": "The chipmaker's semiconductor solutions segment more than doubled year over year, driven by custom AI accelerator demand",
+        "url": "https://qz.com/broadcom-record-revenue-ai-chips-quarterly-earnings-090226?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 19:54",
-        "score": 9
+        "publishedAt": "09/03 05:46",
+        "score": 7
       },
       {
-        "title": "Palantir to Deliver Eight TITAN Systems to the U.S. Army",
-        "description": "MIAMI, September 01, 2026--Palantir Technologies Inc. (NASDAQ: PLTR) today announced that the Army Contracting Command has awarded Palantir USG, Inc.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-deliver-eight-titan-systems-210200015.html?.tsrc=rss",
+        "title": "Palantir U.S. Army TITAN Award Moves AI-Enabled Ground Station Program Into Production",
+        "description": "Palantir Technologies (NASDAQ:PLTR) has received a U. S.",
+        "url": "https://investorshub.advfn.com/market-news/article/35536/palantir-u-s-army-titan-award-moves-ai-enabled-ground-station-program-into-production?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 06:02",
+        "publishedAt": "09/03 00:01",
+        "score": 7
+      },
+      {
+        "title": "Blue Origin Beats Rocket Lab, Wins $700 Million Mars Communications Contract",
+        "description": "Jeff Bezos' Blue Origin space company on Tuesday won a NASA contract to develop a Mars communications orbiter, beating Rocket Lab.",
+        "url": "https://finance.yahoo.com/m/a7040903-3432-3ed3-af50-bed0a543be68/blue-origin-beats-rocket-lab%2C.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/03 05:58",
         "score": 6
       },
       {
-        "title": "Nio Falls 4% as Memory Chip Costs and Revenue Miss Overshadow Doubled Vehicle Margin, XPeng Holds Steady",
-        "description": "Nio just posted its most profitable quarter in years, yet investors are dumping the stock. The culprit is a cost pressure that has nothing to do with",
-        "url": "https://247wallst.com/investing/2026/09/01/nio-falls-4-as-memory-chip-costs-and-revenue-miss-overshadow-doubled-vehicle-margin-xpeng-holds-steady/?.tsrc=rss",
+        "title": "Palantir Shares Sink Despite $192 Million Army Contract",
+        "description": "Palantir Lands $192 Million Army Deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-shares-sink-despite-192-203219324.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/02 03:03",
+        "publishedAt": "09/03 05:32",
         "score": 6
       },
       {
-        "title": "The Zacks Analyst Blog Highlights Broadcom, Nvidia, Palantir, Fortinet and Quanta Services",
-        "description": "Broadcom, Nvidia, Palantir, Fortinet and Quanta Services draw attention as markets brace for key data and rate decisions.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-broadcom-130400276.html?.tsrc=rss",
+        "title": "Palantir Falls 7% Despite Army TITAN Production Award, Salesforce Slips",
+        "description": "Palantir just landed a U.S. Army production contract for next-generation AI targeting systems, yet the stock is sinking anyway. The reason has nothing",
+        "url": "https://247wallst.com/investing/2026/09/02/palantir-falls-7-despite-army-titan-production-award-salesforce-slips/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/01 22:04",
-        "score": 6
-      },
-      {
-        "title": "Palantir Vs. Intel: Choose One for The Rest of 2026",
-        "description": "Palantir posted record software growth while Intel staged its biggest revenue comeback in fifteen years, and choosing between them for the second half",
-        "url": "https://247wallst.com/investing/2026/09/01/palantir-vs-intel-choose-one-for-the-rest-of-2026-2/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/01 20:33",
+        "publishedAt": "09/03 01:30",
         "score": 6
       }
     ]
