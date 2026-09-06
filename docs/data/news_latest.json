@@ -1,293 +1,237 @@
 {
-  "generated_at_kst": "2026-09-05 09:15 KST",
-  "period": "09/04 07:00 ~ 09/05 07:00 KST",
+  "generated_at_kst": "2026-09-06 09:05 KST",
+  "period": "09/05 07:00 ~ 09/06 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "US Equity Markets End Lower as Expectations Rise for Fed Rate Hike Amid Hot Jobs Data",
-        "description": "US equity indexes ended lower Friday after expectations of an interest rate hike increased following",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201841803.html?.tsrc=rss",
+        "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
+        "description": "Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-blowout-jobs-report-fans-rate-hike-fears-while-chipmaker-strength-aids-nasdaq-tsla-nflx-be-nvda-in-focus/cZsDjVKRJDg?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 05:18",
-        "score": 13
+        "publishedAt": "09/05 07:18",
+        "score": 15
       },
       {
-        "title": "Blowout jobs report raises worries of Fed rate hike: AlphaCheck",
-        "description": "Stocks rose after the monthly jobs report",
-        "url": "https://finance.yahoo.com/markets/article/blowout-jobs-report-raises-worries-of-fed-rate-hike-alphacheck-140242787.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/04 23:02",
-        "score": 10
+        "title": "고용 호조에 9월 美금리 인상 가능성 58%…3대지수 하락 [뉴욕증시 브리핑]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090555447",
+        "source": "hankyung.com",
+        "publishedAt": "09/05 07:03",
+        "score": 8
       },
       {
-        "title": "Stocks slip as robust US jobs data stokes rate hike odds",
-        "description": "Stocks mostly fell on Friday on news that the US economy created far more jobs than expected last month, making it more likely the Federal Reserve wou",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rally-traders-pare-024214659.html?.tsrc=rss",
+        "title": "The S&P 500 Fell, but These 2 AI Memory Stocks Exploded Higher",
+        "description": "Wall Street delivered a sharp split on September 4. The S&P 500 fell 0.4% after a stronger-than-expected jobs report lifted rate concerns, but Sandisk",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-fell-2-ai-190345284.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 05:48",
+        "publishedAt": "09/06 04:03",
         "score": 6
       },
       {
-        "title": "Here Are the First 3 Stocks I'm Buying if the Market Crashes",
-        "description": "A market crash could come at any time; investors need to be ready.",
-        "url": "https://www.fool.com/investing/2026/09/04/here-are-the-first-three-stocks-im-buying-if-the/?.tsrc=rss",
+        "title": "These 2 AI Storage Stocks Soared as the S&P 500 Fell",
+        "description": "Seagate gained 6.3% and Western Digital rose 5.9% on September 4 even as the S&P 500 fell 0.4%. The pairing was consistent with investors rotating tow",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-ai-storage-stocks-soared-190028471.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/04 22:50",
+        "publishedAt": "09/06 04:00",
         "score": 6
       },
       {
-        "title": "Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat; CrowdStrike Slips, Palo Alto Holds Steady",
-        "description": "Zscaler posted a clean earnings beat and still sent the whole cybersecurity sector into retreat, raising an uncomfortable question about whether even",
-        "url": "https://247wallst.com/investing/2026/09/04/zscaler-falls-4-as-fy2027-growth-guidance-overshadows-earnings-beat-crowdstrike-slips-palo-alto-holds-steady/?.tsrc=rss",
+        "title": "There Are Only a Handful of S&P 500 Stocks That Yield Over 5%. Here's My Top Pick to Buy in September.",
+        "description": "This is an excellent dividend stock at any time.",
+        "url": "https://www.fool.com/investing/2026/09/05/there-are-only-a-handful-of-sp-500-stocks-that-yie/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 01:06",
-        "score": 5
+        "publishedAt": "09/05 23:45",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "SK Hynix Surges 7% as Memory Bid Widens Beyond NAND; Seagate Rallies 5%",
-        "description": "A broad memory bid swept through storage stocks Friday afternoon while the rest of the market softened, and the divergence between one sector ETF and",
-        "url": "https://247wallst.com/investing/2026/09/04/sk-hynix-surges-7-as-memory-bid-widens-beyond-nand-seagate-rallies-5/?.tsrc=rss",
+        "title": "Is SK Hynix (NasdaqGS:SKHY) Undervalued On Tariff Talks And AI Memory Demand?",
+        "description": "SK hynix (NasdaqGS:SKHY) stock moved after reports of new tariff talks between South Korea and the U.S. on chip investment and market access. The news",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaqgs-skhy-undervalued-190646491.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 04:07",
+        "publishedAt": "09/06 04:06",
         "score": 5
       },
       {
-        "title": "하반기 코스피 -21% 찍을때 은행주는 11% '쑥'…주가방어에 배당 매력",
+        "title": "\"돈 쏟아부어도 이건 힘들어\"…TSMC 이어 삼성전자도 '비상' [강경주의 테크X]",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609044945i",
+        "url": "https://www.hankyung.com/article/2026090442456",
         "source": "hankyung.com",
-        "publishedAt": "09/04 20:04",
+        "publishedAt": "09/05 14:00",
         "score": 5
       },
       {
-        "title": "코스닥 상폐 기준 강화 내년 7월로 미룬다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090451611",
-        "source": "hankyung.com",
-        "publishedAt": "09/04 18:09",
-        "score": 5
-      },
-      {
-        "title": "코스피, 美금리 우려 완화에 1%대 강세…외인·기관 '사자'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090448016",
-        "source": "hankyung.com",
-        "publishedAt": "09/04 15:40",
-        "score": 5
-      },
-      {
-        "title": "거래소, 코스닥 전문평가 운영체계 개편 공청회 및 워크숍 개최",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090447216",
-        "source": "hankyung.com",
-        "publishedAt": "09/04 15:13",
-        "score": 5
+        "title": "South Korea exports surpass annual record as AI chip boom drives shipments",
+        "description": "Investing.com -- South Korea’s exports have reached $709.4 billion so far this year, already surpassing the country’s full-year record set in 2025 as",
+        "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-exports-surpass-annual-090758052.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/05 18:07",
+        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "Canadian dollar falls after jobs shock as strong US payrolls boost dollar",
-        "description": "Investing.com -- The Canadian dollar weakened on Friday after a sharp drop in domestic employment contrasted with a stronger-than-expected U.S. jobs r",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-falls-jobs-shock-162008892.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 01:20",
-        "score": 3
+        "title": "'굿 뉴스는 나쁜 뉴스' 뜨거운 고용, 냉각된 증시…CPI가 9월 운명 결정? [김현석의 월스트리트나우]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609055581i",
+        "source": "hankyung.com",
+        "publishedAt": "09/05 08:03",
+        "score": 8
       },
       {
-        "title": "Bitcoin and Gold Fall As US Payrolls Crush Forecasts by 3x",
-        "description": "Bitcoin and gold both fell within minutes of the US jobs report after August payrolls tripled forecasts at 162,000.",
-        "url": "https://beincrypto.com/bitcoin-gold-fall-us-payrolls-forecasts/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/04 21:42",
-        "score": 3
+        "title": "고용 호조에 9월 美금리 인상 가능성 58%…3대지수 하락 [뉴욕증시 브리핑]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090555447",
+        "source": "hankyung.com",
+        "publishedAt": "09/05 07:03",
+        "score": 8
       }
     ],
     "bonds": [
       {
-        "title": "Bitmine Sinks 6%, Strategy Slips: Is the Crypto Treasury Trade Unwinding?",
-        "description": "Bitmine just surrendered a big slice of its 37% monthly run while Strategy barely flinched, even though both coins fell together. What separates the t",
-        "url": "https://247wallst.com/investing/2026/09/04/bitmine-sinks-6-strategy-slips-is-the-crypto-treasury-trade-unwinding/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 04:22",
-        "score": 3
-      },
-      {
-        "title": "Netflix Falls 4% as Rate Repricing Pressures Long-Duration Growth; Disney Dips, Warner Bros. Discovery Sits Tight",
-        "description": "Rising Treasury yields are carving a sharp divide inside the streaming sector, and not every media stock is absorbing the pressure equally. The gap be",
-        "url": "https://247wallst.com/investing/2026/09/04/netflix-falls-4-as-rate-repricing-pressures-long-duration-growth-disney-dips-warner-bros-discovery-sits-tight/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 01:24",
-        "score": 3
+        "title": "'국채 금리 격차' 중국은 1%대, 미국은 5%대…중국 기업의 '뜻밖의 무기'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609033212i",
+        "source": "hankyung.com",
+        "publishedAt": "09/05 07:00",
+        "score": 5
       }
     ],
     "commodities": [
       {
-        "title": "360 Energy Pulse: What mattered this week in energy",
-        "description": "(By Oil & Gas 360) – The first week of September delivered a familiar geopolitical story with a potentially more consequential […]",
-        "url": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213045272.html?.tsrc=rss",
+        "title": "Piper Sandler raises second-half 2026 Brent forecast to $90 per barrel",
+        "description": "Piper Sandler raised its second-half 2026 Brent crude price forecast by $10 per barrel to $90/b, citing continued constraints on Middle East oil suppl",
+        "url": "https://investorshub.advfn.com/market-news/article/35727/piper-sandler-raises-second-half-2026-brent-forecast-to-90-per-barrel?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 06:30",
+        "publishedAt": "09/06 00:16",
+        "score": 6
+      },
+      {
+        "title": "Why are petrol and diesel so expensive despite crude oil not reaching record highs?",
+        "description": "Pump prices could remain high in Europe, adding to inflationary pressure. The immediate problem is not just the supply or price of crude oil, but limi",
+        "url": "https://www.euronews.com/2026/09/05/why-are-petrol-and-diesel-so-expensive-despite-crude-oil-not-reaching-record-highs?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/05 21:42",
+        "score": 5
+      },
+      {
+        "title": "Barclays says rates and energy prices regain influence over equity markets",
+        "description": "Equity markets have become more sensitive to changes in interest rates and energy prices, with upcoming central bank decisions and oil-market developm",
+        "url": "https://investorshub.advfn.com/market-news/article/35721/barclays-says-rates-and-energy-prices-regain-influence-over-equity-markets?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/05 21:07",
         "score": 3
       },
       {
-        "title": "TSX Closer: The Index Falls as Energy, Financials Weigh; Canada Posts Surprise August Job Loss",
-        "description": "The S&P/TSX Composite Index closed lower on Friday ahead of the Labor Day holiday weekend as weaknes",
-        "url": "https://finance.yahoo.com/economy/articles/tsx-closer-index-falls-energy-202607984.html?.tsrc=rss",
+        "title": "The overlooked Russia-Ukraine war grows its outsized impact on energy as U.S. diesel prices hit all-time high",
+        "description": "Ukraine's increasingly successful attacks on Russian oil refineries are rippling through gasoline and diesel energy markets worldwide.",
+        "url": "https://finance.yahoo.com/energy/articles/overlooked-russia-ukraine-war-grows-070900583.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 05:26",
+        "publishedAt": "09/05 16:09",
         "score": 3
-      },
-      {
-        "title": "Sector Update: Energy Stocks Softer Late Afternoon",
-        "description": "Energy stocks declined late Friday afternoon, with the NYSE Energy Sector Index decreasing 0.7% and",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-afternoon-195737210.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 04:57",
-        "score": 3
-      },
-      {
-        "title": "Energy stocks could be the biggest winners of the AI boom",
-        "description": "Yahoo Finance Senior Business Reporter Ines Ferré discusses how major energy companies like ExxonMobil (XOM), Chevron (CVX), and ConocoPhillips (COP)",
-        "url": "https://finance.yahoo.com/video/energy-stocks-could-biggest-winners-193225814.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 04:32",
-        "score": 3
-      },
-      {
-        "title": "[단독] '1600억 정산분쟁' 부른 석유 최고가격제…결국 소송 간다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090451831",
-        "source": "hankyung.com",
-        "publishedAt": "09/04 17:54",
-        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "반도체·바이오주, 환율 하락發 이익감소 주의",
+        "title": "'2조달러' 앤트로픽 IPO 연기될 수도…\"미 중간선거 직전 마무리\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090451271",
+        "url": "https://www.hankyung.com/article/2026090557207",
         "source": "hankyung.com",
-        "publishedAt": "09/04 17:44",
-        "score": 5
-      },
-      {
-        "title": "환율 1년 2개월 만에 1340원대…반도체·바이오 '이익 감소 주의보'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609044451i",
-        "source": "hankyung.com",
-        "publishedAt": "09/04 16:00",
-        "score": 5
-      },
-      {
-        "title": "[속보] 장중 환율 1340원대로 하락…2년 2개월 만",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090447427",
-        "source": "hankyung.com",
-        "publishedAt": "09/04 15:22",
-        "score": 5
-      },
-      {
-        "title": "1 Popular Cryptocurrency ARK Invest Expects to Surge by 1,480%",
-        "description": "Cathie Wood expects Bitcoin to soar to $1.25 million in just five years.",
-        "url": "https://www.fool.com/investing/2026/09/04/x-popular-cryptocurrency-ark-invest-expects-to-sur/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 02:50",
+        "publishedAt": "09/05 10:08",
         "score": 3
       },
       {
-        "title": "Recent Yen Rally Puts These 3 ETFs in Focus",
-        "description": "Yen surge puts treasury, Japan equity & yen ETFs in focus, but what is next for investors?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/recent-yen-rally-puts-3-141400090.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/04 23:14",
+        "title": "'2조달러' 앤트로픽 IPO에 불안한 삼전·닉스 개미들",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090556937",
+        "source": "hankyung.com",
+        "publishedAt": "09/05 09:44",
         "score": 3
+      },
+      {
+        "title": "QuoMarkets Introduces Weekend XAUUSD Trading as Demand for Continuous Market Access Grows",
+        "description": "New GOLD247 instrument enables eligible clients to trade gold on weekends, expanding access beyond conventional market hours.Dubai, UAE, Sept. 05, 202",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/quomarkets-introduces-weekend-xauusd-trading-072700183.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/05 16:27",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Trump Threatens to Halt Trade Following News That US Trade Deficit Grew in July",
-        "description": "America’s trade deficit with the rest of the world grew in July to the highest level seen in more than a year, prompting an outraged response from the",
-        "url": "https://wwd.com/sourcing-journal/trade/trump-us-trade-deficit-july-federal-reserve-tariffs-1239199217/?.tsrc=rss",
+        "title": "Is SK Hynix (NasdaqGS:SKHY) Undervalued On Tariff Talks And AI Memory Demand?",
+        "description": "SK hynix (NasdaqGS:SKHY) stock moved after reports of new tariff talks between South Korea and the U.S. on chip investment and market access. The news",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaqgs-skhy-undervalued-190646491.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 06:05",
+        "publishedAt": "09/06 04:06",
+        "score": 3
+      },
+      {
+        "title": "Intuitive Surgical's Growth Has Cooled From Its Post-Pandemic Highs. Is That a Buying Opportunity or a Warning?",
+        "description": "Intuitive Surgical's flywheel isn't selling new surgical robots, its selling parts and services to support the ones it has already sold.",
+        "url": "https://www.fool.com/investing/2026/09/05/intuitive-surgicals-growth-has-cooled-from-its-pos/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/06 04:35",
         "score": 1
       },
       {
-        "title": "All That Glitters: How We Traded Gold Stocks Without Chasing",
-        "description": "It's no secret that the 1849 gold rush bankrupted far more people than it made rich.  It's a lesson that is aptly applied to gold stocks today or any",
-        "url": "https://finance.yahoo.com/m/13332d9e-f4b7-34c4-bcf4-2b21ac03e310/all-that-glitters%3A-how-we.html?.tsrc=rss",
+        "title": "If a Market Crash Is Coming, Here's the 1 Thing You Should Do, According to Warren Buffett",
+        "description": "It pays to listen to one of the world's best investors.",
+        "url": "https://www.fool.com/investing/2026/09/05/if-a-market-crash-is-coming-heres-the-1-thing-you/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 05:12",
+        "publishedAt": "09/05 20:02",
         "score": 1
       },
       {
-        "title": "Bitmine Sinks 6%, Strategy Slips: Is the Crypto Treasury Trade Unwinding?",
-        "description": "Bitmine just surrendered a big slice of its 37% monthly run while Strategy barely flinched, even though both coins fell together. What separates the t",
-        "url": "https://247wallst.com/investing/2026/09/04/bitmine-sinks-6-strategy-slips-is-the-crypto-treasury-trade-unwinding/?.tsrc=rss",
+        "title": "The overlooked Russia-Ukraine war grows its outsized impact on energy as U.S. diesel prices hit all-time high",
+        "description": "Ukraine's increasingly successful attacks on Russian oil refineries are rippling through gasoline and diesel energy markets worldwide.",
+        "url": "https://finance.yahoo.com/energy/articles/overlooked-russia-ukraine-war-grows-070900583.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 04:22",
-        "score": 1
-      },
-      {
-        "title": "Snowflake Falls 5% as Traders Take Profits on Its Guidance Surge; Datadog Holds Steady",
-        "description": "Snowflake surged 17% on earnings night, then spent Friday giving it back while every benchmark around it barely budged. That split-screen moment raise",
-        "url": "https://247wallst.com/investing/2026/09/04/snowflake-falls-5-as-traders-take-profits-on-its-guidance-surge-datadog-holds-steady/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 04:02",
-        "score": 1
-      },
-      {
-        "title": "SoFi Technologies Teams Up With Payward: Will SoFiUSD Gain Traction?",
-        "description": "SOFI's Payward tie-up expands SoFiUSD's reach through Kraken while adding digital-asset liquidity and 24/7 dollar clearing.",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/sofi-technologies-teams-payward-sofiusd-172200819.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 02:22",
+        "publishedAt": "09/05 16:09",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Jeff Bezos' Blue Origin Wins NASA's $700M Mars Contract — Beats Rocket Lab in High-Stakes Space Race",
-        "description": "Jeff Bezos’ Blue Origin won NASA’s race to build the agency’s next Mars communications orbiter, securing a contract worth up to $700 million for a hig",
-        "url": "https://finance.yahoo.com/technology/articles/jeff-bezos-blue-origin-wins-163104994.html?.tsrc=rss",
+        "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
+        "description": "Both companies are delivering impressive revenue growth.",
+        "url": "https://www.fool.com/investing/2026/09/05/broadcom-vs-nvidia-1-critical-metric-shows-which-a/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/05 01:31",
-        "score": 12
-      },
-      {
-        "title": "The Zacks Analyst Blog Highlights SpaceX, NASA, Rocket Lab, ARKX, UFO and WARP",
-        "description": "SpaceX's IPO is reshaping space investing, while diversified ETFs offer exposure to the industry's growth and help mitigate stock-specific risks.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-spacex-132400411.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/04 22:24",
-        "score": 12
-      },
-      {
-        "title": "SK Hynix Surges 7% as Memory Bid Widens Beyond NAND; Seagate Rallies 5%",
-        "description": "A broad memory bid swept through storage stocks Friday afternoon while the rest of the market softened, and the divergence between one sector ETF and",
-        "url": "https://247wallst.com/investing/2026/09/04/sk-hynix-surges-7-as-memory-bid-widens-beyond-nand-seagate-rallies-5/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/05 04:07",
+        "publishedAt": "09/06 04:05",
         "score": 8
       },
       {
-        "title": "What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?",
-        "description": "Palantir Technologies (NasdaqGS:PLTR) announced a prime agreement to deliver eight Tactical Intelligence Targeting Access Node (TITAN) ground station",
-        "url": "https://finance.yahoo.com/technology/ai/articles/does-palantir-technologies-pltr-winning-010624105.html?.tsrc=rss",
+        "title": "South Korea exports surpass annual record as AI chip boom drives shipments",
+        "description": "Investing.com -- South Korea’s exports have reached $709.4 billion so far this year, already surpassing the country’s full-year record set in 2025 as",
+        "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-exports-surpass-annual-090758052.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/04 10:06",
-        "score": 8
-      },
-      {
-        "title": "Cathie Wood Just Bought 705,102 Shares of a Rocket Company 50 Times Smaller Than SpaceX",
-        "description": "ARK Invest just loaded up on a rocket company trading at a fraction of SpaceX's valuation, and the timing raises a pointed question about whether the",
-        "url": "https://247wallst.com/investing/2026/09/04/cathie-wood-just-bought-705102-shares-of-a-rocket-company-50-times-smaller-than-spacex/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/04 23:00",
+        "publishedAt": "09/05 18:07",
         "score": 7
+      },
+      {
+        "title": "엔비디아 '빅딜'에 오픈AI \"AGI 왔다\"…고래싸움에 웃는 반도체 [빈난새의 빈틈없이마켓]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609044647i",
+        "source": "hankyung.com",
+        "publishedAt": "09/05 10:03",
+        "score": 7
+      },
+      {
+        "title": "Palantir Won a $127 Million Army Production Order and Still Fell 6%. Is the Valuation Finally Catching Up?",
+        "description": "The U.S. Army moved its Tactical Intelligence Targeting Access Node, or TITAN, into production on September 1. Palantir received a $127 million delive",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-won-127-million-army-055204061.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/05 14:52",
+        "score": 6
+      },
+      {
+        "title": "정의선 \"美 생산 철강, 아틀라스 적용 추진…스페이스X에도 납품되길\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609055487i",
+        "source": "hankyung.com",
+        "publishedAt": "09/05 12:00",
+        "score": 5
       }
     ]
   }
