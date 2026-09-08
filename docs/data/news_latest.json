@@ -1,285 +1,277 @@
 {
-  "generated_at_kst": "2026-09-07 09:09 KST",
-  "period": "09/06 07:00 ~ 09/07 07:00 KST",
+  "generated_at_kst": "2026-09-08 09:35 KST",
+  "period": "09/07 07:00 ~ 09/08 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "If a Stock Market Crash Is Coming, History Says Investors Who Make This Simple Move Will Win",
-        "description": "Buying the dip during stock market downturns has historically been a guaranteed way to turn a profit.",
-        "url": "https://www.fool.com/investing/2026/09/06/stock-market-crash-investors-who-make-simple-move-will-win/?.tsrc=rss",
+        "title": "Gold Falls Below $4,400 as U.S. Jobs Data Keeps Fed Rate Hike Expectations Elevated",
+        "description": "Gold prices fell below $4,400 an ounce on Monday as stronger-than-expected U. S.",
+        "url": "https://investorshub.advfn.com/market-news/article/35748/gold-falls-below-4400-as-u-s-jobs-data-keeps-fed-rate-hike-expectations-elevated?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/06 17:48",
+        "publishedAt": "09/07 19:14",
         "score": 10
       },
       {
-        "title": "This Stock Has the Highest Dividend Yield in the S&P 500. It Just Raised Its Dividend Again.",
-        "description": "Vici Properties continues to hand more cash to shareholders.",
-        "url": "https://www.fool.com/investing/2026/09/06/this-stock-has-the-highest-dividend-yield-in-the-s/?.tsrc=rss",
+        "title": "Gold Holds Decline as Traders Weigh Prospects for Fed Rate Hike",
+        "description": "Gold held a decline, after stronger-than-expected US payrolls data raised the prospects for an interest-rate hike as early as next week.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-decline-traders-weigh-232846552.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/06 20:35",
+        "publishedAt": "09/07 08:28",
+        "score": 10
+      },
+      {
+        "title": "The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street",
+        "description": "The S&P 500 CAPE ratio is a useful valuation tool to determine whether the market is expensive or fairly priced.",
+        "url": "https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/07 19:20",
+        "score": 7
+      },
+      {
+        "title": "S&P 500 Investors Brace for Brutal Holiday Pattern",
+        "description": "Wall Street's return from holiday carries an unusually grim warning",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-investors-brace-brutal-215051560.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 06:50",
         "score": 6
       },
       {
-        "title": "Cathie Wood's Ark Has Delivered Just a 13.8% Annualized Return Since 2014, Roughly Matching the S&P 500. Should You Trust Her Bold Predictions for 2030?",
-        "description": "Are her big ideas turning into big returns?",
-        "url": "https://www.fool.com/investing/2026/09/06/cathie-wood-ark-annual-return-sp-500-trust/?.tsrc=rss",
+        "title": "S&P 500 Adds 3 Surging Stocks in Major Shake-Up",
+        "description": "Three market winners are about to gain a powerful catalyst",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-adds-3-surging-214536624.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 03:50",
-        "score": 5
-      },
-      {
-        "title": "The Stock Market Just Entered Its Worst Month of the Year. History Says This Is What Investors Should Do.",
-        "description": "Even though September has historically been a rough month, history says investors shouldn't try to avoid it.",
-        "url": "https://www.fool.com/investing/2026/09/06/stock-market-worst-month-of-year-history-says-do/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 02:07",
-        "score": 5
-      },
-      {
-        "title": "Stock Market Investors Just Got a Warning From the Federal Reserve. History Says This Will Happen Next.",
-        "description": "The Federal Reserve recently warned investors that the S&P 500's equity risk premium was near its lowest level in decades.",
-        "url": "https://www.fool.com/investing/2026/09/06/stock-market-investors-warning-federal-reserve/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/06 18:04",
-        "score": 5
+        "publishedAt": "09/08 06:45",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "삼성전자, SK하이닉스 FCF 50% 주주환원이 던지는 질문 [이강연의 재무제표 일기]",
+        "title": "'IPO 대어' 무신사, 코스피 상장예비심사 신청",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608313342i",
+        "url": "https://www.hankyung.com/article/2026090796526",
         "source": "hankyung.com",
-        "publishedAt": "09/06 08:46",
-        "score": 10
+        "publishedAt": "09/07 19:06",
+        "score": 6
       },
       {
-        "title": "다시 꿈틀대는 SK하이닉스 주가…향후 핵심 이벤트 6가지",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609044927i",
-        "source": "hankyung.com",
-        "publishedAt": "09/06 08:00",
+        "title": "Tech Rally Surges in Asia as Kospi Soars",
+        "description": "Tech stocks surge in Asia as investors bet that the AI boom will carry on driving up chip and memory demand.",
+        "url": "https://finance.yahoo.com/m/df4f13eb-ee47-3745-a5bc-ae1c65c97cdf/tech-rally-surges-in-asia-as.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/07 22:21",
         "score": 5
       },
       {
-        "title": "완성차·부품 이어 강판까지…현대차그룹, 美서 제조 밸류체인 완성",
+        "title": "'몸값 8조' 무신사, IPO 예심청구…내년 상반기 코스피 입성 목표",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090669561",
+        "url": "https://www.hankyung.com/article/2026090794401",
         "source": "hankyung.com",
-        "publishedAt": "09/06 18:29",
-        "score": 3
+        "publishedAt": "09/07 17:55",
+        "score": 5
+      },
+      {
+        "title": "[포토] 모처럼 급등한 코스피…7000 다시 넘을까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090795231",
+        "source": "hankyung.com",
+        "publishedAt": "09/07 17:51",
+        "score": 5
+      },
+      {
+        "title": "Global OTT Set-Top Box Market to Reach $7.91 Billion by 2031, Dominated by Roku, Amazon.com, Apple, Google, and Samsung Electronics Co.",
+        "description": "Cord-cutting, fiber/5G expansion and streaming aggregation favor IP-only boxes, premium 4K and FAST services, especially in Asia-Pacific, while smart",
+        "url": "https://finance.yahoo.com/media-advertising/articles/global-ott-set-top-box-080700779.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/07 17:07",
+        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "Short Trading Week, CPI and Other Key Things to Watch this Week",
-        "description": "Markets enter a holiday-shortened week focused on August inflation assessment with Friday's CPI report at 8:30am as the critical economic release. Tue",
-        "url": "https://www.barchart.com/story/news/4468421/short-trading-week-cpi-and-other-key-things-to-watch-this-week?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 02:00",
-        "score": 5
-      },
-      {
-        "title": "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
-        "description": "Two questions are set to lead the week: Will the data push the Fed toward a rate hike, and what can Oracle tell Wall Street about the state of Big Tec",
-        "url": "https://finance.yahoo.com/economy/article/inflation-data-oracle-earnings-and-an-energy-supply-crunch-what-to-watch-this-week-120429533.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/06 21:04",
-        "score": 5
-      },
-      {
-        "title": "뉴욕·상하이 증시, 8월 CPI 발표…오라클 등 실적 주목",
+        "title": "고용부·국세청 공무원, 내년 2500여명 증원",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090668851",
+        "url": "https://www.hankyung.com/article/2026090795131",
         "source": "hankyung.com",
-        "publishedAt": "09/06 18:12",
-        "score": 5
-      },
-      {
-        "title": "Stock Market Investors Just Got a Warning From the Federal Reserve. History Says This Will Happen Next.",
-        "description": "The Federal Reserve recently warned investors that the S&P 500's equity risk premium was near its lowest level in decades.",
-        "url": "https://www.fool.com/investing/2026/09/06/stock-market-investors-warning-federal-reserve/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/06 18:04",
-        "score": 5
-      },
-      {
-        "title": "에너지·식량發 물가 폭탄, 자산시장까지 위협",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090668921",
-        "source": "hankyung.com",
-        "publishedAt": "09/06 18:03",
+        "publishedAt": "09/07 17:59",
         "score": 3
       }
     ],
     "bonds": [
       {
-        "title": "환율·채권, 원·달러 환율 1350원대 안착할 듯",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090668841",
-        "source": "hankyung.com",
-        "publishedAt": "09/06 18:12",
-        "score": 3
-      },
-      {
-        "title": "The U.S. National Debt Just Surpassed $40 Trillion. Here's What This Means for Your Portfolio in 2026 and Beyond.",
-        "description": "The Congressional Budget Office expects this already massive figure to expand to $64 trillion by 2036.",
-        "url": "https://www.fool.com/investing/2026/09/06/us-debt-40-trillion-what-this-means-portfolio-2026/?.tsrc=rss",
+        "title": "The World’s Largest Sovereign Fund Wants to Dump $80 Billion of Treasuries | Is TLT Now a Trap?",
+        "description": "Norway's sovereign wealth fund just signaled it may unload tens of billions in long Treasuries, and TLT holders are left asking whether the most popul",
+        "url": "https://247wallst.com/investing/etf/2026/09/07/the-worlds-largest-sovereign-fund-wants-to-dump-80-billion-of-treasuries-is-tlt-now-a-trap/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 04:20",
-        "score": 1
+        "publishedAt": "09/08 00:22",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Citi and ANZ raise Brent crude forecasts amid Middle East supply disruptions",
-        "description": "Citi and ANZ have raised their Brent crude oil price forecasts as disruptions to Middle East supplies continue to affect the global oil market. Citi i",
-        "url": "https://investorshub.advfn.com/market-news/article/35733/citi-and-anz-raise-brent-crude-forecasts-amid-middle-east-supply-disruptions?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 00:26",
-        "score": 10
-      },
-      {
-        "title": "원유·원자재 ETF 강세…美지수형 상품 '뭉칫돈'",
+        "title": "\"왜 이걸 무시하나\" AI 논란 폭발한 이유가…올트먼도 놀랐다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090668951",
+        "url": "https://www.hankyung.com/article/2026090794951",
         "source": "hankyung.com",
-        "publishedAt": "09/06 18:12",
-        "score": 8
-      },
-      {
-        "title": "Former Trump Economic Adviser: Iran’s Oil Exports Have Fallen to Zero. Here’s What It Could Mean for Oil Prices",
-        "description": "A U.S. naval blockade has done what years of financial sanctions could not, and oil markets are already reacting. Here is what zero Iranian exports co",
-        "url": "https://247wallst.com/investing/2026/09/06/former-trump-economic-adviser-irans-oil-exports-have-fallen-to-zero-heres-what-it-could-mean-for-oil-prices/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/06 22:36",
+        "publishedAt": "09/07 17:45",
         "score": 5
       },
       {
-        "title": "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
-        "description": "Two questions are set to lead the week: Will the data push the Fed toward a rate hike, and what can Oracle tell Wall Street about the state of Big Tec",
-        "url": "https://finance.yahoo.com/economy/article/inflation-data-oracle-earnings-and-an-energy-supply-crunch-what-to-watch-this-week-120429533.html?.tsrc=rss",
+        "title": "Energy Transfer Just Delayed a New Mexico Pipeline. Here's Why I'm Not Worried Yet.",
+        "description": "Investors shouldn't worry about the midstream pipeline operator's latest setback.",
+        "url": "https://www.fool.com/investing/2026/09/07/energy-transfer-just-delayed-a-new-mexico-pipeline/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/06 21:04",
+        "publishedAt": "09/08 06:25",
         "score": 3
       },
       {
-        "title": "에너지·식량發 물가 폭탄, 자산시장까지 위협",
+        "title": "PBF Energy Rises 168% in a Year: Is This the Right Time to Buy?",
+        "description": "PBF surges 168.4% in a year, while tight product markets, constrained refining capacity and a discounted valuation support its outlook.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pbf-energy-rises-168-time-170400499.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 02:04",
+        "score": 3
+      },
+      {
+        "title": "Which Solar Stock Has Dominated in 2026: SolarEdge, Enphase Energy, or First Solar?",
+        "description": "Three of solar's biggest names traded in completely different directions in 2026, and the one posting the worst losses also happens to be the most pro",
+        "url": "https://247wallst.com/investing/2026/09/07/which-solar-stock-has-dominated-in-2026-solaredge-enphase-energy-or-first-solar/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/07 23:30",
+        "score": 3
+      },
+      {
+        "title": "롯데에너지머티리얼즈, 고교생 멘토링",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090668921",
+        "url": "https://www.hankyung.com/article/2026090795481",
         "source": "hankyung.com",
-        "publishedAt": "09/06 18:03",
+        "publishedAt": "09/07 18:30",
         "score": 1
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, 원·달러 환율 1350원대 안착할 듯",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090668841",
-        "source": "hankyung.com",
-        "publishedAt": "09/06 18:12",
-        "score": 8
+        "title": "U.S. Dollar Tests New Lows Against Japanese Yen: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "description": "Japanese yen rallies as traders bet on BoJ rate hike.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-tests-lows-against-165555607.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 01:55",
+        "score": 5
       },
       {
-        "title": "AI 열풍에…세계 4번째 '수출 1조달러 클럽' 보인다",
+        "title": "\"작년 저점 깼다\"…1340원대로 하락한 환율, 단기 바닥은? [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090669271",
+        "url": "https://www.hankyung.com/article/2026090790556",
         "source": "hankyung.com",
-        "publishedAt": "09/06 18:26",
+        "publishedAt": "09/07 20:00",
+        "score": 5
+      },
+      {
+        "title": "TSMC Rises Nearly 3% as $265 Billion Becomes Taiwan's Diplomatic Currency",
+        "description": "Global factories strengthen political access while testing the margins that made TSMC indispensable.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-rises-nearly-3-265-213735953.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 06:37",
         "score": 3
       },
       {
-        "title": "The US Dollar Has Lost 97% of Its Value Since 1913: Is Bitcoin the Way Out?",
-        "description": "The US dollar lost 97% of its value since the Federal Reserve's creation in 1913. Is Bitcoin the answer? Here's the full breakdown.",
-        "url": "https://beincrypto.com/us-dollar-lost-97-percent-value-bitcoin-case/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 00:57",
-        "score": 1
+        "title": "아산재단, 네팔 구호 성금 20만 달러 기부",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090795441",
+        "source": "hankyung.com",
+        "publishedAt": "09/07 18:34",
+        "score": 3
+      },
+      {
+        "title": "모디 만난 장병규…印 투자 5억달러로 확대",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090793401",
+        "source": "hankyung.com",
+        "publishedAt": "09/07 17:18",
+        "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "S&P 500 Companies Snag More Than $10 Billion in Tariff Refunds. What Goes to You.",
-        "description": "Companies mostly are using tariff refunds to offset inflation, but some like Walmart are lowering prices",
-        "url": "https://finance.yahoo.com/m/66061ebb-5c07-3a1e-9a04-1b05343f9fae/s%26p-500-companies-snag-more.html?.tsrc=rss",
+        "title": "SoFi, Payward Team up to Connect Banking and Crypto Markets — Stock Trending",
+        "description": "SoFi Technologies Inc. is trending after the company announced a strategic partnership with Payward on Thursday, connecting SoFi’s banking infrastruct",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/sofi-payward-team-connect-banking-213008513.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/06 15:00",
-        "score": 3
-      },
-      {
-        "title": "Iran War Forces a Rewrite of Global Oil Trade Routes",
-        "description": "Middle Eastern exporters are rapidly developing alternative routes as Hormuz oil flows plunge from nearly 20 million bpd to an estimated 6–8 million b",
-        "url": "https://finance.yahoo.com/energy/articles/iran-war-forces-rewrite-global-230000749.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/06 08:00",
-        "score": 2
-      },
-      {
-        "title": "What is \"The Warsh Shadow Rate\"?",
-        "description": "Investing.com -- The Federal Reserve faces a growing risk of delivering a September rate hike after Chair Kevin Warsh signalled a more hawkish approac",
-        "url": "https://finance.yahoo.com/economy/policy/articles/warsh-shadow-rate-145609542.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/06 23:56",
+        "publishedAt": "09/08 06:30",
         "score": 1
       },
       {
-        "title": "Michael Burry sends a strong warning to Palantir stock investors",
-        "description": "Michael Burry had plenty to say about Palantir’s market cap.",
-        "url": "https://www.thestreet.com/investing/stocks/michael-burry-warns-palantir-stock-investors-bear-case?.tsrc=rss",
+        "title": "If You Only Own Nvidia for AI Exposure, You're Missing Half the Trade. Here's the Other Half.",
+        "description": "Broadcom's custom inference chips are as crucial for the AI market as Nvidia's GPUs.",
+        "url": "https://www.fool.com/investing/2026/09/07/if-you-only-own-nvidia-for-ai-exposure-youre-missi/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/06 23:37",
+        "publishedAt": "09/08 06:00",
         "score": 1
       },
       {
-        "title": "Stock Market Investors Just Got a Warning From the Federal Reserve. History Says This Will Happen Next.",
-        "description": "The Federal Reserve recently warned investors that the S&P 500's equity risk premium was near its lowest level in decades.",
-        "url": "https://www.fool.com/investing/2026/09/06/stock-market-investors-warning-federal-reserve/?.tsrc=rss",
+        "title": "Burry’s Palantir Warning Is Back. Accenture Shows What Investors Should Check",
+        "description": "Michael Burry’s accounting critique of Palantir Technologies Inc. (NASDAQ:PLTR) resurfaced in September 5 coverage, reviving the question of whether i",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/burry-palantir-warning-back-accenture-204332089.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/06 18:04",
+        "publishedAt": "09/08 05:43",
+        "score": 1
+      },
+      {
+        "title": "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
+        "description": "Investors yanked $700 million from the top software ETF in a single session, and within hours a major earnings report threatened to make that timing l",
+        "url": "https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/07 22:37",
+        "score": 1
+      },
+      {
+        "title": "Micron Jumps 6% as AI Memory Trade Keeps Running",
+        "description": "Shares closed at $1,016.59 as chip stocks rallied and investors continued to bet on tight AI-memory supply",
+        "url": "https://finance.yahoo.com/technology/ai/articles/micron-jumps-6-ai-memory-120948403.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/07 21:09",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Musk Moves Up SpaceX (SPCX)’s Orbital Data Center Timeline, Again",
-        "description": "Bloomberg reported that Elon Musk said Space Exploration Technologies Corp. (NASDAQ:SPCX) first AI satellites, powered exclusively by NVIDIA Corporati",
-        "url": "https://finance.yahoo.com/technology/ai/articles/musk-moves-spacex-spcx-orbital-204103387.html?.tsrc=rss",
+        "title": "Palantir Stock Could Make a Dramatic Move Over the Next Year (Hint: It Implies a Big Move)",
+        "description": "Palantir has seen a parabolic jump in its stock price following its earnings report, and it can sustain its impressive momentum in the coming year.",
+        "url": "https://www.fool.com/investing/2026/09/07/palantir-stock-could-make-a-dramatic-move-over-the/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 05:41",
-        "score": 10
+        "publishedAt": "09/07 22:43",
+        "score": 8
       },
       {
-        "title": "Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra",
-        "description": "Jensen Huang says AGI has arrived after OpenAI's newest model trained on NVIDIA chips. OpenAI has not said it.",
-        "url": "https://beincrypto.com/jensen-huang-agi-nvidia-astra-chips/?.tsrc=rss",
+        "title": "Broadcom’s AI Forecast Suggests Hyperscalers Want More Than Just Nvidia GPUs",
+        "description": "Big Tech’s appetite for AI infrastructure isn’t being sated anytime soon, and Broadcom Inc. (NASDAQ:AVGO) is proof of that. On Wednesday, the custom A",
+        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-ai-forecast-suggests-hyperscalers-211102090.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 06:39",
-        "score": 9
+        "publishedAt": "09/08 06:11",
+        "score": 7
       },
       {
-        "title": "Anthropic Has Committed More Than $100 Billion to AWS, and Its Prospectus Could Reveal More Details About This Contract",
-        "description": "A 10-year spending promise now equals about a fifth of the cloud segment's contracted future -- and the books behind it could open within days.",
-        "url": "https://www.fool.com/investing/2026/09/06/anthropic-has-committed-more-than-usd100-billion-to-aws-and-its-prospectus-could-reveal-more-details-about-this-contract/?.tsrc=rss",
+        "title": "Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For",
+        "description": "Arm's new Samsung chip deal looks like a data center breakthrough, but the business investors are actually paying 298 times earnings for operates on c",
+        "url": "https://247wallst.com/investing/2026/09/07/arm-expands-into-ai-accelerators-with-samsung-but-its-not-the-data-center-goldmine-investors-hope-for/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 06:43",
+        "publishedAt": "09/08 01:24",
+        "score": 7
+      },
+      {
+        "title": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+        "description": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 06:58",
         "score": 6
       },
       {
-        "title": "Should You Forget SpaceX (SPCX) Stock?",
-        "description": "There are solid reasons to buy or ignore. Here's why I'm ignoring.",
-        "url": "https://www.fool.com/investing/2026/09/06/should-you-forget-spacex-spcx-stock/?.tsrc=rss",
+        "title": "Tencent Slips 1% While Its AI-Chip Bet Attacks Nvidia's China Moat",
+        "description": "Enflame's explosive growth offers strategic upside, but Tencent's own AI spending is already consuming free cash flow.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tencent-slips-1-while-ai-215226124.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 04:53",
-        "score": 6
-      },
-      {
-        "title": "Could $10,000 Invested in Nvidia Today Make You a Millionaire?",
-        "description": "Nvidia stock has jumped significantly over the past decade, and the good news is that it still has multibagger potential.",
-        "url": "https://www.fool.com/investing/2026/09/06/could-10000-invested-in-nvidia-today-make-you-a-mi/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 04:43",
-        "score": 4
+        "publishedAt": "09/08 06:52",
+        "score": 5
       }
     ]
   }
