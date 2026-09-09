@@ -1,277 +1,276 @@
 {
-  "generated_at_kst": "2026-09-08 09:35 KST",
-  "period": "09/07 07:00 ~ 09/08 07:00 KST",
+  "generated_at_kst": "2026-09-09 09:25 KST",
+  "period": "09/08 07:00 ~ 09/09 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Gold Falls Below $4,400 as U.S. Jobs Data Keeps Fed Rate Hike Expectations Elevated",
-        "description": "Gold prices fell below $4,400 an ounce on Monday as stronger-than-expected U. S.",
-        "url": "https://investorshub.advfn.com/market-news/article/35748/gold-falls-below-4400-as-u-s-jobs-data-keeps-fed-rate-hike-expectations-elevated?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 19:14",
-        "score": 10
+        "title": "유가급등,무역긴장에 뉴욕증시 하락…반도체주는 반등",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609082357i",
+        "source": "hankyung.com",
+        "publishedAt": "09/08 23:30",
+        "score": 8
       },
       {
-        "title": "Gold Holds Decline as Traders Weigh Prospects for Fed Rate Hike",
-        "description": "Gold held a decline, after stronger-than-expected US payrolls data raised the prospects for an interest-rate hike as early as next week.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-decline-traders-weigh-232846552.html?.tsrc=rss",
+        "title": "Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2%",
+        "description": "A quarterly index reshuffle just handed one fuel cell maker a flood of forced buying while simultaneously punishing a former Wall Street darling with",
+        "url": "https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 08:28",
-        "score": 10
-      },
-      {
-        "title": "The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street",
-        "description": "The S&P 500 CAPE ratio is a useful valuation tool to determine whether the market is expensive or fairly priced.",
-        "url": "https://www.fool.com/investing/2026/09/07/the-stock-market-is-flashing-a-warning-seen-only-6/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 19:20",
-        "score": 7
-      },
-      {
-        "title": "S&P 500 Investors Brace for Brutal Holiday Pattern",
-        "description": "Wall Street's return from holiday carries an unusually grim warning",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-investors-brace-brutal-215051560.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:50",
+        "publishedAt": "09/08 23:32",
         "score": 6
       },
       {
-        "title": "S&P 500 Adds 3 Surging Stocks in Major Shake-Up",
-        "description": "Three market winners are about to gain a powerful catalyst",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-adds-3-surging-214536624.html?.tsrc=rss",
+        "title": "XYLD vs GPIX vs ISPY: We Compared 3 Ways to Sell Covered Calls on the S&P 500, and the Highest Yield Is Not the Best Deal",
+        "description": "Three S&P 500 covered-call ETFs promise income from the same underlying index, but their wildly different strategies produce returns that would shock",
+        "url": "https://247wallst.com/investing/etf/2026/09/08/xyld-vs-gpix-vs-ispy-we-compared-3-ways-to-sell-covered-calls-on-the-sp-500-and-the-highest-yield-is-not-the-best-deal/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:45",
-        "score": 6
+        "publishedAt": "09/09 06:35",
+        "score": 5
+      },
+      {
+        "title": "Stock Market Today, Sept. 8: IonQ Raises 2026 Revenue Guidance on Investor Day",
+        "description": "Today, Sept. 8, 2026, the quantum computing provider boosted its full-year outlook to between $450 million and $460 million after SkyWater Technology",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/08/stock-market-today-sept-8-ionq-raises-2026-revenue-guidance-on-investor-day/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 06:06",
+        "score": 5
+      },
+      {
+        "title": "Gold Edges Lower as Weaker Dollar Offsets Fed Rate-Hike Expectations",
+        "description": "Gold prices moved slightly lower on Tuesday after rising earlier in the session, as a weaker U. S.",
+        "url": "https://investorshub.advfn.com/market-news/article/35785/gold-edges-lower-as-weaker-dollar-offsets-fed-rate-hike-expectations?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 18:08",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "'IPO 대어' 무신사, 코스피 상장예비심사 신청",
+        "title": "삼성전자, 佛 AI기업 '미스트랄'에 수천억원 투자",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090796526",
+        "url": "https://www.hankyung.com/article/2026090823501",
         "source": "hankyung.com",
-        "publishedAt": "09/07 19:06",
-        "score": 6
+        "publishedAt": "09/09 01:00",
+        "score": 5
       },
       {
-        "title": "Tech Rally Surges in Asia as Kospi Soars",
-        "description": "Tech stocks surge in Asia as investors bet that the AI boom will carry on driving up chip and memory demand.",
-        "url": "https://finance.yahoo.com/m/df4f13eb-ee47-3745-a5bc-ae1c65c97cdf/tech-rally-surges-in-asia-as.html?.tsrc=rss",
+        "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones; Micron Holds Steady, Apple Slips",
+        "description": "AI data centers are pulling memory capacity away from smartphones, and the winners and losers splitting across the semiconductor complex reveal a supp",
+        "url": "https://247wallst.com/investing/2026/09/08/sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-micron-holds-steady-apple-slips/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 22:21",
+        "publishedAt": "09/09 00:58",
         "score": 5
       },
       {
-        "title": "'몸값 8조' 무신사, IPO 예심청구…내년 상반기 코스피 입성 목표",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090794401",
-        "source": "hankyung.com",
-        "publishedAt": "09/07 17:55",
-        "score": 5
-      },
-      {
-        "title": "[포토] 모처럼 급등한 코스피…7000 다시 넘을까",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090795231",
-        "source": "hankyung.com",
-        "publishedAt": "09/07 17:51",
-        "score": 5
-      },
-      {
-        "title": "Global OTT Set-Top Box Market to Reach $7.91 Billion by 2031, Dominated by Roku, Amazon.com, Apple, Google, and Samsung Electronics Co.",
-        "description": "Cord-cutting, fiber/5G expansion and streaming aggregation favor IP-only boxes, premium 4K and FAST services, especially in Asia-Pacific, while smart",
-        "url": "https://finance.yahoo.com/media-advertising/articles/global-ott-set-top-box-080700779.html?.tsrc=rss",
+        "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips",
+        "description": "The memory allocation split is defining today’s session as artificial intelligence customers pull wafer capacity toward high-bandwidth chips and away",
+        "url": "https://247wallst.com/investing/2026/09/08/sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-micron-holds-steady-apple-slips/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 17:07",
+        "publishedAt": "09/09 00:58",
+        "score": 5
+      },
+      {
+        "title": "Samsung Electronics and ASML Expand Strategic Collaboration for Next-Generation Semiconductor Manufacturing",
+        "description": "SEOUL, Korea & VELDHOVEN, Netherlands, September 08, 2026--Samsung Electronics and ASML today announced an expansion of their long-standing strategic",
+        "url": "https://finance.yahoo.com/technology/articles/samsung-electronics-asml-expand-strategic-115100067.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 20:51",
+        "score": 5
+      },
+      {
+        "title": "\"본전 되면 판다\"…개미들 증시 탈출에 코스피 7000 탈환 실패",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609081459i",
+        "source": "hankyung.com",
+        "publishedAt": "09/08 17:14",
         "score": 5
       }
     ],
     "macro": [
       {
-        "title": "고용부·국세청 공무원, 내년 2500여명 증원",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090795131",
-        "source": "hankyung.com",
-        "publishedAt": "09/07 17:59",
-        "score": 3
-      }
-    ],
-    "bonds": [
-      {
-        "title": "The World’s Largest Sovereign Fund Wants to Dump $80 Billion of Treasuries | Is TLT Now a Trap?",
-        "description": "Norway's sovereign wealth fund just signaled it may unload tens of billions in long Treasuries, and TLT holders are left asking whether the most popul",
-        "url": "https://247wallst.com/investing/etf/2026/09/07/the-worlds-largest-sovereign-fund-wants-to-dump-80-billion-of-treasuries-is-tlt-now-a-trap/?.tsrc=rss",
+        "title": "US Dollar Mixed Early Tuesday Ahead of Light Post-Holiday Week, Focus on Inflation Data",
+        "description": "The US dollar was mixed against its major trading partners early Tuesday -- down versus the yen and",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-tuesday-115801638.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 00:22",
-        "score": 3
-      }
-    ],
-    "commodities": [
-      {
-        "title": "\"왜 이걸 무시하나\" AI 논란 폭발한 이유가…올트먼도 놀랐다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090794951",
-        "source": "hankyung.com",
-        "publishedAt": "09/07 17:45",
+        "publishedAt": "09/08 20:58",
         "score": 5
       },
       {
-        "title": "Energy Transfer Just Delayed a New Mexico Pipeline. Here's Why I'm Not Worried Yet.",
-        "description": "Investors shouldn't worry about the midstream pipeline operator's latest setback.",
-        "url": "https://www.fool.com/investing/2026/09/07/energy-transfer-just-delayed-a-new-mexico-pipeline/?.tsrc=rss",
+        "title": "Palantir Wants to Kill the 'Pay-Per-Token' AI Economy",
+        "description": "Every AI prompt comes with a cost. For most enterprises, that means paying third-party providers every time employees use a model — without ever ownin",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-wants-kill-pay-per-182407788.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:25",
-        "score": 3
-      },
-      {
-        "title": "PBF Energy Rises 168% in a Year: Is This the Right Time to Buy?",
-        "description": "PBF surges 168.4% in a year, while tight product markets, constrained refining capacity and a discounted valuation support its outlook.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/pbf-energy-rises-168-time-170400499.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 02:04",
-        "score": 3
-      },
-      {
-        "title": "Which Solar Stock Has Dominated in 2026: SolarEdge, Enphase Energy, or First Solar?",
-        "description": "Three of solar's biggest names traded in completely different directions in 2026, and the one posting the worst losses also happens to be the most pro",
-        "url": "https://247wallst.com/investing/2026/09/07/which-solar-stock-has-dominated-in-2026-solaredge-enphase-energy-or-first-solar/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 23:30",
-        "score": 3
-      },
-      {
-        "title": "롯데에너지머티리얼즈, 고교생 멘토링",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090795481",
-        "source": "hankyung.com",
-        "publishedAt": "09/07 18:30",
+        "publishedAt": "09/09 03:24",
         "score": 1
+      }
+    ],
+    "bonds": [],
+    "commodities": [
+      {
+        "title": "Middle East Hostilities Underpin Crude Oil Prices",
+        "description": "October WTI crude oil (CLV26 ) is up +1.26 (+1.38%) today, and October RBOB gasoline (RBV26 ) is up +0.0878 (+2.73%). Crude oil and gasoline prices ar",
+        "url": "https://www.barchart.com/story/news/4493285/middle-east-hostilities-underpin-crude-oil-prices?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 00:29",
+        "score": 10
+      },
+      {
+        "title": "Update: US Equity Indexes Drop as Houthi Strikes on Saudi Arabia's Energy Infrastructure Lift Crude Oil",
+        "description": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-houthi-205651069.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 05:56",
+        "score": 8
+      },
+      {
+        "title": "Stock Market Today, Sept. 8: Stocks Slide Amid Surging Oil Prices, Persistent Geopolotical Tenisons",
+        "description": "Crude oil pushed toward $100 per barrel amid Middle East conflict and U.S.-Canada trade friction, today, Sept. 8, 2026.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/08/stock-market-today-sept-8-stocks-slide-amid-surging-oil-prices-persistent-geopolotical-tenisons/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 06:36",
+        "score": 5
+      },
+      {
+        "title": "Oil prices jump, stocks drop as Mideast war flares",
+        "description": "World oil prices climbed Tuesday, once more closing in on $100 a barrel, and stock markets mostly retreated owing to a flare-up in the Middle East war",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/yen-extends-gains-traders-eye-025125465.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 05:37",
+        "score": 5
+      },
+      {
+        "title": "유가급등,무역긴장에 뉴욕증시 하락…반도체주는 반등",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609082357i",
+        "source": "hankyung.com",
+        "publishedAt": "09/08 23:30",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "U.S. Dollar Tests New Lows Against Japanese Yen: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "description": "Japanese yen rallies as traders bet on BoJ rate hike.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-tests-lows-against-165555607.html?.tsrc=rss",
+        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as ECB Tightening Supports Euro; EUR/USD and GBP/USD Key Levels",
+        "description": "U.S. inflation and the ECB decision take focus as DXY remains weak, EUR/USD approaches a breakout and GBP/USD stays range-bound.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-075647322.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 01:55",
+        "publishedAt": "09/08 16:56",
         "score": 5
       },
       {
-        "title": "\"작년 저점 깼다\"…1340원대로 하락한 환율, 단기 바닥은? [분석+]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090790556",
-        "source": "hankyung.com",
-        "publishedAt": "09/07 20:00",
-        "score": 5
-      },
-      {
-        "title": "TSMC Rises Nearly 3% as $265 Billion Becomes Taiwan's Diplomatic Currency",
-        "description": "Global factories strengthen political access while testing the margins that made TSMC indispensable.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-rises-nearly-3-265-213735953.html?.tsrc=rss",
+        "title": "Dollar Weighed Down by a Stronger Yen",
+        "description": "The dollar index (DXY00 ) fell to a 2-week low today and is down by -0.28%. The dollar is retreating today amid strength in the yen, which rallied to",
+        "url": "https://www.barchart.com/story/news/4492125/dollar-weighed-down-by-a-stronger-yen?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:37",
+        "publishedAt": "09/08 23:34",
+        "score": 4
+      },
+      {
+        "title": "Dollar Falls as Yen Continues Its Strong Gains",
+        "description": "The dollar fells to a two-week low against a basket of currencies as strong gains for the Japanese yen continue.  \"This still looks primarily like a y",
+        "url": "https://finance.yahoo.com/m/1da8af26-6109-3293-833c-7b4ae1c68e4c/dollar-falls-as-yen-continues.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 17:56",
+        "score": 4
+      },
+      {
+        "title": "France's Mistral sees value soar with 3 bn euro cash infusion",
+        "description": "French AI firm Mistral said Tuesday that it raised three billion euros in what it called the largest-ever European tech fundraising, propelling its ov",
+        "url": "https://finance.yahoo.com/technology/ai/articles/french-ai-firm-mistral-valued-070226729.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 01:54",
         "score": 3
       },
       {
-        "title": "아산재단, 네팔 구호 성금 20만 달러 기부",
+        "title": "심상찮은 엔화…\"한국도 예외 아니다\" 경고 나온 이유 [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090795441",
+        "url": "https://www.hankyung.com/article/2026090816806",
         "source": "hankyung.com",
-        "publishedAt": "09/07 18:34",
-        "score": 3
-      },
-      {
-        "title": "모디 만난 장병규…印 투자 5억달러로 확대",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026090793401",
-        "source": "hankyung.com",
-        "publishedAt": "09/07 17:18",
+        "publishedAt": "09/08 22:00",
         "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "SoFi, Payward Team up to Connect Banking and Crypto Markets — Stock Trending",
-        "description": "SoFi Technologies Inc. is trending after the company announced a strategic partnership with Payward on Thursday, connecting SoFi’s banking infrastruct",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/sofi-payward-team-connect-banking-213008513.html?.tsrc=rss",
+        "title": "Canadian Dollar Faces Pullback on Trade Tension Risks Before Resuming Gains, National Bank Says",
+        "description": "The Canadian dollar is expected to resume its upward trend in 2027, with the forecast against the US",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-faces-pullback-trade-142321352.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:30",
+        "publishedAt": "09/08 23:23",
+        "score": 4
+      },
+      {
+        "title": "Canadian Tariffs Hit $20B in U.S. Imports",
+        "description": "Now $20 billion in U.S. goods -- from metals to apparel to milk -- are being slapped with a +15%, +25% or +50% tariff, as of today.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/canadian-tariffs-hit-20b-u-141300527.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 23:13",
+        "score": 3
+      },
+      {
+        "title": "Oil prices jump, stocks drop as Mideast war flares",
+        "description": "World oil prices climbed Tuesday, once more closing in on $100 a barrel, and stock markets mostly retreated owing to a flare-up in the Middle East war",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/yen-extends-gains-traders-eye-025125465.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 05:37",
         "score": 1
       },
       {
-        "title": "If You Only Own Nvidia for AI Exposure, You're Missing Half the Trade. Here's the Other Half.",
-        "description": "Broadcom's custom inference chips are as crucial for the AI market as Nvidia's GPUs.",
-        "url": "https://www.fool.com/investing/2026/09/07/if-you-only-own-nvidia-for-ai-exposure-youre-missi/?.tsrc=rss",
+        "title": "'Will The Fed Ever Learn?' Market Strategist Warns Hiking Into Oil Shock Could Repeat 2008's Biggest Mistake",
+        "description": "James Thorne, Chief Market Strategist at Wellington Altus, warned that a Kevin Warsh-led Federal Reserve could repeat one of the “most damaging” error",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-ever-learn-market-strategist-183007074.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:00",
+        "publishedAt": "09/09 03:30",
         "score": 1
       },
       {
-        "title": "Burry’s Palantir Warning Is Back. Accenture Shows What Investors Should Check",
-        "description": "Michael Burry’s accounting critique of Palantir Technologies Inc. (NASDAQ:PLTR) resurfaced in September 5 coverage, reviving the question of whether i",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/burry-palantir-warning-back-accenture-204332089.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 05:43",
-        "score": 1
-      },
-      {
-        "title": "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
-        "description": "Investors yanked $700 million from the top software ETF in a single session, and within hours a major earnings report threatened to make that timing l",
-        "url": "https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 22:37",
-        "score": 1
-      },
-      {
-        "title": "Micron Jumps 6% as AI Memory Trade Keeps Running",
-        "description": "Shares closed at $1,016.59 as chip stocks rallied and investors continued to bet on tight AI-memory supply",
-        "url": "https://finance.yahoo.com/technology/ai/articles/micron-jumps-6-ai-memory-120948403.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/07 21:09",
+        "title": "美, 이란 항공사 등 '특별지정국민' 지정 제재 추가",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609092377i",
+        "source": "hankyung.com",
+        "publishedAt": "09/09 00:48",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Palantir Stock Could Make a Dramatic Move Over the Next Year (Hint: It Implies a Big Move)",
-        "description": "Palantir has seen a parabolic jump in its stock price following its earnings report, and it can sustain its impressive momentum in the coming year.",
-        "url": "https://www.fool.com/investing/2026/09/07/palantir-stock-could-make-a-dramatic-move-over-the/?.tsrc=rss",
+        "title": "Intel Leads Chip Stocks Rally as Qualcomm, AMD and Broadcom Stocks Jump",
+        "description": "Intel Stock Leads Semiconductor Surge as AMD, Qualcomm and Broadcom Rally",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-leads-chip-stocks-rally-204945385.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/07 22:43",
+        "publishedAt": "09/09 05:49",
+        "score": 10
+      },
+      {
+        "title": "TSMC and Samsung commit to ASML High NA EUV machines for AI chips",
+        "description": "Both companies also joined an industry initiative to transition to larger 12-inch photomasks, which are expected to cut chipmaking costs by 2033",
+        "url": "https://qz.com/tsmc-samsung-asml-high-na-euv-ai-chips-090826?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/08 21:52",
+        "score": 10
+      },
+      {
+        "title": "Nvidia Falls as Its Firmus Bet Lands OpenAI",
+        "description": "The Malaysian agreement validates Nvidia's infrastructure ecosystem, but the chipmaker's direct economics remain undisclosed.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-falls-firmus-bet-lands-212513794.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 06:25",
+        "score": 9
+      },
+      {
+        "title": "SpaceX Rises 4% as Pivotal Research Launches Coverage at $220, Intuitive Machines Climbs 5%, Rocket Lab Gains 3%",
+        "description": "Pivotal Research just slapped a price target on SpaceX that towers above where shares currently trade, and the space complex is rallying in response,",
+        "url": "https://247wallst.com/investing/2026/09/08/spacex-rises-4-as-pivotal-research-launches-coverage-at-220-intuitive-machines-climbs-5-rocket-lab-gains-3/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 03:51",
         "score": 8
       },
       {
-        "title": "Broadcom’s AI Forecast Suggests Hyperscalers Want More Than Just Nvidia GPUs",
-        "description": "Big Tech’s appetite for AI infrastructure isn’t being sated anytime soon, and Broadcom Inc. (NASDAQ:AVGO) is proof of that. On Wednesday, the custom A",
-        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-ai-forecast-suggests-hyperscalers-211102090.html?.tsrc=rss",
+        "title": "INTC Stock Jumps Premarket As Intel Takes Early Lead In ASML's Next-Gen Chipmaking Technology – Samsung, TSMC Are Next",
+        "description": "Intel is already using the machines in production, while Samsung and TSMC have now committed to using them in the coming years.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/intc-stock-jumps-intel-asml-high-na-euv-tsmc-samsung/cZt3vOqRJUg?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:11",
-        "score": 7
-      },
-      {
-        "title": "Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For",
-        "description": "Arm's new Samsung chip deal looks like a data center breakthrough, but the business investors are actually paying 298 times earnings for operates on c",
-        "url": "https://247wallst.com/investing/2026/09/07/arm-expands-into-ai-accelerators-with-samsung-but-its-not-the-data-center-goldmine-investors-hope-for/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 01:24",
-        "score": 7
-      },
-      {
-        "title": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
-        "description": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:58",
-        "score": 6
-      },
-      {
-        "title": "Tencent Slips 1% While Its AI-Chip Bet Attacks Nvidia's China Moat",
-        "description": "Enflame's explosive growth offers strategic upside, but Tencent's own AI spending is already consuming free cash flow.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tencent-slips-1-while-ai-215226124.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 06:52",
-        "score": 5
+        "publishedAt": "09/08 20:46",
+        "score": 8
       }
     ]
   }
