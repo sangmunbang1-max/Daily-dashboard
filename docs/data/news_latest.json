@@ -1,276 +1,325 @@
 {
-  "generated_at_kst": "2026-09-09 09:25 KST",
-  "period": "09/08 07:00 ~ 09/09 07:00 KST",
+  "generated_at_kst": "2026-09-10 09:24 KST",
+  "period": "09/09 07:00 ~ 09/10 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "유가급등,무역긴장에 뉴욕증시 하락…반도체주는 반등",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609082357i",
-        "source": "hankyung.com",
-        "publishedAt": "09/08 23:30",
-        "score": 8
+        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Treasury yields climb, oil tops $100",
+        "description": "Stocks were under pressure as oil prices continued their journey upward and traders shifted their expectations of a Fed rate hike in September.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-9-dow-sp-500-nasdaq-futures-080411279.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 17:04",
+        "score": 14
       },
       {
-        "title": "Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2%",
-        "description": "A quarterly index reshuffle just handed one fuel cell maker a flood of forced buying while simultaneously punishing a former Wall Street darling with",
-        "url": "https://247wallst.com/investing/2026/09/08/bloom-energy-surges-8-as-sp-500-swaps-it-in-for-trade-desk-ttd-stock-slips-2/?.tsrc=rss",
+        "title": "Nasdaq, Dow, S&P 500 Futures Mixed As Oil Hits $100 Again: QCOM, ORCL, AAPL, AMD, TSLA, RKLB, HOOD, GME In Focus",
+        "description": "Retail sentiment on Stocktwits remained ‘bullish’ on SPY and QQQ.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-mixed-oil-100-orcl-qcom-aapl-rklb-tsla-stocks/cZteU0DRJyC?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 23:32",
+        "publishedAt": "09/09 17:39",
+        "score": 10
+      },
+      {
+        "title": "Update: US Equity Indexes Fall as Treasury Yields Rise After Bessent Triples Size of Buyback Program, Worsening Iran War Sends Brent Crude Above $100",
+        "description": "(Updates with index/price moves, macroeconomic data, comments, and company/geopolitical news from th",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-210157697.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 06:01",
+        "score": 7
+      },
+      {
+        "title": "Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due",
+        "description": "Stocks fell Tuesday as oil prices and Treasury yields rose, but AMD and HPE led AI plays flashing buy signals. An Apple iPhone event is on tap.",
+        "url": "https://finance.yahoo.com/m/61edb329-2f31-3e10-8832-6860b7819ab2/dow-jones-futures-fall-as-oil.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 21:13",
         "score": 6
       },
       {
-        "title": "XYLD vs GPIX vs ISPY: We Compared 3 Ways to Sell Covered Calls on the S&P 500, and the Highest Yield Is Not the Best Deal",
-        "description": "Three S&P 500 covered-call ETFs promise income from the same underlying index, but their wildly different strategies produce returns that would shock",
-        "url": "https://247wallst.com/investing/etf/2026/09/08/xyld-vs-gpix-vs-ispy-we-compared-3-ways-to-sell-covered-calls-on-the-sp-500-and-the-highest-yield-is-not-the-best-deal/?.tsrc=rss",
+        "title": "What History Reveals When the S&P 500 Sends Its Rarest Warning Signal",
+        "description": "The Shiller CAPE Ratio just reached its highest level since the dot-com boom. But long-term investors don't have to worry.",
+        "url": "https://www.fool.com/investing/2026/09/09/what-history-reveals-when-the-sp-500-sends-warning/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 06:35",
-        "score": 5
-      },
-      {
-        "title": "Stock Market Today, Sept. 8: IonQ Raises 2026 Revenue Guidance on Investor Day",
-        "description": "Today, Sept. 8, 2026, the quantum computing provider boosted its full-year outlook to between $450 million and $460 million after SkyWater Technology",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/08/stock-market-today-sept-8-ionq-raises-2026-revenue-guidance-on-investor-day/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/09 06:06",
-        "score": 5
-      },
-      {
-        "title": "Gold Edges Lower as Weaker Dollar Offsets Fed Rate-Hike Expectations",
-        "description": "Gold prices moved slightly lower on Tuesday after rising earlier in the session, as a weaker U. S.",
-        "url": "https://investorshub.advfn.com/market-news/article/35785/gold-edges-lower-as-weaker-dollar-offsets-fed-rate-hike-expectations?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 18:08",
+        "publishedAt": "09/10 06:20",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "삼성전자, 佛 AI기업 '미스트랄'에 수천억원 투자",
+        "title": "SK Hynix Jumps Nearly 5% as OpenAI Keeps AI Memory Demand Burning",
+        "description": "OpenAI reinforced the demand outlook, but its existing supply letter still lacks a company-specific purchase commitment.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-jumps-nearly-5-180910559.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 03:09",
+        "score": 5
+      },
+      {
+        "title": "Memory Stocks Rally as Goldman Says the Worst May Be Over: SK Hynix Climbs 5%, SanDisk Advances 3%, Micron Gains 2%",
+        "description": "Goldman Sachs just flipped constructive on memory chips, sending SK Hynix, Micron, and SanDisk higher even as the broader market stumbles, but a major",
+        "url": "https://247wallst.com/investing/2026/09/09/memory-stocks-rally-as-goldman-says-the-worst-may-be-over-sk-hynix-climbs-5-sandisk-advances-3-micron-gains-2/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 00:20",
+        "score": 5
+      },
+      {
+        "title": "이재용 회장 \"모친 홍라희 관장의 삼성전자 지분 0.11% 매수키로\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090823501",
+        "url": "https://www.hankyung.com/article/2026090948276",
         "source": "hankyung.com",
-        "publishedAt": "09/09 01:00",
+        "publishedAt": "09/09 18:15",
         "score": 5
       },
       {
-        "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones; Micron Holds Steady, Apple Slips",
-        "description": "AI data centers are pulling memory capacity away from smartphones, and the winners and losers splitting across the semiconductor complex reveal a supp",
-        "url": "https://247wallst.com/investing/2026/09/08/sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-micron-holds-steady-apple-slips/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/09 00:58",
-        "score": 5
-      },
-      {
-        "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips",
-        "description": "The memory allocation split is defining today’s session as artificial intelligence customers pull wafer capacity toward high-bandwidth chips and away",
-        "url": "https://247wallst.com/investing/2026/09/08/sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-micron-holds-steady-apple-slips/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/09 00:58",
-        "score": 5
-      },
-      {
-        "title": "Samsung Electronics and ASML Expand Strategic Collaboration for Next-Generation Semiconductor Manufacturing",
-        "description": "SEOUL, Korea & VELDHOVEN, Netherlands, September 08, 2026--Samsung Electronics and ASML today announced an expansion of their long-standing strategic",
-        "url": "https://finance.yahoo.com/technology/articles/samsung-electronics-asml-expand-strategic-115100067.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 20:51",
-        "score": 5
-      },
-      {
-        "title": "\"본전 되면 판다\"…개미들 증시 탈출에 코스피 7000 탈환 실패",
+        "title": "中 BYD보다 800만원 싸다…현대차 '아이오닉3' 유럽 출격",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609081459i",
+        "url": "https://www.hankyung.com/article/202609094271g",
         "source": "hankyung.com",
-        "publishedAt": "09/08 17:14",
-        "score": 5
+        "publishedAt": "09/10 06:05",
+        "score": 3
+      },
+      {
+        "title": "네이버 자회사 스노우, 세미콜론스튜디오 흡수합병",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609094426i",
+        "source": "hankyung.com",
+        "publishedAt": "09/09 16:44",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "US Dollar Mixed Early Tuesday Ahead of Light Post-Holiday Week, Focus on Inflation Data",
-        "description": "The US dollar was mixed against its major trading partners early Tuesday -- down versus the yen and",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-tuesday-115801638.html?.tsrc=rss",
+        "title": "Gold returns above $4,400 as dollar weakens ahead of US inflation data",
+        "description": "Gold prices moved higher on Wednesday, returning above $4,400 an ounce after three consecutive sessions of declines as the U. S.",
+        "url": "https://investorshub.advfn.com/market-news/article/35895/gold-returns-above-4400-as-dollar-weakens-ahead-of-us-inflation-data?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 20:58",
+        "publishedAt": "09/09 18:28",
         "score": 5
       },
       {
-        "title": "Palantir Wants to Kill the 'Pay-Per-Token' AI Economy",
-        "description": "Every AI prompt comes with a cost. For most enterprises, that means paying third-party providers every time employees use a model — without ever ownin",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-wants-kill-pay-per-182407788.html?.tsrc=rss",
+        "title": "US Dollar Price Forecast: Dollar Weakens as ECB Hike and U.S. CPI Take Focus",
+        "description": "DXY weakens as yen strength pressures the dollar, while traders await the ECB rate decision and U.S. CPI for fresh Fed policy signals.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-060014841.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 03:24",
+        "publishedAt": "09/09 15:00",
+        "score": 5
+      },
+      {
+        "title": "美 경제학자 70% \"9월 금리 동결\"…시장 예상과 반대",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609105067i",
+        "source": "hankyung.com",
+        "publishedAt": "09/10 00:32",
         "score": 1
       }
     ],
-    "bonds": [],
-    "commodities": [
+    "bonds": [
       {
-        "title": "Middle East Hostilities Underpin Crude Oil Prices",
-        "description": "October WTI crude oil (CLV26 ) is up +1.26 (+1.38%) today, and October RBOB gasoline (RBV26 ) is up +0.0878 (+2.73%). Crude oil and gasoline prices ar",
-        "url": "https://www.barchart.com/story/news/4493285/middle-east-hostilities-underpin-crude-oil-prices?.tsrc=rss",
+        "title": "Update: US Equity Indexes Fall as Treasury Yields Rise After Bessent Triples Size of Buyback Program, Worsening Iran War Sends Brent Crude Above $100",
+        "description": "(Updates with index/price moves, macroeconomic data, comments, and company/geopolitical news from th",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-210157697.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 00:29",
-        "score": 10
-      },
-      {
-        "title": "Update: US Equity Indexes Drop as Houthi Strikes on Saudi Arabia's Energy Infrastructure Lift Crude Oil",
-        "description": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-houthi-205651069.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/09 05:56",
+        "publishedAt": "09/10 06:01",
         "score": 8
       },
       {
-        "title": "Stock Market Today, Sept. 8: Stocks Slide Amid Surging Oil Prices, Persistent Geopolotical Tenisons",
-        "description": "Crude oil pushed toward $100 per barrel amid Middle East conflict and U.S.-Canada trade friction, today, Sept. 8, 2026.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/08/stock-market-today-sept-8-stocks-slide-amid-surging-oil-prices-persistent-geopolotical-tenisons/?.tsrc=rss",
+        "title": "Dollar Falls on Declining Treasury Yields, Strong Yen",
+        "description": "The U.S. dollar fell to its lowest in nearly three weeks against a basket of currencies, weighed by a decline in Treasury yields and by continued stre",
+        "url": "https://finance.yahoo.com/m/558088df-3fe9-3c5c-b1ed-6cd6acce45e0/dollar-falls-on-declining.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 06:36",
+        "publishedAt": "09/09 17:31",
+        "score": 8
+      },
+      {
+        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Treasury yields climb, oil tops $100",
+        "description": "Stocks were under pressure as oil prices continued their journey upward and traders shifted their expectations of a Fed rate hike in September.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-9-dow-sp-500-nasdaq-futures-080411279.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 17:04",
+        "score": 8
+      },
+      {
+        "title": "Treasury Unveils $6B in Bond Buybacks as Bessent Warns 'I Am the House' on Yen Intervention. Here's How Markets Are Reacting.",
+        "description": "Secretary Bessent’s activist approach to markets gets mixed reviews on Wall Street.",
+        "url": "https://www.barchart.com/story/news/4518938/treasury-unveils-6b-in-bond-buybacks-as-bessent-warns-i-am-the-house-on-yen-intervention-here-s-how-markets-are-reacting?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 02:21",
+        "score": 3
+      },
+      {
+        "title": "Dollar Slips Before the Treasury’s Buyback Operation",
+        "description": "The dollar index (DXY00 ) dropped to a 2.5-week low today and is down by -0.15%. The dollar is under pressure today ahead of an announcement from the",
+        "url": "https://www.barchart.com/story/news/4515660/dollar-slips-before-the-treasurys-buyback-operation?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/09 23:41",
+        "score": 3
+      }
+    ],
+    "commodities": [
+      {
+        "title": "Trump Gives Timeline for Oil Prices to Fall, Brent Pushes to May Highs",
+        "description": "Trump says oil prices stay high until after the midterms as Brent hits May highs and Bitcoin holds near $79,000.",
+        "url": "https://beincrypto.com/trump-oil-prices-midterms-brent-crude/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 05:54",
+        "score": 10
+      },
+      {
+        "title": "Enbridge to Acquire Tallgrass Energy's Crude Oil Business for $2.55 Billion, Launches Bought-Deal Offering of Common Shares",
+        "description": "Enbridge (ENB) said late Wednesday it will acquire Tallgrass Energy's crude oil business in a $2.55",
+        "url": "https://finance.yahoo.com/energy/articles/enbridge-acquire-tallgrass-energy-apos-203719591.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 05:37",
+        "score": 8
+      },
+      {
+        "title": "Global oil prices hit $101 per barrel as Middle East conflict roils markets",
+        "description": "Global oil prices are back above $100 per barrel as fighting in the Middle East raises concerns about prolonged disruptions to oil supply.",
+        "url": "https://www.cnn.com/2026/09/09/economy/oil-price-iran-war?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 06:32",
+        "score": 6
+      },
+      {
+        "title": "Update: US Equity Indexes Fall as Treasury Yields Rise After Bessent Triples Size of Buyback Program, Worsening Iran War Sends Brent Crude Above $100",
+        "description": "(Updates with index/price moves, macroeconomic data, comments, and company/geopolitical news from th",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-210157697.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 06:01",
         "score": 5
       },
       {
-        "title": "Oil prices jump, stocks drop as Mideast war flares",
-        "description": "World oil prices climbed Tuesday, once more closing in on $100 a barrel, and stock markets mostly retreated owing to a flare-up in the Middle East war",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/yen-extends-gains-traders-eye-025125465.html?.tsrc=rss",
+        "title": "Brent oil passes $100 on Mideast flare-up, stoking inflation fears",
+        "description": "International oil benchmark Brent spiked above $100 a barrel Wednesday for the first time since late July following renewed US-Iran hostilities, stoki",
+        "url": "https://finance.yahoo.com/energy/articles/crude-pushes-towards-100-mideast-025121589.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 05:37",
-        "score": 5
-      },
-      {
-        "title": "유가급등,무역긴장에 뉴욕증시 하락…반도체주는 반등",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609082357i",
-        "source": "hankyung.com",
-        "publishedAt": "09/08 23:30",
+        "publishedAt": "09/10 05:36",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as ECB Tightening Supports Euro; EUR/USD and GBP/USD Key Levels",
-        "description": "U.S. inflation and the ECB decision take focus as DXY remains weak, EUR/USD approaches a breakout and GBP/USD stays range-bound.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-075647322.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 16:56",
-        "score": 5
+        "title": "삼전닉스·대미투자·금리…원·달러 환율 가를 '3대 변수'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026090946611",
+        "source": "hankyung.com",
+        "publishedAt": "09/09 17:35",
+        "score": 8
       },
       {
-        "title": "Dollar Weighed Down by a Stronger Yen",
-        "description": "The dollar index (DXY00 ) fell to a 2-week low today and is down by -0.28%. The dollar is retreating today amid strength in the yen, which rallied to",
-        "url": "https://www.barchart.com/story/news/4492125/dollar-weighed-down-by-a-stronger-yen?.tsrc=rss",
+        "title": "Dollar Falls on Declining Treasury Yields, Strong Yen",
+        "description": "The U.S. dollar fell to its lowest in nearly three weeks against a basket of currencies, weighed by a decline in Treasury yields and by continued stre",
+        "url": "https://finance.yahoo.com/m/558088df-3fe9-3c5c-b1ed-6cd6acce45e0/dollar-falls-on-declining.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 23:34",
+        "publishedAt": "09/09 17:31",
         "score": 4
       },
       {
-        "title": "Dollar Falls as Yen Continues Its Strong Gains",
-        "description": "The dollar fells to a two-week low against a basket of currencies as strong gains for the Japanese yen continue.  \"This still looks primarily like a y",
-        "url": "https://finance.yahoo.com/m/1da8af26-6109-3293-833c-7b4ae1c68e4c/dollar-falls-as-yen-continues.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 17:56",
-        "score": 4
-      },
-      {
-        "title": "France's Mistral sees value soar with 3 bn euro cash infusion",
-        "description": "French AI firm Mistral said Tuesday that it raised three billion euros in what it called the largest-ever European tech fundraising, propelling its ov",
-        "url": "https://finance.yahoo.com/technology/ai/articles/french-ai-firm-mistral-valued-070226729.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/09 01:54",
+        "title": "기대 너무 컸나…美 재무부 바이백 60억달러에 금리는 더 올랐다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609105087i",
+        "source": "hankyung.com",
+        "publishedAt": "09/10 03:15",
         "score": 3
       },
       {
-        "title": "심상찮은 엔화…\"한국도 예외 아니다\" 경고 나온 이유 [분석+]",
+        "title": "Treasury Unveils $6B in Bond Buybacks as Bessent Warns 'I Am the House' on Yen Intervention. Here's How Markets Are Reacting.",
+        "description": "Secretary Bessent’s activist approach to markets gets mixed reviews on Wall Street.",
+        "url": "https://www.barchart.com/story/news/4518938/treasury-unveils-6b-in-bond-buybacks-as-bessent-warns-i-am-the-house-on-yen-intervention-here-s-how-markets-are-reacting?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 02:21",
+        "score": 3
+      },
+      {
+        "title": "베선트, 금리는 \"나에게 베팅\"…엔화 강세에 발목 잡힌 반도체 [박신영의 개장전 요것만]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026090816806",
+        "url": "https://www.hankyung.com/article/202609095052i",
         "source": "hankyung.com",
-        "publishedAt": "09/08 22:00",
+        "publishedAt": "09/09 23:44",
         "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "Canadian Dollar Faces Pullback on Trade Tension Risks Before Resuming Gains, National Bank Says",
-        "description": "The Canadian dollar is expected to resume its upward trend in 2027, with the forecast against the US",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-faces-pullback-trade-142321352.html?.tsrc=rss",
+        "title": "Global oil prices hit $101 per barrel as Middle East conflict roils markets",
+        "description": "Global oil prices are back above $100 per barrel as fighting in the Middle East raises concerns about prolonged disruptions to oil supply.",
+        "url": "https://www.cnn.com/2026/09/09/economy/oil-price-iran-war?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 23:23",
-        "score": 4
-      },
-      {
-        "title": "Canadian Tariffs Hit $20B in U.S. Imports",
-        "description": "Now $20 billion in U.S. goods -- from metals to apparel to milk -- are being slapped with a +15%, +25% or +50% tariff, as of today.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/canadian-tariffs-hit-20b-u-141300527.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/08 23:13",
-        "score": 3
-      },
-      {
-        "title": "Oil prices jump, stocks drop as Mideast war flares",
-        "description": "World oil prices climbed Tuesday, once more closing in on $100 a barrel, and stock markets mostly retreated owing to a flare-up in the Middle East war",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/yen-extends-gains-traders-eye-025125465.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/09 05:37",
+        "publishedAt": "09/10 06:32",
         "score": 1
       },
       {
-        "title": "'Will The Fed Ever Learn?' Market Strategist Warns Hiking Into Oil Shock Could Repeat 2008's Biggest Mistake",
-        "description": "James Thorne, Chief Market Strategist at Wellington Altus, warned that a Kevin Warsh-led Federal Reserve could repeat one of the “most damaging” error",
-        "url": "https://finance.yahoo.com/economy/policy/articles/fed-ever-learn-market-strategist-183007074.html?.tsrc=rss",
+        "title": "What History Reveals When the S&P 500 Sends Its Rarest Warning Signal",
+        "description": "The Shiller CAPE Ratio just reached its highest level since the dot-com boom. But long-term investors don't have to worry.",
+        "url": "https://www.fool.com/investing/2026/09/09/what-history-reveals-when-the-sp-500-sends-warning/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 03:30",
+        "publishedAt": "09/10 06:20",
         "score": 1
       },
       {
-        "title": "美, 이란 항공사 등 '특별지정국민' 지정 제재 추가",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609092377i",
-        "source": "hankyung.com",
-        "publishedAt": "09/09 00:48",
+        "title": "Update: US Equity Indexes Fall as Treasury Yields Rise After Bessent Triples Size of Buyback Program, Worsening Iran War Sends Brent Crude Above $100",
+        "description": "(Updates with index/price moves, macroeconomic data, comments, and company/geopolitical news from th",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-210157697.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 06:01",
+        "score": 1
+      },
+      {
+        "title": "Stock Market Today: Dow Falls 400 Points; Sellers Whack This AI Software Firm",
+        "description": "Stock Market Today: The Dow Jones index drops Wednesday on rising oil prices. Apple stock falls ahead of the iPhone event.",
+        "url": "https://finance.yahoo.com/m/c9fb09f4-06dd-363a-b51e-90ed64687309/stock-market-today%3A-dow-falls.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 05:56",
+        "score": 1
+      },
+      {
+        "title": "Meet the AI Software Stock That’s Crushing Palantir (Hint: It’s Significantly Cheaper)",
+        "description": "Snowflake stock has surged impressively in 2026 so far, and the growing demand for its AI software tools suggests it could continue to soar.",
+        "url": "https://www.fool.com/investing/2026/09/09/meet-the-ai-software-stock-that-s-crushing-palantir-hint-it-s-significantly-cheaper/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/10 04:49",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Intel Leads Chip Stocks Rally as Qualcomm, AMD and Broadcom Stocks Jump",
-        "description": "Intel Stock Leads Semiconductor Surge as AMD, Qualcomm and Broadcom Rally",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-leads-chip-stocks-rally-204945385.html?.tsrc=rss",
+        "title": "AMD Rises 3% as CFO Lifts AI Chip Market Forecast Toward $3 Trillion; Intel Ticks Up",
+        "description": "AMD's CFO just reshaped how big the AI chip market could get, and investors sent the stock surging past a key technical level while quietly slamming a",
+        "url": "https://247wallst.com/investing/2026/09/09/amd-rises-3-as-cfo-lifts-ai-chip-market-forecast-toward-3-trillion-intel-ticks-up/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 05:49",
-        "score": 10
+        "publishedAt": "09/09 23:45",
+        "score": 13
       },
       {
-        "title": "TSMC and Samsung commit to ASML High NA EUV machines for AI chips",
-        "description": "Both companies also joined an industry initiative to transition to larger 12-inch photomasks, which are expected to cut chipmaking costs by 2033",
-        "url": "https://qz.com/tsmc-samsung-asml-high-na-euv-ai-chips-090826?.tsrc=rss",
+        "title": "OpenAI Deepens Samsung Partnership to Build Next-Gen AI Chips — ‘One of the Areas Where We’ve Made the Most Progress’",
+        "description": "OpenAI is deepening its ties with Samsung Electronics Co. Ltd. (OTC:SSNLF) to co-develop next-generation chips, in a move to advance its enterprise AI",
+        "url": "https://www.benzinga.com/markets/tech/26/09/61684281/openai-deepens-samsung-partnership-to-build-next-gen-ai-chips-one-of-the-areas-where-weve-made-the-most-progress?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 21:52",
-        "score": 10
+        "publishedAt": "09/09 21:56",
+        "score": 12
       },
       {
-        "title": "Nvidia Falls as Its Firmus Bet Lands OpenAI",
-        "description": "The Malaysian agreement validates Nvidia's infrastructure ecosystem, but the chipmaker's direct economics remain undisclosed.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-falls-firmus-bet-lands-212513794.html?.tsrc=rss",
+        "title": "SK Hynix Jumps Nearly 5% as OpenAI Keeps AI Memory Demand Burning",
+        "description": "OpenAI reinforced the demand outlook, but its existing supply letter still lacks a company-specific purchase commitment.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-jumps-nearly-5-180910559.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 06:25",
+        "publishedAt": "09/10 03:09",
         "score": 9
       },
       {
-        "title": "SpaceX Rises 4% as Pivotal Research Launches Coverage at $220, Intuitive Machines Climbs 5%, Rocket Lab Gains 3%",
-        "description": "Pivotal Research just slapped a price target on SpaceX that towers above where shares currently trade, and the space complex is rallying in response,",
-        "url": "https://247wallst.com/investing/2026/09/08/spacex-rises-4-as-pivotal-research-launches-coverage-at-220-intuitive-machines-climbs-5-rocket-lab-gains-3/?.tsrc=rss",
+        "title": "SpaceX, Nvidia Lead Schwab Buys As Software Rally Spurs Profit-Taking – Trading Gauge Posts First Dip Since April",
+        "description": "Clients bought SPCX, NVDA, MU, INTC, and GOOGL, while net selling PLTR, MSFT, NOW, CRM, and ORCL.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/spacex-nvidia-schwab-buys-software-rally-profit-taking-trading-gauge-first-dip-april/cZtetQiRJyZ?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/09 03:51",
-        "score": 8
+        "publishedAt": "09/09 14:27",
+        "score": 9
       },
       {
-        "title": "INTC Stock Jumps Premarket As Intel Takes Early Lead In ASML's Next-Gen Chipmaking Technology – Samsung, TSMC Are Next",
-        "description": "Intel is already using the machines in production, while Samsung and TSMC have now committed to using them in the coming years.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/intc-stock-jumps-intel-asml-high-na-euv-tsmc-samsung/cZt3vOqRJUg?.tsrc=rss",
+        "title": "INTC Stock Slips Overnight: AMD Reaffirms TSMC Ties Amid Intel Foundry Buzz — But Keeps Supplier Options Open",
+        "description": "UBS said last month that TSMC packaging constraints could steer AMD and other customers toward Intel’s EMIB-T tech, potentially in 2027.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/intc-stock-amd-reaffirms-tsmc-ties-intel-foundry-buzz-supplier-options-open/cZtepN6RJyS?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/08 20:46",
-        "score": 8
+        "publishedAt": "09/09 12:45",
+        "score": 9
       }
     ]
   }
