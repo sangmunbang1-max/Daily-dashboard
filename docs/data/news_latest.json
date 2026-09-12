@@ -1,333 +1,325 @@
 {
-  "generated_at_kst": "2026-09-11 09:20 KST",
-  "period": "09/10 07:00 ~ 09/11 07:00 KST",
+  "generated_at_kst": "2026-09-12 09:26 KST",
+  "period": "09/11 07:00 ~ 09/12 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Treasury yields rise as investors raise bets on Fed rate hike: AlphaCheck",
-        "description": "Stocks were down on Thursday as investors watched for stress signs in the bond market as long dated bond yields as oil prices remain elevated .",
-        "url": "https://finance.yahoo.com/markets/article/treasury-yields-rise-as-investors-raise-bets-on-fed-rate-hike-alphacheck-135652896.html?.tsrc=rss",
+        "title": "Fed Rate Hike Close To A Lock; Clarity Act Vote Looms: Week Ahead",
+        "description": "A Federal Reserve rate hike is likely while the crypto Clarity Act faces long odds with a Senate vote on deck. Salesforce holds its Dreamforce confere",
+        "url": "https://finance.yahoo.com/m/9b4ff609-719c-3027-923f-c22efc31d58f/fed-rate-hike-close-to-a.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 22:56",
-        "score": 11
+        "publishedAt": "09/12 00:39",
+        "score": 10
       },
       {
-        "title": "We Named 3 Dividend Stocks to Dominate 2026. Only One Beat the S&P 500.",
-        "description": "We picked three dividend stocks to beat the market in 2026, and the results split in ways that reveal something uncomfortable about how income investo",
-        "url": "https://247wallst.com/investing/2026/09/10/we-named-3-dividend-stocks-to-dominate-2026-only-one-beat-the-sp-500/?.tsrc=rss",
+        "title": "Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus",
+        "description": "Retail sentiment on Stocktwits turned bearish on SPY and QQQ ahead of August CPI.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-sp500-futures-rise-after-4-day-market-slide-as-cpi-looms-large-orcl-adbe-mu-tsla-rklb-ibrx-hood-gme-in-focus/cZtXONwRBGW?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 22:20",
+        "publishedAt": "09/11 17:33",
+        "score": 10
+      },
+      {
+        "title": "뉴욕증시, 유가 하락에 상승 출발…CPI 발표 후 금리인상 가능성↑",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091199217",
+        "source": "hankyung.com",
+        "publishedAt": "09/11 23:02",
+        "score": 8
+      },
+      {
+        "title": "This 0.06%-Fee Dividend ETF Is Beating the S&P 500 by 16% YTD Without Owning a Single Magnificent Seven Stock",
+        "description": "A dirt-cheap dividend ETF built around profitable, cash-generating companies has quietly turned 2026's market narrative upside down, and its secret ha",
+        "url": "https://247wallst.com/investing/etf/2026/09/11/this-0-06-fee-dividend-etf-is-beating-the-sp-500-by-16-ytd-without-owning-a-single-magnificent-seven-stock/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/12 03:36",
         "score": 6
       },
       {
-        "title": "Limitless Metals: $105 Oil, Rising Treasury Yields and Fed Rate-Hike Expectations Reshape 2026 Gold Outlook",
-        "description": "Gold falls as inflation pressures intensify, while record global gold ETF holdings highlight continued investor demand amid geopolitical and financial",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/limitless-metals-105-oil-rising-163800144.html?.tsrc=rss",
+        "title": "US Dollar Strengthens Against The Loonie as Expectations Build for A US Fed Rate Rise",
+        "description": "The US dollar inched higher against its Canadian counterpart on Friday afternoon as bets rose on the",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-strengthens-against-loonie-181201747.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/11 01:38",
-        "score": 5
-      },
-      {
-        "title": "유가 급등·채권 수익률 급등에 S&P500 4일 연속 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609107672i",
-        "source": "hankyung.com",
-        "publishedAt": "09/10 23:04",
-        "score": 5
-      },
-      {
-        "title": "Dow Jones Futures Rise, Techs Fall As Oil Prices, Yields Keep Climbing. Inflation Data Due.",
-        "description": "Dow Jones futures edged higher early Thursday, while S&P 500 futures and Nasdaq futures fell. Crude oil prices and Treasury yields keep climbing. A ke",
-        "url": "https://finance.yahoo.com/m/59de9715-6649-3bb7-ab2a-645a0715c752/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/10 21:07",
+        "publishedAt": "09/12 03:12",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "Memory Stocks Slide as Rates and Oil Swamp JPMorgan’s Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips",
-        "description": "JPMorgan just slapped an Overweight rating on SK Hynix with a price target well above current levels, yet the stock is sinking anyway as surging Treas",
-        "url": "https://247wallst.com/investing/2026/09/10/memory-stocks-slide-as-rates-and-oil-swamp-jpmorgans-overweight-call-sk-hynix-sinks-5-western-digital-drops-3-micron-slips/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/10 22:22",
-        "score": 5
-      },
-      {
-        "title": "'대어' 무신사, 내년 코스피 입성 추진…'10조 몸값' 가능할까 [분석+]",
+        "title": "코스피, 유가·금리 공포 속 낙폭 줄여 6900선 마감…코스닥도 하락",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026091058036",
+        "url": "https://www.hankyung.com/article/2026091192816",
         "source": "hankyung.com",
-        "publishedAt": "09/10 20:00",
-        "score": 5
+        "publishedAt": "09/11 15:48",
+        "score": 10
       },
       {
-        "title": "코스피 지수, 네 마녀의 날·ETF리밸런싱에도 7000선 방어",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609107093i",
-        "source": "hankyung.com",
-        "publishedAt": "09/10 17:28",
-        "score": 5
-      },
-      {
-        "title": "Margaret Howell Makes Retail Push in South Korea With Samsung",
-        "description": "The British label will open its first Korean store at Shinsegae Main on Sept. 22, rolling out Margaret Howell and its subline MHL, with additional loc",
-        "url": "https://wwd.com/business-news/retail/margaret-howell-retail-push-south-korea-samsung-1239206016/?.tsrc=rss",
+        "title": "SK Hynix, Samsung Shares Dip In Korea After DeepSeek Debuts AI Tech That Uses Less Memory – Micron, SanDisk Hold Up",
+        "description": "DeepSeek’s memory-saving approach raises fresh questions over AI-driven chip demand.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/sk-hynix-samsung-shares-dip-in-korea-after-deep-seek-debuts-ai-tech-that-uses-less-memory-micron-san-disk-hold-up/cZtXBNqRBGe?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 21:17",
-        "score": 1
+        "publishedAt": "09/11 16:18",
+        "score": 6
+      },
+      {
+        "title": "거래소, 11월부터 저PBR기업 공개…코스피 하위 25% 대상",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091198047",
+        "source": "hankyung.com",
+        "publishedAt": "09/11 19:29",
+        "score": 5
+      },
+      {
+        "title": "코스피, 다음주 '슈퍼위크 시험대' [한경 프리미엄9 TODAY]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091196151",
+        "source": "hankyung.com",
+        "publishedAt": "09/11 17:41",
+        "score": 5
+      },
+      {
+        "title": "코스피, 다음주 '슈퍼위크 시험대' 오른다…美·日 금리 결정",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609119212i",
+        "source": "hankyung.com",
+        "publishedAt": "09/11 15:24",
+        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "ECB, 전쟁 이후 두번째 0.25%p 금리 인상…기준금리 2.5%로",
+        "title": "중동發 '물가 쇼크'…美 기준금리 인상 가능성 커졌다",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609107631i",
+        "url": "https://www.hankyung.com/article/2026091199201",
         "source": "hankyung.com",
-        "publishedAt": "09/10 21:38",
+        "publishedAt": "09/11 23:04",
+        "score": 13
+      },
+      {
+        "title": "[속보] 美 8월 근원 CPI, 컨센서스 웃돌아 금리 인상 가능성 커져",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609119887i",
+        "source": "hankyung.com",
+        "publishedAt": "09/11 21:46",
         "score": 10
       },
       {
-        "title": "Fitch Says AI Bust Could Crash US Stocks 35%, Trigger Recession",
-        "description": "Fitch Ratings says an AI-led market collapse could send U.S. share prices down 35% over six months and push the economy into recession, as American gr",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61725293/ai-stock-market-crash-fitch-recession?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed",
+        "description": "Dow Jones futures rose modestly early Friday, along with S&P 500 futures and Nasdaq futures, as oil prices fell back below $100 a barrel. Oracle and A",
+        "url": "https://finance.yahoo.com/m/c29e8241-4bb8-3a14-aa17-d5e2fa2c38f6/dow-jones-futures-rise%2C-oil.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/11 04:03",
+        "publishedAt": "09/11 21:01",
+        "score": 10
+      },
+      {
+        "title": "CPI +3.4%, as Expected: Wherefor Go Fed Rates?",
+        "description": "We're now looking at a 200 bps margin on PPI-CPI headlines, 240 bps on core.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/cpi-3-4-expected-wherefor-143000839.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/11 23:30",
         "score": 5
       },
       {
-        "title": "Canadian dollar edges lower as oil stays above $100, US inflation data in focus",
-        "description": "Investing.com -- The Canadian dollar edged lower against its U.S. counterpart on Thursday as investors weighed a surge in oil prices against renewed t",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-edges-lower-oil-175408730.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/11 02:54",
-        "score": 5
-      },
-      {
-        "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-        "description": "The August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with th",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61722133/fed-rate-hike-friday-cpi-inflation?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/11 02:05",
-        "score": 5
-      },
-      {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",
-        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/10 22:17",
+        "title": "뉴욕증시, 유가 하락에 상승 출발…CPI 발표 후 금리인상 가능성↑",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091199217",
+        "source": "hankyung.com",
+        "publishedAt": "09/11 23:02",
         "score": 5
       }
     ],
     "bonds": [
       {
-        "title": "Update: US Equity Indexes Decline as Treasury Yields Soar Amid Hot Wholesale Inflation Print, Escalation in Iran War Threatens Red Sea Chokepoint",
-        "description": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-treasury-205815325.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Rise After August Inflation Print Triggers Rally in Shorter-Maturity Treasury Yields, Crude Oil Slumps",
+        "description": "(Updates with index/price moves, comments and company/geopolitical news from the first paragraph.)",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-rise-august-204107867.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/11 05:58",
+        "publishedAt": "09/12 05:41",
+        "score": 9
+      },
+      {
+        "title": "Dollar Edges Higher, Treasury Yields Decline But Stay at Elevated Levels",
+        "description": "The dollar rose slightly ahead of August U.S. consumer-price inflation data later today, a key input ahead of the Federal Reserve's monetary policy de",
+        "url": "https://finance.yahoo.com/m/deae510d-5d00-33f2-9797-c2e803c30151/dollar-edges-higher%2C-treasury.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/11 19:26",
         "score": 8
       },
       {
-        "title": "Limitless Metals: $105 Oil, Rising Treasury Yields and Fed Rate-Hike Expectations Reshape 2026 Gold Outlook",
-        "description": "Gold falls as inflation pressures intensify, while record global gold ETF holdings highlight continued investor demand amid geopolitical and financial",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/limitless-metals-105-oil-rising-163800144.html?.tsrc=rss",
+        "title": "TLT Holders Are Losing Money Again While SGOV Holders Just Collect Their Yield. Here’s the Difference.",
+        "description": "Two iShares ETFs hold nothing but U.S. Treasuries, yet their investors are living completely opposite financial realities right now, and the reason co",
+        "url": "https://247wallst.com/investing/etf/2026/09/11/tlt-holders-are-losing-money-again-while-sgov-holders-just-collect-their-yield-heres-the-difference/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/11 01:38",
-        "score": 8
-      },
-      {
-        "title": "Treasury yields rise as investors raise bets on Fed rate hike: AlphaCheck",
-        "description": "Stocks were down on Thursday as investors watched for stress signs in the bond market as long dated bond yields as oil prices remain elevated .",
-        "url": "https://finance.yahoo.com/markets/article/treasury-yields-rise-as-investors-raise-bets-on-fed-rate-hike-alphacheck-135652896.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/10 22:56",
-        "score": 8
-      },
-      {
-        "title": "What to Know About the 2 p.m. Treasury Buyback",
-        "description": "For the past two years, the Treasury has quietly performed its buybacks without much ado.  Since May 2024, the Treasury has been taking away older lon",
-        "url": "https://finance.yahoo.com/m/7f64d4af-a1d8-39ab-aee3-fab51f7c04a2/what-to-know-about-the-2-p.m..html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/11 02:42",
-        "score": 3
-      },
-      {
-        "title": "유가 급등·채권 수익률 급등에 S&P500 4일 연속 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609107672i",
-        "source": "hankyung.com",
-        "publishedAt": "09/10 23:04",
+        "publishedAt": "09/12 00:19",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Higher Oil Prices Let Mexico Pull Back Billions in Pemex Support",
-        "description": "Mexico plans to slash financial support for Pemex by nearly 70% in 2027, betting higher oil prices will generate a $5.6 billion cash surplus.",
-        "url": "https://finance.yahoo.com/energy/articles/higher-oil-prices-let-mexico-220000091.html?.tsrc=rss",
+        "title": "Dollar Eases as Crude Oil Prices Fall",
+        "description": "The dollar index (DXY00 ) today is down -0.10%. The dollar is trading lower as today’s decline of more than -2% in WTI crude oil prices caused the 10-",
+        "url": "https://www.barchart.com/story/news/4559606/dollar-eases-as-crude-oil-prices-fall?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/11 07:00",
-        "score": 5
+        "publishedAt": "09/11 23:46",
+        "score": 10
       },
       {
-        "title": "Surging oil prices, higher bond yields weigh on stocks",
-        "description": "Oil prices surged Thursday as advances by Yemeni rebels threatened the flow of crude supplies while yields on long-term US Treasury bonds reached new",
-        "url": "https://finance.yahoo.com/economy/policy/articles/stocks-sink-oil-rally-fans-024521164.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/11 05:51",
-        "score": 5
-      },
-      {
-        "title": "Stock Market Midday, Sept. 10: Surging Oil Prices Pressure Markets Again",
-        "description": "Today, Sept. 10, 2026, drone and defense stock AeroVironment jumps while broader markets fall as geopolitical tensions re-escalate.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/10/stock-market-midday-sept-10-surging-oil-prices-pressure-markets-again/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/11 01:51",
-        "score": 5
-      },
-      {
-        "title": "엔비디아와 팔란티어, AI 연합군 결성…고유가 2029년까지 간다? [박신영의 개장전 요것만]",
+        "title": "유가·이상기후에 곡물값 들썩…곡물 ETN 강세",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609107697i",
+        "url": "https://www.hankyung.com/article/202609119323i",
         "source": "hankyung.com",
-        "publishedAt": "09/11 00:36",
+        "publishedAt": "09/11 16:12",
+        "score": 8
+      },
+      {
+        "title": "Update: US Equity Indexes Rise After August Inflation Print Triggers Rally in Shorter-Maturity Treasury Yields, Crude Oil Slumps",
+        "description": "(Updates with index/price moves, comments and company/geopolitical news from the first paragraph.)",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-rise-august-204107867.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/12 05:41",
         "score": 5
       },
       {
-        "title": "유가 급등·채권 수익률 급등에 S&P500 4일 연속 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609107672i",
-        "source": "hankyung.com",
-        "publishedAt": "09/10 23:04",
+        "title": "Oil prices, US inflation stoke Fed hike worries",
+        "description": "High oil prices, record American diesel costs and hot US inflation data on Friday cemented investor fears that the Federal Reserve is all but certain",
+        "url": "https://finance.yahoo.com/economy/policy/articles/stocks-tumble-oil-inflation-fan-024648193.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/12 05:33",
+        "score": 5
+      },
+      {
+        "title": "Stock Market Midday, Sept. 11: Stocks Rise as Falling Oil Prices Outweigh Sticky Inflation",
+        "description": "On Sept. 11, 2026, oil prices retreated intraday, helping investors look past sticky inflation data and fueling risk-on sentiment.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/11/stock-market-midday-sept-11-stocks-rise-as-falling-oil-prices-outweigh-sticky-inflation/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/12 01:53",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "US Dollar Price Forecast: DXY Stays Weak as ECB Hike Looms and Inflation Risks Rise; EUR/USD and GBP/USD in Focus",
-        "description": "DXY struggles despite higher Treasury yields as traders await U.S. PPI and the ECB decision, while EUR/USD and GBP/USD hold bullish support.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081617966.html?.tsrc=rss",
+        "title": "Europe's \"Less\" Is Doing More Than Anyone Gives It Credit For",
+        "description": "Europe runs on 44% less energy per euro than it did in 1995, and when the Strait of Hormuz closed, Europe barely flinched.",
+        "url": "https://finance.yahoo.com/energy/articles/europes-less-doing-more-anyone-220000142.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 17:16",
-        "score": 7
-      },
-      {
-        "title": "WTI 100달러 넘자 10년물 미국채 수익률 4.9% 돌파",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609107646i",
-        "source": "hankyung.com",
-        "publishedAt": "09/10 22:15",
+        "publishedAt": "09/12 07:00",
         "score": 3
       },
       {
-        "title": "[속보] 두바이·브렌트유 이어 WTI도 배럴당 100달러 돌파",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091076407",
-        "source": "hankyung.com",
-        "publishedAt": "09/10 21:46",
-        "score": 3
-      },
-      {
-        "title": "\"韓, 대미투자 합의 임박…에너지 분야에 1000억달러\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091071817",
-        "source": "hankyung.com",
-        "publishedAt": "09/10 17:14",
-        "score": 3
-      },
-      {
-        "title": "Canadian dollar edges lower as oil stays above $100, US inflation data in focus",
-        "description": "Investing.com -- The Canadian dollar edged lower against its U.S. counterpart on Thursday as investors weighed a surge in oil prices against renewed t",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-edges-lower-oil-175408730.html?.tsrc=rss",
+        "title": "1 Popular Cryptocurrency Cathie Wood of Ark Invest Sees Soaring in Value by 1,490%",
+        "description": "Wood has some very high hopes for Bitcoin.",
+        "url": "https://www.fool.com/investing/2026/09/11/1-popular-cryptocurrency-cathie-wood-of-ark-invest/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/11 02:54",
+        "publishedAt": "09/12 06:39",
+        "score": 3
+      },
+      {
+        "title": "Meta Meets With European Credit Investors in Non-Deal Roadshow",
+        "description": "Meta Platforms Inc. has been speaking to bond investors in Europe as part of a non-deal roadshow for at least a week as hyperscalers look to tap diffe",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-meets-european-credit-investors-140841178.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/11 23:08",
+        "score": 3
+      },
+      {
+        "title": "나스닥, 가상화폐 거래소 크라켄의 모회사에 1억달러 투자",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609119205i",
+        "source": "hankyung.com",
+        "publishedAt": "09/11 15:49",
+        "score": 3
+      },
+      {
+        "title": "How crypto became the most powerful distribution system for the dollar",
+        "description": "Scott Melker explains how crypto has emerged as one of the most powerful distribution systems for the US dollar, expanding the currency’s reach across",
+        "url": "https://finance.yahoo.com/video/crypto-became-most-powerful-distribution-205500390.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/12 05:55",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Copper Stocks Tumble as Tariff Doubt Reverses Record Rally: Freeport-McMoRan Sinks 8%, Teck Resources and Southern Copper Drop 7%",
-        "description": "A single policy update with no operational content just sent the entire copper mining sector into freefall, erasing billions in gains that took months",
-        "url": "https://247wallst.com/investing/2026/09/10/copper-stocks-tumble-as-tariff-doubt-reverses-record-rally-freeport-mcmoran-sinks-8-teck-resources-and-southern-copper-drop-7/?.tsrc=rss",
+        "title": "Why Did Freeport-McMoRan Stock Drop On Doubts Over A Tariff It Would Gain From?",
+        "description": "Freeport-McMoRan (FCX) stock fell 6.6% on Thursday to close at $71.21, while the S&P 500 slipped 0.6%. Copper sold off on surging yields and on report",
+        "url": "https://www.trefis.com/articles/615048/why-did-freeport-mcmoran-stock-drop-on-doubts-over-a-tariff-it-would-gain-from/2026-09-11?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 23:43",
+        "publishedAt": "09/12 06:25",
         "score": 3
       },
       {
-        "title": "American Eagle Outfitters Sinks 13% as $161M Tariff Refund Flatters Beat; Urban Outfitters Drops 3%, Abercrombie & Fitch Slips",
-        "description": "A $161 million tariff refund turned American Eagle's quarterly results into something far more complicated than a simple beat, and now investors are a",
-        "url": "https://247wallst.com/investing/2026/09/10/american-eagle-outfitters-sinks-13-as-161m-tariff-refund-flatters-beat-urban-outfitters-drops-3-abercrombie-fitch-slips/?.tsrc=rss",
+        "title": "Rocket Lab CEO Warns ‘Piping Hot’ AI And Space Trades Could 'Go Pop' As SpaceX-Fueled Mania Sends Valuations Soaring",
+        "description": "CEO Peter Beck blamed RKLB’s stock volatility on macro conditions, saying the business has improved across “every single metric.”",
+        "url": "https://stocktwits.com/news-articles/markets/equity/rocketlab-ceo-ai-space-trades-go-pop-spacex-mania-valuations-soaring/cZtX5I4RBGG?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 23:16",
-        "score": 3
+        "publishedAt": "09/11 12:56",
+        "score": 2
       },
       {
-        "title": "Copper, FCX Stock Plunge On Tariff Report, Surging Yields; Silver, Gold Also Fall",
-        "description": "The copper price and shares of S&P 500 copper mining giant Freeport-McMoRan turned sharply lower on Thursday morning after a Reuters report cast doubt",
-        "url": "https://finance.yahoo.com/m/6e86a1ae-5f29-3861-95ec-1fcf617e8d5d/copper%2C-fcx-stock-plunge-on.html?.tsrc=rss",
+        "title": "Gold Miner's Luster Lures Funds; Stock Trades Around Buy Point",
+        "description": "Oil-driven inflation hurts wallets, but it can also be a strong catalyst for other commodity markets.  Wheaton Precious Metals is among the gold miner",
+        "url": "https://finance.yahoo.com/m/028656a6-f5fd-3c84-85f7-1e759cd27c48/gold-miner%27s-luster-lures.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 22:13",
-        "score": 3
-      },
-      {
-        "title": "Lockheed Martin Yields 2.6% and Trades at 17.6 Times Earnings. Is Wall Street Right to Be Cautious on the Stock ?",
-        "description": "The defense industry is changing, creating pressure on traditional ways of working.",
-        "url": "https://www.fool.com/investing/2026/09/10/lockheed-martin-yields-x-and-trades-at-x-times-ear/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/11 06:25",
+        "publishedAt": "09/11 23:22",
         "score": 1
       },
       {
-        "title": "Update: US Equity Indexes Decline as Treasury Yields Soar Amid Hot Wholesale Inflation Print, Escalation in Iran War Threatens Red Sea Chokepoint",
-        "description": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-treasury-205815325.html?.tsrc=rss",
+        "title": "UBS warns September rate hike may spark a short-term gold selloff",
+        "description": "Investing.com -- UBS warned this week that a Federal Reserve rate hike this month could trigger a short-term drop in gold prices, though it expects an",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/ubs-warns-september-rate-hike-115842636.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/11 05:58",
+        "publishedAt": "09/11 20:58",
+        "score": 1
+      },
+      {
+        "title": "Commerzbank Says as Oil Prices Continue Rising as Middle East Conflict Intensifies, US Dollar Stronger",
+        "description": "Brent crude trades above $107 a barrel over growing concerns about the safety of shipping in the Red",
+        "url": "https://finance.yahoo.com/energy/articles/commerzbank-says-oil-prices-continue-105735835.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/11 19:57",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "OpenAI Picked Broadcom for Its First Custom AI Chip. The Race for Number Two Just Got Dangerous.",
-        "description": "OpenAI just disclosed a Samsung chip partnership, and investors are already punishing Broadcom stock for it. But the key question nobody is asking is",
-        "url": "https://247wallst.com/investing/2026/09/10/openai-picked-broadcom-for-its-first-custom-ai-chip-the-race-for-number-two-just-got-dangerous/?.tsrc=rss",
+        "title": "TSM’s Record Sales Say AI Chips Are Booming. The Nvidia-AMD Fight Is Now About Who Keeps the Margin",
+        "description": "NVIDIA Corporation (NASDAQ:NVDA) and Advanced Micro Devices, Inc. (NASDAQ:AMD) are competing for AI accelerator share, but Taiwan Semiconductor Manufa",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tsm-record-sales-ai-chips-125702278.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/11 01:40",
+        "publishedAt": "09/11 21:57",
+        "score": 13
+      },
+      {
+        "title": "Samsung Drops 3.5% While OpenAI Chip Work Still Lacks a Contract",
+        "description": "Cooperation is deepening across processors and enterprise AI, but no new commercial agreement has been announced.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-drops-3-5-while-200210926.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/12 05:02",
         "score": 12
       },
       {
-        "title": "TSMC Revenue Jumps 53% on Red-Hot AI Chip Demand",
-        "description": "TSMC Revenue Soars 53% as AI Boom Powers Another Sales Surge",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-revenue-jumps-53-red-120656044.html?.tsrc=rss",
+        "title": "Palantir Wants the AI Work OpenAI Cannot Touch. Nvidia Just Helped It Make the Pitch.",
+        "description": "Palantir is betting that the most valuable AI workloads are the ones OpenAI can never touch, and a fresh Nvidia partnership just gave that argument se",
+        "url": "https://247wallst.com/investing/2026/09/11/palantir-wants-the-ai-work-openai-cannot-touch-nvidia-just-helped-it-make-the-pitch/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 21:06",
-        "score": 10
+        "publishedAt": "09/12 02:40",
+        "score": 12
       },
       {
-        "title": "TSMC August 2026 revenue hits record high on AI chip demand",
-        "description": "The world's largest contract chipmaker reported its fourth consecutive monthly revenue increase, driven by strong AI chip orders",
-        "url": "https://qz.com/tsmc-record-august-revenue-ai-chip-demand-091026?.tsrc=rss",
+        "title": "Intel Climbs 3% on Chip Price Hike Report a Day After Piper Sandler Went Neutral; AMD Rises 2%, Taiwan Semiconductor Drifts",
+        "description": "A report of Intel raising chip prices sent shares surging 3% and erased the prior session's Piper Sandler-driven selloff, but the real question is whe",
+        "url": "https://247wallst.com/investing/2026/09/11/intel-climbs-3-on-chip-price-hike-report-a-day-after-piper-sandler-went-neutral-amd-rises-2-taiwan-semiconductor-drifts/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 20:14",
-        "score": 10
+        "publishedAt": "09/11 23:17",
+        "score": 9
       },
       {
-        "title": "Nvidia and Palantir Team Up on AI Supply Chain Tech—Why the Stock Market Isn’t Biting",
-        "description": "Nvidia  and  Palantir  Technologies are the dream team of artificial intelligence, bringing together hardware and software.  The two companies said Th",
-        "url": "https://finance.yahoo.com/m/3f24269b-e3ae-3291-a61d-e01dbab387c8/nvidia-and-palantir-team-up.html?.tsrc=rss",
+        "title": "Rocket Lab CEO Warns ‘Piping Hot’ AI And Space Trades Could 'Go Pop' As SpaceX-Fueled Mania Sends Valuations Soaring",
+        "description": "CEO Peter Beck blamed RKLB’s stock volatility on macro conditions, saying the business has improved across “every single metric.”",
+        "url": "https://stocktwits.com/news-articles/markets/equity/rocketlab-ceo-ai-space-trades-go-pop-spacex-mania-valuations-soaring/cZtX5I4RBGG?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/10 23:40",
+        "publishedAt": "09/11 12:56",
         "score": 8
-      },
-      {
-        "title": "Oracle, SpaceX, Cooper Cos., Macy’s, Apple, Navan, and More Stocks That Explain Today’s Market",
-        "description": "Stocks fell on Thursday as the market tussled between strong earnings and a downward drag from growing inflationary pressures.  However, Guggenheim an",
-        "url": "https://finance.yahoo.com/m/248a808f-3481-3dd2-97d4-fdb98b4fea00/oracle%2C-spacex%2C-cooper-cos.%2C.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/11 05:39",
-        "score": 7
       }
     ]
   }
