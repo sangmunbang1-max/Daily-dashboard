@@ -1,6 +1,6 @@
 {
-  "generated_at_kst": "2026-09-13 09:06 KST",
-  "period": "09/12 07:00 ~ 09/13 07:00 KST",
+  "generated_at_kst": "2026-09-14 09:19 KST",
+  "period": "09/13 07:00 ~ 09/14 07:00 KST",
   "news": {
     "us_market": [
       {
@@ -8,245 +8,198 @@
         "description": "Despite Friday's bounce, stocks are struggling amid surging oil prices and yields, though Apple, Moderna are buys. The Fed meeting looms.",
         "url": "https://finance.yahoo.com/m/ff3ebbcf-fe39-3ccd-b655-37522db9df46/dow-jones-futures%3A-fed-rate.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/13 01:24",
+        "publishedAt": "09/13 20:57",
         "score": 16
       },
       {
-        "title": "If a Stock Market Crash Is Coming, History Says This 1 Move Protects Investors Every Single Time",
-        "description": "This historically proven strategy is simpler than you might think.",
-        "url": "https://www.fool.com/investing/2026/09/12/if-a-stock-market-crash-is-coming-history-says-thi/?.tsrc=rss",
+        "title": "Morgan Stanley Gives Huge Stock Market Crash Warning in 30 Days",
+        "description": "Morgan Stanley warns stocks could correct in 30 days. Why investors are watching Monday's open after the AI slowdown pact.",
+        "url": "https://beincrypto.com/morgan-stanley-stock-market-crash-warning/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/12 22:20",
-        "score": 10
-      },
-      {
-        "title": "Morgan Stanley warns of possible stock market correction",
-        "description": "Mike Wilson sees trouble ahead, but his advice is surprising.",
-        "url": "https://www.thestreet.com/investing/stocks/morgan-stanley-stock-market-correction?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 12:33",
+        "publishedAt": "09/13 22:00",
         "score": 9
       },
       {
-        "title": "유가 하락·CPI 안도에 '숨통'…5일 만에 반등 [뉴욕증시 브리핑]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091200027",
-        "source": "hankyung.com",
-        "publishedAt": "09/12 07:12",
+        "title": "History Says September Is a Terrible Month for the S&P 500 Index and for Other Stocks. Here's Why I'm Still Investing Anyway.",
+        "description": "Septembers, on average, don't feature great stock market gains. But not every September is a dud.",
+        "url": "https://www.fool.com/investing/2026/09/13/history-says-september-is-a-terrible-month-for/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/13 22:55",
         "score": 8
       },
       {
-        "title": "Investing in the Vanguard S&P 500 ETF (VOO)? Beware of This 1 Sneaky Risk.",
-        "description": "The top 10 components recently made up a whopping 38% of the fund's value -- and the top three made up about 20%.",
-        "url": "https://www.fool.com/investing/2026/09/12/investing-in-the-vanguard-sp-500-etf-voo-beware-of/?.tsrc=rss",
+        "title": "A Bear Market Is Coming at Some Point. History Says That's Actually Good News for Investors.",
+        "description": "Sizable market downturns are common, and investors shouldn't fear them.",
+        "url": "https://www.fool.com/investing/2026/09/13/bear-market-coming-history-says-good-news/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/13 04:20",
+        "publishedAt": "09/13 23:43",
         "score": 6
+      },
+      {
+        "title": "Meet the Magnificent Momentum-Driven ETF Obliterating the S&P 500 in 2026",
+        "description": "This actively managed exchange-traded fund is producing spectacular returns for investors thanks to its unique strategy.",
+        "url": "https://www.fool.com/investing/2026/09/13/meet-momentum-driven-etf-obliterating-sp-500-2026/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/14 04:05",
+        "score": 5
       }
     ],
-    "kr_market": [],
+    "kr_market": [
+      {
+        "title": "고액자산가들의 선택은 삼성전자우...\"메모리 주도권 유지할 것\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609131138i",
+        "source": "hankyung.com",
+        "publishedAt": "09/13 15:08",
+        "score": 5
+      },
+      {
+        "title": "\"금리 흔들려도 AI 성장 유효\"…코스피 7000선 안착할까 [주간전망]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091179876",
+        "source": "hankyung.com",
+        "publishedAt": "09/13 08:00",
+        "score": 5
+      },
+      {
+        "title": "셀트리온·삼성도 치료제 출시…환자 부담 줄어든다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091312821",
+        "source": "hankyung.com",
+        "publishedAt": "09/13 18:45",
+        "score": 3
+      }
+    ],
     "macro": [
       {
-        "title": "CPI도 뜨거웠다…'빅위크'의 시작 [다음주 주요 변수 미리 보기]",
+        "title": "교사 10명 중 7명 \"학생 경제지식 부족\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609120138i",
+        "url": "https://www.hankyung.com/article/2026091313301",
         "source": "hankyung.com",
-        "publishedAt": "09/12 11:00",
-        "score": 5
-      },
-      {
-        "title": "높은 CPI, 확정된 인상…뉴욕 증시 뛴 이유는 \"비둘기파적 인상(한두 번)\" [김현석의 월스트리트나우]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609129994i",
-        "source": "hankyung.com",
-        "publishedAt": "09/12 08:15",
-        "score": 5
-      },
-      {
-        "title": "유가 하락·CPI 안도에 '숨통'…5일 만에 반등 [뉴욕증시 브리핑]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091200027",
-        "source": "hankyung.com",
-        "publishedAt": "09/12 07:12",
-        "score": 5
-      },
-      {
-        "title": "How much more gold could central banks buy?",
-        "description": "Investing.com -- Central banks could have substantial room to keep buying gold after purchases surged in recent years, with BofA estimating that under",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/much-more-gold-could-central-023013269.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 11:30",
-        "score": 3
-      },
-      {
-        "title": "Palantir and Nvidia Are Building a Sovereign AI Stack. Who Captures More of the Economics?",
-        "description": "Palantir Technologies Inc. (NASDAQ:PLTR) and NVIDIA Corporation (NASDAQ:NVDA) are pushing their partnership deeper into one of the most important emer",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-building-sovereign-ai-085205506.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 17:52",
+        "publishedAt": "09/13 19:36",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "IGLB vs LQD: Which Corporate Bond ETF Fits Your Portfolio?",
-        "description": "IGLB targets long-duration bonds with a 5.5% yield and lower costs, while LQD spans all maturities with broader diversification and less volatility.",
-        "url": "https://www.fool.com/coverage/etfs/2026/09/12/iglb-vs-lqd-which-corporate-bond-etf-fits-your-portfolio/?.tsrc=rss",
+        "title": "Is ConocoPhillips Stock Worth Buying Here? - Shorting COP Puts and Credit Spreads are Better Plays",
+        "description": "Oil futures have been rising, but recently hit a peak. ConocoPhillips reported strong Q2 earnings on Aug. 6, and COP stock may be fairly valued. Howev",
+        "url": "https://www.barchart.com/story/news/4579188/is-conocophillips-stock-worth-buying-here-shorting-cop-puts-and-credit-spreads-are-better-plays?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/12 20:32",
-        "score": 3
+        "publishedAt": "09/13 23:00",
+        "score": 5
       },
       {
-        "title": "오라클 회사채 금리 8% 육박…AI 열풍 뒤흔드는 '자금조달 경고등' [김주완의 글로벌머니 X파일]",
+        "title": "환율·채권, 주춤한 원·달러 환율 다시 오르나",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609119348i",
+        "url": "https://www.hankyung.com/article/2026091313171",
         "source": "hankyung.com",
-        "publishedAt": "09/12 07:00",
-        "score": 3
-      },
-      {
-        "title": "Trump’s $5,000 Promise Carries a $1.23 Trillion Price Tag: Does the Treasury Have the Cash?",
-        "description": "President Donald Trump has promised a $5,000 “dividend” to every adult U.S. citizen if Republicans keep control of both chambers of Congress in Novemb",
-        "url": "https://finance.yahoo.com/economy/policy/articles/trump-5-000-promise-carries-220004680.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 07:00",
+        "publishedAt": "09/13 19:12",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Will Gold Price Fall Below $4,000 Amid Renewed Economic Risks?",
-        "description": "Gold sits on its head and shoulders neckline as US CPI lands. A confirmed break targets $3,950, almost 9% lower.",
-        "url": "https://beincrypto.com/gold-price-risk-fed-rate-hike-september-2026/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 10:00",
-        "score": 5
-      },
-      {
-        "title": "유가 하락·CPI 안도에 '숨통'…5일 만에 반등 [뉴욕증시 브리핑]",
+        "title": "뉴욕·상하이 증시, 치솟는 유가·국채금리 美 증시 변수로",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026091200027",
+        "url": "https://www.hankyung.com/article/2026091313201",
         "source": "hankyung.com",
-        "publishedAt": "09/12 07:12",
+        "publishedAt": "09/13 19:10",
         "score": 5
       },
       {
-        "title": "Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play",
-        "description": "Recent IPO stock Fervo Energy is building on its partnership with Google with a massive power purchase agreement.",
-        "url": "https://www.fool.com/investing/2026/09/12/googles-historic-396-mw-clean-energy-deal-just-cha/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/13 04:05",
-        "score": 3
+        "title": "원전 ETF 상위권 점령…원유선물 상품도 '양호'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091313101",
+        "source": "hankyung.com",
+        "publishedAt": "09/13 19:03",
+        "score": 5
       },
       {
-        "title": "Dear Bloom Energy Stock Fans, Mark Your Calendars for September 21",
-        "description": "Bloom Energy stock has multiple positive catalysts amid the AI data-center boom.",
-        "url": "https://www.barchart.com/story/news/4572910/dear-bloom-energy-stock-fans-mark-your-calendars-for-september-21?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 22:00",
-        "score": 3
-      },
-      {
-        "title": "Energy Markets Signal Winter Crisis and Rising Interest Rates",
-        "description": "The surge in oil, gas and diesel prices is forcing central banks and governments to reassess the impact of the wars in Iran and Ukraine.",
-        "url": "https://finance.yahoo.com/energy/articles/energy-markets-signal-winter-crisis-110002366.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 20:00",
-        "score": 3
+        "title": "美 중간선거까지 유가 고공행진?…\"업스트림 전략 짜라\" [노정동의 어쩌다 투자자]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091188646",
+        "source": "hankyung.com",
+        "publishedAt": "09/13 13:00",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "미국은 왜 '엔화 약세'를 막으려 할까…월가가 엔화를 두려워하는 진짜 이유",
+        "title": "환율·채권, 주춤한 원·달러 환율 다시 오르나",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609106701i",
+        "url": "https://www.hankyung.com/article/2026091313171",
         "source": "hankyung.com",
-        "publishedAt": "09/12 15:49",
-        "score": 3
+        "publishedAt": "09/13 19:12",
+        "score": 8
+      },
+      {
+        "title": "EUR/USD could retest 1.17 after Fed decision - Citi says",
+        "description": "Investing.com -- EUR/USD could move back toward its summer highs near 1.17 if next week’s Federal Reserve decision triggers a \"sell the news\" reaction",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-could-retest-1-232248495.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/13 08:22",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Investing in the Vanguard S&P 500 ETF (VOO)? Beware of This 1 Sneaky Risk.",
-        "description": "The top 10 components recently made up a whopping 38% of the fund's value -- and the top three made up about 20%.",
-        "url": "https://www.fool.com/investing/2026/09/12/investing-in-the-vanguard-sp-500-etf-voo-beware-of/?.tsrc=rss",
+        "title": "Morgan Stanley Gives Huge Stock Market Crash Warning in 30 Days",
+        "description": "Morgan Stanley warns stocks could correct in 30 days. Why investors are watching Monday's open after the AI slowdown pact.",
+        "url": "https://beincrypto.com/morgan-stanley-stock-market-crash-warning/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/13 04:20",
+        "publishedAt": "09/13 22:00",
         "score": 1
       },
       {
-        "title": "d OECD commercial oil inventories have “barely drawn since the war began,” reflecting a smaller-than-expected supply deficit and the concentration of inventory declines in strategic reserves, oil stored on water and China.",
-        "description": "Goldman also assumes that Middle East oil supplies will continue to adapt, with production gradually recovering during the second half of 2027 as pipe",
-        "url": "https://investorshub.advfn.com/market-news/article/36135/d-oecd-commercial-oil-inventories-have-barely-drawn-since-the-war-began-reflecting-a-smaller-than-expected-supply-deficit-and-the-concentration-of-inventory-declines-in-strategic-reserves-oil-st?.tsrc=rss",
+        "title": "A highly anticipated Fed meeting, war worries, and an unblinking stock market: What to watch this week",
+        "description": "All eyes will be on the Federal Reserve's rates decision this week.",
+        "url": "https://finance.yahoo.com/markets/article/a-highly-anticipated-fed-meeting-war-worries-and-an-unblinking-stock-market-what-to-watch-this-week-100000843.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/12 22:26",
-        "score": 1
-      },
-      {
-        "title": "Jim Cramer Flags Casey’s (CASY) as a Warning Sign for Consumer Spending",
-        "description": "During the September 9 episode of Mad Money, Jim Cramer called Casey’s General Stores, Inc. (NASDAQ:CASY) a “perfect bellwether,” as he said: When the",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-flags-casey-casy-112905987.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 20:29",
-        "score": 1
-      },
-      {
-        "title": "The S&P 500 Trades at 25x Earnings. This Dividend ETF Is Beating It With Stocks Trading at Much Lower Valuations",
-        "description": "A simple dividend ETF built from the S&P 500 is quietly outpacing the broader index this year, and the reason has less to do with yield than with wher",
-        "url": "https://247wallst.com/investing/etf/2026/09/12/the-sp-500-trades-at-25x-earnings-this-dividend-etf-is-beating-it-with-stocks-trading-at-much-lower-valuations/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 19:36",
-        "score": 1
-      },
-      {
-        "title": "Michael Burry Is Staying Short Nvidia, Palantir, and Tesla, Warning of a Possible \"1987-Type Fall\" for AI Stocks. Should Investors Take the Bet Seriously?",
-        "description": "Burry continues to short growth stocks, but it hasn't always been a winning formula.",
-        "url": "https://www.fool.com/investing/2026/09/12/michael-burry-is-staying-short-nvidia-palantir-and/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 14:50",
+        "publishedAt": "09/13 19:00",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-        "description": "Elon Musk recently praised a specific GPU stock during SpaceX's earnings call.",
-        "url": "https://www.fool.com/investing/2026/09/12/nvidia-vs-amd-elon-musk-picked-a-side-on-the-space/?.tsrc=rss",
+        "title": "BigBear.ai vs. IonQ: Weighing Whether to Invest in the Artificial Intelligence Company or the Quantum Computing Giant",
+        "description": "One faces collapsing revenue and accounting restatements; the other is burning cash at a staggering pace despite triple-digit growth.",
+        "url": "https://www.fool.com/coverage/better-buy/2026/09/12/bigbear-ai-vs-ionq-weighing-whether-to-invest-in-the-artificial-intelligence-company-or-the-quantum-computing-giant/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/13 06:20",
-        "score": 12
+        "publishedAt": "09/13 13:14",
+        "score": 9
       },
       {
-        "title": "Palantir and Nvidia Are Building a Sovereign AI Stack. Who Captures More of the Economics?",
-        "description": "Palantir Technologies Inc. (NASDAQ:PLTR) and NVIDIA Corporation (NASDAQ:NVDA) are pushing their partnership deeper into one of the most important emer",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-building-sovereign-ai-085205506.html?.tsrc=rss",
+        "title": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
+        "description": "A major bank just dropped a forecast that reframes the entire robotics industry, and the ripple effects are already moving stock prices across chips,",
+        "url": "https://247wallst.com/investing/2026/09/13/robots-everywhere-goldman-sachs-now-sees-6-5-million-humanoid-robots-by-2035/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/12 17:52",
+        "publishedAt": "09/14 00:17",
+        "score": 8
+      },
+      {
+        "title": "SpaceX and Rocket Lab Have a New Space Rival -- in Norway",
+        "description": "The number of space companies keeps growing, and this new entrant is a bigger threat to Rocket Lab than to SpaceX.",
+        "url": "https://www.fool.com/investing/2026/09/13/spacex-and-rocket-lab-have-a-new-space-rival-in-no/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/13 20:27",
         "score": 7
       },
       {
-        "title": "Michael Burry Is Staying Short Nvidia, Palantir, and Tesla, Warning of a Possible \"1987-Type Fall\" for AI Stocks. Should Investors Take the Bet Seriously?",
-        "description": "Burry continues to short growth stocks, but it hasn't always been a winning formula.",
-        "url": "https://www.fool.com/investing/2026/09/12/michael-burry-is-staying-short-nvidia-palantir-and/?.tsrc=rss",
+        "title": "Boy, We Were Wrong About SpaceX",
+        "description": "Shortly before SpaceX’s record-setting IPO, we called SpaceX stock worth $90 a share.  Before that, we said that SpaceX was the big loser in its Febru",
+        "url": "https://finance.yahoo.com/m/c3e34846-bac4-3591-b85b-85ab4339fdcc/boy%2C-we-were-wrong-about.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/12 14:50",
-        "score": 7
-      },
-      {
-        "title": "Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM",
-        "description": "Broadcom Inc. (NASDAQ:AVGO) has become one of the clearest alternatives to NVIDIA’s merchant-GPU model as hyperscalers increasingly design custom AI a",
-        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-custom-ai-chip-boom-231614780.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/12 08:16",
-        "score": 7
-      },
-      {
-        "title": "Predicting the Value of a $10,000 Bet on SpaceX by 2030",
-        "description": "The answer will largely depend on whether its extensive AI investments pay off.",
-        "url": "https://www.fool.com/investing/2026/09/12/predicting-the-value-of-a-10000-bet-on-spacex-by-2/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/13 06:07",
+        "publishedAt": "09/14 01:51",
         "score": 6
+      },
+      {
+        "title": "Cybersecurity Is the Next Big Market for Artificial Intelligence (AI), According to Jensen Huang. This Super Stock-Split Stock Is the One to Own.",
+        "description": "Jensen Huang says cybersecurity is likely going to become the next big use case for artificial intelligence (AI).",
+        "url": "https://www.fool.com/investing/2026/09/13/cybersecurity-is-the-next-big-market-for-artificia/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/14 06:50",
+        "score": 4
       }
     ]
   }
