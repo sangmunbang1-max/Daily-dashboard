@@ -1,309 +1,317 @@
 {
-  "generated_at_kst": "2026-09-15 09:45 KST",
-  "period": "09/14 07:00 ~ 09/15 07:00 KST",
+  "generated_at_kst": "2026-09-16 09:37 KST",
+  "period": "09/15 07:00 ~ 09/16 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq slip as chip stocks fall on AI warning",
-        "description": "The CEOs of Anthropic and OpenAI spooked markets, while investors monitored rising oil prices and an upcoming Fed rate decision.",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html?.tsrc=rss",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as 10-year Treasury yield touches 2007 high ahead of Fed decision day",
+        "description": "Investors braced for the Federal Reserve's interest rate decision on Wednesday and monitored the fallout from Anthropic CEO Dario Amodei's essay on AI",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-15-dow-sp-500-nasdaq-081307838.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 17:05",
+        "publishedAt": "09/15 17:13",
         "score": 14
       },
       {
-        "title": "Crypto Market Braces for Volatility as Goldman Sachs & JPMorgan Expect Fed Rate Hike This Week",
-        "description": "The crypto market is bracing for huge volatility in Bitcoin (BTC), Ethereum (ETH), and XRP due to a macro-heavy week. Wall Street giants JPMorgan and",
-        "url": "https://coingape.com/crypto-market-braces-volatility-goldman-sachs-jpmorgan-expect-fed-rate-hike-this-week/?.tsrc=rss",
+        "title": "Update: US Equity Indexes Retreat as Benchmark Bond Yield Hits 19-Year High Ahead of Fed Rate Increase While Crude Oil Prices Jump",
+        "description": "(Updates with index/price moves, comments and geopolitical news from the first paragraph.) US equ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-benchmark-205827916.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 22:07",
-        "score": 13
+        "publishedAt": "09/16 05:58",
+        "score": 9
       },
       {
-        "title": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure — MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
-        "description": "Anthropic CEO Dario Amodei called for a slowdown of the development of AI capabilities.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI?.tsrc=rss",
+        "title": "Rate Hike Jitters Rattle iBuyer Stocks: Opendoor Falls 4%, Zillow Slides 2% but Offerpad Holds Steady",
+        "description": "Treasury yields pushing past 5% are separating winners from losers among iBuyer stocks, and the gap between Opendoor, Offerpad, and Zillow reveals som",
+        "url": "https://247wallst.com/investing/2026/09/15/rate-hike-jitters-rattle-ibuyer-stocks-opendoor-falls-4-zillow-slides-2-but-offerpad-holds-steady/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 06:53",
-        "score": 10
+        "publishedAt": "09/15 23:31",
+        "score": 6
       },
       {
-        "title": "Dollar at highest level in almost two weeks as Fed rate hike bets hit nearly 95%",
-        "description": "Investing.com -- The U.S. dollar surged to a near two-week high on Monday, as the odds of the Federal Reserve delivering an interest rate hike this we",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-charges-near-two-week-104745772.html?.tsrc=rss",
+        "title": "Wells Fargo's new S&P 500 call signals trouble ahead",
+        "description": "Wells Fargo’s new target flows straight through to SPY and VOO, the funds millions of investors already own.",
+        "url": "https://www.thestreet.com/investing/wells-fargo-sp500-pullback-warning-spy-voo-etfs?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 19:47",
-        "score": 10
+        "publishedAt": "09/16 06:33",
+        "score": 5
       },
       {
-        "title": "Gold Falls Toward $4,300 as US Inflation Raises Fed Rate Hike Expectations",
-        "description": "Gold prices declined on Monday as higher-than-expected US inflation data increased market expectations for a Federal Reserve interest rate increase th",
-        "url": "https://investorshub.advfn.com/market-news/article/36155/gold-falls-toward-4300-as-us-inflation-raises-fed-rate-hike-expectations?.tsrc=rss",
+        "title": "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In Or Near Buy Zones",
+        "description": "Dow Jones tech titan Apple, along with Nvidia chipmaker TSMC, AMD and Bloom Energy, are in or near buy zones in Tuesday's market action.",
+        "url": "https://finance.yahoo.com/m/abcff3bf-aa03-3635-8d7c-acbe8b8a05b3/dow-jones-tech-titan-apple%2C.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 18:31",
-        "score": 10
+        "publishedAt": "09/16 05:38",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "고유가·고금리 덮친 증시…코스피 3일째 하락 6684",
+        "title": "코스피 상장 신청한 에스텍시스템…\"인력경비에서 AI 보안으로 진화\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026091439791",
+        "url": "https://www.hankyung.com/article/202609130896i",
         "source": "hankyung.com",
-        "publishedAt": "09/14 17:54",
-        "score": 5
+        "publishedAt": "09/16 06:00",
+        "score": 6
       },
       {
-        "title": "'AI 대신 누가 네이버 써요?' 발칵 뒤집혔는데…'놀라운 반전'",
+        "title": "카카오게임즈, 미투온 인수",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026091438631",
+        "url": "https://www.hankyung.com/article/2026091565481",
         "source": "hankyung.com",
-        "publishedAt": "09/14 17:32",
+        "publishedAt": "09/15 18:28",
         "score": 3
       },
       {
-        "title": "Bank of Korea Says the AI Chip Trade Is Now a Financial Stability Problem",
-        "description": "South Korea's AI chip boom lifts GDP to 21.9% in H1 2026 but hides the biggest concentration risk since the 1970s.",
-        "url": "https://beincrypto.com/south-korea-ai-chip-boom-concentration-risk/?.tsrc=rss",
+        "title": "박스피에 시총 순위 지각변동…현대차 제친 종목은?",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609155868i",
+        "source": "hankyung.com",
+        "publishedAt": "09/15 17:46",
+        "score": 3
+      },
+      {
+        "title": "카카오게임즈, 미투온 인수…글로벌 캐주얼 게임 강화",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609156254g",
+        "source": "hankyung.com",
+        "publishedAt": "09/15 16:07",
+        "score": 3
+      },
+      {
+        "title": "Exchange Traded Concepts and Kiwoom Securities (USA) Inc. Launch the First fund for the KICK ETFs series, KCHP, Offering Focused Access to Korea's Semiconductor Leaders",
+        "description": "Exchange Traded Concepts, LLC (\"ETC\") today announced, in partnership with Kiwoom Securities (USA) Inc., the launch of the KICK Korea Semiconductor In",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-concepts-kiwoom-securities-123000563.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 20:05",
+        "publishedAt": "09/15 21:30",
         "score": 1
       }
     ],
     "macro": [
       {
-        "title": "16일 FOMC 향방…최근 경제 지표는 인상 시사",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609144246i",
-        "source": "hankyung.com",
-        "publishedAt": "09/14 22:16",
-        "score": 6
-      },
-      {
-        "title": "News of the day: TD and Scotiabank join spending spree, inflation rate stays steady, economists' reaction, too many apartments, stagflation risks and more",
-        "description": "Catch up on the stories we’re following today",
-        "url": "https://financialpost.com/uncategorized/news-of-the-day-td-and-scotiabank-join-spending-spree-inflation-rate-stays-steady-economists-reaction-too-many-apartments-stagflation-risks-and-more?.tsrc=rss",
+        "title": "US Dollar Rises Early Tuesday, Ahead Light Schedule Before Wednesday's FOMC Annoucement",
+        "description": "The US dollar rose against its major trading partners early Tuesday before a light data release day,",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-tuesday-114107549.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 06:25",
+        "publishedAt": "09/15 20:41",
         "score": 5
       },
       {
-        "title": "US Dollar Rises Early Monday, Focus on FOMC Meeting This Week",
-        "description": "The US dollar rose against its major trading partners early Monday as the focus turns to the Federal",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-monday-114343168.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/14 20:43",
+        "title": "美 금리 인상시 엔화 반짝 강세 도루묵…\"달러당 157엔까지 떨어질 것\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609156774i",
+        "source": "hankyung.com",
+        "publishedAt": "09/15 19:31",
         "score": 5
       }
     ],
     "bonds": [
       {
-        "title": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure — MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
-        "description": "Anthropic CEO Dario Amodei called for a slowdown of the development of AI capabilities.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI?.tsrc=rss",
+        "title": "US Equity Markets End Lower as 10-Year Treasury Yield Climbs to Highest Since 2007, Oil Jumps",
+        "description": "US equity indexes ended lower Tuesday after US 10-year Treasury yields rose to the highest since 200",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-204246538.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 06:53",
+        "publishedAt": "09/16 05:42",
         "score": 8
       },
       {
-        "title": "Update: Semiconductors Help Push US Equity Indexes Lower While Benchmark Treasury Yield Hits 5%",
-        "description": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductors-help-push-us-equity-212047694.html?.tsrc=rss",
+        "title": "10-Year Treasury Yield Settles at 19-Year High",
+        "description": "Higher yields mean bond prices are lower.  For loyalists to sovereign bonds, there are few places to hide.  Treasury Secretary Scott Bessent, testifyi",
+        "url": "https://finance.yahoo.com/m/a18097fb-4c6b-3b3d-8657-9077abfa0d01/10-year-treasury-yield.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 06:20",
+        "publishedAt": "09/16 05:13",
         "score": 8
       },
       {
-        "title": "Update: US Equity Indexes Retreat as 10-Year Treasury Yield Crosses 5% Threshold, Crude Oil Extends Gains",
-        "description": "(Updates with index/price moves and company/geopolitical news from the first paragraph.) US equit",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-10-175030073.html?.tsrc=rss",
+        "title": "10-year Treasury yield hits highest level since 2007",
+        "description": "The 10-year Treasury yield rose to its highest level since 2007 on Tuesday.",
+        "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-hits-highest-level-since-2007-121942773.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 02:50",
+        "publishedAt": "09/15 21:19",
         "score": 8
       },
       {
-        "title": "10-Year Treasury Yield Just Passed 5%, Here’s What Happened To The Market When The Same Thing Happened In 2007",
-        "description": "The bond market just flashed a signal it last sent in 2007, and what followed that time was not what investors expected. History offers a warning, but",
-        "url": "https://247wallst.com/investing/2026/09/14/10-year-treasury-yield-just-passed-5-heres-what-happened-to-the-market-when-the-same-thing-happened-in-2007/?.tsrc=rss",
+        "title": "Gold Falls Below $4,300 as Dollar and Treasury Yields Rise Ahead of Fed Decision",
+        "description": "Gold prices moved lower on Tuesday, with spot bullion falling below $4,300 an ounce as the US dollar and Treasury yields rose ahead of the Federal Res",
+        "url": "https://investorshub.advfn.com/market-news/article/36272/gold-falls-below-4300-as-dollar-and-treasury-yields-rise-ahead-of-fed-decision?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 00:33",
+        "publishedAt": "09/15 18:36",
         "score": 8
       },
       {
-        "title": "10-Year Treasury Yield Tops 5%",
-        "description": "The yield on Treasury notes expiring in a decade has officially pushed past 5%. The 10-year yield is trading at 5.011%, its highest level since July 1",
-        "url": "https://finance.yahoo.com/m/815f4dad-7b98-39bc-a7e0-0aa01d3e4005/10-year-treasury-yield-tops-5%25.html?.tsrc=rss",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as 10-year Treasury yield touches 2007 high ahead of Fed decision day",
+        "description": "Investors braced for the Federal Reserve's interest rate decision on Wednesday and monitored the fallout from Anthropic CEO Dario Amodei's essay on AI",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-15-dow-sp-500-nasdaq-081307838.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 23:33",
+        "publishedAt": "09/15 17:13",
         "score": 8
       }
     ],
     "commodities": [
       {
-        "title": "US stocks retreat on AI warnings as oil prices, bond yields rise",
-        "description": "Wall Street stocks fell Monday on weakness in tech shares after leading artificial intelligence executives said advances should be slowed, as markets",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tech-firms-hit-ai-slowdown-024739551.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Retreat as Benchmark Bond Yield Hits 19-Year High Ahead of Fed Rate Increase While Crude Oil Prices Jump",
+        "description": "(Updates with index/price moves, comments and geopolitical news from the first paragraph.) US equ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-benchmark-205827916.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 05:33",
+        "publishedAt": "09/16 05:58",
+        "score": 10
+      },
+      {
+        "title": "TSX Closer: Index Falls as Technology, Health Care Weigh; Energy Gains on Surging Oil Prices",
+        "description": "The S&P/TSX Composite Index closed lower on Tuesday as losses in information technology, health care",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-falls-technology-202158011.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/16 05:21",
+        "score": 8
+      },
+      {
+        "title": "Costco raises motor oil prices as supply pressure builds",
+        "description": "Higher motor-oil prices and purchase restrictions offer another glimpse at pressure moving through consumer goods.",
+        "url": "https://finance.yahoo.com/energy/articles/costco-raises-motor-oil-prices-204602015.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/16 05:46",
         "score": 5
       },
       {
-        "title": "Update: US Equity Indexes Retreat as 10-Year Treasury Yield Crosses 5% Threshold, Crude Oil Extends Gains",
-        "description": "(Updates with index/price moves and company/geopolitical news from the first paragraph.) US equit",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-10-175030073.html?.tsrc=rss",
+        "title": "Commerzbank Says Brent Oil Back Above $107, Treasuries Under Pressure Again, US Dollar Firm",
+        "description": "Brent oil prices stayed range-bound with the crude back above $107 a barrel on dampened hopes of tra",
+        "url": "https://finance.yahoo.com/energy/articles/commerzbank-says-brent-oil-back-104720169.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 02:50",
+        "publishedAt": "09/15 19:47",
         "score": 5
       },
       {
-        "title": "Dollar Climbs as Stocks Sink and Crude Oil Surges",
-        "description": "The dollar index (DXY00 ) rallied to a 1.5-week high today and is up by +0.52%. The dollar is moving higher today as T-note yields rise and stocks slu",
-        "url": "https://www.barchart.com/story/news/4591142/dollar-climbs-as-stocks-sink-and-crude-oil-surges?.tsrc=rss",
+        "title": "Kosmos Energy (KOS) Stock Is Up, What You Need To Know",
+        "description": "Shares of oil and gas producer Kosmos Energy (NYSE:KOS) jumped 4.1% in the morning session after crude oil prices surged past $103 per barrel, driven",
+        "url": "https://finance.yahoo.com/energy/articles/kosmos-energy-kos-stock-know-211931752.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 23:33",
-        "score": 5
-      },
-      {
-        "title": "美 증시, AI 감속 우려에 유가 급등…반도체주 일제히 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609144281i",
-        "source": "hankyung.com",
-        "publishedAt": "09/14 23:18",
-        "score": 5
-      },
-      {
-        "title": "Chip stocks fall as oil prices gain, Treasury yields stay elevated: AlphaCheck",
-        "description": "Here's a check of the markets in the first few minutes of trading.",
-        "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-oil-prices-gain-treasury-yields-stay-elevated-alphacheck-134519544.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/14 22:45",
-        "score": 5
+        "publishedAt": "09/16 06:19",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "US Dollar Price Forecast: Fed Hike Odds Lift DXY as EUR/USD and GBP/USD Weaken",
-        "description": "Fed hike expectations support the dollar as DXY breaks above 99.26, while EUR/USD and GBP/USD weaken ahead of key Fed and BoE decisions.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-060329859.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/14 15:03",
-        "score": 7
+        "title": "美 금리 인상시 엔화 반짝 강세 도루묵…\"달러당 157엔까지 떨어질 것\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609156774i",
+        "source": "hankyung.com",
+        "publishedAt": "09/15 19:31",
+        "score": 6
       },
       {
-        "title": "사우디, 핵심송유관 폐쇄…브렌트유 108달러 돌파",
+        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR and GBP Weaken",
+        "description": "DXY strengthens as Fed hike bets and 5% Treasury yields support the dollar, while EUR/USD and GBP/USD weaken ahead of key policy decisions.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-072505318.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/15 16:25",
+        "score": 6
+      },
+      {
+        "title": "골드만삭스, 글로벌·아시아 사모펀드로 117억달러 조성",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609144265i",
+        "url": "https://www.hankyung.com/article/2026091568187",
         "source": "hankyung.com",
-        "publishedAt": "09/14 22:36",
+        "publishedAt": "09/15 20:09",
         "score": 3
       },
       {
-        "title": "Dollar Climbs as Stocks Sink and Crude Oil Surges",
-        "description": "The dollar index (DXY00 ) rallied to a 1.5-week high today and is up by +0.52%. The dollar is moving higher today as T-note yields rise and stocks slu",
-        "url": "https://www.barchart.com/story/news/4591142/dollar-climbs-as-stocks-sink-and-crude-oil-surges?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/14 23:33",
-        "score": 1
+        "title": "日 키옥시아, 美 ADR로…최소 100억달러 조달 추진",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091565131",
+        "source": "hankyung.com",
+        "publishedAt": "09/15 17:38",
+        "score": 3
       },
       {
-        "title": "Market Chatter: Aon Commences Seven-Part US Dollar Bond Sale to Fund USI Takeover",
-        "description": "Aon (AON) has commenced a US investment-grade debt sale in seven tranches to help fund its planned $",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-aon-commences-seven-124024801.html?.tsrc=rss",
+        "title": "Gold and the U.S. dollar: Why they often move in opposite directions",
+        "description": "Gold and the U.S. dollar often move in opposite directions. Learn why the dollar affects gold prices and what other factors influence the price of gol",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-us-dollar-relationship-204112404.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 21:40",
-        "score": 1
-      },
-      {
-        "title": "US Dollar Rises Early Monday, Focus on FOMC Meeting This Week",
-        "description": "The US dollar rose against its major trading partners early Monday as the focus turns to the Federal",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-monday-114343168.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/14 20:43",
+        "publishedAt": "09/16 05:41",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Paul Krugman Warns Why the AI Boom—Not the Trump Administration—Is Driving Surging Bond Rates",
-        "description": "Economist Paul Krugman argues that rising bond yields stem from technology sector spending rather than Donald Trump administration policies. AI Invest",
-        "url": "https://finance.yahoo.com/technology/ai/articles/paul-krugman-warns-why-ai-213102683.html?.tsrc=rss",
+        "title": "Palantir and Nvidia Are Restricting Anthropic’s AI. Microsoft Could Win the Enterprise Trust War",
+        "description": "Palantir and Nvidia have reportedly tightened restrictions around Anthropic’s advanced AI models over data-retention concerns. Palantir has demanded i",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-restricting-anthropic-ai-215533551.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 06:31",
+        "publishedAt": "09/16 06:55",
         "score": 1
       },
       {
-        "title": "New Fed Chair Warsh Vowed a Policy Overhaul to Crush Inflation When He Took Office. Has He Followed Through?",
-        "description": "The real problem with inflation isn't Kevin Warsh -- and it might be beyond his power to fix it anytime soon.",
-        "url": "https://www.fool.com/investing/2026/09/14/new-fed-chair-warsh-policy-crush-inflation/?.tsrc=rss",
+        "title": "Nvidia Bought Hugging Face for $12.9 Billion. This Software Acquisition Changes Everything.",
+        "description": "By acquiring Hugging Face, Nvidia is working to capture the talent funnel.",
+        "url": "https://www.fool.com/investing/2026/09/15/nvidia-bought-hugging-face-for-129-billion-this-so/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 06:10",
+        "publishedAt": "09/16 06:32",
         "score": 1
       },
       {
-        "title": "US stocks retreat on AI warnings as oil prices, bond yields rise",
-        "description": "Wall Street stocks fell Monday on weakness in tech shares after leading artificial intelligence executives said advances should be slowed, as markets",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tech-firms-hit-ai-slowdown-024739551.html?.tsrc=rss",
+        "title": "China’s State Media Calls AI Slowdown a “Cold War” Tactic. Z.AI Is Raising $5 Billion to Do the Opposite",
+        "description": "An opinion piece in China’s state-backed Global Times on September 14 called Anthropic CEO Dario Amodei’s proposal to pace frontier AI a “Cold War pla",
+        "url": "https://finance.yahoo.com/technology/ai/articles/china-state-media-calls-ai-212953858.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 05:33",
+        "publishedAt": "09/16 06:29",
         "score": 1
       },
       {
-        "title": "Stock Market Midday, Sept. 14: Tech Stocks Slide on Dire AI Warnings, Micron Drops 5%",
-        "description": "Industry leaders rattle AI stocks as they speak out about rapid development and call for a slower pace of growth, today, Sept. 14, 2026.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/14/stock-market-midday-sept-14-tech-stocks-slide-on-dire-ai-warnings-micron-drops-5/?.tsrc=rss",
+        "title": "Chevron CEO warns a global fuel crisis is already here",
+        "description": "U.S. energy executives say the global fuel situation is entering a more difficult phase.",
+        "url": "https://finance.yahoo.com/energy/articles/chevron-ceo-warns-global-fuel-205321327.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 01:44",
+        "publishedAt": "09/16 05:53",
         "score": 1
       },
       {
-        "title": "Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding?",
-        "description": "Two AI executives published essays over a weekend, and by Monday morning Caterpillar was selling off four times faster than the broader market while D",
-        "url": "https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/?.tsrc=rss",
+        "title": "Taiwan Semiconductor Issues Blunt Warning on AI",
+        "description": "AI's biggest manufacturing winner is proceeding unusually carefully",
+        "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-issues-blunt-warning-202018138.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 00:40",
+        "publishedAt": "09/16 05:20",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Palantir, Nvidia, Booz Allen restrict Anthropic and OpenAI models",
-        "description": "The companies want guarantees that AI providers won't retain or learn from their proprietary data before they expand use of frontier models",
-        "url": "https://qz.com/palantir-nvidia-booz-allen-anthropic-openai-data-restrictions-091426?.tsrc=rss",
+        "title": "AI chip sell-off overblown: Zero GPU slowdown after Anthropic essay, analyst says",
+        "description": "NVIDIA (NASDAQ: NVDA), the dominant supplier of AI training GPUs and the most direct equity expression of AI infrastructure buildout, sits at the cent",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-sell-off-overblown-120855997.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 02:37",
-        "score": 17
+        "publishedAt": "09/15 21:08",
+        "score": 15
       },
       {
-        "title": "Top Midday Stories: No OpenAI IPO in 2026, Altman Reportedly Says; Nvidia, Palantir Said to Restrict AI Usage Over Customer Data Fears",
-        "description": "All three major US stock indexes were down in late-morning trading Monday, as major artificial intel",
-        "url": "https://finance.yahoo.com/technology/ai/articles/top-midday-stories-no-openai-155629835.html?.tsrc=rss",
+        "title": "Palantir and Nvidia Are Restricting Anthropic’s AI. Microsoft Could Win the Enterprise Trust War",
+        "description": "Palantir and Nvidia have reportedly tightened restrictions around Anthropic’s advanced AI models over data-retention concerns. Palantir has demanded i",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-restricting-anthropic-ai-215533551.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 00:56",
+        "publishedAt": "09/16 06:55",
         "score": 12
       },
       {
-        "title": "Data retention concerns spark client pushback against Anthropic and OpenAI -report",
-        "description": "Investing.com -- Escalating concerns over corporate data privacy are driving major enterprise and defense clients to restrict their use of frontier ar",
-        "url": "https://finance.yahoo.com/technology/ai/articles/data-retention-concerns-spark-client-155445441.html?.tsrc=rss",
+        "title": "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In Or Near Buy Zones",
+        "description": "Dow Jones tech titan Apple, along with Nvidia chipmaker TSMC, AMD and Bloom Energy, are in or near buy zones in Tuesday's market action.",
+        "url": "https://finance.yahoo.com/m/abcff3bf-aa03-3635-8d7c-acbe8b8a05b3/dow-jones-tech-titan-apple%2C.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/15 00:54",
+        "publishedAt": "09/16 05:38",
         "score": 11
       },
       {
-        "title": "RKLB Stock Slips Overnight: Rocket Lab Protests Blue Origin’s $700M NASA Mars Deal, Calls Review ‘Punitive’",
-        "description": "Eligible bidders needed prior NASA funding for a Mars Sample Return study and a proposal featuring a separately launched telecommunications orbiter.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-rocket-lab-protests-blue-origin-nasa-mars-deal-review-punitive/cZtlF0eRBRc?.tsrc=rss",
+        "title": "Meta To Reportedly Launch New AI Chip In 2027, Aims To Beat Nvidia On Efficiency",
+        "description": "Yee Jiun Song, Meta’s vice president of engineering, told Bloomberg the chips are being engineered to deliver better performance per watt and per doll",
+        "url": "https://stocktwits.com/news-articles/markets/equity/meta-to-launch-new-ai-chip-in-2027-aims-to-beat-nvidia-on-efficiency/cZtngMGRBcL?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/14 11:34",
-        "score": 11
-      },
-      {
-        "title": "Talk of AI pause slams Nvidia, AMD and Intel as fears of doomsday scenarios spread",
-        "description": "Artificial intelligence stocks tumbled on Monday after American leaders of the AI revolution called for a coordinated slowdown in building more powerf",
-        "url": "https://finance.yahoo.com/technology/ai/articles/talk-ai-pause-slams-nvidia-214716918.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/15 06:47",
+        "publishedAt": "09/16 00:10",
         "score": 10
+      },
+      {
+        "title": "Meta is making a bigger AI chip move to cut costs",
+        "description": "Wider use of internally designed chips could change the economics of Meta's enormous AI buildout.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-making-bigger-ai-chip-211208086.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/16 06:12",
+        "score": 7
       }
     ]
   }
