@@ -1,341 +1,325 @@
 {
-  "generated_at_kst": "2026-09-17 09:45 KST",
-  "period": "09/16 07:00 ~ 09/17 07:00 KST",
+  "generated_at_kst": "2026-09-18 09:35 KST",
+  "period": "09/17 07:00 ~ 09/18 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
-        "description": "Stocks digested an expected Fed rate hike as oil prices and Treasurys continued to exert pressure.",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html?.tsrc=rss",
+        "title": "Fed Rate Hike in October or December? Benzinga Viewers Say This is More Likely",
+        "description": "The Federal Reserve raised interest rates by 25 basis points Wednesday, marking the first rate hike since 2023. While that move was widely expected in",
+        "url": "https://www.benzinga.com/markets/economic-data/26/09/61855216/fed-rate-outlook-next-hike-october-or-december?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 17:03",
-        "score": 14
-      },
-      {
-        "title": "TSX Closer: Index Falls as Energy Shares Slide With Oil; Investors Weigh Fed Rate Hike",
-        "description": "The S&P/TSX Composite Index closed lower on Wednesday as losses in energy, industrial and telecom st",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-falls-energy-202222298.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/17 05:22",
-        "score": 13
-      },
-      {
-        "title": "Angry Trump attacks Fed rate hike",
-        "description": "Donald Trump attacked the US Federal Reserve after the central bank raised interest rates for the first time in three years.",
-        "url": "https://www.telegraph.co.uk/business/2026/09/16/fed-expected-to-raise-us-rates/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/17 05:29",
+        "publishedAt": "09/18 04:41",
         "score": 10
       },
       {
-        "title": "Dollar Posts Modest Gains Ahead of Expected Fed Rate Hike",
-        "description": "The dollar index (DXY00 ) climbed to a 2-week high today and is up by +0.09%. The dollar is climbing today on signs of US economic growth after Aug re",
-        "url": "https://www.barchart.com/story/news/4636729/dollar-posts-modest-gains-ahead-of-expected-fed-rate-hike?.tsrc=rss",
+        "title": "US Stock Market Today: S&P 500 Futures Edge Higher After Fed Raises Rates",
+        "description": "US stock futures are pointing mildly higher this morning, with E-mini S&P 500 contracts up about 0.2%, as investors digest the Federal Reserve’s lates",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081238094.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 23:33",
-        "score": 10
+        "publishedAt": "09/17 17:12",
+        "score": 9
       },
       {
-        "title": "워시 매파 발언에 놀란 뉴욕증시…S&P·다우 동반 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609179763i",
-        "source": "hankyung.com",
-        "publishedAt": "09/17 05:37",
-        "score": 8
+        "title": "Boomers Held Bitcoin ETFs Through a 54% Crash but the S&P 500 Rose 16%",
+        "description": "Baby Boomers held their bitcoin ETF positions through a savage drawdown and analysts are calling it a show of discipline, but the benchmark they were",
+        "url": "https://247wallst.com/investing/etf/2026/09/17/boomers-held-bitcoin-etfs-through-a-54-crash-but-the-sp-500-rose-16/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/18 02:56",
+        "score": 5
+      },
+      {
+        "title": "The Strategist Who Wanted 8,400 on the S&P 500 Just Cut His Number, and It Is Not Because Earnings Got Worse",
+        "description": "Ed Yardeni just dialed back one of the boldest bull calls on Wall Street, but the reason has nothing to do with earnings, and that distinction changes",
+        "url": "https://247wallst.com/investing/2026/09/17/the-strategist-who-wanted-8400-on-the-sp-500-just-cut-his-number-and-it-is-not-because-earnings-got-worse/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/18 00:20",
+        "score": 5
+      },
+      {
+        "title": "Top strategist thinks the Federal Reserve interest rate hike won't fix this huge earnings risk",
+        "description": "Eyes still on memory chips.",
+        "url": "https://finance.yahoo.com/markets/article/top-strategist-thinks-the-federal-reserve-interest-rate-hike-wont-fix-this-huge-earnings-risk-121619669.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/17 21:16",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "Stock Market Today, Sept. 16: Intel Jumps on SK Hynix Memory-Chip Manufacturing Talks",
-        "description": "Today, Sept. 16, 2026, reports of U.S. foundry negotiations fueled a 4% rally, while analysts lifted price targets citing AI and data-center upside.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/16/stock-market-today-sept-16-intel-jumps-on-sk-hynix-memory-chip-manufacturing-talks/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/17 06:29",
+        "title": "코스피 0.04% 내린 6715…코스닥 0.76% 오른 822 마감",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091716176",
+        "source": "hankyung.com",
+        "publishedAt": "09/17 15:36",
+        "score": 10
+      },
+      {
+        "title": "\"한동안 코스피 잠잠하더니\"…개미들 다시 '초긴장 모드' [분석+]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026091718256",
+        "source": "hankyung.com",
+        "publishedAt": "09/17 22:00",
         "score": 5
       },
       {
-        "title": "SK Hynix stock jumps as memory maker responds to report of potential deal with Intel",
-        "description": "SK Hynix stock jumped following a report that the memory maker is exploring a deal with Intel.",
-        "url": "https://finance.yahoo.com/markets/article/sk-hynix-stock-jumps-as-memory-maker-responds-to-report-of-potential-deal-with-intel-125828355.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/16 21:58",
+        "title": "코스피 전망 '1만2600→8400' 확 낮춘 삼성증권…\"조정땐 매수\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609172236i",
+        "source": "hankyung.com",
+        "publishedAt": "09/17 18:36",
         "score": 5
       },
       {
-        "title": "인적분할 카카오 \"AI 기업으로 평가받겠다\"",
+        "title": "\"코스피 기술주 기초 레버리지 검토\"…트레이더ETF 대표 방한",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026091693901",
+        "url": "https://www.hankyung.com/article/202609171847i",
         "source": "hankyung.com",
-        "publishedAt": "09/16 18:06",
-        "score": 3
+        "publishedAt": "09/17 16:58",
+        "score": 5
       },
       {
-        "title": "셀트리온, 1000억원 규모 자사주 소각…주주환원 본격화",
+        "title": "미 Fed 금리 0.25%p 올렸지만…코스피 6800선 턱밑 지켰다",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609167288i",
+        "url": "https://www.hankyung.com/article/2026091717366",
         "source": "hankyung.com",
-        "publishedAt": "09/16 08:31",
-        "score": 3
-      },
-      {
-        "title": "South Korea Can’t Afford to Slow AI Progress, Deputy PM Says",
-        "description": "South Korea must continue advancing artificial intelligence without pause or delay, its deputy prime minister said on Wednesday, striking an unequivoc",
-        "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-t-afford-slow-045757759.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/16 13:57",
-        "score": 1
+        "publishedAt": "09/17 16:16",
+        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "Gold Prices Rebound Above $4,300 Ahead of Federal Reserve Rate Decision",
-        "description": "Gold prices rose on Wednesday after two consecutive sessions of losses, with investors awaiting the Federal Reserve’s interest rate decision later in",
-        "url": "https://investorshub.advfn.com/market-news/article/36363/gold-prices-rebound-above-4300-ahead-of-federal-reserve-rate-decision?.tsrc=rss",
+        "title": "Top strategist thinks the Federal Reserve interest rate hike won't fix this huge earnings risk",
+        "description": "Eyes still on memory chips.",
+        "url": "https://finance.yahoo.com/markets/article/top-strategist-thinks-the-federal-reserve-interest-rate-hike-wont-fix-this-huge-earnings-risk-121619669.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 18:47",
+        "publishedAt": "09/17 21:16",
         "score": 10
       },
       {
-        "title": "워시 \"물가 너무 오래 높았다\"…독립성 논란엔 \"각자 영역 지켜야\" [FOMC 전문]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609179752i",
-        "source": "hankyung.com",
-        "publishedAt": "09/17 04:45",
-        "score": 8
+        "title": "Federal Reserve interest rate hike may trigger another brutal move for US Treasury yields",
+        "description": "Will history hold for the bond market?",
+        "url": "https://finance.yahoo.com/economy/article/federal-reserve-interest-rate-hike-may-trigger-another-brutal-move-for-us-treasury-yields-103135302.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/17 19:31",
+        "score": 10
       },
       {
-        "title": "골드만삭스 \"12월 한 차례 더 금리 인상\"",
+        "title": "\"한미동맹, 안보 넘어 경제·기술 동맹으로 발전\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026091798307",
+        "url": "https://www.hankyung.com/article/202609172320i",
         "source": "hankyung.com",
-        "publishedAt": "09/17 06:38",
-        "score": 5
-      },
-      {
-        "title": "금리 인상에 트럼프 뿔났다…\"빨리 1% 이하로 낮춰라\" [Fed 워치]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609179777i",
-        "source": "hankyung.com",
-        "publishedAt": "09/17 06:04",
-        "score": 5
-      },
-      {
-        "title": "美, 기준금리 0.25%p 인상…\"연내 한 번 더 올린다\" [Fed 워치]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609179760i",
-        "source": "hankyung.com",
-        "publishedAt": "09/17 05:08",
-        "score": 5
+        "publishedAt": "09/17 19:58",
+        "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "U.S. Treasury Yields, Dollar Little Changed Ahead of Fed's Likely Rate Hike",
-        "description": "U.S. Treasury yields and the dollar are steady in mid-morning European trade ahead of the Federal Reserve's decision, when a rate increase is widely e",
-        "url": "https://finance.yahoo.com/m/3451c2dd-3436-3284-887c-942d4ed2069d/u.s.-treasury-yields%2C-dollar.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Rise, Big Tech Perks Up After Fed's Commitment to Controlling Inflation Sinks Treasury Yields",
+        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-big-213219728.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 19:10",
+        "publishedAt": "09/18 06:32",
         "score": 8
       },
       {
-        "title": "HYG vs JNK: The Two Biggest Junk Bond ETFs Look Identical, but the Cheaper One Pays More",
-        "description": "HYG and JNK hold many of the same junk bonds, pay on the same schedule, and dominate the same corner of the credit market, yet one of them quietly han",
-        "url": "https://247wallst.com/investing/etf/2026/09/15/hyg-vs-jnk-the-two-biggest-junk-bond-etfs-look-identical-but-the-cheaper-one-pays-more/?.tsrc=rss",
+        "title": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
+        "description": "Here's a check of the markets in the first few minutes of trading.",
+        "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-eases-oil-falls-to-100-alphacheck-134408021.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 07:15",
+        "publishedAt": "09/17 22:44",
         "score": 8
       },
       {
-        "title": "10-Year Yields Move Past 5% Again",
-        "description": "Fed Chairman Kevin Warsh did nothing to quell the bond market angst. Bond traders expected the Fed to raise interest rates. That should have quelled s",
-        "url": "https://finance.yahoo.com/m/55b2583c-2398-3f9b-b61a-6e6681bb8076/10-year-yields-move-past-5%25.html?.tsrc=rss",
+        "title": "Federal Reserve interest rate hike may trigger another brutal move for US Treasury yields",
+        "description": "Will history hold for the bond market?",
+        "url": "https://finance.yahoo.com/economy/article/federal-reserve-interest-rate-hike-may-trigger-another-brutal-move-for-us-treasury-yields-103135302.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 04:29",
+        "publishedAt": "09/17 19:31",
+        "score": 8
+      },
+      {
+        "title": "The Fed Is (Almost) Powerless Against the Bond Selloff",
+        "description": "The Federal Reserve’s long-awaited rate hikes are unlikely to rescue the beaten-down Treasury market.  Long-dated U.S. government bonds, as measured b",
+        "url": "https://finance.yahoo.com/m/35658212-404e-3714-9e40-e0d7001093af/the-fed-is-%28almost%29-powerless.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/18 03:07",
         "score": 5
       },
       {
-        "title": "연 4.75%…日소프트뱅크G 1조엔 회사채 10시간 만에 완판",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609179832i",
-        "source": "hankyung.com",
-        "publishedAt": "09/17 06:41",
-        "score": 3
-      },
-      {
-        "title": "The Fed Has a Chance to Help the Long Treasury Market. Will it Deliver?",
-        "description": "For bond traders life is usually simple, steady and calm.  This summer was anything but quiet–and Federal Reserve Chairman Kevin Warsh may be the key",
-        "url": "https://finance.yahoo.com/m/35e2bc7b-9da4-36eb-9a74-9a19453654f1/the-fed-has-a-chance-to-help.html?.tsrc=rss",
+        "title": "If Long-Duration Rates Stay Above 5%, Here’s What AIFR Investors Should Expect",
+        "description": "Defiance's new foundry ETF trades at a moment when long-duration rates and Taiwan Strait tensions could either turbocharge or torpedo the entire thema",
+        "url": "https://247wallst.com/investing/etf/2026/09/17/what-to-watch-aifr/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 02:33",
+        "publishedAt": "09/17 21:40",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Wheaton Precious Metals (TSX:WPM) Backs Fully Funded Ontario Copper Palladium Project",
-        "description": "Wheaton Precious Metals (TSX:WPM) is a key financier in Generation Mining's Marathon copper palladium project in Ontario. The Marathon Project is now",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/wheaton-precious-metals-tsx-wpm-161546643.html?.tsrc=rss",
+        "title": "Dollar Weakens with Crude Oil Prices and T-Note Yields",
+        "description": "The dollar index (DXY00 ) fell from a new 1.5-month high today and is down by -0.20%. The dollar is under pressure today after WTI crude oil prices fe",
+        "url": "https://www.barchart.com/story/news/4660158/dollar-weakens-with-crude-oil-prices-and-t-note-yields?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 01:15",
-        "score": 6
+        "publishedAt": "09/17 23:32",
+        "score": 10
       },
       {
-        "title": "Gold Prices Rebound Above $4,300 Ahead of Federal Reserve Rate Decision",
-        "description": "Gold prices rose on Wednesday after two consecutive sessions of losses, with investors awaiting the Federal Reserve’s interest rate decision later in",
-        "url": "https://investorshub.advfn.com/market-news/article/36363/gold-prices-rebound-above-4300-ahead-of-federal-reserve-rate-decision?.tsrc=rss",
+        "title": "Motorists, truckers see little relief from dip in oil prices",
+        "description": "Here’s how long to expect the price pressure to last.",
+        "url": "https://www.thestreet.com/economy/motorists-truckers-see-little-relief-from-dip-in-oil-prices?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 18:47",
+        "publishedAt": "09/18 06:47",
         "score": 5
       },
       {
-        "title": "Bloom Energy Gains 4% as S&P 500 Entry Nears; FuelCell Energy Ticks Up, Plug Power Slips",
-        "description": "Bloom Energy is surging toward its S&P 500 debut, but three decades of research suggest the biggest trading opportunity may have already closed before",
-        "url": "https://247wallst.com/investing/2026/09/16/bloom-energy-gains-4-as-sp-500-entry-nears-fuelcell-energy-ticks-up-plug-power-slips/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/17 02:59",
-        "score": 4
+        "title": "\"금리보다 유가\"…美 증시 하루만에 급반등, 나스닥 1.6%↑",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609172437i",
+        "source": "hankyung.com",
+        "publishedAt": "09/17 23:45",
+        "score": 5
       },
       {
-        "title": "Matador Resources, Chord Energy, Magnolia Oil & Gas, SM Energy, and Northern Oil and Gas Stocks Trade Down, What You Need To Know",
-        "description": "A number of stocks fell in the morning session after the Federal Reserve's interest-rate decision, pausing a recent rally even as Middle East supply r",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/matador-resources-chord-energy-magnolia-214052123.html?.tsrc=rss",
+        "title": "Newmont Shares Rise 1.5% as Gold Prices Recover and Analysts Raise Price Targets",
+        "description": "Newmont (NYSE:NEM) shares gained 1. 5% to $123.",
+        "url": "https://investorshub.advfn.com/market-news/article/36464/newmont-shares-rise-1-5-as-gold-prices-recover-and-analysts-raise-price-targets?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 06:40",
-        "score": 3
+        "publishedAt": "09/17 21:05",
+        "score": 5
       },
       {
-        "title": "Diamondback Energy, Permian Resources, APA Corporation, Viper Energy, and Comstock Resources Shares Are Falling, What You Need To Know",
-        "description": "A number of stocks fell in the morning session after the Federal Reserve's interest-rate decision, pausing a recent rally even as Middle East supply r",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/diamondback-energy-permian-resources-apa-211652011.html?.tsrc=rss",
+        "title": "Gold miners rally as bullion rebounds on softer dollar, easing oil prices",
+        "description": "Investing.com -- U.S.-listed shares of gold miners rose in premarket trading Thursday, tracking a rebound in bullion prices after gold touched a near-",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-rally-bullion-rebounds-113229854.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 06:16",
-        "score": 3
+        "publishedAt": "09/17 20:32",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "US stocks fall, dollar gains after Fed lifts interest rates",
-        "description": "Wall Street stocks fell while the dollar advanced Wednesday after the Federal Reserve lifted interest rates for the first time since 2023.The dollar a",
-        "url": "https://finance.yahoo.com/economy/policy/articles/asian-stocks-stutter-traders-prepare-024656301.html?.tsrc=rss",
+        "title": "Palantir Gains as Europe Builds a Sovereign AI Counterweight",
+        "description": "Thales is pitching export-control independence against Maven, turning data sovereignty into a procurement variable.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-gains-europe-builds-sovereign-191050465.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 06:01",
+        "publishedAt": "09/18 04:10",
+        "score": 3
+      },
+      {
+        "title": "中 틱톡 운영사의 AI 신약개발사, 2억9000만달러 투자유치",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609172087i",
+        "source": "hankyung.com",
+        "publishedAt": "09/17 18:57",
+        "score": 3
+      },
+      {
+        "title": "US Dollar Price Forecast: Dollar Strengthens as Fed-BoE Policy Divergence Widens; Key Levels for EUR/USD and GBP/USD",
+        "description": "DXY strengthens after the Fed signals further tightening, while EUR/USD remains pressured and GBP/USD awaits the Bank of England policy decision.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081747889.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/17 17:17",
+        "score": 2
+      },
+      {
+        "title": "RGMBS 2026 Life Sciences Innovation Forum Draws More Than USD 120 Million in Investor Interest as 23 Global Biotech Innovators Pitch in Riyadh",
+        "description": "RIYADH, SAUDI ARABIA, Sept. 17, 2026 (GLOBE NEWSWIRE) -- The Life Sciences Innovation Forum (LSIF), the investment platform of the Riyadh Global Medic",
+        "url": "https://finance.yahoo.com/healthcare/articles/rgmbs-2026-life-sciences-innovation-155800963.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/18 00:58",
         "score": 1
       },
       {
-        "title": "Loonie weakens after Fed hike as dollar gains on hawkish outlook",
-        "description": "Investing.com -- The Canadian dollar weakened against its U.S. counterpart on Wednesday after the Federal Reserve raised interest rates as expected an",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/loonie-weakens-fed-hike-dollar-191608770.html?.tsrc=rss",
+        "title": "Dollar Weakens with Crude Oil Prices and T-Note Yields",
+        "description": "The dollar index (DXY00 ) fell from a new 1.5-month high today and is down by -0.20%. The dollar is under pressure today after WTI crude oil prices fe",
+        "url": "https://www.barchart.com/story/news/4660158/dollar-weakens-with-crude-oil-prices-and-t-note-yields?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 04:16",
-        "score": 1
-      },
-      {
-        "title": "Dollar Posts Modest Gains Ahead of Expected Fed Rate Hike",
-        "description": "The dollar index (DXY00 ) climbed to a 2-week high today and is up by +0.09%. The dollar is climbing today on signs of US economic growth after Aug re",
-        "url": "https://www.barchart.com/story/news/4636729/dollar-posts-modest-gains-ahead-of-expected-fed-rate-hike?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/16 23:33",
-        "score": 1
-      },
-      {
-        "title": "US Dollar Rises Early Wednesday Ahead of Busy Data Schedule, FOMC Meeting",
-        "description": "The US dollar rose against its major trading partners early Wednesday, except for a decline versus t",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-wednesday-113254406.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/16 20:32",
-        "score": 1
-      },
-      {
-        "title": "U.S. Treasury Yields, Dollar Little Changed Ahead of Fed's Likely Rate Hike",
-        "description": "U.S. Treasury yields and the dollar are steady in mid-morning European trade ahead of the Federal Reserve's decision, when a rate increase is widely e",
-        "url": "https://finance.yahoo.com/m/3451c2dd-3436-3284-887c-942d4ed2069d/u.s.-treasury-yields%2C-dollar.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/16 19:10",
+        "publishedAt": "09/17 23:32",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Matador Resources, Chord Energy, Magnolia Oil & Gas, SM Energy, and Northern Oil and Gas Stocks Trade Down, What You Need To Know",
-        "description": "A number of stocks fell in the morning session after the Federal Reserve's interest-rate decision, pausing a recent rally even as Middle East supply r",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/matador-resources-chord-energy-magnolia-214052123.html?.tsrc=rss",
+        "title": "BlackBerry Climbs 6%, Mobileye Rises 5%: Is the Software-Defined Vehicle Trade Waking Up?",
+        "description": "BlackBerry and Mobileye are surging together while their closest hardware peer sits frozen, and that split tells you something important about who is",
+        "url": "https://247wallst.com/investing/2026/09/17/blackberry-climbs-6-mobileye-rises-5-is-the-software-defined-vehicle-trade-waking-up/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 06:40",
+        "publishedAt": "09/18 02:03",
+        "score": 2
+      },
+      {
+        "title": "Vishay Intertechnology, Allegro MicroSystems, Himax, Bandwidth, and AMD Stocks Trade Up, What You Need To Know",
+        "description": "A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/vishay-intertechnology-allegro-microsystems-himax-212217670.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/18 06:22",
         "score": 1
       },
       {
-        "title": "Crescent Energy, HighPeak Energy, and Kosmos Energy Stocks Trade Down, What You Need To Know",
-        "description": "A number of stocks fell in the morning session after the Federal Reserve's interest-rate decision, pausing a recent rally even as Middle East supply r",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/crescent-energy-highpeak-energy-kosmos-210852419.html?.tsrc=rss",
+        "title": "Fastly and Oracle Stocks Trade Up, What You Need To Know",
+        "description": "A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/fastly-oracle-stocks-trade-know-210617235.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 06:08",
+        "publishedAt": "09/18 06:06",
         "score": 1
       },
       {
-        "title": "Musk Warns of AI Control Problem After Agents Secretly Accessed OpenAI Servers for a Week",
-        "description": "A swarm of AI agents silently held admin access to OpenAI servers for a week before anyone noticed, and Elon Musk thinks the industry has no real answ",
-        "url": "https://247wallst.com/investing/2026/09/16/musk-warns-of-ai-control-problem-after-agents-secretly-accessed-openai-servers-for-a-week/?.tsrc=rss",
+        "title": "Allied Gold Energizes Power Line, Feeds First Ore to the Crushing Circuit as the Kurmuk Mine Progresses Toward Completion of Commissioning and Transitions to Operations",
+        "description": "TORONTO, Sept. 17, 2026 (GLOBE NEWSWIRE) -- Allied Gold Corporation (TSX: AAUC; NYSE: AAUC) (“Allied” or the “Company”) is pleased to provide an updat",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/allied-gold-energizes-power-line-210000151.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 05:15",
+        "publishedAt": "09/18 06:00",
         "score": 1
       },
       {
-        "title": "Futures Traders Betting On 12% Drop In Energy Stocks Over Next Month",
-        "description": "Options traders are flooding into bets against the year's hottest sector at a pace well above normal, even as crude oil surges and the underlying stoc",
-        "url": "https://247wallst.com/investing/2026/09/16/futures-traders-betting-on-12-drop-in-energy-stocks-over-next-month/?.tsrc=rss",
+        "title": "Tajiri Provides Yono Project IP Survey Update, Extends Expiry of Share Purchase Warrants",
+        "description": "Vancouver, British Columbia--(Newsfile Corp. - September 17, 2026) - Tajiri Resources Corp. (TSXV: TAJ) (the \"Company\" or \"Tajiri\") is pleased to repo",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/tajiri-provides-yono-project-ip-203000817.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/17 03:36",
-        "score": 1
-      },
-      {
-        "title": "Palantir, Microsoft’s biggest warning gets real for AI stocks",
-        "description": "A long-running AI concern is becoming harder to ignore",
-        "url": "https://www.thestreet.com/technology/palantir-anthropic-data-security?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/17 02:33",
+        "publishedAt": "09/18 05:30",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX Rises 5% as Starship’s First Orbital Attempt Gets Launch Date; Rocket Lab and AST SpaceMobile Hold Steady",
-        "description": "SpaceX stock is surging on a firm date for Starship's most ambitious test yet, but whether the milestone justifies the valuation depends on a single h",
-        "url": "https://247wallst.com/investing/2026/09/16/spacex-rises-5-as-starships-first-orbital-attempt-gets-launch-date-rocket-lab-and-ast-spacemobile-hold-flat/?.tsrc=rss",
+        "title": "Michael Burry Disclosed Put Options Worth an Estimated $1.1 Billion Against Nvidia and Palantir Before Closing His Hedge Fund. Was That Bearish Bet Ahead of Its Time?",
+        "description": "Burry could have another \"big short\" in his portfolio.",
+        "url": "https://www.fool.com/investing/2026/09/17/michael-burry-disclosed-put-options-worth-an-estim/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 23:36",
-        "score": 12
-      },
-      {
-        "title": "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In Or Near Buy Zones",
-        "description": "Dow Jones tech titan Apple, along with Nvidia chipmaker TSMC, AMD and Bloom Energy, are in or near buy zones in Tuesday's market action.",
-        "url": "https://finance.yahoo.com/m/abcff3bf-aa03-3635-8d7c-acbe8b8a05b3/dow-jones-tech-titan-apple%2C.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/17 01:10",
-        "score": 11
-      },
-      {
-        "title": "Stock Market Today, Sept. 16: Intel Jumps on SK Hynix Memory-Chip Manufacturing Talks",
-        "description": "Today, Sept. 16, 2026, reports of U.S. foundry negotiations fueled a 4% rally, while analysts lifted price targets citing AI and data-center upside.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/16/stock-market-today-sept-16-intel-jumps-on-sk-hynix-memory-chip-manufacturing-talks/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/17 06:29",
+        "publishedAt": "09/18 00:10",
         "score": 7
       },
       {
-        "title": "Meta MTIA 450 Arke AI chip deployment: cost savings 2027",
-        "description": "The MTIA 450, code-named Arke, is expected to outperform Nvidia chips on energy and cost when running AI models",
-        "url": "https://qz.com/meta-mtia-450-arke-ai-chip-data-center-deployment-091626?.tsrc=rss",
+        "title": "If Memory Chip Prices Fall, Here’s What Happens to the Korea Semiconductor ETF KCHP",
+        "description": "Korea's newest chip ETF bets almost everything on two memory giants at the exact moment HBM pricing and AI capex commitments could swing either way, a",
+        "url": "https://247wallst.com/investing/etf/2026/09/17/what-to-watch-kchp/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 21:27",
+        "publishedAt": "09/17 23:40",
         "score": 7
       },
       {
-        "title": "The Big Short’s Michael Burry Predicts a Possible 1987-Style Drop and is Betting Against AI Giants Nvidia and Palantir. Should You Follow?",
-        "description": "Burry gained fame after predicting the subprime market crash.",
-        "url": "https://www.fool.com/investing/2026/09/16/the-big-short-s-michael-burry-predicts-a-possible-1987-style-drop-and-is-betting-against-ai-giants-nvidia-and-palantir-should-you-follow/?.tsrc=rss",
+        "title": "Rocket Lab Is Playing a Much Bigger Game Than Rocket Launches, Eyes 90% Upside",
+        "description": "Rocket Lab has spent the past year quietly transforming into something Wall Street has yet to fully price in, and the gap between what investors see a",
+        "url": "https://247wallst.com/investing/2026/09/17/rocket-lab-is-playing-a-much-bigger-game-than-rocket-launches-eyes-90-upside/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/16 18:30",
-        "score": 7
+        "publishedAt": "09/18 03:00",
+        "score": 6
+      },
+      {
+        "title": "\"드디어 지구 궤도 비행\"…스페이스X 도전에 우주항공주 '불기둥'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609171426i",
+        "source": "hankyung.com",
+        "publishedAt": "09/17 15:50",
+        "score": 6
+      },
+      {
+        "title": "IBM and IonQ Stocks Rally on Fresh Quantum Computing Breakthroughs",
+        "description": "IBM Lands $1 Billion Quantum Award as IonQ Stock Rises on AI Breakthrough",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ibm-ionq-stocks-rally-fresh-121230278.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/17 21:12",
+        "score": 5
       }
     ]
   }
