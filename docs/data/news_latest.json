@@ -1,317 +1,204 @@
 {
-  "generated_at_kst": "2026-09-19 09:28 KST",
-  "period": "09/18 07:00 ~ 09/19 07:00 KST",
+  "generated_at_kst": "2026-09-20 09:14 KST",
+  "period": "09/19 07:00 ~ 09/20 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "What Fed rate hikes mean for gold prices in 2027, according to Goldman",
-        "description": "Investing.com -- Goldman Sachs has maintained its bullish view on gold, telling investors in a note Friday that Federal Reserve rate hikes should slow",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/fed-rate-hikes-mean-gold-110441290.html?.tsrc=rss",
+        "title": "다우존스 선물: 시장 반등이 일어날 수 있을까요? Robinhood, Sandisk, AMD, Moderna가 구매 영역으로 급증",
+        "description": "주식시장은 고르지 못하고 엇갈린 주간 움직임을 보였습니다. 그러나 Robinhood, Sandisk, AMD 및 Moderna는 구매 영역으로 집결했습니다.",
+        "url": "https://finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures%3A-can-the.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 20:04",
+        "publishedAt": "09/20 01:34",
         "score": 10
       },
       {
-        "title": "US Equity Indexes Mixed This Week as Benchmark Treasury Yield Trades Near 19-Year High Following Fed Rate Increase",
-        "description": "US equity indexes closed mixed this week after the Federal Reserve reaffirmed its commitment to cont",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-week-202248677.html?.tsrc=rss",
+        "title": "주식 시장 붕괴를 통한 투자에 대해 역사가 밝혀주는 것",
+        "description": "최근 역사상 최악의 두 번의 시장 붕괴 직전에 S&P 500에 투자했다면 어떤 일이 일어났을까요?",
+        "url": "https://www.fool.com/investing/2026/09/19/what-history-reveals-about-investing-through-a-sto/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 05:22",
+        "publishedAt": "09/19 21:35",
+        "score": 10
+      },
+      {
+        "title": "주식시장 붕괴가 다가오면 나는 주저 없이 이 1 Vanguard ETF를 매수할 것입니다",
+        "description": "이 ETF는 실제로 좋은 성과를 낼 수 있는 일종의 성장 및 소득 프로필을 제공합니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/if-stock-market-crash-buying-vanguard-etf-vig/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/20 06:50",
         "score": 9
       },
       {
-        "title": "Stock market today: Dow, S&P 500 post weekly losses as 10-year Treasury yield hovers near 5%",
-        "description": "US stock were little changed on Friday morning as investors continued to calibrate to the Federal Reserve's first rate hike in three years and existen",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-18-dow-sp-500-nasdaq-080504071.html?.tsrc=rss",
+        "title": "Anthropic의 IPO가 다가오고 있습니다. 이것이 S&P 500 투자자에게 의미하는 바는 다음과 같습니다.",
+        "description": "당장 해당 종목이 지수에 편입되지 않더라도 이번 IPO로 인해 시장은 큰 영향을 받을 것이다.",
+        "url": "https://www.fool.com/investing/2026/09/19/anthropic-ipo-coming-what-means-sp-500/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 17:05",
+        "publishedAt": "09/19 23:05",
         "score": 9
       },
       {
-        "title": "LiveOne (NASDAQ:LVO) Acquires 1.47M PodcastOne (NASDAQ:PODC) Common Shares Since March 31, 2026 at $2.81/Share Average; Increases PODC Ownership to 20.8M Shares",
-        "description": "● Includes 374,109 shares acquired in H1 FY 2027. ● PodcastOne's cash position of $6.",
-        "url": "https://finance.yahoo.com/media-advertising/articles/liveone-nasdaq-lvo-acquires-1-025000183.html?.tsrc=rss",
+        "title": "S&P 500 수익률은 1.1%에 불과한 반면 10년 만기 국채 수익률은 5%까지 급등했습니다. 이 배당주는 장기 투자자에게 중간 기반을 제공합니다.",
+        "description": "코카콜라는 채권수익률이 높고 주식수익률이 낮은 세계에 대한 Goldilocks 투자일 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/the-sp-500-yields-just-11-while-10-year-treasury-y/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 11:50",
-        "score": 6
-      },
-      {
-        "title": "TSMC (TSM) Beats Stock Market Upswing: What Investors Need to Know",
-        "description": "In the latest trading session, TSMC (TSM) closed at $434.67, marking a +1.02% move from the previous day.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-beats-stock-market-214505465.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/19 06:45",
-        "score": 5
+        "publishedAt": "09/20 05:30",
+        "score": 7
       }
     ],
-    "kr_market": [
-      {
-        "title": "UBS cuts KOSPI target by nearly 10% to reflect higher rates",
-        "description": "Investing.com -- UBS has cut its 12-month target for South Korea's KOSPI index to 8,000 from 8,800, citing higher interest rates, a stronger won and r",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/ubs-cuts-kospi-target-nearly-131614040.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/18 22:16",
-        "score": 5
-      },
-      {
-        "title": "美·日 금리인상에도…7000 넘보는 코스피",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091845681",
-        "source": "hankyung.com",
-        "publishedAt": "09/18 17:44",
-        "score": 5
-      },
-      {
-        "title": "'약속의 12시' 코스피 급반등…나스닥 선물·비트코인까지 뛴 이유",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609184410i",
-        "source": "hankyung.com",
-        "publishedAt": "09/18 17:38",
-        "score": 5
-      },
-      {
-        "title": "미·일 긴축에도 7천피 넘보는 코스피…\"2022년과는 다르다\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609184024i",
-        "source": "hankyung.com",
-        "publishedAt": "09/18 16:20",
-        "score": 5
-      },
-      {
-        "title": "세후수익률, 서울 부동산이 코스피의 2배...\"부동산 팔고 주식 사면 세제혜택 줘야\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609183981i",
-        "source": "hankyung.com",
-        "publishedAt": "09/18 15:46",
-        "score": 5
-      }
-    ],
+    "kr_market": [],
     "macro": [
       {
-        "title": "코스피, 美·日 기준금리 인상 소화하며 2.6% 반등 마감",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091841056",
-        "source": "hankyung.com",
-        "publishedAt": "09/18 15:41",
-        "score": 10
-      },
-      {
-        "title": "Trump’s Tariff Threat Over Fed Rate Decision ‘Makes No Economic Sense,’ Says Justin Wolfers: Kevin Warsh 'Called His Bluff’",
-        "description": "Following the Federal Reserve’s decision to hike rates by 25 basis points, economist Justin Wolfers criticized President Donald Trump for threatening",
-        "url": "https://finance.yahoo.com/economy/policy/articles/trump-tariff-threat-over-fed-173019740.html?.tsrc=rss",
+        "title": "경기 침체 위험과 원유 가격을 관찰하는 투자자를 위한 3가지 석유 주식",
+        "description": "유가가 다시 헤드라인에 등장하고 경기 침체 경고가 점점 커지고 있으며 미국 부채와 달러에 대한 질문이 모든 시장에 퍼지고 있습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/3-oil-stocks-investors-watching-191300497.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 02:30",
-        "score": 6
+        "publishedAt": "09/20 04:13",
+        "score": 5
       },
       {
-        "title": "김종철 인천경제자유구역청장 취임",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091845311",
-        "source": "hankyung.com",
-        "publishedAt": "09/18 18:15",
+        "title": "연방준비제도(Fed) 인플레이션 전망은 투자자들에게 중요한 경고를 나타냅니다.",
+        "description": "역사를 잘 살펴보면 금리 인상은 시장에 좋은 징조는 아닙니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/federal-reserve-inflation-outlook-is-a-warning/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/20 00:57",
+        "score": 5
+      },
+      {
+        "title": "Capital Economics, AI 버블 붕괴로 인해 미국 주식 시장이 30% 하락할 수 있다고 경고",
+        "description": "Capital Economics는 인공 지능 관련 주식 가치 평가 붕괴의 잠재적 결과를 설명하고 상당한 성장을 예측했습니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/36522/capital-economics-warns-ai-bubble-collapse-could-trigger-30-us-stock-market-decline?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/19 20:38",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Update: US Equity Indexes Mixed as Benchmark Treasury Yield Jumps Back Above 5%",
-        "description": "(Updates with index/price moves, macroeconomic data, and geopolitical news from the first paragraph.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-benchmark-203756150.html?.tsrc=rss",
+        "title": "국채 수익률은 이미 CBO의 장기 예측을 폭파하고 있으며, 이전에 미국 부채에 대한 두려움을 경시했던 전문가들은 이제 걱정하기 시작했습니다.",
+        "description": "\"이자가 부채를 낳고 부채가 이자를 낳는다면 결국 부채는 걷잡을 수 없을 정도로 커질 것입니다. 한때 상상할 수 없었던 재정 위기는 이제 뚜렷한 상황이 되었습니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/treasury-yields-already-blowing-cbo-193157579.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 05:37",
-        "score": 8
+        "publishedAt": "09/20 04:31",
+        "score": 9
       },
       {
-        "title": "US Equity Indexes Mixed This Week as Benchmark Treasury Yield Trades Near 19-Year High Following Fed Rate Increase",
-        "description": "US equity indexes closed mixed this week after the Federal Reserve reaffirmed its commitment to cont",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-week-202248677.html?.tsrc=rss",
+        "title": "S&P 500 수익률은 1.1%에 불과한 반면 10년 만기 국채 수익률은 5%까지 급등했습니다. 이 배당주는 장기 투자자에게 중간 기반을 제공합니다.",
+        "description": "코카콜라는 채권수익률이 높고 주식수익률이 낮은 세계에 대한 Goldilocks 투자일 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/the-sp-500-yields-just-11-while-10-year-treasury-y/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 05:22",
+        "publishedAt": "09/20 05:30",
         "score": 8
-      },
-      {
-        "title": "Stock market today: Dow, S&P 500 post weekly losses as 10-year Treasury yield hovers near 5%",
-        "description": "US stock were little changed on Friday morning as investors continued to calibrate to the Federal Reserve's first rate hike in three years and existen",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-18-dow-sp-500-nasdaq-080504071.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/18 17:05",
-        "score": 8
-      },
-      {
-        "title": "KB증권, 외화채권 발행 주관액 고공행진",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091844951",
-        "source": "hankyung.com",
-        "publishedAt": "09/18 17:59",
-        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "'뽀통령' 얼굴에 테이프 붙인 이유가…1000억 쓰고 '충격'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026091844221",
-        "source": "hankyung.com",
-        "publishedAt": "09/19 06:00",
-        "score": 5
-      },
-      {
-        "title": "What Fed rate hikes mean for gold prices in 2027, according to Goldman",
-        "description": "Investing.com -- Goldman Sachs has maintained its bullish view on gold, telling investors in a note Friday that Federal Reserve rate hikes should slow",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/fed-rate-hikes-mean-gold-110441290.html?.tsrc=rss",
+        "title": "오일쇼크 이후 화석연료 배출량이 감소할 것으로 예상",
+        "description": "귀하의 연료 예산을 파괴하는 전쟁은 지난 10년 동안 아무도 예상하지 못한 수치를 조용히 움직이고 있습니다.",
+        "url": "https://www.thestreet.com/economy/hormuz-oil-shock-emissions-2026?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 20:04",
-        "score": 5
-      },
-      {
-        "title": "Gold price today, Friday, September 18, 2026: Gold hits weekly high as inflation concerns fade",
-        "description": "Gold (GC=F) December futures opened at $4,381.60 per troy ounce on Friday, September 18, 2026, down 0.4% from Thursday's closing price. Gold is moving",
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-18-2026-gold-hits-weekly-high-as-inflation-concerns-fade-104807567.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/18 19:48",
-        "score": 5
-      },
-      {
-        "title": "Tech Rally, Easing Oil Prices Lift Asian Stock Markets",
-        "description": "Asian stock markets gained solidly on Friday, on overnight Wall Street cues, easing global oil price",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-rally-easing-oil-prices-104158962.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/18 19:41",
-        "score": 5
-      },
-      {
-        "title": "Ranking the Safest Dividend Stocks in the Energy Sector Right Now",
-        "description": "ExxonMobil, Enterprise Products Partners, and Brookfield Renewable are safe income plays.",
-        "url": "https://www.fool.com/investing/2026/09/18/ranking-the-safest-dividend-stocks-in-the-energy-s/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/19 05:35",
-        "score": 3
+        "publishedAt": "09/20 06:03",
+        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "Dollar Gains on Yen Weakness and Higher T-note Yields",
-        "description": "The dollar index (DXY00 ) climbed to a 7-week high today and is up by +0.24%. Weakness in the yen is positive for the dollar, as it tumbled to a 2-wee",
-        "url": "https://www.barchart.com/story/news/4681037/dollar-gains-on-yen-weakness-and-higher-t-note-yields?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/18 23:36",
-        "score": 9
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds Above 100 as EUR and GBP Face Policy Tests",
-        "description": "DXY remains supported by Fed tightening as the BoE turns more hawkish and the ECB urges patience, with EUR/USD and GBP/USD testing key levels.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063047247.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/18 15:30",
-        "score": 6
-      },
-      {
-        "title": "[구영권의 글로벌 투자 브리핑]올 상반기 누적 투자 271억弗… 투심 회복세 '뚜렷' 네코 헬스 등 10개 기업, 올 7월 1억달러 이상 유치",
+        "title": "개미들 \"환율 떨어질 때 더 고민\"…주목해야할 종목 찾아보니",
         "description": "",
-        "url": "https://www.hankyung.com/article/202608313716i",
+        "url": "https://www.hankyung.com/article/202609183741i",
         "source": "hankyung.com",
-        "publishedAt": "09/18 08:13",
-        "score": 3
+        "publishedAt": "09/19 08:00",
+        "score": 5
       },
       {
-        "title": "Gains by the Dollar After the Fed’s Hike",
-        "description": "The US dollar moved up against most currencies after the single hike to 3.75-4%.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/gains-dollar-fed-hike-144346017.html?.tsrc=rss",
+        "title": "주간 스프레드: 이번 주 수익률과 달러의 모양",
+        "description": "연준의 매파적 금리 인상과 추가 긴축 기대감으로 미국 달러화는 사상 최대 주간 상승세를 기록했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/the-weekly-spread-what-shaped-yields-and-the-dollar-this-week/cZtDZlBRBES?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 23:43",
-        "score": 1
-      },
-      {
-        "title": "Dollar Rises to 7-Week High on U.S. Rate Hike Bets",
-        "description": "The dollar rises to a seven-week high against a basket of currencies as markets bet on further U.S. interest rate rises after the Federal Reserve lift",
-        "url": "https://finance.yahoo.com/m/43d803d0-a7a2-3101-83ad-a18113460ff8/dollar-rises-to-7-week-high.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/18 20:52",
+        "publishedAt": "09/19 10:33",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Trump’s Tariff Threat Over Fed Rate Decision ‘Makes No Economic Sense,’ Says Justin Wolfers: Kevin Warsh 'Called His Bluff’",
-        "description": "Following the Federal Reserve’s decision to hike rates by 25 basis points, economist Justin Wolfers criticized President Donald Trump for threatening",
-        "url": "https://finance.yahoo.com/economy/policy/articles/trump-tariff-threat-over-fed-173019740.html?.tsrc=rss",
+        "title": "AngloGold Ashanti (AU) 주식은 현금 흐름에서 14% 할인된 가격으로 거래될 수 있습니다",
+        "description": "AngloGold Ashanti는 다년간 매우 강력한 주가 상승세를 보여왔으며 이제 문제는 그러한 움직임이 여전히 CAS에 의해 뒷받침되는지 여부입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/anglogold-ashanti-au-stock-may-201024124.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 02:30",
-        "score": 4
-      },
-      {
-        "title": "The ARK Trade Watch: Cathie Wood Cuts Crypto Exposure, Then Reverses Course On CoreWeave",
-        "description": "Cathie Wood's ARK Invest funds made a broad move out of crypto-linked assets during the week, led by the sale of more than 1.5 million shares of the A",
-        "url": "https://stocktwits.com/news-articles/markets/equity/crwv-arkb-crcl-coin-cathie-wood-biggest-ark-invest-trades-week/cZtH7mZRBEg?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/19 06:38",
+        "publishedAt": "09/20 05:10",
         "score": 1
       },
       {
-        "title": "US Equity Indexes Mixed This Week as Benchmark Treasury Yield Trades Near 19-Year High Following Fed Rate Increase",
-        "description": "US equity indexes closed mixed this week after the Federal Reserve reaffirmed its commitment to cont",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-week-202248677.html?.tsrc=rss",
+        "title": "Amodei, Altman 및 Musk는 AI 속도 저하를 요구했습니다. ASML 주주를 위한 경고 신호인 이유는 다음과 같습니다.",
+        "description": "향후 수요 둔화는 AI 칩을 생산하는 공장의 구성 요소를 만드는 ASML에 가장 큰 타격을 줄 수 있습니다.",
+        "url": "https://www.barchart.com/story/news/4696328/amodei-altman-and-musk-called-for-an-ai-slowdown-heres-why-its-a-warning-sign-for-asml-shareholders?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 05:22",
+        "publishedAt": "09/20 02:30",
         "score": 1
       },
       {
-        "title": "Automaker Stocks Reverse as Rotation Trade Unwinds: General Motors and Stellantis Fall 4%, Ford Pulls Back",
-        "description": "Thursday's rotation rally handed automakers a one-day reprieve from months of pressure, but Friday morning that same trade ran straight into reverse,",
-        "url": "https://247wallst.com/investing/2026/09/18/automaker-stocks-reverse-as-rotation-trade-unwinds-general-motors-and-stellantis-fall-4-ford-pulls-back/?.tsrc=rss",
+        "title": "IonQ의 옵션은 일년 중 가장 저렴합니다. 이점을 활용하는 거래는 다음과 같습니다.",
+        "description": "IonQ의 내재 변동성이 1년 만에 최저점을 기록하면서 옵션이 유난히 저렴해졌습니다. 11월 4일에 수익 보고서가 나올 예정입니다.",
+        "url": "https://www.barchart.com/story/news/4695929/ionq-s-options-are-the-cheapest-they-ve-been-all-year-here-s-the-trade-that-takes-advantage?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 23:51",
+        "publishedAt": "09/20 00:58",
         "score": 1
       },
       {
-        "title": "Barclays says AI trade is maturing, favors greater diversification",
-        "description": "Investing.com -- Barclays told clients in a note on Friday that it believes the artificial intelligence trade is entering a more mature phase, calling",
-        "url": "https://finance.yahoo.com/technology/ai/articles/barclays-says-ai-trade-maturing-143944707.html?.tsrc=rss",
+        "title": "연방준비제도(Fed) 인플레이션 전망은 투자자들에게 중요한 경고를 나타냅니다.",
+        "description": "역사를 잘 살펴보면 금리 인상은 시장에 좋은 징조는 아닙니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/federal-reserve-inflation-outlook-is-a-warning/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 23:39",
+        "publishedAt": "09/20 00:57",
+        "score": 1
+      },
+      {
+        "title": "마이크론의 9% 하락은 경고 신호인가 아니면 매수 기회인가?",
+        "description": "AI 개발에 대한 업계 전반의 우려가 이번 주 Micron에 영향을 미쳤습니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/is-microns-9-dip-a-warning-sign-or-buying-opportun/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/19 21:55",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "NASA Hitches Ride with SpaceX for StarBurst Satellite. Is RocketLab the Big Loser?",
-        "description": "NASA just awarded SpaceX another satellite launch, and the ripple effects for small-launch rivals are real. Before you buy either name for a retiremen",
-        "url": "https://247wallst.com/investing/2026/09/18/nasa-hitches-ride-with-spacex-for-starburst-satellite-is-rocketlab-the-big-loser/?.tsrc=rss",
+        "title": "Anthropic, IPO 지연 보도 OpenAI는 막대한 현금 소모를 예상합니다",
+        "description": "Anthropic IPO는 11월까지 연기될 것이라고 WSJ는 보도했습니다. OpenAI는 대규모 마이너스 현금 흐름을 예측했다고 FT가 보도했습니다.",
+        "url": "https://finance.yahoo.com/m/e99f9364-a043-396e-a132-0a986e95b51d/anthropic-reportedly-delays.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 00:35",
-        "score": 15
+        "publishedAt": "09/20 02:48",
+        "score": 11
       },
       {
-        "title": "Palantir CEO Alex Karp Says Anthropic Wants AI Nationalization to Simply Dodge Lawsuits",
-        "description": "Palantir CEO Alex Karp says AI labs like Anthropic are pushing nationalization to dodge liability, not for safety.",
-        "url": "https://beincrypto.com/alex-karp-ai-nationalization-liability/?.tsrc=rss",
+        "title": "Cathie Wood는 Palantir와 AMD를 매각한 후 Archer Aviation에 335만 달러를 쏟아부었습니다. ARK는 플라잉 택시에 큰 투자를 하고 있나요?",
+        "description": "Cathie Wood는 회사의 주력 ETF를 위해 Archer Aviation의 주식을 더 많이 매입했습니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/cathie-wood-sold-palantir-and-amd-then-poured-335/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 10:24",
-        "score": 9
+        "publishedAt": "09/20 05:25",
+        "score": 6
       },
       {
-        "title": "AMD Stock Rises Premarket: Report Flags Chip Price Hike Linked To TSMC Costs",
-        "description": "Rising AI infrastructure costs are putting pressure on chip and cloud pricing.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/amd-stock-rises-premarket-report-flags-chip-price-hike-linked-to-tsmc-costs/cZtupybRB30?.tsrc=rss",
+        "title": "SpaceX 주식은 거래 첫날 이후 아무데도 가지 않았습니다",
+        "description": "지난 분기 매출이 거의 두 배나 증가했음에도 불구하고 주식은 첫날 마감된 지점보다 낮은 수준에 있습니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/spacex-stock-has-gone-nowhere-since-its-first-day-of-trading/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 18:22",
-        "score": 7
+        "publishedAt": "09/20 04:57",
+        "score": 6
       },
       {
-        "title": "SpaceX or Rocket Lab: Which Space Stock Is the Better Buy for the Next Decade?",
-        "description": "Both companies are battling for commercial orbital supremacy.",
-        "url": "https://www.fool.com/investing/2026/09/17/spacex-or-rocket-lab-which-space-stock-is-the-bett/?.tsrc=rss",
+        "title": "Anthropic의 IPO가 다가오고 있습니다. 이것이 S&P 500 투자자에게 의미하는 바는 다음과 같습니다.",
+        "description": "당장 해당 종목이 지수에 편입되지 않더라도 이번 IPO로 인해 시장은 큰 영향을 받을 것이다.",
+        "url": "https://www.fool.com/investing/2026/09/19/anthropic-ipo-coming-what-means-sp-500/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 10:25",
-        "score": 7
+        "publishedAt": "09/19 23:05",
+        "score": 5
       },
       {
-        "title": "RKLB Stock Eyes Best Week In Over A Month: Rocket Lab Tests Key Neutron Hardware To Take On SpaceX",
-        "description": "SpaceX’s reported decision to restrict new Falcon 9 commercial bookings beyond 2028 could create an opening for Neutron as Starship takes over future",
-        "url": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-rocket-lab-tests-neutron-hardware-take-on-spacex/cZtugMvRBdM?.tsrc=rss",
+        "title": "AI 데이터 센터를 지원하는 파이프라인 주식으로 한 달에 600달러를 버는 방법",
+        "description": "이들 파이프라인 회사는 AI 데이터센터 전력 붐을 이용해 돈을 벌고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/09/19/how-to-earn-600-a-month-from-the-pipeline-stocks-p/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/18 10:10",
-        "score": 7
+        "publishedAt": "09/20 05:50",
+        "score": 4
       }
     ]
   }
