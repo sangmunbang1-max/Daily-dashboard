@@ -1,203 +1,260 @@
 {
-  "generated_at_kst": "2026-09-20 09:14 KST",
-  "period": "09/19 07:00 ~ 09/20 07:00 KST",
+  "generated_at_kst": "2026-09-21 09:23 KST",
+  "period": "09/20 07:00 ~ 09/21 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "다우존스 선물: 시장 반등이 일어날 수 있을까요? Robinhood, Sandisk, AMD, Moderna가 구매 영역으로 급증",
-        "description": "주식시장은 고르지 못하고 엇갈린 주간 움직임을 보였습니다. 그러나 Robinhood, Sandisk, AMD 및 Moderna는 구매 영역으로 집결했습니다.",
-        "url": "https://finance.yahoo.com/m/832159c8-6dc5-38e6-b838-d7db7090ca09/dow-jones-futures%3A-can-the.html?.tsrc=rss",
+        "title": "The 11 S&P 500 Sectors Are Fading Quickly. Protect Yourself Against a Stock Market Crash Now.",
+        "description": "Headline stock indexes can easily mask underlying market weakness, and that’s exactly what I think is happening right now.",
+        "url": "https://www.barchart.com/story/news/4701203/the-11-s-p-500-sectors-are-fading-quickly-protect-yourself-against-a-stock-market-crash-now?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 01:34",
+        "publishedAt": "09/20 23:00",
+        "score": 14
+      },
+      {
+        "title": "'This could be something more substantial': Wall Street braces for more Fed rate hikes",
+        "description": "Investors have priced in more than a 50% chance of another rate hike in October after the Federal Reserve voted unanimously last week to increase rate",
+        "url": "https://finance.yahoo.com/economy/policy/article/this-could-be-something-more-substantial-wall-street-braces-for-more-fed-rate-hikes-123400710.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/20 21:34",
+        "score": 13
+      },
+      {
+        "title": "Goldman Sachs gold price target takes a turn after Fed rate hike",
+        "description": "After the Fed’s latest decision, investors face a changing market landscape.",
+        "url": "https://www.thestreet.com/fed/goldman-sachs-maintains-gold-price-target-lowers-value-estimate-after-fed-rate-hike?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/20 11:17",
         "score": 10
       },
       {
-        "title": "주식 시장 붕괴를 통한 투자에 대해 역사가 밝혀주는 것",
-        "description": "최근 역사상 최악의 두 번의 시장 붕괴 직전에 S&P 500에 투자했다면 어떤 일이 일어났을까요?",
-        "url": "https://www.fool.com/investing/2026/09/19/what-history-reveals-about-investing-through-a-sto/?.tsrc=rss",
+        "title": "The Stock Market's Best Quarter of the Year Is About to Start. The S&P 500 Has Risen in 34 of the Last 41.",
+        "description": "The index has climbed in 34 of the last 41 fourth quarters. The seven misses are the part worth studying.",
+        "url": "https://www.fool.com/investing/2026/09/20/the-stock-market-s-best-quarter-of-the-year-is-about-to-start-the-s-and-p-500-has-risen-in-34-of-the-last-41/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 21:35",
-        "score": 10
-      },
-      {
-        "title": "주식시장 붕괴가 다가오면 나는 주저 없이 이 1 Vanguard ETF를 매수할 것입니다",
-        "description": "이 ETF는 실제로 좋은 성과를 낼 수 있는 일종의 성장 및 소득 프로필을 제공합니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/if-stock-market-crash-buying-vanguard-etf-vig/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/20 06:50",
+        "publishedAt": "09/21 06:44",
         "score": 9
       },
       {
-        "title": "Anthropic의 IPO가 다가오고 있습니다. 이것이 S&P 500 투자자에게 의미하는 바는 다음과 같습니다.",
-        "description": "당장 해당 종목이 지수에 편입되지 않더라도 이번 IPO로 인해 시장은 큰 영향을 받을 것이다.",
-        "url": "https://www.fool.com/investing/2026/09/19/anthropic-ipo-coming-what-means-sp-500/?.tsrc=rss",
+        "title": "If a Stock Market Crash Is Coming, History Says This Is the Smartest Move You Can Make.",
+        "description": "Market crashes happen. But you still can score an investing win.",
+        "url": "https://www.fool.com/investing/2026/09/20/if-a-stock-market-crash-is-coming-history-says-this-is-the-smartest-move-you-can-make/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 23:05",
+        "publishedAt": "09/20 20:35",
         "score": 9
-      },
-      {
-        "title": "S&P 500 수익률은 1.1%에 불과한 반면 10년 만기 국채 수익률은 5%까지 급등했습니다. 이 배당주는 장기 투자자에게 중간 기반을 제공합니다.",
-        "description": "코카콜라는 채권수익률이 높고 주식수익률이 낮은 세계에 대한 Goldilocks 투자일 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/the-sp-500-yields-just-11-while-10-year-treasury-y/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/20 05:30",
-        "score": 7
       }
     ],
-    "kr_market": [],
+    "kr_market": [
+      {
+        "title": "반도체 소부장의 시간…코스닥 시총 톱10 중 절반 차지",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092062901",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 18:20",
+        "score": 5
+      },
+      {
+        "title": "\"수익률 -50%였는데\"…반도체 소부장 담고 '반전' 쓴 코스닥액티브",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609206122i",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 15:56",
+        "score": 5
+      },
+      {
+        "title": "\"삼성전자보다 더 샀다\"…고액자산가들 풀매수한 '의외의 종목'은",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609205912i",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 13:17",
+        "score": 5
+      },
+      {
+        "title": "연금 개혁 '바통' 다시 국회로…여야, 수급기준 대안 내놓나",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092063191",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 18:21",
+        "score": 3
+      },
+      {
+        "title": "삼전닉스 자사주 매입, 이르면 내달 종료…증시 '수급공백' 우려",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092060917",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 15:01",
+        "score": 3
+      }
+    ],
     "macro": [
       {
-        "title": "경기 침체 위험과 원유 가격을 관찰하는 투자자를 위한 3가지 석유 주식",
-        "description": "유가가 다시 헤드라인에 등장하고 경기 침체 경고가 점점 커지고 있으며 미국 부채와 달러에 대한 질문이 모든 시장에 퍼지고 있습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/3-oil-stocks-investors-watching-191300497.html?.tsrc=rss",
+        "title": "Chevron CEO sends a strong message on oil price and the economy",
+        "description": "Something Chevron’s CEO said at an energy conference puts the White House’s oil price message in a difficult spot",
+        "url": "https://www.thestreet.com/economy/chevron-ceo-sends-a-strong-message-on-oil-price-and-the-economy?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 04:13",
-        "score": 5
-      },
-      {
-        "title": "연방준비제도(Fed) 인플레이션 전망은 투자자들에게 중요한 경고를 나타냅니다.",
-        "description": "역사를 잘 살펴보면 금리 인상은 시장에 좋은 징조는 아닙니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/federal-reserve-inflation-outlook-is-a-warning/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/20 00:57",
-        "score": 5
-      },
-      {
-        "title": "Capital Economics, AI 버블 붕괴로 인해 미국 주식 시장이 30% 하락할 수 있다고 경고",
-        "description": "Capital Economics는 인공 지능 관련 주식 가치 평가 붕괴의 잠재적 결과를 설명하고 상당한 성장을 예측했습니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/36522/capital-economics-warns-ai-bubble-collapse-could-trigger-30-us-stock-market-decline?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/19 20:38",
+        "publishedAt": "09/21 01:47",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "국채 수익률은 이미 CBO의 장기 예측을 폭파하고 있으며, 이전에 미국 부채에 대한 두려움을 경시했던 전문가들은 이제 걱정하기 시작했습니다.",
-        "description": "\"이자가 부채를 낳고 부채가 이자를 낳는다면 결국 부채는 걷잡을 수 없을 정도로 커질 것입니다. 한때 상상할 수 없었던 재정 위기는 이제 뚜렷한 상황이 되었습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/treasury-yields-already-blowing-cbo-193157579.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/20 04:31",
-        "score": 9
-      },
-      {
-        "title": "S&P 500 수익률은 1.1%에 불과한 반면 10년 만기 국채 수익률은 5%까지 급등했습니다. 이 배당주는 장기 투자자에게 중간 기반을 제공합니다.",
-        "description": "코카콜라는 채권수익률이 높고 주식수익률이 낮은 세계에 대한 Goldilocks 투자일 수 있습니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/the-sp-500-yields-just-11-while-10-year-treasury-y/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/20 05:30",
-        "score": 8
+        "title": "환율·채권…3년물 국고채, 연 4%선 등락할 듯",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092063741",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 18:00",
+        "score": 6
       }
     ],
     "commodities": [
       {
-        "title": "오일쇼크 이후 화석연료 배출량이 감소할 것으로 예상",
-        "description": "귀하의 연료 예산을 파괴하는 전쟁은 지난 10년 동안 아무도 예상하지 못한 수치를 조용히 움직이고 있습니다.",
-        "url": "https://www.thestreet.com/economy/hormuz-oil-shock-emissions-2026?.tsrc=rss",
+        "title": "Chevron CEO sends a strong message on oil price and the economy",
+        "description": "Something Chevron’s CEO said at an energy conference puts the White House’s oil price message in a difficult spot",
+        "url": "https://www.thestreet.com/economy/chevron-ceo-sends-a-strong-message-on-oil-price-and-the-economy?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 06:03",
+        "publishedAt": "09/21 01:47",
+        "score": 5
+      },
+      {
+        "title": "\"유가 솔직히 모르겠다\" JP모건의 고백…최후의 카드는 [빈난새의 빈틈없이마켓]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609205777i",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 12:01",
+        "score": 5
+      },
+      {
+        "title": "Goldman Sachs gold price target takes a turn after Fed rate hike",
+        "description": "After the Fed’s latest decision, investors face a changing market landscape.",
+        "url": "https://www.thestreet.com/fed/goldman-sachs-maintains-gold-price-target-lowers-value-estimate-after-fed-rate-hike?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/20 11:17",
+        "score": 5
+      },
+      {
+        "title": "Diamondback Energy Is Down 11% This Year While the Permian Basin Keeps Pumping. Is FANG Stock a Buy?",
+        "description": "Key Stats for Diamondback Energy, Inc. 52-Week Range: $136.",
+        "url": "https://www.tikr.com/blog/diamondback-energy-is-down-11-this-year-while-the-permian-basin-keeps-pumping-is-fang-stock-a-buy?ref=yahoofinance&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 01:59",
+        "score": 3
+      },
+      {
+        "title": "Like ‘a rabbi buying a church’: Delta once bought an entire oil refinery because it got tired of guessing at fuel prices",
+        "description": "The purchase — the first by a major airline — confounded observers in the airline and oil industries.",
+        "url": "https://finance.yahoo.com/energy/articles/rabbi-buying-church-delta-once-094500330.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/20 18:45",
         "score": 1
       }
     ],
     "fx": [
       {
-        "title": "개미들 \"환율 떨어질 때 더 고민\"…주목해야할 종목 찾아보니",
+        "title": "\"환율, 1400원 뚫을 수 있지만 추세적 상승은 어려울 듯\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609183741i",
+        "url": "https://www.hankyung.com/article/2026092062831",
         "source": "hankyung.com",
-        "publishedAt": "09/19 08:00",
+        "publishedAt": "09/20 18:23",
         "score": 5
       },
       {
-        "title": "주간 스프레드: 이번 주 수익률과 달러의 모양",
-        "description": "연준의 매파적 금리 인상과 추가 긴축 기대감으로 미국 달러화는 사상 최대 주간 상승세를 기록했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/the-weekly-spread-what-shaped-yields-and-the-dollar-this-week/cZtDZlBRBES?.tsrc=rss",
+        "title": "환율·채권…3년물 국고채, 연 4%선 등락할 듯",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092063741",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 18:00",
+        "score": 5
+      },
+      {
+        "title": "Investors Can Now Invest in the Surging Tron Cryptocurrency Via an ETF. Here's What Crypto Investors Need to Know.",
+        "description": "The Canary Staked TRX ETF could be well timed if the Tron network continues growing.",
+        "url": "https://www.fool.com/investing/2026/09/20/you-can-invest-in-the-surging-tron-crypto-etf/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 10:33",
-        "score": 1
+        "publishedAt": "09/21 04:47",
+        "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "AngloGold Ashanti (AU) 주식은 현금 흐름에서 14% 할인된 가격으로 거래될 수 있습니다",
-        "description": "AngloGold Ashanti는 다년간 매우 강력한 주가 상승세를 보여왔으며 이제 문제는 그러한 움직임이 여전히 CAS에 의해 뒷받침되는지 여부입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/anglogold-ashanti-au-stock-may-201024124.html?.tsrc=rss",
+        "title": "TSMC Stock And 2 Manufacturers Building Around Tariff Shifts",
+        "description": "Trade rules are quietly redrawing the global factory map, and the results are starting to show up in earnings calls and capital spending plans. Produc",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-2-manufacturers-building-042001917.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 05:10",
+        "publishedAt": "09/20 13:20",
+        "score": 3
+      },
+      {
+        "title": "Warren Buffett Has Endorsed the Same Investment for Decades. History Backs Him Up.",
+        "description": "Investing is one of the very few things where the rewards increase with less work.",
+        "url": "https://www.fool.com/investing/2026/09/20/warren-buffett-endorsed-investment-decades-history/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 03:21",
         "score": 1
       },
       {
-        "title": "Amodei, Altman 및 Musk는 AI 속도 저하를 요구했습니다. ASML 주주를 위한 경고 신호인 이유는 다음과 같습니다.",
-        "description": "향후 수요 둔화는 AI 칩을 생산하는 공장의 구성 요소를 만드는 ASML에 가장 큰 타격을 줄 수 있습니다.",
-        "url": "https://www.barchart.com/story/news/4696328/amodei-altman-and-musk-called-for-an-ai-slowdown-heres-why-its-a-warning-sign-for-asml-shareholders?.tsrc=rss",
+        "title": "The Bond Market Is Rattled, and History Says That Could Be a Warning Signal to Investors",
+        "description": "Bond yields rose ahead of the Fed rate hike, and investors should be worried about Wall Street and Main Street.",
+        "url": "https://www.fool.com/investing/2026/09/20/the-bond-market-is-rattled-and-history-says-that-c/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 02:30",
+        "publishedAt": "09/20 23:35",
         "score": 1
       },
       {
-        "title": "IonQ의 옵션은 일년 중 가장 저렴합니다. 이점을 활용하는 거래는 다음과 같습니다.",
-        "description": "IonQ의 내재 변동성이 1년 만에 최저점을 기록하면서 옵션이 유난히 저렴해졌습니다. 11월 4일에 수익 보고서가 나올 예정입니다.",
-        "url": "https://www.barchart.com/story/news/4695929/ionq-s-options-are-the-cheapest-they-ve-been-all-year-here-s-the-trade-that-takes-advantage?.tsrc=rss",
+        "title": "The Stock Market Has Been Sending a Quiet Warning Signal for Years. Here's What History Says Comes Next.",
+        "description": "Tech stocks could be a greater risk than some investors realize.",
+        "url": "https://www.fool.com/investing/2026/09/20/the-stock-market-has-been-sending-a-quiet-warning/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 00:58",
+        "publishedAt": "09/20 16:50",
         "score": 1
       },
       {
-        "title": "연방준비제도(Fed) 인플레이션 전망은 투자자들에게 중요한 경고를 나타냅니다.",
-        "description": "역사를 잘 살펴보면 금리 인상은 시장에 좋은 징조는 아닙니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/federal-reserve-inflation-outlook-is-a-warning/?.tsrc=rss",
+        "title": "Economist warns Fed, Warsh on track for big surprise",
+        "description": "The economist who called 2007 just went public with a message the Fed does not want to hear.",
+        "url": "https://www.thestreet.com/fed/economist-warns-fed-warsh-on-track-for-big-surprise?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 00:57",
-        "score": 1
-      },
-      {
-        "title": "마이크론의 9% 하락은 경고 신호인가 아니면 매수 기회인가?",
-        "description": "AI 개발에 대한 업계 전반의 우려가 이번 주 Micron에 영향을 미쳤습니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/is-microns-9-dip-a-warning-sign-or-buying-opportun/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/19 21:55",
+        "publishedAt": "09/20 10:37",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Anthropic, IPO 지연 보도 OpenAI는 막대한 현금 소모를 예상합니다",
-        "description": "Anthropic IPO는 11월까지 연기될 것이라고 WSJ는 보도했습니다. OpenAI는 대규모 마이너스 현금 흐름을 예측했다고 FT가 보도했습니다.",
-        "url": "https://finance.yahoo.com/m/e99f9364-a043-396e-a132-0a986e95b51d/anthropic-reportedly-delays.html?.tsrc=rss",
+        "title": "ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips",
+        "description": "On September 8, 2026, Reuters reported that ASML Holding N.V. (NASDAQ:ASML) plans to work with major customers. It includes Taiwan Semiconductor Manuf",
+        "url": "https://finance.yahoo.com/technology/ai/articles/asml-asml-chip-giants-tsmc-214129428.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 02:48",
-        "score": 11
+        "publishedAt": "09/21 06:41",
+        "score": 10
       },
       {
-        "title": "Cathie Wood는 Palantir와 AMD를 매각한 후 Archer Aviation에 335만 달러를 쏟아부었습니다. ARK는 플라잉 택시에 큰 투자를 하고 있나요?",
-        "description": "Cathie Wood는 회사의 주력 ETF를 위해 Archer Aviation의 주식을 더 많이 매입했습니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/cathie-wood-sold-palantir-and-amd-then-poured-335/?.tsrc=rss",
+        "title": "Should You Buy SpaceX Stock Before Its Next Earnings Report?",
+        "description": "SpaceX stock has rebounded nicely since its prior sell-off, but can the momentum last until its next earnings report?",
+        "url": "https://www.fool.com/investing/2026/09/20/should-you-buy-spacex-stock-before-its-next-earnin/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 05:25",
+        "publishedAt": "09/21 06:20",
         "score": 6
       },
       {
-        "title": "SpaceX 주식은 거래 첫날 이후 아무데도 가지 않았습니다",
-        "description": "지난 분기 매출이 거의 두 배나 증가했음에도 불구하고 주식은 첫날 마감된 지점보다 낮은 수준에 있습니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/spacex-stock-has-gone-nowhere-since-its-first-day-of-trading/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/20 04:57",
+        "title": "AI로 붙은 KAIST·포스텍…과학퀴즈부터 AI 자율주행 경진까지 [정지은의 산업노트]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609205973i",
+        "source": "hankyung.com",
+        "publishedAt": "09/20 12:30",
         "score": 6
       },
       {
-        "title": "Anthropic의 IPO가 다가오고 있습니다. 이것이 S&P 500 투자자에게 의미하는 바는 다음과 같습니다.",
-        "description": "당장 해당 종목이 지수에 편입되지 않더라도 이번 IPO로 인해 시장은 큰 영향을 받을 것이다.",
-        "url": "https://www.fool.com/investing/2026/09/19/anthropic-ipo-coming-what-means-sp-500/?.tsrc=rss",
+        "title": "Nvidia CEO Jensen Huang Expects Chip Sales To Double Next Year as He Downplays AI Slowdown Calls: 'When a Product is Not Safe...'",
+        "description": "Nvidia Corporation CEO Jensen Huang expects the company to double its chip sales in the coming year. “I expect Nvidia to sell twice as many chips as t",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-expects-213034571.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/19 23:05",
+        "publishedAt": "09/21 06:30",
         "score": 5
       },
       {
-        "title": "AI 데이터 센터를 지원하는 파이프라인 주식으로 한 달에 600달러를 버는 방법",
-        "description": "이들 파이프라인 회사는 AI 데이터센터 전력 붐을 이용해 돈을 벌고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/09/19/how-to-earn-600-a-month-from-the-pipeline-stocks-p/?.tsrc=rss",
+        "title": "AI Bubble Fears Grow, But Nvidia CEO Gives Bulls a New Argument Anyway",
+        "description": "Nvidia CEO Jensen Huang says AI has entered a high production ramp, giving bulls a new argument as bubble fears grow.",
+        "url": "https://beincrypto.com/nvidia-ceo-ai-production-ramp/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 05:50",
+        "publishedAt": "09/21 06:31",
         "score": 4
       }
     ]
