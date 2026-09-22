@@ -1,261 +1,301 @@
 {
-  "generated_at_kst": "2026-09-21 09:23 KST",
-  "period": "09/20 07:00 ~ 09/21 07:00 KST",
+  "generated_at_kst": "2026-09-22 09:58 KST",
+  "period": "09/21 07:00 ~ 09/22 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "The 11 S&P 500 Sectors Are Fading Quickly. Protect Yourself Against a Stock Market Crash Now.",
-        "description": "Headline stock indexes can easily mask underlying market weakness, and that’s exactly what I think is happening right now.",
-        "url": "https://www.barchart.com/story/news/4701203/the-11-s-p-500-sectors-are-fading-quickly-protect-yourself-against-a-stock-market-crash-now?.tsrc=rss",
+        "title": "Nasdaq, S&P 500, Dow Futures Rise Ahead Of Trump-Xi Summit This Week: NVDA, META, CRML, GLND, SPCX, RKLB, BE Stocks In Focus",
+        "description": "Retail sentiment on SPY remained ‘bearish’, and moderated to ‘neutral’ on QQQ.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-rise-ahead-of-trump-xi-summit-this-week-nvda-meta-crml-glnd-spcx-rklb-be-stocks-in-focus/cZMR9EBRB4n?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 23:00",
-        "score": 14
+        "publishedAt": "09/21 17:37",
+        "score": 11
       },
       {
-        "title": "'This could be something more substantial': Wall Street braces for more Fed rate hikes",
-        "description": "Investors have priced in more than a 50% chance of another rate hike in October after the Federal Reserve voted unanimously last week to increase rate",
-        "url": "https://finance.yahoo.com/economy/policy/article/this-could-be-something-more-substantial-wall-street-braces-for-more-fed-rate-hikes-123400710.html?.tsrc=rss",
+        "title": "Gold Falls as Stronger Dollar and Fed Rate Hike Expectations Weigh on Prices",
+        "description": "Gold prices declined on Monday as the US dollar strengthened and investors assessed the possibility of further interest rate increases by the Federal",
+        "url": "https://investorshub.advfn.com/market-news/article/36631/gold-falls-as-stronger-dollar-and-fed-rate-hike-expectations-weigh-on-prices?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 21:34",
-        "score": 13
-      },
-      {
-        "title": "Goldman Sachs gold price target takes a turn after Fed rate hike",
-        "description": "After the Fed’s latest decision, investors face a changing market landscape.",
-        "url": "https://www.thestreet.com/fed/goldman-sachs-maintains-gold-price-target-lowers-value-estimate-after-fed-rate-hike?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/20 11:17",
+        "publishedAt": "09/21 22:07",
         "score": 10
       },
       {
-        "title": "The Stock Market's Best Quarter of the Year Is About to Start. The S&P 500 Has Risen in 34 of the Last 41.",
-        "description": "The index has climbed in 34 of the last 41 fourth quarters. The seven misses are the part worth studying.",
-        "url": "https://www.fool.com/investing/2026/09/20/the-stock-market-s-best-quarter-of-the-year-is-about-to-start-the-s-and-p-500-has-risen-in-34-of-the-last-41/?.tsrc=rss",
+        "title": "Stock Market Today, Sept. 21: Tech Strength Powers Nasdaq to Record Close",
+        "description": "Today, Sept. 21, 2026, semiconductor stocks surged on AI demand while Bitcoin topped $87,000, offsetting energy sector weakness.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/21/stock-market-today-sept-21-tech-strength-powers-nasdaq-to-record-close/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 06:44",
+        "publishedAt": "09/22 06:22",
         "score": 9
       },
       {
-        "title": "If a Stock Market Crash Is Coming, History Says This Is the Smartest Move You Can Make.",
-        "description": "Market crashes happen. But you still can score an investing win.",
-        "url": "https://www.fool.com/investing/2026/09/20/if-a-stock-market-crash-is-coming-history-says-this-is-the-smartest-move-you-can-make/?.tsrc=rss",
+        "title": "S&P 500 Will ‘Easily’ Top 8,000 Before Historic Crash, ‘Black Swan’ Fund Manager Says",
+        "description": "Mark Spitznagel, founder of Universa Investments, built his reputation protecting investors from market crashes. Now the Universa Investments founder",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61902796/sp-500-8000-mark-spitznagel-crash?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 20:35",
-        "score": 9
+        "publishedAt": "09/22 01:54",
+        "score": 5
+      },
+      {
+        "title": "Inflation. The Iran War. A Hawkish Fed. Soaring Bond Yields. And Concerns About Artificial Intelligence. The Stock Market Faces Many Hurdles, But Only 1 Metric Truly Matters Right Now",
+        "description": "The market has faced no shortage of obstacles this year.",
+        "url": "https://www.fool.com/investing/2026/09/21/inflation-the-iran-war-soaring-bond-yields-and-ai/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/22 06:35",
+        "score": 4
       }
     ],
     "kr_market": [
       {
-        "title": "반도체 소부장의 시간…코스닥 시총 톱10 중 절반 차지",
+        "title": "\"또 사이드카 쏟아지나\"…한숨 돌리던 개미들 떨게 한 '경고' [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026092062901",
+        "url": "https://www.hankyung.com/article/2026092181966",
         "source": "hankyung.com",
-        "publishedAt": "09/20 18:20",
+        "publishedAt": "09/21 22:00",
         "score": 5
       },
       {
-        "title": "\"수익률 -50%였는데\"…반도체 소부장 담고 '반전' 쓴 코스닥액티브",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609206122i",
-        "source": "hankyung.com",
-        "publishedAt": "09/20 15:56",
+        "title": "Global Wearable Biosensors Market Trends, Strategies and Forecast to 2036 Featuring Abbott Labs, Dexcom, Medtronic, Roche, Apple, Samsung Electronics Co., Garmin and Other Key Players",
+        "description": "Dublin, Sept. 21, 2026 (GLOBE NEWSWIRE) -- \"Wearable Biosensors Market - Global Forecast to 2036\" has been added to ResearchAndMarkets.com's offering.",
+        "url": "https://finance.yahoo.com/healthcare/articles/global-wearable-biosensors-market-trends-090400637.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 18:04",
         "score": 5
       },
       {
-        "title": "\"삼성전자보다 더 샀다\"…고액자산가들 풀매수한 '의외의 종목'은",
+        "title": "SK하이닉스 ADR, 이제 원화로 투자한다…KODEX 미국반도체 편입",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609205912i",
+        "url": "https://www.hankyung.com/article/202609218539i",
         "source": "hankyung.com",
-        "publishedAt": "09/20 13:17",
+        "publishedAt": "09/21 15:51",
         "score": 5
       },
       {
-        "title": "연금 개혁 '바통' 다시 국회로…여야, 수급기준 대안 내놓나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092063191",
-        "source": "hankyung.com",
-        "publishedAt": "09/20 18:21",
-        "score": 3
+        "title": "Nvidia CEO Wants To Pay Workers ‘As Much As Possible,’ Calls $8B In Taxes ‘A Privilege’ Amid Samsung, SK Hynix Pay Push",
+        "description": "Chipmakers see their businesses expand multifold, fueling calls from workers for a larger share of the industry’s booming profits.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-ceo-wants-to-pay-workers-as-much-as-possible-calls-8-b-in-taxes-a-privilege-amid-samsung-sk-hynix-pay-push/cZMR5b9RB4f?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 13:47",
+        "score": 5
       },
       {
-        "title": "삼전닉스 자사주 매입, 이르면 내달 종료…증시 '수급공백' 우려",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092060917",
-        "source": "hankyung.com",
-        "publishedAt": "09/20 15:01",
-        "score": 3
+        "title": "China’s CXMT Says It Has Reached Advanced DRAM Mass Production, Challenging Samsung, SK Hynix and Micron in Memory Chips",
+        "description": "On Sunday, China’s ChangXin Memory Technologies (CXMT) said it has begun mass production using a fifth-generation DRAM technology platform. This marks",
+        "url": "https://finance.yahoo.com/technology/articles/china-cxmt-says-reached-advanced-041453764.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 13:14",
+        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "Chevron CEO sends a strong message on oil price and the economy",
-        "description": "Something Chevron’s CEO said at an energy conference puts the White House’s oil price message in a difficult spot",
-        "url": "https://www.thestreet.com/economy/chevron-ceo-sends-a-strong-message-on-oil-price-and-the-economy?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/21 01:47",
-        "score": 1
+        "title": "굴스비 \"AI 투자가 총생산 증가 시킬 경우 금리 인상 필요\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609219320i",
+        "source": "hankyung.com",
+        "publishedAt": "09/21 23:14",
+        "score": 5
       }
     ],
     "bonds": [
       {
-        "title": "환율·채권…3년물 국고채, 연 4%선 등락할 듯",
+        "title": "Update: Communication Services, Tech Heavyweights Push US Equity Indexes Higher as Crude Oil Slides With Treasury Yields",
+        "description": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/communication-services-tech-heavyweights-push-210945542.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/22 06:09",
+        "score": 8
+      },
+      {
+        "title": "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck",
+        "description": "Here's a check of the markets in the first few minutes of trading.",
+        "url": "https://finance.yahoo.com/markets/article/tech-stocks-rise-bitcoin-rallies-as-treasury-yields-ease-alphacheck-135033093.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 22:50",
+        "score": 8
+      },
+      {
+        "title": "SoftBank launches $11 billion junk bond deal for OpenAI bet",
+        "description": "The offering would be the largest Asia Pacific and Japan non-financial corporate bond deal on record if completed at its planned size",
+        "url": "https://qz.com/softbank-junk-bond-openai-investment-092126?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 20:53",
+        "score": 5
+      },
+      {
+        "title": "브렌트유 100달러 아래로…美채권과 주식 일제 상승",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026092063741",
+        "url": "https://www.hankyung.com/article/202609229353i",
         "source": "hankyung.com",
-        "publishedAt": "09/20 18:00",
-        "score": 6
+        "publishedAt": "09/22 00:12",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Chevron CEO sends a strong message on oil price and the economy",
-        "description": "Something Chevron’s CEO said at an energy conference puts the White House’s oil price message in a difficult spot",
-        "url": "https://www.thestreet.com/economy/chevron-ceo-sends-a-strong-message-on-oil-price-and-the-economy?.tsrc=rss",
+        "title": "Crude oil is falling, but when will pump relief arrive?",
+        "description": "Prices drop and stocks rise as President Trump hints he may meet with Iran’s president.",
+        "url": "https://www.thestreet.com/economy/crude-oil-is-falling-but-when-will-pump-relief-arrive?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 01:47",
+        "publishedAt": "09/22 06:48",
         "score": 5
       },
       {
-        "title": "\"유가 솔직히 모르겠다\" JP모건의 고백…최후의 카드는 [빈난새의 빈틈없이마켓]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609205777i",
-        "source": "hankyung.com",
-        "publishedAt": "09/20 12:01",
+        "title": "Trump to Address World Leaders. What It Means for Oil Prices.",
+        "description": "Wars and the oil market will likely be on the president’s agenda in meetings with world leaders following the speech.",
+        "url": "https://finance.yahoo.com/m/bf97fe5f-15ea-3c03-a76a-c9400f383c70/trump-to-address-world.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/22 06:29",
         "score": 5
       },
       {
-        "title": "Goldman Sachs gold price target takes a turn after Fed rate hike",
-        "description": "After the Fed’s latest decision, investors face a changing market landscape.",
-        "url": "https://www.thestreet.com/fed/goldman-sachs-maintains-gold-price-target-lowers-value-estimate-after-fed-rate-hike?.tsrc=rss",
+        "title": "Update: Communication Services, Tech Heavyweights Push US Equity Indexes Higher as Crude Oil Slides With Treasury Yields",
+        "description": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/communication-services-tech-heavyweights-push-210945542.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 11:17",
+        "publishedAt": "09/22 06:09",
         "score": 5
       },
       {
-        "title": "Diamondback Energy Is Down 11% This Year While the Permian Basin Keeps Pumping. Is FANG Stock a Buy?",
-        "description": "Key Stats for Diamondback Energy, Inc. 52-Week Range: $136.",
-        "url": "https://www.tikr.com/blog/diamondback-energy-is-down-11-this-year-while-the-permian-basin-keeps-pumping-is-fang-stock-a-buy?ref=yahoofinance&.tsrc=rss",
+        "title": "Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline",
+        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.7% and the actively trad",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 01:59",
+        "publishedAt": "09/21 22:23",
+        "score": 5
+      },
+      {
+        "title": "Oil ETFs Surge: What's Next for Commodity Investors?",
+        "description": "What's next for oil, gold and copper as geopolitical risks reshape commodity markets?",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/oil-etfs-surge-whats-next-214500474.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/22 06:45",
         "score": 3
-      },
-      {
-        "title": "Like ‘a rabbi buying a church’: Delta once bought an entire oil refinery because it got tired of guessing at fuel prices",
-        "description": "The purchase — the first by a major airline — confounded observers in the airline and oil industries.",
-        "url": "https://finance.yahoo.com/energy/articles/rabbi-buying-church-delta-once-094500330.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/20 18:45",
-        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "\"환율, 1400원 뚫을 수 있지만 추세적 상승은 어려울 듯\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092062831",
-        "source": "hankyung.com",
-        "publishedAt": "09/20 18:23",
-        "score": 5
-      },
-      {
-        "title": "환율·채권…3년물 국고채, 연 4%선 등락할 듯",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092063741",
-        "source": "hankyung.com",
-        "publishedAt": "09/20 18:00",
-        "score": 5
-      },
-      {
-        "title": "Investors Can Now Invest in the Surging Tron Cryptocurrency Via an ETF. Here's What Crypto Investors Need to Know.",
-        "description": "The Canary Staked TRX ETF could be well timed if the Tron network continues growing.",
-        "url": "https://www.fool.com/investing/2026/09/20/you-can-invest-in-the-surging-tron-crypto-etf/?.tsrc=rss",
+        "title": "US Dollar Price Forecast: Hawkish Fed Supports DXY as EUR and GBP Struggle",
+        "description": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD struggle below key resistance levels amid softer European policy outlooks.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081536540.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 04:47",
+        "publishedAt": "09/21 17:15",
+        "score": 6
+      },
+      {
+        "title": "메타 AI 에이전트 돌풍에…AMD '시총 1조달러' 첫 돌파",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092294857",
+        "source": "hankyung.com",
+        "publishedAt": "09/22 06:55",
+        "score": 3
+      },
+      {
+        "title": "브렌트유 100달러 아래로…美채권과 주식 일제 상승",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609229353i",
+        "source": "hankyung.com",
+        "publishedAt": "09/22 00:12",
+        "score": 3
+      },
+      {
+        "title": "암호화폐 겨울 끝났나…비트코인 美서 8만5000달러 회복",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609219260i",
+        "source": "hankyung.com",
+        "publishedAt": "09/21 20:57",
+        "score": 3
+      },
+      {
+        "title": "Wall Street Just Gave Palantir Its Highest-Ever Price Target, Right When Europe Started Saying No",
+        "description": "Key TakeawaysPalantir’s Q2 2026 growth is almost entirely a U. S.",
+        "url": "https://www.tikr.com/blog/wall-street-just-gave-palantir-its-highest-ever-price-target-right-when-europe-started-saying-no?ref=yahoofinance&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 16:53",
         "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "TSMC Stock And 2 Manufacturers Building Around Tariff Shifts",
-        "description": "Trade rules are quietly redrawing the global factory map, and the results are starting to show up in earnings calls and capital spending plans. Produc",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-2-manufacturers-building-042001917.html?.tsrc=rss",
+        "title": "News of the day: Macklem's tariff warning, what 'associate member' means, whey tariff backfires, oil and gas dealmaking boom, Chinese oil imports and more",
+        "description": "Catch up on the stories we’re following today",
+        "url": "https://financialpost.com/uncategorized/news-of-the-day-macklems-tariff-warning-what-associate-member-means-whey-tariff-backfires-oil-and-gas-dealmaking-boom-chinese-oil-imports-and-more?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 13:20",
-        "score": 3
+        "publishedAt": "09/22 06:33",
+        "score": 4
       },
       {
-        "title": "Warren Buffett Has Endorsed the Same Investment for Decades. History Backs Him Up.",
-        "description": "Investing is one of the very few things where the rewards increase with less work.",
-        "url": "https://www.fool.com/investing/2026/09/20/warren-buffett-endorsed-investment-decades-history/?.tsrc=rss",
+        "title": "Inflation. The Iran War. A Hawkish Fed. Soaring Bond Yields. And Concerns About Artificial Intelligence. The Stock Market Faces Many Hurdles, But Only 1 Metric Truly Matters Right Now",
+        "description": "The market has faced no shortage of obstacles this year.",
+        "url": "https://www.fool.com/investing/2026/09/21/inflation-the-iran-war-soaring-bond-yields-and-ai/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 03:21",
+        "publishedAt": "09/22 06:35",
         "score": 1
       },
       {
-        "title": "The Bond Market Is Rattled, and History Says That Could Be a Warning Signal to Investors",
-        "description": "Bond yields rose ahead of the Fed rate hike, and investors should be worried about Wall Street and Main Street.",
-        "url": "https://www.fool.com/investing/2026/09/20/the-bond-market-is-rattled-and-history-says-that-c/?.tsrc=rss",
+        "title": "Fidelity Sees Gold Climbing Toward $5,000",
+        "description": "One powerful macro force could overpower higher interest rates",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/fidelity-sees-gold-climbing-toward-150910738.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 23:35",
+        "publishedAt": "09/22 00:09",
         "score": 1
       },
       {
-        "title": "The Stock Market Has Been Sending a Quiet Warning Signal for Years. Here's What History Says Comes Next.",
-        "description": "Tech stocks could be a greater risk than some investors realize.",
-        "url": "https://www.fool.com/investing/2026/09/20/the-stock-market-has-been-sending-a-quiet-warning/?.tsrc=rss",
+        "title": "Make This 1 Trade Now as U.S.-Canada Trade Friction Drags On",
+        "description": "December Canada dollar futures present a selling opportunity on more price weakness.",
+        "url": "https://www.barchart.com/story/news/4712948/make-this-1-trade-now-as-u-s-canada-trade-friction-drags-on?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 16:50",
+        "publishedAt": "09/21 23:37",
         "score": 1
       },
       {
-        "title": "Economist warns Fed, Warsh on track for big surprise",
-        "description": "The economist who called 2007 just went public with a message the Fed does not want to hear.",
-        "url": "https://www.thestreet.com/fed/economist-warns-fed-warsh-on-track-for-big-surprise?.tsrc=rss",
+        "title": "Warner Bros. Discovery Jumps 7%, Paramount Skydance Climbs 5% as Antitrust Settlement Talks Advance; Netflix Sits Out the Rally",
+        "description": "Antitrust settlement talks are reshuffling the media landscape in real time, sending two rival stocks surging for completely opposite reasons while th",
+        "url": "https://247wallst.com/investing/2026/09/21/warner-bros-discovery-jumps-7-paramount-skydance-climbs-5-as-antitrust-settlement-talks-advance-netflix-sits-out-the-rally/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/20 10:37",
+        "publishedAt": "09/21 22:42",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips",
-        "description": "On September 8, 2026, Reuters reported that ASML Holding N.V. (NASDAQ:ASML) plans to work with major customers. It includes Taiwan Semiconductor Manuf",
-        "url": "https://finance.yahoo.com/technology/ai/articles/asml-asml-chip-giants-tsmc-214129428.html?.tsrc=rss",
+        "title": "OpenAI and Anthropic Weighed Mutual AI Tests. Palantir CEO Says One May Never List",
+        "description": "OpenAI and Anthropic neared a binding model testing deal as Alex Karp doubts one of them ever files an S-1.",
+        "url": "https://beincrypto.com/openai-anthropic-testing-deal-karp-ipo/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 06:41",
-        "score": 10
+        "publishedAt": "09/22 02:55",
+        "score": 14
       },
       {
-        "title": "Should You Buy SpaceX Stock Before Its Next Earnings Report?",
-        "description": "SpaceX stock has rebounded nicely since its prior sell-off, but can the momentum last until its next earnings report?",
-        "url": "https://www.fool.com/investing/2026/09/20/should-you-buy-spacex-stock-before-its-next-earnin/?.tsrc=rss",
+        "title": "China’s CXMT Says It Has Reached Advanced DRAM Mass Production, Challenging Samsung, SK Hynix and Micron in Memory Chips",
+        "description": "On Sunday, China’s ChangXin Memory Technologies (CXMT) said it has begun mass production using a fifth-generation DRAM technology platform. This marks",
+        "url": "https://finance.yahoo.com/technology/articles/china-cxmt-says-reached-advanced-041453764.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 06:20",
-        "score": 6
+        "publishedAt": "09/21 13:14",
+        "score": 14
       },
       {
-        "title": "AI로 붙은 KAIST·포스텍…과학퀴즈부터 AI 자율주행 경진까지 [정지은의 산업노트]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609205973i",
-        "source": "hankyung.com",
-        "publishedAt": "09/20 12:30",
-        "score": 6
+        "title": "AMD Rises 5% as Report Flags 10% Chip Price Increase; NVIDIA and Taiwan Semiconductor Tick Up",
+        "description": "A supply-chain report lit a fuse under AMD shares Monday morning, but the move hinges on whether the chip giant is flexing pricing power or simply han",
+        "url": "https://247wallst.com/investing/2026/09/21/amd-rises-5-as-report-flags-10-chip-price-increase-nvidia-and-taiwan-semiconductor-tick-up/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/21 22:37",
+        "score": 9
       },
       {
-        "title": "Nvidia CEO Jensen Huang Expects Chip Sales To Double Next Year as He Downplays AI Slowdown Calls: 'When a Product is Not Safe...'",
-        "description": "Nvidia Corporation CEO Jensen Huang expects the company to double its chip sales in the coming year. “I expect Nvidia to sell twice as many chips as t",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-expects-213034571.html?.tsrc=rss",
+        "title": "Meet the Quantum Computing Stock Growing Faster Than Nvidia",
+        "description": "IonQ is growing much faster than the GPU giant, but there's a catch.",
+        "url": "https://www.fool.com/investing/2026/09/21/meet-the-quantum-computing-stock-growing-faster-th/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 06:30",
-        "score": 5
+        "publishedAt": "09/21 23:11",
+        "score": 8
       },
       {
-        "title": "AI Bubble Fears Grow, But Nvidia CEO Gives Bulls a New Argument Anyway",
-        "description": "Nvidia CEO Jensen Huang says AI has entered a high production ramp, giving bulls a new argument as bubble fears grow.",
-        "url": "https://beincrypto.com/nvidia-ceo-ai-production-ramp/?.tsrc=rss",
+        "title": "Rocket Lab Looks More and More Like a SpaceX Competitor. The Stock Is Up.",
+        "description": "The space business is roaring, and it isn’t just  SpaceX  getting all the applause.  Rocket Lab stock jumped Monday after Cantor Fitzgerald analyst An",
+        "url": "https://finance.yahoo.com/m/fcc71e03-a6f0-328c-9e52-cafe16893b54/rocket-lab-looks-more-and.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/21 06:31",
-        "score": 4
+        "publishedAt": "09/22 05:36",
+        "score": 7
       }
     ]
   }
