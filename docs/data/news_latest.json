@@ -1,309 +1,325 @@
 {
-  "generated_at_kst": "2026-09-25 09:39 KST",
-  "period": "09/24 07:00 ~ 09/25 07:00 KST",
+  "generated_at_kst": "2026-09-26 09:44 KST",
+  "period": "09/25 07:00 ~ 09/26 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq trims losses as hopes of Hormuz deal offset rising bond yields",
-        "description": "Inflation fears and rising bond yields outweighed hopes for Middle East diplomacy and for the artificial intelligence boom to continue its run.",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html?.tsrc=rss",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq notch weekly wins as market shrugs off bond sell-off, oil prices ease",
+        "description": "US stock futures wobbled on Friday morning as investors assessed the macroeconomic and geopolitical crosscurrents that have pushed up oil prices and b",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/24 17:03",
+        "publishedAt": "09/25 17:17",
         "score": 14
       },
       {
-        "title": "Three FOMC Voters Back Additional Rate Hikes to Cool Inflation",
-        "description": "Three Federal Open Market Committee voters on Thursday signaled the need for a tighter monetary poli",
-        "url": "https://finance.yahoo.com/economy/policy/articles/three-fomc-voters-back-additional-205321460.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/25 05:53",
-        "score": 10
-      },
-      {
-        "title": "Fed Rate Cut Delayed as Strong Jobs Data Tests Bitcoin",
-        "description": "Citigroup pushed its forecast for the Fed first interest rate cut to June 2027 after US employers added 162,000 jobs in August, more than triple the 5",
-        "url": "https://cryptonews.com/news/bitcoin-citi-fed-rate-cut/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/24 22:13",
-        "score": 10
-      },
-      {
-        "title": "10년물 5.2% 돌파…美 증시 덮친 '고금리 장기화' [뉴욕증시 브리핑]",
+        "title": "10년물 금리 2007년 이후 최고…美증시는 버텼다 [뉴욕증시 브리핑]",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609255458i",
+        "url": "https://www.hankyung.com/article/202609266166i",
         "source": "hankyung.com",
-        "publishedAt": "09/25 06:31",
+        "publishedAt": "09/26 05:38",
         "score": 8
       },
       {
-        "title": "유가 뛰자 채권·주식 동반 충격…개장 전 밀린 나스닥 선물[뉴욕증시 브리핑]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609245297i",
-        "source": "hankyung.com",
-        "publishedAt": "09/24 22:24",
-        "score": 8
+        "title": "Dow Jones Futures: Growth Stocks Shrug Off Surging Yields; Micron, SpaceX, Tesla, Key Economic Data Due",
+        "description": "Growth stocks had a strong week despite surging Treasury yields. Micron earnings, SpaceX Starship, Tesla sales and big economic reports are ahead.",
+        "url": "https://finance.yahoo.com/m/473106f6-6763-38d5-b898-3f7ff08d4b61/dow-jones-futures%3A-growth.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/26 06:04",
+        "score": 6
+      },
+      {
+        "title": "Pacific Biosciences of California (PACB) Beats Stock Market Upswing: What Investors Need to Know",
+        "description": "In the latest trading session, Pacific Biosciences of California (PACB) closed at $1.62, marking a +2.53% move from the previous day.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pacific-biosciences-california-pacb-beats-211503793.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/26 06:15",
+        "score": 5
+      },
+      {
+        "title": "Stock Market Today, Sept. 25: Nike Downgraded by Bank of America, Shares Flat",
+        "description": "On Sept. 25, 2026, the analyst firm slashed its price target to $30 from $47, citing weak wholesale momentum and China sales challenges.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/25/stock-market-today-sept-25-nike-downgraded-by-bank-of-america-shares-flat/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/26 06:14",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "Forget Betting on Micron Alone: The $26B Memory ETF Owns MU, SK Hynix, and Samsung at a September Discount",
-        "description": "Micron has handed investors a spectacular run, but concentrating that bet on one company's fab schedule carries risks that most MU bulls haven't fully",
-        "url": "https://247wallst.com/investing/etf/2026/09/24/forget-betting-on-micron-alone-the-26b-memory-etf-owns-mu-sk-hynix-and-samsung-at-a-september-discount/?.tsrc=rss",
+        "title": "Wireless Power Bank Market Outlook 2026-2035 - Featuring Profiles of Anker Innovations, Samsung Electronics, and Xiaomi",
+        "description": "Wireless Power Banks Gain Momentum as Cable-Free Convenience, Battery Innovation, Multi-Device Compatibility and E-Commerce Expansion Drive AdoptionDu",
+        "url": "https://finance.yahoo.com/technology/articles/wireless-power-bank-market-outlook-084700197.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 06:31",
+        "publishedAt": "09/25 17:47",
         "score": 5
+      },
+      {
+        "title": "Power Bank Market Outlook 2026-2035 - Featuring Profiles of Anker Innovations, Xiaomi, and Samsung Electronics",
+        "description": "Wireless Fast Charging and Commercial Mobility Fuel Power Bank Innovation and DemandDublin, Sept. 25, 2026 (GLOBE NEWSWIRE) -- \"Power Bank Market Oppo",
+        "url": "https://finance.yahoo.com/technology/articles/power-bank-market-outlook-2026-084400141.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/25 17:44",
+        "score": 5
+      },
+      {
+        "title": "시총 기준 강화로 코스닥서 8개 종목 퇴출…추가 상폐 우려도",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092559667",
+        "source": "hankyung.com",
+        "publishedAt": "09/25 17:43",
+        "score": 5
+      },
+      {
+        "title": "\"연말 코스피 7764 간다\"…美 중간선거 최대 변수",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609234340i",
+        "source": "hankyung.com",
+        "publishedAt": "09/25 13:00",
+        "score": 5
+      },
+      {
+        "title": "'약국 2만4000곳 품은' 바로팜, 11월 상장 추진",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609221840i",
+        "source": "hankyung.com",
+        "publishedAt": "09/25 07:57",
+        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "Three FOMC Voters Back Additional Rate Hikes to Cool Inflation",
-        "description": "Three Federal Open Market Committee voters on Thursday signaled the need for a tighter monetary poli",
-        "url": "https://finance.yahoo.com/economy/policy/articles/three-fomc-voters-back-additional-205321460.html?.tsrc=rss",
+        "title": "Stock action shows confidence in central banks: BofA’s Hartnett",
+        "description": "Investing.com -- Bank of America strategists say the stock market’s reaction to a new global tightening cycle marks a vote of confidence that central",
+        "url": "https://finance.yahoo.com/economy/policy/articles/stock-action-shows-confidence-central-110417100.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 05:53",
-        "score": 5
-      },
-      {
-        "title": "추석 차례상 30만원 시대…고물가에 가성비 명절 간편식 '불티'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609233237i",
-        "source": "hankyung.com",
-        "publishedAt": "09/24 10:25",
+        "publishedAt": "09/25 20:04",
         "score": 3
       },
       {
-        "title": "US Equity Markets End Mixed Amid Rising Oil Prices, Strong Macroeconomic Data",
-        "description": "US equity indexes were mixed Thursday amid stronger macroeconomic data, higher oil prices, and risin",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-mixed-202607674.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Growth Stocks Shrug Off Surging Yields; Micron, SpaceX, Tesla, Key Economic Data Due",
+        "description": "Growth stocks had a strong week despite surging Treasury yields. Micron earnings, SpaceX Starship, Tesla sales and big economic reports are ahead.",
+        "url": "https://finance.yahoo.com/m/473106f6-6763-38d5-b898-3f7ff08d4b61/dow-jones-futures%3A-growth.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 05:26",
-        "score": 2
-      },
-      {
-        "title": "Stock Market Today, Sept. 24: BlackBerry Lifts Fiscal 2027 Guidance on Record QNX Revenue",
-        "description": "On Sept. 24, 2026, the security software maker beat Q2 estimates and raised its full-year outlook, citing automotive design wins and 26% revenue growt",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/24/stock-market-today-sept-24-blackberry-lifts-fiscal-2027-guidance-on-record-qnx-revenue/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/25 06:27",
+        "publishedAt": "09/26 06:04",
         "score": 1
       },
       {
-        "title": "Dollar Gains on US Economic Strength and Hawkish Fed Comments",
-        "description": "The dollar index (DXY00 ) extended this week’s rally today to a 1.75-month high and is up by +0.14%. The dollar has support from signs of strength in",
-        "url": "https://www.barchart.com/story/news/4780693/dollar-gains-on-us-economic-strength-and-hawkish-fed-comments?.tsrc=rss",
+        "title": "White Gold Corp. Announces Filing of Preliminary Economic Assessment with C$1.86 Billion After-Tax NPV, 41% IRR and 1.5 Year Payback Period on the White Gold Project, Yukon, Canada",
+        "description": "Maiden PEA outlines a 9.4-year, 12,000 tonne per day open pit operation producing an average of 188,000 ounces of gold per year (223,000 ounces per ye",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/white-gold-corp-announces-filing-110000914.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/24 23:35",
+        "publishedAt": "09/25 20:00",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Update: US Equity Indexes Close Mixed as Higher Crude Oil, Hawkish Fed-Speak Push Treasury Yields Sharply Higher",
-        "description": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
-        "url": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-close-mixed-211839584.html?.tsrc=rss",
+        "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 06:18",
+        "publishedAt": "09/25 22:24",
         "score": 8
       },
       {
-        "title": "Update: US Equity Indexes Trade Mixed Amid Higher Crude Oil, Treasury Yields",
-        "description": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
-        "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-trade-mixed-195903937.html?.tsrc=rss",
+        "title": "Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields",
+        "description": "Rising Treasury yields are reshaping market preferences, putting dividend growth stocks like EnerSys and Amgen in focus for income and growth.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bet-5-dividend-growth-stocks-122800072.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 04:59",
+        "publishedAt": "09/25 21:28",
         "score": 8
       },
       {
-        "title": "Stock Market Midday, Sept. 24: Stocks Slide as Treasury Yields Climb, Oracle Declares Force Majeure",
-        "description": "Bond sell-off pressures equities across all three major indices, while Meta gets a boost from its product launch, today, Sept. 24, 2026.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/24/stock-market-midday-sept-24-stocks-slide-as-treasury-yields-climb-oracle-declares-force-majeure/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/25 01:44",
-        "score": 8
+        "title": "국채 고금리? \"정상화 과정\"…AI 채권은 \"비중 축소\" [박신영의 개장전 요것만]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609266127i",
+        "source": "hankyung.com",
+        "publishedAt": "09/26 00:48",
+        "score": 3
       },
       {
-        "title": "Treasury yields hit highest since 2007, Bitcoin slides",
-        "description": "U.S. Treasury yields are pushing to new highs across the entire curve as traders brace for tighter policy for longer, with the 10-year above 5.1% for",
-        "url": "http://videos.coindesk.com/previews/Jfch5Fpd?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/25 00:43",
-        "score": 8
+        "title": "손절매 쏟아지는 채권, 10년 금리 5.2%…메타, 인텔 폭등 지속 [김현석의 월스트리트나우]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609255572i",
+        "source": "hankyung.com",
+        "publishedAt": "09/25 08:30",
+        "score": 3
       },
       {
-        "title": "Fuel Cell Stocks Slide as High Treasury Yields Pressure Clean Energy Financing: FuelCell Drops 6%, Plug Power Falls 4%, Bloom Energy Sinks 8%",
-        "description": "Surging Treasury yields just gave fuel cell investors a painful reminder that clean energy ambitions come with a price tag, and not every company in t",
-        "url": "https://247wallst.com/investing/2026/09/24/fuel-cell-stocks-slide-as-high-treasury-yields-pressure-clean-energy-financing-fuelcell-drops-6-plug-power-falls-4-bloom-energy-sinks-8/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/25 00:20",
-        "score": 8
+        "title": "\"채권의 시대 끝났다…자산배분 새 공식은 '주식·원자재·에너지'\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609255381i",
+        "source": "hankyung.com",
+        "publishedAt": "09/25 08:00",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Global Biofuels Output Could Surge 70% Amid Energy Crisis",
-        "description": "Global biofuel production could surge nearly 70% by 2030 as countries raise blending mandates to improve energy security amid the Middle East crisis.",
-        "url": "https://finance.yahoo.com/energy/articles/global-biofuels-output-could-surge-200000118.html?.tsrc=rss",
+        "title": "Dollar Slips as Crude Oil Prices Decline",
+        "description": "The dollar index (DXY00 ) is down by -0.31% today. The dollar is under pressure today from a -1% decline in WTI crude oil prices, which eases inflatio",
+        "url": "https://www.barchart.com/story/news/4801685/dollar-slips-as-crude-oil-prices-decline?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 05:00",
-        "score": 9
+        "publishedAt": "09/25 23:33",
+        "score": 10
       },
       {
-        "title": "Update: US Equity Indexes Close Mixed as Higher Crude Oil, Hawkish Fed-Speak Push Treasury Yields Sharply Higher",
+        "title": "Update: US Equity Indexes Jump as Crude Oil Slides Following Iran's Conditional Plan to Reopen Hormuz Chokepoint",
         "description": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par",
-        "url": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-close-mixed-211839584.html?.tsrc=rss",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-jump-crude-204115370.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 06:18",
+        "publishedAt": "09/26 05:41",
         "score": 5
       },
       {
-        "title": "Update: Dow Extends Losses Amid Surging Yields, Oil Prices",
-        "description": "(Updates with market moves at the end of the day, and other changes, if any.) The Dow Jones Indus",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dow-extends-losses-amid-surging-210722452.html?.tsrc=rss",
+        "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 06:07",
+        "publishedAt": "09/25 22:24",
         "score": 5
       },
       {
-        "title": "Global stocks mostly fall as oil prices and bond yields rise",
-        "description": "Stock markets mostly fell and oil prices climbed on Thursday as US Treasury bond yields hit multi-year highs, driven partly by a lack of progress in e",
-        "url": "https://finance.yahoo.com/markets/articles/markets-mixed-chinas-xi-arrives-024403298.html?.tsrc=rss",
+        "title": "Gold price today, Friday, September 25, 2026: Gold prices hold as investors have a lot to consider",
+        "description": "Gold futures opened at $4,309.50 per troy ounce on Friday, September 25, 2026, up 0.3% from Thursday's closing price. Gold is moving slightly upward t",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-25-2026-gold-prices-hold-as-investors-have-a-lot-to-consider-110139291.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 05:34",
+        "publishedAt": "09/25 20:01",
         "score": 5
       },
       {
-        "title": "US Equity Markets End Mixed Amid Rising Oil Prices, Strong Macroeconomic Data",
-        "description": "US equity indexes were mixed Thursday amid stronger macroeconomic data, higher oil prices, and risin",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-mixed-202607674.html?.tsrc=rss",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq notch weekly wins as market shrugs off bond sell-off, oil prices ease",
+        "description": "US stock futures wobbled on Friday morning as investors assessed the macroeconomic and geopolitical crosscurrents that have pushed up oil prices and b",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 05:26",
+        "publishedAt": "09/25 17:17",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "Alfa Laval (OM:ALFA) Lands Role In One Of Europe’s Biggest Carbon Capture Projects",
-        "description": "Alfa Laval (OM:ALFA) has been selected to supply critical heat transfer equipment for Stockholm Exergi's BECCS project in Sweden. The contract covers",
-        "url": "https://finance.yahoo.com/energy/articles/alfa-laval-om-alfa-lands-181414439.html?.tsrc=rss",
+        "title": "Peter Thiel: Palantir Sales to US Corporations Accelerated 'Tremendously' As Europe Falls Behind in AI",
+        "description": "Palantir Technologies Inc. (NASDAQ:PLTR) co-founder and chairman Peter Thiel says sales to U.S. corporations have accelerated “tremendously” as Americ",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62005123/palantir-us-sales-ai-peter-thiel-europe?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 03:14",
+        "publishedAt": "09/26 03:13",
         "score": 3
       },
       {
-        "title": "GE Vernova, Hitachi, and Samsung Are Bringing Small Modular Reactors to Europe",
-        "description": "These days, SMRs are seen by many as excellent clean-energy power generation solutions.",
-        "url": "https://www.fool.com/investing/2026/09/24/ge-vernova-hitachi-and-samsung-are-bringing-small-modular-reactors-to-europe/?.tsrc=rss",
+        "title": "Could This Be Novo Nordisk’s Next Billion-Dollar Weight-Loss Product?",
+        "description": "The drugmaker badly needs more clinical wins.",
+        "url": "https://www.fool.com/investing/2026/09/25/could-this-be-novo-nordisk-s-next-billion-dollar-glp-1-product/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/24 17:10",
-        "score": 3
-      },
-      {
-        "title": "Trump administration has a radical plan to boost U.S. dollar",
-        "description": "A new report sheds light on the Trump administration’s plan to cement the U.S. dollar’s dominance as the world’s reserve asset.",
-        "url": "https://www.thestreet.com/crypto/markets/trump-administration-has-a-radical-plan-to-boost-u-s-dollar?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/25 06:15",
+        "publishedAt": "09/26 06:20",
         "score": 1
       },
       {
-        "title": "She Inherited Her Father’s $250,000 Roth and Didn’t Touch It for Ten Years. It Grew to $400,000, and Every Dollar Came Out Tax-Free",
-        "description": "An inherited Roth IRA follows a completely different set of rules than any other account you can receive, and most beneficiaries quietly forfeit its m",
-        "url": "https://247wallst.com/personal-finance/2026/09/24/she-inherited-her-fathers-250000-roth-and-didnt-touch-it-for-ten-years-it-grew-to-400000-and-every-dollar-came-out-tax-free/?.tsrc=rss",
+        "title": "Warren Buffett Steps Down as Berkshire Hathaway Chairman After Warning U.S. Dollar Is ‘Going to Hell’",
+        "description": "Warren Buffett has stepped down as chairman of Berkshire Hathaway a little over a year after he shared some grim words with the holding company. On Fr",
+        "url": "https://firstformoney.com/warren-buffett-steps-down-as-berkshire-hathaway-chairman-after-warning-u-s-dollar-is-going-to-hell/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 03:22",
+        "publishedAt": "09/26 05:01",
         "score": 1
       },
       {
-        "title": "US Aims to Turn Stablecoins Into a Weapon for Dollar Dominance",
-        "description": "Washington may fund private stablecoin ventures abroad to protect the dollar's reserve status and prop up Treasury demand.",
-        "url": "https://decrypt.co/379219/us-stablecoins-weapon-dollar-dominance?.tsrc=rss",
+        "title": "Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure",
+        "description": "The Canadian dollar was little changed early Friday but remained under pressure near a multi-week low, as a broad U.S. dollar rally and elevated U.S.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-holds-near-recent-143609393.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 01:55",
+        "publishedAt": "09/25 23:36",
+        "score": 1
+      },
+      {
+        "title": "Dollar Slips as Crude Oil Prices Decline",
+        "description": "The dollar index (DXY00 ) is down by -0.31% today. The dollar is under pressure today from a -1% decline in WTI crude oil prices, which eases inflatio",
+        "url": "https://www.barchart.com/story/news/4801685/dollar-slips-as-crude-oil-prices-decline?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/25 23:33",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Update: US Equity Indexes Trade Mixed Amid Higher Crude Oil, Treasury Yields",
-        "description": "(Updates with index/price moves and geopolitical news from the first paragraph.) US equity indexe",
-        "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-trade-mixed-195903937.html?.tsrc=rss",
+        "title": "Dynatrace (DT) Stock Slides as Market Rises: Facts to Know Before You Trade",
+        "description": "In the latest trading session, Dynatrace (DT) closed at $57.95, marking a -1.24% move from the previous day.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dynatrace-dt-stock-slides-market-211502526.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 04:59",
+        "publishedAt": "09/26 06:15",
         "score": 1
       },
       {
-        "title": "Bond Market Flashes a Warning Not Seen Since 2007",
-        "description": "Treasury yields just hit levels the bond market has not seen since before the financial crisis, and the pain is spreading fast into corners of the mar",
-        "url": "https://247wallst.com/investing/2026/09/24/bond-market-flashes-a-warning-not-seen-since-2007/?.tsrc=rss",
+        "title": "Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?",
+        "description": "In recent days, IonQ announced it will deploy its Superion 256 quantum processor at NVIDIA’s Accelerated Quantum Research Center, showcasing deeper in",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-ionqs-nvidia-quantum-tie-210735580.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 03:00",
+        "publishedAt": "09/26 06:07",
         "score": 1
       },
       {
-        "title": "TSMC Slips 1% as Packaging Moves Toward Supplier Validation",
-        "description": "Supplier co-location can shorten qualification cycles, but operations remain three years away and capacity is undisclosed.",
-        "url": "https://finance.yahoo.com/technology/articles/tsmc-slips-1-packaging-moves-173346756.html?.tsrc=rss",
+        "title": "Warren Buffett Steps Down as Berkshire Hathaway Chairman After Warning U.S. Dollar Is ‘Going to Hell’",
+        "description": "Warren Buffett has stepped down as chairman of Berkshire Hathaway a little over a year after he shared some grim words with the holding company. On Fr",
+        "url": "https://firstformoney.com/warren-buffett-steps-down-as-berkshire-hathaway-chairman-after-warning-u-s-dollar-is-going-to-hell/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 02:33",
+        "publishedAt": "09/26 05:01",
         "score": 1
       },
       {
-        "title": "Trump, XI, and the Future of the AI Trade",
-        "description": "The best AI models are made by U.S. companies but lower-cost, open-weight options from China are increasingly competitive.",
-        "url": "https://finance.yahoo.com/m/44ba6b60-ebe8-38d5-a0e3-d90907649e8b/trump%2C-xi%2C-and-the-future-of.html?.tsrc=rss",
+        "title": "Datadog Climbs 6%, Approaches 52-Week High While Software Group Slips; Oracle and Cloudflare Decline",
+        "description": "Datadog is surging while its closest rival and the broader software sector both slide lower, a split that raises a pointed question about whether this",
+        "url": "https://247wallst.com/investing/2026/09/25/datadog-climbs-6-approaches-52-week-high-while-software-group-slips-oracle-and-cloudflare-decline/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 00:37",
+        "publishedAt": "09/26 03:06",
         "score": 1
       },
       {
-        "title": "Bloom Energy Sinks 6% as Traders Take Profits on a 190% YTD Run; Generac and Cummins Pull Back",
-        "description": "After a 190% run in a single year, Bloom Energy is sliding hard while the broader market barely flinches, and the real question is whether today's ses",
-        "url": "https://247wallst.com/investing/2026/09/24/bloom-energy-sinks-6-as-traders-take-profits-on-a-190-ytd-run-generac-and-cummins-pull-back/?.tsrc=rss",
+        "title": "Mortgage rates creep toward new high of 7.5%",
+        "description": "The average 30-year fixed-rate mortgage hit 7.49% on Friday, leaving rates a bruising 30 basis points higher than where they started the week, accordi",
+        "url": "https://finance.yahoo.com/economy/article/mortgage-rates-creep-toward-new-high-of-75-172359287.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/24 23:12",
+        "publishedAt": "09/26 02:23",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "BigBear.ai vs. IONQ: Comparing Revenue Trends Between an Artificial Intelligence Upstart and a Quantum Computer Company",
-        "description": "IONQ's revenue surged to $80 million in Q2 2026, while BigBear.ai stabilized near $37 million — a widening gap that reshapes the competitive picture.",
-        "url": "https://www.fool.com/coverage/charts/2026/09/23/bigbear-ai-vs-ionq-comparing-revenue-trends-between-an-artificial-intelligence-upstart-and-a-quantum-computer-company/?.tsrc=rss",
+        "title": "This Stock May Be the Best Artificial Intelligence (AI) and Quantum Computing Investment",
+        "description": "Nvidia is not known as a quantum computing company, but it's developing plenty of products to ensure that it's relevant in that nascent technology.",
+        "url": "https://www.fool.com/investing/2026/09/25/this-stock-may-be-the-best-artificial-intelligence/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/24 10:35",
+        "publishedAt": "09/26 06:55",
         "score": 9
       },
       {
-        "title": "Taiwan Semiconductor (TSM): The Key Enabler of AI Chips and a Durable Long-Term Share Gainer",
-        "description": "Tran Capital Management, an investment management company, released its second-quarter investor letter for its “Multi Cap Growth Strategy”. You can do",
-        "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-tsm-key-enabler-143557399.html?.tsrc=rss",
+        "title": "SpaceX’s Falcon 9 Wind Down: Rocket Lab Is Set To Gain, Here’s How",
+        "description": "Space Exploration Technologies Corp. (NASDAQ:SPCX) has reportedly stopped accepting new reservations for Falcon 9 rideshare missions, its most reliabl",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-falcon-9-wind-down-211841411.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/24 23:35",
+        "publishedAt": "09/26 06:18",
+        "score": 8
+      },
+      {
+        "title": "Anthropic Seeks Palantir-Style Control Ahead of IPO",
+        "description": "Future shareholders may get less say than expected",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-seeks-palantir-style-control-134606375.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/25 22:46",
+        "score": 8
+      },
+      {
+        "title": "Better Quantum Computing Stock: Nvidia vs. IonQ",
+        "description": "The GPU giant and the pure-play start-up are working together on quantum computing research.",
+        "url": "https://www.fool.com/investing/2026/09/25/better-quantum-computing-stock-nvidia-vs-ionq/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/25 21:54",
         "score": 8
       },
       {
         "title": "Nvidia, AMD Love This High-Tech Facilitator. So Does Wall Street.",
-        "description": "After Nvidia, AMD and Apple design the AI chips and TSMC makes them, TSE Technology steps in to complete the process.",
+        "description": "After Nvidia, AMD and Apple design the AI chips and TSMC makes them, ASE Technology steps in to complete the process.",
         "url": "https://finance.yahoo.com/m/b8eae4aa-f7ed-33bb-9966-deffb558b2ed/nvidia%2C-amd-love-this.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/25 05:00",
+        "publishedAt": "09/26 05:00",
         "score": 7
-      },
-      {
-        "title": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows",
-        "description": "A federal disclosure quietly buried inside a batch of monthly trades reveals the president holds a stake in one of his administration's most powerful",
-        "url": "https://247wallst.com/investing/2026/09/24/trump-bought-spacex-stock-weeks-after-the-ipo-filing-shows/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/24 22:20",
-        "score": 6
-      },
-      {
-        "title": "Alphabet Reportedly Values Its Anthropic Stake at $124 Billion. A $2 Trillion IPO Could Double It -- on Paper.",
-        "description": "One of these numbers could double in November -- on paper.",
-        "url": "https://www.fool.com/investing/2026/09/24/alphabet-values-its-anthropic-stake-at-usd124-billion-a-usd2-trillion-ipo-could-double-it-on-paper/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/25 06:24",
-        "score": 5
       }
     ]
   }
