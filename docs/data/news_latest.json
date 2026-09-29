@@ -1,229 +1,285 @@
 {
-  "generated_at_kst": "2026-09-28 10:00 KST",
-  "period": "09/27 07:00 ~ 09/28 07:00 KST",
+  "generated_at_kst": "2026-09-29 11:09 KST",
+  "period": "09/28 07:00 ~ 09/29 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "모기지 금리가 7%에 달하는데 집 대신 주식을 사는 것을 고려하시나요? S&P 500은 지난 10년 동안 주택 시장을 뒤흔들었습니다.",
-        "description": "\"주택 구입에는 매우 중요하지만 매우 다른 두 가지 결정, 즉 어디에 살 것인지, 그리고 저축한 막대한 금액을 어떻게 투자할 것인지 결정하는 것도 포함됩니다.\"",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/thinking-buying-stocks-instead-home-202006261.html?.tsrc=rss",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Treasury yields continue to climb",
+        "description": "Markets were on edge as US-Iran tensions resurfaced and concerns about AI safety intensified ahead of an economic data-packed week.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 05:20",
-        "score": 6
+        "publishedAt": "09/28 17:04",
+        "score": 14
       },
       {
-        "title": "S&P 500의 CAPE 비율이 닷컴 버블 이후 최고 수준을 기록했습니다. 역사적으로 배당주에 대한 의미는 다음과 같습니다.",
-        "description": "배당 성장주는 역사적으로 시장 폭풍을 겪었습니다.",
-        "url": "https://www.fool.com/investing/2026/09/27/the-s-and-p-500-s-cape-ratio-just-hit-its-highest-level-since-the-dot-com-bubble-here-s-what-that-s-historically-meant-for-dividend-stocks/?.tsrc=rss",
+        "title": "Nasdaq, S&P 500 Futures Fall As Oil Spikes On Trump’s Snub To Iran: MU, NVDA, SKHY, SPCX, NIO Stocks In Focus",
+        "description": "Retail traders are heading into a data-heavy week with bullish sentiment on SPY and QQQ.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-fall-as-oil-spikes-on-trump-snub-to-iran-mu-nvda-skhy-spcx-nio-stocks-in-focus/cZMSFEIRBQR?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 00:20",
-        "score": 6
+        "publishedAt": "09/28 17:36",
+        "score": 11
       },
       {
-        "title": "S&P 500에 \"매그니피센트 7\" 문제가 있습니까? 투자자가 알아야 할 사항은 다음과 같습니다.",
-        "description": "인공지능 혁명이 과대광고에 부응하지 못한다면 시장 전체가 이를 느낄 것입니다.",
-        "url": "https://www.fool.com/investing/2026/09/27/does-the-sp-500-have-a-magnificent-seven-problem-h/?.tsrc=rss",
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "description": "U.S. stock futures are trending higher early Monday as Wall Street weighs resilience in equities against a backdrop of surging Treasury yields and esc",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62013701/stock-market-will-sp-500-open-up-or-down-today-45?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/27 22:09",
-        "score": 6
+        "publishedAt": "09/28 15:11",
+        "score": 9
       },
       {
-        "title": "나스닥이 5%가 넘는 국채 수익률로 손익 분기점을 거부하는 이유",
-        "description": "10년 만기 국채 수익률이 성장주를 무너뜨릴 수준에 도달했지만 나스닥 100 지수는 계속해서 하락하기를 거부하고 있습니다. 그 이유는 다음과 같습니다.",
-        "url": "https://247wallst.com/investing/2026/09/27/why-the-nasdaq-refuses-to-break-even-with-treasury-yields-above-five-percent/?.tsrc=rss",
+        "title": "Nvidia's Record Buyback Couldn't Keep the Nasdaq Out of the Red on Monday Morning",
+        "description": "Nvidia announced the largest buyback in US history. The Nasdaq fell 1% anyway.",
+        "url": "https://www.fool.com/investing/2026/09/28/nvidias-record-buyback-couldnt-lift-the-nasdaq/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 04:15",
-        "score": 5
+        "publishedAt": "09/29 01:43",
+        "score": 8
       },
       {
-        "title": "지금 당장 주식 시장에 투자해야 할까요? 역사는 명확한 답을 제공합니다",
-        "description": "고점에 사야 할까? 대답은 당신을 놀라게 할 수도 있습니다.",
-        "url": "https://www.fool.com/investing/2026/09/27/should-you-really-invest-in-the-stock-market-right/?.tsrc=rss",
+        "title": "S&P 500's Newest Member Is Monday's Biggest Loser",
+        "description": "Bloom Energy, which joined the index on Sept. 21, was among the biggest S&P 500 stock losers in Monday's session.",
+        "url": "https://finance.yahoo.com/m/3f09d80c-e3a1-3601-8dc0-2a8c1d4332af/s%26p-500%27s-newest-member-is.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 01:29",
+        "publishedAt": "09/29 06:39",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "美주식에 몰린 해외자금…1년간 외국인 순매수 '역대 최대'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092778507",
-        "source": "hankyung.com",
-        "publishedAt": "09/27 21:49",
+        "title": "Korea's Retail Traders Just Made a $1.6 Billion Bet Against the Crowd as KOSPI Sinks",
+        "description": "Korean retail investors bought $1.6 billion in stocks as foreigners and institutions sold into the KOSPI's 2.70% drop.",
+        "url": "https://beincrypto.com/korea-retail-investors-kospi-selloff/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/28 17:54",
+        "score": 6
+      },
+      {
+        "title": "SK Hynix Drops 6% as Bloomberg Puts $100B Value on Potential Solidigm IPO; Micron and Western Digital Fall 4%",
+        "description": "A Bloomberg report on a potential Solidigm IPO sent shockwaves through memory stocks Monday morning, but the selloff raises a deeper question about wh",
+        "url": "https://247wallst.com/investing/2026/09/28/sk-hynix-drops-6-as-bloomberg-puts-100b-value-on-potential-solidigm-ipo-micron-and-western-digital-fall-4/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 00:03",
         "score": 5
       },
       {
-        "title": "\"코스피 4분기 7700 예상…국내보다 미국 주식 유망\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092776491",
-        "source": "hankyung.com",
-        "publishedAt": "09/27 17:06",
+        "title": "Samsung and SK Hynix Fell Over 5%. Here’s What Micron’s September 30 Report Must Show",
+        "description": "Key Stats for Micron StockCurrent Price: $1,082. 28Target Price (Mid): ~$1,520Street Target: ~$1,516Potential Total Return: ~41%Annualized IRR: ~9% /",
+        "url": "https://www.tikr.com/blog/samsung-and-sk-hynix-fell-over-5-heres-what-microns-september-30-report-must-show?ref=yahoofinance&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/28 23:41",
         "score": 5
+      },
+      {
+        "title": "네이버·다음, 해외 AI 접근 차단",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092800641",
+        "source": "hankyung.com",
+        "publishedAt": "09/28 17:20",
+        "score": 3
+      },
+      {
+        "title": "카카오 CA협의체 공동의장에…김도영 카카오X 대표 내정자",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026092800601",
+        "source": "hankyung.com",
+        "publishedAt": "09/28 17:19",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "뉴욕·상하이 증시, 美 PCE·고용 지표에 달린 '긴축 속도'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092776281",
-        "source": "hankyung.com",
-        "publishedAt": "09/27 17:33",
-        "score": 8
-      },
-      {
-        "title": "이형일, 첫 경제현안간담회…전기차 정책 논의",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609277830i",
-        "source": "hankyung.com",
-        "publishedAt": "09/27 21:00",
+        "title": "Why economic growth is emerging despite rising bond yields",
+        "description": "Despite bond yields (^TYX, ^TNX, ^FVX) continuing to climb, consumers remain committed to spending more, contributing to US economic growth. Yahoo Fin",
+        "url": "https://finance.yahoo.com/video/why-economic-growth-emerging-despite-192041879.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 04:20",
         "score": 1
       },
       {
-        "title": "美 장기채 급등에도 경제지표·증시 '호조'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092776671",
-        "source": "hankyung.com",
-        "publishedAt": "09/27 17:56",
+        "title": "Moody's Zandi warns that higher interest rates are already damaging the economy",
+        "description": "With more interest rate increases expected, Mark Zandi says the economic damage is already happening.",
+        "url": "https://finance.yahoo.com/economy/article/moodys-zandi-warns-that-higher-interest-rates-are-already-damaging-the-economy-175257674.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 02:52",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "국채 수익률이 20년 만에 최고 수준으로 급등하면서 미국 부채가 얼마나 더 악화될 수 있는지 알아보겠습니다.",
-        "description": "금리가 1%포인트 상승할 경우, 공공 부채는 2056년까지 GDP의 222%로 폭발적으로 증가할 것입니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/much-worse-u-debt-could-223952662.html?.tsrc=rss",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Treasury yields continue to climb",
+        "description": "Markets were on edge as US-Iran tensions resurfaced and concerns about AI safety intensified ahead of an economic data-packed week.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/27 07:39",
-        "score": 9
-      },
-      {
-        "title": "나스닥이 5%가 넘는 국채 수익률로 손익 분기점을 거부하는 이유",
-        "description": "10년 만기 국채 수익률이 성장주를 무너뜨릴 수준에 도달했지만 나스닥 100 지수는 계속해서 하락하기를 거부하고 있습니다. 그 이유는 다음과 같습니다.",
-        "url": "https://247wallst.com/investing/2026/09/27/why-the-nasdaq-refuses-to-break-even-with-treasury-yields-above-five-percent/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/28 04:15",
+        "publishedAt": "09/28 17:04",
         "score": 8
       },
       {
-        "title": "TLT는 최고치보다 절반 이상 하락했습니다. 그것은 거래인가, 함정인가?",
-        "description": "장기 국채는 최고 가치의 절반 이상을 잃었고 개인 투자자들은 금리 반전을 기대하며 계속해서 돈을 쏟고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/09/27/tlt-is-down-more-than-half-from-its-peak-is-it-a-bargain-or-a-trap/?.tsrc=rss",
+        "title": "How Failed Fed Chair Candidate David Zervos Can Help Scott Bessent Rescue the Treasury Department’s Credibility",
+        "description": "While the Fed's credibility has increased lately in investors' eyes, the same can't be said of Bessent's Treasury Department.",
+        "url": "https://www.barchart.com/story/news/4835650/how-failed-fed-chair-candidate-david-zervos-can-help-scott-bessent-rescue-the-treasury-departments-credibility?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 03:20",
+        "publishedAt": "09/29 00:40",
         "score": 3
       },
       {
-        "title": "환율·채권, 환율 1350원대…미·이란 종전협상 변수",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092776291",
-        "source": "hankyung.com",
-        "publishedAt": "09/27 17:33",
+        "title": "67-Year-Old Costs Himself $1,315 A Year In Taxes Using A Treasury Fund To Add $1,000 A Month In Income To His Social Security And Pension. If He’d Used SCHD Instead His Tax Bill Would Be Reduced By Over 60%",
+        "description": "A retired man collects Social Security and a pension, adds $1,000 a month from a popular Treasury fund, and ends up handing the IRS a bill he never ne",
+        "url": "https://247wallst.com/personal-finance/2026/09/28/67-year-old-costs-himself-1315-a-year-in-taxes-using-a-treasury-fund-to-add-1000-a-month-in-income-to-his-social-security-and-pension-if-hed-used-schd-instead-his-tax-bill-would-be-reduced-by-o/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/28 18:27",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "\"정유·석유화학도 '반도체 쏠림' 피해…종전 후에도 공급 부족\" [인터뷰+]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092341396",
-        "source": "hankyung.com",
-        "publishedAt": "09/28 06:30",
-        "score": 1
+        "title": "Newmont Stock Leads Gold Miners Lower as Gold Prices Plummet",
+        "description": "Newmont shares sink in tandem with declining gold prices. But should you buy the dip in NEM stock today? Let’s find out!",
+        "url": "https://www.barchart.com/story/news/4838461/newmont-stock-leads-gold-miners-lower-as-gold-prices-plummet?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 03:15",
+        "score": 5
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Oil Prices Rise",
+        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.3% and the actively tr",
+        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-131704585.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/28 22:17",
+        "score": 5
+      },
+      {
+        "title": "Bloom Energy Sinks 8% as Sharp Run Unwinds; Plug Power Drops 6%, FuelCell Eases",
+        "description": "Fuel cell stocks are giving back their gains fast, and the names that ran hardest are falling hardest, but the reasons behind the uneven selloff revea",
+        "url": "https://247wallst.com/investing/2026/09/28/bloom-energy-sinks-8-as-sharp-run-unwinds-plug-power-drops-6-fuelcell-eases/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 02:12",
+        "score": 4
+      },
+      {
+        "title": "Crescent Energy (CRGY) Falls More Steeply Than Broader Market: What Investors Need to Know",
+        "description": "Crescent Energy (CRGY) closed at $12.98 in the latest trading session, marking a -1.29% move from the prior day.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/crescent-energy-crgy-falls-more-211504846.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 06:15",
+        "score": 3
+      },
+      {
+        "title": "Optics Stocks Slide Despite Citi’s $11B Switching Forecast: Coherent and Applied Optoelectronics Drop 5%, Corning Falls 3%",
+        "description": "Citi just painted a picture of an $11 billion optical switching market, yet Coherent, Applied Optoelectronics, and Corning are all falling sharply wit",
+        "url": "https://247wallst.com/investing/2026/09/28/optics-stocks-slide-despite-citis-11b-switching-forecast-coherent-and-applied-optoelectronics-drop-5-corning-falls-3/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 02:52",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, 환율 1350원대…미·이란 종전협상 변수",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092776291",
-        "source": "hankyung.com",
-        "publishedAt": "09/27 17:33",
-        "score": 5
-      },
-      {
-        "title": "외환시장 24시간 개방에도…오전 2~9시 거래는 1%뿐",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026092776121",
-        "source": "hankyung.com",
-        "publishedAt": "09/27 17:52",
-        "score": 3
-      },
-      {
-        "title": "달러화에 '데드 크로스'가 다가오고 있다. 트럼프가 행복할 이유.",
-        "description": "지금 보지 마세요. 하지만 스콧 베센트(Scott Bessent) 미 재무장관이 재무장관에게 선언했을 때 옳았다고 믿을 수 있는 몇 가지 기술적인 이유가 있습니다.",
-        "url": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?.tsrc=rss",
+        "title": "Soaring T-note Yields Support the Dollar",
+        "description": "The dollar index (DXY00 ) rose by +0.24% on Monday. The dollar moved higher on Monday as T-note yields soared, with the 10-year T-note yield jumping t",
+        "url": "https://www.barchart.com/story/news/4839307/soaring-t-note-yields-support-the-dollar?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 04:21",
+        "publishedAt": "09/29 04:37",
+        "score": 1
+      },
+      {
+        "title": "Dollar Gains and Gold Slumps on Higher Crude Prices and T-note Yields",
+        "description": "The dollar index (DXY00 ) is up by +0.21% today. The dollar is moving higher today, amid the +2% jump in WTI crude oil, which raises inflation expecta",
+        "url": "https://www.barchart.com/story/news/4834538/dollar-gains-and-gold-slumps-on-higher-crude-prices-and-t-note-yields?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/28 23:36",
+        "score": 1
+      },
+      {
+        "title": "Semiconductor Front End Equipment Market Size, Share, and Forecast, 2026-2035 | AI Demand and 2nm Fab Investments Drive 7.2% CAGR Toward USD 182 Billion",
+        "description": "AI chip demand, leading-edge fab investments and CHIPS Act incentives are boosting orders, while ASML’s EUV monopoly and Asia-Pacific’s fab concentrat",
+        "url": "https://finance.yahoo.com/technology/articles/semiconductor-front-end-equipment-market-093600748.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/28 18:36",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "1 워렌 버핏의 주식 거래가 사상 최고치보다 21% 낮아 5년 안에 1,000달러 투자를 두 배로 늘릴 수 있습니다",
-        "description": "이는 대기업 포트폴리오에서 최고 품질의 사업 중 하나입니다.",
-        "url": "https://www.fool.com/investing/2026/09/27/top-warren-buffett-stock-double-1000-5-years/?.tsrc=rss",
+        "title": "Senate Probe Finds Iran Relied Heavily on Tether to Dodge Sanctions",
+        "description": "Iran relied heavily on Tether (CRYPTO: USDT) to move money outside the traditional banking system, according to a Senate Democratic investigation that",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62035015/iran-tether-usdt-senate-probe?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 06:50",
+        "publishedAt": "09/29 04:55",
+        "score": 6
+      },
+      {
+        "title": "Update: Wall Street Dips as US-Iran Standoff Keeps Traders Anxious",
+        "description": "(Updates with market moves at the end of the day, and other changes, if any.) Stocks on Wall Stre",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-dips-us-iran-211514161.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 06:15",
         "score": 1
       },
       {
-        "title": "Michael Burry는 Big Tech 주식 투자자들에게 엄중한 경고를 보냅니다.",
-        "description": "Michael Burry는 방금 5개의 대차대조표를 검토한 후 월스트리트의 어느 누구도 듣고 싶어하지 않는 경고를 가지고 돌아왔습니다.",
-        "url": "https://www.thestreet.com/investing/stocks/michael-burry-sends-a-stark-warning-to-big-tech-stock-investors?.tsrc=rss",
+        "title": "US stocks fall, bond yields rise as Middle East war drags on",
+        "description": "Wall Street stocks retreated Monday as US Treasury yields continued to climb after US President Donald Trump rejected Iran's offer of a seven-day truc",
+        "url": "https://finance.yahoo.com/energy/articles/oil-prices-spike-trump-rejects-034903535.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 02:33",
+        "publishedAt": "09/29 05:49",
         "score": 1
       },
       {
-        "title": "가격 예측: 용량 제약으로 인해 AI 붐이 가속화되면서 TSMC는 600달러에 도달할 수 있습니다.",
-        "description": "TSMC는 충분히 빠르게 구축할 수 없는 용량을 예약하고 있으며 600억 달러의 자본 베팅은 경영진이 시장이 아직 가격을 책정하지 않은 것을 보고 있음을 시사합니다.",
-        "url": "https://247wallst.com/investing/2026/09/27/price-prediction-tsmc-could-reach-600-as-capacity-constraints-drive-the-ai-boom-forward/?.tsrc=rss",
+        "title": "Soaring Yields Lead Traders to Snap Up Options on BlackRock ETFs",
+        "description": "Traders are piling into options tied to fixed-income ETFs at a record pace, in a rush to position portfolios with yields on 10-year and 30-year Treasu",
+        "url": "https://finance.yahoo.com/markets/options/articles/soaring-yields-lead-traders-snap-202005828.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 01:00",
+        "publishedAt": "09/29 05:20",
+        "score": 1
+      },
+      {
+        "title": "Microsoft’s AI Gains Can Push the Stock Higher. That’s Good News for Software Peers.",
+        "description": "Microsoft’s Azure business has cleared $100 billion in annual revenue and its stock is on a run. How high can it go?",
+        "url": "https://finance.yahoo.com/m/b6d41546-cafe-301e-8581-3a5f272e85c8/microsoft%E2%80%99s-ai-gains-can-push.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 03:16",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX보다 Nvidia를 소유하고 싶은 3가지 간단한 이유",
-        "description": "SpaceX가 많은 주목을 받고 있지만 Nvidia가 여전히 더 나은 선택입니다.",
-        "url": "https://www.fool.com/investing/2026/09/27/3-simple-reasons-i-d-rather-own-nvidia-than-spacex/?.tsrc=rss",
+        "title": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
+        "description": "Oil prices are rattling rate expectations again, and the chip sector is cracking under the pressure in ways that reveal a sharp divide between two of",
+        "url": "https://247wallst.com/investing/2026/09/28/intel-drops-4-on-oil-driven-rate-fears-nvidia-rises-3-on-record-150b-buyback-taiwan-semiconductor-slips/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 06:27",
-        "score": 9
+        "publishedAt": "09/28 23:33",
+        "score": 8
       },
       {
-        "title": "SpaceX vs. Tesla: 2027년 말에 어느 회사가 가장 큰 회사가 될까요?",
-        "description": "Elon Musk는 그의 관리하에 세계에서 가장 큰 두 개의 회사를 보유하고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/09/27/spacex-vs-tesla-which-will-be-the-largest-company/?.tsrc=rss",
+        "title": "IonQ Takes Quantum Computing to NVIDIA's Research Center: What's Next?",
+        "description": "IONQ is likely to deploy its Superion 256 system at NVIDIA's research center, linking quantum computing with AI infrastructure to advance scalable qua",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ionq-takes-quantum-computing-nvidias-115800773.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 06:05",
-        "score": 6
+        "publishedAt": "09/28 20:58",
+        "score": 8
       },
       {
-        "title": "월스트리트는 SpaceX를 매수로 생각합니다. 확실하지 않은 두 가지 이유는 다음과 같습니다.",
-        "description": "SpaceX의 현재 가치는 약 2조 달러에 이릅니다.",
-        "url": "https://www.fool.com/investing/2026/09/27/wall-street-spacex-stock-buy-reasons/?.tsrc=rss",
+        "title": "Apple and Nvidia Just Delivered a Major Boost for TSMC Chip Business",
+        "description": "TSMC Stock Gets a Fresh AI Catalyst as 2nm Orders Surge",
+        "url": "https://finance.yahoo.com/technology/articles/apple-nvidia-just-delivered-major-122230915.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 04:18",
-        "score": 6
+        "publishedAt": "09/28 21:22",
+        "score": 7
       },
       {
-        "title": "예측: 이 우주 주식은 향후 10년 동안 SpaceX를 능가할 것입니다",
-        "description": "장기적인 승자를 찾을 때는 작은 것이 더 강력합니다.",
-        "url": "https://www.fool.com/investing/2026/09/27/prediction-this-space-stock-will-outperform-spacex/?.tsrc=rss",
+        "title": "High-Bandwidth Memory (HBM) and Advanced Packaging Materials Market for AI Semiconductors, 2027-2037 | Hybrid Bonding, Glass Substrates, and Advanced Cooling Unlock Growth",
+        "description": "Target HBM, advanced packaging and cooling chokepoints, where taller stacks, larger packages and limited qualified suppliers strengthen ROI potentialD",
+        "url": "https://finance.yahoo.com/technology/ai/articles/high-bandwidth-memory-hbm-advanced-083600841.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/27 14:20",
-        "score": 6
+        "publishedAt": "09/28 17:36",
+        "score": 7
       },
       {
-        "title": "중국은 엔비디아의 AI 시장을 재개할 수도 있다. NVDA 주식은 월요일에 어떻게 반응할까요?",
-        "description": "중국은 Alibaba와 ByteDance가 Nvidia의 RTX PRO 5500을 구매하도록 하는 데 무게를 두고 있습니다. 월요일 NVDA 주식에 대한 의미는 다음과 같습니다.",
-        "url": "https://beincrypto.com/china-nvidia-chips-nvda-stock-monday/?.tsrc=rss",
+        "title": "Asia chip stocks slide as OpenAI pause revives AI slowdown fears",
+        "description": "Investing.com -- Asian chipmaking stocks fell on Monday as renewed concerns over the pace of artificial intelligence development weighed on the sector",
+        "url": "https://finance.yahoo.com/technology/ai/articles/asia-chip-stocks-slide-openai-034907224.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 04:00",
-        "score": 4
+        "publishedAt": "09/28 12:49",
+        "score": 7
       }
     ]
   }
