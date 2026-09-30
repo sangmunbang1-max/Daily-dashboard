@@ -1,284 +1,291 @@
 {
-  "generated_at_kst": "2026-09-29 11:09 KST",
-  "period": "09/28 07:00 ~ 09/29 07:00 KST",
+  "generated_at_kst": "2026-09-30 10:23 KST",
+  "period": "09/29 07:00 ~ 09/30 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Treasury yields continue to climb",
-        "description": "Markets were on edge as US-Iran tensions resurfaced and concerns about AI safety intensified ahead of an economic data-packed week.",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html?.tsrc=rss",
+        "title": "3 S&P 500 Stocks to Target This Week",
+        "description": "The S&P 500 (^GSPC) is full of established businesses, but only some continue to outperform the market. A few standout companies are thriving thanks t",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-target-105602355.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 17:04",
-        "score": 14
+        "publishedAt": "09/29 19:56",
+        "score": 6
       },
       {
-        "title": "Nasdaq, S&P 500 Futures Fall As Oil Spikes On Trump’s Snub To Iran: MU, NVDA, SKHY, SPCX, NIO Stocks In Focus",
-        "description": "Retail traders are heading into a data-heavy week with bullish sentiment on SPY and QQQ.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-fall-as-oil-spikes-on-trump-snub-to-iran-mu-nvda-skhy-spcx-nio-stocks-in-focus/cZMSFEIRBQR?.tsrc=rss",
+        "title": "Nasdaq Futures Tread Water After Monday Rout: MU, NVTS, NVO, KOD, SMMT, ASTS Stocks In Focus",
+        "description": "On Stocktwits, retail sentiment toward SPY and QQQ stayed ‘bullish.’",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-subdued-after-monday-rout-mu-nvts-nvo-kod-smmt-stocks-in-focus/cZMmHECRBgd?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 17:36",
-        "score": 11
+        "publishedAt": "09/29 17:31",
+        "score": 6
       },
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "description": "U.S. stock futures are trending higher early Monday as Wall Street weighs resilience in equities against a backdrop of surging Treasury yields and esc",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62013701/stock-market-will-sp-500-open-up-or-down-today-45?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "Dow Jones Software Leader Microsoft, Palantir, Micron, Palo Alto In Or Near Buy Zones",
+        "description": "Dow Jones software giant Microsoft, along with Palantir, Micron and Palo Alto, are in or near buy zones in the current stock market.",
+        "url": "https://finance.yahoo.com/m/6c841e39-941b-3c2e-a976-277baf5769f2/dow-jones-software-leader.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 15:11",
-        "score": 9
+        "publishedAt": "09/30 03:07",
+        "score": 5
       },
       {
-        "title": "Nvidia's Record Buyback Couldn't Keep the Nasdaq Out of the Red on Monday Morning",
-        "description": "Nvidia announced the largest buyback in US history. The Nasdaq fell 1% anyway.",
-        "url": "https://www.fool.com/investing/2026/09/28/nvidias-record-buyback-couldnt-lift-the-nasdaq/?.tsrc=rss",
+        "title": "CORRECTION FROM SOURCE: Video - CEO Clips: Hemlo Mining: A New Chapter for an Iconic Canadian Gold Mine",
+        "description": "Vancouver, British Columbia--(Newsfile Corp. - September 29, 2026) - Hemlo Mining Corp. (TSX: HMMC) - After more than 40 years of continuous mining an",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/correction-source-video-ceo-clips-175900733.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 01:43",
-        "score": 8
+        "publishedAt": "09/30 02:59",
+        "score": 5
       },
       {
-        "title": "S&P 500's Newest Member Is Monday's Biggest Loser",
-        "description": "Bloom Energy, which joined the index on Sept. 21, was among the biggest S&P 500 stock losers in Monday's session.",
-        "url": "https://finance.yahoo.com/m/3f09d80c-e3a1-3601-8dc0-2a8c1d4332af/s%26p-500%27s-newest-member-is.html?.tsrc=rss",
+        "title": "Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook",
+        "description": "Investing.com -- Wells Fargo Investment Institute on Tuesday revised its currency forecasts, projecting additional strength for the U.S. dollar throug",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/wells-fargo-revises-dollar-yen-151438812.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 06:39",
+        "publishedAt": "09/30 00:14",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "Korea's Retail Traders Just Made a $1.6 Billion Bet Against the Crowd as KOSPI Sinks",
-        "description": "Korean retail investors bought $1.6 billion in stocks as foreigners and institutions sold into the KOSPI's 2.70% drop.",
-        "url": "https://beincrypto.com/korea-retail-investors-kospi-selloff/?.tsrc=rss",
+        "title": "SK Hynix Stock Rises While Bernstein Cuts Target",
+        "description": "The firm expects high-bandwidth memory to stay less profitable than conventional DRAM in 2027",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stock-rises-while-191639930.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 17:54",
-        "score": 6
-      },
-      {
-        "title": "SK Hynix Drops 6% as Bloomberg Puts $100B Value on Potential Solidigm IPO; Micron and Western Digital Fall 4%",
-        "description": "A Bloomberg report on a potential Solidigm IPO sent shockwaves through memory stocks Monday morning, but the selloff raises a deeper question about wh",
-        "url": "https://247wallst.com/investing/2026/09/28/sk-hynix-drops-6-as-bloomberg-puts-100b-value-on-potential-solidigm-ipo-micron-and-western-digital-fall-4/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/29 00:03",
+        "publishedAt": "09/30 04:16",
         "score": 5
       },
       {
-        "title": "Samsung and SK Hynix Fell Over 5%. Here’s What Micron’s September 30 Report Must Show",
-        "description": "Key Stats for Micron StockCurrent Price: $1,082. 28Target Price (Mid): ~$1,520Street Target: ~$1,516Potential Total Return: ~41%Annualized IRR: ~9% /",
-        "url": "https://www.tikr.com/blog/samsung-and-sk-hynix-fell-over-5-heres-what-microns-september-30-report-must-show?ref=yahoofinance&.tsrc=rss",
+        "title": "Samsung Electronics Stock Gains as Helix Draws $1 Billion",
+        "description": "Samsung Electronics supplies half the investment as the group seeks strategic access to AI infrastructure growth.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stock-gains-helix-180007770.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 23:41",
+        "publishedAt": "09/30 03:00",
         "score": 5
       },
       {
-        "title": "네이버·다음, 해외 AI 접근 차단",
+        "title": "SK Hynix Climbs 3%, Outpaces U.S. Rivals Micron and Seagate as Traders Weigh Memory Demand",
+        "description": "SK Hynix is surging while Seagate slides and Micron barely budges, and that split inside the memory trade raises a question worth answering before the",
+        "url": "https://247wallst.com/investing/2026/09/29/sk-hynix-climbs-3-outpaces-u-s-rivals-micron-and-seagate-as-traders-weigh-memory-demand/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/30 01:58",
+        "score": 5
+      },
+      {
+        "title": "'14년 만에 결국…' 유튜브 잡겠다던 네이버TV '깜짝 근황'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026092800641",
+        "url": "https://www.hankyung.com/article/2026092926671",
         "source": "hankyung.com",
-        "publishedAt": "09/28 17:20",
+        "publishedAt": "09/29 17:27",
         "score": 3
       },
       {
-        "title": "카카오 CA협의체 공동의장에…김도영 카카오X 대표 내정자",
+        "title": "셀트리온, 1000억 규모 자사주 추가 매입…내년 주총서 소각 여부 결정",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026092800601",
+        "url": "https://www.hankyung.com/article/202609292392i",
         "source": "hankyung.com",
-        "publishedAt": "09/28 17:19",
+        "publishedAt": "09/29 15:47",
         "score": 3
       }
     ],
-    "macro": [
-      {
-        "title": "Why economic growth is emerging despite rising bond yields",
-        "description": "Despite bond yields (^TYX, ^TNX, ^FVX) continuing to climb, consumers remain committed to spending more, contributing to US economic growth. Yahoo Fin",
-        "url": "https://finance.yahoo.com/video/why-economic-growth-emerging-despite-192041879.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/29 04:20",
-        "score": 1
-      },
-      {
-        "title": "Moody's Zandi warns that higher interest rates are already damaging the economy",
-        "description": "With more interest rate increases expected, Mark Zandi says the economic damage is already happening.",
-        "url": "https://finance.yahoo.com/economy/article/moodys-zandi-warns-that-higher-interest-rates-are-already-damaging-the-economy-175257674.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/29 02:52",
-        "score": 1
-      }
-    ],
+    "macro": [],
     "bonds": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Treasury yields continue to climb",
-        "description": "Markets were on edge as US-Iran tensions resurfaced and concerns about AI safety intensified ahead of an economic data-packed week.",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html?.tsrc=rss",
+        "title": "Bitcoin Hovers at $84K as Treasury Yields Hold Near Multi-Year Highs",
+        "description": "Analysts point to crude prices capping non-yielding assets, while spot ETFs have taken money in for eight sessions running.",
+        "url": "https://decrypt.co/379541/bitcoin-hovers-at-84k-as-treasury-yields-hold-near-multi-year-highs?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 17:04",
+        "publishedAt": "09/29 23:07",
         "score": 8
       },
       {
-        "title": "How Failed Fed Chair Candidate David Zervos Can Help Scott Bessent Rescue the Treasury Department’s Credibility",
-        "description": "While the Fed's credibility has increased lately in investors' eyes, the same can't be said of Bessent's Treasury Department.",
-        "url": "https://www.barchart.com/story/news/4835650/how-failed-fed-chair-candidate-david-zervos-can-help-scott-bessent-rescue-the-treasury-departments-credibility?.tsrc=rss",
+        "title": "Gold Holds Near Seven-Week Low as Treasury Yields and Fed Rate Expectations Rise",
+        "description": "Gold prices edged higher on Tuesday after falling 4% in the previous session, but remained near a seven-week low as elevated energy prices and rising",
+        "url": "https://investorshub.advfn.com/market-news/article/37057/gold-holds-near-seven-week-low-as-treasury-yields-and-fed-rate-expectations-rise?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 00:40",
+        "publishedAt": "09/29 18:31",
+        "score": 8
+      },
+      {
+        "title": "30-year Treasury climbs to highest level since 2002",
+        "description": "Long-dated bond yields climbed on Tuesday, putting the Treasury market on track for its worst September since 2023.",
+        "url": "https://finance.yahoo.com/markets/article/30-year-treasury-climbs-to-highest-level-since-2002-132103385.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 22:21",
         "score": 3
       },
       {
-        "title": "67-Year-Old Costs Himself $1,315 A Year In Taxes Using A Treasury Fund To Add $1,000 A Month In Income To His Social Security And Pension. If He’d Used SCHD Instead His Tax Bill Would Be Reduced By Over 60%",
-        "description": "A retired man collects Social Security and a pension, adds $1,000 a month from a popular Treasury fund, and ends up handing the IRS a bill he never ne",
-        "url": "https://247wallst.com/personal-finance/2026/09/28/67-year-old-costs-himself-1315-a-year-in-taxes-using-a-treasury-fund-to-add-1000-a-month-in-income-to-his-social-security-and-pension-if-hed-used-schd-instead-his-tax-bill-would-be-reduced-by-o/?.tsrc=rss",
+        "title": "The Credit Rout Is No Longer a Distant Threat: 4 ETFs Show How a Looming Debt Collapse Could Hit Stocks",
+        "description": "If you want to know where stock market liquidity is actually headed, stop looking at headline equity indexes and start watching the credit “chain.”",
+        "url": "https://www.barchart.com/story/news/4863668/the-credit-rout-is-no-longer-a-distant-threat-4-etfs-show-how-a-looming-debt-collapse-could-hit-stocks?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 18:27",
-        "score": 3
+        "publishedAt": "09/30 04:14",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "Newmont Stock Leads Gold Miners Lower as Gold Prices Plummet",
-        "description": "Newmont shares sink in tandem with declining gold prices. But should you buy the dip in NEM stock today? Let’s find out!",
-        "url": "https://www.barchart.com/story/news/4838461/newmont-stock-leads-gold-miners-lower-as-gold-prices-plummet?.tsrc=rss",
+        "title": "Update: Wall Street Drifts Lower Despite Retreat in Oil Prices",
+        "description": "(Updates with market moves at the end of the day, and other changes, if any.) US equity benchmark",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-drifts-lower-despite-210422788.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 03:15",
+        "publishedAt": "09/30 06:04",
         "score": 5
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Oil Prices Rise",
-        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.3% and the actively tr",
-        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-131704585.html?.tsrc=rss",
+        "title": "Wells Fargo lowers gold price target amid rate concerns",
+        "description": "Investing.com -- Wells Fargo Investment Institute lowered its gold price targets on Tuesday, citing rising interest rates and a stronger dollar as fac",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/wells-fargo-lowers-gold-price-145838617.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 22:17",
+        "publishedAt": "09/29 23:58",
         "score": 5
       },
       {
-        "title": "Bloom Energy Sinks 8% as Sharp Run Unwinds; Plug Power Drops 6%, FuelCell Eases",
-        "description": "Fuel cell stocks are giving back their gains fast, and the names that ran hardest are falling hardest, but the reasons behind the uneven selloff revea",
-        "url": "https://247wallst.com/investing/2026/09/28/bloom-energy-sinks-8-as-sharp-run-unwinds-plug-power-drops-6-fuelcell-eases/?.tsrc=rss",
+        "title": "Stocks waver as oil prices fall, bond yields stabilize: AlphaCheck",
+        "description": "Here's the market action in the first few minutes of trading.",
+        "url": "https://finance.yahoo.com/markets/article/stocks-waver-as-oil-prices-fall-bond-yields-stabilize-alphacheck-135032178.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 02:12",
+        "publishedAt": "09/29 22:50",
+        "score": 5
+      },
+      {
+        "title": "Commerzbank Says Treasuries Continue Weakness as Oil Prices Keep Heading Up; US Dollar Is Supported",
+        "description": "Brent crude prices returned to move upwards following the latest Middle East headlines, as efforts t",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/commerzbank-says-treasuries-continue-weakness-110251253.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 20:02",
+        "score": 5
+      },
+      {
+        "title": "Bloom Energy Rallies 11% as Fuel Cell Selloff Reverses; FuelCell Surges 7%, Plug Power Rises 3%",
+        "description": "Fuel cell stocks are bouncing hard after a brutal selloff, but the same unanswered question that sparked the collapse is still hanging over the group,",
+        "url": "https://247wallst.com/investing/2026/09/29/bloom-energy-rallies-11-as-fuel-cell-selloff-reverses-fuelcell-surges-7-plug-power-rises-3/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 23:04",
         "score": 4
-      },
-      {
-        "title": "Crescent Energy (CRGY) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "description": "Crescent Energy (CRGY) closed at $12.98 in the latest trading session, marking a -1.29% move from the prior day.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/crescent-energy-crgy-falls-more-211504846.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/29 06:15",
-        "score": 3
-      },
-      {
-        "title": "Optics Stocks Slide Despite Citi’s $11B Switching Forecast: Coherent and Applied Optoelectronics Drop 5%, Corning Falls 3%",
-        "description": "Citi just painted a picture of an $11 billion optical switching market, yet Coherent, Applied Optoelectronics, and Corning are all falling sharply wit",
-        "url": "https://247wallst.com/investing/2026/09/28/optics-stocks-slide-despite-citis-11b-switching-forecast-coherent-and-applied-optoelectronics-drop-5-corning-falls-3/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/29 02:52",
-        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "Soaring T-note Yields Support the Dollar",
-        "description": "The dollar index (DXY00 ) rose by +0.24% on Monday. The dollar moved higher on Monday as T-note yields soared, with the 10-year T-note yield jumping t",
-        "url": "https://www.barchart.com/story/news/4839307/soaring-t-note-yields-support-the-dollar?.tsrc=rss",
+        "title": "Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook",
+        "description": "Investing.com -- Wells Fargo Investment Institute on Tuesday revised its currency forecasts, projecting additional strength for the U.S. dollar throug",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/wells-fargo-revises-dollar-yen-151438812.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 04:37",
+        "publishedAt": "09/30 00:14",
+        "score": 7
+      },
+      {
+        "title": "AI Jitters, Oil, Bond Outlooks Cap Wall Street Pre-Bell; Asia Off, Europe Up",
+        "description": "Wall Street futures were muted pre-bell Tuesday as traders awaited clarity on the AI sector, and wei",
+        "url": "https://finance.yahoo.com/markets/articles/ai-jitters-oil-bond-outlooks-111722481.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 20:17",
+        "score": 3
+      },
+      {
+        "title": "Dollar Firms With T-Note Yields",
+        "description": "The dollar index (DXY00 ) rose to a 2-month high today and is up by +0.20%. The dollar is climbing today as T-note yields rise. The dollar is also sup",
+        "url": "https://www.barchart.com/story/news/4858446/dollar-firms-with-t-note-yields?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/29 23:34",
         "score": 1
       },
       {
-        "title": "Dollar Gains and Gold Slumps on Higher Crude Prices and T-note Yields",
-        "description": "The dollar index (DXY00 ) is up by +0.21% today. The dollar is moving higher today, amid the +2% jump in WTI crude oil, which raises inflation expecta",
-        "url": "https://www.barchart.com/story/news/4834538/dollar-gains-and-gold-slumps-on-higher-crude-prices-and-t-note-yields?.tsrc=rss",
+        "title": "Posthaste: Never mind the greenback, now the Canadian dollar is losing ground to the Aussie buck",
+        "description": "Things are going to get worse for the loonie, before they get better, say economists",
+        "url": "https://financialpost.com/news/canadian-dollar-losing-ground-against-aussie-buck?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 23:36",
+        "publishedAt": "09/29 20:59",
         "score": 1
       },
       {
-        "title": "Semiconductor Front End Equipment Market Size, Share, and Forecast, 2026-2035 | AI Demand and 2nm Fab Investments Drive 7.2% CAGR Toward USD 182 Billion",
-        "description": "AI chip demand, leading-edge fab investments and CHIPS Act incentives are boosting orders, while ASML’s EUV monopoly and Asia-Pacific’s fab concentrat",
-        "url": "https://finance.yahoo.com/technology/articles/semiconductor-front-end-equipment-market-093600748.html?.tsrc=rss",
+        "title": "US Dollar Rises Early Tuesday Ahead of Packed Data, Fed Speaker Schedule",
+        "description": "The US dollar rose against its major trading partners early Tuesday, except for a decline versus the",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-tuesday-113954429.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 18:36",
+        "publishedAt": "09/29 20:39",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Senate Probe Finds Iran Relied Heavily on Tether to Dodge Sanctions",
-        "description": "Iran relied heavily on Tether (CRYPTO: USDT) to move money outside the traditional banking system, according to a Senate Democratic investigation that",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62035015/iran-tether-usdt-senate-probe?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "Crude Prices Pressured as More Oil Flows Through the Strait of Hormuz",
+        "description": "November WTI crude oil (CLX26 ) is down -0.98 (-1.06%) today, and November RBOB gasoline (RBX26 ) is down -0.0137 (-0.43%). Crude oil and gasoline pri",
+        "url": "https://www.barchart.com/story/news/4859724/crude-prices-pressured-as-more-oil-flows-through-the-strait-of-hormuz?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 04:55",
-        "score": 6
+        "publishedAt": "09/30 00:34",
+        "score": 5
       },
       {
-        "title": "Update: Wall Street Dips as US-Iran Standoff Keeps Traders Anxious",
-        "description": "(Updates with market moves at the end of the day, and other changes, if any.) Stocks on Wall Stre",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-dips-us-iran-211514161.html?.tsrc=rss",
+        "title": "As investor confidence sinks, maybe it's time traders should search for safety",
+        "description": "Investor confidence slipped to 42%, according to Investopedia, as more retail traders face a \"crisis of confidence\" in the markets (^DJI, ^IXIC, ^GSPC",
+        "url": "https://finance.yahoo.com/video/investor-confidence-sinks-maybe-time-212023939.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 06:15",
+        "publishedAt": "09/30 06:20",
         "score": 1
       },
       {
-        "title": "US stocks fall, bond yields rise as Middle East war drags on",
-        "description": "Wall Street stocks retreated Monday as US Treasury yields continued to climb after US President Donald Trump rejected Iran's offer of a seven-day truc",
-        "url": "https://finance.yahoo.com/energy/articles/oil-prices-spike-trump-rejects-034903535.html?.tsrc=rss",
+        "title": "How the Midterms Could Break the AI Trade",
+        "description": "U.S. midterm elections are right around the corner, and they may pose a threat to the driving force behind the bull market.",
+        "url": "https://finance.yahoo.com/m/4716543a-3b7d-3856-9c64-812fb49c37f0/how-the-midterms-could-break.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 05:49",
+        "publishedAt": "09/30 05:07",
         "score": 1
       },
       {
-        "title": "Soaring Yields Lead Traders to Snap Up Options on BlackRock ETFs",
-        "description": "Traders are piling into options tied to fixed-income ETFs at a record pace, in a rush to position portfolios with yields on 10-year and 30-year Treasu",
-        "url": "https://finance.yahoo.com/markets/options/articles/soaring-yields-lead-traders-snap-202005828.html?.tsrc=rss",
+        "title": "Warby Parker Stock Surges on Meta’s AI Glasses Push. Why Smart Eyewear Is Booming.",
+        "description": "Meta Platforms  ’ latest artificial-intelligence push is giving  Warby Parker  stock a solid lift.  The tech giant’s big crusade into smart eyewear ha",
+        "url": "https://finance.yahoo.com/m/06c38d71-5929-3aab-bf75-b67f4e919bdf/warby-parker-stock-surges-on.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 05:20",
+        "publishedAt": "09/30 03:38",
         "score": 1
       },
       {
-        "title": "Microsoft’s AI Gains Can Push the Stock Higher. That’s Good News for Software Peers.",
-        "description": "Microsoft’s Azure business has cleared $100 billion in annual revenue and its stock is on a run. How high can it go?",
-        "url": "https://finance.yahoo.com/m/b6d41546-cafe-301e-8581-3a5f272e85c8/microsoft%E2%80%99s-ai-gains-can-push.html?.tsrc=rss",
+        "title": "Dow Jones Software Leader Microsoft, Palantir, Micron, Palo Alto In Or Near Buy Zones",
+        "description": "Dow Jones software giant Microsoft, along with Palantir, Micron and Palo Alto, are in or near buy zones in the current stock market.",
+        "url": "https://finance.yahoo.com/m/6c841e39-941b-3c2e-a976-277baf5769f2/dow-jones-software-leader.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 03:16",
+        "publishedAt": "09/30 03:07",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
-        "description": "Oil prices are rattling rate expectations again, and the chip sector is cracking under the pressure in ways that reveal a sharp divide between two of",
-        "url": "https://247wallst.com/investing/2026/09/28/intel-drops-4-on-oil-driven-rate-fears-nvidia-rises-3-on-record-150b-buyback-taiwan-semiconductor-slips/?.tsrc=rss",
+        "title": "SpaceX Rises 2% After Starship’s First Orbital Satellite Deployment; Rocket Lab Falls 3%, AST SpaceMobile Drops 3%",
+        "description": "Starship just carried a working payload to orbit for the first time, yet the rest of the space sector sold off hard in response. Whether that split re",
+        "url": "https://247wallst.com/investing/2026/09/29/spacex-rises-2-after-starships-first-orbital-satellite-deployment-rocket-lab-falls-3-ast-spacemobile-drops-3/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 23:33",
-        "score": 8
+        "publishedAt": "09/30 02:54",
+        "score": 15
       },
       {
-        "title": "IonQ Takes Quantum Computing to NVIDIA's Research Center: What's Next?",
-        "description": "IONQ is likely to deploy its Superion 256 system at NVIDIA's research center, linking quantum computing with AI infrastructure to advance scalable qua",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ionq-takes-quantum-computing-nvidias-115800773.html?.tsrc=rss",
+        "title": "TSMC's 2nm Push Could Create a New Winner in the AI Chip Boom",
+        "description": "Wells Fargo sees TSMC's potential increase in advanced-chip production as an additional opportunity for semiconductor equipment companies.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tsmcs-2nm-push-could-create-182110589.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 20:58",
-        "score": 8
+        "publishedAt": "09/30 03:21",
+        "score": 10
       },
       {
-        "title": "Apple and Nvidia Just Delivered a Major Boost for TSMC Chip Business",
-        "description": "TSMC Stock Gets a Fresh AI Catalyst as 2nm Orders Surge",
-        "url": "https://finance.yahoo.com/technology/articles/apple-nvidia-just-delivered-major-122230915.html?.tsrc=rss",
+        "title": "Nvidia, Anthropic CEOs to Attend Trump Meeting on AI Risks",
+        "description": "Nvidia Corp. Chief Executive Officer Jensen Huang, Anthropic PBC head Dario Amodei and Palantir Technologies Inc. CEO Alex Karp are slated to attend a",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-anthropic-ceos-attend-trump-134016185.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 21:22",
+        "publishedAt": "09/29 22:40",
+        "score": 9
+      },
+      {
+        "title": "I've Covered Palantir for 5 Years. Here's How to Know if the Artificial Intelligence (AI) Stock Is Overvalued.",
+        "description": "After covering Palantir for several years, arguments over the company's valuation always seem to rise to the surface.",
+        "url": "https://www.fool.com/investing/2026/09/29/ive-covered-palantir-for-5-years-heres-how-to-know/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/30 04:47",
         "score": 7
       },
       {
-        "title": "High-Bandwidth Memory (HBM) and Advanced Packaging Materials Market for AI Semiconductors, 2027-2037 | Hybrid Bonding, Glass Substrates, and Advanced Cooling Unlock Growth",
-        "description": "Target HBM, advanced packaging and cooling chokepoints, where taller stacks, larger packages and limited qualified suppliers strengthen ROI potentialD",
-        "url": "https://finance.yahoo.com/technology/ai/articles/high-bandwidth-memory-hbm-advanced-083600841.html?.tsrc=rss",
+        "title": "SpaceX Flew the Most Powerful Rocket Ever Built and the Stock Fell Anyway",
+        "description": "Starship pulled off one of the most ambitious orbital missions in history on Monday morning, and investors sold the stock anyway. The reason says some",
+        "url": "https://247wallst.com/investing/2026/09/29/spacex-flew-the-most-powerful-rocket-ever-built-and-the-stock-fell-anyway/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/28 17:36",
-        "score": 7
-      },
-      {
-        "title": "Asia chip stocks slide as OpenAI pause revives AI slowdown fears",
-        "description": "Investing.com -- Asian chipmaking stocks fell on Monday as renewed concerns over the pace of artificial intelligence development weighed on the sector",
-        "url": "https://finance.yahoo.com/technology/ai/articles/asia-chip-stocks-slide-openai-034907224.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/28 12:49",
+        "publishedAt": "09/29 22:10",
         "score": 7
       }
     ]
