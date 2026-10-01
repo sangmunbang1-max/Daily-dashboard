@@ -1,292 +1,325 @@
 {
-  "generated_at_kst": "2026-09-30 10:23 KST",
-  "period": "09/29 07:00 ~ 09/30 07:00 KST",
+  "generated_at_kst": "2026-10-01 10:24 KST",
+  "period": "09/30 07:00 ~ 10/01 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "3 S&P 500 Stocks to Target This Week",
-        "description": "The S&P 500 (^GSPC) is full of established businesses, but only some continue to outperform the market. A few standout companies are thriving thanks t",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-target-105602355.html?.tsrc=rss",
+        "title": "Goldman pushes Fed rate hike to December after cooler inflation",
+        "description": "Investing.com -- Goldman Sachs has pushed back its forecast for the next Federal Reserve rate hike from October to December following a softer-than-ex",
+        "url": "https://finance.yahoo.com/economy/policy/articles/goldman-pushes-fed-rate-hike-193329752.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 19:56",
+        "publishedAt": "10/01 04:33",
+        "score": 10
+      },
+      {
+        "title": "Dollar Slips on Reduced Fed Rate Hike Chances",
+        "description": "The dollar index (DXY00 ) is down by -0.17% today. US economic news today showing weaker-than-expected inflation readings on Aug core PCE price index",
+        "url": "https://www.barchart.com/story/news/4882484/dollar-slips-on-reduced-fed-rate-hike-chances?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/30 23:37",
+        "score": 10
+      },
+      {
+        "title": "Stock market today: Dow, S&P 500 post monthly losses in September as Treasury yields climb",
+        "description": "US stock futures steadied on Wednesday after Treasury yields advanced to fresh multidecade highs and investors awaited the latest signal on sticky inf",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-30-dow-sp-500-nasdaq-080339262.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/30 17:03",
+        "score": 9
+      },
+      {
+        "title": "Stock Market Today, Sept. 30: Nvidia Authorizes $150B Buyback, Lifting Total to $235B",
+        "description": "Today, Sept. 30, 2026, the AI chip giant reinforced management confidence with an expanded repurchase program through 2028.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/30/stock-market-today-sept-30-nvidia-authorizes-usd150b-buyback-lifting-total-to-usd235b/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 06:40",
+        "score": 7
+      },
+      {
+        "title": "S&P 500, Dow End Lower As Investors Shrug Off Cooler-Than-Expected Inflation Data — MGM, SPCX, AAPL, TSM In Focus",
+        "description": "Dow ended the month lower, its first monthly decline since March this year.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-investors-shrug-off-cooler-than-expected-inflation-data-mgm-spcx-aapl-tsm-in-focus/cZMFmUrRBL1?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 06:23",
         "score": 6
-      },
-      {
-        "title": "Nasdaq Futures Tread Water After Monday Rout: MU, NVTS, NVO, KOD, SMMT, ASTS Stocks In Focus",
-        "description": "On Stocktwits, retail sentiment toward SPY and QQQ stayed ‘bullish.’",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-subdued-after-monday-rout-mu-nvts-nvo-kod-smmt-stocks-in-focus/cZMmHECRBgd?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/29 17:31",
-        "score": 6
-      },
-      {
-        "title": "Dow Jones Software Leader Microsoft, Palantir, Micron, Palo Alto In Or Near Buy Zones",
-        "description": "Dow Jones software giant Microsoft, along with Palantir, Micron and Palo Alto, are in or near buy zones in the current stock market.",
-        "url": "https://finance.yahoo.com/m/6c841e39-941b-3c2e-a976-277baf5769f2/dow-jones-software-leader.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 03:07",
-        "score": 5
-      },
-      {
-        "title": "CORRECTION FROM SOURCE: Video - CEO Clips: Hemlo Mining: A New Chapter for an Iconic Canadian Gold Mine",
-        "description": "Vancouver, British Columbia--(Newsfile Corp. - September 29, 2026) - Hemlo Mining Corp. (TSX: HMMC) - After more than 40 years of continuous mining an",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/correction-source-video-ceo-clips-175900733.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 02:59",
-        "score": 5
-      },
-      {
-        "title": "Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook",
-        "description": "Investing.com -- Wells Fargo Investment Institute on Tuesday revised its currency forecasts, projecting additional strength for the U.S. dollar throug",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/wells-fargo-revises-dollar-yen-151438812.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 00:14",
-        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "SK Hynix Stock Rises While Bernstein Cuts Target",
-        "description": "The firm expects high-bandwidth memory to stay less profitable than conventional DRAM in 2027",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stock-rises-while-191639930.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 04:16",
-        "score": 5
-      },
-      {
-        "title": "Samsung Electronics Stock Gains as Helix Draws $1 Billion",
-        "description": "Samsung Electronics supplies half the investment as the group seeks strategic access to AI infrastructure growth.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stock-gains-helix-180007770.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 03:00",
-        "score": 5
-      },
-      {
-        "title": "SK Hynix Climbs 3%, Outpaces U.S. Rivals Micron and Seagate as Traders Weigh Memory Demand",
-        "description": "SK Hynix is surging while Seagate slides and Micron barely budges, and that split inside the memory trade raises a question worth answering before the",
-        "url": "https://247wallst.com/investing/2026/09/29/sk-hynix-climbs-3-outpaces-u-s-rivals-micron-and-seagate-as-traders-weigh-memory-demand/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 01:58",
-        "score": 5
-      },
-      {
-        "title": "'14년 만에 결국…' 유튜브 잡겠다던 네이버TV '깜짝 근황'",
+        "title": "3분기 거래대금 무너지며 코스피 6800선 마감…4분기는? [분석+]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026092926671",
+        "url": "https://www.hankyung.com/article/2026093053446",
         "source": "hankyung.com",
-        "publishedAt": "09/29 17:27",
-        "score": 3
+        "publishedAt": "10/01 06:30",
+        "score": 8
       },
       {
-        "title": "셀트리온, 1000억 규모 자사주 추가 매입…내년 주총서 소각 여부 결정",
+        "title": "주성엔지니어링, 에코프로비엠 제쳤다…코스닥 시총 상위 소부장 포진",
         "description": "",
-        "url": "https://www.hankyung.com/article/202609292392i",
+        "url": "https://www.hankyung.com/article/2026093049096",
         "source": "hankyung.com",
-        "publishedAt": "09/29 15:47",
+        "publishedAt": "10/01 06:30",
+        "score": 5
+      },
+      {
+        "title": "Broadcom vs. SK Hynix: Which Technology Stock Is a Better Buy in 2026?",
+        "description": "Broadcom boasts a 36% net margin and $26.9B in free cash flow, while SK hynix commands a 44% margin with a 4x lower valuation multiple.",
+        "url": "https://www.fool.com/coverage/better-buy/2026/09/30/broadcom-vs-sk-hynix-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/30 23:35",
+        "score": 5
+      },
+      {
+        "title": "Arbitral Tribunal Reaffirms Korea's Liability to Elliott for Corrupt Intervention in 2015 Samsung Merger",
+        "description": "Elliott Investment Management L.P. (\"Elliott\"), today issued the following statement:",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/arbitral-tribunal-reaffirms-koreas-liability-183500069.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 03:35",
+        "score": 1
+      },
+      {
+        "title": "아리바이오, 우회상장 무산",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026093055611",
+        "source": "hankyung.com",
+        "publishedAt": "09/30 17:34",
+        "score": 1
+      }
+    ],
+    "macro": [
+      {
+        "title": "S&P 500, Dow End Lower As Investors Shrug Off Cooler-Than-Expected Inflation Data — MGM, SPCX, AAPL, TSM In Focus",
+        "description": "Dow ended the month lower, its first monthly decline since March this year.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-investors-shrug-off-cooler-than-expected-inflation-data-mgm-spcx-aapl-tsm-in-focus/cZMFmUrRBL1?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 06:23",
+        "score": 5
+      },
+      {
+        "title": "EXCLUSIVE: Another Warsh Rate Hike Is Hard to Justify After Core PCE Undershoots, Says Truflation's Oliver Rust",
+        "description": "Another Federal Reserve rate hike is hard to justify, Truflation Head of Data Oliver Rust told Benzinga Wednesday, arguing underlying inflation is coo",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62090201/fed-rate-hike-core-pce-truflation-oliver-rust?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 03:44",
+        "score": 5
+      },
+      {
+        "title": "Stock Market Midday, Sept. 30: Markets Rise on Softer Inflation Data, Investors Await Micron Earnings",
+        "description": "Today, Sept. 30, 2026, softer PCE growth is supporting sentiment amid heightened single-stock volatility.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/30/stock-market-midday-sept-30-markets-rise-on-softer-inflation-data-investors-await-micron-earnings/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 01:39",
+        "score": 5
+      },
+      {
+        "title": "What cooler PCE inflation means for bitcoin and crypto",
+        "description": "Scott Melker discusses the latest Personal Consumption Expenditures (PCE) report, the Federal Reserve's preferred inflation gauge, which showed prices",
+        "url": "https://finance.yahoo.com/video/cooler-pce-inflation-means-bitcoin-155442093.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 00:54",
+        "score": 5
+      },
+      {
+        "title": "US Dollar Falls Early Wednesday Ahead of September ADP Private Payrolls",
+        "description": "The US dollar fell against its major trading partners early Wednesday ahead of the release of ADP pr",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-wednesday-113700946.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "09/30 20:37",
         "score": 3
       }
     ],
-    "macro": [],
     "bonds": [
       {
-        "title": "Bitcoin Hovers at $84K as Treasury Yields Hold Near Multi-Year Highs",
-        "description": "Analysts point to crude prices capping non-yielding assets, while spot ETFs have taken money in for eight sessions running.",
-        "url": "https://decrypt.co/379541/bitcoin-hovers-at-84k-as-treasury-yields-hold-near-multi-year-highs?.tsrc=rss",
+        "title": "Stock market today: Dow, S&P 500 post monthly losses in September as Treasury yields climb",
+        "description": "US stock futures steadied on Wednesday after Treasury yields advanced to fresh multidecade highs and investors awaited the latest signal on sticky inf",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-30-dow-sp-500-nasdaq-080339262.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 23:07",
+        "publishedAt": "09/30 17:03",
         "score": 8
       },
       {
-        "title": "Gold Holds Near Seven-Week Low as Treasury Yields and Fed Rate Expectations Rise",
-        "description": "Gold prices edged higher on Tuesday after falling 4% in the previous session, but remained near a seven-week low as elevated energy prices and rising",
-        "url": "https://investorshub.advfn.com/market-news/article/37057/gold-holds-near-seven-week-low-as-treasury-yields-and-fed-rate-expectations-rise?.tsrc=rss",
+        "title": "Scott Bessent Hires 'Wall Street Geek' David Zervos to Advise Treasury Amid Rising Yields: 'Whether It’s Trade, Whether It’s War, He’s Stepped Up'",
+        "description": "Treasury Secretary Scott Bessent appointed Jefferies strategist David Zervos as a department counselor to advise the agency on rising bond yields. A ‘",
+        "url": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-hires-wall-street-213130285.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 18:31",
-        "score": 8
-      },
-      {
-        "title": "30-year Treasury climbs to highest level since 2002",
-        "description": "Long-dated bond yields climbed on Tuesday, putting the Treasury market on track for its worst September since 2023.",
-        "url": "https://finance.yahoo.com/markets/article/30-year-treasury-climbs-to-highest-level-since-2002-132103385.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/29 22:21",
+        "publishedAt": "10/01 06:31",
         "score": 3
       },
       {
-        "title": "The Credit Rout Is No Longer a Distant Threat: 4 ETFs Show How a Looming Debt Collapse Could Hit Stocks",
-        "description": "If you want to know where stock market liquidity is actually headed, stop looking at headline equity indexes and start watching the credit “chain.”",
-        "url": "https://www.barchart.com/story/news/4863668/the-credit-rout-is-no-longer-a-distant-threat-4-etfs-show-how-a-looming-debt-collapse-could-hit-stocks?.tsrc=rss",
+        "title": "Paramount Bonds Yield 9% Ahead of Massive Debt Sale. Is It Time to Buy?",
+        "description": "Paramount Skydance is selling about $52 billion of debt to finance its $81 billion cash purchase of Warner Bros. Discovery.",
+        "url": "https://finance.yahoo.com/m/0718cdd0-0a48-3b43-a67e-f4992f441a42/paramount-bonds-yield-9%25.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/30 04:14",
+        "publishedAt": "10/01 06:42",
         "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "Update: Wall Street Drifts Lower Despite Retreat in Oil Prices",
-        "description": "(Updates with market moves at the end of the day, and other changes, if any.) US equity benchmark",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-drifts-lower-despite-210422788.html?.tsrc=rss",
+        "title": "Shrinking Gasoline and Diesel Supplies Lifts Crude Oil Prices",
+        "description": "November WTI crude oil (CLX26 ) closed up +1.04 (+1.16%) on Wednesday, and November RBOB gasoline (RBX26 ) closed up +0.1282 (+4.09%). Crude oil and g",
+        "url": "https://www.barchart.com/story/news/4888064/shrinking-gasoline-and-diesel-supplies-lifts-crude-oil-prices?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/30 06:04",
+        "publishedAt": "10/01 04:15",
+        "score": 10
+      },
+      {
+        "title": "Global stocks mixed as markets weigh higher oil prices, bond yields",
+        "description": "Wall Street stocks finished mixed Wednesday after US data gave a reassuring picture on the economy while lofty bond yields weighed on sentiment.That n",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-temper-gains-oil-pares-024801869.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 05:36",
         "score": 5
       },
       {
-        "title": "Wells Fargo lowers gold price target amid rate concerns",
-        "description": "Investing.com -- Wells Fargo Investment Institute lowered its gold price targets on Tuesday, citing rising interest rates and a stronger dollar as fac",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/wells-fargo-lowers-gold-price-145838617.html?.tsrc=rss",
+        "title": "Persian Gulf crude oil flows have largely recovered. For diesel and gasoline, it's more complicated.",
+        "description": "While crude oil exports from the Persian Gulf region have returned to roughly 98% of their pre-war levels, product exports — of diesel, gasoline, and",
+        "url": "https://finance.yahoo.com/markets/commodities/article/persian-gulf-crude-oil-flows-have-largely-recovered-for-diesel-and-gasoline-its-more-complicated-190335563.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 23:58",
+        "publishedAt": "10/01 04:03",
         "score": 5
       },
       {
-        "title": "Stocks waver as oil prices fall, bond yields stabilize: AlphaCheck",
-        "description": "Here's the market action in the first few minutes of trading.",
-        "url": "https://finance.yahoo.com/markets/article/stocks-waver-as-oil-prices-fall-bond-yields-stabilize-alphacheck-135032178.html?.tsrc=rss",
+        "title": "Wells Fargo resets gold price target amid rate concern",
+        "description": "Gold has been on a tear. Wells Fargo just quietly changed its mind about where it ends up.",
+        "url": "https://www.thestreet.com/investing/wells-fargo-resets-gold-price-target-amid-rate-concern?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 22:50",
+        "publishedAt": "10/01 02:17",
         "score": 5
       },
       {
-        "title": "Commerzbank Says Treasuries Continue Weakness as Oil Prices Keep Heading Up; US Dollar Is Supported",
-        "description": "Brent crude prices returned to move upwards following the latest Middle East headlines, as efforts t",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/commerzbank-says-treasuries-continue-weakness-110251253.html?.tsrc=rss",
+        "title": "Sector Update: Energy Stocks Rise Late Afternoon",
+        "description": "Energy stocks advanced late Wednesday afternoon, with the NYSE Energy Sector Index rising 0.6% and t",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-afternoon-200406815.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 20:02",
-        "score": 5
-      },
-      {
-        "title": "Bloom Energy Rallies 11% as Fuel Cell Selloff Reverses; FuelCell Surges 7%, Plug Power Rises 3%",
-        "description": "Fuel cell stocks are bouncing hard after a brutal selloff, but the same unanswered question that sparked the collapse is still hanging over the group,",
-        "url": "https://247wallst.com/investing/2026/09/29/bloom-energy-rallies-11-as-fuel-cell-selloff-reverses-fuelcell-surges-7-plug-power-rises-3/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/29 23:04",
-        "score": 4
+        "publishedAt": "10/01 05:04",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook",
-        "description": "Investing.com -- Wells Fargo Investment Institute on Tuesday revised its currency forecasts, projecting additional strength for the U.S. dollar throug",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/wells-fargo-revises-dollar-yen-151438812.html?.tsrc=rss",
+        "title": "‘No way’ the yuan challenges the U.S. dollar—though it might gain ground against the yen and the pound, says Standard Chartered’s China CEO",
+        "description": "“There is no way—at least in my career—for the RMB to challenge the USD,” Jean Lu said during a media roundtable in Singapore.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/no-way-yuan-challenges-u-075053674.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/30 00:14",
+        "publishedAt": "09/30 16:50",
         "score": 7
       },
       {
-        "title": "AI Jitters, Oil, Bond Outlooks Cap Wall Street Pre-Bell; Asia Off, Europe Up",
-        "description": "Wall Street futures were muted pre-bell Tuesday as traders awaited clarity on the AI sector, and wei",
-        "url": "https://finance.yahoo.com/markets/articles/ai-jitters-oil-bond-outlooks-111722481.html?.tsrc=rss",
+        "title": "US Dollar Price Forecast: Dollar Holds Firm as Fed Bets Ease, EUR/USD and GBP/USD Struggle",
+        "description": "Fed hike bets ease ahead of PCE, but elevated Treasury yields support DXY as EUR/USD and GBP/USD remain under pressure.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-061618311.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 20:17",
-        "score": 3
+        "publishedAt": "09/30 15:16",
+        "score": 2
       },
       {
-        "title": "Dollar Firms With T-Note Yields",
-        "description": "The dollar index (DXY00 ) rose to a 2-month high today and is up by +0.20%. The dollar is climbing today as T-note yields rise. The dollar is also sup",
-        "url": "https://www.barchart.com/story/news/4858446/dollar-firms-with-t-note-yields?.tsrc=rss",
+        "title": "Dollar Slips on Reduced Fed Rate Hike Chances",
+        "description": "The dollar index (DXY00 ) is down by -0.17% today. US economic news today showing weaker-than-expected inflation readings on Aug core PCE price index",
+        "url": "https://www.barchart.com/story/news/4882484/dollar-slips-on-reduced-fed-rate-hike-chances?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 23:34",
+        "publishedAt": "09/30 23:37",
         "score": 1
       },
       {
-        "title": "Posthaste: Never mind the greenback, now the Canadian dollar is losing ground to the Aussie buck",
-        "description": "Things are going to get worse for the loonie, before they get better, say economists",
-        "url": "https://financialpost.com/news/canadian-dollar-losing-ground-against-aussie-buck?.tsrc=rss",
+        "title": "US Dollar Falls Early Wednesday Ahead of September ADP Private Payrolls",
+        "description": "The US dollar fell against its major trading partners early Wednesday ahead of the release of ADP pr",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-wednesday-113700946.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 20:59",
+        "publishedAt": "09/30 20:37",
         "score": 1
       },
       {
-        "title": "US Dollar Rises Early Tuesday Ahead of Packed Data, Fed Speaker Schedule",
-        "description": "The US dollar rose against its major trading partners early Tuesday, except for a decline versus the",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-tuesday-113954429.html?.tsrc=rss",
+        "title": "BCA raises dollar target on widening real-rate gap and resilient growth",
+        "description": "Investing.com - The U.S. dollar is poised for a final rally to cap its multi-month cycle as an artificial intelligence-driven capital expenditure boom",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/bca-raises-dollar-target-widening-104221267.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 20:39",
+        "publishedAt": "09/30 19:42",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Crude Prices Pressured as More Oil Flows Through the Strait of Hormuz",
-        "description": "November WTI crude oil (CLX26 ) is down -0.98 (-1.06%) today, and November RBOB gasoline (RBX26 ) is down -0.0137 (-0.43%). Crude oil and gasoline pri",
-        "url": "https://www.barchart.com/story/news/4859724/crude-prices-pressured-as-more-oil-flows-through-the-strait-of-hormuz?.tsrc=rss",
+        "title": "Big Pharma Got Its Tariff Exemption. The Biotech ETF Barely Blinked",
+        "description": "A 100% tariff on imported drugs just expanded to cover every drugmaker in the country, yet the biotech market's most closely watched fund treated it l",
+        "url": "https://247wallst.com/investing/2026/09/30/big-pharma-got-its-tariff-exemption-the-biotech-etf-barely-blinked/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/30 00:34",
-        "score": 5
+        "publishedAt": "10/01 04:35",
+        "score": 3
       },
       {
-        "title": "As investor confidence sinks, maybe it's time traders should search for safety",
-        "description": "Investor confidence slipped to 42%, according to Investopedia, as more retail traders face a \"crisis of confidence\" in the markets (^DJI, ^IXIC, ^GSPC",
-        "url": "https://finance.yahoo.com/video/investor-confidence-sinks-maybe-time-212023939.html?.tsrc=rss",
+        "title": "Scott Bessent Hires 'Wall Street Geek' David Zervos to Advise Treasury Amid Rising Yields: 'Whether It’s Trade, Whether It’s War, He’s Stepped Up'",
+        "description": "Treasury Secretary Scott Bessent appointed Jefferies strategist David Zervos as a department counselor to advise the agency on rising bond yields. A ‘",
+        "url": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-hires-wall-street-213130285.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/30 06:20",
+        "publishedAt": "10/01 06:31",
+        "score": 2
+      },
+      {
+        "title": "Unity Software Surges 5% as Traders Weigh Meta Platforms VR Glasses Support; Adobe Rises 3%, Intuit Adds 2%",
+        "description": "Unity Software jumped after announcing day-one support for Meta's next-generation VR headset, but a timely product catalyst and a struggling business",
+        "url": "https://247wallst.com/investing/2026/09/30/unity-software-surges-5-as-traders-weigh-meta-platforms-vr-glasses-support-adobe-rises-3-intuit-adds-2/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 03:12",
+        "score": 2
+      },
+      {
+        "title": "Palantir CEO Karp drops \"Warfighter\" hot take before super intelligence meeting at White House",
+        "description": "Karp’s latest remarks put Palantir’s AI promise under scrutiny.",
+        "url": "https://www.thestreet.com/investing/stocks/palantir-karp-ai-strategy-investors-superintelligence-meeting-white-house?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 05:33",
         "score": 1
       },
       {
-        "title": "How the Midterms Could Break the AI Trade",
-        "description": "U.S. midterm elections are right around the corner, and they may pose a threat to the driving force behind the bull market.",
-        "url": "https://finance.yahoo.com/m/4716543a-3b7d-3856-9c64-812fb49c37f0/how-the-midterms-could-break.html?.tsrc=rss",
+        "title": "EXCLUSIVE: Another Warsh Rate Hike Is Hard to Justify After Core PCE Undershoots, Says Truflation's Oliver Rust",
+        "description": "Another Federal Reserve rate hike is hard to justify, Truflation Head of Data Oliver Rust told Benzinga Wednesday, arguing underlying inflation is coo",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62090201/fed-rate-hike-core-pce-truflation-oliver-rust?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/30 05:07",
-        "score": 1
-      },
-      {
-        "title": "Warby Parker Stock Surges on Meta’s AI Glasses Push. Why Smart Eyewear Is Booming.",
-        "description": "Meta Platforms  ’ latest artificial-intelligence push is giving  Warby Parker  stock a solid lift.  The tech giant’s big crusade into smart eyewear ha",
-        "url": "https://finance.yahoo.com/m/06c38d71-5929-3aab-bf75-b67f4e919bdf/warby-parker-stock-surges-on.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 03:38",
-        "score": 1
-      },
-      {
-        "title": "Dow Jones Software Leader Microsoft, Palantir, Micron, Palo Alto In Or Near Buy Zones",
-        "description": "Dow Jones software giant Microsoft, along with Palantir, Micron and Palo Alto, are in or near buy zones in the current stock market.",
-        "url": "https://finance.yahoo.com/m/6c841e39-941b-3c2e-a976-277baf5769f2/dow-jones-software-leader.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 03:07",
+        "publishedAt": "10/01 03:44",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX Rises 2% After Starship’s First Orbital Satellite Deployment; Rocket Lab Falls 3%, AST SpaceMobile Drops 3%",
-        "description": "Starship just carried a working payload to orbit for the first time, yet the rest of the space sector sold off hard in response. Whether that split re",
-        "url": "https://247wallst.com/investing/2026/09/29/spacex-rises-2-after-starships-first-orbital-satellite-deployment-rocket-lab-falls-3-ast-spacemobile-drops-3/?.tsrc=rss",
+        "title": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips",
+        "description": "Intel closed out September with a move that has investors debating whether the chip giant's turnaround is finally gaining real traction or whether the",
+        "url": "https://247wallst.com/investing/2026/09/30/intel-rises-3-as-chip-contender-caps-off-surprisingly-strong-september-nvidia-ticks-up-amd-slips/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/30 02:54",
-        "score": 15
-      },
-      {
-        "title": "TSMC's 2nm Push Could Create a New Winner in the AI Chip Boom",
-        "description": "Wells Fargo sees TSMC's potential increase in advanced-chip production as an additional opportunity for semiconductor equipment companies.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/tsmcs-2nm-push-could-create-182110589.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 03:21",
+        "publishedAt": "10/01 01:29",
         "score": 10
       },
       {
-        "title": "Nvidia, Anthropic CEOs to Attend Trump Meeting on AI Risks",
-        "description": "Nvidia Corp. Chief Executive Officer Jensen Huang, Anthropic PBC head Dario Amodei and Palantir Technologies Inc. CEO Alex Karp are slated to attend a",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-anthropic-ceos-attend-trump-134016185.html?.tsrc=rss",
+        "title": "AST SpaceMobile Jumps 5% on Takeover Speculation; Rocket Lab Rises 5%, SpaceX Treads Water",
+        "description": "A quiet executive compensation filing at AST SpaceMobile set off a wave of takeover speculation Wednesday, sending shares surging alongside Rocket Lab",
+        "url": "https://247wallst.com/investing/2026/09/30/ast-spacemobile-jumps-5-on-takeover-speculation-rocket-lab-rises-5-spacex-treads-water/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 22:40",
-        "score": 9
-      },
-      {
-        "title": "I've Covered Palantir for 5 Years. Here's How to Know if the Artificial Intelligence (AI) Stock Is Overvalued.",
-        "description": "After covering Palantir for several years, arguments over the company's valuation always seem to rise to the surface.",
-        "url": "https://www.fool.com/investing/2026/09/29/ive-covered-palantir-for-5-years-heres-how-to-know/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "09/30 04:47",
+        "publishedAt": "09/30 23:03",
         "score": 7
       },
       {
-        "title": "SpaceX Flew the Most Powerful Rocket Ever Built and the Stock Fell Anyway",
-        "description": "Starship pulled off one of the most ambitious orbital missions in history on Monday morning, and investors sold the stock anyway. The reason says some",
-        "url": "https://247wallst.com/investing/2026/09/29/spacex-flew-the-most-powerful-rocket-ever-built-and-the-stock-fell-anyway/?.tsrc=rss",
+        "title": "US Wants to Break Taiwan Dependence — But Here's Why Taipei Will Remain 'Central' Character in the AI Chips Story",
+        "description": "The U.S. is pouring billions into domestic semiconductor manufacturing to secure its AI ambitions, but replicating Taiwan’s decades-old chipmaking eco",
+        "url": "https://finance.yahoo.com/technology/ai/articles/us-wants-break-taiwan-dependence-113006015.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "09/29 22:10",
+        "publishedAt": "09/30 20:30",
         "score": 7
+      },
+      {
+        "title": "Palantir CEO Karp drops \"Warfighter\" hot take before super intelligence meeting at White House",
+        "description": "Karp’s latest remarks put Palantir’s AI promise under scrutiny.",
+        "url": "https://www.thestreet.com/investing/stocks/palantir-karp-ai-strategy-investors-superintelligence-meeting-white-house?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 05:33",
+        "score": 6
+      },
+      {
+        "title": "TSMC's next move could ripple far beyond Apple, Nvidia",
+        "description": "Wells Fargo says more details are still coming. Until then, it sees an opening for a corner of the chip market that rarely gets the spotlight.",
+        "url": "https://www.thestreet.com/technology/beyond-nvidia-tsmc-expansion-benefits-chip-toolmakers-amat-lrcx?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/01 03:17",
+        "score": 6
       }
     ]
   }
