@@ -1,324 +1,220 @@
 {
-  "generated_at_kst": "2026-10-03 10:16 KST",
-  "period": "10/02 07:00 ~ 10/03 07:00 KST",
+  "generated_at_kst": "2026-10-04 10:46 KST",
+  "period": "10/03 07:00 ~ 10/04 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq rally as Fed rate-hike expectations fade, tech gains",
-        "description": "The Labor Department's September jobs report, oil prices, and bond yields were the key things to watch on Friday in markets.",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html?.tsrc=rss",
+        "title": "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 집중",
+        "description": "미국 경제는 지난달 2만9000개의 일자리를 추가했고 실업률은 경제학자들의 예상보다 낮은 4.2%로 치솟았다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-week-higher-as-weak-jobs-report-cools-rate-hike-bets-nvda-ba-spcx-rivn-apld-in-focus/cZDjq3URBKF?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/02 17:06",
-        "score": 19
+        "publishedAt": "10/03 07:28",
+        "score": 15
       },
       {
-        "title": "Stock Market Midday, Oct. 2: Stocks Rally as Weak Jobs Data Cools Fed Rate Hike Bets",
-        "description": "Today, Oct. 2, 2026, September employment came in cooler than expected, spurring a broad market advance and renewed optimism among growth investors.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-midday-oct-2-stocks-rally-as-weak-jobs-data-cools-fed-rate-hike-bets/?.tsrc=rss",
+        "title": "다우존스 선물: Nvidia, SpaceX, Bloom Energy 플래시 매수 신호로 Nasdaq이 최고치를 기록했지만 이러한 위험에 유의하세요.",
+        "description": "나스닥은 매수 영역에서 Nvidia, SpaceX, Bloom Energy와 함께 최고치를 기록하고 있습니다. 그러나 대부분의 시장은 여전히 ​​약세입니다. 해야 할 일은 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/m/b98e0c13-f78a-3e19-ad93-12d5a340e701/dow-jones-futures%3A-nasdaq.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 01:40",
-        "score": 14
+        "publishedAt": "10/04 02:58",
+        "score": 10
       },
       {
-        "title": "Nasdaq, S&P 500, Dow Futures Rise Ahead Of Jobs Report: NKE, META, RKLB, MRNA, SLS, TSLA Stocks In Focus",
-        "description": "On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ ahead of jobs data.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-rise-jobs-data-nke-meta-rklb-mrna-sls-tsla-stocks/cZDjdMhRB06?.tsrc=rss",
+        "title": "S&P 500만으로는 충분하지 않습니다: 신규 투자자를 위한 3종목 스타터 포트폴리오",
+        "description": "S&P 500 인덱스 펀드는 훌륭한 기반입니다. Amazon, Meta Platforms 및 Alphabet은 초보자에게 그 위에 세 가지 양질의 성장 주식을 제공합니다.",
+        "url": "https://www.fool.com/investing/2026/10/03/sp-500-not-enough-my-3-stock-starter-portfolio/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/02 17:31",
-        "score": 11
+        "publishedAt": "10/04 02:35",
+        "score": 8
       },
       {
-        "title": "Stock Market Today: Nasdaq Leads Charge On Rate Hopes; Nvidia Hits Highs",
-        "description": "Stock Market Today: The Dow Jones index rallies Friday after a surprise result from the U.S. jobs report. Tesla stock jumps on deliveries.",
-        "url": "https://finance.yahoo.com/m/94ae67df-681f-315f-b45f-941eaadbc7c6/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "월스트리트는 2027년 S&P 500 이익 성장률이 35%에서 15%로 붕괴될 것으로 예상",
+        "description": "S&P 500의 수익은 수년 만에 가장 빠른 속도로 급증하고 있지만 월스트리트 분석가들은 이미 급격한 둔화에 대비하고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/10/03/wall-street-expects-sp-500-profit-growth-to-collapse-from-35-to-15-in-2027/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 06:05",
-        "score": 9
+        "publishedAt": "10/03 22:08",
+        "score": 8
       },
       {
-        "title": "Nasdaq Adds 319 Points as Rate-Hike Odds Ebb: Stock Market Today",
-        "description": "For now, it looks like there will be no rate hike in October, though the Fed's decision remains subject to the flow of incoming economic data.",
-        "url": "https://www.kiplinger.com/investing/stocks/nasdaq-adds-319-points-as-rate-hike-odds-ebb-stock-market-today?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 05:08",
-        "score": 9
+        "title": "美 고용 급속 냉각에 금리인상 우려 줄어…월가 환호 [뉴욕증시 브리핑]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026100314597",
+        "source": "hankyung.com",
+        "publishedAt": "10/03 07:18",
+        "score": 8
       }
     ],
     "kr_market": [
       {
-        "title": "코스피, 강보합으로 7000선 회복…코스닥은 약보합 마감",
+        "title": "현대차 주가 70만→30만 '뚝'…한달새 30% 뛴 협력사 정체 [대기업 협력사 전수분석]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026100205346",
+        "url": "https://www.hankyung.com/article/202610020826i",
         "source": "hankyung.com",
-        "publishedAt": "10/02 15:38",
-        "score": 10
-      },
-      {
-        "title": "하이브랩 \"상장주관사 참여 펀드서 투자 유치…내년 코스닥 입성 추진\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026100207996",
-        "source": "hankyung.com",
-        "publishedAt": "10/02 16:46",
-        "score": 6
-      },
-      {
-        "title": "외국인 'Bye 코스피'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026100210521",
-        "source": "hankyung.com",
-        "publishedAt": "10/02 17:48",
-        "score": 5
-      },
-      {
-        "title": "반도체 소부장의 힘…코스닥, 다시 900 넘본다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026100209561",
-        "source": "hankyung.com",
-        "publishedAt": "10/02 17:34",
-        "score": 5
-      },
-      {
-        "title": "'코스닥 승강제' 연기…내년 하반기 도입할 듯",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026100209581",
-        "source": "hankyung.com",
-        "publishedAt": "10/02 17:31",
-        "score": 5
+        "publishedAt": "10/03 08:00",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "US Nonfarm Payrolls Lands Today: Here's What to Expect",
-        "description": "Markets expect 90K jobs and 4.1% unemployment in September's NFP report. Here's what the data could mean for an October Fed rate hike.",
-        "url": "https://beincrypto.com/september-nfp-2026-what-to-expect/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/02 18:04",
-        "score": 6
-      },
-      {
-        "title": "美 9월 '비농업 고용 쇼크'…추가 금리인상 제동 걸리나",
+        "title": "부진한 9월 고용에도 금리 상승 반전…그런데 5.5%가 한계? [김현석의 월스트리트나우]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026100213271",
+        "url": "https://www.hankyung.com/article/202610031476i",
         "source": "hankyung.com",
-        "publishedAt": "10/02 23:20",
+        "publishedAt": "10/03 08:00",
         "score": 3
       },
       {
-        "title": "[포토] 한자리 모인 '2026 한국경제 최고의 리더'",
+        "title": "美 고용 급속 냉각에 금리인상 우려 줄어…월가 환호 [뉴욕증시 브리핑]",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026100210091",
+        "url": "https://www.hankyung.com/article/2026100314597",
         "source": "hankyung.com",
-        "publishedAt": "10/02 17:55",
+        "publishedAt": "10/03 07:18",
+        "score": 3
+      },
+      {
+        "title": "AI 붐과 한국경제, 이번에는 다를까?",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202609220337i",
+        "source": "hankyung.com",
+        "publishedAt": "10/03 12:00",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "US Dollar Nears 18-Month Peak Against The Loonie as Treasury Yields Stay High",
-        "description": "The US dollar rose to match the prior session's highest intraday level since April 2025 against its",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-nears-18-month-174536959.html?.tsrc=rss",
+        "title": "선거로 인해 부채 한도에 더 많은 위험이 가중되는 동안 이자 비용이 급증하면서 미국 부채는 점점 더 시장에 좌우되고 있다고 평가 기관이 경고했습니다.",
+        "description": "\"이 궤적은 지속 불가능한 중기 재정 경로를 가리키며 주권 국가가 점점 더 시장 정서 및 정보의 변화에 ​​노출되게 합니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/u-debt-increasingly-mercy-market-171547347.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 02:45",
-        "score": 8
+        "publishedAt": "10/04 02:15",
+        "score": 1
       },
       {
-        "title": "Tech stocks jump after jobs report miss, Treasury yields ease: AlphaCheck",
-        "description": "The stock market opened higher after the economy added just 29,000 jobs last month and unemployment ticked up to 4.2%.",
-        "url": "https://finance.yahoo.com/markets/article/tech-stocks-jump-after-jobs-report-miss-treasury-yields-ease-alphacheck-134916934.html?.tsrc=rss",
+        "title": "채권 시장이 의회, 국가 부채, 중산층에 관해 드러내는 것, 그리고 미국이 앞으로 나아갈 방향",
+        "description": "유일한 실제 해결책은 재정 정책을 지속 가능한 궤도에 두는 것이지만, 세금 측면에서는 여지가 제한되어 있다는 점을 인식하는 것이 중요합니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/bond-market-reveals-congress-national-094500766.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/02 22:49",
-        "score": 8
-      },
-      {
-        "title": "Bond Selloff Pressures Gold; Soft Jobs Data Offers a Reprieve",
-        "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, e",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/bond-selloff-pressures-gold-soft-173347813.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 02:33",
-        "score": 5
-      },
-      {
-        "title": "Bloomberg’s ETF Guru Watched $7 Billion Pour Into a Falling Treasury Fund, Then Warned Buyers to Walk Away",
-        "description": "Bloomberg's top ETF analyst watched billions flood into a battered Treasury fund and did something unusual for a market commentator: he told investors",
-        "url": "https://247wallst.com/investing/etf/2026/10/02/bloombergs-etf-guru-watched-7-billion-pour-into-a-falling-treasury-fund-then-warned-buyers-to-walk-away/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 05:51",
-        "score": 3
-      },
-      {
-        "title": "I Told My Boss I’m Done. Now I Have to Choose Between a 1.73% CD and a 5.26% Treasury",
-        "description": "When a Reddit retiree finally quit the job he actually liked, he stepped straight into a cash decision that most people get wrong, and the numbers beh",
-        "url": "https://247wallst.com/personal-finance/2026/10/02/i-told-my-boss-im-done-now-i-have-to-choose-between-a-1-73-cd-and-a-5-26-treasury/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 04:00",
-        "score": 3
+        "publishedAt": "10/03 18:45",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "CME Group Suspends Plans to Launch 24/7 10-Barrel Crude Oil Contract",
-        "description": "Today, CME Group provided the following statement about its plans to suspend launch of a new 10-Barrel Crude Oil futures contract:",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/cme-group-suspends-plans-launch-200000295.html?.tsrc=rss",
+        "title": "브렌트유는 현재 100달러 이상 거래되고 있습니다. 이는 암호화폐 시장에 무엇을 의미합니까?",
+        "description": "높은 유가는 일반적으로 암호화폐에 있어서 매우 약세일 것이지만 이번에는 그렇지 않았습니다.",
+        "url": "https://www.fool.com/investing/2026/10/02/brent-crude-is-now-trading-above-100-what-does-tha/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 05:00",
-        "score": 6
-      },
-      {
-        "title": "US jobs data boosts stocks as oil prices dip",
-        "description": "Wall Street stocks advanced Friday after weak US jobs data lowered the odds of Federal Reserve rate hikes.Data showed that employment in the United St",
-        "url": "https://finance.yahoo.com/economy/policy/articles/asian-stocks-drop-oil-spike-025216685.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 05:30",
+        "publishedAt": "10/03 09:20",
         "score": 5
       },
       {
-        "title": "Gold Royalty Targets Sixfold Production Growth as Gold Prices Lift Royalty Outlook",
-        "description": "Gold Royalty (NYSEAMERICAN:GROY) outlined its view that the royalty business model is positioned to benefit from higher gold prices and mining-sector",
-        "url": "https://www.marketbeat.com/instant-alerts/event-gold-royalty-targets-sixfold-production-growth-as-gold-prices-lift-royalty-outlook-2026-10-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "title": "2028년 구리 가격을 상승시킬 3가지 추세",
+        "description": "구리 공급은 AI 데이터 센터 및 전력망 업그레이드로 인한 수요 급증을 따라잡기 위해 고군분투하고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/10/03/3-trends-that-will-push-copper-higher-in-2028/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 02:02",
-        "score": 5
+        "publishedAt": "10/04 04:50",
+        "score": 3
       },
       {
-        "title": "Canada Commodities: Oil Prices Lower as France Proposes to Release Diesel Stocks",
-        "description": "Oil prices were lower Friday morning after Reuters reported that France was proposing to release die",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-lower-140250969.html?.tsrc=rss",
+        "title": "다우존스 선물: Nvidia, SpaceX, Bloom Energy 플래시 매수 신호로 Nasdaq이 최고치를 기록했지만 이러한 위험에 유의하세요.",
+        "description": "나스닥은 매수 영역에서 Nvidia, SpaceX, Bloom Energy와 함께 최고치를 기록하고 있습니다. 그러나 대부분의 시장은 여전히 ​​약세입니다. 해야 할 일은 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/m/b98e0c13-f78a-3e19-ad93-12d5a340e701/dow-jones-futures%3A-nasdaq.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/02 23:02",
-        "score": 5
-      },
-      {
-        "title": "Brent Oil Is Back Above $100 as a Third Aircraft Carrier Heads to the Middle East",
-        "description": "A third US carrier is reportedly heading to the Middle East and China just cut off fuel exports, hitting oil markets with two shocks at once. Whether",
-        "url": "https://247wallst.com/investing/2026/10/02/brent-oil-is-back-above-100-as-a-third-aircraft-carrier-heads-to-the-middle-east/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/02 20:35",
-        "score": 5
+        "publishedAt": "10/04 02:58",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "US Dollar Price Forecast: DXY Holds Firm Ahead of NFP, Can GBP/USD and EUR/USD Recover?",
-        "description": "DXY holds above 101.76 as higher Treasury yields support the dollar, while EUR/USD and GBP/USD attempt recoveries ahead of September NFP.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-080831560.html?.tsrc=rss",
+        "title": "20억 달러 규모의 통화 개입이 하락을 막지 못하면서 이란 리알 가치가 사상 최저치를 기록했습니다.",
+        "description": "이란 리알화는 토요일 중앙은행이 이란 통화를 지원하기 위해 최대 20억 달러를 투입하겠다고 발표하면서 계속 하락세를 이어갔습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/iran-rial-hits-fresh-low-204319407.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/02 17:08",
-        "score": 7
+        "publishedAt": "10/04 05:43",
+        "score": 8
       },
       {
-        "title": "\"삼전닉스 458조 폭탄 터진다\"…환율 거꾸로 가는 '진짜 이유'  [분석+]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026100299066",
-        "source": "hankyung.com",
-        "publishedAt": "10/02 13:30",
-        "score": 5
+        "title": "이란 정권이 팔 수 있는 석유가 거의 고갈되고 고객으로부터 돈도 받을 수 없게 되면서 이란 통화는 점점 사라지고 있습니다.",
+        "description": "\"우리는 상품을 공급한 국가에서 우리 자신의 돈을 빼낼 수 없으며, 그 자금을 다른 나라의 다른 사람에게 지불하는 데 사용하는 것은 말할 것도 없습니다.",
+        "url": "https://finance.yahoo.com/economy/articles/iran-currency-getting-obliterated-regime-214000456.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/04 06:40",
+        "score": 3
       },
       {
-        "title": "US Dollar Nears 18-Month Peak Against The Loonie as Treasury Yields Stay High",
-        "description": "The US dollar rose to match the prior session's highest intraday level since April 2025 against its",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-nears-18-month-174536959.html?.tsrc=rss",
+        "title": "Stocktwits 주간 스프레드: 이번 주 수익률과 달러의 모양",
+        "description": "벤치마크 10년물과 30년물 수익률은 10월 2일로 끝나는 주에 5% 수준을 계속해서 상회했으며 고용 지표가 약해 약간의 침체를 겪었습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/the-stocktwits-weekly-spread-what-shaped-yields-and-the-dollar-this-week/cZDm6QaRBKp?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 02:45",
-        "score": 1
-      },
-      {
-        "title": "Dollar Strengthens on Oil Surge & Hawkish Fed Policy: ETFs to Benefit",
-        "description": "Rising oil prices and hawkish Fed policy are supporting the dollar, putting currency and energy ETFs in focus.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-strengthens-oil-surge-hawkish-151000072.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 00:10",
-        "score": 1
-      },
-      {
-        "title": "Dollar Retreats and Gold Jumps on a Weak US Payroll Report",
-        "description": "The dollar index (DXY00 ) is down by -0.32% today. A weaker-than-expected US Sep payroll report is weighing on the dollar today. Both non-farm payroll",
-        "url": "https://www.barchart.com/story/news/4930169/dollar-retreats-and-gold-jumps-on-a-weak-us-payroll-report?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/02 23:35",
+        "publishedAt": "10/03 09:00",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Why the G7's emergency release of oil & diesel reserves won't create 'lasting relief'",
-        "description": "The G7 countries have agreed to an emergency release of oil and diesel, totaling 100 million barrels, effective immediately. Annex Wealth Management c",
-        "url": "https://finance.yahoo.com/video/why-g7s-emergency-release-oil-203113712.html?.tsrc=rss",
+        "title": "선거로 인해 부채 한도에 더 많은 위험이 가중되는 동안 이자 비용이 급증하면서 미국 부채는 점점 더 시장에 좌우되고 있다고 평가 기관이 경고했습니다.",
+        "description": "\"이 궤적은 지속 불가능한 중기 재정 경로를 가리키며 주권 국가가 점점 더 시장 정서 및 정보의 변화에 ​​노출되게 합니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/u-debt-increasingly-mercy-market-171547347.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 05:31",
-        "score": 3
-      },
-      {
-        "title": "G7 countries agree to an emergency release of 100M barrels of oil & diesel",
-        "description": "The G7 countries have agreed to an emergency release of oil and diesel, totaling 100 million barrels, effective immediately. Yahoo Finance Washington",
-        "url": "https://finance.yahoo.com/video/g7-countries-agree-emergency-release-194726689.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 04:47",
-        "score": 3
-      },
-      {
-        "title": "G7 to Release 100 Million Barrels of Oil, Diesel Reserves Amid 'Unprecedented' Market Volatility",
-        "description": "The Group of Seven countries on Friday outlined plans to release 100 million barrels of oil and dies",
-        "url": "https://finance.yahoo.com/energy/articles/g7-release-100-million-barrels-193623013.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 04:36",
-        "score": 3
-      },
-      {
-        "title": "Nvidia's Jensen Huang, Other CEOs Privately Confront Anthropic's Dario Amodei Over AI Doomsday Warnings Amid Trump's Tech Summit: Report",
-        "description": "Several top AI leaders, including Nvidia Corp CEO Jensen Huang, reportedly confronted Anthropic CEO Dario Amodei, privately, regarding his public warn",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-jensen-huang-other-ceos-213019720.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/03 06:30",
+        "publishedAt": "10/04 02:15",
         "score": 1
       },
       {
-        "title": "Bloomberg’s ETF Guru Watched $7 Billion Pour Into a Falling Treasury Fund, Then Warned Buyers to Walk Away",
-        "description": "Bloomberg's top ETF analyst watched billions flood into a battered Treasury fund and did something unusual for a market commentator: he told investors",
-        "url": "https://247wallst.com/investing/etf/2026/10/02/bloombergs-etf-guru-watched-7-billion-pour-into-a-falling-treasury-fund-then-warned-buyers-to-walk-away/?.tsrc=rss",
+        "title": "Nasdaq은 Dow, Small Caps Lag로 인해 칩 및 소프트웨어 강점에서 새로운 기반을 마련했습니다.",
+        "description": "Stock Preachers News Commentary - 거대 기술주들이 나스닥 종합지수를 주간 상승세로 이끌었고 다우존스 산업평균지수와 러셀지수는 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-hits-fresh-ground-chip-110000787.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 05:51",
+        "publishedAt": "10/03 20:00",
+        "score": 1
+      },
+      {
+        "title": "EnerSys, FTAI 인프라, Rocket Lab, Redwire 및 RXO 주식 거래, 알아야 할 사항",
+        "description": "예상보다 부진한 미국 고용지표로 인해 국채수익률이 냉각되고 차입비용 압박이 완화된 후 오전장에서 다수의 주식이 급등했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/enersys-ftai-infrastructure-rocket-lab-225403950.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/03 07:54",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Nvidia's Jensen Huang, Other CEOs Privately Confront Anthropic's Dario Amodei Over AI Doomsday Warnings Amid Trump's Tech Summit: Report",
-        "description": "Several top AI leaders, including Nvidia Corp CEO Jensen Huang, reportedly confronted Anthropic CEO Dario Amodei, privately, regarding his public warn",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-jensen-huang-other-ceos-213019720.html?.tsrc=rss",
+        "title": "다우존스 선물: Nvidia, SpaceX, Bloom Energy 플래시 매수 신호로 Nasdaq이 최고치를 기록했지만 이러한 위험에 유의하세요.",
+        "description": "나스닥은 매수 영역에서 Nvidia, SpaceX, Bloom Energy와 함께 최고치를 기록하고 있습니다. 그러나 대부분의 시장은 여전히 ​​약세입니다. 해야 할 일은 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/m/b98e0c13-f78a-3e19-ad93-12d5a340e701/dow-jones-futures%3A-nasdaq.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 06:30",
-        "score": 10
+        "publishedAt": "10/04 02:58",
+        "score": 9
       },
       {
-        "title": "Better AI Stock: SpaceX or Palantir?",
-        "description": "SpaceX and Palantir are two rapidly growing AI stocks.",
-        "url": "https://www.fool.com/investing/2026/10/02/better-ai-stock-spacex-or-palantir/?.tsrc=rss",
+        "title": "Elon Musk는 SpaceX AI 수익이 9월까지 다른 모든 수익을 넘어설 것이라고 말했습니다. 그랬나요?",
+        "description": "Elon Musk는 지난 8월 SpaceX 직원들에게 AI 수익이 9월까지 비즈니스의 다른 모든 부분을 능가할 것이라고 말했습니다. 마감일이 지났고 t",
+        "url": "https://247wallst.com/investing/2026/10/03/elon-musk-said-spacex-ai-revenue-would-pass-everything-else-by-september-did-it/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 02:20",
-        "score": 10
+        "publishedAt": "10/04 06:00",
+        "score": 7
       },
       {
-        "title": "AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2%",
-        "description": "Chip stocks are running hard, Arm is outpacing every major name in the sector, and AMD is sitting on a 39% monthly gain after a blockbuster acquisitio",
-        "url": "https://247wallst.com/investing/2026/10/02/amd-climbs-3-as-chip-stocks-extend-their-run-arm-jumps-8-nvidia-rises-2/?.tsrc=rss",
+        "title": "AI 칩 혁명은 이 회사 없이는 불가능하다",
+        "description": "모든 주요 AI 칩은 한 회사의 공장을 거치며, 그 주식은 여전히 ​​이에 의존하는 고객보다 저렴하게 거래됩니다. 분석가들이 계속 주목하는 이유는 다음과 같습니다.",
+        "url": "https://247wallst.com/investing/2026/10/03/the-ai-chip-revolution-wouldnt-be-possible-without-this-company/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/03 00:47",
-        "score": 10
+        "publishedAt": "10/04 00:30",
+        "score": 7
       },
       {
-        "title": "Nvidia and Micron Can't Make AI Chips Without This Growth Stock. Here's Why It Could Soar.",
-        "description": "This company might be considered the AI gatekeeper.",
-        "url": "https://www.fool.com/investing/2026/10/02/nvidia-and-micron-cant-make-ai-chips-without-this/?.tsrc=rss",
+        "title": "Palantir를 잊어버리고 대신 이 2개의 인공 지능(AI) 주식을 구매해야 할까요?",
+        "description": "Broadcom과 Applied Digital은 현재 더욱 스마트한 AI 인프라 역할을 할 수 있습니다.",
+        "url": "https://www.fool.com/investing/2026/10/03/should-you-forget-palantir-and-buy-these-2-artific/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/02 20:20",
-        "score": 10
+        "publishedAt": "10/03 20:19",
+        "score": 7
       },
       {
-        "title": "SpaceX Climbs 6% on Fresh Falcon 9 Rideshare Launch; Rocket Lab Jumps 7%, AST SpaceMobile Ticks Up",
-        "description": "A single Falcon 9 rideshare mission lit a fire under the space sector, but the company that flew the rocket is not leading the rally, and the reasons",
-        "url": "https://247wallst.com/investing/2026/10/02/spacex-climbs-6-on-fresh-falcon-9-rideshare-launch-rocket-lab-jumps-7-ast-spacemobile-ticks-up/?.tsrc=rss",
+        "title": "다음 10년 동안 우주 주식을 하나만 살 수 있다면 SpaceX나 Rocket Lab은 아닐 것입니다.",
+        "description": "이 주식은 두 개의 대형주 우주 거인보다 훨씬 저렴한 가치를 가지고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/10/03/if-i-could-only-buy-1-space-stock-for-the-next-dec/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/02 23:47",
+        "publishedAt": "10/03 15:25",
         "score": 7
       }
     ]
