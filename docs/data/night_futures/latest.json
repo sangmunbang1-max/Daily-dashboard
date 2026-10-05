@@ -1,6 +1,6 @@
 {
-  "generated_at_kst": "2026-10-03T05:06:17.441868+09:00",
-  "biz_date": "2026-10-02",
+  "generated_at_kst": "2026-10-06T03:04:30.135271+09:00",
+  "biz_date": "2026-10-05",
   "session": "night",
   "source": "KIS_WEBSOCKET_H0MFCNT0_H0MFASP0",
   "note": "market_status={'kospi': 'no_trade_or_quote_for_A01606', 'kosdaq': 'no_trade_or_quote_for_A06606'}",
