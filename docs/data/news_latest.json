@@ -1,237 +1,245 @@
 {
-  "generated_at_kst": "2026-10-11 10:06 KST",
-  "period": "10/10 07:00 ~ 10/11 07:00 KST",
+  "generated_at_kst": "2026-10-12 10:30 KST",
+  "period": "10/11 07:00 ~ 10/12 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "다우존스 선물: S&P 500, 나스닥 근고점; ASML, Nvidia의 칩 제조사 Taiwan Semi, AI 수익 개시",
-        "description": "약간의 하락에도 불구하고 S&P 500과 나스닥은 거의 고점에 가깝습니다. ASML과 Nvidia 칩 제조업체인 Taiwan Semi의 수익은 AI 주식 하락이 강세인지 결정할 수 있습니다.",
-        "url": "https://finance.yahoo.com/m/0d7a86f7-63d8-35ac-9402-ed0f2ca814ac/dow-jones-futures%3A-s%26p-500%2C.html?.tsrc=rss",
+        "title": "Beyond S&P 500 Index Funds: Here's the 1 Sector I'd Buy First as a New Investor",
+        "description": "Buying entire baskets of stocks still makes for smart, instant diversification. But don't look past an obvious opportunity by insisting that only mark",
+        "url": "https://www.fool.com/investing/2026/10/11/beyond-sp-500-index-funds-heres-the-1-sector-id-bu/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/11 00:28",
-        "score": 15
-      },
-      {
-        "title": "S&P 500, Nasdaq 100, 다우 종가 상승 시즌에 주목하는 트레이더들 — MSFT, NFLX, SPCX, ASTS 집중",
-        "description": "JP모건, 모건스탠리, 웰스파고 등 월스트리트 최대 은행들이 다음 주 실적을 발표할 예정이다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-100-dow-end-week-higher-with-traders-eyeing-earnings-season/cZxGPMYRBnl?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/10 07:53",
-        "score": 10
-      },
-      {
-        "title": "선구적인 S&P 500 주가 목표에 대해 월스트리트가 분열했습니다.",
-        "description": "월스트리트 분석가들은 작년에만 S&P 500에 편입된 주식에 대한 전망에 대해 의견이 분분합니다.",
-        "url": "https://www.thestreet.com/crypto/markets/wall-street-split-on-pioneering-s-p-500-stocks-price-target?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/11 03:15",
-        "score": 9
-      },
-      {
-        "title": "역사에 따르면 이는 모든 투자자가 다음 하락장 이전에 해야 할 첫 번째 포트폴리오 움직임입니다.",
-        "description": "다각화는 여전히 장기 투자를 위한 최고의 전략 중 하나입니다.",
-        "url": "https://www.fool.com/investing/2026/10/10/history-portfolio-move-investor-make-bear-market/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/11 00:14",
+        "publishedAt": "10/12 03:37",
         "score": 7
       },
       {
-        "title": "예측: Vanguard S&P 500 ETF(VOO)에 5,000달러를 투자하면 2040년까지 가치가 높아질 것입니다.",
-        "description": "19,000달러는 어떻게 들리나요?",
-        "url": "https://www.fool.com/investing/2026/10/10/prediction-what-an-investment-in-voo-etf-sp500/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/10 23:55",
+        "title": "증시 위축에 주가 급락…증권주, 다시 살아날까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101145031",
+        "source": "hankyung.com",
+        "publishedAt": "10/11 18:04",
         "score": 6
+      },
+      {
+        "title": "Cboe (CBOE) Is Up 12.1% After Extending S&P 500 Options License And Unveiling KPI Binaries",
+        "description": "Cboe Global Markets and S&P Dow Jones Indices recently extended their exclusive licensing agreement for S&P 500 Index options through 2051, while Cboe",
+        "url": "https://finance.yahoo.com/markets/options/articles/cboe-cboe-12-1-extending-190907106.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/12 04:09",
+        "score": 5
+      },
+      {
+        "title": "KLA Turned $1,000 Into $31,595 in a Decade, Crushing the S&P 500 by 8.7x",
+        "description": "KLA builds the machines that catch chip defects before they become costly scrap, and that narrow specialty turned one quiet semiconductor stock into o",
+        "url": "https://247wallst.com/investing/2026/10/11/kla-turned-1000-into-31595-in-a-decade-crushing-the-sp-500-by-8-7x/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/11 23:00",
+        "score": 5
+      },
+      {
+        "title": "Pokémon Cards Just Crushed Bitcoin, Gold and the S&P 500 With 150% Returns",
+        "description": "Rare Pokémon cards keep beating Bitcoin, gold and the S&P 500 with 150.7% returns since 2021 per the CardTrack 100 index.",
+        "url": "https://beincrypto.com/pokemon-cards-outperform-bitcoin-gold-sp500/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/11 22:48",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "VOO는 SpaceX, Taiwan Semiconductor, Samsung Electronics, SK Hynix 또는 ASML을 보유하지 않습니다. 이를 실현하는 Vanguard ETF를 만나보세요.",
-        "description": "세계에서 가장 중요한 인공지능(AI) 주식 중 일부는 S&P 500에 눈에 띄게 빠져 있습니다.",
-        "url": "https://www.fool.com/investing/2026/10/10/voo-doesnt-own-spacex-taiwan-semiconductor-samsung/?.tsrc=rss",
+        "title": "Foreign investors flee South Korean stocks as AI boom loses steam",
+        "description": "Investing.com -- South Korean stocks are struggling to attract buyers as enthusiasm for artificial intelligence-related investments fades, triggering",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/foreign-investors-flee-south-korean-025304336.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/11 05:51",
-        "score": 10
-      },
-      {
-        "title": "랩 수익률, 코스피의 6배…\"수수료 더 내도 전문가 찾는다\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026100928971",
-        "source": "hankyung.com",
-        "publishedAt": "10/10 08:29",
+        "publishedAt": "10/11 11:53",
         "score": 5
-      },
-      {
-        "title": "\"제2의 엔비디아 놓칠라\"…상장 전인데 개미들 벌써 '들썩' [이수의 ETF줌인]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026100813616",
-        "source": "hankyung.com",
-        "publishedAt": "10/10 15:00",
-        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "\"세종 못가! 한국은행 준비반 갈래\"…SKY 경제학도의 변심 [김익환의 부처 핸즈업]",
+        "title": "Wells Fargo, Bank of America, Domino’s, Johnson & Johnson, Inflation Data, and More to Watch This Week",
+        "description": "Big bank earnings arrive, with Citi, Goldman Sachs, JPMorgan Chase, and more reporting. Consumer and producer price indexes and existing home sales da",
+        "url": "https://finance.yahoo.com/m/63470f09-0012-3664-9778-7a6e6caecb92/wells-fargo%2C-bank-of-america%2C.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/12 03:00",
+        "score": 5
+      },
+      {
+        "title": "CPI, Earnings and Other Can't Miss Items this Week",
+        "description": "Markets face the quarter’s most significant earnings convergence with major financial and semiconductor giants reporting alongside critical inflation",
+        "url": "https://www.barchart.com/story/news/6039957/cpi-earnings-and-other-can-t-miss-items-this-week?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/12 02:00",
+        "score": 5
+      },
+      {
+        "title": "뉴욕·상하이 증시, 美 어닝시즌 개막…9월 CPI도 발표",
         "description": "",
-        "url": "https://www.hankyung.com/article/202610081647i",
+        "url": "https://www.hankyung.com/article/2026101145081",
         "source": "hankyung.com",
-        "publishedAt": "10/11 06:00",
-        "score": 4
+        "publishedAt": "10/11 18:00",
+        "score": 5
       }
     ],
     "bonds": [
       {
-        "title": "Stocktwits 주간 스프레드: 이번 주 국채 수익률과 달러의 모양",
-        "description": "급등하는 원유 가격과 경직된 인플레이션 기대로 인해 2026년 10월 9일로 끝나는 주 동안 미국 국채가 계속 상승하여 미국 인형 가격이 상승했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week/cZxTXunRBnZ?.tsrc=rss",
+        "title": "Treasury Yields Are Now Above 5%. Here's Why That's Bearish For Bitcoin.",
+        "description": "Investors shouldn't conflate the devaluation of fiat currencies with rising Treasury yields.",
+        "url": "https://www.fool.com/investing/2026/10/11/treasury-yields-are-now-above-5-heres-why-thats-bu/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/10 09:18",
+        "publishedAt": "10/12 06:25",
         "score": 8
+      },
+      {
+        "title": "Which Vanguard Bond ETF Is the Better Buy: Broad Market BND or Treasury-Focused VGIT?",
+        "description": "Both funds charge just 0.03% in expenses, but BND offers broader corporate and government bond exposure while VGIT focuses solely on U.S. Treasuries w",
+        "url": "https://www.fool.com/coverage/etfs/2026/10/11/which-vanguard-bond-etf-is-the-better-buy-broad-market-bnd-or-treasury-focused-vgit/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/12 06:31",
+        "score": 3
+      },
+      {
+        "title": "환율·채권, 환율 1300원 초반 추가하락 가능성",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101145051",
+        "source": "hankyung.com",
+        "publishedAt": "10/11 18:00",
+        "score": 3
+      },
+      {
+        "title": "Bubble-like stock valuations and debt crisis chatter aren't exactly bullish",
+        "description": "Buckle up for a wild year-end, friends.",
+        "url": "https://finance.yahoo.com/markets/article/bubble-like-stock-valuations-and-debt-crisis-chatter-arent-exactly-bullish-115736862.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/11 20:57",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "유가로 인해 에너지 위험 프리미엄이 상승함에 따라 주목받는 3가지 보험주",
-        "description": "석유 가격이 계속 비싸고, 미국 휘발유 가격이 갤런당 4달러를 넘고, 운송 경로가 미국을 통과함에 따라 에너지 보험사와 재보험사가 갑자기 다시 주목을 받고 있습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/3-insurance-stocks-focus-oil-131555507.html?.tsrc=rss",
+        "title": "Mach Natural Resources Chairman Purchases 34,514 Shares for $389,000. Is This Buy a Sign Oil Prices Stay High?",
+        "description": "McMullen's acquisition brings his beneficial ownership to approximately 45% of the company, signaling continued confidence in the upstream energy firm",
+        "url": "https://www.fool.com/coverage/filings/2026/10/11/mach-natural-resources-chairman-purchases-34-514-shares-for-usd389-000-is-this-buy-a-sign-oil-prices-stay-high/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/10 22:15",
-        "score": 8
-      },
-      {
-        "title": "베테랑 거래자는 금 가격에 대해 중요한 경고를 제공합니다",
-        "description": "피터 브란트(Peter Brandt)는 중국이 계속 매입함에 따라 금 가격이 2,890달러 목표가 될 가능성이 있는 헤드앤숄더 패턴을 표시했습니다.",
-        "url": "https://beincrypto.com/peter-brandt-gold-price-warning/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/11 03:37",
+        "publishedAt": "10/12 01:32",
         "score": 5
       },
       {
-        "title": "\"지금이야\" 금값 27% 폭락하자…은행서 불티나게 팔린 게",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026101035187",
-        "source": "hankyung.com",
-        "publishedAt": "10/10 17:06",
-        "score": 5
-      },
-      {
-        "title": "텍사스 석유 전문가부터 트럼프 에너지 장관까지, 미국의 노하우가 호주를 가스 붐으로 몰아넣는 방법",
-        "description": "텍사스 야생고양이, 유전 서비스 거대 기업, 미국 에너지 장관 Chris Wright가 호주의 Beetaloo Basin에 최초의 상업용 가스 공급을 도왔습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/u-know-fracking-australia-gas-071300838.html?.tsrc=rss",
+        "title": "Better Energy ETF: Global X's MLPX Targeting Oil and Gas Infrastructure vs. Invesco's Solar-Focused TAN",
+        "description": "Global X's midstream fund delivered $2,531 on a $1,000 investment over five years, while Invesco's solar play returned just $565 despite higher fees.",
+        "url": "https://www.fool.com/coverage/etfs/2026/10/11/better-energy-etf-global-x-s-mlpx-targeting-oil-and-gas-infrastructure-vs-invesco-s-solar-focused-tan/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/10 16:13",
+        "publishedAt": "10/12 05:58",
         "score": 3
       },
       {
-        "title": "섬 통로 트렌칭으로 파푸아뉴기니 부겐빌 섬의 EL02 프로젝트에서 반암 구리-금 시스템 확인",
-        "description": "파푸아뉴기니 아라와, 2026년 10월 9일 (GLOBE NEWSWIRE) -- Island Passage Exploration Limited(IPX 또는 \"회사\") 및 그 관례적인 토지 소유자 파트너",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/island-passage-trenching-confirms-porphyry-012200395.html?.tsrc=rss",
+        "title": "For the first time ever, 10-year bond yields track diesel prices more closely than crude, and Trump’s fuel deal with Putin may be too little too late",
+        "description": "\"Ultimately, diesel and gasoline drive inflation, not crude oil.\"",
+        "url": "https://finance.yahoo.com/energy/articles/first-time-ever-10-bond-171218177.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/10 10:22",
-        "score": 3
+        "publishedAt": "10/12 02:12",
+        "score": 1
+      },
+      {
+        "title": "Four Years In, $40 Trillion Up: Why This AI-Fueled Bull Market Has Room to Run",
+        "description": "An AI investment boom has transformed the market since the autumn of 2022.",
+        "url": "https://finance.yahoo.com/m/4a6ddf57-8100-34f1-89a7-923bd93d7e6d/four-years-in%2C-%2440-trillion.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/11 17:00",
+        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "Stocktwits 주간 스프레드: 이번 주 국채 수익률과 달러의 모양",
-        "description": "급등하는 원유 가격과 경직된 인플레이션 기대로 인해 2026년 10월 9일로 끝나는 주 동안 미국 국채가 계속 상승하여 미국 인형 가격이 상승했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week/cZxTXunRBnZ?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/10 09:18",
-        "score": 1
+        "title": "환율·채권, 환율 1300원 초반 추가하락 가능성",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101145051",
+        "source": "hankyung.com",
+        "publishedAt": "10/11 18:00",
+        "score": 5
       },
       {
-        "title": "USDA 생산량 증가에도 불구하고 면화 가격은 주말까지 상승",
-        "description": "금요일 세션에서 면선물은 53~79포인트 높았으며, 12월은 166포인트 높았습니다. 장중 원유는 배럴당 17센트 상승했다.",
-        "url": "https://www.barchart.com/story/news/5497584/cotton-pushes-higher-into-the-weekend-despite-usda-production-hike?.tsrc=rss",
+        "title": "Strip out AI stocks, and the US market lags Europe",
+        "description": "If you've ever wondered what the US stock market might look like without AI, look no further than Europe.",
+        "url": "https://finance.yahoo.com/markets/article/strip-out-ai-stocks-and-the-us-market-lags-europe-190907424.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/10 07:11",
-        "score": 1
+        "publishedAt": "10/12 04:09",
+        "score": 3
       }
     ],
     "geopolitics": [
       {
-        "title": "베테랑 거래자는 금 가격에 대해 중요한 경고를 제공합니다",
-        "description": "피터 브란트(Peter Brandt)는 중국이 계속 매입함에 따라 금 가격이 2,890달러 목표가 될 가능성이 있는 헤드앤숄더 패턴을 표시했습니다.",
-        "url": "https://beincrypto.com/peter-brandt-gold-price-warning/?.tsrc=rss",
+        "title": "Not Alphabet. Not Amazon. Microsoft Trades at Big Tech's Cheapest Valuation.",
+        "description": "The reason why Microsoft isn't valued at the same premium as its big tech peers has to do with its AI strategy.",
+        "url": "https://www.fool.com/investing/2026/10/11/not-alphabet-not-amazon-microsoft-trades-at-big-te/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/11 03:37",
-        "score": 2
-      },
-      {
-        "title": "워렌 버핏은 주식 투자자들에게 현실 점검이 다가올 것이라고 경고합니다.",
-        "description": "워렌 버핏은 현재 시장에서 일어나고 있는 일에 대한 이름을 가지고 있습니다. 투자자들은 그것을 듣고 싶어할 수도 있습니다.",
-        "url": "https://www.thestreet.com/investing/stocks/warren-buffett-reality-check-stock-investors-high-share-prices?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/11 02:34",
+        "publishedAt": "10/12 05:14",
         "score": 1
       },
       {
-        "title": "엔비디아(NVDA)는 수익이 두 배 이상 증가했지만, 그 수는 역대 최저 수준입니다. 흥정인가, 아니면 경고인가?",
-        "description": "얼마 전 Nvidia(NASDAQ:NVDA)는 수익이 두 배 이상 증가한 분기를 보고했습니다. 그러나 주식의 평가액은 투자한 금액보다 훨씬 낮습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-more-doubled-revenue-132539113.html?.tsrc=rss",
+        "title": "Warren Buffett Bought These 4 Dividend Stocks Years Ago. Here's What $1,000 in Each Would Be Worth Today.",
+        "description": "American Express and Coca-Cola turned into big winners thanks to Buffett's buy-and-hold approach; Bank of America and Chevron could be next.",
+        "url": "https://www.fool.com/investing/2026/10/11/warren-buffett-bought-these-4-dividend-stocks-year/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/11 02:10",
+        "publishedAt": "10/12 03:35",
         "score": 1
       },
       {
-        "title": "이것은 워렌 버핏이 수십 년 동안 따라온 1가지 투자 규칙입니다. 그리고 역사는 그가 결코 틀리지 않았다고 말합니다.",
-        "description": "워렌 버핏처럼 투자하는 것은 생각보다 간단합니다.",
-        "url": "https://www.fool.com/investing/2026/10/10/this-is-the-1-investing-rule-warren-buffett-has-fo/?.tsrc=rss",
+        "title": "A Record $31 Billion Gold Rush Is Sending Investors a Strange Warning About the Bond Market",
+        "description": "Investors poured billions into gold funds during a month when the metal was falling fast, and the reason they kept buying points to something unsettli",
+        "url": "https://247wallst.com/investing/2026/10/11/a-record-31-billion-gold-rush-is-sending-investors-a-strange-warning-about-the-bond-market/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/10 23:20",
+        "publishedAt": "10/11 23:41",
         "score": 1
       },
       {
-        "title": "S&P 500, Nasdaq 100, 다우 종가 상승 시즌에 주목하는 트레이더들 — MSFT, NFLX, SPCX, ASTS 집중",
-        "description": "JP모건, 모건스탠리, 웰스파고 등 월스트리트 최대 은행들이 다음 주 실적을 발표할 예정이다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-100-dow-end-week-higher-with-traders-eyeing-earnings-season/cZxGPMYRBnl?.tsrc=rss",
+        "title": "Bessent has a warning for anyone helping Iran sell oil",
+        "description": "Treasury says it just wiped out most of what’s left of Tehran’s oil smuggling fleet. The pump is telling a different story.",
+        "url": "https://www.thestreet.com/markets/bessent-has-a-warning-for-anyone-helping-iran-sell-oil?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/10 07:53",
+        "publishedAt": "10/11 12:33",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "VOO는 SpaceX, Taiwan Semiconductor, Samsung Electronics, SK Hynix 또는 ASML을 보유하지 않습니다. 이를 실현하는 Vanguard ETF를 만나보세요.",
-        "description": "세계에서 가장 중요한 인공지능(AI) 주식 중 일부는 S&P 500에 눈에 띄게 빠져 있습니다.",
-        "url": "https://www.fool.com/investing/2026/10/10/voo-doesnt-own-spacex-taiwan-semiconductor-samsung/?.tsrc=rss",
+        "title": "Rocket Lab Is About to Challenge SpaceX as Space Leader",
+        "description": "Peter Beck has a bold plan to turn Rocket Lab into a self-launching tier-1 space power, but reaching the price target that would prove him right requi",
+        "url": "https://247wallst.com/investing/2026/10/11/rocket-lab-is-about-to-challenge-spacex-as-space-leader/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/11 05:51",
-        "score": 11
-      },
-      {
-        "title": "SpaceX의 Terafab은 Taiwan Semiconductor의 제한된 역할에도 불구하고 아마도 매우 높은 이익을 제공하지 못할 것입니다",
-        "description": "SpaceX는 매우 높은 자본 지출과 함께 시설에 대한 파트너에게 비용을 지불해야 합니다.",
-        "url": "https://www.barchart.com/story/news/5743503/spacexs-terafab-probably-wont-deliver-very-high-profits-despite-taiwan-semiconductors-limited-role?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/11 02:19",
-        "score": 8
-      },
-      {
-        "title": "Nvidia Funding은 IonQ 주식과 미국 양자 컴퓨팅 주식을 감시합니다",
-        "description": "Nvidia가 미국 연구에 5년에 걸쳐 미화 10억 달러를 투자함에 따라 양자 및 고급 컴퓨팅은 SF 화두에서 실제 돈 우선순위로 옮겨갔습니다. 목",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-funding-puts-ionq-stock-081200610.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/10 17:12",
-        "score": 8
-      },
-      {
-        "title": "SpaceX 주식을 구매하기 전에 보고 싶은 한 가지는 다음과 같습니다.",
-        "description": "SpaceX는 AI 지출이 단기적인 고통을 감수할 가치가 있다는 것을 증명해야 합니다.",
-        "url": "https://www.fool.com/investing/2026/10/10/heres-the-1-thing-id-wait-to-see-before-buying-spa/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/11 02:25",
+        "publishedAt": "10/12 00:46",
         "score": 7
       },
       {
-        "title": "SpaceX는 50년 만기 채권이 85센트로 떨어지면서 “점점 위험해지고 있습니다”",
-        "description": "주요 내용SpaceX의 채무 불이행을 보장하는 비용은 6월의 110bp에서 수요일 194bp로 올랐으며 50년 만기 채권은 NE에서 거래됩니다.",
-        "url": "https://www.tikr.com/blog/spacex-is-getting-riskier-by-the-minute-as-its-50-year-bonds-slip-to-85-cents?ref=yahoofinance&.tsrc=rss",
+        "title": "TSMC Reports Oct. 15. It's the Best Early Read on Nvidia's Next Quarter.",
+        "description": "The AI chip giant won't report for weeks. What can its chipmaker's results show investors first?",
+        "url": "https://www.fool.com/investing/2026/10/11/tsmc-reports-oct-15-it-s-the-best-early-read-on-nvidia-s-next-quarter/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/11 03:07",
+        "publishedAt": "10/11 16:58",
         "score": 6
+      },
+      {
+        "title": "3 Quantum Computing Stocks Poised to Outperform IonQ and Rigetti This Month",
+        "description": "IonQ and Rigetti get all the quantum computing headlines, but these three stocks might be better positioned to outperform this fall.",
+        "url": "https://www.fool.com/investing/2026/10/11/quantum-computing-stocks-outperform-ionq-rigetti/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/12 03:00",
+        "score": 5
+      },
+      {
+        "title": "3 Things to Watch When Taiwan Semiconductor (TSMC) Reports Earnings on Oct. 15",
+        "description": "All eyes will be on the bellwether of the semiconductor sector.",
+        "url": "https://www.fool.com/investing/2026/10/11/3-things-to-watch-when-taiwan-semiconductor-report/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/11 19:25",
+        "score": 5
+      },
+      {
+        "title": "AST SpaceMobile Shipped 3 More BlueBird Satellites to Cape Canaveral. Here's How Many It Needs in Orbit Before Revenue Shows Up.",
+        "description": "The LEO satellite producer still isn't generating recurring commercial revenue yet.",
+        "url": "https://www.fool.com/investing/2026/10/11/ast-spacemobile-shipped-3-more-bluebird-satellites/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/12 05:16",
+        "score": 4
       }
     ]
   }
