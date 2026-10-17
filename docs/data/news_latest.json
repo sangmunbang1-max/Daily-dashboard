@@ -1,317 +1,325 @@
 {
-  "generated_at_kst": "2026-10-16 09:32 KST",
-  "period": "10/15 07:00 ~ 10/16 07:00 KST",
+  "generated_at_kst": "2026-10-17 09:39 KST",
+  "period": "10/16 07:00 ~ 10/17 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Stock market today: Dow jumps, S&P 500, Nasdaq gain as AI jitters fade",
-        "description": "Tech stocks headed lower on Thursday as fears of debt financing swept through the AI trade.",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-rise-nasdaq-trims-losses-as-treasury-yields-sink-153611834.html?.tsrc=rss",
+        "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+        "description": "The S&P 500 and Nasdaq knifed below their 50-day lines as CoreWeave led a broad tech sell-off. Tesla, SpaceX, Meta earnings loom.",
+        "url": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/15 21:20",
-        "score": 14
+        "publishedAt": "10/17 06:08",
+        "score": 15
       },
       {
-        "title": "American Tower (AMT) Beats Stock Market Upswing: What Investors Need to Know",
-        "description": "In the closing of the recent trading day, American Tower (AMT) stood at $181.36, denoting a +1.09% move from the preceding trading day.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/american-tower-amt-beats-stock-211507080.html?.tsrc=rss",
+        "title": "KOSPI Rebounds 3%, but Fed Rate Hike Fears Could Cap the Recovery",
+        "description": "The KOSPI rebound of 3.31% recovers just 40% of Thursday's drop as Fed hike fears and AI doubts cloud the outlook.",
+        "url": "https://beincrypto.com/kospi-rebound-fed-hike-fears-recovery/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 06:15",
-        "score": 5
+        "publishedAt": "10/16 12:45",
+        "score": 10
       },
       {
-        "title": "T. Rowe Price (TROW) Beats Stock Market Upswing: What Investors Need to Know",
-        "description": "In the closing of the recent trading day, T. Rowe Price (TROW) stood at $101.37, denoting a +1.76% move from the preceding trading day.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/t-rowe-price-trow-beats-211507432.html?.tsrc=rss",
+        "title": "Nasdaq sinks more than 2% as investors raise questions about AI debt",
+        "description": "Tech stocks had a tumultuous week as concerns, including higher interest rates and mounting AI debt, continued to weigh on investor sentiment.",
+        "url": "https://www.cnn.com/2026/10/16/investing/tech-stocks-ai-coreweave?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 06:15",
-        "score": 5
+        "publishedAt": "10/17 06:02",
+        "score": 6
       },
       {
-        "title": "Update: US Equity Indexes Rise as Technology Partially Recovers After Fed Tightening Bets Slump Amid Surging Producer Prices",
-        "description": "(Updates with index/price moves, macroeconomic/CME data, and company news from the first paragraph.)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-technology-212459361.html?.tsrc=rss",
+        "title": "Investors Rotated Out of the AI Trade and Geopolitical Tensions Soared. The Nasdaq Saw Its Worst Week in Months.",
+        "description": "Semiconductor companies have been hit this week over concerns about competition from China.",
+        "url": "https://www.ibtimes.com/investors-rotated-out-ai-trade-geopolitical-tensions-soared-nasdaq-saw-its-worst-week-months-3808691?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 06:24",
-        "score": 4
+        "publishedAt": "10/17 05:07",
+        "score": 6
       },
       {
-        "title": "Stock Market Today, Oct. 15: Iren Stock Recovers, but Still Slides on Concerns Over Neocloud Provider Viability",
-        "description": "Today, Oct. 15, 2026, Gartner's forecast that 80% of neocloud operators could lose independence by 2030 rattled AI infrastructure investors.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/15/stock-market-today-oct-15-iren-stock-recovers-but-still-slides-on-concerns-over-neocloud-provider-viability/?.tsrc=rss",
+        "title": "Memory stocks slide into another bear market as chip losses near $2.5 trillion: Chart of the Day",
+        "description": "The Roundhill Memory ETF (DRAM) entered another bear market this week, falling more than 20% from its September rebound high.",
+        "url": "https://finance.yahoo.com/markets/article/memory-stocks-slide-into-another-bear-market-as-chip-losses-near-25-trillion-chart-of-the-day-100000060.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 06:23",
-        "score": 4
+        "publishedAt": "10/16 19:00",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "Meet the Low-Cost Vanguard ETF With Taiwan Semiconductor, Samsung Electronics, SK Hynix, and ASML as Its 4 Largest Holdings",
-        "description": "International stock ETFs offer superior diversification, lower valuations, and higher yields than S&P 500 ETFs like VOO.",
-        "url": "https://www.fool.com/investing/2026/10/15/meet-the-low-cost-vanguard-etf-with-taiwan-semicon/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 02:11",
+        "title": "코스피, 2.05% 오른 5668…코스닥, 4.46% 상승한 794 종료",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101667116",
+        "source": "hankyung.com",
+        "publishedAt": "10/16 15:36",
         "score": 10
       },
       {
-        "title": "Samsung Electronics (KOSE:A005930) Dropped, What Is Behind The Latest Move?",
-        "description": "Iran’s warning that AI facilities worth an estimated $2t could become wartime targets has rippled across chip markets, with Samsung Electronics (KOSE:",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-dropped-211348124.html?.tsrc=rss",
+        "title": "SOXX Extends Selloff After 8-Day Decline, KOSPI Rebounds: Jim Cramer Calls SK Hynix ‘Epicenter Of Fear’",
+        "description": "South Korea’s KOSPI rebounded on Friday, giving investors some respite.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/soxx-extends-selloff-after-8-day-decline-kospi-rebounds-jim-cramer-calls-sk-hynix-epicenter-of-fear/cZx0VsRRBrY?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 06:13",
-        "score": 5
+        "publishedAt": "10/16 11:13",
+        "score": 10
       },
       {
-        "title": "코스피 폭락…시장은 AI 투자의 수익성을 의심한다 [여기는 논설실]",
+        "title": "이노보테라퓨틱스, 코스닥 상장예심 통과…IPO 본격화",
         "description": "",
-        "url": "https://www.hankyung.com/article/202610155032i",
+        "url": "https://www.hankyung.com/article/202610165474i",
         "source": "hankyung.com",
-        "publishedAt": "10/16 06:00",
-        "score": 5
+        "publishedAt": "10/16 08:34",
+        "score": 6
       },
       {
-        "title": "\"10만원까지 가라\"…주가 폭락에 웃는 삼성전자 직원들, 왜?",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026101550767",
-        "source": "hankyung.com",
-        "publishedAt": "10/15 22:32",
-        "score": 5
-      },
-      {
-        "title": "Broadcom vs. SK Hynix: Which Technology Stock Is a Better Buy in 2026?",
-        "description": "SK Hynix trades at a fraction of Broadcom's valuation despite stronger profit margins, but faces steeper cyclical risks in the memory market.",
-        "url": "https://www.fool.com/coverage/better-buy/2026/10/15/broadcom-vs-sk-hynix-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+        "title": "Samsung Electronics exec: The investments that last build more than factories",
+        "description": "A factory is only the beginning. Lasting investment builds the workforce, suppliers and institutions that help a community thrive.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/samsung-electronics-exec-investments-last-120000237.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/15 20:20",
+        "publishedAt": "10/16 21:00",
+        "score": 5
+      },
+      {
+        "title": "월가는 \"코스피 역대급 저평가\"…AI 실적 의구심 풀려야 반등",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101671221",
+        "source": "hankyung.com",
+        "publishedAt": "10/16 18:12",
         "score": 5
       }
     ],
     "macro": [
       {
-        "title": "\"기름값 때문에\"…9월 CPI이어 PPI도 급등 쇼크",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610155072i",
-        "source": "hankyung.com",
-        "publishedAt": "10/15 22:18",
-        "score": 5
-      },
-      {
-        "title": "KOSPI Opens 7% Down After Hot US CPI and AI Doubts Grow",
-        "description": "South Korea's KOSPI opened sharply lower and slid 7% after hot US inflation data and AI doubts, extending a six-day slide.",
-        "url": "https://beincrypto.com/kospi-opens-7-down-hot-cpi/?.tsrc=rss",
+        "title": "After Hot CPI, Hot PPI: Producer Prices Rose the Most Since 2022",
+        "description": "Two back-to-back inflation reports landed this week, and producer prices did something they have not done since early 2022. Whether stocks are right t",
+        "url": "https://247wallst.com/investing/2026/10/16/after-hot-cpi-hot-ppi-producer-prices-rose-the-most-since-2022/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/15 10:30",
+        "publishedAt": "10/16 23:12",
         "score": 5
       },
       {
-        "title": "물가 최고치 찍었는데 증시 반등…시장 여전히 'Fed 금리동결'에 무게",
+        "title": "고유가에 수입물가 반등…최고가격제 또 동결",
         "description": "",
-        "url": "https://www.hankyung.com/article/202610165216i",
+        "url": "https://www.hankyung.com/article/2026101671641",
         "source": "hankyung.com",
-        "publishedAt": "10/16 06:40",
+        "publishedAt": "10/16 18:00",
         "score": 3
       },
       {
-        "title": "US Dollar Falls Early Thursday Ahead of Busy Economic Data Schedule, Warsh",
-        "description": "The US dollar fell against its major trading partners early Thursday ahead of a busy schedule of eco",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-thursday-114212302.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/15 20:42",
-        "score": 1
+        "title": "카카오, 인적분할 앞두고 직원 소통…\"고용·복지 그대로\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610166440i",
+        "source": "hankyung.com",
+        "publishedAt": "10/16 14:10",
+        "score": 3
       }
     ],
     "bonds": [
       {
-        "title": "Ray Dalio Warns US Debt Crisis Could Deepen as $2.1T in New Treasury Supply Hits Market: 'Credit Market Players Call That a Death Spiral'",
-        "description": "Investor Ray Dalio warned that the United States faces a “death spiral” due to an oversupply of government debt. This structural imbalance is material",
-        "url": "https://finance.yahoo.com/economy/policy/articles/ray-dalio-warns-us-debt-183012087.html?.tsrc=rss",
+        "title": "Gold price today, Friday, October 16, 2026: Gold lifts as Treasury yields and dollar fall back",
+        "description": "Gold December futures opened at $4,192.10per troy ounce on Friday, October 16, 2026, up 0.5% from Thursday's closing price. Gold is up this morning to",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-october-16-2026-gold-lifts-as-treasury-yields-and-dollar-fall-back-110651322.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 03:30",
-        "score": 4
+        "publishedAt": "10/16 20:06",
+        "score": 8
       },
       {
-        "title": "AI trade rout sparks flight to Treasurys, bond yields sink: Chart of the Day",
-        "description": "Investors flocked to safety as the AI trade has unwound over the past two sessions.",
-        "url": "https://finance.yahoo.com/markets/article/ai-trade-rout-sparks-flight-to-treasurys-bond-yields-sink-chart-of-the-day-151821305.html?.tsrc=rss",
+        "title": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals",
+        "description": "Gold prices edged higher on Friday, 16 October 2026, following a two-week high in the previous session, as declining US Treasury yields and a weaker d",
+        "url": "https://investorshub.advfn.com/market-news/article/38158/gold-prices-rise-as-lower-us-treasury-yields-and-weaker-dollar-support-precious-metals?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 00:18",
+        "publishedAt": "10/16 18:05",
+        "score": 8
+      },
+      {
+        "title": "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton Was Leading the Treasury",
+        "description": "Treasury yields are punishing bond investors in ways not seen since the nation's founding debt crisis, and the fallout reaches well beyond Wall Street",
+        "url": "https://247wallst.com/investing/2026/10/16/bad-news-for-trump-the-us-is-in-its-worst-bond-crisis-since-alexander-hamilton-was-leading-the-treasury/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/16 17:15",
         "score": 3
       },
       {
-        "title": "CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers",
-        "description": "On this episode of Stock Movers: - CoreWeave (CRWV) shares are continuing their slide amid a major issue with their debt. CoreWeave's debt has weakene",
-        "url": "https://finance.yahoo.com/video/coreweave-slides-debt-tsmc-moves-150604403.html?.tsrc=rss",
+        "title": "Nasdaq sinks more than 2% as investors raise questions about AI debt",
+        "description": "Tech stocks had a tumultuous week as concerns, including higher interest rates and mounting AI debt, continued to weigh on investor sentiment.",
+        "url": "https://www.cnn.com/2026/10/16/investing/tech-stocks-ai-coreweave?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 00:06",
+        "publishedAt": "10/17 06:02",
+        "score": 1
+      },
+      {
+        "title": "Applied Digital Sinks 4% as Rotation Out of Debt-Funded AI Builders Extends; TeraWulf Dips 3%, Core Scientific Retreats 2%",
+        "description": "JPMorgan just downgraded Applied Digital's bonds and the stock is sliding, yet management is already lining up its next round of borrowing to fund thr",
+        "url": "https://247wallst.com/investing/2026/10/16/applied-digital-sinks-4-as-rotation-out-of-debt-funded-ai-builders-extends-terawulf-dips-3-core-scientific-retreats-2/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/16 22:53",
         "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "Energy Substantiation Brings Physically Backed Crude Oil to Institutional Markets with WTIC Listing on LMAX Digital",
-        "description": "Energy Substantiation today announced the listing of its WTIC token on LMAX Digital, a leading institutional digital assets execution venue and part o",
-        "url": "https://finance.yahoo.com/energy/articles/energy-substantiation-brings-physically-backed-212300480.html?.tsrc=rss",
+        "title": "Update: US Equity Indexes Retreat Amid Rotation Out of High-Growth Sectors, Surge in Crude Oil",
+        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-amid-204142032.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 06:23",
-        "score": 13
-      },
-      {
-        "title": "Commerzbank Says Treasuries Rally on Equities Selloff Led by Tech Stocks, Brent Oil Lower, US Dollar Weakens",
-        "description": "Treasuries rallied amid a sell-off in equities, led by technology stocks, as Asian shares plunged wh",
-        "url": "https://finance.yahoo.com/economy/policy/articles/commerzbank-says-treasuries-rally-equities-103101742.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/15 19:31",
+        "publishedAt": "10/17 05:41",
         "score": 5
       },
       {
-        "title": "How The State of Energy Impacts AI",
-        "description": "During a recent episode of The AI Investor Podcast, Austin Smith spoke with a financial and Macro energy analyst from Doomberg. Among the subjects  di",
-        "url": "https://247wallst.com/videos/how-the-state-of-energy-impacts-ai/?.tsrc=rss",
+        "title": "TSX futures edge higher as gold prices rise; comments from BoC’s Macklem in focus",
+        "description": "Investing.com - Futures linked to Canada’s main stock exchange ticked higher on Friday, bolstered by strength in metals prices, while investors assess",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-edge-higher-gold-122209059.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 06:56",
-        "score": 3
+        "publishedAt": "10/16 21:22",
+        "score": 5
       },
       {
-        "title": "Diamondback, Expand Energy Named Top Picks at Scotiabank",
-        "description": "Investing.com -- Scotiabank sees significant upside in Diamondback Energy and Expand Energy, citing their capital efficiency, durable cash flow potent",
-        "url": "https://finance.yahoo.com/energy/articles/diamondback-expand-energy-named-top-205209734.html?.tsrc=rss",
+        "title": "Gold price today, Friday, October 16, 2026: Gold lifts as Treasury yields and dollar fall back",
+        "description": "Gold December futures opened at $4,192.10per troy ounce on Friday, October 16, 2026, up 0.5% from Thursday's closing price. Gold is up this morning to",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-october-16-2026-gold-lifts-as-treasury-yields-and-dollar-fall-back-110651322.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 05:52",
-        "score": 3
+        "publishedAt": "10/16 20:06",
+        "score": 5
       },
       {
-        "title": "CoreWeave, International Paper, Dell, FMC, Bloom Energy, Rocket Lab, and More Stocks That Explain Today’s Market",
-        "description": "CoreWeave shares fall as concerns continue to mount about the company’s debt.",
-        "url": "https://finance.yahoo.com/m/b14bf4c9-b540-315c-a728-6230494d4f98/coreweave%2C-international.html?.tsrc=rss",
+        "title": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals",
+        "description": "Gold prices edged higher on Friday, 16 October 2026, following a two-week high in the previous session, as declining US Treasury yields and a weaker d",
+        "url": "https://investorshub.advfn.com/market-news/article/38158/gold-prices-rise-as-lower-us-treasury-yields-and-weaker-dollar-support-precious-metals?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 05:21",
-        "score": 3
+        "publishedAt": "10/16 18:05",
+        "score": 5
+      },
+      {
+        "title": "고유가에 수입물가 반등…최고가격제 또 동결",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101671641",
+        "source": "hankyung.com",
+        "publishedAt": "10/16 18:00",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "Tech, Credit Concerns Dampen European Bourses Midday",
-        "description": "European bourses tracked moderately lower midday Thursday amid soft tech stocks and concerns that ce",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-credit-concerns-dampen-european-114348811.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/15 20:43",
-        "score": 3
+        "title": "환율 하락 역풍에 업황 우려도…방산·증권·엔터, 눈높이 줄하향",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610166630i",
+        "source": "hankyung.com",
+        "publishedAt": "10/16 16:19",
+        "score": 5
       },
       {
-        "title": "Canadian dollar gains as dollar retreats, hot U.S. PPI clouds outlook",
-        "description": "The Canadian dollar strengthened against its U.S. counterpart on Thursday as the greenback retreated from an 18-month high, although a sharper-than-ex",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-gains-dollar-retreats-205009777.html?.tsrc=rss",
+        "title": "Canadian dollar heads for weekly gain as U.S. dollar retreats",
+        "description": "Investing.com -- The Canadian dollar was on track to snap a five-week losing streak against its U.S. counterpart on Friday, supported by a retreat in",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-heads-weekly-gain-162414050.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 05:50",
+        "publishedAt": "10/17 01:24",
         "score": 1
       },
       {
-        "title": "US Dollar Turns Lower Against The Loonie As Bond Yields Decline",
-        "description": "The US dollar turned down against its Canadian counterpart on Thursday afternoon as 10-year Treasury",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-turns-lower-against-174644434.html?.tsrc=rss",
+        "title": "Dollar Pressured as Fed Chair Powell Refrains from Forward Guidance",
+        "description": "The dollar index (DXY00 ) tumbled to a 2-week low today and is down by -0.34%. The dollar came under pressure today after Fed Chair Powell refrained f",
+        "url": "https://www.barchart.com/story/news/8099890/dollar-pressured-as-fed-chair-powell-refrains-from-forward-guidance?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 02:46",
+        "publishedAt": "10/16 23:32",
         "score": 1
       },
       {
-        "title": "USDC’s EU Reserves and Capital Shift to EBA Supervision in MiCA’s First ‘Significant’ Call",
-        "description": "Circle's EU issuer will report to the EBA instead of France's ACPR on reserves and liquidity from Nov. 12, after the agency made USDC the first e-mone",
-        "url": "https://unchainedcrypto.com/usdcs-eu-reserves-and-capital-shift-to-eba-supervision-in-micas-first-significant-call/?.tsrc=rss",
+        "title": "Circle Expands USDC Stablecoin To 40 New Markets",
+        "description": "Circle Internet Group (NYSE: $CRCL) says it is expanding its stablecoin (CRYPTO: $USDC) to 40 new markets as global...",
+        "url": "https://www.cryptoprowl.com/releases/circle-expands-usdc-stablecoin-to-40-new-markets-7338?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 01:38",
+        "publishedAt": "10/16 22:56",
         "score": 1
       },
       {
-        "title": "Dollar Retreats with Bond Yields",
-        "description": "The dollar index (DXY00 ) fell to a 1-week low today and is down by -0.48%. The dollar is sliding today on weakness in T-note yields after the 10-year",
-        "url": "https://www.barchart.com/story/news/7887549/dollar-retreats-with-bond-yields?.tsrc=rss",
+        "title": "US Dollar Falls Early Friday Ahead of Import Prices, New York Fed Services, Industrial Production",
+        "description": "The US dollar fell against its major trading partners early Friday ahead of the release of import an",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-friday-114014259.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/15 23:34",
+        "publishedAt": "10/16 20:40",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Container Shipping Would See Little Relief if US Eased Sanctions on ‘Shadow Fleet’ Vessels",
-        "description": "In a reported bid to bring down freight rates, the Trump administration is considering easing sanctions on ships that move oil products from countries",
-        "url": "https://wwd.com/sourcing-journal/logistics/freight-rates-container-shipping-us-sanctions-shadow-fleet-vessels-oil-prices-1239351791/?.tsrc=rss",
+        "title": "Investors Rotated Out of the AI Trade and Geopolitical Tensions Soared. The Nasdaq Saw Its Worst Week in Months.",
+        "description": "Semiconductor companies have been hit this week over concerns about competition from China.",
+        "url": "https://www.ibtimes.com/investors-rotated-out-ai-trade-geopolitical-tensions-soared-nasdaq-saw-its-worst-week-months-3808691?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 06:00",
-        "score": 6
+        "publishedAt": "10/17 05:07",
+        "score": 4
       },
       {
-        "title": "Cleveland-Cliffs Drops 4% as Tariff Doubt Returns; Nucor and Steel Dynamics Slip",
-        "description": "Cleveland-Cliffs is falling several times harder than its steel rivals today, and the reason comes down to a structural quirk that puts the company on",
-        "url": "https://247wallst.com/investing/2026/10/15/cleveland-cliffs-drops-4-as-tariff-doubt-returns-nucor-and-steel-dynamics-slip/?.tsrc=rss",
+        "title": "Weekly Wrap: Crypto Under Pressure As A.I. Trade Unwinds",
+        "description": "Cryptocurrencies remain under pressure as investors rotate money out of technology stocks amid growing concerns abo...",
+        "url": "https://www.cryptoprowl.com/releases/weekly-wrap-crypto-under-pressure-as-ai-trade-unwinds-7345?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 02:49",
-        "score": 3
-      },
-      {
-        "title": "Ray Dalio Warns US Debt Crisis Could Deepen as $2.1T in New Treasury Supply Hits Market: 'Credit Market Players Call That a Death Spiral'",
-        "description": "Investor Ray Dalio warned that the United States faces a “death spiral” due to an oversupply of government debt. This structural imbalance is material",
-        "url": "https://finance.yahoo.com/economy/policy/articles/ray-dalio-warns-us-debt-183012087.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 03:30",
+        "publishedAt": "10/17 06:44",
         "score": 1
       },
       {
-        "title": "Rithm Capital (RITM) Trades at 0.76 Times Book Value. Should You Buy It?",
-        "description": "Rithm Capital Corp. (NYSE:RITM) closed at $8.50 on October 13. The stock has returned -17.5% over the last six months, compared to a 21.5% return for",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/rithm-capital-ritm-trades-0-181646521.html?.tsrc=rss",
+        "title": "Tech stocks stumble as sell-off spreads to software",
+        "description": "Yahoo Finance Data and Markets Editor returns to Market Domination to break down a turbulent week for chip stocks (SOXX), as selling pressure spreads",
+        "url": "https://finance.yahoo.com/video/tech-stocks-stumble-as-sell-off-spreads-to-software-194829195.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 03:16",
+        "publishedAt": "10/17 04:48",
         "score": 1
       },
       {
-        "title": "Dynex Capital (DX) Trades at 4 Times Last Year’s Earnings and 8 Times Next Year’s. Which is Right?",
-        "description": "Dynex Capital, Inc. (NYSE:DX) closed at $10.85 on October 13. The stock has returned -18.2% over the last six months, compared to a 21.5% return for t",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dynex-capital-dx-trades-4-181634841.html?.tsrc=rss",
+        "title": "Palantir's record breakout unravels as software stocks shed $260 billion",
+        "description": "Palantir was breaking records earlier this week and is now heading for correction territory.",
+        "url": "https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 03:16",
+        "publishedAt": "10/17 02:43",
+        "score": 1
+      },
+      {
+        "title": "CIBC warns of inflation risks as ‘leaky loonie’ faces further slide",
+        "description": "Investing.com -- Canada’s weakening currency could complicate the Bank of Canada’s interest rate outlook if the U.S. dollar strengthens further, parti",
+        "url": "https://finance.yahoo.com/economy/policy/articles/cibc-warns-inflation-risks-leaky-162609154.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/17 01:26",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "TSMC posts 69% jump in third-quarter profit as AI chip demand drives growth",
-        "description": "Taiwan Semiconductor Manufacturing Co (ADR) (NYSE:TSM), the Taiwanese semiconductor foundry, increased third-quarter net income by 69% to NT$763.06 bi",
-        "url": "https://www.proactiveinvestors.com/companies/news/1100172/tsmc-posts-69-jump-in-third-quarter-profit-as-ai-chip-demand-drives-growth-1100172.html?.tsrc=rss",
+        "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production.",
+        "description": "ASML is the most important semiconductor equipment maker in the world.",
+        "url": "https://www.fool.com/investing/2026/10/16/not-nvidia-not-taiwan-semi-this-equipment-maker-is/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/15 21:32",
+        "publishedAt": "10/17 04:15",
+        "score": 13
+      },
+      {
+        "title": "Arm and AMD Fall 5% as Qualcomm Verdict Adds to Chip Selloff; Taiwan Semiconductor Slips",
+        "description": "A Delaware jury just handed Arm a damaging verdict in its licensing battle with Qualcomm, and with a second ruling on its newest chip designs due next",
+        "url": "https://247wallst.com/investing/2026/10/16/arm-and-amd-fall-5-as-qualcomm-verdict-adds-to-chip-selloff-taiwan-semiconductor-slips/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/17 03:10",
+        "score": 12
+      },
+      {
+        "title": "The Zacks Analyst Blog Highlights NASA, SpaceX, Rocket Lab, ARKX, UFO and MARS",
+        "description": "Space ETFs may offer an attractive entry point after recent selloffs, with a $686 billion global space economy and diversified exposure to long-term g",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nasa-113800899.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/16 20:38",
+        "score": 12
+      },
+      {
+        "title": "TSMC Record Quarter Highlights Unprecedented Demand for AI Chips",
+        "description": "Key Stats for TSMC StockPrice change for TSMC stock in last 6 months: 16%$TSM Stock Price as of Oct. 15: $7552-Week High: $81$TSM Stock Price Target:",
+        "url": "https://www.tikr.com/blog/tsm-stock-tsmc-record-quarter-ai-chip-demand?ref=yahoofinance&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/16 21:46",
         "score": 10
       },
       {
-        "title": "Chip Stocks Tumble On AI Investment Worries",
-        "description": "A strong earnings report from Taiwan Semiconductor Manufacturing on Thursday wasn't enough to stop a weeklong slide for chip stocks.",
-        "url": "https://finance.yahoo.com/m/e0ef6d90-1f3d-3925-9be0-e5d8d98435b3/chip-stocks-tumble-on-ai.html?.tsrc=rss",
+        "title": "TSMC’s ‘Leave No Food On The Table’ Pledge Signals More AI Chip Investment, Morningstar Says",
+        "description": "Morningstar estimates Taiwan Semiconductor Manufacturing trades about 27% below its fair value, with a $534 price target.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/tsmc-s-leave-no-food-on-the-table-pledge-signals-more-ai-chip-investment/cZxKGj2RBsa?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 05:31",
-        "score": 7
-      },
-      {
-        "title": "Rocket Lab stock tumbles as effort to take market share from SpaceX slips to 2027",
-        "description": "Rocket Lab stock tumbled on Thursday after the space company said the first launch of Neutron, its reusable medium-lift rocket, slipped to 2027.",
-        "url": "https://finance.yahoo.com/markets/stocks/article/rocket-lab-stock-tumbles-as-effort-to-take-market-share-from-spacex-slips-to-2027-163503484.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/15 22:41",
-        "score": 7
-      },
-      {
-        "title": "\"고금리에 AI 투자 지속가능한가\"…증시 덮친 '빅테크 빚투'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026101548031",
-        "source": "hankyung.com",
-        "publishedAt": "10/15 17:59",
-        "score": 7
-      },
-      {
-        "title": "코스피 폭락…시장은 AI 투자의 수익성을 의심한다 [여기는 논설실]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610155032i",
-        "source": "hankyung.com",
-        "publishedAt": "10/16 06:00",
-        "score": 6
+        "publishedAt": "10/16 20:26",
+        "score": 10
       }
     ]
   }
