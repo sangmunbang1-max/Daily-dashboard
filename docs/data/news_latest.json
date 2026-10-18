@@ -1,325 +1,261 @@
 {
-  "generated_at_kst": "2026-10-17 09:39 KST",
-  "period": "10/16 07:00 ~ 10/17 07:00 KST",
+  "generated_at_kst": "2026-10-18 09:08 KST",
+  "period": "10/17 07:00 ~ 10/18 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
-        "description": "The S&P 500 and Nasdaq knifed below their 50-day lines as CoreWeave led a broad tech sell-off. Tesla, SpaceX, Meta earnings loom.",
-        "url": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html?.tsrc=rss",
+        "title": "주식 시장 붕괴가 다가오고 있는 경우, 역사에 따르면 이 전략은 포트폴리오의 복구 시간을 절반으로 단축할 수 있습니다.",
+        "description": "오랜 시간에 걸쳐 검증된 전략이 인기를 끄는 데는 그럴 만한 이유가 있습니다.",
+        "url": "https://www.fool.com/investing/2026/10/17/if-stock-market-crash-is-coming-history-says-this/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 06:08",
-        "score": 15
-      },
-      {
-        "title": "KOSPI Rebounds 3%, but Fed Rate Hike Fears Could Cap the Recovery",
-        "description": "The KOSPI rebound of 3.31% recovers just 40% of Thursday's drop as Fed hike fears and AI doubts cloud the outlook.",
-        "url": "https://beincrypto.com/kospi-rebound-fed-hike-fears-recovery/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 12:45",
+        "publishedAt": "10/18 02:35",
         "score": 10
       },
       {
-        "title": "Nasdaq sinks more than 2% as investors raise questions about AI debt",
-        "description": "Tech stocks had a tumultuous week as concerns, including higher interest rates and mounting AI debt, continued to weigh on investor sentiment.",
-        "url": "https://www.cnn.com/2026/10/16/investing/tech-stocks-ai-coreweave?.tsrc=rss",
+        "title": "주식 시장 붕괴가 다가오면 이 5개 주식은 버틸 수 있는 역사를 가지고 있습니다",
+        "description": "또 다른 폭락이 닥칠까 봐 걱정된다면(언제든지 폭락이 올 수 있기 때문에 그렇게 해야 합니다), 이 5개 주식은 훌륭한 보호 종목입니다.",
+        "url": "https://www.fool.com/investing/2026/10/17/if-a-stock-market-crash-is-coming-these-5-stocks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 06:02",
+        "publishedAt": "10/18 01:20",
+        "score": 9
+      },
+      {
+        "title": "최악의 일주일 나스닥 2.2%…AI 경고등에 유가 급등까지 [뉴욕증시 브리핑]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101775037",
+        "source": "hankyung.com",
+        "publishedAt": "10/17 07:55",
+        "score": 8
+      },
+      {
+        "title": "Palantir 주가는 하루 만에 7% 하락하며 조정 국면에 빠졌습니다. 2030년까지 갈 수 있는 곳은 다음과 같습니다",
+        "description": "Palantir 주식 현재 가격의 주요 통계: $186. 03목표 가격(중간): ~$1,330거리 목표: ~$206잠재 총 수익률: ~613%연간 IRR: ~59% /",
+        "url": "https://www.tikr.com/blog/palantir-stock-fell-7-in-a-day-and-slipped-into-a-correction-heres-where-it-could-go-by-2030?ref=yahoofinance&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/18 02:30",
         "score": 6
       },
       {
-        "title": "Investors Rotated Out of the AI Trade and Geopolitical Tensions Soared. The Nasdaq Saw Its Worst Week in Months.",
-        "description": "Semiconductor companies have been hit this week over concerns about competition from China.",
-        "url": "https://www.ibtimes.com/investors-rotated-out-ai-trade-geopolitical-tensions-soared-nasdaq-saw-its-worst-week-months-3808691?.tsrc=rss",
+        "title": "Nasdaq-100의 올해 최고의 주식 6개와 계속해서 성장할 수 있는지 여부",
+        "description": "추진력은 전투의 절반에 불과합니다. 그들의 기반 회사는 여전히 주식의 지속적인 강세를 정당화해야 합니다.",
+        "url": "https://www.fool.com/investing/2026/10/17/nasdaq-100-best-stocks-2026-keep-going/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 05:07",
-        "score": 6
-      },
-      {
-        "title": "Memory stocks slide into another bear market as chip losses near $2.5 trillion: Chart of the Day",
-        "description": "The Roundhill Memory ETF (DRAM) entered another bear market this week, falling more than 20% from its September rebound high.",
-        "url": "https://finance.yahoo.com/markets/article/memory-stocks-slide-into-another-bear-market-as-chip-losses-near-25-trillion-chart-of-the-day-100000060.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 19:00",
+        "publishedAt": "10/17 22:05",
         "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "코스피, 2.05% 오른 5668…코스닥, 4.46% 상승한 794 종료",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026101667116",
-        "source": "hankyung.com",
-        "publishedAt": "10/16 15:36",
-        "score": 10
-      },
-      {
-        "title": "SOXX Extends Selloff After 8-Day Decline, KOSPI Rebounds: Jim Cramer Calls SK Hynix ‘Epicenter Of Fear’",
-        "description": "South Korea’s KOSPI rebounded on Friday, giving investors some respite.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/soxx-extends-selloff-after-8-day-decline-kospi-rebounds-jim-cramer-calls-sk-hynix-epicenter-of-fear/cZx0VsRRBrY?.tsrc=rss",
+        "title": "Elon Musk의 중국 RAM 경고는 한국이 잠재적인 메모리 칩 공급 과잉과 다각화할 시간이 부족함에 따라 삼성, SK 하이닉스에 대한 의문을 제기합니다",
+        "description": "Elon Musk는 중국이 2028년까지 RAM(Random Access Memory)을 \"많이 만들\" 것이라고 경고하여 향후 칩 과잉으로 인해 Sou가 노출될 수 있다는 우려를 증폭시켰습니다.",
+        "url": "https://finance.yahoo.com/technology/articles/elon-musk-china-ram-warning-033004982.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 11:13",
-        "score": 10
-      },
-      {
-        "title": "이노보테라퓨틱스, 코스닥 상장예심 통과…IPO 본격화",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610165474i",
-        "source": "hankyung.com",
-        "publishedAt": "10/16 08:34",
+        "publishedAt": "10/17 12:30",
         "score": 6
-      },
-      {
-        "title": "Samsung Electronics exec: The investments that last build more than factories",
-        "description": "A factory is only the beginning. Lasting investment builds the workforce, suppliers and institutions that help a community thrive.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/samsung-electronics-exec-investments-last-120000237.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 21:00",
-        "score": 5
-      },
-      {
-        "title": "월가는 \"코스피 역대급 저평가\"…AI 실적 의구심 풀려야 반등",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026101671221",
-        "source": "hankyung.com",
-        "publishedAt": "10/16 18:12",
-        "score": 5
       }
     ],
     "macro": [
       {
-        "title": "After Hot CPI, Hot PPI: Producer Prices Rose the Most Since 2022",
-        "description": "Two back-to-back inflation reports landed this week, and producer prices did something they have not done since early 2022. Whether stocks are right t",
-        "url": "https://247wallst.com/investing/2026/10/16/after-hot-cpi-hot-ppi-producer-prices-rose-the-most-since-2022/?.tsrc=rss",
+        "title": "다음 불경기에 보유할 기술주 1개를 선택해야 한다면 이 주식을 선택하겠습니다",
+        "description": "Micron은 2027년 회계연도가 더욱 강력해질 것으로 예상했으며 주요 고객과의 다년간의 전략적 계약이 이러한 주장을 뒷받침합니다.",
+        "url": "https://www.fool.com/investing/2026/10/17/if-pick-tech-stock-hold-recession-micron/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 23:12",
+        "publishedAt": "10/17 21:40",
         "score": 5
       },
       {
-        "title": "고유가에 수입물가 반등…최고가격제 또 동결",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026101671641",
-        "source": "hankyung.com",
-        "publishedAt": "10/16 18:00",
-        "score": 3
+        "title": "씨티 “주식 가치 평가보다 금리가 경제에 더 중요할 수 있다”",
+        "description": "Investing.com-- 금리는 인공지능의 발달로 인해 주식시장 평가보다 경제 성장 기대에 더 큰 영향을 미칠 수 있습니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/citi-says-interest-rates-may-202416020.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/18 05:24",
+        "score": 1
       },
       {
-        "title": "카카오, 인적분할 앞두고 직원 소통…\"고용·복지 그대로\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610166440i",
-        "source": "hankyung.com",
-        "publishedAt": "10/16 14:10",
-        "score": 3
+        "title": "세계 경제 차트 작성: 미국의 인플레이션 압력 증가",
+        "description": "미국에서 인플레이션 압력이 가중되고 있으며, 새로운 소비자 및 도매 가격 데이터에 따르면 더 비싼 연료가 더 높은 가격으로 필터링되고 있음을 나타냅니다.",
+        "url": "https://finance.yahoo.com/economy/articles/charting-global-economy-inflationary-pressures-090000483.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/17 18:00",
+        "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Gold price today, Friday, October 16, 2026: Gold lifts as Treasury yields and dollar fall back",
-        "description": "Gold December futures opened at $4,192.10per troy ounce on Friday, October 16, 2026, up 0.5% from Thursday's closing price. Gold is up this morning to",
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-october-16-2026-gold-lifts-as-treasury-yields-and-dollar-fall-back-110651322.html?.tsrc=rss",
+        "title": "Stocktwits 주간 스프레드: 이번 주 국채 수익률과 달러의 모양",
+        "description": "AI 주식의 가속화되는 대패로 미국 달러는 한 달 만에 최악의 주간 하락세를 보였으며 재무부는 10월로 끝나는 주 동안 하락세를 재개했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week-1/cZxjAkARBt3?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 20:06",
+        "publishedAt": "10/17 09:45",
         "score": 8
       },
       {
-        "title": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals",
-        "description": "Gold prices edged higher on Friday, 16 October 2026, following a two-week high in the previous session, as declining US Treasury yields and a weaker d",
-        "url": "https://investorshub.advfn.com/market-news/article/38158/gold-prices-rise-as-lower-us-treasury-yields-and-weaker-dollar-support-precious-metals?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 18:05",
-        "score": 8
-      },
-      {
-        "title": "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton Was Leading the Treasury",
-        "description": "Treasury yields are punishing bond investors in ways not seen since the nation's founding debt crisis, and the fallout reaches well beyond Wall Street",
-        "url": "https://247wallst.com/investing/2026/10/16/bad-news-for-trump-the-us-is-in-its-worst-bond-crisis-since-alexander-hamilton-was-leading-the-treasury/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 17:15",
+        "title": "미 채권시장이 보내는 신호, 어떻게 읽어야 할까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610165797i",
+        "source": "hankyung.com",
+        "publishedAt": "10/17 12:00",
         "score": 3
       },
       {
-        "title": "Nasdaq sinks more than 2% as investors raise questions about AI debt",
-        "description": "Tech stocks had a tumultuous week as concerns, including higher interest rates and mounting AI debt, continued to weigh on investor sentiment.",
-        "url": "https://www.cnn.com/2026/10/16/investing/tech-stocks-ai-coreweave?.tsrc=rss",
+        "title": "국가 부채에 대한 이자가 1조 3600억 달러라는 기록을 세웠습니다.",
+        "description": "연방 정부는 대부분의 국가의 전체 예산을 축소할 만큼 큰 부채 상환 청구서를 기록했지만 채권 시장은 이를 무시했습니다. 시간",
+        "url": "https://247wallst.com/investing/2026/10/17/interest-on-the-national-debt-just-hit-a-record-1-36-trillion/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 06:02",
-        "score": 1
-      },
-      {
-        "title": "Applied Digital Sinks 4% as Rotation Out of Debt-Funded AI Builders Extends; TeraWulf Dips 3%, Core Scientific Retreats 2%",
-        "description": "JPMorgan just downgraded Applied Digital's bonds and the stock is sliding, yet management is already lining up its next round of borrowing to fund thr",
-        "url": "https://247wallst.com/investing/2026/10/16/applied-digital-sinks-4-as-rotation-out-of-debt-funded-ai-builders-extends-terawulf-dips-3-core-scientific-retreats-2/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 22:53",
+        "publishedAt": "10/18 02:09",
         "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "Update: US Equity Indexes Retreat Amid Rotation Out of High-Growth Sectors, Surge in Crude Oil",
-        "description": "(Updates with index/price moves, macroeconomic data, and company/geopolitical news from the first pa",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-amid-204142032.html?.tsrc=rss",
+        "title": "트럼프, 원유 가격이 5개월래 최고치로 치솟자 디젤 거래 일주일 만에 러시아 에너지 관세 면제, 제재 조치",
+        "description": "금요일에 발표된 면제는 트럼프 대통령이 그레이엄법(Graham Act)에 서명한 지 한 달도 채 안 되어, 행정부의 디젤 계약이 체결된 지 약 일주일 후에 나온 것입니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/trump-waives-russia-energy-tariffs-week-after-diesel-deal/cZxj6rdRBtJ?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 05:41",
+        "publishedAt": "10/17 15:30",
+        "score": 13
+      },
+      {
+        "title": "석유가 배럴당 100달러를 돌파했습니다. 지난번 유가가 세 자릿수를 기록했을 때 비트코인에 무슨 일이 일어났나요?",
+        "description": "배럴당 100달러를 넘는 원유는 지난번에 비트코인을 통해 파문을 일으켰고, 그 이후의 패턴은 노련한 거래자들조차 놀라게 했습니다. 여",
+        "url": "https://247wallst.com/investing/cryptocurrency/2026/10/17/oil-just-hit-100-a-barrel-what-happened-to-bitcoin-the-last-time-oil-prices-hit-three-digits/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/17 20:30",
+        "score": 6
+      },
+      {
+        "title": "엑슨모빌은 브렌트유가 110달러에 육박하면서 2026년에 49% 상승했습니다. 석유가 냉각될 때 주식의 가치는 다음과 같습니다.",
+        "description": "ExxonMobil 주식의 주요 통계현재 가격: $178. 98목표 가격(중간): ~$163거리 목표: ~$175잠재 총 수익률: ~-9%연간 IRR: ~-2% / y",
+        "url": "https://www.tikr.com/blog/exxonmobil-is-up-49-in-2026-with-brent-near-110-heres-what-the-stock-could-be-worth-when-oil-cools?ref=yahoofinance&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/17 23:14",
         "score": 5
       },
       {
-        "title": "TSX futures edge higher as gold prices rise; comments from BoC’s Macklem in focus",
-        "description": "Investing.com - Futures linked to Canada’s main stock exchange ticked higher on Friday, bolstered by strength in metals prices, while investors assess",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-edge-higher-gold-122209059.html?.tsrc=rss",
+        "title": "캐나다 은행(Bank of Canada)은 유가 상승으로 성장과 인플레이션을 촉진할 것으로 예상",
+        "description": "Tiff Maccklem 캐나다 은행 총재는 유가 상승이 캐나다 경제 성장을 뒷받침한다는 더 많은 증거를 보고 있다고 말했습니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/bank-canada-sees-higher-oil-130524675.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 21:22",
+        "publishedAt": "10/17 22:05",
         "score": 5
       },
       {
-        "title": "Gold price today, Friday, October 16, 2026: Gold lifts as Treasury yields and dollar fall back",
-        "description": "Gold December futures opened at $4,192.10per troy ounce on Friday, October 16, 2026, up 0.5% from Thursday's closing price. Gold is up this morning to",
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-october-16-2026-gold-lifts-as-treasury-yields-and-dollar-fall-back-110651322.html?.tsrc=rss",
+        "title": "유가가 '슈퍼 급등'할 수 있는 이유: 분석가",
+        "description": "원유 가격은 배럴당 95달러에 육박하고 있으며 윌리엄 블레어(William Blair) 에너지 연구 분석가 닐 딩먼(Neal Dingmann)은 다음 움직임이 \"슈퍼 스파이크\"가 될 수 있다고 생각합니다.",
+        "url": "https://finance.yahoo.com/energy/article/why-oil-prices-could-be-poised-for-a-super-spike-analyst-115927231.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 20:06",
-        "score": 5
-      },
-      {
-        "title": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals",
-        "description": "Gold prices edged higher on Friday, 16 October 2026, following a two-week high in the previous session, as declining US Treasury yields and a weaker d",
-        "url": "https://investorshub.advfn.com/market-news/article/38158/gold-prices-rise-as-lower-us-treasury-yields-and-weaker-dollar-support-precious-metals?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 18:05",
-        "score": 5
-      },
-      {
-        "title": "고유가에 수입물가 반등…최고가격제 또 동결",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026101671641",
-        "source": "hankyung.com",
-        "publishedAt": "10/16 18:00",
+        "publishedAt": "10/17 20:59",
         "score": 5
       }
     ],
     "fx": [
       {
-        "title": "환율 하락 역풍에 업황 우려도…방산·증권·엔터, 눈높이 줄하향",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610166630i",
-        "source": "hankyung.com",
-        "publishedAt": "10/16 16:19",
-        "score": 5
+        "title": "JP모건, 3분기 실적 성장이 AI를 넘어 미국과 유럽 주식 전반으로 확대될 것으로 예상",
+        "description": "JPMorgan 전략가들은 이익 성장이 확대되고 있다는 징후를 언급하며 3분기 기업 실적이 주식 시장을 뒷받침할 것으로 기대하고 있습니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/38224/jpmorgan-expects-q3-earnings-growth-to-broaden-beyond-ai-across-us-and-european-equities?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/17 20:41",
+        "score": 3
       },
       {
-        "title": "Canadian dollar heads for weekly gain as U.S. dollar retreats",
-        "description": "Investing.com -- The Canadian dollar was on track to snap a five-week losing streak against its U.S. counterpart on Friday, supported by a retreat in",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-heads-weekly-gain-162414050.html?.tsrc=rss",
+        "title": "Chevron 또는 PepsiCo: 향후 20년 동안 단 한 곳만이 배당금을 받습니다",
+        "description": "주요 내용PepsiCo는 2026 회계연도 핵심 EPS 성장 전망을 2.5%에서 3으로 하향 조정했습니다.",
+        "url": "https://www.tikr.com/blog/chevron-or-pepsico-only-one-gets-my-dividend-dollars-for-the-next-20-years?ref=yahoofinance&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 01:24",
+        "publishedAt": "10/18 01:07",
         "score": 1
       },
       {
-        "title": "Dollar Pressured as Fed Chair Powell Refrains from Forward Guidance",
-        "description": "The dollar index (DXY00 ) tumbled to a 2-week low today and is down by -0.34%. The dollar came under pressure today after Fed Chair Powell refrained f",
-        "url": "https://www.barchart.com/story/news/8099890/dollar-pressured-as-fed-chair-powell-refrains-from-forward-guidance?.tsrc=rss",
+        "title": "Stocktwits 주간 스프레드: 이번 주 국채 수익률과 달러의 모양",
+        "description": "AI 주식의 가속화되는 대패로 미국 달러는 한 달 만에 최악의 주간 하락세를 보였으며 재무부는 10월로 끝나는 주 동안 하락세를 재개했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week-1/cZxjAkARBt3?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 23:32",
-        "score": 1
-      },
-      {
-        "title": "Circle Expands USDC Stablecoin To 40 New Markets",
-        "description": "Circle Internet Group (NYSE: $CRCL) says it is expanding its stablecoin (CRYPTO: $USDC) to 40 new markets as global...",
-        "url": "https://www.cryptoprowl.com/releases/circle-expands-usdc-stablecoin-to-40-new-markets-7338?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 22:56",
-        "score": 1
-      },
-      {
-        "title": "US Dollar Falls Early Friday Ahead of Import Prices, New York Fed Services, Industrial Production",
-        "description": "The US dollar fell against its major trading partners early Friday ahead of the release of import an",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-friday-114014259.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 20:40",
+        "publishedAt": "10/17 09:45",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Investors Rotated Out of the AI Trade and Geopolitical Tensions Soared. The Nasdaq Saw Its Worst Week in Months.",
-        "description": "Semiconductor companies have been hit this week over concerns about competition from China.",
-        "url": "https://www.ibtimes.com/investors-rotated-out-ai-trade-geopolitical-tensions-soared-nasdaq-saw-its-worst-week-months-3808691?.tsrc=rss",
+        "title": "트럼프, 원유 가격이 5개월래 최고치로 치솟자 디젤 거래 일주일 만에 러시아 에너지 관세 면제, 제재 조치",
+        "description": "금요일에 발표된 면제는 트럼프 대통령이 그레이엄법(Graham Act)에 서명한 지 한 달도 채 안 되어, 행정부의 디젤 계약이 체결된 지 약 일주일 후에 나온 것입니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/trump-waives-russia-energy-tariffs-week-after-diesel-deal/cZxj6rdRBtJ?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 05:07",
-        "score": 4
+        "publishedAt": "10/17 15:30",
+        "score": 9
       },
       {
-        "title": "Weekly Wrap: Crypto Under Pressure As A.I. Trade Unwinds",
-        "description": "Cryptocurrencies remain under pressure as investors rotate money out of technology stocks amid growing concerns abo...",
-        "url": "https://www.cryptoprowl.com/releases/weekly-wrap-crypto-under-pressure-as-ai-trade-unwinds-7345?.tsrc=rss",
+        "title": "'탄광에서 얼마나 많은 카나리아를 죽였습니까?' — 월스트리트는 최신 AI 버블 경고가 또 다른 가짜인지 아니면 진짜인지 논쟁하고 있습니다.",
+        "description": "\"이것이 한계점인지 아니면 25~50bp 더 높은 것이 한계점인지는 모르겠습니다.\"",
+        "url": "https://finance.yahoo.com/technology/ai/articles/many-canaries-killed-coal-mine-194324541.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 06:44",
+        "publishedAt": "10/18 04:43",
         "score": 1
       },
       {
-        "title": "Tech stocks stumble as sell-off spreads to software",
-        "description": "Yahoo Finance Data and Markets Editor returns to Market Domination to break down a turbulent week for chip stocks (SOXX), as selling pressure spreads",
-        "url": "https://finance.yahoo.com/video/tech-stocks-stumble-as-sell-off-spreads-to-software-194829195.html?.tsrc=rss",
+        "title": "AMD 투자자가 지금 알아야 할 1가지 위험 신호",
+        "description": "Advanced Micro Devices의 주식이 사업보다 앞서 나갔습니다.",
+        "url": "https://www.fool.com/investing/2026/10/17/1-red-flag-that-amd-investors-should-be-aware-of/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 04:48",
+        "publishedAt": "10/18 01:50",
         "score": 1
       },
       {
-        "title": "Palantir's record breakout unravels as software stocks shed $260 billion",
-        "description": "Palantir was breaking records earlier this week and is now heading for correction territory.",
-        "url": "https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html?.tsrc=rss",
+        "title": "피터 쉬프(Peter Schiff)는 2008년보다 더 심각한 '금융 파괴의 완벽한 폭풍'이 다가오고 있다고 경고합니다. 집 너머로 부를 쌓으세요",
+        "description": "Schiff는 저금리 주택담보대출로 인해 2조 달러의 서류상 손실이 있을 것으로 추정합니다. 이것이 귀하의 부에 미치는 영향은 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/peter-schiff-warns-perfect-storm-110500854.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 02:43",
+        "publishedAt": "10/17 20:05",
         "score": 1
       },
       {
-        "title": "CIBC warns of inflation risks as ‘leaky loonie’ faces further slide",
-        "description": "Investing.com -- Canada’s weakening currency could complicate the Bank of Canada’s interest rate outlook if the U.S. dollar strengthens further, parti",
-        "url": "https://finance.yahoo.com/economy/policy/articles/cibc-warns-inflation-risks-leaky-162609154.html?.tsrc=rss",
+        "title": "Elon Musk의 중국 RAM 경고는 한국이 잠재적인 메모리 칩 공급 과잉과 다각화할 시간이 부족함에 따라 삼성, SK 하이닉스에 대한 의문을 제기합니다",
+        "description": "Elon Musk는 중국이 2028년까지 RAM(Random Access Memory)을 \"많이 만들\" 것이라고 경고하여 향후 칩 과잉으로 인해 Sou가 노출될 수 있다는 우려를 증폭시켰습니다.",
+        "url": "https://finance.yahoo.com/technology/articles/elon-musk-china-ram-warning-033004982.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 01:26",
+        "publishedAt": "10/17 12:30",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production.",
-        "description": "ASML is the most important semiconductor equipment maker in the world.",
-        "url": "https://www.fool.com/investing/2026/10/16/not-nvidia-not-taiwan-semi-this-equipment-maker-is/?.tsrc=rss",
+        "title": "TSMC는 AI 칩 수요가 여전히 공급할 수 있는 것보다 훨씬 높다고 말합니다. 그것이 바로 내가 Nvidia 주식을 구매하는 이유입니다.",
+        "description": "AI 칩 리더의 주식은 칩 제조업체가 전망을 다시 높인 후에도 기록보다 약 9% 낮은 수준으로 거래되고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/10/16/tsmc-says-ai-chip-demand-is-still-far-above-what-it-can-supply-that-s-why-i-d-buy-nvidia-stock/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 04:15",
+        "publishedAt": "10/17 12:17",
         "score": 13
       },
       {
-        "title": "Arm and AMD Fall 5% as Qualcomm Verdict Adds to Chip Selloff; Taiwan Semiconductor Slips",
-        "description": "A Delaware jury just handed Arm a damaging verdict in its licensing battle with Qualcomm, and with a second ruling on its newest chip designs due next",
-        "url": "https://247wallst.com/investing/2026/10/16/arm-and-amd-fall-5-as-qualcomm-verdict-adds-to-chip-selloff-taiwan-semiconductor-slips/?.tsrc=rss",
+        "title": "Elon Musk의 중국 RAM 경고는 한국이 잠재적인 메모리 칩 공급 과잉과 다각화할 시간이 부족함에 따라 삼성, SK 하이닉스에 대한 의문을 제기합니다",
+        "description": "Elon Musk는 중국이 2028년까지 RAM(Random Access Memory)을 \"많이 만들\" 것이라고 경고하여 향후 칩 과잉으로 인해 Sou가 노출될 수 있다는 우려를 증폭시켰습니다.",
+        "url": "https://finance.yahoo.com/technology/articles/elon-musk-china-ram-warning-033004982.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 03:10",
-        "score": 12
-      },
-      {
-        "title": "The Zacks Analyst Blog Highlights NASA, SpaceX, Rocket Lab, ARKX, UFO and MARS",
-        "description": "Space ETFs may offer an attractive entry point after recent selloffs, with a $686 billion global space economy and diversified exposure to long-term g",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nasa-113800899.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 20:38",
-        "score": 12
-      },
-      {
-        "title": "TSMC Record Quarter Highlights Unprecedented Demand for AI Chips",
-        "description": "Key Stats for TSMC StockPrice change for TSMC stock in last 6 months: 16%$TSM Stock Price as of Oct. 15: $7552-Week High: $81$TSM Stock Price Target:",
-        "url": "https://www.tikr.com/blog/tsm-stock-tsmc-record-quarter-ai-chip-demand?ref=yahoofinance&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/16 21:46",
+        "publishedAt": "10/17 12:30",
         "score": 10
       },
       {
-        "title": "TSMC’s ‘Leave No Food On The Table’ Pledge Signals More AI Chip Investment, Morningstar Says",
-        "description": "Morningstar estimates Taiwan Semiconductor Manufacturing trades about 27% below its fair value, with a $534 price target.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tsmc-s-leave-no-food-on-the-table-pledge-signals-more-ai-chip-investment/cZxKGj2RBsa?.tsrc=rss",
+        "title": "SpaceX에 대한 로켓 연구소의 대답을 막는 작은 에어 포켓",
+        "description": "이 탱크가 문제를 일으킨 것은 이번이 처음이 아닙니다. CEO는 여전히 새로운 날짜를 정하지 않을 것입니다.",
+        "url": "https://www.thestreet.com/investing/rocket-lab-neutron-delay-2027?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/16 20:26",
-        "score": 10
+        "publishedAt": "10/17 07:07",
+        "score": 8
+      },
+      {
+        "title": "TSMC가 패키징 사업을 목표로 인텔 주가가 약 6% 하락했습니다. 인텔의 마진이 의미하는 바는 다음과 같습니다.",
+        "description": "인텔 주식 현재 가격의 주요 통계: $89. 85목표 가격(중간): ~$390거리 목표: ~$118잠재 총 수익률: ~336%연간 IRR: ~42% / yearWh",
+        "url": "https://www.tikr.com/blog/intel-stock-fell-nearly-6-as-tsmc-took-aim-at-its-packaging-business-heres-what-it-means-for-intels-margins?ref=yahoofinance&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/18 02:26",
+        "score": 7
+      },
+      {
+        "title": "이번 주 서브 로보틱스 주가가 폭락한 이유",
+        "description": "한 분석가는 Serve Robotics가 2028년까지 순손실을 계속 감당할 것으로 보고 있습니다.",
+        "url": "https://www.fool.com/coverage/market-movers/2026/10/17/why-serve-robotics-stock-plunged-this-week/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/18 04:47",
+        "score": 6
       }
     ]
   }
