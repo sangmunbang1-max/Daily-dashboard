@@ -1,5 +1,5 @@
 {
-  "updated_kst": "2026-10-17 09:09 KST",
+  "updated_kst": "2026-10-19 08:55 KST",
   "macro": {
     "us10y": 5.1,
     "us10y_1d_bp": -9.000000000000075,
@@ -8,13 +8,13 @@
     "curve_2s10s": 0.33000000000000007,
     "curve_2s10s_1d_bp": -4.0000000000000036,
     "curve_2s10s_5d_bp": -18.00000000000006,
-    "dxy": 101.77899932861328,
-    "dxy_1d": -0.2166673248889417,
-    "dxy_5d": -0.4216806180608268,
-    "dxy_ma20": 101.7059497833252,
-    "gold": 4186.7001953125,
-    "gold_1d": 0.3980743211794868,
-    "gold_5d": -0.7020280991900107,
+    "dxy": 101.83399963378906,
+    "dxy_1d": -0.005888358520422798,
+    "dxy_5d": -0.7272394072426192,
+    "dxy_ma20": 101.77919960021973,
+    "gold": 4203.0,
+    "gold_1d": 0.5237832587654756,
+    "gold_5d": 0.29589801113891756,
     "hy_oas": 3.23,
     "hy_oas_1d_bp": -2.0000000000000018,
     "hy_oas_5d_bp": 8.000000000000007
@@ -23,38 +23,38 @@
     "meeting_date": "2026-10-28",
     "current_range": "375-400",
     "probabilities": {
-      "375-400": 82.0,
-      "400-425": 18.0
+      "375-400": 86.0,
+      "400-425": 14.0
     },
     "ease_prob": 0.0,
-    "hold_prob": 82.0,
-    "hike_prob": 18.0,
+    "hold_prob": 86.0,
+    "hike_prob": 14.0,
     "zq_ticker": "ZQ=F",
-    "zq_price": 96.075,
-    "implied_rate": 3.925,
+    "zq_price": 96.085,
+    "implied_rate": 3.915,
     "dff": 3.88,
-    "as_of": "2026-10-17 09:09 KST",
+    "as_of": "2026-10-19 08:55 KST",
     "source": "ZQ Futures + FRED DFF"
   },
   "us_results": {
     "SPY": {
       "asset": "SPY",
-      "total_score": 76,
-      "signal": "매수",
-      "original_signal": "매수",
+      "total_score": 68,
+      "signal": "보유",
+      "original_signal": "보유",
       "module_scores": {
-        "trend": 35,
+        "trend": 20,
         "vix": 15,
         "tactical": 10,
-        "breadth": 8,
+        "breadth": 15,
         "rates": 8
       },
       "module_meta": {
         "trend": {
-          "close": 771.7899780273438,
-          "ma50": 767.46814453125,
-          "ma200": 721.4696459960937,
-          "ret20": 1.456397963684175,
+          "close": 763.25,
+          "ma50": 767.40001953125,
+          "ma200": 721.8774673461915,
+          "ret20": 0.204807408997576,
           "max_score": 35
         },
         "vix": {
@@ -65,18 +65,18 @@
           "max_score": 25
         },
         "tactical": {
-          "dist20": 0.08870133628393617,
-          "ret10": 1.0209541869227845,
+          "dist20": -1.02880721296027,
+          "ret10": -0.8302601900651463,
           "above_5dma": 0,
           "two_of_three_up": 0,
           "max_score": 15
         },
         "breadth": {
-          "bucket": "neutral",
-          "approx_pct": 50.0,
-          "ratio": 0.27857319493773314,
-          "ratio_ma20": 0.2741673326279771,
-          "ret20": -0.28115046798457,
+          "bucket": "strong",
+          "approx_pct": 65.0,
+          "ratio": 0.28049786614856287,
+          "ratio_ma20": 0.2743089535779308,
+          "ret20": 1.020083351440637,
           "max_score": 15
         },
         "rates": {
@@ -89,22 +89,22 @@
     },
     "QQQ": {
       "asset": "QQQ",
-      "total_score": 73,
-      "signal": "매수",
-      "original_signal": "매수",
+      "total_score": 47,
+      "signal": "보유",
+      "original_signal": "보유",
       "module_scores": {
-        "trend": 30,
+        "trend": 12,
         "vix": 15,
-        "tactical": 10,
-        "breadth": 6,
+        "tactical": 5,
+        "breadth": 3,
         "rates": 12
       },
       "module_meta": {
         "trend": {
-          "close": 728.0,
-          "ma50": 726.4081665039063,
-          "ma200": 673.1974966430664,
-          "ret20": 1.651316411832826,
+          "close": 709.7999877929688,
+          "ma50": 726.3260437011719,
+          "ma200": 673.6598599243164,
+          "ret20": -1.5122883912027651,
           "max_score": 30
         },
         "vix": {
@@ -115,18 +115,18 @@
           "max_score": 25
         },
         "tactical": {
-          "dist20": -2.0272757914248762,
-          "ret10": -1.890763007282792,
+          "dist20": -4.406488636344152,
+          "ret10": -5.30697569171018,
           "above_5dma": 0,
           "two_of_three_up": 0,
           "max_score": 15
         },
         "breadth": {
-          "bucket": "neutral",
-          "approx_pct": 50.0,
-          "ratio": 0.21921702793666295,
-          "ratio_ma20": 0.2188969354847739,
-          "ret20": -0.2620750427660523,
+          "bucket": "weak",
+          "approx_pct": 35.0,
+          "ratio": 0.21789237295284358,
+          "ratio_ma20": 0.218849399819718,
+          "ret20": -0.4344269299943915,
           "max_score": 10
         },
         "rates": {
@@ -141,7 +141,7 @@
   "kr_results": {
     "KOSPI": {
       "asset": "KOSPI",
-      "total_score": 49,
+      "total_score": 44,
       "signal": "보유",
       "original_signal": "보유",
       "module_scores": {
@@ -150,16 +150,16 @@
         "tactical": 0,
         "leadership": 3,
         "turnover": 10,
-        "flow": 5,
+        "flow": 0,
         "fx": 15,
         "oil": 8
       },
       "module_meta": {
         "trend": {
-          "close": 5554.22021484375,
-          "ma50": 6690.80765625,
-          "ma200": 6402.800728759766,
-          "ret20": -19.61950171204514,
+          "close": 5668.0498046875,
+          "ma50": 6672.2596484375,
+          "ma200": 6410.858928222657,
+          "ret20": -15.204429058868818,
           "max_score": 40
         },
         "vkospi": {
@@ -170,8 +170,8 @@
           "max_score": 27
         },
         "tactical": {
-          "dist20": -16.89859207862183,
-          "ret10": -19.16207597826488,
+          "dist20": -14.545781084211317,
+          "ret10": -17.110023160019495,
           "above_5dma": 0,
           "two_of_three_up": 0,
           "max_score": 17
@@ -179,9 +179,9 @@
         "leadership": {
           "bucket": "neutral",
           "approx_pct": 50.0,
-          "rel": 0.13698052613954953,
-          "rel_ma20": 0.12686118166944899,
-          "rel_ret20": 15.339626618820535,
+          "rel": 0.14022107368209585,
+          "rel_ma20": 0.12783733629887065,
+          "rel_ret20": 16.1751608531733,
           "max_score": 6
         },
         "turnover": {
@@ -191,10 +191,10 @@
           "max_score": 12
         },
         "flow": {
-          "foreign_1d_bil": 3204.2,
-          "foreign_5d_bil": -112068.3,
-          "foreign_20d_bil": -318388.9,
-          "foreign_5d_ratio": -6.59,
+          "foreign_1d_bil": 0.0,
+          "foreign_5d_bil": -91958.6,
+          "foreign_20d_bil": -302868.3,
+          "foreign_5d_ratio": -5.41,
           "max_score": 20
         },
         "fx": {
@@ -203,8 +203,8 @@
           "max_score": 20
         },
         "oil": {
-          "wti": 99.04000091552734,
-          "wti_ret20": -1.2562333977001683,
+          "wti": 97.86000061035156,
+          "wti_ret20": 2.1716452887492466,
           "max_score": 10
         }
       },
@@ -229,10 +229,10 @@
       },
       "module_meta": {
         "trend": {
-          "close": 760.8200073242188,
-          "ma50": 829.7257983398438,
-          "ma200": 981.5995001220704,
-          "ret20": -7.28943340032544,
+          "close": 794.780029296875,
+          "ma50": 831.2261987304687,
+          "ma200": 981.0180502319336,
+          "ret20": -1.488609062774171,
           "max_score": 36
         },
         "vkospi": {
@@ -243,8 +243,8 @@
           "max_score": 27
         },
         "tactical": {
-          "dist20": -10.073977581176107,
-          "ret10": -10.470696840069571,
+          "dist20": -5.993309873645525,
+          "ret10": -7.1420997261044565,
           "above_5dma": 0,
           "two_of_three_up": 0,
           "max_score": 17
@@ -252,9 +252,9 @@
         "leadership": {
           "bucket": "strong",
           "approx_pct": 65.0,
-          "rel": 0.13698052613954953,
-          "rel_ma20": 0.12686118166944899,
-          "rel_ret20": 15.339626618820535,
+          "rel": 0.14022107368209585,
+          "rel_ma20": 0.12783733629887065,
+          "rel_ret20": 16.1751608531733,
           "max_score": 12
         },
         "turnover": {
@@ -264,10 +264,10 @@
           "max_score": 12
         },
         "flow": {
-          "foreign_1d_bil": -931.4,
-          "foreign_5d_bil": 373.1,
-          "foreign_20d_bil": -3201.3,
-          "foreign_5d_ratio": 0.05,
+          "foreign_1d_bil": 0.0,
+          "foreign_5d_bil": 503.1,
+          "foreign_20d_bil": -3472.8,
+          "foreign_5d_ratio": 0.07,
           "max_score": 18
         },
         "fx": {
@@ -276,8 +276,8 @@
           "max_score": 20
         },
         "oil": {
-          "wti": 99.04000091552734,
-          "wti_ret20": -1.2562333977001683,
+          "wti": 97.86000061035156,
+          "wti_ret20": 2.1716452887492466,
           "max_score": 10
         }
       },
