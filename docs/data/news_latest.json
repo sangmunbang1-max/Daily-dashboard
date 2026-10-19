@@ -1,260 +1,292 @@
 {
-  "generated_at_kst": "2026-10-18 09:08 KST",
-  "period": "10/17 07:00 ~ 10/18 07:00 KST",
+  "generated_at_kst": "2026-10-19 09:20 KST",
+  "period": "10/18 07:00 ~ 10/19 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "주식 시장 붕괴가 다가오고 있는 경우, 역사에 따르면 이 전략은 포트폴리오의 복구 시간을 절반으로 단축할 수 있습니다.",
-        "description": "오랜 시간에 걸쳐 검증된 전략이 인기를 끄는 데는 그럴 만한 이유가 있습니다.",
-        "url": "https://www.fool.com/investing/2026/10/17/if-stock-market-crash-is-coming-history-says-this/?.tsrc=rss",
+        "title": "월스트리트 베테랑, S&P 500 목표를 낮추었지만 엄청난 투자 유지",
+        "description": "Ed Yardeni는 S&P 500이 그의 최대 목표에 도달하기 전에 주식의 길이 더 험난할 것으로 예상합니다.",
+        "url": "https://www.thestreet.com/investing/ed-yardeni-wall-street-veteran-cuts-sp-500-target-keeps-huge-bet?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/18 02:35",
-        "score": 10
-      },
-      {
-        "title": "주식 시장 붕괴가 다가오면 이 5개 주식은 버틸 수 있는 역사를 가지고 있습니다",
-        "description": "또 다른 폭락이 닥칠까 봐 걱정된다면(언제든지 폭락이 올 수 있기 때문에 그렇게 해야 합니다), 이 5개 주식은 훌륭한 보호 종목입니다.",
-        "url": "https://www.fool.com/investing/2026/10/17/if-a-stock-market-crash-is-coming-these-5-stocks/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/18 01:20",
-        "score": 9
-      },
-      {
-        "title": "최악의 일주일 나스닥 2.2%…AI 경고등에 유가 급등까지 [뉴욕증시 브리핑]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026101775037",
-        "source": "hankyung.com",
-        "publishedAt": "10/17 07:55",
+        "publishedAt": "10/19 02:07",
         "score": 8
       },
       {
-        "title": "Palantir 주가는 하루 만에 7% 하락하며 조정 국면에 빠졌습니다. 2030년까지 갈 수 있는 곳은 다음과 같습니다",
-        "description": "Palantir 주식 현재 가격의 주요 통계: $186. 03목표 가격(중간): ~$1,330거리 목표: ~$206잠재 총 수익률: ~613%연간 IRR: ~59% /",
-        "url": "https://www.tikr.com/blog/palantir-stock-fell-7-in-a-day-and-slipped-into-a-correction-heres-where-it-could-go-by-2030?ref=yahoofinance&.tsrc=rss",
+        "title": "지금 S&P 500에 투자해야 할까요, 아니면 기다려야 할까요? 명확한 답변이 1개 있습니다.",
+        "description": "단기적인 변동성을 감당할 수 있다면 지금이 S&P 500에 투자하기에 좋은 시기입니다.",
+        "url": "https://www.fool.com/investing/2026/10/18/should-you-invest-in-the-sp-500-right-now-or-wait/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/18 02:30",
+        "publishedAt": "10/19 01:50",
         "score": 6
       },
       {
-        "title": "Nasdaq-100의 올해 최고의 주식 6개와 계속해서 성장할 수 있는지 여부",
-        "description": "추진력은 전투의 절반에 불과합니다. 그들의 기반 회사는 여전히 주식의 지속적인 강세를 정당화해야 합니다.",
-        "url": "https://www.fool.com/investing/2026/10/17/nasdaq-100-best-stocks-2026-keep-going/?.tsrc=rss",
+        "title": "10년 만기 국채가 거의 20년 만에 처음으로 5%를 넘었습니다. 역사에 따르면 S&P 500 지수는 향후 12개월 동안 이러한 성과를 거둘 것입니다.",
+        "description": "현재와 ​​과거의 유사점과 차이점을 모두 살펴보는 것이 중요합니다.",
+        "url": "https://www.fool.com/investing/2026/10/18/10-year-treasury-5-20-years-history-says-sp500/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 22:05",
+        "publishedAt": "10/19 00:07",
         "score": 6
+      },
+      {
+        "title": "헤지펀드 매니저는 눈에 보이지 않는 강세장을 본다",
+        "description": "Thomas Hayes는 AI가 실리콘 밸리를 넘어 승자를 창출한다고 봅니다.",
+        "url": "https://www.thestreet.com/investing/hedge-fund-manager-thomas-hayes-sees-bull-market-hiding-in-plain-sight?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/19 06:47",
+        "score": 5
+      },
+      {
+        "title": "Jeffrey Gundlach는 S&P 500 아래 숨겨진 위험을 발견했습니다.",
+        "description": "DoubleLine CEO는 기록적인 최고치가 수백 개 주식의 약점을 가리고 있다고 말했습니다.",
+        "url": "https://www.thestreet.com/investing/jeffrey-gundlach-sees-a-hidden-danger-beneath-the-sp-500?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/18 22:33",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "Elon Musk의 중국 RAM 경고는 한국이 잠재적인 메모리 칩 공급 과잉과 다각화할 시간이 부족함에 따라 삼성, SK 하이닉스에 대한 의문을 제기합니다",
-        "description": "Elon Musk는 중국이 2028년까지 RAM(Random Access Memory)을 \"많이 만들\" 것이라고 경고하여 향후 칩 과잉으로 인해 Sou가 노출될 수 있다는 우려를 증폭시켰습니다.",
-        "url": "https://finance.yahoo.com/technology/articles/elon-musk-china-ram-warning-033004982.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/17 12:30",
-        "score": 6
+        "title": "코스피 새파랗게 질린 날…혼자 13% 뛴 종목 있었다 [종목+]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101658136",
+        "source": "hankyung.com",
+        "publishedAt": "10/19 06:30",
+        "score": 5
+      },
+      {
+        "title": "美 장기채·원유 ETF 날았다…코스피 폭락에 레버리지 6000억 뭉칫돈",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610167299i",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 14:20",
+        "score": 5
+      },
+      {
+        "title": "코스피 14% 빠질 때 혼자 7% 올랐다…'이 종목' 뭐길래 [노정동의 어쩌다 투자자]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101667136",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 13:00",
+        "score": 5
+      },
+      {
+        "title": "코스피, 급락 후 반등 이어갈까…美 빅테크 실적에 쏠리는 눈 [주간전망]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101668656",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 08:00",
+        "score": 5
+      },
+      {
+        "title": "공장 데이터 쥔 현대오토에버…현대차 피지컬AI '관제탑'으로",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610188718i",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 16:05",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "다음 불경기에 보유할 기술주 1개를 선택해야 한다면 이 주식을 선택하겠습니다",
-        "description": "Micron은 2027년 회계연도가 더욱 강력해질 것으로 예상했으며 주요 고객과의 다년간의 전략적 계약이 이러한 주장을 뒷받침합니다.",
-        "url": "https://www.fool.com/investing/2026/10/17/if-pick-tech-stock-hold-recession-micron/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/17 21:40",
-        "score": 5
+        "title": "거리로 나온 '고물가 분노'…佛 시청 불지르고 伊 폭력시위",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101889041",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 17:57",
+        "score": 3
       },
       {
-        "title": "씨티 “주식 가치 평가보다 금리가 경제에 더 중요할 수 있다”",
-        "description": "Investing.com-- 금리는 인공지능의 발달로 인해 주식시장 평가보다 경제 성장 기대에 더 큰 영향을 미칠 수 있습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/citi-says-interest-rates-may-202416020.html?.tsrc=rss",
+        "title": "9월 생산자물가 발표…한은 금통위도 개최",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101888201",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 17:22",
+        "score": 3
+      },
+      {
+        "title": "베센트는 행정부가 '경제를 소유'할 것이라고 말했습니다",
+        "description": "트럼프 행정부 관리들은 지속적인 인플레이션과 에너지 가격 상승에도 불구하고 일요일 아침의 일부를 정책을 방어하는 데 보냈습니다.",
+        "url": "https://finance.yahoo.com/m/0d2de407-7de3-37c3-a3fb-ca939cf0d8a7/bessent-says-administration.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/18 05:24",
+        "publishedAt": "10/19 02:23",
         "score": 1
       },
       {
-        "title": "세계 경제 차트 작성: 미국의 인플레이션 압력 증가",
-        "description": "미국에서 인플레이션 압력이 가중되고 있으며, 새로운 소비자 및 도매 가격 데이터에 따르면 더 비싼 연료가 더 높은 가격으로 필터링되고 있음을 나타냅니다.",
-        "url": "https://finance.yahoo.com/economy/articles/charting-global-economy-inflationary-pressures-090000483.html?.tsrc=rss",
+        "title": "마이크론(MU)은 경제적 해자를 갖고 있나요?",
+        "description": "Micron Technology, Inc.(NASDAQ:MU)는 10월 15일 $931.24로 마감했습니다. 지난 6개월 동안 주가는 103.67%의 수익률을 기록했으며 이는 15.4%의 수익률에 비해 높습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/does-micron-mu-economic-moat-143157310.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 18:00",
+        "publishedAt": "10/18 23:31",
+        "score": 1
+      },
+      {
+        "title": "어플라이드머티어리얼즈(AMAT)의 경제적 해자는 무엇이며, 넓어지는가, 좁아지는가?",
+        "description": "Applied Materials, Inc.(NASDAQ:AMAT)는 10월 15일 $430.01로 마감했습니다. 지난 6개월 동안 주가는 9.1%의 수익률을 올렸고, 이는 지난 10월의 15.4% 수익률과 비교됩니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-economic-moat-143123014.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/18 23:31",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Stocktwits 주간 스프레드: 이번 주 국채 수익률과 달러의 모양",
-        "description": "AI 주식의 가속화되는 대패로 미국 달러는 한 달 만에 최악의 주간 하락세를 보였으며 재무부는 10월로 끝나는 주 동안 하락세를 재개했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week-1/cZxjAkARBt3?.tsrc=rss",
+        "title": "Ondo의 토큰화된 국채 상품이 BlackRock의 BUIDL을 통과했습니다. ONDO는 저평가되어 있나요?",
+        "description": "Ondo의 토큰화된 Treasury 제품은 크기 면에서 BlackRock의 BUIDL을 무너뜨렸지만 ONDO 토큰은 계속해서 적자로 빠져들고 있습니다. 관계 내기",
+        "url": "https://247wallst.com/investing/cryptocurrency/2026/10/18/ondos-tokenized-treasury-product-just-passed-blackrocks-buidl-is-ondo-undervalued/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 09:45",
-        "score": 8
-      },
-      {
-        "title": "미 채권시장이 보내는 신호, 어떻게 읽어야 할까",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610165797i",
-        "source": "hankyung.com",
-        "publishedAt": "10/17 12:00",
+        "publishedAt": "10/19 04:04",
         "score": 3
       },
       {
-        "title": "국가 부채에 대한 이자가 1조 3600억 달러라는 기록을 세웠습니다.",
-        "description": "연방 정부는 대부분의 국가의 전체 예산을 축소할 만큼 큰 부채 상환 청구서를 기록했지만 채권 시장은 이를 무시했습니다. 시간",
-        "url": "https://247wallst.com/investing/2026/10/17/interest-on-the-national-debt-just-hit-a-record-1-36-trillion/?.tsrc=rss",
+        "title": "10년 만기 국채가 거의 20년 만에 처음으로 5%를 넘었습니다. 역사에 따르면 S&P 500 지수는 향후 12개월 동안 이러한 성과를 거둘 것입니다.",
+        "description": "현재와 ​​과거의 유사점과 차이점을 모두 살펴보는 것이 중요합니다.",
+        "url": "https://www.fool.com/investing/2026/10/18/10-year-treasury-5-20-years-history-says-sp500/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/18 02:09",
-        "score": 1
+        "publishedAt": "10/19 00:07",
+        "score": 3
+      },
+      {
+        "title": "환율·채권, 원화 강세…1330원 밑으로 하락할까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101888191",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 17:19",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "트럼프, 원유 가격이 5개월래 최고치로 치솟자 디젤 거래 일주일 만에 러시아 에너지 관세 면제, 제재 조치",
-        "description": "금요일에 발표된 면제는 트럼프 대통령이 그레이엄법(Graham Act)에 서명한 지 한 달도 채 안 되어, 행정부의 디젤 계약이 체결된 지 약 일주일 후에 나온 것입니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/trump-waives-russia-energy-tariffs-week-after-diesel-deal/cZxj6rdRBtJ?.tsrc=rss",
+        "title": "천연가스 및 유가 상승에 직접적으로 노출되는 3가지 미국 에너지 주식",
+        "description": "휘발유는 34%, 연료유는 72% 상승하는 등 3.7%의 인플레이션과 에너지 비용의 급등으로 인해 일반적인 상황이 완전히 바뀌었습니다. 일부 업체",
+        "url": "https://finance.yahoo.com/energy/articles/3-u-energy-stocks-direct-110932424.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 15:30",
-        "score": 13
+        "publishedAt": "10/18 20:09",
+        "score": 11
       },
       {
-        "title": "석유가 배럴당 100달러를 돌파했습니다. 지난번 유가가 세 자릿수를 기록했을 때 비트코인에 무슨 일이 일어났나요?",
-        "description": "배럴당 100달러를 넘는 원유는 지난번에 비트코인을 통해 파문을 일으켰고, 그 이후의 패턴은 노련한 거래자들조차 놀라게 했습니다. 여",
-        "url": "https://247wallst.com/investing/cryptocurrency/2026/10/17/oil-just-hit-100-a-barrel-what-happened-to-bitcoin-the-last-time-oil-prices-hit-three-digits/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/17 20:30",
-        "score": 6
-      },
-      {
-        "title": "엑슨모빌은 브렌트유가 110달러에 육박하면서 2026년에 49% 상승했습니다. 석유가 냉각될 때 주식의 가치는 다음과 같습니다.",
-        "description": "ExxonMobil 주식의 주요 통계현재 가격: $178. 98목표 가격(중간): ~$163거리 목표: ~$175잠재 총 수익률: ~-9%연간 IRR: ~-2% / y",
-        "url": "https://www.tikr.com/blog/exxonmobil-is-up-49-in-2026-with-brent-near-110-heres-what-the-stock-could-be-worth-when-oil-cools?ref=yahoofinance&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/17 23:14",
+        "title": "美 장기채 ETF '껑충'…원유 선물 상품도 강세",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101888231",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 17:17",
         "score": 5
       },
       {
-        "title": "캐나다 은행(Bank of Canada)은 유가 상승으로 성장과 인플레이션을 촉진할 것으로 예상",
-        "description": "Tiff Maccklem 캐나다 은행 총재는 유가 상승이 캐나다 경제 성장을 뒷받침한다는 더 많은 증거를 보고 있다고 말했습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/bank-canada-sees-higher-oil-130524675.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/17 22:05",
+        "title": "美 장기채·원유 ETF 날았다…코스피 폭락에 레버리지 6000억 뭉칫돈",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610167299i",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 14:20",
         "score": 5
       },
       {
-        "title": "유가가 '슈퍼 급등'할 수 있는 이유: 분석가",
-        "description": "원유 가격은 배럴당 95달러에 육박하고 있으며 윌리엄 블레어(William Blair) 에너지 연구 분석가 닐 딩먼(Neal Dingmann)은 다음 움직임이 \"슈퍼 스파이크\"가 될 수 있다고 생각합니다.",
-        "url": "https://finance.yahoo.com/energy/article/why-oil-prices-could-be-poised-for-a-super-spike-analyst-115927231.html?.tsrc=rss",
+        "title": "전쟁으로 인해 2027년까지 공급이 부족해지면서 유가가 높게 유지됩니다.",
+        "description": "브렌트 선물은 장기 이란 전쟁으로 인한 지속적인 공급 위험을 반영하면서 유가는 2027년까지 높은 수준을 유지할 것으로 예상됩니다.",
+        "url": "https://finance.yahoo.com/energy/articles/oil-prices-stay-high-war-230000230.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 20:59",
+        "publishedAt": "10/18 08:00",
         "score": 5
+      },
+      {
+        "title": "NextEra Energy(NEE)는 더 큰 성장 야망을 가지고 있습니다. Duke Energy(DUK)가 더 나은 구매인가요?",
+        "description": "NextEra Energy, Inc.(NYSE:NEE)와 Duke Energy Corporation(NYSE:DUK)은 지난 6개월 동안 각각 -13.29%와 -6.77%의 수익률을 기록했습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/nextera-energy-nee-bigger-growth-145158391.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/18 23:51",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "JP모건, 3분기 실적 성장이 AI를 넘어 미국과 유럽 주식 전반으로 확대될 것으로 예상",
-        "description": "JPMorgan 전략가들은 이익 성장이 확대되고 있다는 징후를 언급하며 3분기 기업 실적이 주식 시장을 뒷받침할 것으로 기대하고 있습니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/38224/jpmorgan-expects-q3-earnings-growth-to-broaden-beyond-ai-across-us-and-european-equities?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/17 20:41",
-        "score": 3
-      },
-      {
-        "title": "Chevron 또는 PepsiCo: 향후 20년 동안 단 한 곳만이 배당금을 받습니다",
-        "description": "주요 내용PepsiCo는 2026 회계연도 핵심 EPS 성장 전망을 2.5%에서 3으로 하향 조정했습니다.",
-        "url": "https://www.tikr.com/blog/chevron-or-pepsico-only-one-gets-my-dividend-dollars-for-the-next-20-years?ref=yahoofinance&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/18 01:07",
-        "score": 1
-      },
-      {
-        "title": "Stocktwits 주간 스프레드: 이번 주 국채 수익률과 달러의 모양",
-        "description": "AI 주식의 가속화되는 대패로 미국 달러는 한 달 만에 최악의 주간 하락세를 보였으며 재무부는 10월로 끝나는 주 동안 하락세를 재개했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week-1/cZxjAkARBt3?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/17 09:45",
-        "score": 1
+        "title": "환율·채권, 원화 강세…1330원 밑으로 하락할까",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026101888191",
+        "source": "hankyung.com",
+        "publishedAt": "10/18 17:19",
+        "score": 10
       }
     ],
     "geopolitics": [
       {
-        "title": "트럼프, 원유 가격이 5개월래 최고치로 치솟자 디젤 거래 일주일 만에 러시아 에너지 관세 면제, 제재 조치",
-        "description": "금요일에 발표된 면제는 트럼프 대통령이 그레이엄법(Graham Act)에 서명한 지 한 달도 채 안 되어, 행정부의 디젤 계약이 체결된 지 약 일주일 후에 나온 것입니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/trump-waives-russia-energy-tariffs-week-after-diesel-deal/cZxj6rdRBtJ?.tsrc=rss",
+        "title": "일부 투자자들은 AI 거래에 의문을 제기하고 있습니다. Microsoft는 추세를 거스르고 있습니다.",
+        "description": "Azure의 성장과 엔터프라이즈 AI 분야에서의 Copilot의 위치는 Microsoft를 스마트 AI 플레이로 만듭니다.",
+        "url": "https://www.fool.com/investing/2026/10/18/some-investors-are-questioning-the-ai-trade-micros/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 15:30",
-        "score": 9
-      },
-      {
-        "title": "'탄광에서 얼마나 많은 카나리아를 죽였습니까?' — 월스트리트는 최신 AI 버블 경고가 또 다른 가짜인지 아니면 진짜인지 논쟁하고 있습니다.",
-        "description": "\"이것이 한계점인지 아니면 25~50bp 더 높은 것이 한계점인지는 모르겠습니다.\"",
-        "url": "https://finance.yahoo.com/technology/ai/articles/many-canaries-killed-coal-mine-194324541.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/18 04:43",
+        "publishedAt": "10/19 06:05",
         "score": 1
       },
       {
-        "title": "AMD 투자자가 지금 알아야 할 1가지 위험 신호",
-        "description": "Advanced Micro Devices의 주식이 사업보다 앞서 나갔습니다.",
-        "url": "https://www.fool.com/investing/2026/10/17/1-red-flag-that-amd-investors-should-be-aware-of/?.tsrc=rss",
+        "title": "Meta Earnings는 Adobe Stock 및 AI 광고 소프트웨어 이름에 초점을 맞췄습니다.",
+        "description": "AI 과대광고가 실적 시즌과 충돌하고 있으며, 곧 발표될 Meta의 보고서는 갑자기 전체 거래에 대한 실시간 스트레스 테스트가 되었습니다. 강하게 당긴 후",
+        "url": "https://finance.yahoo.com/media-advertising/articles/meta-earnings-puts-adobe-stock-201147047.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/18 01:50",
+        "publishedAt": "10/19 05:11",
         "score": 1
       },
       {
-        "title": "피터 쉬프(Peter Schiff)는 2008년보다 더 심각한 '금융 파괴의 완벽한 폭풍'이 다가오고 있다고 경고합니다. 집 너머로 부를 쌓으세요",
-        "description": "Schiff는 저금리 주택담보대출로 인해 2조 달러의 서류상 손실이 있을 것으로 추정합니다. 이것이 귀하의 부에 미치는 영향은 다음과 같습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/peter-schiff-warns-perfect-storm-110500854.html?.tsrc=rss",
+        "title": "블랙 먼데이(Black Monday)는 트레이더들이 AI 주식 베팅에서 5,200만 달러의 손실을 입으면서 월스트리트를 장악할 것을 두려워합니다.",
+        "description": "블랙 먼데이(Black Monday)는 거래자들이 AI 주식 베팅에서 5,200만 달러를 잃고 공포 게이지가 18로 떨어지면서 월스트리트를 장악할 것을 우려하고 있습니다.",
+        "url": "https://beincrypto.com/black-monday-traders-lose-ai-stock-bets/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 20:05",
+        "publishedAt": "10/19 02:51",
         "score": 1
       },
       {
-        "title": "Elon Musk의 중국 RAM 경고는 한국이 잠재적인 메모리 칩 공급 과잉과 다각화할 시간이 부족함에 따라 삼성, SK 하이닉스에 대한 의문을 제기합니다",
-        "description": "Elon Musk는 중국이 2028년까지 RAM(Random Access Memory)을 \"많이 만들\" 것이라고 경고하여 향후 칩 과잉으로 인해 Sou가 노출될 수 있다는 우려를 증폭시켰습니다.",
-        "url": "https://finance.yahoo.com/technology/articles/elon-musk-china-ram-warning-033004982.html?.tsrc=rss",
+        "title": "비트코인의 다음 움직임은 주식과 금속을 뒤흔들 수 있습니다: 블룸버그 전략가는 피델리티가 강세장을 보고 있다고 경고합니다",
+        "description": "McGlone은 이번에는 주식, 금속, 구리가 비트코인 ​​하락을 따르지 않았다고 말했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-turning-point-bear-market-risks-bullish-hopes/cZxNFYvRBtM?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 12:30",
+        "publishedAt": "10/19 02:37",
+        "score": 1
+      },
+      {
+        "title": "'또 다른 두려움': 월스트리트는 기술의 최신 패배에도 불구하고 AI 거래가 강하다고 본다",
+        "description": "월스트리트는 연말로 향하는 주식에 대해 여전히 더 많은 이익을 기대하고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/article/just-another-scare-wall-street-sees-the-ai-trade-strong-despite-techs-latest-rout-155930040.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/19 00:59",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "TSMC는 AI 칩 수요가 여전히 공급할 수 있는 것보다 훨씬 높다고 말합니다. 그것이 바로 내가 Nvidia 주식을 구매하는 이유입니다.",
-        "description": "AI 칩 리더의 주식은 칩 제조업체가 전망을 다시 높인 후에도 기록보다 약 9% 낮은 수준으로 거래되고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/10/16/tsmc-says-ai-chip-demand-is-still-far-above-what-it-can-supply-that-s-why-i-d-buy-nvidia-stock/?.tsrc=rss",
+        "title": "2035년 SpaceX, Palantir 및 3개의 AI 칩 주식에 걸쳐 10,000달러를 분할할 수 있는 가치는 다음과 같습니다.",
+        "description": "우주 탐사 기술, Palantir, Broadcom, AMD 및 TSMC에 투자하면 RO가 매우 다른 비즈니스 전반에 걸쳐 AI 및 우주 투자가 확산됩니다.",
+        "url": "https://www.fool.com/investing/2026/10/18/heres-what-10000-split-across-spacex-palantir-and/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 12:17",
-        "score": 13
+        "publishedAt": "10/18 17:27",
+        "score": 16
       },
       {
-        "title": "Elon Musk의 중국 RAM 경고는 한국이 잠재적인 메모리 칩 공급 과잉과 다각화할 시간이 부족함에 따라 삼성, SK 하이닉스에 대한 의문을 제기합니다",
-        "description": "Elon Musk는 중국이 2028년까지 RAM(Random Access Memory)을 \"많이 만들\" 것이라고 경고하여 향후 칩 과잉으로 인해 Sou가 노출될 수 있다는 우려를 증폭시켰습니다.",
-        "url": "https://finance.yahoo.com/technology/articles/elon-musk-china-ram-warning-033004982.html?.tsrc=rss",
+        "title": "더 나은 AI 칩 재고: 대만 반도체 vs. 마이크론",
+        "description": "마이크론은 시장이 여전히 이를 순환 상품 사업처럼 취급하고 있기 때문에 훨씬 더 큰 상승 여력을 가지고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/10/18/better-ai-chip-stock-taiwan-semiconductor-vs-micro/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/17 12:30",
-        "score": 10
-      },
-      {
-        "title": "SpaceX에 대한 로켓 연구소의 대답을 막는 작은 에어 포켓",
-        "description": "이 탱크가 문제를 일으킨 것은 이번이 처음이 아닙니다. CEO는 여전히 새로운 날짜를 정하지 않을 것입니다.",
-        "url": "https://www.thestreet.com/investing/rocket-lab-neutron-delay-2027?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/17 07:07",
+        "publishedAt": "10/19 01:04",
         "score": 8
       },
       {
-        "title": "TSMC가 패키징 사업을 목표로 인텔 주가가 약 6% 하락했습니다. 인텔의 마진이 의미하는 바는 다음과 같습니다.",
-        "description": "인텔 주식 현재 가격의 주요 통계: $89. 85목표 가격(중간): ~$390거리 목표: ~$118잠재 총 수익률: ~336%연간 IRR: ~42% / yearWh",
-        "url": "https://www.tikr.com/blog/intel-stock-fell-nearly-6-as-tsmc-took-aim-at-its-packaging-business-heres-what-it-means-for-intels-margins?ref=yahoofinance&.tsrc=rss",
+        "title": "대만 반도체가 최고의 AI 투자인 이유를 입증했습니다.",
+        "description": "대만반도체(Taiwan Semiconductor)는 일전에 또 다른 인상적인 분기를 보고했다.",
+        "url": "https://www.fool.com/investing/2026/10/18/taiwan-semiconductor-just-proved-why-its-a-top-ai/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/18 02:26",
+        "publishedAt": "10/19 04:43",
         "score": 7
       },
       {
-        "title": "이번 주 서브 로보틱스 주가가 폭락한 이유",
-        "description": "한 분석가는 Serve Robotics가 2028년까지 순손실을 계속 감당할 것으로 보고 있습니다.",
-        "url": "https://www.fool.com/coverage/market-movers/2026/10/17/why-serve-robotics-stock-plunged-this-week/?.tsrc=rss",
+        "title": "AI 칩 공급이 병목 현상으로 전환되면서 Broadcom(AVGO)은 어떤 상황에 직면하게 됩니까?",
+        "description": "Broadcom(NasdaqGS:AVGO)은 2026년 Taiwan Semiconductor Manufacturing Co.의 고급 생산 능력 확장을 위해 다른 AI 칩 고객과 경쟁하고 있습니다. TSM",
+        "url": "https://finance.yahoo.com/technology/ai/articles/does-broadcom-avgo-face-ai-160933871.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/18 04:47",
+        "publishedAt": "10/19 01:09",
+        "score": 7
+      },
+      {
+        "title": "Nvidia, Broadcom 및 TSMC에 걸쳐 3,000달러를 분할하면 2030년까지 이만큼 가치가 있을 수 있습니다.",
+        "description": "이 세 가지 주요 AI 주식으로 구성된 포트폴리오는 2030년까지 3배가 될 것입니다.",
+        "url": "https://www.fool.com/investing/2026/10/17/3000-split-across-nvidia-broadcom-and-tsmc-could-b/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/18 09:20",
         "score": 6
       }
     ]
