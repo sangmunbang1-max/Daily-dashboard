@@ -1,282 +1,274 @@
 {
-  "generated_at_kst": "2026-10-20 10:08 KST",
-  "period": "10/19 07:00 ~ 10/20 07:00 KST",
+  "generated_at_kst": "2026-10-21 09:43 KST",
+  "period": "10/20 07:00 ~ 10/21 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "연준 금리 인상 기대 완화로 금 가격은 선물 거래에서 4,200달러 이상 상승",
-        "description": "K 의장의 발언에 따라 투자자들이 미 연준의 추가 금리 인상에 대한 기대를 줄이면서 월요일 금 가격이 상승했습니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/38242/gold-prices-rise-above-4200-in-futures-trading-as-fed-rate-hike-expectations-ease?.tsrc=rss",
+        "title": "업데이트: 통신 서비스의 약점으로 미국 주식 지수가 혼합되고 기술로 인해 Nasdaq Composite가 제한됨",
+        "description": "(1년차부터 지수/가격 움직임, 거시경제 데이터, 기업/지정학적 뉴스 업데이트)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-weakness-213459750.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/19 18:12",
-        "score": 10
-      },
-      {
-        "title": "월스트리트가 S&P 500 주식을 주목하는 네 가지 이유",
-        "description": "틀림없는 수요와 기술적 강점의 번쩍이는 조짐이 보이는 S&P 500 및 Fortune 500 기업인 Williams-Sonoma가 돌파구를 공개했습니다.",
-        "url": "https://finance.yahoo.com/m/f9a483bf-cc64-3176-a1e8-4c6c52399185/four-reasons-wall-street-has.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/20 05:02",
+        "publishedAt": "10/21 06:34",
         "score": 9
       },
       {
-        "title": "오늘, 10월 19일 주식 시장: Cleveland-Cliffs, 3분기 실적 개선 및 2027년 EBITDA 전망 상향으로 급등",
-        "description": "2026년 10월 19일 오늘, 평판 압연 철강 생산업체의 조정 EBITDA는 이전 분기보다 두 배 이상 증가하여 내구성 있는 가격 모멘텀을 나타냈습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/19/stock-market-today-oct-19-cleveland-cliffs-surges-on-stronger-q3-results-and-raised-2027-ebitda-outlook/?.tsrc=rss",
+        "title": "수익이 WFC(Wells Fargo) 투자자의 조치를 취해야 합니까?",
+        "description": "Wells Fargo는 최근 2026년 3분기 결과를 보고했는데, 순이자 소득과 순이익이 전년 동기 대비 증가해 연간 순익이 재확인되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-require-action-wells-191012126.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 06:37",
-        "score": 4
+        "publishedAt": "10/21 04:10",
+        "score": 6
       },
       {
-        "title": "업데이트: 자유소비재로 인해 거래량이 적은 가운데 미국 주가지수는 혼조세를 보이고 있으며, 기술 부문 차트가 1위를 기록하고 있습니다.",
-        "description": "(첫 번째 단락의 지수/가격 변동, 거시 경제 데이터 및 회사 뉴스 업데이트)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-close-mixed-213108305.html?.tsrc=rss",
+        "title": "오늘, 10월 20일 주식 시장: 장부가치 하락에도 불구하고 부문별 투자 분위기가 더욱 강해지면서 AGNC 투자 증가",
+        "description": "모기지 REIT는 3분기에 실질적인 장부가치 16.9% 하락을 기록했지만 경영진은 2026년 10월 20일 현재 신규 투자에 대해 18~20%의 수익을 올릴 것으로 예상합니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/20/stock-market-today-oct-20-agnc-investment-rises-on-stronger-sector-tone-despite-book-value-decline/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 06:31",
-        "score": 4
+        "publishedAt": "10/21 06:19",
+        "score": 5
       },
       {
-        "title": "오늘, 10월 19일 주식 시장: Amazon, Morgan Stanley Top Pick 및 350달러 목표 가격 급등",
-        "description": "2026년 10월 19일 오늘, Morgan Stanley의 업그레이드는 10월 29일 실적을 앞두고 Amazon Web Services와 AI 모멘텀을 강화했습니다.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/19/stock-market-today-oct-19-amazon-surges-on-morgan-stanley-top-pick-and-usd350-price-target/?.tsrc=rss",
+        "title": "3M, 확장된 Amazon 데이터 센터 거래로 6% 증가 및 수익 개선 일관된 가장자리는 더 높고 코닝은 평탄함을 유지합니다.",
+        "description": "3M은 잠재적인 수십억 달러를 연결하는 복잡하고 새로운 Amazon 계약을 발표한 날 동종 업계 및 더 넓은 시장을 제치고 급등했습니다.",
+        "url": "https://247wallst.com/investing/2026/10/20/3m-jumps-6-on-expanded-amazon-data-center-deal-and-earnings-beat-coherent-edges-higher-corning-stays-flat/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 06:31",
-        "score": 4
+        "publishedAt": "10/20 23:58",
+        "score": 5
+      },
+      {
+        "title": "칩 가격이 나스닥 하락을 선도하고 석유는 5개월 최고치를 기록했습니다: AlphaCheck",
+        "description": "화요일에는 주식이 엇갈렸습니다.",
+        "url": "https://finance.yahoo.com/markets/article/chips-lead-nasdaq-lower-oil-tops-5-month-high-alphacheck-134325052.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/20 22:43",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "\"삼전닉스 실적 과거일 뿐\"…'코스피 4800선 추락' 경고 [분석+]",
+        "title": "\"삼전닉스 영업이익률 악화 땐 내년 코스피 4700까지 하락\"",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026101910246",
+        "url": "https://www.hankyung.com/article/2026102041141",
         "source": "hankyung.com",
-        "publishedAt": "10/19 22:00",
+        "publishedAt": "10/20 17:55",
         "score": 5
       },
       {
-        "title": "삼성전자(KOSE:A005930)가 최신 AI 메모리 푸시로 무엇을 알리고 있습니까?",
-        "description": "삼성전자(KOSE:A005930)는 2026년 제5회 GMIF 혁신 서밋에서 AI 중심의 새로운 메모리 및 스토리지 제품을 선보였습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-electronics-kose-a005930-signaling-090747027.html?.tsrc=rss",
+        "title": "코스피는 2026년 이익이 116%에서 31%로 줄어들면서 개장시 3.5% 하락",
+        "description": "한국 코스피는 개장시 3.5% 하락했고, 칩 주식과 AI 지출에 대한 의구심이 커지면서 2026년 상승폭을 31%로 줄였습니다.",
+        "url": "https://beincrypto.com/kospi-falls-2026-gain-shrinks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/19 18:07",
+        "publishedAt": "10/20 10:13",
         "score": 5
       },
       {
-        "title": "'코어위브 신용 쇼크' 더 세게 맞은 코스피",
+        "title": "삼성·현대차도 뛰어들더니…'24% 폭등' 관심 쏟아진 종목",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026101914781",
+        "url": "https://www.hankyung.com/article/2026102041091",
         "source": "hankyung.com",
-        "publishedAt": "10/19 17:58",
-        "score": 5
+        "publishedAt": "10/20 17:56",
+        "score": 3
       },
       {
-        "title": "삼성은 안전한 피난처가 아니다: 삼성의 이익은 SK하이닉스와 같은 메모리 사이클을 따른다",
-        "description": "삼성전자(A005930)와 SK하이닉스(A000660)가 10월 19일 월요일 하락세를 이어갔다. 오전 서울 거래에서 삼성전자는 0포인트 하락했다.",
-        "url": "https://www.tikr.com/blog/samsung-isnt-the-safe-haven-its-profits-ride-the-same-memory-cycle-as-sk-hynix?ref=yahoofinance&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/19 15:07",
-        "score": 5
-      },
-      {
-        "title": "셀트리온 \"유럽서 증명한 램시마, 영토 확장\"",
+        "title": "카카오 경영진 “경영진 성과급·보상에 주가 반영하겠다”",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026101915921",
+        "url": "https://www.hankyung.com/article/202610203416i",
         "source": "hankyung.com",
-        "publishedAt": "10/19 18:08",
+        "publishedAt": "10/20 14:47",
+        "score": 3
+      },
+      {
+        "title": "카카오 경영진 \"자회사 매각, 전혀 논의된 바 없다\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610203393i",
+        "source": "hankyung.com",
+        "publishedAt": "10/20 14:42",
         "score": 3
       }
     ],
     "macro": [
       {
-        "title": "BofA는 대부분의 화학 회사가 금리 상승과 거시적 역풍으로 인해 증가하는 압력에 직면해 있다고 밝혔습니다.",
-        "description": "미국 화학 회사들은 금리 상승과 기타 광범위한 요인으로 인해 점진적인 압박을 받고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/most-chemicals-companies-face-growing-174040063.html?.tsrc=rss",
+        "title": "Twilio(TWLO)의 경제적 해자는 무엇이며, 확대되거나 축소됩니까?",
+        "description": "Twilio Inc.(NYSE:TWLO)는 메시지와 전화를 다른 회사로 이동합니다. 배송 서비스에서 추적 링크를 문자로 보내거나 은행에서 일회성 코드를 보내는 경우",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-twlo-economic-moat-widening-145146660.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 02:40",
+        "publishedAt": "10/20 23:51",
         "score": 1
       },
       {
-        "title": "윌리엄스(WMB)의 경제적 해자는 무엇이며, 철강인가 허가인가?",
-        "description": "해자는 일반적으로 경쟁자가 모방할 수 없는 것으로 설명됩니다. The Williams Companies, Inc.(NYSE:WMB)에 대한 테스트는 그보다 더 좁습니다. 아무도",
-        "url": "https://finance.yahoo.com/energy/articles/williams-wmb-economic-moat-steel-170903468.html?.tsrc=rss",
+        "title": "오라클(ORCL)의 경제적 해자는 무엇이며, 확대되고 있습니까, 아니면 축소되고 있습니까?",
+        "description": "해자는 일반적으로 고객이 떠나기 위해 무엇을 해야 하는지 묻는 방식으로 테스트됩니다. Oracle Corporation(NYSE:ORCL)의 경우 해당 질문에는 이제 두 가지 답변이 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-economic-moat-widening-144327905.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 02:09",
+        "publishedAt": "10/20 23:43",
         "score": 1
       },
       {
-        "title": "Antero Midstream(AM)의 경제적 해자는 무엇이며 고객 한 명이면 충분합니까?",
-        "description": "Antero Resources가 애팔래치아에서 천연가스를 시추하고 있습니다. Antero Midstream Corporation(NYSE:AM)은 이를 가져가는 파이프를 소유하고 있으며 이를 깎아서 만들었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/antero-midstream-am-economic-moat-170655510.html?.tsrc=rss",
+        "title": "전 Palantir 엔지니어가 설립한 스타트업 Mural은 은행을 신흥 봇 경제에 연결하기 위해 1,500만 달러의 입찰을 모금했습니다.",
+        "description": "Tether는 기업이 통화와 국경을 넘어 결제를 관리하는 데 도움을 주는 뉴욕에 본사를 둔 스타트업의 라운드를 주도했습니다.",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/mural-startup-founded-former-palantir-140000724.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 02:06",
-        "score": 1
-      },
-      {
-        "title": "아시아 주식시장, 기술주 변동, 중국 경제 전망",
-        "description": "거래자들이 기술주에 들어오고 나가며 뗏목을 고민함에 따라 월요일 아시아 주식 시장은 요동쳤습니다.",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stock-markets-churn-tech-104034829.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/19 19:40",
+        "publishedAt": "10/20 23:00",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "미국 국채 수익률은 원유로 인해 상승합니다. 프랑스 채권수익률, 시위로 상승",
-        "description": "미국 국채 수익률은 유가가 조기 하락세를 꺾으면서 상승세를 보였지만, 장기 수익률은 여전히 ​​최근 수십 년 최고치보다 낮은 수준을 유지하고 있습니다.",
-        "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-in-asian-trade-e5171539?.tsrc=rss",
+        "title": "10년 만기 수익률이 하락함에 따라 미국 달러는 루니 대비 약세",
+        "description": "미국 달러는 화요일 세 번째 연속 세션에서 캐나다 달러 대비 하락세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-weakens-against-loonie-174953973.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 04:27",
-        "score": 8
+        "publishedAt": "10/21 02:49",
+        "score": 5
       },
       {
-        "title": "미국 달러는 안정적이고 국채 수익률은 하락합니다.",
-        "description": "월요일 미국 달러는 좁은 범위 내에서 거래되었으며, 프랑스의 새로운 사회 불안이 다시 우려를 불러일으키면서 유로화에 대한 상승이 집중되었습니다.",
-        "url": "https://finance.yahoo.com/m/de5d8bda-855f-3e22-8c95-7a6ff62ceacb/u.s.-dollar-is-stable%2C.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/19 19:21",
-        "score": 8
-      },
-      {
-        "title": "중국의 재무부 더미가 서류상으로 줄어들고 있습니다. 양육권 데이터는 다른 이야기를 말해줍니다",
-        "description": "American News Group News Commentary - 중국은 8월말 미국 국채 보유액이 5,907억 달러로 전년 동기 6,997억 달러보다 감소했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/chinas-treasury-pile-shrinking-paper-121500428.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/19 21:15",
+        "title": "佛 채권금리 年 5% 육박…재정위기 초기 그리스 넘어",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026102041591",
+        "source": "hankyung.com",
+        "publishedAt": "10/21 06:00",
         "score": 3
       },
       {
-        "title": "월마트는 미국 부채를 매각하고 지출이 증가함에 따라 캐나다 시장을 주시합니다.",
-        "description": "월마트(Walmart Inc.)는 올해 두 번째로 미국 달러 채권을 판매하고 세계 최대 규모의 캐나다 채권 발행을 위해 투자자들을 모집하고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-sells-us-debt-eyes-153609881.html?.tsrc=rss",
+        "title": "기록적인 일본 채권 경매로 엔화가 상승하고 파운드가 고용 데이터에 급등하면서 달러 하락",
+        "description": "Investing.com -- 유가가 반등하고 인플레이션 우려가 완화되면서 화요일 미국 달러가 하락했습니다. 달러의 움직임도 마찬가지였다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-firm-dollar-retreats-054434934.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 00:36",
-        "score": 1
+        "publishedAt": "10/20 14:44",
+        "score": 3
+      },
+      {
+        "title": "TLT, EDV 및 VGLT는 장기 채권에 동일한 베팅을 합니다. 하나는 다른 것보다 훨씬 더 세게 스윙합니다",
+        "description": "3개의 펀드가 정부 지원 채권을 보유하고 있지만 이들의 5년 손실은 전혀 다른 이야기를 말해줍니다. 스윙이 왜 그렇게 더 세게 되는지 이해하는 것은",
+        "url": "https://247wallst.com/investing/etf/2026/10/19/tlt-edv-and-vglt-make-the-same-bet-on-long-bonds-one-swings-far-harder-than-the-others/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/20 08:03",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "연준 금리 인상 기대 완화로 금 가격은 선물 거래에서 4,200달러 이상 상승",
-        "description": "K 의장의 발언에 따라 투자자들이 미 연준의 추가 금리 인상에 대한 기대를 줄이면서 월요일 금 가격이 상승했습니다.",
-        "url": "https://investorshub.advfn.com/market-news/article/38242/gold-prices-rise-above-4200-in-futures-trading-as-fed-rate-hike-expectations-ease?.tsrc=rss",
+        "title": "기술주 약세와 원유 가격 상승으로 인해 주식 압박을 받음",
+        "description": "오늘 S&P 500 지수($SPX )(SPY )는 -0.15% 하락했고, Dow Jones Industrial Average($DOWI )(DIA )는 +0.57% 상승했으며, Nasdaq 100 지수(",
+        "url": "https://www.barchart.com/story/news/8234180/stocks-pressured-by-tech-stock-weakness-and-higher-crude-oil-prices?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/19 18:12",
+        "publishedAt": "10/20 23:09",
+        "score": 10
+      },
+      {
+        "title": "브렌트 원유가 5개월 최고치를 기록함에 따라 USO, UCO는 시장 전 이익을 얻습니다. 중동 해운은 연료 공급에 대한 두려움을 공격합니다.",
+        "description": "Capital Economics의 원자재 경제학자 Hamad Hussain은 선박에 대한 공격이 증가하면 석유 공급이 다시 감소할 수 있다고 경고했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/uso-uso-gain-premarket-as-brent-crude-hits-5-month-high-middle-east-shipping-attacks-fuel-supply-fears/cZxqAqxRBum?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/20 19:35",
+        "score": 6
+      },
+      {
+        "title": "아메리칸 항공, 유가 완화로 수익보다 5% 상승; 유나이티드 항공(United Airlines)과 델타(Delta)는 3% 상승",
+        "description": "하락하는 유가와 다가오는 수익 보고서로 인해 항공주가 급등했지만 아메리칸 항공은 그룹 전체를 큰 폭으로 앞서고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/10/20/american-airlines-rises-5-ahead-of-earnings-as-oil-prices-ease-united-airlines-and-delta-climb-3/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/21 00:49",
         "score": 5
       },
       {
-        "title": "기술은 잊어버리세요. 이번 실적 시즌에는 에너지가 가장 큰 승자가 될 것입니다.",
-        "description": "에너지 기업들은 이란 전쟁으로 인해 휘발유와 기타 연료 가격이 상승하면서 이익을 얻었습니다.",
-        "url": "https://finance.yahoo.com/m/2bba9727-a5dc-3eb3-821b-571b920f9856/forget-tech.-energy-will-be.html?.tsrc=rss",
+        "title": "Valero Energy의 3분기 실적 접근 방식: 높은 정제 마진으로 낙관론이 촉진됨",
+        "description": "미국 최대의 독립 석유정제업체 중 하나인 Valero Energy(VLO)가 시장 발표 전에 많은 기대를 모았던 3분기 실적을 발표할 예정입니다.",
+        "url": "https://finance.yahoo.com/energy/articles/valero-energys-q3-earnings-approach-210700405.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 06:33",
-        "score": 3
+        "publishedAt": "10/21 06:07",
+        "score": 4
       },
       {
-        "title": "이 숫자가 별자리 에너지 주식에 대한 가장 큰 위험입니까?",
-        "description": "Constellation Energy(CEG)를 분석하는 사람이라면 누구나 먼저 부채 부담을 살펴봐야 합니다. 2026년 6월 말 기준으로 회사의 부채는 247억 달러에 달합니다.",
-        "url": "https://www.trefis.com/articles/619175/is-this-number-the-biggest-risk-to-constellation-energy-stock/2026-10-19?.tsrc=rss",
+        "title": "Clearway Energy(CWEN)가 시장 수익률을 초과합니다: 고려해야 할 몇 가지 사실",
+        "description": "Clearway Energy(CWEN)는 최근 거래 세션을 $30.24로 마감하여 전날 종가보다 +2.34% 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/clearway-energy-cwen-exceeds-market-211503117.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 06:28",
-        "score": 3
-      },
-      {
-        "title": "시장 상승에 따른 다각화된 에너지 회사 PLC(DEC) 주식 하락: 거래하기 전에 알아야 할 사실",
-        "description": "Diversified Energy Company PLC(DEC)는 최근 거래일 마감 시 $14.58를 기록했는데, 이는 직전 마감 대비 -1.69%의 변동을 반영한 것입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/diversified-energy-company-plc-dec-205004000.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/20 05:50",
-        "score": 3
-      },
-      {
-        "title": "업종 업데이트: 늦은 오후 에너지주 하락세",
-        "description": "에너지주는 월요일 오후 늦게 하락했으며, NYSE 에너지 부문 지수는 연 0.5% 하락했습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-afternoon-195808265.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/20 04:58",
+        "publishedAt": "10/21 06:15",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "프랑스 사회 불안이 유로화에 부담을 주면서 달러는 더 높이 올라갑니다.",
-        "description": "오늘 달러 지수(DXY00)는 +0.10% 상승했습니다. 프랑스의 정치적 위험과 사회적 불안이 유로화에 부담을 주고 있어 달러화에 이익이 되고 있습니다. 하지만,",
-        "url": "https://www.barchart.com/story/news/8199026/dollar-pushes-higher-as-french-social-unrest-weighs-on-the-euro?.tsrc=rss",
+        "title": "미국 달러 가격 예측: 영국 일자리 깜짝, DXY 테스트 101.76 EUR/USD, GBP/USD 기업",
+        "description": "미국 달러 가격 예측: DXY는 12월 인상 확률이 94%에 도달하면서 101.76을 테스트하고, EUR/USD는 프랑스 부채 위험에 대해 1.1270에 직면하고, GBP/USD는 영국 이후 1.3353을 테스트합니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-072421507.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/19 23:33",
+        "publishedAt": "10/20 16:24",
+        "score": 7
+      },
+      {
+        "title": "중국 위안화 강세와 미국 주택 약세로 달러 하락 - 뉴스와이어",
+        "description": "오늘 달러 지수(DXY00)는 -0.31% 하락했습니다. 오늘 달러화는 중국 위안화가 4년 만에 최고치로 상승하면서 압력을 받아 약세를 보이고 있습니다. 달러는",
+        "url": "https://www.barchart.com/story/news/8235436/dollar-falls-on-chinese-yuan-strength-and-weak-us-housing-news?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/20 23:38",
         "score": 4
       },
       {
-        "title": "UBS는 시장이 유럽에 대해 너무 비관적으로 변하면서 EUR/USD가 회복될 것으로 보고 있습니다.",
-        "description": "Investing.com -- UBS는 유로화가 2026년 말까지 $1.16으로 회복될 것으로 예상하며, 달러 대비 유로화가 $1.17에서 거의 $1.11로 하락한 현상은 사라졌다고 말했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/ubs-sees-eur-usd-recovering-111513784.html?.tsrc=rss",
+        "title": "기록적인 일본 채권 경매로 엔화가 상승하고 파운드가 고용 데이터에 급등하면서 달러 하락",
+        "description": "Investing.com -- 유가가 반등하고 인플레이션 우려가 완화되면서 화요일 미국 달러가 하락했습니다. 달러의 움직임도 마찬가지였다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-firm-dollar-retreats-054434934.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/19 20:15",
+        "publishedAt": "10/20 14:44",
         "score": 4
       },
       {
-        "title": "아마존 목표가 350달러…엔비디아도 비중확대 유지 [월가 업&다운]",
+        "title": "파이퍼 샌들러(Piper Sandler) 가격 목표 인하에도 불구하고 암호화폐 주식 상승: MARA 및 Hut 8은 4% 증가, 폭동은 정체 상태 유지",
+        "description": "파이퍼 샌들러(Piper Sandler)는 3개의 주요 암호화폐 채굴 주식에 대한 목표 가격을 삭감했지만 구매자들은 어쨌든 서둘러 돌아왔습니다. 그 자신감이 n 후에도 살아남는지 여부",
+        "url": "https://247wallst.com/investing/2026/10/20/cryptocurrency-stocks-rise-despite-piper-sandler-price-target-cuts-mara-and-hut-8-gain-4-riot-holds-flat/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/21 02:05",
+        "score": 3
+      },
+      {
+        "title": "브렌트유 111달러까지 치솟아…사우디 석유시설 공격에 초긴장",
         "description": "",
-        "url": "https://www.hankyung.com/article/202610201850i",
+        "url": "https://www.hankyung.com/article/202610204308i",
         "source": "hankyung.com",
-        "publishedAt": "10/20 03:42",
+        "publishedAt": "10/20 20:49",
         "score": 3
-      },
-      {
-        "title": "AST SpaceMobile은 유럽 최대 통신사가 공동 위성 스펙트럼 입찰을 탐색함에 따라 4% 상승합니다. SpaceX 및 Rocket Lab Edge Higher",
-        "description": "유럽의 4대 무선 통신업체가 공동 위성 스펙트럼 입찰을 모색하기로 방금 서명했으며, 한 우주 주식은 급등하는 동시에 가장 큰 이익을 얻고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/10/19/ast-spacemobile-rises-4-as-europes-largest-carriers-explore-joint-satellite-spectrum-bid-spacex-and-rocket-lab-edge-higher/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/19 22:06",
-        "score": 3
-      },
-      {
-        "title": "금 전표, 달러 이익, 수익률 상승",
-        "description": "금 선물은 미국 달러가 강세를 보이고 수익률이 오르며 유가가 초기 손실을 만회하면서 하락세로 마감했습니다.",
-        "url": "https://finance.yahoo.com/m/08a6cbbd-7f5d-3517-9903-6a3029e89705/gold-slips%2C-dollar-gains%2C.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/20 03:18",
-        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Cleveland-Cliffs는 2027년이 관세의 도움으로 매우 좋은 해가 될 것으로 예상합니다.",
-        "description": "Cleveland-Cliffs는 매출 56억 달러에 3분기 Ebitda를 6억 1,200만 달러로 보고했습니다. 월스트리트는 약 6억 100만 달러와 57억 달러 지폐를 찾고 있었습니다.",
-        "url": "https://finance.yahoo.com/m/9ded3254-8acb-336d-a279-aa7dd53cbf7b/cleveland-cliffs-expects-2027.html?.tsrc=rss",
+        "title": "미국 주식이 정오 이후 상승함에 따라 상장지수펀드 수익이 증가함",
+        "description": "광범위한 시장 지표 광범위한 시장 상장지수펀드 IWM 및 IVV가 상승했습니다. 적극적으로 거래됨 I",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-gain-us-171124946.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 06:20",
-        "score": 3
-      },
-      {
-        "title": "시장 상승에 따른 다각화된 에너지 회사 PLC(DEC) 주식 하락: 거래하기 전에 알아야 할 사실",
-        "description": "Diversified Energy Company PLC(DEC)는 최근 거래일 마감 시 $14.58를 기록했는데, 이는 직전 마감 대비 -1.69%의 변동을 반영한 것입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/diversified-energy-company-plc-dec-205004000.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/20 05:50",
+        "publishedAt": "10/21 02:11",
         "score": 1
       },
       {
-        "title": "인류 IPO, MANGOS ETF 및 AI 무역의 미래",
-        "description": "민간 AI 기업에 투자하는 Anthropic IPO 및 ETF에 대해 투자자가 알아야 할 사항은 무엇입니까?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-mangos-etfs-future-191700701.html?.tsrc=rss",
+        "title": "한국 최악의 IPO는 AI 무역에 나쁜 소식이다",
+        "description": "월요일의 AI 거래 반등은 추세라기보다는 우연처럼 보입니다.",
+        "url": "https://finance.yahoo.com/m/216ce77e-02e1-3a7b-b785-8ed8a762e700/korea%27s-worst-ipo-is-bad-news.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 04:17",
+        "publishedAt": "10/20 21:58",
         "score": 1
       },
       {
-        "title": "Sunrun, 실적 앞두고 52주 최저치로 5% 하락; Enphase 에너지와 첫 번째 태양 슬립",
-        "description": "Sunrun은 더 넓은 시장이 상승하는 동안 1년 최저치를 향해 하락하고 있으며, 수익이 몇 주 남았으므로 주식이 이전에 유지될 수 있는지 여부가 문제입니다.",
-        "url": "https://247wallst.com/investing/2026/10/19/sunrun-sinks-5-toward-52-week-low-ahead-of-earnings-enphase-energy-and-first-solar-slip/?.tsrc=rss",
+        "title": "팔란티르가 아닙니다. 눈송이가 아닙니다. 이 AI 소프트웨어 주식은 2027년의 가장 큰 승자가 될 수 있습니다.",
+        "description": "CrowdStrike를 명백한 인공 지능 플레이로 생각하지 않을 수도 있지만 사이버 보안에 대한 AI의 순풍은 현실입니다.",
+        "url": "https://www.fool.com/investing/2026/10/20/not-palantir-not-snowflake-this-ai-software-stock/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 03:09",
+        "publishedAt": "10/20 18:52",
         "score": 1
       },
       {
-        "title": "케빈 워시(Kevin Warsh)는 '나는 실패했다'고 말하며 처음 148일 동안 은행 감독을 소홀히 했다고 인정했습니다.",
-        "description": "케빈 워시 연준 의장은 재임 기간 동안 은행 감독을 포함한 비통화 정책 기능에 적절하게 집중하지 못했다고 밝혔습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-says-failed-admitting-180011889.html?.tsrc=rss",
+        "title": "IonQ, Rigetti Computing, D-Wave Quantum 및 Quantum Computing Inc.는 이 10억 달러 경고로 월스트리트를 핵심까지 뒤흔들고 있습니다.",
+        "description": "월스트리트의 순수 양자 컴퓨팅 회사를 가장 잘 아는 사람들은 잘못된 신호를 모두 보내고 있습니다.",
+        "url": "https://www.fool.com/investing/2026/10/20/ionq-rigetti-dwave-quantum-computing-shaking-wall-street-to-core-with-1-billion-warning/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 03:00",
+        "publishedAt": "10/20 18:26",
+        "score": 1
+      },
+      {
+        "title": "FinFET 기술 - 방금 발표된 글로벌 전략 비즈니스 보고서: AI 및 데이터 센터로 인해 FinFET 칩 시장이 970억 달러 규모로 성장",
+        "description": "새로운 연구 및 시장 보고서에 따르면 전 세계 FinFET 기술 시장은 2024년 385억 달러에서 2030년 971억 달러로 성장할 것으로 예상됩니다.",
+        "url": "https://finance.yahoo.com/technology/articles/finfet-technology-global-strategic-business-083500367.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/20 17:35",
         "score": 1
       }
     ],
@@ -286,40 +278,40 @@
         "description": "Nvidia와 TSMC는 모두 다음 10년 동안 매수할 최고의 반도체 주식 10개에 포함되어 있지만 장기적인 문제에 대해 서로 다른 답변을 제공합니다.",
         "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-vs-tsmc-business-depends-185630787.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 03:56",
+        "publishedAt": "10/20 10:29",
         "score": 13
       },
       {
-        "title": "삼성, Nvidia의 맞춤형 HBM 칩을 위해 TSMC와 협력",
-        "description": "엔비디아는 AI 칩 성능을 향상시키기 위해 삼성전자, TSMC와 함께 NVHBM 메모리 베이스 다이를 공동 설계하고 있습니다.",
-        "url": "https://www.verdict.co.uk/samsung-collaborates-tsmc/?.tsrc=rss",
+        "title": "오늘, 10월 20일 주식 시장: 3분기 실적 보고서에서 시장 마감 후 SpaceX 주가 상승",
+        "description": "2026년 10월 20일 오늘, 옵션 거래자들은 투자자들이 출시 주기와 정부 수요에 집중함에 따라 수익 후 8% 변동으로 가격이 책정되었습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/20/stock-market-today-oct-20-spacex-stock-gains-after-market-close-on-q3-earnings-report/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/19 18:06",
-        "score": 12
+        "publishedAt": "10/21 06:38",
+        "score": 7
       },
       {
-        "title": "Nvidia(NVDA)는 새로운 AI 칩 및 우주 컴퓨팅 거래를 통해 무엇을 신호하고 있습니까?",
-        "description": "NVIDIA(NasdaqGS:NVDA)는 TSMC의 3nm 공정을 기반으로 하는 차세대 HBM 칩을 개발하기 위해 삼성 및 TSMC와 협력하고 있습니다. 삼성은 TSMC의 3nm 노드를 사용할 계획입니다",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-signaling-ai-chip-161138667.html?.tsrc=rss",
+        "title": "AI 투자 우려로 글로벌 칩주 급락",
+        "description": "Investing.com -- 지속 가능성에 대한 우려가 다시 커지는 가운데 미국과 유럽의 칩 주가는 화요일 하락세를 보이며 아시아 국가들의 급격한 하락을 추적했습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/global-chip-stocks-tumble-ai-080519366.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/20 01:11",
-        "score": 11
+        "publishedAt": "10/20 17:05",
+        "score": 7
       },
       {
-        "title": "AST SpaceMobile은 유럽 최대 통신사가 공동 위성 스펙트럼 입찰을 탐색함에 따라 4% 상승합니다. SpaceX 및 Rocket Lab Edge Higher",
-        "description": "유럽의 4대 무선 통신업체가 공동 위성 스펙트럼 입찰을 모색하기로 방금 서명했으며, 한 우주 주식은 급등하는 동시에 가장 큰 이익을 얻고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/10/19/ast-spacemobile-rises-4-as-europes-largest-carriers-explore-joint-satellite-spectrum-bid-spacex-and-rocket-lab-edge-higher/?.tsrc=rss",
+        "title": "Intellistake와 NanoAi는 미 육군이 속도, 자율성 및 군인 보호를 우선시함에 따라 AUSA 2026에서 잠재 국방 고객을 만났습니다.",
+        "description": "Intellistake Technologies Corp.(CSE: ISTK)(OTCQB: ISTKF)(FSE: E41)(\"Intellistake\" 또는 \"회사\")는 오늘 최고 경영자(CEO)를 발표했습니다.",
+        "url": "https://finance.yahoo.com/news/intellistake-nanoai-meet-prospective-defense-070100997.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/19 22:06",
-        "score": 10
+        "publishedAt": "10/20 16:01",
+        "score": 7
       },
       {
-        "title": "엔비디아가 아닙니다. 마이크론이 아닙니다. 이 인공지능(AI) 칩 주식은 2030년까지 가장 상승 여력이 높습니다.",
-        "description": "엔비디아와 마이크론은 보유하기 가장 좋은 인공지능(AI) 반도체 주식 중 두 곳이었지만, 쉬운 이익은 끝났을 수도 있습니다.",
-        "url": "https://www.fool.com/investing/2026/10/19/not-nvidia-not-micron-this-artificial-intelligence/?.tsrc=rss",
+        "title": "AMD 대 TSMC: AMD의 현금 흐름은 얼마나 더 빠르게 성장해야 합니까?",
+        "description": "향후 10년간 매수해야 할 최고의 반도체 주식 10개에는 칩 설계자와 파운드리가 모두 포함됩니다. Advanced Micro Devices, Inc.(나스닥:AMD)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-vs-tsmc-much-faster-185640358.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/19 23:35",
-        "score": 8
+        "publishedAt": "10/20 21:40",
+        "score": 6
       }
     ]
   }
