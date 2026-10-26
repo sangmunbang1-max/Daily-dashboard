@@ -1,269 +1,293 @@
 {
-  "generated_at_kst": "2026-10-25 09:26 KST",
-  "period": "10/24 07:00 ~ 10/25 07:00 KST",
+  "generated_at_kst": "2026-10-26 09:31 KST",
+  "period": "10/25 07:00 ~ 10/26 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "나스닥은 4개월 만에 최악의 날을 보냈습니다. 조정 신호를 보내는 수준과 이에 대해 역사가 말하는 투자자는 다음과 같습니다.",
-        "description": "투자자들이 인공지능(AI) 인프라 지출의 성과에 의문을 제기하면서 기술주들이 매도세를 보이고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/10/24/the-nasdaq-just-had-its-worst-day-in-4-months-here/?.tsrc=rss",
+        "title": "Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Warren Buffett's Advice.",
+        "description": "The S&P 500 might be vulnerable to a 20% bear market decline, given the growing number of risks.",
+        "url": "https://www.fool.com/investing/2026/10/25/prediction-stock-market-crash-warren-buffett-advic/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 04:50",
-        "score": 11
+        "publishedAt": "10/25 22:54",
+        "score": 10
       },
       {
-        "title": "주식 시장 붕괴에 대한 퍼즐 조각이 구체화되고 있으며, 역사적으로 완벽한 4가지 지표가 이제 경보를 울리고 있습니다.",
-        "description": "강세장은 무한정 지속되지 않습니다.",
-        "url": "https://www.fool.com/investing/2026/10/24/puzzle-pieces-for-stock-market-crash-taking-shape-4-historically-flawless-indicators-sound-alarm/?.tsrc=rss",
+        "title": "Realty Income Yields More Than Quintuple the S&P 500. Here's What a $10,000 Investment Produces in Yearly Dividends.",
+        "description": "This monthly dividend stock has a more than 30-year track record of annual dividend hikes.",
+        "url": "https://www.fool.com/investing/2026/10/25/realty-income-yields-more-than-quintuple-the-sp-50/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/24 22:26",
-        "score": 9
-      },
-      {
-        "title": "목요일에 S&P 500 주식의 3분의 2가 상승했지만 지수는 여전히 하락했습니다. 포트폴리오에 숨어 있는 위험 노출",
-        "description": "대부분의 S&P 500 주식이 오른 날에도 지수는 여전히 하락했으며, 그 이유는 인덱스 펀드 투자자들이 그 때까지 거의 볼 수 없는 숨겨진 위험을 드러냅니다.",
-        "url": "https://247wallst.com/investing/2026/10/24/two-thirds-of-sp-500-stocks-rose-on-thursday-but-the-index-still-fell-exposing-the-risk-hiding-in-your-portfolio/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/25 00:20",
-        "score": 8
-      },
-      {
-        "title": "美·이란 전운에 유가 급등…뉴욕증시 3대 지수 일제히 하락",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102422807",
-        "source": "hankyung.com",
-        "publishedAt": "10/24 09:29",
-        "score": 8
-      },
-      {
-        "title": "Vanguard S&P 500 ETF를 구매하기 전에 투자자가 알아야 할 은밀한 위험 1가지가 있습니다.",
-        "description": "S&P 500 지수를 보유하는 것은 처음에 가정했던 것만큼 전략이 다양하지 않습니다.",
-        "url": "https://www.fool.com/investing/2026/10/24/before-you-buy-vanguard-sp-500-etf-1-risk/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/25 06:43",
+        "publishedAt": "10/26 03:31",
         "score": 6
+      },
+      {
+        "title": "3 Dividend ETFs With Over $10 Billion Each Pay Up to 3.31% and Beat the S&P 500 Over the Past Year",
+        "description": "Three giant dividend ETFs each cleared a benchmark most yield-focused funds struggle to touch, yet their five-year records tell a starkly different st",
+        "url": "https://247wallst.com/investing/etf/2026/10/25/3-dividend-etfs-with-over-10-billion-each-pay-up-to-3-31-and-beat-the-sp-500-over-the-past-year/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 05:33",
+        "score": 5
+      },
+      {
+        "title": "Up 35%, How Long Can Coca-Cola Continue Crushing the S&P 500?",
+        "description": "Coca-Cola has had its best year since 1996.",
+        "url": "https://www.fool.com/investing/2026/10/25/up-35-how-long-can-coca-cola-continue-crushing-the/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 00:40",
+        "score": 5
+      },
+      {
+        "title": "Zero-Day Option Traders Are Betting Against Big S&P 500 Swings",
+        "description": "While some investors position for AI earnings, geopolitics and interest rates to send stocks either to new highs or into a tailspin, zero-day option t",
+        "url": "https://finance.yahoo.com/markets/options/articles/zero-day-option-traders-betting-140000009.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/25 23:00",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "코스피 빠질 때 혼자 37% '불기둥'…실적 두 배 터진 이 회사 [종목+]",
+        "title": "Goldman Sachs Cuts Its Price Target for South Korea’s KOSPI",
+        "description": "Goldman Sachs cut its KOSPI target to 9,000 and estimates chip valuations imply a 65% earnings drop, days before Samsung and SK Hynix report.",
+        "url": "https://beincrypto.com/goldman-sachs-cuts-kospi-target/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 04:08",
+        "score": 6
+      },
+      {
+        "title": "삼성전자, 실리콘밸리 본사 2배 넓혔다",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026102309936",
+        "url": "https://www.hankyung.com/article/2026102534761",
         "source": "hankyung.com",
-        "publishedAt": "10/24 15:52",
+        "publishedAt": "10/25 18:32",
         "score": 5
       },
       {
-        "title": "\"인니 증시 반값 됐다\"…상반기 1위서 '최저가'로, 코스피 바닥 논쟁",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610231657i",
-        "source": "hankyung.com",
-        "publishedAt": "10/24 10:00",
+        "title": "Goldman Sachs cuts Kospi target by 25% amid AI stock selloff",
+        "description": "Investing.com -- Goldman Sachs has cut its 12-month target for South Korea’s Kospi Index by 25%, citing mounting concerns over artificial intelligence",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/goldman-sachs-cuts-kospi-target-092052012.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/25 18:20",
         "score": 5
       },
       {
-        "title": "\"최태원 회장 큰 결단\"…속타던 SK하이닉스 개미들 '환호' [강경주의 테크X]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102314556",
-        "source": "hankyung.com",
-        "publishedAt": "10/24 09:30",
+        "title": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels",
+        "description": "Goldman Sachs Group Inc. strategists slashed their target for South Korea’s Kospi Index by 25%, after raising it repeatedly this year, as concerns ove",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-cuts-kospi-12-month-074443032.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/25 16:44",
         "score": 5
       },
       {
-        "title": "\"곧 코스피 반등 기회 온다…급락 시 조금씩 매수해야\"",
+        "title": "가상자산 거래대금, 반년 새 44% 뚝",
         "description": "",
-        "url": "https://www.hankyung.com/article/202610229175i",
+        "url": "https://www.hankyung.com/article/2026102535481",
         "source": "hankyung.com",
-        "publishedAt": "10/24 07:00",
-        "score": 5
+        "publishedAt": "10/25 18:42",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "또 헤지펀드 청산이었나…재미없을 FOMC, 흥미로울 빅테크 실적 [김현석의 월스트리트나우]",
+        "title": "뉴욕·상하이 증시, 美 기준금리 발표…워시 입에 쏠린 눈",
         "description": "",
-        "url": "https://www.hankyung.com/article/202610242192i",
+        "url": "https://www.hankyung.com/article/2026102535311",
         "source": "hankyung.com",
-        "publishedAt": "10/24 08:16",
+        "publishedAt": "10/25 18:23",
         "score": 5
       },
       {
-        "title": "주식 시장 투자자들은 트럼프 대통령의 경제에 대해 나쁜 소식을 접했습니다. 역사는 이것이 다음에 일어날 수 있다고 말합니다.",
-        "description": "이란 전쟁과 관련된 지속적인 인플레이션으로 인해 추가 금리 인상 가능성이 높아졌습니다.",
-        "url": "https://www.fool.com/investing/2026/10/24/stock-market-investors-bad-news-president-trumps-economy-this-next/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/24 18:08",
-        "score": 1
+        "title": "국제유가 117달러 돌파…에너지값 급등에 연말 물가 '빨간불'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026102638807",
+        "source": "hankyung.com",
+        "publishedAt": "10/26 06:45",
+        "score": 3
       },
       {
-        "title": "\"아들 주려고 9시간 기다렸다\"…60대 아빠 줄 세운 '페이커 우표' [덕질경제학]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610231047H",
-        "source": "hankyung.com",
-        "publishedAt": "10/24 08:49",
-        "score": 1
+        "title": "Gold market and central banks: Russia, Kazakhstan sell as Poland, China buy",
+        "description": "Russia and Kazakhstan are offloading some central-bank gold, while Poland's is buying more. What does this reshuffle mean for individual gold investor",
+        "url": "https://www.euronews.com/2026/10/25/gold-market-and-central-banks-russia-kazakhstan-sell-as-poland-china-buy?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/25 15:58",
+        "score": 3
       }
     ],
     "bonds": [
       {
-        "title": "Stocktwits 주간 스프레드: 이번 주 국채 수익률과 달러의 모양",
-        "description": "인공지능 주식의 급격한 매도와 급증하는 신용 ​​위험 프리미엄으로 인해 투자자들은 안전으로 피하게 되었고 10년 만기 국채 수익률을 견인했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week-2/cZUGd6zRBUa?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/24 10:00",
-        "score": 8
-      },
-      {
-        "title": "채권의 귀환…월가 기관들의 투자 전략은 [박신영의 월가 아나토미]",
+        "title": "환율·채권…'초강세' 원화, 1200원대 진입하나",
         "description": "",
-        "url": "https://www.hankyung.com/article/202610242220i",
+        "url": "https://www.hankyung.com/article/2026102535301",
         "source": "hankyung.com",
-        "publishedAt": "10/24 08:07",
+        "publishedAt": "10/25 18:24",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Goldman Sachs는 Houthi 공격이 확대됨에 따라 정유사들이 급격한 석유 공급 감소의 '높은 확률'을 보고 있다고 말합니다. 원유 가격은 6개월 최고치를 기록했습니다",
-        "description": "Goldman Sachs의 글로벌 원자재 연구 공동 책임자이자 석유 연구 책임자인 Daan Struyven은 최근 원유 가격 상승이 경제 성장을 반영한다고 말했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/goldman-sachs-crude-oil-prices-6-month-high-iran-war-houthi-attacks/cZUGXqNRBUf?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/24 15:28",
-        "score": 10
-      },
-      {
-        "title": "美·이란 전운에 유가 급등…뉴욕증시 3대 지수 일제히 하락",
+        "title": "국제유가 117달러 돌파…에너지값 급등에 연말 물가 '빨간불'",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026102422807",
+        "url": "https://www.hankyung.com/article/2026102638807",
         "source": "hankyung.com",
-        "publishedAt": "10/24 09:29",
-        "score": 5
+        "publishedAt": "10/26 06:45",
+        "score": 6
       },
       {
-        "title": "다음 주 연준 회의를 앞두고 유가 상승으로 인플레이션 우려가 높아짐에 따라 S&P 500, 다우 하락 — AAPL, AXP, CART, UBER 집중",
-        "description": "브렌트유는 3.1% 상승해 4월 이후 최고치인 배럴당 116.72달러로 장을 마감했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-drop-as-elevated-oil-prices-stoke-inflation-fears-ahead-of-fed-meeting-next-week-aapl-axp-cart-uber-in-focus/cZxyHWvRBU4?.tsrc=rss",
+        "title": "With Oil Prices Rising, Bitcoin Remains Stuck Below $85,000. Here's Why I'm Still Buying Bitcoin Right Now.",
+        "description": "If history is any guide, pain at the pump should not result in pain for Bitcoin investors.",
+        "url": "https://www.fool.com/investing/2026/10/25/with-oil-prices-rising-bitcoin-just-dipped-below-8/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/24 07:35",
+        "publishedAt": "10/25 21:21",
         "score": 5
       },
       {
-        "title": "美 중간선거 후 이란 공습설에…유가 117달러 뚫었다",
+        "title": "트럼프發 중동전쟁 재점화 우려에…유가 117달러 돌파",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026102421587",
+        "url": "https://www.hankyung.com/article/2026102535241",
         "source": "hankyung.com",
-        "publishedAt": "10/24 07:21",
+        "publishedAt": "10/25 18:35",
         "score": 5
       },
       {
-        "title": "연료유가 아시아의 차세대 비용 충격이 되다",
-        "description": "싱가포르의 HSFO 크랙은 중동 및 러시아 공급 중단으로 인해 2월 $5 할인에서 10월 $10/bbl 이상으로 급등했습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/fuel-oil-becomes-asia-next-210000466.html?.tsrc=rss",
+        "title": "3 Oil Stocks Worth Watching As Brent Crude Tests $117",
+        "description": "Oil markets have snapped back into the spotlight after Brent crude hit about US$117 a barrel on fears of wider conflict around Iran, and that sudden p",
+        "url": "https://finance.yahoo.com/energy/articles/3-oil-stocks-worth-watching-051342089.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 06:00",
-        "score": 1
+        "publishedAt": "10/25 14:13",
+        "score": 5
+      },
+      {
+        "title": "Gold prices break $4,000 as investors brace for crucial test",
+        "description": "A familiar safe haven faces another uncomfortable question.",
+        "url": "https://www.thestreet.com/investing/gold-prices-4000-support-break?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/25 11:17",
+        "score": 5
       }
     ],
     "fx": [
       {
-        "title": "피터 쉬프(Peter Schiff)는 가격이 1월 고점에서 하락함에 따라 4000달러 부근의 금을 매수하고 2008년보다 더 심각한 통화 위기를 경고했다고 말했습니다.",
-        "description": "금리 상승은 금의 주요 역풍으로, 수익률이 높아지면 무이자 금속의 매력이 떨어진다고 쉬프는 말했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/peter-schiff-says-buy-gold-near-4000-as-prices-sink-from-january-high-warns-of-currency-crisis-worse-than-2008/cZUGZIZRBUi?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/24 20:46",
-        "score": 3
-      },
-      {
-        "title": "美 중간선거 후 이란 공습설에…유가 117달러 뚫었다",
+        "title": "환율·채권…'초강세' 원화, 1200원대 진입하나",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026102421587",
+        "url": "https://www.hankyung.com/article/2026102535301",
         "source": "hankyung.com",
-        "publishedAt": "10/24 07:21",
+        "publishedAt": "10/25 18:24",
+        "score": 5
+      },
+      {
+        "title": "국제유가 117달러 돌파…에너지값 급등에 연말 물가 '빨간불'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026102638807",
+        "source": "hankyung.com",
+        "publishedAt": "10/26 06:45",
         "score": 3
       },
       {
-        "title": "Stocktwits 주간 스프레드: 이번 주 국채 수익률과 달러의 모양",
-        "description": "인공지능 주식의 급격한 매도와 급증하는 신용 ​​위험 프리미엄으로 인해 투자자들은 안전으로 피하게 되었고 10년 만기 국채 수익률을 견인했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week-2/cZUGd6zRBUa?.tsrc=rss",
+        "title": "트럼프發 중동전쟁 재점화 우려에…유가 117달러 돌파",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026102535241",
+        "source": "hankyung.com",
+        "publishedAt": "10/25 18:35",
+        "score": 3
+      },
+      {
+        "title": "Palantir CEO Alex Karp says neurodivergent workers will thrive in the AI era. An autistic psychologist says he has a point",
+        "description": "Daniel Wendler, the psychologist, warned against putting neurodivergent people on a pedestal.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-alex-karp-says-080900524.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/24 10:00",
+        "publishedAt": "10/25 17:09",
+        "score": 3
+      },
+      {
+        "title": "Retirees Will Get a 3.6% Social Security Raise in 2027 After Getting 2.8% This Year. Here's the Dollar Difference.",
+        "description": "The amount of the upcoming COLA will benefit retirees, but not as much as many of them need it to.",
+        "url": "https://www.fool.com/retirement/2026/10/25/retirees-will-get-a-36-social-security-cola-raise/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 02:37",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Jim Cramer는 투자자들에게 Warren Buffett에 올인하지 말라고 경고합니다.",
-        "description": "투자의 전설도 이 익숙한 위험을 제거할 수는 없습니다.",
-        "url": "https://www.thestreet.com/investing/jim-cramer-berkshire-hathaway-inheritance?.tsrc=rss",
+        "title": "NuScale Power Trades Below $6 With the Only NRC-Certified Small Modular Reactor Design. Here's Why That Still Isn't Enough.",
+        "description": "NuScale has a competitive edge that is made dull by its legal troubles and lack of secured business.",
+        "url": "https://www.fool.com/investing/2026/10/25/nuscale-power-trades-below-6-with-the-only-nrc/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 06:47",
+        "publishedAt": "10/26 05:35",
         "score": 1
       },
       {
-        "title": "골드만삭스, 호르무즈 사태와 연료비 상승 경고",
-        "description": "은행은 석유 운송 비용이 7배나 더 비싸졌고 그 고통은 정유사와 유조선 재고로 확산되고 있다고 말했습니다.",
-        "url": "https://www.thestreet.com/investing/stocks/goldman-sachs-warns-on-the-hormuz-crisis-and-rising-fuel-costs?.tsrc=rss",
+        "title": "Bank of America warns of 2027 stock market risk few expect",
+        "description": "A historic boom now faces its hardest question.",
+        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-2027-ai-debt-risk?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 04:47",
+        "publishedAt": "10/26 01:47",
         "score": 1
       },
       {
-        "title": "AI 거래가 칩 주식에서 사이버 보안으로 이동하고 있습니다.",
-        "description": "AI 기술 투자 환경이 계속 변화함에 따라 소프트웨어 리더들은 이번 주에 큰 상승세를 보였고 칩 주식은 무너졌습니다.",
-        "url": "https://finance.yahoo.com/m/3ca16b67-0147-386a-a235-2de67164740d/the-ai-trade-is-shifting-from.html?.tsrc=rss",
+        "title": "Zero-Day Option Traders Are Betting Against Big S&P 500 Swings",
+        "description": "While some investors position for AI earnings, geopolitics and interest rates to send stocks either to new highs or into a tailspin, zero-day option t",
+        "url": "https://finance.yahoo.com/markets/options/articles/zero-day-option-traders-betting-140000009.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 00:44",
+        "publishedAt": "10/25 23:00",
         "score": 1
       },
       {
-        "title": "피터 쉬프(Peter Schiff)는 가격이 1월 고점에서 하락함에 따라 4000달러 부근의 금을 매수하고 2008년보다 더 심각한 통화 위기를 경고했다고 말했습니다.",
-        "description": "금리 상승은 금의 주요 역풍으로, 수익률이 높아지면 무이자 금속의 매력이 떨어진다고 쉬프는 말했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/peter-schiff-says-buy-gold-near-4000-as-prices-sink-from-january-high-warns-of-currency-crisis-worse-than-2008/cZUGZIZRBUi?.tsrc=rss",
+        "title": "Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Warren Buffett's Advice.",
+        "description": "The S&P 500 might be vulnerable to a 20% bear market decline, given the growing number of risks.",
+        "url": "https://www.fool.com/investing/2026/10/25/prediction-stock-market-crash-warren-buffett-advic/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/24 20:46",
+        "publishedAt": "10/25 22:54",
+        "score": 1
+      },
+      {
+        "title": "Allied Gold’s 2027 Outlook: Why an Ethiopian Mine Ramping Toward 300,000 Ounces a Year Could Change Everything",
+        "description": "This under-the-radar gold mining stock boasts a Superscore of 71 from our Hidden Gems Primary database, part of The Motley Fool's Moneyball Database s",
+        "url": "https://www.fool.com/coverage/moneyball/2026/10/25/allied-gold-s-2027-outlook-why-an-ethiopian-mine-ramping-toward-300-000-ounces-a-year-could-change-everything/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/25 22:20",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "OpenAI 모델이 허가 없이 이더리움을 소비했습니다. 이것이 암호화폐 투자자에게 의미하는 바는 다음과 같습니다.",
-        "description": "AI 에이전트와 관련된 사이버 보안은 이더리움을 더욱 가치있게 만들 수 있는 문제로 빠르게 대두되고 있습니다.",
-        "url": "https://www.fool.com/investing/2026/10/24/an-openai-model-spent-ethereum-without-permission/?.tsrc=rss",
+        "title": "빅테크 AI 투자 성적표…이젠 '확장'에서 '효율'로",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026102535271",
+        "source": "hankyung.com",
+        "publishedAt": "10/25 18:27",
+        "score": 7
+      },
+      {
+        "title": "Should You Ignore the SpaceX Hype and Buy Rocket Lab Instead?",
+        "description": "Rocket Lab has emerged as a top competitor to SpaceX in launch services.",
+        "url": "https://www.fool.com/investing/2026/10/24/should-you-ignore-the-spacex-hype-and-buy-rocket-l/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 06:26",
+        "publishedAt": "10/25 09:10",
+        "score": 7
+      },
+      {
+        "title": "Elon Musk Became the First Person Ever Confirmed With a Net Worth Above $1 Trillion in June 2026. Here's Why That Milestone Still Matters for Tesla and SpaceX Shareholders.",
+        "description": "Elon Musk's success is closely linked to that of his two biggest businesses.",
+        "url": "https://www.fool.com/investing/2026/10/25/elon-musk-became-the-first-person-ever-confirmed-w/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 05:20",
         "score": 6
       },
       {
-        "title": "TSMC 또는 Nvidia: 향후 5년 동안 1개만 소유할 수 있다면 이 1개를 선택할 것입니다.",
-        "description": "둘 다 잘못될 수는 없지만 활주로가 더 많은 것 같습니다.",
-        "url": "https://www.fool.com/investing/2026/10/24/tsmc-or-nvidia-if-i-could-only-own-1-for-the-next/?.tsrc=rss",
+        "title": "'The world's super company': Wall Street weighs SpaceX earnings, company's likely Tesla tie-up",
+        "description": "Wall Street is starting to size up the potential of a combined SpaceX and Tesla.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/the-worlds-super-company-wall-street-weighs-spacex-earnings-companys-likely-tesla-tie-up-173949705.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/24 13:20",
+        "publishedAt": "10/26 02:39",
         "score": 6
       },
       {
-        "title": "Palantir Technologies(PLTR) Sovereign AI 푸시는 투자자에게 무엇을 의미합니까?",
-        "description": "Palantir Technologies(NasdaqGS:PLTR)는 국방, 의료, 건설 및 제조 전반에 걸쳐 주요 고객을 위한 자체 AI 서비스를 확대했습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/does-palantir-technologies-pltr-sovereign-031717592.html?.tsrc=rss",
+        "title": "Rocket Lab Is Playing a Much Bigger Game Than Rocket Launches",
+        "description": "Rocket Lab's stock has cratered nearly 30% in a month, yet its backlog just surged 137% year over year and analysts see over 100% upside from here. Th",
+        "url": "https://247wallst.com/investing/2026/10/25/rocket-lab-is-playing-a-much-bigger-game-than-rocket-launches/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/24 12:17",
-        "score": 5
-      },
-      {
-        "title": "Elon Musk는 Nvidia 투자자들에게 환상적인 소식을 전했습니다.",
-        "description": "새로운 SpaceX SI 데이터 센터 클러스터는 Nvidia Vera Rubin 컴퓨터에서 실행될 예정입니다.",
-        "url": "https://www.fool.com/investing/2026/10/24/elon-musk-gave-great-news-for-nvidia-investors/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/25 05:37",
-        "score": 3
-      },
-      {
-        "title": "주식 시장 붕괴에 대한 퍼즐 조각이 구체화되고 있으며, 역사적으로 완벽한 4가지 지표가 이제 경보를 울리고 있습니다.",
-        "description": "강세장은 무한정 지속되지 않습니다.",
-        "url": "https://www.fool.com/investing/2026/10/24/puzzle-pieces-for-stock-market-crash-taking-shape-4-historically-flawless-indicators-sound-alarm/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/24 22:26",
-        "score": 3
+        "publishedAt": "10/26 01:00",
+        "score": 6
       }
     ]
   }
