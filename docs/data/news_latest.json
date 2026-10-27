@@ -1,292 +1,299 @@
 {
-  "generated_at_kst": "2026-10-26 09:31 KST",
-  "period": "10/25 07:00 ~ 10/26 07:00 KST",
+  "generated_at_kst": "2026-10-27 10:33 KST",
+  "period": "10/26 07:00 ~ 10/27 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Warren Buffett's Advice.",
-        "description": "The S&P 500 might be vulnerable to a 20% bear market decline, given the growing number of risks.",
-        "url": "https://www.fool.com/investing/2026/10/25/prediction-stock-market-crash-warren-buffett-advic/?.tsrc=rss",
+        "title": "오늘, 10월 26일 주식 시장: 기술주 반등으로 AI 낙관주의가 나스닥 상승",
+        "description": "2026년 10월 26일 Anthropic의 IPO 신청은 기술 랠리를 촉발시켰고 Meta의 950억 달러 규모의 AI 인프라 계획은 정서를 압박했습니다.",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/26/stock-market-today-oct-26-ai-optimism-lifts-nasdaq-as-tech-stocks-rebound/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 22:54",
-        "score": 10
+        "publishedAt": "10/27 06:50",
+        "score": 9
       },
       {
-        "title": "Realty Income Yields More Than Quintuple the S&P 500. Here's What a $10,000 Investment Produces in Yearly Dividends.",
-        "description": "This monthly dividend stock has a more than 30-year track record of annual dividend hikes.",
-        "url": "https://www.fool.com/investing/2026/10/25/realty-income-yields-more-than-quintuple-the-sp-50/?.tsrc=rss",
+        "title": "브라질 주식시장은 룰라의 당황한 승리로 붕괴됐다",
+        "description": "iShares Brazil ETF는 Lula da Silva가 Flávio Bolsonaro를 꺾은 후 26%나 하락했습니다. Flávio Bolsonaro는 시장 예측률이 80%에 달했고 달러 가치는 뮤만큼 급등했습니다.",
+        "url": "https://decrypt.co/381828/brazil-stock-market-crashes-lula-upset-victory?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/26 03:31",
-        "score": 6
+        "publishedAt": "10/27 01:04",
+        "score": 9
       },
       {
-        "title": "3 Dividend ETFs With Over $10 Billion Each Pay Up to 3.31% and Beat the S&P 500 Over the Past Year",
-        "description": "Three giant dividend ETFs each cleared a benchmark most yield-focused funds struggle to touch, yet their five-year records tell a starkly different st",
-        "url": "https://247wallst.com/investing/etf/2026/10/25/3-dividend-etfs-with-over-10-billion-each-pay-up-to-3-31-and-beat-the-sp-500-over-the-past-year/?.tsrc=rss",
+        "title": "나스닥 IPO를 위한 인류학 파일 및 AI에 돈을 투자할 곳",
+        "description": "Market Hang의 이번 에피소드에서는 Laffer Tengler Investments의 CEO이자 CIO인 Nancy Tengler와 그녀의 전문가 패널이 Anthropic(ANTH.PVT) 신청에 대해 논의합니다.",
+        "url": "https://finance.yahoo.com/video/anthropic-files-for-nasdaq-ipo-and-where-to-put-your-money-in-ai-174542985.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/26 05:33",
-        "score": 5
+        "publishedAt": "10/27 02:45",
+        "score": 8
       },
       {
-        "title": "Up 35%, How Long Can Coca-Cola Continue Crushing the S&P 500?",
-        "description": "Coca-Cola has had its best year since 1996.",
-        "url": "https://www.fool.com/investing/2026/10/25/up-35-how-long-can-coca-cola-continue-crushing-the/?.tsrc=rss",
+        "title": "업데이트: Anthropic의 IPO 신청 이후 미국 주식 지수가 상승하고 원유 가격이 하락했습니다.",
+        "description": "(1년차부터 지수/가격 움직임, 거시경제 데이터, 기업/지정학적 뉴스 업데이트)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-advance-following-210440863.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/26 00:40",
-        "score": 5
+        "publishedAt": "10/27 06:04",
+        "score": 7
       },
       {
-        "title": "Zero-Day Option Traders Are Betting Against Big S&P 500 Swings",
-        "description": "While some investors position for AI earnings, geopolitics and interest rates to send stocks either to new highs or into a tailspin, zero-day option t",
-        "url": "https://finance.yahoo.com/markets/options/articles/zero-day-option-traders-betting-140000009.html?.tsrc=rss",
+        "title": "미국 주식 시장은 인류가 IPO를 신청한 후 기술주가 상승하면서 상승 마감했습니다.",
+        "description": "미국 주식 지수는 Anthropic 이후 기술주가 광범위한 시장 랠리를 이끌면서 월요일 상승세로 마감했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-202319181.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 23:00",
-        "score": 5
+        "publishedAt": "10/27 05:23",
+        "score": 7
       }
     ],
     "kr_market": [
       {
-        "title": "Goldman Sachs Cuts Its Price Target for South Korea’s KOSPI",
-        "description": "Goldman Sachs cut its KOSPI target to 9,000 and estimates chip valuations imply a 65% earnings drop, days before Samsung and SK Hynix report.",
-        "url": "https://beincrypto.com/goldman-sachs-cuts-kospi-target/?.tsrc=rss",
+        "title": "BABA, BIDU, SKHY에 초점: Morgan Stanley는 중국 주식의 더 많은 하락세를 보고 Goldman Sachs는 KOSPI 목표를 인하했습니다.",
+        "description": "Morgan Stanley가 중국의 가치 평가 위험을 지적하고 Goldman Sachs가 한국의 수익 전망에 대해 신중한 입장을 취함에 따라 아시아 시장은 새로운 역풍에 직면했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/baba-bidu-skhy-in-focus-morgan-stanley-sees-more-downside-in-chinese-stocks-goldman-sachs-cuts-kospi-target/cZUdpMVRByP?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/26 04:08",
-        "score": 6
+        "publishedAt": "10/26 14:43",
+        "score": 5
       },
       {
-        "title": "삼성전자, 실리콘밸리 본사 2배 넓혔다",
+        "title": "SK하이닉스, AI 랠리 냉각으로 미국서 레버리지 펀드 상장 폐지",
+        "description": "SK 하이닉스와 연계된 2개의 레버리지 상장지수펀드는 예술에 대한 투자자들의 욕구로 인해 미국에서 데뷔한 지 불과 몇 달 만에 청산될 예정입니다.",
+        "url": "https://finance.yahoo.com/markets/options/articles/sk-hynix-leveraged-funds-delisted-043304312.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 13:33",
+        "score": 5
+      },
+      {
+        "title": "셀트리온, 1000억원 규모 자사주 추가 매입 … 올해 누적 5000억원",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026102534761",
+        "url": "https://www.hankyung.com/article/202610265201i",
         "source": "hankyung.com",
-        "publishedAt": "10/25 18:32",
-        "score": 5
-      },
-      {
-        "title": "Goldman Sachs cuts Kospi target by 25% amid AI stock selloff",
-        "description": "Investing.com -- Goldman Sachs has cut its 12-month target for South Korea’s Kospi Index by 25%, citing mounting concerns over artificial intelligence",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/goldman-sachs-cuts-kospi-target-092052012.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/25 18:20",
-        "score": 5
-      },
-      {
-        "title": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels",
-        "description": "Goldman Sachs Group Inc. strategists slashed their target for South Korea’s Kospi Index by 25%, after raising it repeatedly this year, as concerns ove",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-cuts-kospi-12-month-074443032.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/25 16:44",
-        "score": 5
-      },
-      {
-        "title": "가상자산 거래대금, 반년 새 44% 뚝",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102535481",
-        "source": "hankyung.com",
-        "publishedAt": "10/25 18:42",
+        "publishedAt": "10/26 13:59",
         "score": 3
+      },
+      {
+        "title": "\"데이터센터 멈출 수도\"…초대형 상장 앞둔 앤트로픽의 경고",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610276399i",
+        "source": "hankyung.com",
+        "publishedAt": "10/27 04:31",
+        "score": 1
+      },
+      {
+        "title": "Palantir의 빠르게 판매되는 $170 윈드브레이커, 한국의 매력을 보여줍니다.",
+        "description": "Palantir Technologies Inc.는 정부와 기업에 데이터 분석을 판매하는 데 수년을 보냈습니다. 한국에서는 170달러짜리 윈드브레이커도 판매되고 있습니다.",
+        "url": "https://finance.yahoo.com/technology/articles/palantir-fast-selling-170-windbreaker-071019945.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 16:10",
+        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "뉴욕·상하이 증시, 美 기준금리 발표…워시 입에 쏠린 눈",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102535311",
-        "source": "hankyung.com",
-        "publishedAt": "10/25 18:23",
+        "title": "미국 달러는 월요일 초반 상승, 이번 주 FOMC 회의 초점",
+        "description": "시장이 관심을 집중함에 따라 미국 달러는 월요일 오전 주요 거래 상대국 대비 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-monday-114351719.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 20:43",
         "score": 5
       },
       {
-        "title": "국제유가 117달러 돌파…에너지값 급등에 연말 물가 '빨간불'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102638807",
-        "source": "hankyung.com",
-        "publishedAt": "10/26 06:45",
+        "title": "캐나다 달러는 매파적인 중앙 은행에도 불구하고 미국 무역 전쟁 역풍에 직면하고 있다고 Commerzbank는 말합니다.",
+        "description": "캐나다 달러화는 올해에도 계속해서 G10 달러 대비 저조한 성과를 보이고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-faces-us-trade-115132064.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 20:51",
         "score": 3
       },
       {
-        "title": "Gold market and central banks: Russia, Kazakhstan sell as Poland, China buy",
-        "description": "Russia and Kazakhstan are offloading some central-bank gold, while Poland's is buying more. What does this reshuffle mean for individual gold investor",
-        "url": "https://www.euronews.com/2026/10/25/gold-market-and-central-banks-russia-kazakhstan-sell-as-poland-china-buy?.tsrc=rss",
+        "title": "주요 중앙은행 결정에 앞서 유로화가 하락함에 따라 달러는 반등했습니다.",
+        "description": "Investing.com - 투자자들이 지정학적 리스크와 유가 완화를 고려하고 한 주 동안의 주요 경제 상황을 준비함에 따라 월요일 달러는 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-muted-yuan-4-051336245.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 15:58",
+        "publishedAt": "10/26 14:13",
         "score": 3
-      }
-    ],
-    "bonds": [
+      },
       {
-        "title": "환율·채권…'초강세' 원화, 1200원대 진입하나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102535301",
-        "source": "hankyung.com",
-        "publishedAt": "10/25 18:24",
+        "title": "칩 제조업체들이 후퇴함에 따라 아시아 주식은 하락했습니다. 실적, 중앙 은행 회의가 다가옴",
+        "description": "Investing.com-- AI 지출의 지속 가능성에 대한 우려가 반도체 주식을 짓누르면서 월요일 아시아 증시는 하락세를 보였으며, 투자자들은 이에 대비했습니다.",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-slip-chipmakers-retreat-044532791.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 13:45",
         "score": 3
+      },
+      {
+        "title": "달러는 긍정적인 미국 경제 보고서에 1주 최고치를 기록했습니다.",
+        "description": "달러 지수(DXY00)는 +0.17% 상승했으며, 오늘의 1주 최고치 이후 일부 기술적 매수세가 나타났습니다. 달러는 오늘에도 불구하고 더 높게 거래되고 있습니다",
+        "url": "https://www.barchart.com/story/news/8456112/dollar-posts-1-week-high-on-positive-us-economic-reports?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/27 00:19",
+        "score": 1
       }
     ],
+    "bonds": [],
     "commodities": [
       {
-        "title": "국제유가 117달러 돌파…에너지값 급등에 연말 물가 '빨간불'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102638807",
-        "source": "hankyung.com",
-        "publishedAt": "10/26 06:45",
-        "score": 6
-      },
-      {
-        "title": "With Oil Prices Rising, Bitcoin Remains Stuck Below $85,000. Here's Why I'm Still Buying Bitcoin Right Now.",
-        "description": "If history is any guide, pain at the pump should not result in pain for Bitcoin investors.",
-        "url": "https://www.fool.com/investing/2026/10/25/with-oil-prices-rising-bitcoin-just-dipped-below-8/?.tsrc=rss",
+        "title": "업데이트: Anthropic의 IPO 신청 이후 미국 주식 지수가 상승하고 원유 가격이 하락했습니다.",
+        "description": "(1년차부터 지수/가격 움직임, 거시경제 데이터, 기업/지정학적 뉴스 업데이트)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-advance-following-210440863.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 21:21",
+        "publishedAt": "10/27 06:04",
         "score": 5
       },
       {
-        "title": "트럼프發 중동전쟁 재점화 우려에…유가 117달러 돌파",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102535241",
-        "source": "hankyung.com",
-        "publishedAt": "10/25 18:35",
-        "score": 5
-      },
-      {
-        "title": "3 Oil Stocks Worth Watching As Brent Crude Tests $117",
-        "description": "Oil markets have snapped back into the spotlight after Brent crude hit about US$117 a barrel on fears of wider conflict around Iran, and that sudden p",
-        "url": "https://finance.yahoo.com/energy/articles/3-oil-stocks-worth-watching-051342089.html?.tsrc=rss",
+        "title": "블룸 에너지는 실적 후 매도세가 반전되면서 7% 상승합니다. FuelCell 6% 상승, 플러그 전력 엣지 상승",
+        "description": "Bloom Energy의 폭발적인 분기로 인해 주가는 높아지는 대신 급격하게 낮아졌으며 이제 구매자들이 다시 몰려들고 있습니다. 반등이 유지되는지 여부는",
+        "url": "https://247wallst.com/investing/2026/10/26/bloom-energy-jumps-7-as-post-earnings-selloff-reverses-fuelcell-rises-6-plug-power-edges-higher/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 14:13",
-        "score": 5
+        "publishedAt": "10/27 00:53",
+        "score": 4
       },
       {
-        "title": "Gold prices break $4,000 as investors brace for crucial test",
-        "description": "A familiar safe haven faces another uncomfortable question.",
-        "url": "https://www.thestreet.com/investing/gold-prices-4000-support-break?.tsrc=rss",
+        "title": "Western Copper and Gold, 리더십 전환 발표",
+        "description": "브리티시컬럼비아주 밴쿠버--(Newsfile Corp. - 2026년 10월 26일) - Western Copper and Gold Corporation(TSX: WRN)(NYSE American: WRN)(\"Western\" 또는 t",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/western-copper-gold-announces-leadership-210000677.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 11:17",
-        "score": 5
+        "publishedAt": "10/27 06:00",
+        "score": 3
+      },
+      {
+        "title": "CopperCorp, Skyline Copper-Gold 프로젝트 매각 발표",
+        "description": "브리티시컬럼비아주 밴쿠버--(Newsfile Corp. - 2026년 10월 26일) - CopperCorp Resources Inc.(TSXV: CPER)(OTCQB: CPCPF)(\"CopperCorp\" 또는 \"회사\")",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/coppercorp-announces-sale-skyline-copper-181600281.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/27 03:16",
+        "score": 3
+      },
+      {
+        "title": "부문 업데이트: 에너지 주식은 월요일 프리마켓 하락",
+        "description": "에너지 주식은 월요일 State Street Energy Select Sector SPDR ETF(XL)로 인해 시판 전 하락세를 보였습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-132735348.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 22:27",
+        "score": 3
       }
     ],
     "fx": [
       {
-        "title": "환율·채권…'초강세' 원화, 1200원대 진입하나",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102535301",
-        "source": "hankyung.com",
-        "publishedAt": "10/25 18:24",
-        "score": 5
-      },
-      {
-        "title": "국제유가 117달러 돌파…에너지값 급등에 연말 물가 '빨간불'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102638807",
-        "source": "hankyung.com",
-        "publishedAt": "10/26 06:45",
-        "score": 3
-      },
-      {
-        "title": "트럼프發 중동전쟁 재점화 우려에…유가 117달러 돌파",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102535241",
-        "source": "hankyung.com",
-        "publishedAt": "10/25 18:35",
-        "score": 3
-      },
-      {
-        "title": "Palantir CEO Alex Karp says neurodivergent workers will thrive in the AI era. An autistic psychologist says he has a point",
-        "description": "Daniel Wendler, the psychologist, warned against putting neurodivergent people on a pedestal.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-alex-karp-says-080900524.html?.tsrc=rss",
+        "title": "워렌 버핏은 최종 회의에서 CEO가 '지옥에 갈' 통화로 어떤 것도 소유하고 싶지 않다고 말하면서 걱정했습니다. 그가 걱정하는 것은 미국 달러입니다.",
+        "description": "세계에서 가장 유명한 투자자가 자신이 별로 신뢰하지 않는 주식을 보는 것처럼 달러에 주목한다고 상상해 보십시오. 그것이 바로 일어난 일입니다. “분명히 와",
+        "url": "https://finance.yahoo.com/economy/policy/articles/warren-buffett-final-meeting-ceo-131509394.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 17:09",
-        "score": 3
+        "publishedAt": "10/26 22:15",
+        "score": 4
       },
       {
-        "title": "Retirees Will Get a 3.6% Social Security Raise in 2027 After Getting 2.8% This Year. Here's the Dollar Difference.",
-        "description": "The amount of the upcoming COLA will benefit retirees, but not as much as many of them need it to.",
-        "url": "https://www.fool.com/retirement/2026/10/25/retirees-will-get-a-36-social-security-cola-raise/?.tsrc=rss",
+        "title": "주요 중앙은행 결정에 앞서 유로화가 하락함에 따라 달러는 반등했습니다.",
+        "description": "Investing.com - 투자자들이 지정학적 리스크와 유가 완화를 고려하고 한 주 동안의 주요 경제 상황을 준비함에 따라 월요일 달러는 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-muted-yuan-4-051336245.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/26 02:37",
+        "publishedAt": "10/26 14:13",
+        "score": 4
+      },
+      {
+        "title": "달러는 긍정적인 미국 경제 보고서에 1주 최고치를 기록했습니다.",
+        "description": "달러 지수(DXY00)는 +0.17% 상승했으며, 오늘의 1주 최고치 이후 일부 기술적 매수세가 나타났습니다. 달러는 오늘에도 불구하고 더 높게 거래되고 있습니다",
+        "url": "https://www.barchart.com/story/news/8456112/dollar-posts-1-week-high-on-positive-us-economic-reports?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/27 00:19",
+        "score": 1
+      },
+      {
+        "title": "캐나다 달러는 매파적인 중앙 은행에도 불구하고 미국 무역 전쟁 역풍에 직면하고 있다고 Commerzbank는 말합니다.",
+        "description": "캐나다 달러화는 올해에도 계속해서 G10 달러 대비 저조한 성과를 보이고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-faces-us-trade-115132064.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 20:51",
+        "score": 1
+      },
+      {
+        "title": "미국 달러는 월요일 초반 상승, 이번 주 FOMC 회의 초점",
+        "description": "시장이 관심을 집중함에 따라 미국 달러는 월요일 오전 주요 거래 상대국 대비 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-monday-114351719.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 20:43",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "NuScale Power Trades Below $6 With the Only NRC-Certified Small Modular Reactor Design. Here's Why That Still Isn't Enough.",
-        "description": "NuScale has a competitive edge that is made dull by its legal troubles and lack of secured business.",
-        "url": "https://www.fool.com/investing/2026/10/25/nuscale-power-trades-below-6-with-the-only-nrc/?.tsrc=rss",
+        "title": "캐나다 달러는 매파적인 중앙 은행에도 불구하고 미국 무역 전쟁 역풍에 직면하고 있다고 Commerzbank는 말합니다.",
+        "description": "캐나다 달러화는 올해에도 계속해서 G10 달러 대비 저조한 성과를 보이고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-faces-us-trade-115132064.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/26 05:35",
+        "publishedAt": "10/26 20:51",
+        "score": 7
+      },
+      {
+        "title": "AHG 회장은 지정학적 긴장이 금 강세 사건을 복잡하게 만든다고 말했습니다.",
+        "description": "Investing.com -- 중동 지역의 지정학적 긴장으로 인해 중앙은행의 금 매입이 계속해서 금 전망을 뒷받침하고 있음에도 불구하고 금 전망이 복잡해지고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/geopolitical-tensions-complicate-gold-bull-182438839.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/27 03:24",
+        "score": 3
+      },
+      {
+        "title": "Perpetua Resources는 미국 국방을 위한 국내 텅스텐 공급을 발전시키기 위해 미 육군 자금으로 최대 4천만 달러를 지원 받았습니다.",
+        "description": "Perpetual Resources Corp. Perpetua Resources(나스닥:PPTA)(TSX:PPTA)는 오늘 새로운 36개월 4천만 달러 배당금을 발표했습니다.",
+        "url": "https://finance.yahoo.com/news/perpetua-resources-awarded-40-million-214500543.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/27 06:45",
         "score": 1
       },
       {
-        "title": "Bank of America warns of 2027 stock market risk few expect",
-        "description": "A historic boom now faces its hardest question.",
-        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-2027-ai-debt-risk?.tsrc=rss",
+        "title": "Burke Wealth, AI 소프트웨어 성장이 가속화됨에 따라 Palantir(PLTR)에서 새로운 직위 개시",
+        "description": "투자 관리 회사인 Burke Wealth Management는 \"집중 성장 전략\" 2026년 3분기 투자자 서한을 발표했습니다. 편지 사본은 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/burke-wealth-initiates-position-palantir-173050006.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/26 01:47",
+        "publishedAt": "10/27 02:30",
         "score": 1
       },
       {
-        "title": "Zero-Day Option Traders Are Betting Against Big S&P 500 Swings",
-        "description": "While some investors position for AI earnings, geopolitics and interest rates to send stocks either to new highs or into a tailspin, zero-day option t",
-        "url": "https://finance.yahoo.com/markets/options/articles/zero-day-option-traders-betting-140000009.html?.tsrc=rss",
+        "title": "머스크가 네오클라우드 '구피 수준의 죽음'을 경고함에 따라 CoreWeave는 5% 하락합니다. IREN 슬라이드 3%, Nebius 슬립 2%",
+        "description": "엘론 머스크(Elon Musk)는 부채로 자금을 조달한 AI 클라우드 회사에 경고를 퍼부으며 이를 구피 수준의 죽음의 영역이라고 불렀고, 그에 따른 매각으로 네오클라우드가 분열되었습니다.",
+        "url": "https://247wallst.com/investing/2026/10/26/coreweave-drops-5-as-musk-warns-of-neocloud-guppy-level-death-iren-slides-3-nebius-slips-2/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 23:00",
-        "score": 1
-      },
-      {
-        "title": "Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Warren Buffett's Advice.",
-        "description": "The S&P 500 might be vulnerable to a 20% bear market decline, given the growing number of risks.",
-        "url": "https://www.fool.com/investing/2026/10/25/prediction-stock-market-crash-warren-buffett-advic/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/25 22:54",
-        "score": 1
-      },
-      {
-        "title": "Allied Gold’s 2027 Outlook: Why an Ethiopian Mine Ramping Toward 300,000 Ounces a Year Could Change Everything",
-        "description": "This under-the-radar gold mining stock boasts a Superscore of 71 from our Hidden Gems Primary database, part of The Motley Fool's Moneyball Database s",
-        "url": "https://www.fool.com/coverage/moneyball/2026/10/25/allied-gold-s-2027-outlook-why-an-ethiopian-mine-ramping-toward-300-000-ounces-a-year-could-change-everything/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/25 22:20",
+        "publishedAt": "10/26 22:18",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "빅테크 AI 투자 성적표…이젠 '확장'에서 '효율'로",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026102535271",
-        "source": "hankyung.com",
-        "publishedAt": "10/25 18:27",
+        "title": "글로벌 플립칩 기술 시장 보고서 2026: 규모, 점유율, 추세 및 2030년 예측 | TSMC, Intel, Samsung, AMD 및 Amkor를 통해 AI, 5G 및 3D 패키징 활용",
+        "description": "수율, 신뢰성 및 효율성을 높이는 수용성 플럭스로 ROI를 높입니다. 첨단 패키징 확대를 위한 표면처리 역량 확보",
+        "url": "https://finance.yahoo.com/technology/articles/global-flip-chip-technology-market-142300958.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 23:23",
+        "score": 12
+      },
+      {
+        "title": "맞춤형 시스템 온 칩 애플리케이션별 집적 회로(ASIC) 시장 글로벌 보고서 2026 | NVIDIA, Qualcomm, Broadcom 및 TSMC를 통해 AI 및 5G 수요 활용",
+        "description": "SoC 설계 자동화, 검증된 IP 재사용, 개발 시간 및 비용 절감, AI/5G 타겟팅, 고속 연결 확보를 통해 ROI 향상",
+        "url": "https://finance.yahoo.com/technology/articles/custom-system-chip-application-specific-142600333.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/26 23:26",
+        "score": 11
+      },
+      {
+        "title": "비AI 투자를 위한 선택: 의료, 우주, 인구 노령화",
+        "description": "Laffer Tengler Investments의 CEO 겸 CIO인 Nancy Tengler와 그녀의 전문가 패널은 AI 대신 공간, 우주 공간에 돈을 투자할 위치에 대해 의견을 나눴습니다.",
+        "url": "https://finance.yahoo.com/video/the-picks-for-non-ai-investments-healthcare-space-and-aging-populations-181557537.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/27 03:15",
         "score": 7
       },
       {
-        "title": "Should You Ignore the SpaceX Hype and Buy Rocket Lab Instead?",
-        "description": "Rocket Lab has emerged as a top competitor to SpaceX in launch services.",
-        "url": "https://www.fool.com/investing/2026/10/24/should-you-ignore-the-spacex-hype-and-buy-rocket-l/?.tsrc=rss",
+        "title": "인텔과 TSMC는 칩 제조 패권을 위해 경쟁하고 있습니다. 1 우수한 가치를 제공합니다.",
+        "description": "시장은 이미 인텔을 승자로 선언했습니다.",
+        "url": "https://www.fool.com/investing/2026/10/26/intel-tsmc-vying-for-chip-fabrication-supremacy/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/25 09:10",
+        "publishedAt": "10/27 00:05",
         "score": 7
       },
       {
-        "title": "Elon Musk Became the First Person Ever Confirmed With a Net Worth Above $1 Trillion in June 2026. Here's Why That Milestone Still Matters for Tesla and SpaceX Shareholders.",
-        "description": "Elon Musk's success is closely linked to that of his two biggest businesses.",
-        "url": "https://www.fool.com/investing/2026/10/25/elon-musk-became-the-first-person-ever-confirmed-w/?.tsrc=rss",
+        "title": "미국 주식 시장은 인류가 IPO를 신청한 후 기술주가 상승하면서 상승 마감했습니다.",
+        "description": "미국 주식 지수는 Anthropic 이후 기술주가 광범위한 시장 랠리를 이끌면서 월요일 상승세로 마감했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-202319181.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/26 05:20",
-        "score": 6
-      },
-      {
-        "title": "'The world's super company': Wall Street weighs SpaceX earnings, company's likely Tesla tie-up",
-        "description": "Wall Street is starting to size up the potential of a combined SpaceX and Tesla.",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-worlds-super-company-wall-street-weighs-spacex-earnings-companys-likely-tesla-tie-up-173949705.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/26 02:39",
-        "score": 6
-      },
-      {
-        "title": "Rocket Lab Is Playing a Much Bigger Game Than Rocket Launches",
-        "description": "Rocket Lab's stock has cratered nearly 30% in a month, yet its backlog just surged 137% year over year and analysts see over 100% upside from here. Th",
-        "url": "https://247wallst.com/investing/2026/10/25/rocket-lab-is-playing-a-much-bigger-game-than-rocket-launches/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/26 01:00",
+        "publishedAt": "10/27 05:23",
         "score": 6
       }
     ]
