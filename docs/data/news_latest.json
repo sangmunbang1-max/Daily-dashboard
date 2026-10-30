@@ -1,293 +1,309 @@
 {
-  "generated_at_kst": "2026-10-29 10:53 KST",
-  "period": "10/28 07:00 ~ 10/29 07:00 KST",
+  "generated_at_kst": "2026-10-30 11:04 KST",
+  "period": "10/29 07:00 ~ 10/30 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "투자자들이 10월 연준의 결정을 주시하면서 S&P 500, Nasdaq은 칩 제조업체의 강세를 보이고 있습니다 — ORCL, HOOD, JBLU, RIVN, SMCI 집중",
-        "description": "연준의 10월 통화정책 회의 발표는 수요일에 예정되어 있다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-jump-on-chipmaker-strength-as-investors-eye-october-fed-decision/cZUe8u8RB6G?.tsrc=rss",
+        "title": "Stock Market Today: Nasdaq Breaks Streak On Alphabet's $500B Drop; Amazon Earnings Next",
+        "description": "The Nasdaq sells off Thursday after a key inflation reading and GDP. Alphabet stock plunges on earnings.",
+        "url": "https://finance.yahoo.com/m/4da37b6f-4b10-3831-ae14-fde89c3f573b/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/28 08:45",
-        "score": 11
-      },
-      {
-        "title": "주식시장: 오늘 S&P 500이 상승할 것인가, 하락할 것인가?",
-        "description": "월스트리트가 연준의 최신 금리를 발표하는 기념비적인 세션을 준비하면서 미국 주식 선물은 수요일 오전 혼조세를 보이고 있습니다.",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62643298/stock-market-will-sp-500-open-up-or-down-today-67?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/28 14:36",
+        "publishedAt": "10/30 05:45",
         "score": 9
       },
       {
-        "title": "미국 연준 금리 발표를 앞두고 수요일 상장지수펀드 상승, 주식 선물 혼합",
-        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.2% 상승했고 적극적으로 거래되었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125522610.html?.tsrc=rss",
+        "title": "Micron Shares Fall 2.6% as Samsung Earnings Miss Forecasts Despite Record Chip Profits",
+        "description": "Micron Technology (NASDAQ:MU) shares declined 2. 6% after Samsung Electronics (USOTC:SSNHZ) reported fourth-quarter earnings below analysts’ expectati",
+        "url": "https://investorshub.advfn.com/market-news/article/38895/micron-shares-fall-2-6-as-samsung-earnings-miss-forecasts-despite-record-chip-profits?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/28 21:55",
-        "score": 8
-      },
-      {
-        "title": "TSX 마감: 캐나다 은행 금리 인상에 따른 기술, 에너지 관련 주가 상승으로 지수가 상승 마감",
-        "description": "수요일 S&P/TSX 종합지수는 기술, 에너지 및 기타 부문의 상승에 힘입어 상승세를 보였습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/tsx-closer-index-closes-higher-201457334.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/29 05:14",
-        "score": 7
-      },
-      {
-        "title": "AI 없는 주식은 이번 달 S&P 500을 6포인트 앞섰습니다.",
-        "description": "10월에는 특이한 일이 일어났습니다. AI와 가장 거리가 먼 시장 부분이 급등한 반면 메가캡 기술은 정체되었으며 이제 기록적인 격차가 발생했습니다.",
-        "url": "https://247wallst.com/investing/2026/10/28/stocks-without-ai-are-beating-the-sp-500-by-6-points-this-month/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/28 21:37",
+        "publishedAt": "10/30 00:01",
         "score": 6
+      },
+      {
+        "title": "Gold Prices Fall to $4,038 as Investors Await US Inflation Data Following Fed Rate Decision",
+        "description": "Gold prices declined on Thursday after the Federal Reserve maintained interest rates at their current level without providing a clear indication of it",
+        "url": "https://investorshub.advfn.com/market-news/article/38858/gold-prices-fall-to-4038-as-investors-await-us-inflation-data-following-fed-rate-decision?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 20:36",
+        "score": 6
+      },
+      {
+        "title": "Norwegian Surges 11% as Earnings Beat Lifts Full-Year Outlook; Royal Caribbean Rises 3%, Carnival Edges Higher",
+        "description": "Norwegian Cruise Line just posted a quarter that surprised Wall Street and sent its stock surging, but the company still lags far behind its rivals an",
+        "url": "https://247wallst.com/investing/2026/10/29/norwegian-surges-11-as-earnings-beat-lifts-full-year-outlook-royal-caribbean-rises-3-carnival-edges-higher/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 23:07",
+        "score": 5
+      },
+      {
+        "title": "Dow Jones Futures Fall; Microsoft Rises, But Google, ServiceNow, Fortinet Dive On Earnings",
+        "description": "After the stock market rose for a third day, Microsoft rose late on strong earnings. But Google, ServiceNow and Fortinet dived.",
+        "url": "https://finance.yahoo.com/m/6c0b166b-19af-3d40-b6ff-7c6d65d3c4da/dow-jones-futures-fall%3B.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 21:14",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "SK 하이닉스와 삼성 주식이 AI 부채 우려를 완화함에 따라 코스피 급등",
-        "description": "한국 코스피는 수요일 6.63% 급등하며 맹렬한 상승세를 보이며 10월 13일 이후 최고치를 기록했다.",
-        "url": "https://finance.yahoo.com/m/fbf578c3-1956-36c6-95e4-979b12760f79/kospi-surges-as-sk-hynix-and.html?.tsrc=rss",
+        "title": "What Could Samsung Electronics (KOSE:A005930) AI Push Mean For Its Growth Story?",
+        "description": "Samsung Electronics (KOSE:A005930) has partnered with French AI startup Mistral AI to deploy advanced AI across its semiconductor operations. The grou",
+        "url": "https://finance.yahoo.com/technology/ai/articles/could-samsung-electronics-kose-a005930-211112904.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/28 19:32",
-        "score": 10
-      },
-      {
-        "title": "크레이머는 마이크론 주식이 한국에서 SK 하이닉스가 하는 일을 모두 하고 있으며 그것을 싫어한다고 말했습니다.",
-        "description": "짐 크레이머(Jim Cramer)는 마이크론이 한국에서 SK 하이닉스와 함께 움직이며 그 연결이 사라지기를 원한다고 말했습니다. 최근 매도세는 그들이 얼마나 밀접하게 추적하는지를 보여줍니다.",
-        "url": "https://beincrypto.com/cramer-micron-sk-hynix-korea-link/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/28 10:39",
-        "score": 6
-      },
-      {
-        "title": "Micron, SK Hynix, Google, Microsoft, Vertiv, Wendy's, Enphase 및 오늘날 시장을 설명하는 기타 주식",
-        "description": "Vertiv는 회사가 연간 지침을 상향 조정한 후 수요일 S&P 500에서 가장 실적이 좋은 주식입니다.",
-        "url": "https://finance.yahoo.com/m/c5c23db3-d508-3c1f-bab0-6408a09c4739/micron%2C-sk-hynix%2C-google%2C.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/29 06:28",
+        "publishedAt": "10/30 06:11",
         "score": 5
       },
       {
-        "title": "라이벌 SK 하이닉스가 두 가지 폭탄으로 AI 열풍을 일으키면서 마이크론 주가 상승",
-        "description": "SK하이닉스의 실적이 메모리칩 기업에 대한 열정을 불러일으키면서 마이크론 주가가 상승했습니다.",
-        "url": "https://finance.yahoo.com/m/5116bf4a-8597-32af-92c7-157ac51f5e89/micron-stock-advances-as.html?.tsrc=rss",
+        "title": "Sandisk and Micron Slide 5% as Samsung Miss Cools Memory Rally Ahead of Sandisk Earnings; SK Hynix Falls 3%, Western Digital Dips",
+        "description": "Samsung's profit miss just knocked the wind out of a memory rally that had bulls excited, and now Sandisk heads into its own earnings report with the",
+        "url": "https://247wallst.com/investing/2026/10/29/sandisk-and-micron-slide-5-as-samsung-miss-cools-memory-rally-ahead-of-sandisk-earnings-sk-hynix-falls-3-western-digital-dips/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 04:26",
+        "publishedAt": "10/30 04:09",
         "score": 5
       },
       {
-        "title": "SK하이닉스 이익 632% 급증, 메모리 반도체 제조업체는 2030년까지 부족 현상 지속될 것으로 예상",
-        "description": "SK하이닉스 주가는 수요일 강한 실적을 발표한 후 급등했다.",
-        "url": "https://finance.yahoo.com/markets/article/sk-hynix-posts-record-revenue-and-profit-sees-memory-shortage-into-2030-113038822.html?.tsrc=rss",
+        "title": "Why Did Samsung Electronics Shares Fall Despite a Fifteenfold Increase in Chip Profit?",
+        "description": "Samsung Electronics (USOTC:SSNHZ) shares declined on Thursday despite a substantial increase in quarterly semiconductor profit, as investors assessed",
+        "url": "https://investorshub.advfn.com/market-news/article/38870/why-did-samsung-electronics-shares-fall-despite-a-fifteenfold-increase-in-chip-profit?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/28 20:30",
+        "publishedAt": "10/29 20:59",
         "score": 5
+      },
+      {
+        "title": "3 Stocks Riding AI Memory Capex Beyond Samsung And SK Hynix",
+        "description": "AI-fuelled memory demand has turned Samsung’s and SK Hynix’s record profit reports into more than headline noise. Their massive capex plans hint at ye",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-riding-ai-memory-052137476.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 14:21",
+        "score": 5
+      },
+      {
+        "title": "[단독] 골드만이 탐낸 'K내비' 빅데이터…막혔던 티맵 상장길도 뚫린다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026102943841",
+        "source": "hankyung.com",
+        "publishedAt": "10/29 17:58",
+        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "미국 주식시장은 연준이 정책 금리를 그대로 유지하기로 투표한 후 상승세로 마감했습니다.",
-        "description": "미국 주가지수는 연준이 기준금리를 유지하기로 결정한 후 수요일 상승세로 마감했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-200727607.html?.tsrc=rss",
+        "title": "Gold Prices Fall to $4,038 as Investors Await US Inflation Data Following Fed Rate Decision",
+        "description": "Gold prices declined on Thursday after the Federal Reserve maintained interest rates at their current level without providing a clear indication of it",
+        "url": "https://investorshub.advfn.com/market-news/article/38858/gold-prices-fall-to-4038-as-investors-await-us-inflation-data-following-fed-rate-decision?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 05:07",
+        "publishedAt": "10/29 20:36",
+        "score": 10
+      },
+      {
+        "title": "Why CPI and other economic data prints might be 'disconnected' from reality",
+        "description": "Laffer Tengler Investments CEO and CIO Nancy Tengler and her panel of experts weigh in on the flaws inherent in various economic data prints, includin",
+        "url": "https://finance.yahoo.com/video/why-cpi-and-other-economic-data-prints-might-be-disconnected-from-reality-152312234.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 21:00",
+        "score": 6
+      },
+      {
+        "title": "TSX slips as gold miners tumble on earnings, US inflation data",
+        "description": "Investing.com -- Canada’s main stock index edged lower on Thursday as falling gold prices and disappointing mining earnings weighed on materials share",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsx-slips-gold-miners-tumble-160010055.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/30 01:00",
         "score": 5
       },
       {
-        "title": "달러는 매파 FOMC 논평에 대한 기대에 대해 2주 최고치를 기록했습니다.",
-        "description": "달러 지수(DXY00)는 +0.09% 상승하며 2주 최고치를 기록했습니다. 달러화는 오늘 10년 만기 국채 수익률이 +2.5bp 상승하면서 지지를 받고 있습니다.",
-        "url": "https://www.barchart.com/story/news/8503773/dollar-posts-2-week-high-on-expectations-for-hawkish-fomc-commentary?.tsrc=rss",
+        "title": "Bond Yields, Crude Prices Lift European Bourses Midday Ahead of ECB Rate Decision",
+        "description": "European bourses tracked moderately higher midday Thursday as traders weighed the continued flow of",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/bond-yields-crude-prices-lift-115015743.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/28 23:49",
+        "publishedAt": "10/29 20:50",
         "score": 5
+      },
+      {
+        "title": "The Economy Could Be Growing Too Fast for Warsh",
+        "description": "Kevin Warsh held rates steady while two colleagues voted to hike, GDP revisions keep surprising to the upside, and a hot third-quarter print due tomor",
+        "url": "https://247wallst.com/investing/2026/10/29/the-economy-could-be-growing-too-fast-for-warsh/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 22:14",
+        "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "베센트 재무장관, 달러 지배력 확보를 위한 궁극적인 계획 공개",
-        "description": "미 재무장관은 군사력이 아닌 기술이 달러의 미래를 결정할 것이며 디지털 자산도 그러한 경쟁의 일부라고 말했습니다.",
-        "url": "https://www.thestreet.com/crypto/markets/treasury-secretary-bessent-reveals-ultimate-plan-to-ensure-dollar-dominance?.tsrc=rss",
+        "title": "The 10-Year Treasury Yield Just Jumped Back Above 5%",
+        "description": "A hawkish Fed hold with two dissenters pushing for a hike just rattled the long bond market, and now a key yield threshold is back in play with mortga",
+        "url": "https://247wallst.com/investing/2026/10/29/the-10-year-treasury-yield-just-jumped-back-above-5/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 02:48",
-        "score": 3
+        "publishedAt": "10/29 23:33",
+        "score": 8
       },
       {
-        "title": "SK 하이닉스와 삼성 주식이 AI 부채 우려를 완화함에 따라 코스피 급등",
-        "description": "한국 코스피는 수요일 6.63% 급등하며 맹렬한 상승세를 보이며 10월 13일 이후 최고치를 기록했다.",
-        "url": "https://finance.yahoo.com/m/fbf578c3-1956-36c6-95e4-979b12760f79/kospi-surges-as-sk-hynix-and.html?.tsrc=rss",
+        "title": "MUFG Launches Virtual Account Management Solution to Enhance Treasury Operations",
+        "description": "Mitsubishi UFJ Financial Group (MUFG), one of the world's largest global financial groups, proudly announces the launch of Virtual Account Management",
+        "url": "https://finance.yahoo.com/markets/options/articles/mufg-launches-virtual-account-management-135400411.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/28 19:32",
-        "score": 1
+        "publishedAt": "10/29 22:54",
+        "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "금값 바닥 멀었다?…JP모건 \"내년 초까지 추가 하락 위험\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610291867i",
-        "source": "hankyung.com",
-        "publishedAt": "10/29 00:34",
+        "title": "US Dollar Nudges Lower Against The Loonie as Oil Prices And Bond Yields Edge Down",
+        "description": "The US dollar turned down against the Canadian currency on Thursday afternoon as lower oil prices al",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-nudges-lower-against-175340275.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/30 02:53",
         "score": 5
       },
       {
-        "title": "'마트에서 안 사요'…4050 다이소에서 반찬까지 담는 이유가 [권용훈의 트렌드워치]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610281686i",
-        "source": "hankyung.com",
-        "publishedAt": "10/28 20:17",
+        "title": "Gold Prices Fall to $4,038 as Investors Await US Inflation Data Following Fed Rate Decision",
+        "description": "Gold prices declined on Thursday after the Federal Reserve maintained interest rates at their current level without providing a clear indication of it",
+        "url": "https://investorshub.advfn.com/market-news/article/38858/gold-prices-fall-to-4038-as-investors-await-us-inflation-data-following-fed-rate-decision?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 20:36",
         "score": 5
       },
       {
-        "title": "TSX 마감: 캐나다 은행 금리 인상에 따른 기술, 에너지 관련 주가 상승으로 지수가 상승 마감",
-        "description": "수요일 S&P/TSX 종합지수는 기술, 에너지 및 기타 부문의 상승에 힘입어 상승세를 보였습니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/tsx-closer-index-closes-higher-201457334.html?.tsrc=rss",
+        "title": "Bloomberg Commodity Index 2027 Target Weights Announced",
+        "description": "Bloomberg announced the 2027 target weights and composition for the Bloomberg Commodity Index (\"BCOM\"). Launched in 1998, with historical information",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/bloomberg-commodity-index-2027-target-210000920.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 05:14",
+        "publishedAt": "10/30 06:00",
         "score": 3
       },
       {
-        "title": "10년 전 NRG 에너지에 1,000달러를 투자했다면 올해 매도에도 이익이 사라지지 않을 것입니다.",
-        "description": "NRG 에너지는 석탄이 많았던 과거를 청산하고, 스마트 홈 회사를 삼키고, 전력 함대를 두 배로 늘렸지만, 2026년은 주주들에게 잔혹한 해였습니다. 질문",
-        "url": "https://247wallst.com/investing/2026/10/28/if-you-invested-1000-in-nrg-energy-10-years-ago-even-this-years-sell-off-wouldnt-erase-your-gains/?.tsrc=rss",
+        "title": "Here Are Thursday’s Top Wall Street Analyst Research Calls: Alphabet, Boston Scientific, eBay, Fervo Energy, Fortinet, Hilton Worldwide Holdings, Lennox International, Palantir Technologies, and More",
+        "description": "Alphabet cratered after hours while Microsoft soared, and now traders brace for Amazon's results as analysts across Wall Street reshuffle their rating",
+        "url": "https://247wallst.com/investing/2026/10/29/here-are-thursdays-top-wall-street-analyst-research-calls-alphabet-boston-scientific-ebay-fervo-energy-fortinet-hilton-worldwide-holdings-lennox-international-palantir-technologies-and-more/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 03:47",
-        "score": 3
-      },
-      {
-        "title": "트럼프의 에너지 장관은 더 많은 러시아 디젤이 미국에 올 것이라고 말했습니다",
-        "description": "크리스 라이트(Chris Wright) 에너지 장관은 더 많은 러시아 디젤이 미국 항구로 유입될 수 있도록 문을 열었고 같은 날 오후 정유업체 재고가 급락했습니다.",
-        "url": "https://247wallst.com/investing/2026/10/28/trumps-energy-secretary-says-more-russian-diesel-is-coming-to-america/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/28 21:52",
+        "publishedAt": "10/29 20:57",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "웬디스,1.9조달러에 팔리나?…펠츠의 트라이언 펀드 인수제안",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202610281810i",
-        "source": "hankyung.com",
-        "publishedAt": "10/28 23:17",
+        "title": "US Dollar Price Forecast: Fed Holds, DXY Eyes 102.59 as EUR/USD and GBP/USD Rebound",
+        "description": "US dollar price forecast: DXY holds 102.03 after the Fed pause, while EUR/USD faces 1.1158 and GBP/USD eyes 1.3356 ahead of US data and the ECB decisi",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073829755.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 16:38",
+        "score": 7
+      },
+      {
+        "title": "Bond Yields, Crude Prices Lift European Bourses Midday Ahead of ECB Rate Decision",
+        "description": "European bourses tracked moderately higher midday Thursday as traders weighed the continued flow of",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/bond-yields-crude-prices-lift-115015743.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 20:50",
         "score": 3
       },
       {
-        "title": "[구영권의 글로벌 투자 브리핑]마니팔 헬스 등 13곳, 8월 '1억달러 이상' 유치 제약·바이오 9곳, 헬스테크 2곳, 의료기기 2곳 등",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202609291814i",
-        "source": "hankyung.com",
-        "publishedAt": "10/28 09:06",
-        "score": 3
-      },
-      {
-        "title": "Bessent: Stablecoin은 달러 지배력을 강화하는 데 도움이 될 것입니다",
-        "description": "Scott Melker는 Ripple의 Swell 컨퍼런스에서 Scott Bessent 미국 재무장관이 스테이블 코인이 D를 보장하는 데 도움이 될 것이라고 말했습니다.",
-        "url": "https://finance.yahoo.com/video/bessent-stablecoins-will-help-cement-dollar-dominance-201923128.html?.tsrc=rss",
+        "title": "Bitcoin warning: Billionaire says dollar holders could be left behind",
+        "description": "Tim Draper says merchants will move from accepting Bitcoin to demanding it, and that anyone still holding fiat when that happens will pay for it.",
+        "url": "https://www.thestreet.com/crypto/markets/bitcoin-warning-billionaire-says-dollar-holders-could-be-left-behind?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 03:00",
+        "publishedAt": "10/30 05:40",
         "score": 1
       },
       {
-        "title": "베센트 재무장관, 달러 지배력 확보를 위한 궁극적인 계획 공개",
-        "description": "미 재무장관은 군사력이 아닌 기술이 달러의 미래를 결정할 것이며 디지털 자산도 그러한 경쟁의 일부라고 말했습니다.",
-        "url": "https://www.thestreet.com/crypto/markets/treasury-secretary-bessent-reveals-ultimate-plan-to-ensure-dollar-dominance?.tsrc=rss",
+        "title": "US Dollar Nudges Lower Against The Loonie as Oil Prices And Bond Yields Edge Down",
+        "description": "The US dollar turned down against the Canadian currency on Thursday afternoon as lower oil prices al",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-nudges-lower-against-175340275.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 02:48",
+        "publishedAt": "10/30 02:53",
         "score": 1
       },
       {
-        "title": "캐나다 은행이 정책 금리를 인상한 후 캐나다 달러가 미국 달러 대비 강세를 보이고 있습니다.",
-        "description": "캐나다 달러는 캘리포니아 은행 회의 이후 수요일 오후 미국 달러 대비 강세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-strengthens-against-greenback-172825125.html?.tsrc=rss",
+        "title": "Canadian dollar strengthens as traders assess BoC hike, await US data",
+        "description": "Investing.com -- The Canadian dollar strengthened against its U.S. counterpart on Thursday, extending gains after the Bank of Canada raised interest r",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-strengthens-traders-assess-160209069.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 02:28",
+        "publishedAt": "10/30 01:02",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Eldorado Gold는 2026년 3분기 재무 및 운영 결과와 2026년 지침 업데이트를 보고합니다. Skouries와 McIlvenna Bay, 상업 생산을 향해 나아가다",
-        "description": "(별도의 언급이 없는 한 모든 금액은 미국 달러로 표시됨) 밴쿠버, 브리티시 컬럼비아, 2026년 10월 28일(GLOBE NEWSWIRE) -- Eldorado Gold Corporatio",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/eldorado-gold-reports-q3-2026-210100019.html?.tsrc=rss",
+        "title": "Bitcoin warning: Billionaire says dollar holders could be left behind",
+        "description": "Tim Draper says merchants will move from accepting Bitcoin to demanding it, and that anyone still holding fiat when that happens will pay for it.",
+        "url": "https://www.thestreet.com/crypto/markets/bitcoin-warning-billionaire-says-dollar-holders-could-be-left-behind?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 06:01",
+        "publishedAt": "10/30 05:40",
         "score": 1
       },
       {
-        "title": "Microsoft와 Alphabet은 AI 거래 분위기를 설정하기 위해 활용했습니다.",
-        "description": "Market Hang의 패널은 Microsoft(MSFT) 및 Alphabet(GOOGL)(GOOG)의 향후 수익, 소매 투자 동향, AI가 해당 부문에 미치는 영향,",
-        "url": "https://finance.yahoo.com/video/microsoft-and-alphabet-tapped-to-set-the-ai-trade-tone-174106409.html?.tsrc=rss",
+        "title": "Canadian dollar strengthens as traders assess BoC hike, await US data",
+        "description": "Investing.com -- The Canadian dollar strengthened against its U.S. counterpart on Thursday, extending gains after the Bank of Canada raised interest r",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-strengthens-traders-assess-160209069.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 02:41",
+        "publishedAt": "10/30 01:02",
         "score": 1
       },
       {
-        "title": "BlueChip 컴퓨터 하드웨어 라인의 Qualcomm 파트너인 Anduril",
-        "description": "반도체 회사는 Snapdragon X 시리즈 프로세서를 공급하여 Arsenal-1 공장에 구축될 방산 스타트업의 노트북에 전력을 공급할 예정입니다.",
-        "url": "https://www.manufacturingdive.com/news/anduril-qualcomm-blue-chip-tsmc-snapdragon-reshoring-computer-hardware/872925/?.tsrc=rss",
+        "title": "Stocks Trade Lower as Alphabet Disappoints and Chip Stocks Fall",
+        "description": "The S&P 500 Index ($SPX ) (SPY ) is down -0.27%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.26%, and the Nasdaq 100 Index ($IUXX ) (Q",
+        "url": "https://www.barchart.com/story/news/8531854/stocks-trade-lower-as-alphabet-disappoints-and-chip-stocks-fall?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 01:26",
+        "publishedAt": "10/30 00:05",
         "score": 1
       },
       {
-        "title": "트럼프 미디어는 앞으로 수익이 예상되는 가운데 5% 하락하여 6달러를 기록했습니다. 럼블이 틱업하다",
-        "description": "트럼프 미디어 주가는 주요 분기별 보고서가 곧 나올 때 사상 최저치를 향해 하락하고 있으며, 그 결과는 강세를 입증하거나 확인해줄 수 있습니다.",
-        "url": "https://247wallst.com/investing/2026/10/28/trump-media-falls-5-toward-6-with-earnings-ahead-rumble-ticks-up/?.tsrc=rss",
+        "title": "SoFi’s Recent 13% Upward Burst Means Execution Is Now a Must",
+        "description": "SoFi's stock surged 13% on a single earnings report, but its own history shows those gains have a habit of vanishing within weeks. Whether this rally",
+        "url": "https://247wallst.com/investing/2026/10/29/sofis-recent-13-upward-burst-means-execution-is-now-a-must/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 00:07",
+        "publishedAt": "10/29 23:45",
         "score": 1
       },
       {
-        "title": "미국 연준 금리 발표를 앞두고 수요일 상장지수펀드 상승, 주식 선물 혼합",
-        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.2% 상승했고 적극적으로 거래되었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125522610.html?.tsrc=rss",
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Disappointing Alphabet Results",
+        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4% and the actively tr",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131506126.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/28 21:55",
+        "publishedAt": "10/29 22:15",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "TSMC, AI 칩 패키징 가격 20% 인상 보고로 3% 상승",
-        "description": "핵심 요약TSMC 주가는 대만 커머셜 타임즈(Commercial Times)가 회사가 CoWoS AI 칩 PA 가격 인상을 준비하고 있다고 보도한 후 오늘 3% 상승했습니다.",
-        "url": "https://www.tikr.com/blog/tsmc-gains-3-on-reported-20-price-hike-for-ai-chip-packaging?ref=yahoofinance&.tsrc=rss",
+        "title": "Not Nvidia. Not AMD. This Is the Best Artificial Intelligence (AI) Stock to Buy in November",
+        "description": "Lumentum Holdings is likely to outperform expectations amid incredible demand for optical networking components.",
+        "url": "https://www.fool.com/investing/2026/10/29/not-nvidia-not-amd-this-is-the-best-artificial-intelligence-ai-stock-to-buy-in-november/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "10/29 01:35",
+        "publishedAt": "10/29 15:35",
         "score": 10
       },
       {
-        "title": "SK하이닉스 이익 632% 급증, 메모리 반도체 제조업체는 2030년까지 부족 현상 지속될 것으로 예상",
-        "description": "SK하이닉스 주가는 수요일 강한 실적을 발표한 후 급등했다.",
-        "url": "https://finance.yahoo.com/markets/article/sk-hynix-posts-record-revenue-and-profit-sees-memory-shortage-into-2030-113038822.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/28 20:30",
-        "score": 9
-      },
-      {
-        "title": "SpaceX가 AI 인프라를 강화함에 따라 큰 승리를 거둘 5개 주식",
-        "description": "일부 주식에서는 SpaceX의 지출로 인해 큰 수익이 증가할 것으로 보입니다.",
-        "url": "https://www.fool.com/investing/2026/10/28/5-stocks-poised-to-win-big-as-spacex-ramps-up-ai-i/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/28 18:50",
-        "score": 7
-      },
-      {
-        "title": "Nvidia 대 TSMC: 어느 쪽이 가장 큰 AI 승자가 될 수 있는지 알아보겠습니다.",
-        "description": "두 주식 모두 3년 동안 세 자릿수 상승률을 기록했습니다.",
-        "url": "https://www.fool.com/investing/2026/10/28/nvidia-vs-tsmc-here-s-which-one-may-be-the-biggest-ai-winner/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/28 17:30",
-        "score": 7
-      },
-      {
-        "title": "NVIDIA를 넘어서: 3분기 실적 이후 TSMC 주식이 매력적으로 보이는 이유",
-        "description": "TSMC의 3분기 매출은 AI 칩 수요와 2나노미터 생산이 2026년 전망을 촉진하여 투자자들에게 AI g를 활용할 수 있는 또 다른 방법을 제공하면서 41.2% 증가했습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-why-tsmc-stock-180000531.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "10/29 03:00",
+        "title": "AWS 39% 성장에도 아마존 주가 7% 급락…AI 투자에 현금흐름 악화",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202610304811i",
+        "source": "hankyung.com",
+        "publishedAt": "10/30 05:22",
         "score": 6
+      },
+      {
+        "title": "The Same $10,000 in AMD and Nvidia Could Produce Very Different Results by 2030",
+        "description": "Two AI chip giants, one $10,000 stake each, and a five-year model that puts them on surprisingly different trajectories. The gap has nothing to do wit",
+        "url": "https://247wallst.com/investing/2026/10/29/the-same-10000-in-amd-and-nvidia-could-produce-very-different-results-by-2030/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/30 00:33",
+        "score": 6
+      },
+      {
+        "title": "RKLB Stock Eyes Best Week In A Month: Neutron, Electron And NASA Updates Stack Up — Why Is Retail Still On The Fence?",
+        "description": "Neutron’s second stage and thrust module reached Wallops Island for checks ahead of ground testing.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-neutron-electron-nasa-updates-why-retail-still-on-the-fence/cZUQeTzR9G6?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/29 12:05",
+        "score": 6
+      },
+      {
+        "title": "RGTI vs IONQ: Which Quantum Computing Stock Has More Upside Potential?",
+        "description": "Rigetti offers 137.5% upside versus IonQ's 99.6%, but IONQ's stronger revenues and commercial momentum raise questions about the better bet.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rgti-vs-ionq-quantum-computing-162600748.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "10/30 01:26",
+        "score": 5
       }
     ]
   }
