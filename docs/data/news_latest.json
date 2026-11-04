@@ -1,211 +1,301 @@
 {
-  "generated_at_kst": "2026-11-03 12:33 KST",
-  "period": "11/02 07:00 ~ 11/03 07:00 KST",
+  "generated_at_kst": "2026-11-04 11:31 KST",
+  "period": "11/03 07:00 ~ 11/04 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "오늘의 주식 시장: Dow Jones, S&P 500, Nasdaq 100 선물이 Apple, Palantir 수익을 앞지릅니다. RYAAY, USLM, INO 초점(업데이트됨)",
-        "description": "편집자 주: 벤치마크 지수를 추적하는 ETF와 헤드라인이 기사에서 업데이트되었습니다. 월요일 미국 증시는 다우존스, S&P 500 지수가 상승하면서 상승했습니다.",
-        "url": "https://www.benzinga.com/markets/equities/26/11/62770209/stock-market-today-dow-jones-sp-500-futures-rise-ahead-of-apple-palantir-earnings-ryaay-uslm-ino-in-focus?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "미국 중간 선거: 여론조사가 시작되면서 다우지수는 거의 200포인트 하락하고 S&P 500과 나스닥 엣지는 상승했습니다.",
+        "description": "전략가들이 결과가 안도 집회나 새로운 매도를 촉발할 수 있는지 여부를 평가함에 따라 월스트리트는 선거로 인한 불확실성에 대비하고 있습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/us-midterm-elections-dow-falls-nearly-200-points-s-and-p-500-and-nasdaq-edge-higher-as-polls-begin/cNGX48VR95x?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 22:15",
-        "score": 19
+        "publishedAt": "11/03 23:52",
+        "score": 10
       },
       {
-        "title": "IDEXX 수익이 20.2% 상승: S&P 500 인덱스 펀드에 미치는 영향",
-        "description": "IDEXX Laboratories는 월요일에 폭발적으로 상승했으며 수백만 명의 은퇴 저축자들이 주식을 선택하지 않고도 그것을 느꼈습니다. 401(k)가 얼마나 움직였습니까?",
-        "url": "https://247wallst.com/investing/etf/2026/11/02/idexx-soars-20-2-on-earnings-beat-what-it-means-for-your-sp-500-index-fund/?.tsrc=rss",
+        "title": "수익이 Kinross Gold Stock 투자자에게 미치는 영향",
+        "description": "Kinross Gold는 2026년 3분기 순이익이 5억 8,320만 달러로 보고되었으며, 주당 순이익은 금 등가물 생산 감소와 함께 전년 동기 대비 증가했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-impact-kinross-gold-191350644.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 04:54",
-        "score": 11
+        "publishedAt": "11/04 04:13",
+        "score": 7
       },
       {
-        "title": "오늘의 주식 시장: Seagate가 침몰하면서 다우 상승, 나스닥 급락; 이 주식은 항목을 지웁니다",
-        "description": "오늘의 주식 시장: 다우존스 지수는 상승했지만 기술 부진으로 나스닥 지수는 하락했습니다. 아마존은 터졌지만 루멘텀(Lumentum)과 마벨 테크놀로지(Marvell Technology)는 급락했다.",
-        "url": "https://finance.yahoo.com/m/d2c3bbee-4bc3-3931-9b35-8ffcd691e60c/stock-market-today%3A-dow-up%2C.html?.tsrc=rss",
+        "title": "Palantir 주식은 계약 성장에 대한 우려가 높아지면서 수익이 감소했음에도 불구하고 하락했습니다.",
+        "description": "분기별 매출이 월스트리트 예측을 초과했음에도 불구하고 화요일 시판 전 거래에서 주가는 약 8% 하락한 $164.05를 기록했습니다. 주식은 나중에 손실을 입었습니다.",
+        "url": "https://www.ibtimes.com/palantir-revenue-growth-contracts-shares-fall-3809340?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 06:43",
-        "score": 9
-      },
-      {
-        "title": "'11월 3일까지 달력 표시' Tom Lee는 나스닥 100 지수가 2025년 3월 이후 최악의 달 이후 하락세를 매수하기를 기다리고 있다고 투자자들이 말했습니다.",
-        "description": "Fundstrat의 Tom Lee는 기관 투자자들이 이 망가진 시장에 새로운 자금을 투자하기 전에 달력에서 특정 날짜를 동그라미로 표시했다고 말했습니다.",
-        "url": "https://247wallst.com/investing/2026/11/02/marking-their-calendar-until-november-3rd-tom-lee-says-investors-waiting-to-buy-the-dip-after-the-nasdaq-100s-worst-month-since-march-2025/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/03 00:04",
+        "publishedAt": "11/04 04:01",
         "score": 6
       },
       {
-        "title": "Palantir Technologies(NASDAQ:PLTR)는 2026년 3분기에 강세를 보이고, 연간 판매 가이던스는 낙관적입니다.",
-        "description": "데이터 분석 회사인 Palantir Technologies(NASDAQ:PLTR)는 2026년 3분기에 월스트리트의 기대치를 앞지르는 매출을 보고했으며, 매출은 전년 대비 95.9% 증가했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-nasdaq-pltr-reports-215238038.html?.tsrc=rss",
+        "title": "평균 주식은 2009년 이후 가장 많이 S&P 500을 앞질렀습니다.",
+        "description": "10월에는 S&P 500과 그 안에 있는 일반적인 주식 사이에 보기 드문 격차가 벌어졌습니다. 이는 지난 15년 동안 볼 수 없었던 격차였으며 이제 투자자들은 하락세에 직면해 있습니다.",
+        "url": "https://247wallst.com/investing/2026/11/03/the-average-stock-just-beat-the-sp-500-by-the-most-since-2009/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 06:52",
+        "publishedAt": "11/03 23:12",
+        "score": 6
+      },
+      {
+        "title": "중간 선거 후 S&P 500: 역사가 말하는 것과 시장의 위치",
+        "description": "Investing.com -- 역사를 보면 중간선거는 시장 계절성 측면에서 가장 깨끗한 기록 중 하나입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-midterm-elections-history-204037875.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 05:40",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "한국 GDP가 예상치를 1.0% 상회했는데 KOSPI가 여전히 하락세인 이유는 무엇입니까?",
-        "description": "한국 GDP는 칩 수출로 1.0% 성장했지만 코스피는 3개월 만에 8.5% 하락했다. 시장 가격이 어떻게 책정되는지 확인하세요.",
-        "url": "https://beincrypto.com/south-korea-gdp-growth-kospi-falls/?.tsrc=rss",
+        "title": "삼성전자(KOSE:A005930), 한국에서 깜짝 AI 파트너십 회담 개최",
+        "description": "삼성전자(KOSE:A005930)는 OpenAI 협력에 관한 고위 경영진과의 예고 없는 회의를 위해 Sam Altman을 한국에 초대했습니다. 토론",
+        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-electronics-kose-a005930-held-231750004.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 13:08",
+        "publishedAt": "11/03 08:17",
         "score": 6
-      }
-    ],
-    "macro": [],
-    "bonds": [],
-    "commodities": [
-      {
-        "title": "원유 가격과 채권 수익률로 인한 달러 하락",
-        "description": "달러 지수(DXY00)는 월요일 1개월 최저치로 하락한 뒤 -0.13% 하락으로 마감했습니다. 달러는 월요일 원유 가격이 -7% 급락하면서 하락했습니다.",
-        "url": "https://www.barchart.com/story/news/8599037/dollar-falls-with-crude-oil-prices-and-bond-yields?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/03 05:35",
-        "score": 10
       },
       {
-        "title": "원유 가격과 채권 수익률에 따른 달러 하락",
-        "description": "달러 지수(DXY00)는 오늘 1개월 최저치로 떨어졌으며 -0.22% 하락했습니다. 오늘 원유 가격이 -6% 급락하면서 인플레이션 기대가 완화되었습니다.",
-        "url": "https://www.barchart.com/story/news/8594605/dollar-slides-with-crude-oil-prices-and-bond-yields?.tsrc=rss",
+        "title": "애플의 '전례 없는' 메모리 경고, 흔들리는 마이크론-SK하이닉스 거래에 기름 더해",
+        "description": "Investing.com -- Apple (NASDAQ:AAPL)은 전 세계적으로 메모리 압박이 계속될 것이라는 가장 분명한 경고 중 하나를 전달했을 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-unprecedented-memory-warning-adds-153146150.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 00:32",
-        "score": 10
-      },
-      {
-        "title": "채권 수익률과 유가 하락으로 미국 달러가 루니 대비 상승",
-        "description": "미국 달러는 월요일 오후 10년 만기 국채가 캐나다 통화에 대해 상승세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-edges-against-loonie-185350411.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/03 03:53",
+        "publishedAt": "11/04 00:31",
         "score": 5
       },
       {
-        "title": "부문 업데이트: 에너지 주식은 월요일 프리마켓 하락",
-        "description": "에너지 주식은 월요일 State Street Energy Select Sector SPDR ETF(XL)로 인해 시판 전 하락세를 보였습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-142720676.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/02 23:27",
+        "title": "[단독] '의약품 맞수' 삼성바이오·셀트리온 손잡았다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110337331",
+        "source": "hankyung.com",
+        "publishedAt": "11/03 18:05",
         "score": 3
       },
       {
-        "title": "Monetary Metals, 성장 촉진을 위해 3,800만 달러 규모의 금 채권 발행",
-        "description": "혁신적인 금 기반 금융 솔루션 분야의 글로벌 리더인 Monetary Metals®는 총 금 채권 판매가 완료되었음을 발표하게 된 것을 기쁘게 생각합니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/monetary-metals-issues-38-million-144900989.html?.tsrc=rss",
+        "title": "네이버 'AI탭' 국제표준 인증 받았다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110336481",
+        "source": "hankyung.com",
+        "publishedAt": "11/03 17:36",
+        "score": 3
+      },
+      {
+        "title": "[단독] 셀트리온·삼성바이오 협력…韓 '바이오 양강' 손잡았다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202611033413i",
+        "source": "hankyung.com",
+        "publishedAt": "11/03 16:35",
+        "score": 3
+      }
+    ],
+    "macro": [
+      {
+        "title": "주요 정오 뉴스: Apple 회계연도 4분기 EPS, 수익 최고 추정치, 주가 하락; Meta는 채권 판매에서 최대 250억 달러를 목표로 하는 것으로 알려졌습니다.",
+        "description": "S&P 500 지수와 나스닥 종합지수는 화요일 오전 거래에서 상승했고, 다우존스 지수는 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-apple-fiscal-170956313.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 23:49",
+        "publishedAt": "11/04 02:09",
+        "score": 1
+      },
+      {
+        "title": "미국 경제 뉴스의 강세로 달러 지지",
+        "description": "오늘 달러 지수(DXY00)는 +0.19% 상승했습니다. 오늘 달러화는 9월 JOLTS 채용 공고 등 예상보다 나은 미국 경제 뉴스에 지지를 얻었습니다.",
+        "url": "https://www.barchart.com/story/news/8618316/dollar-supported-by-strength-in-us-economic-news?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 00:34",
+        "score": 1
+      },
+      {
+        "title": "\"지역경제 살리는 연구로 대구·경북 거주 늘릴 것\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110336461",
+        "source": "hankyung.com",
+        "publishedAt": "11/03 17:37",
+        "score": 1
+      }
+    ],
+    "bonds": [
+      {
+        "title": "10년 만기 재무부는 4.9%로 인하됐다. Oklo, Archer 및 Rocket Lab이 모두 무너진 이유와 어쨌든 내가 구매할 제품은 다음과 같습니다.",
+        "description": "국채 수익률 상승은 많은 기업들에게 나쁜 소식이었습니다.",
+        "url": "https://www.fool.com/investing/2026/11/03/the-10-year-treasury-eased-to-49-heres-why-oklo-a/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/03 21:00",
+        "score": 3
+      },
+      {
+        "title": "Meta는 AI 부채 붐이 가속화됨에 따라 최소 200억 달러의 채권 매각을 추구합니다.",
+        "description": "Investing.com -- Meta Platforms는 점점 커지는 Big Tech Borr 물결에 합류하여 국경 간 채권 제공을 통해 최소 200억 달러를 조달하려고 합니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-seeks-least-20-billion-145828805.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/03 23:58",
+        "score": 1
+      },
+      {
+        "title": "Meta, AI 투자 자금 조달을 위해 부채 제공 시작",
+        "description": "Meta Platforms Inc.는 6개월 만에 처음으로 채권을 마케팅하며, 혼란스러운 상황 속에서 투자자 회의론에 맞서는 최신 기술 대기업이 되었습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-kicks-off-debt-offering-132551727.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/03 22:25",
+        "score": 1
+      }
+    ],
+    "commodities": [
+      {
+        "title": "중간 선거를 앞두고 유가가 회복되면서 미국 국채는 좁은 범위에서 거래됩니다: Commerzbank",
+        "description": "유가가 회복되고 미국 달러가 지지를 유지하며 S&가 유지됨에 따라 국채는 좁은 범위 내에서 거래됩니다.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/us-treasuries-trade-narrow-range-114347921.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/03 20:43",
+        "score": 5
+      },
+      {
+        "title": "Talos Energy(NYSE:TALO)는 2026년 3분기에 인상적인 성과를 거두었습니다.",
+        "description": "해양 에너지 생산업체인 Talos Energy(NYSE:TALO)는 2026년 3분기에 월스트리트의 매출 기대치를 상회하며 매출이 전년 동기 대비 27.7% 증가한 5억 9600만 달러를 기록했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/talos-energy-nyse-talo-delivers-215131433.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 06:51",
+        "score": 3
+      },
+      {
+        "title": "Apple, Palantir, Pfizer, Marvell, AMD, Bloom Energy, Gartner 및 오늘날 시장을 설명하는 기타 주식",
+        "description": "Apple은 iPhone 제조업체의 지침이 투자자의 높은 기준을 충족하지 못한 후 하락했습니다.",
+        "url": "https://finance.yahoo.com/m/128f1048-6ad1-33df-9ddf-897d7e346cbb/apple%2C-palantir%2C-pfizer%2C.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 06:16",
+        "score": 3
+      },
+      {
+        "title": "Ameriwest는 역사적인 코어 리샘플링을 통해 오레곤 구리-금 프로젝트를 발전시킵니다.",
+        "description": "Ameriwest Critical Metals의 CEO David Watkinson은 Proactive의 Steve Darling과 합류하여 Bornite 구리-금-금속을 발전시키기 위한 회사의 노력에 대해 논의했습니다.",
+        "url": "https://finance.yahoo.com/video/ameriwest-advances-oregon-copper-gold-191123588.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 04:11",
+        "score": 3
+      },
+      {
+        "title": "애플의 '전례 없는' 메모리 경고, 흔들리는 마이크론-SK하이닉스 거래에 기름 더해",
+        "description": "Investing.com -- Apple (NASDAQ:AAPL)은 전 세계적으로 메모리 압박이 계속될 것이라는 가장 분명한 경고 중 하나를 전달했을 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-unprecedented-memory-warning-adds-153146150.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 00:31",
         "score": 1
       }
     ],
     "fx": [
       {
-        "title": "Meta는 Capex 추진에서 국경 간 달러, 유로 채권 시장을 활용하려고 하는 것으로 알려졌습니다.",
-        "description": "블룸버그는 메타 플랫폼이 미국 달러와 유로를 아우르는 다중 트랜치, 국경 간 채권 제공에 대한 투자자 요구를 시작했다고 보도했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/meta-is-reportedly-looking-to-tap-cross-border-dollar-euro-bond-market-in-capex-push/cNGaEGyR9PY?.tsrc=rss",
+        "title": "투자자들이 알파벳 주식 유로 채권 판매에 반응하는 방법",
+        "description": "Alphabet은 최근 2045년 만기 9억 9,575만 유로(5.250%) 및 12억 4,968억 8,000만 유로(4.05% 없음)를 포함하여 여러 유로 및 미국 달러 채권 발행을 완료했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-alphabet-stock-130935219.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 03:55",
-        "score": 4
+        "publishedAt": "11/03 22:09",
+        "score": 3
       },
       {
-        "title": "원유 가격과 채권 수익률로 인한 달러 하락",
-        "description": "달러 지수(DXY00)는 월요일 1개월 최저치로 하락한 뒤 -0.13% 하락으로 마감했습니다. 달러는 월요일 원유 가격이 -7% 급락하면서 하락했습니다.",
-        "url": "https://www.barchart.com/story/news/8599037/dollar-falls-with-crude-oil-prices-and-bond-yields?.tsrc=rss",
+        "title": "트럼프는 비트코인이 '사기처럼 보인다'고 말한 적이 있으며 달러와 경쟁하고 있었습니다. 그는 4년 후 대통령으로서 암호화폐로 14억 달러를 벌었습니다.",
+        "description": "비트코인은 한때 도널드 트럼프 대통령이 미국 달러에 대한 위협으로 간주한 것이었습니다. 이제 그의 가족과 관련된 암호화폐 벤처는 더 많은 수익을 창출했습니다.",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/trump-once-said-bitcoin-seems-183006830.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 05:35",
+        "publishedAt": "11/04 03:30",
         "score": 1
       },
       {
-        "title": "채권 수익률과 유가 하락으로 미국 달러가 루니 대비 상승",
-        "description": "미국 달러는 월요일 오후 10년 만기 국채가 캐나다 통화에 대해 상승세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-edges-against-loonie-185350411.html?.tsrc=rss",
+        "title": "미국 경제 뉴스의 강세로 달러 지지",
+        "description": "오늘 달러 지수(DXY00)는 +0.19% 상승했습니다. 오늘 달러화는 9월 JOLTS 채용 공고 등 예상보다 나은 미국 경제 뉴스에 지지를 얻었습니다.",
+        "url": "https://www.barchart.com/story/news/8618316/dollar-supported-by-strength-in-us-economic-news?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 03:53",
+        "publishedAt": "11/04 00:34",
         "score": 1
       },
       {
-        "title": "원유 가격과 채권 수익률에 따른 달러 하락",
-        "description": "달러 지수(DXY00)는 오늘 1개월 최저치로 떨어졌으며 -0.22% 하락했습니다. 오늘 원유 가격이 -6% 급락하면서 인플레이션 기대가 완화되었습니다.",
-        "url": "https://www.barchart.com/story/news/8594605/dollar-slides-with-crude-oil-prices-and-bond-yields?.tsrc=rss",
+        "title": "화요일 오전 미국 달러는 중간 선거에 주목하면서 혼조세를 보이고 있습니다.",
+        "description": "미국 달러는 화요일 오전 주요 거래 상대국 대비 혼조세를 보였습니다. 유로 대비 상승세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-tuesday-124221906.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 00:32",
-        "score": 1
-      },
-      {
-        "title": "월요일 오전 미국 달러 혼합, 중간 선거 초점, 이번 주 10월 고용 보고서",
-        "description": "미국 달러는 월요일 오전 주요 거래 상대국 대비 혼조세를 보였습니다. 엔화와 캔화 대비 상승세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-monday-123320208.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/02 21:33",
+        "publishedAt": "11/03 21:42",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "미국 주식이 정오 이후 상승함에 따라 상장지수펀드도 상승",
-        "description": "광범위한 시장 지표 광범위한 시장 상장지수펀드 IWM 및 IVV가 상승했습니다. 적극적으로 거래됨 I",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-182141612.html?.tsrc=rss",
+        "title": "애플의 '전례 없는' 메모리 경고, 흔들리는 마이크론-SK하이닉스 거래에 기름 더해",
+        "description": "Investing.com -- Apple (NASDAQ:AAPL)은 전 세계적으로 메모리 압박이 계속될 것이라는 가장 분명한 경고 중 하나를 전달했을 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-unprecedented-memory-warning-adds-153146150.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 03:21",
+        "publishedAt": "11/04 00:31",
+        "score": 2
+      },
+      {
+        "title": "Tongguan Gold Group (SEHK:340) 주식은 3년 동안 383% 상승한 후 프리미엄으로 거래됨",
+        "description": "Tongguan Gold Group은 3년 동안 매우 큰 주가 상승을 기록했지만 지난 1년 동안 주가가 하락하여 주목을 받고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tongguan-gold-group-sehk-340-201455354.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 05:14",
         "score": 1
       },
       {
-        "title": "바쁜 기업 수익 주간을 앞두고 상장 거래 펀드, 주식 선물이 더 높은 프리 벨 월요일",
-        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.4% 상승했으며 활발한 거래가 이루어졌습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140145920.html?.tsrc=rss",
+        "title": "분석가는 미국 중간고사에서 금과 비트코인에 대해 큰 경고를 보냅니다.",
+        "description": "분석가 Mike McGlone은 중간고사 이후 주식시장 조정이 비트코인과 금의 폭락을 촉발할 수 있다고 경고했습니다.",
+        "url": "https://www.thestreet.com/crypto/markets/analyst-sends-big-warning-on-gold-and-bitcoin-amid-u-s-midterms?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 23:01",
+        "publishedAt": "11/04 04:30",
         "score": 1
       },
       {
-        "title": "월요일부터 혼합 무역으로 면화 시작",
-        "description": "면화 가격은 월요일 오전 거래에서 1포인트 낮고 5포인트 높습니다. 선물은 세션에서 32~67포인트의 손실을 보이며 금요일 마감되었습니다.",
-        "url": "https://www.barchart.com/story/news/8591723/cotton-starting-monday-with-mixed-trade?.tsrc=rss",
+        "title": "Dell(DELL): 13배의 선행 수익으로 상위 10개 저렴한 AI 주식 거래",
+        "description": "우리는 2027년에 매수할 수 있는 가장 좋고 저렴한 주식 10개 목록을 방금 발표했으며 Dell Technologies(NYSE:DELL)는 이 목록에서 10위를 차지했습니다. 월 스트리트",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-dell-top-10-cheap-185313697.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 22:31",
+        "publishedAt": "11/04 03:53",
+        "score": 1
+      },
+      {
+        "title": "오라클(ORCL): 단 11배의 수익으로 저렴한 상위 10개 AI 주식 거래",
+        "description": "우리는 2027년에 매수할 수 있는 가장 좋고 저렴한 주식 10개 목록을 방금 발표했으며 Oracle(NYSE:ORCL)은 이 목록에서 6위를 차지했습니다. 월스트리트의 AI tr",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-top-10-cheap-183905094.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 03:39",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX, 보고된 Boost Mobile Talk에서 4% 상승; AST SpaceMobile 4% 하락, Rocket Lab 하락",
-        "description": "SpaceX는 위성 거대 기업에 자체 지상 네트워크와 도전에 대한 직접적인 경로를 제공할 수 있는 움직임인 Boost Mobile 인수를 위해 협상 중이라고 보고되었습니다.",
-        "url": "https://247wallst.com/investing/2026/11/02/spacex-climbs-4-on-reported-boost-mobile-talks-ast-spacemobile-falls-4-rocket-lab-dips/?.tsrc=rss",
+        "title": "Apple, Palantir, Pfizer, Marvell, AMD, Bloom Energy, Gartner 및 오늘날 시장을 설명하는 기타 주식",
+        "description": "Apple은 iPhone 제조업체의 지침이 투자자의 높은 기준을 충족하지 못한 후 하락했습니다.",
+        "url": "https://finance.yahoo.com/m/128f1048-6ad1-33df-9ddf-897d7e346cbb/apple%2C-palantir%2C-pfizer%2C.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 00:56",
+        "publishedAt": "11/04 06:16",
         "score": 7
       },
       {
-        "title": "민주당은 $135에 SpaceX 주식을 돕거나 해칠까요?",
-        "description": "이 기사나 기초 연구에 대한 질문이 있는 경우 help@trefis.com으로 이메일을 보내주세요.",
-        "url": "https://www.trefis.com/stock/spcx/articles/622001/do-democrats-help-or-hurt-spacex-stock-at-135/2026-11-02?.tsrc=rss",
+        "title": "삼성, AMD, Nvidia에 새로운 텍사스 칩 공장 주문 확보",
+        "description": "삼성전자는 텍사스주 테일러의 두 번째 공장에서 계획된 모든 생산량에 대한 구매자를 확보한 것으로 알려졌다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-secures-amd-nvidia-orders-182115321.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 22:18",
-        "score": 6
+        "publishedAt": "11/04 03:21",
+        "score": 7
       },
       {
-        "title": "SpaceX보다 더 나은 성과를 낼 수 있습니다: 대신 매수할 산업주 2개",
-        "description": "SpaceX가 헤드라인을 장식하지만 Rocket Lab과 Redwire는 매우 다른 가치 평가와 위험을 안고 우주 붐에 투자하는 다른 방법을 제공합니다.",
-        "url": "https://www.fool.com/investing/2026/11/02/you-can-do-better-than-spacex-2-industrial-stocks/?.tsrc=rss",
+        "title": "한국, AI 칩 예산을 두 배로 늘린다: 물결을 탈 4개의 ETF",
+        "description": "한국은 반도체 성장을 촉진하기 위해 AI 칩 예산을 거의 두 배로 늘렸습니다. 국가 기록적인 지출로 이익을 얻을 수 있는 4가지 ETF를 찾아보세요.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-doubles-ai-chip-131800666.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 19:30",
-        "score": 6
+        "publishedAt": "11/03 22:18",
+        "score": 7
       },
       {
-        "title": "OpenAI, 기금 모금 계획 축소로 ChatGPT, Codex 사용 제한 강화",
-        "description": "이러한 움직임은 AI 토큰 가격이 계속 하락하면서 AI에 대한 수요의 강도에 대한 의문이 제기되면서 이루어졌습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/open-ai-tightens-chat-gpt-codex-usage-limits-as-fundraising-plans-reportedly-shrink/cNG9ZHQR92K?.tsrc=rss",
+        "title": "AMD, Nvidia가 Samsung의 텍사스 칩 공장 고객 목록에 Tesla에 합류할 수 있음: 보고서",
+        "description": "로이터 보고서에 따르면 텍사스에 계획된 공장은 대부분 AMD로부터 전체 생산량에 대한 주문을 받았습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/amd-nvidia-could-join-tesla-on-samsung-s-texas-chip-plant-customer-list-report/cNGX21iR95F?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 14:03",
-        "score": 6
+        "publishedAt": "11/03 21:14",
+        "score": 7
       },
       {
-        "title": "양자 컴퓨팅 및 통신 시장 글로벌 보고서 2026 | IBM, Quantinuum, IonQ 및 PsiQuantum Scale Secure Quantum Networks를 통해 2030년까지 CAGR 35.2%를 활용하세요.",
-        "description": "IBM, Quantinuum, IonQ, PsiQuantum 및 Quantum Brilliance가 양자 컴퓨팅 및 통신 제품을 다루는 프로필을 작성했습니다. 더블린, 11월 2일",
-        "url": "https://finance.yahoo.com/technology/articles/quantum-computing-communications-market-global-144700100.html?.tsrc=rss",
+        "title": "RKLB의 이리듐 거래는 Globalstar가 SpaceX의 우려를 반영함에 따라 열기를 불러일으킵니다 — Rocket Lab은 빠른 FCC 승인을 추구합니다",
+        "description": "Globalstar는 Rocket Lab의 공급업체 관계가 Globalstar의 비용으로 Iridium을 선호하는 인센티브를 제공할 수 있다고 경고했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/rklb-iridium-deal-globalstar-spacex-concerns-rocketlab-fast-fcc-approval/cNGQHAcR957?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/02 23:47",
-        "score": 5
+        "publishedAt": "11/03 15:47",
+        "score": 7
       }
     ]
   }
