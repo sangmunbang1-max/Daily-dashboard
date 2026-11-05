@@ -1,301 +1,229 @@
 {
-  "generated_at_kst": "2026-11-04 11:31 KST",
-  "period": "11/03 07:00 ~ 11/04 07:00 KST",
+  "generated_at_kst": "2026-11-05 11:38 KST",
+  "period": "11/04 07:00 ~ 11/05 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "미국 중간 선거: 여론조사가 시작되면서 다우지수는 거의 200포인트 하락하고 S&P 500과 나스닥 엣지는 상승했습니다.",
-        "description": "전략가들이 결과가 안도 집회나 새로운 매도를 촉발할 수 있는지 여부를 평가함에 따라 월스트리트는 선거로 인한 불확실성에 대비하고 있습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-midterm-elections-dow-falls-nearly-200-points-s-and-p-500-and-nasdaq-edge-higher-as-polls-begin/cNGX48VR95x?.tsrc=rss",
+        "title": "S&P 500 주식의 60%가 약세장에 있으며 지수는 기록에 가까워졌습니다.",
+        "description": "Goldman Sachs는 이를 숨겨진 약세장이라고 불렀지만 S&P 500은 사상 최고치에 근접했습니다. 그 모순이 실제 어디에 있는지에 대해 무엇을 드러내는지 이해하기",
+        "url": "https://247wallst.com/investing/2026/11/04/60-of-sp-500-stocks-are-in-a-bear-market-with-the-index-near-a-record/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 23:52",
-        "score": 10
+        "publishedAt": "11/04 22:28",
+        "score": 12
       },
       {
-        "title": "수익이 Kinross Gold Stock 투자자에게 미치는 영향",
-        "description": "Kinross Gold는 2026년 3분기 순이익이 5억 8,320만 달러로 보고되었으며, 주당 순이익은 금 등가물 생산 감소와 함께 전년 동기 대비 증가했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-impact-kinross-gold-191350644.html?.tsrc=rss",
+        "title": "SPDR S&P 500 ETF(SPY), 11월 2일에 2억 9,700만 달러 추가로 Apple 매입",
+        "description": "이 펀드는 총 구매액 39억 달러를 추가하여 501개의 직위를 해제하고 아무것도 줄이지 않았습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110409530.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 04:13",
-        "score": 7
-      },
-      {
-        "title": "Palantir 주식은 계약 성장에 대한 우려가 높아지면서 수익이 감소했음에도 불구하고 하락했습니다.",
-        "description": "분기별 매출이 월스트리트 예측을 초과했음에도 불구하고 화요일 시판 전 거래에서 주가는 약 8% 하락한 $164.05를 기록했습니다. 주식은 나중에 손실을 입었습니다.",
-        "url": "https://www.ibtimes.com/palantir-revenue-growth-contracts-shares-fall-3809340?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/04 04:01",
-        "score": 6
-      },
-      {
-        "title": "평균 주식은 2009년 이후 가장 많이 S&P 500을 앞질렀습니다.",
-        "description": "10월에는 S&P 500과 그 안에 있는 일반적인 주식 사이에 보기 드문 격차가 벌어졌습니다. 이는 지난 15년 동안 볼 수 없었던 격차였으며 이제 투자자들은 하락세에 직면해 있습니다.",
-        "url": "https://247wallst.com/investing/2026/11/03/the-average-stock-just-beat-the-sp-500-by-the-most-since-2009/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/03 23:12",
-        "score": 6
-      },
-      {
-        "title": "중간 선거 후 S&P 500: 역사가 말하는 것과 시장의 위치",
-        "description": "Investing.com -- 역사를 보면 중간선거는 시장 계절성 측면에서 가장 깨끗한 기록 중 하나입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-midterm-elections-history-204037875.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/04 05:40",
+        "publishedAt": "11/04 20:04",
         "score": 5
+      },
+      {
+        "title": "푸른 쓰나미는 주식시장의 채권 문제를 해결하지 못한다",
+        "description": "워싱턴의 정체는 장기 차입 비용에 대한 압박을 유지하는 인플레이션 및 적자 위험을 해결하지 못할 것입니다.",
+        "url": "https://finance.yahoo.com/m/d1da576b-bba0-35a1-9f5d-db294e2e936a/the-blue-tsunami-doesn%E2%80%99t.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/05 03:49",
+        "score": 4
+      },
+      {
+        "title": "투자자들이 미국 중간 선거 결과에 반응함에 따라 Exchange-Traded Funds, 주식 선물은 수요일 벨 전 상승",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.9% 상승했고 적극적으로 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 23:18",
+        "score": 4
+      },
+      {
+        "title": "블루 웨이브, 중간고사 이후 월스트리트 랠리 촉발",
+        "description": "Yahoo Finance Markets 및 데이터 편집자 Jared Blikre는 Market Overtime에 합류하여 투자자들이 민주당에 반응하는 동안 월스트리트의 선거 후 랠리를 분석했습니다.",
+        "url": "https://finance.yahoo.com/video/blue-wave-sparks-wall-street-rally-after-midterms-212358122.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/05 06:23",
+        "score": 3
       }
     ],
     "kr_market": [
       {
-        "title": "삼성전자(KOSE:A005930), 한국에서 깜짝 AI 파트너십 회담 개최",
-        "description": "삼성전자(KOSE:A005930)는 OpenAI 협력에 관한 고위 경영진과의 예고 없는 회의를 위해 Sam Altman을 한국에 초대했습니다. 토론",
-        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-electronics-kose-a005930-held-231750004.html?.tsrc=rss",
+        "title": "삼성전자, TCL CSOT 지분 10.16% 인수로 전략적 제휴 및 사업 협력 강화",
+        "description": "TCL 테크놀로지와 삼성전자주식회사(삼성전자)는 10월 30일 장 마감 후 공동으로 삼성디스플레이㈜를 인수했다고 발표했다.",
+        "url": "https://finance.yahoo.com/technology/articles/samsung-electronics-acquires-10-16-083600121.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 08:17",
-        "score": 6
-      },
-      {
-        "title": "애플의 '전례 없는' 메모리 경고, 흔들리는 마이크론-SK하이닉스 거래에 기름 더해",
-        "description": "Investing.com -- Apple (NASDAQ:AAPL)은 전 세계적으로 메모리 압박이 계속될 것이라는 가장 분명한 경고 중 하나를 전달했을 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-unprecedented-memory-warning-adds-153146150.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/04 00:31",
+        "publishedAt": "11/04 17:36",
         "score": 5
       },
       {
-        "title": "[단독] '의약품 맞수' 삼성바이오·셀트리온 손잡았다",
+        "title": "\"새해 기쁨, 손끝으로 누리도록\"…점자달력 진화시킨 한화·카카오",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026110337331",
+        "url": "https://www.hankyung.com/article/2026110464011",
         "source": "hankyung.com",
-        "publishedAt": "11/03 18:05",
+        "publishedAt": "11/04 18:25",
         "score": 3
       },
       {
-        "title": "네이버 'AI탭' 국제표준 인증 받았다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110336481",
-        "source": "hankyung.com",
-        "publishedAt": "11/03 17:36",
-        "score": 3
-      },
-      {
-        "title": "[단독] 셀트리온·삼성바이오 협력…韓 '바이오 양강' 손잡았다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202611033413i",
-        "source": "hankyung.com",
-        "publishedAt": "11/03 16:35",
-        "score": 3
+        "title": "한국 벤치마크 지수는 이미 초반 및 중기 선두에서 하락했습니다.",
+        "description": "민주당이 하원과 국회를 장악할 태세를 갖추고 있다는 초기 보도가 나오면서 한국의 종합주가지수는 급락하고 있습니다.",
+        "url": "https://finance.yahoo.com/m/d158bd9a-0d6a-3d27-8259-96247014267a/south-korea%27s-benchmark-index.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/04 12:45",
+        "score": 1
       }
     ],
     "macro": [
       {
-        "title": "주요 정오 뉴스: Apple 회계연도 4분기 EPS, 수익 최고 추정치, 주가 하락; Meta는 채권 판매에서 최대 250억 달러를 목표로 하는 것으로 알려졌습니다.",
-        "description": "S&P 500 지수와 나스닥 종합지수는 화요일 오전 거래에서 상승했고, 다우존스 지수는 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-apple-fiscal-170956313.html?.tsrc=rss",
+        "title": "새로운 연구에 따르면 Union Pacific-Norfolk Southern 합병으로 연간 최대 58억 달러의 경제적, 건강적 혜택을 얻을 수 있다고 합니다.",
+        "description": "트럭 대신 철도로 화물을 운송하면 비용이 절약되고 생명도 구할 수 있습니다. 경제학자, 임팩트 투자 전문가, Creativev 창립자의 새로운 연구",
+        "url": "https://finance.yahoo.com/economy/policy/articles/study-finds-union-pacific-norfolk-173100987.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 02:09",
+        "publishedAt": "11/05 02:31",
         "score": 1
       },
       {
-        "title": "미국 경제 뉴스의 강세로 달러 지지",
-        "description": "오늘 달러 지수(DXY00)는 +0.19% 상승했습니다. 오늘 달러화는 9월 JOLTS 채용 공고 등 예상보다 나은 미국 경제 뉴스에 지지를 얻었습니다.",
-        "url": "https://www.barchart.com/story/news/8618316/dollar-supported-by-strength-in-us-economic-news?.tsrc=rss",
+        "title": "5,000달러 받았나요? 우주 경제의 다음 단계를 뒷받침하는 2가지 성장주.",
+        "description": "Rocket Lab과 Planet Labs는 위성 인프라가 확장되고 우주 기반 지능에 대한 수요가 증가함에 따라 뚜렷한 성장 기회를 제공합니다.",
+        "url": "https://www.fool.com/investing/2026/11/04/got-5000-2-growth-stocks-powering-the-next-phase/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 00:34",
-        "score": 1
-      },
-      {
-        "title": "\"지역경제 살리는 연구로 대구·경북 거주 늘릴 것\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110336461",
-        "source": "hankyung.com",
-        "publishedAt": "11/03 17:37",
+        "publishedAt": "11/05 02:05",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "10년 만기 재무부는 4.9%로 인하됐다. Oklo, Archer 및 Rocket Lab이 모두 무너진 이유와 어쨌든 내가 구매할 제품은 다음과 같습니다.",
-        "description": "국채 수익률 상승은 많은 기업들에게 나쁜 소식이었습니다.",
-        "url": "https://www.fool.com/investing/2026/11/03/the-10-year-treasury-eased-to-49-heres-why-oklo-a/?.tsrc=rss",
+        "title": "중간선거 이후 주택주 반등, 국채수익률 하락",
+        "description": "중간선거 여파로 수요일 주택건설업체와 주택공급업체 주가가 급등했다.",
+        "url": "https://finance.yahoo.com/economy/article/housing-stocks-rally-following-midterm-elections-treasury-yields-dip-lower-171937967.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 21:00",
-        "score": 3
+        "publishedAt": "11/05 02:19",
+        "score": 8
       },
       {
-        "title": "Meta는 AI 부채 붐이 가속화됨에 따라 최소 200억 달러의 채권 매각을 추구합니다.",
-        "description": "Investing.com -- Meta Platforms는 점점 커지는 Big Tech Borr 물결에 합류하여 국경 간 채권 제공을 통해 최소 200억 달러를 조달하려고 합니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/meta-seeks-least-20-billion-145828805.html?.tsrc=rss",
+        "title": "민주당의 큰 승리로 부채 한도 싸움 시작. 선거가 채권에 미치는 영향.",
+        "description": "연방 지출 증가에 대한 우려가 이미 시장에 나타나고 있습니다.",
+        "url": "https://finance.yahoo.com/m/14dbcca7-fe7f-309a-b6c8-3367ae10c6ec/democrats%E2%80%99-big-win-sets-up-a.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 23:58",
-        "score": 1
-      },
-      {
-        "title": "Meta, AI 투자 자금 조달을 위해 부채 제공 시작",
-        "description": "Meta Platforms Inc.는 6개월 만에 처음으로 채권을 마케팅하며, 혼란스러운 상황 속에서 투자자 회의론에 맞서는 최신 기술 대기업이 되었습니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/meta-kicks-off-debt-offering-132551727.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/03 22:25",
+        "publishedAt": "11/05 03:51",
         "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "중간 선거를 앞두고 유가가 회복되면서 미국 국채는 좁은 범위에서 거래됩니다: Commerzbank",
-        "description": "유가가 회복되고 미국 달러가 지지를 유지하며 S&가 유지됨에 따라 국채는 좁은 범위 내에서 거래됩니다.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/us-treasuries-trade-narrow-range-114347921.html?.tsrc=rss",
+        "title": "Diversified Energy, 3분기 배당금 발표",
+        "description": "앨라배마 주 버밍엄, 2026년 11월 4일 (GLOBE NEWSWIRE) -- Diversified Energy Company(NYSE: DEC, LSE: DEC)(“Diversified” 또는 “회사”)는",
+        "url": "https://finance.yahoo.com/energy/articles/diversified-energy-announces-third-quarter-211500051.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 20:43",
-        "score": 5
-      },
-      {
-        "title": "Talos Energy(NYSE:TALO)는 2026년 3분기에 인상적인 성과를 거두었습니다.",
-        "description": "해양 에너지 생산업체인 Talos Energy(NYSE:TALO)는 2026년 3분기에 월스트리트의 매출 기대치를 상회하며 매출이 전년 동기 대비 27.7% 증가한 5억 9600만 달러를 기록했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/talos-energy-nyse-talo-delivers-215131433.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/04 06:51",
+        "publishedAt": "11/05 06:15",
         "score": 3
       },
       {
-        "title": "Apple, Palantir, Pfizer, Marvell, AMD, Bloom Energy, Gartner 및 오늘날 시장을 설명하는 기타 주식",
-        "description": "Apple은 iPhone 제조업체의 지침이 투자자의 높은 기준을 충족하지 못한 후 하락했습니다.",
-        "url": "https://finance.yahoo.com/m/128f1048-6ad1-33df-9ddf-897d7e346cbb/apple%2C-palantir%2C-pfizer%2C.html?.tsrc=rss",
+        "title": "Agnico Eagle은 10% 상승, Wheaton Precious는 12% 상승, 민주당 중간 승리로 금메달 획득",
+        "description": "주요 내용Agnico Eagle은 오늘 Wheaton Precious Metals, Newmont 및 Barrick Mining과 함께 10% 상승했으며 금은 민주당의 발표 이후 3% 상승했습니다.",
+        "url": "https://www.tikr.com/blog/agnico-eagle-soars-10-wheaton-precious-up-12-as-democratic-midterm-win-lifts-gold?ref=yahoofinance&tlnk=yf-261104-c9r635jr&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 06:16",
+        "publishedAt": "11/05 05:03",
         "score": 3
       },
       {
-        "title": "Ameriwest는 역사적인 코어 리샘플링을 통해 오레곤 구리-금 프로젝트를 발전시킵니다.",
-        "description": "Ameriwest Critical Metals의 CEO David Watkinson은 Proactive의 Steve Darling과 합류하여 Bornite 구리-금-금속을 발전시키기 위한 회사의 노력에 대해 논의했습니다.",
-        "url": "https://finance.yahoo.com/video/ameriwest-advances-oregon-copper-gold-191123588.html?.tsrc=rss",
+        "title": "부문 업데이트: 에너지 주식은 수요일 시판 전 하락세를 보였습니다.",
+        "description": "에너지 주식은 수요일 State Street Energy Select Sector SPDR ET와 함께 시판 전 하락세를 보였습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142506383.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 04:11",
+        "publishedAt": "11/04 23:25",
         "score": 3
-      },
-      {
-        "title": "애플의 '전례 없는' 메모리 경고, 흔들리는 마이크론-SK하이닉스 거래에 기름 더해",
-        "description": "Investing.com -- Apple (NASDAQ:AAPL)은 전 세계적으로 메모리 압박이 계속될 것이라는 가장 분명한 경고 중 하나를 전달했을 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-unprecedented-memory-warning-adds-153146150.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/04 00:31",
-        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "투자자들이 알파벳 주식 유로 채권 판매에 반응하는 방법",
-        "description": "Alphabet은 최근 2045년 만기 9억 9,575만 유로(5.250%) 및 12억 4,968억 8,000만 유로(4.05% 없음)를 포함하여 여러 유로 및 미국 달러 채권 발행을 완료했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-alphabet-stock-130935219.html?.tsrc=rss",
+        "title": "민주당이 의회를 다시 장악함에 따라 달러 후퇴",
+        "description": "달러 지수(DXY00)는 수요일 5주 최저치로 하락한 뒤 -0.32% 하락으로 마감했습니다. 달러는 수요일 민주당이 의회를 휩쓴 후 하락했습니다.",
+        "url": "https://www.barchart.com/story/news/8655190/dollar-retreats-as-democrats-retake-control-of-congress?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 22:09",
-        "score": 3
-      },
-      {
-        "title": "트럼프는 비트코인이 '사기처럼 보인다'고 말한 적이 있으며 달러와 경쟁하고 있었습니다. 그는 4년 후 대통령으로서 암호화폐로 14억 달러를 벌었습니다.",
-        "description": "비트코인은 한때 도널드 트럼프 대통령이 미국 달러에 대한 위협으로 간주한 것이었습니다. 이제 그의 가족과 관련된 암호화폐 벤처는 더 많은 수익을 창출했습니다.",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/trump-once-said-bitcoin-seems-183006830.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/04 03:30",
+        "publishedAt": "11/05 05:34",
         "score": 1
       },
       {
-        "title": "미국 경제 뉴스의 강세로 달러 지지",
-        "description": "오늘 달러 지수(DXY00)는 +0.19% 상승했습니다. 오늘 달러화는 9월 JOLTS 채용 공고 등 예상보다 나은 미국 경제 뉴스에 지지를 얻었습니다.",
-        "url": "https://www.barchart.com/story/news/8618316/dollar-supported-by-strength-in-us-economic-news?.tsrc=rss",
+        "title": "달러 약세로 뉴욕 설탕 반등",
+        "description": "3월 뉴욕 세계 설탕 #11(SBH27)은 수요일에 +0.14(+0.76%) 상승으로 마감했고, 12월 런던 ICE 백설탕 #5(SWZ26)는 -2.70(-0.54%) 하락으로 마감했습니다. 에스",
+        "url": "https://www.barchart.com/story/news/8654246/ny-sugar-rebounds-on-dollar-weakness?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 00:34",
-        "score": 1
-      },
-      {
-        "title": "화요일 오전 미국 달러는 중간 선거에 주목하면서 혼조세를 보이고 있습니다.",
-        "description": "미국 달러는 화요일 오전 주요 거래 상대국 대비 혼조세를 보였습니다. 유로 대비 상승세를 보였습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-tuesday-124221906.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/03 21:42",
+        "publishedAt": "11/05 04:33",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "애플의 '전례 없는' 메모리 경고, 흔들리는 마이크론-SK하이닉스 거래에 기름 더해",
-        "description": "Investing.com -- Apple (NASDAQ:AAPL)은 전 세계적으로 메모리 압박이 계속될 것이라는 가장 분명한 경고 중 하나를 전달했을 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-unprecedented-memory-warning-adds-153146150.html?.tsrc=rss",
+        "title": "실제 석유는 입찰 전쟁에서 화재 판매로 전환되었습니다.",
+        "description": "한 달 전 사용 가능한 모든 배럴을 놓고 싸우던 정유업체들은 이제 제안을 거절하고 나이지리아 화물을 미판매 상태로 남겨두고 있지만 선물 가격은 계속 유지되고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/11/04/physical-oil-just-went-from-a-bidding-war-to-a-fire-sale/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 00:31",
-        "score": 2
-      },
-      {
-        "title": "Tongguan Gold Group (SEHK:340) 주식은 3년 동안 383% 상승한 후 프리미엄으로 거래됨",
-        "description": "Tongguan Gold Group은 3년 동안 매우 큰 주가 상승을 기록했지만 지난 1년 동안 주가가 하락하여 주목을 받고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tongguan-gold-group-sehk-340-201455354.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/04 05:14",
+        "publishedAt": "11/05 01:04",
         "score": 1
       },
       {
-        "title": "분석가는 미국 중간고사에서 금과 비트코인에 대해 큰 경고를 보냅니다.",
-        "description": "분석가 Mike McGlone은 중간고사 이후 주식시장 조정이 비트코인과 금의 폭락을 촉발할 수 있다고 경고했습니다.",
-        "url": "https://www.thestreet.com/crypto/markets/analyst-sends-big-warning-on-gold-and-bitcoin-amid-u-s-midterms?.tsrc=rss",
+        "title": "레이 달리오(Ray Dalio)는 AI 버블을 경고한다. Nvidia와 Palantir에 대한 Michael Burry의 베팅이 논쟁에 추가됩니다.",
+        "description": "반도체 거대 기업부터 AI 소프트웨어 리더까지, AI 랠리의 다음 단계는 투자자의 위험 선호도를 테스트할 수 있습니다.",
+        "url": "https://www.barchart.com/story/news/8647487/ray-dalio-is-warning-of-an-ai-bubble-michael-burrys-bets-against-nvidia-and-palantir-add-to-the-debate?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 04:30",
+        "publishedAt": "11/04 23:36",
         "score": 1
       },
       {
-        "title": "Dell(DELL): 13배의 선행 수익으로 상위 10개 저렴한 AI 주식 거래",
-        "description": "우리는 2027년에 매수할 수 있는 가장 좋고 저렴한 주식 10개 목록을 방금 발표했으며 Dell Technologies(NYSE:DELL)는 이 목록에서 10위를 차지했습니다. 월 스트리트",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dell-dell-top-10-cheap-185313697.html?.tsrc=rss",
+        "title": "투자자들이 미국 중간 선거 결과에 반응함에 따라 Exchange-Traded Funds, 주식 선물은 수요일 벨 전 상승",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.9% 상승했고 적극적으로 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 03:53",
+        "publishedAt": "11/04 23:18",
         "score": 1
       },
       {
-        "title": "오라클(ORCL): 단 11배의 수익으로 저렴한 상위 10개 AI 주식 거래",
-        "description": "우리는 2027년에 매수할 수 있는 가장 좋고 저렴한 주식 10개 목록을 방금 발표했으며 Oracle(NYSE:ORCL)은 이 목록에서 6위를 차지했습니다. 월스트리트의 AI tr",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-top-10-cheap-183905094.html?.tsrc=rss",
+        "title": "BofA는 8월 선거일 밤에 대해 경고했습니다.",
+        "description": "Bank of America의 한 전략가는 몇 달 전에 시장이 결코 도달하지 않기를 바라는 시나리오를 제시했는데, 이제 그렇게 되자 선물은 정확하게 움직이고 있습니다.",
+        "url": "https://247wallst.com/investing/2026/11/04/bofa-warned-about-this-exact-election-night-in-august/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 03:39",
+        "publishedAt": "11/04 22:12",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Apple, Palantir, Pfizer, Marvell, AMD, Bloom Energy, Gartner 및 오늘날 시장을 설명하는 기타 주식",
-        "description": "Apple은 iPhone 제조업체의 지침이 투자자의 높은 기준을 충족하지 못한 후 하락했습니다.",
-        "url": "https://finance.yahoo.com/m/128f1048-6ad1-33df-9ddf-897d7e346cbb/apple%2C-palantir%2C-pfizer%2C.html?.tsrc=rss",
+        "title": "Rocket Lab은 4% 하락하고 SpaceX는 중간고사에서 4% 하락하여 머스크를 \"가장 큰 패자\"로 만들었습니다.",
+        "description": "주요 시사점 민주당이 화요일 중간고사를 휩쓸고 엘론 머스크에 대한 반발이 우주주 전반으로 확산된 후 로켓랩 주가는 4% 하락했습니다. AST 스파",
+        "url": "https://www.tikr.com/blog/rocket-lab-falls-4-spacex-down-4-as-midterms-make-musk-the-biggest-loser?ref=yahoofinance&tlnk=yf-261104-q45r2fr7&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 06:16",
+        "publishedAt": "11/05 06:11",
         "score": 7
       },
       {
-        "title": "삼성, AMD, Nvidia에 새로운 텍사스 칩 공장 주문 확보",
-        "description": "삼성전자는 텍사스주 테일러의 두 번째 공장에서 계획된 모든 생산량에 대한 구매자를 확보한 것으로 알려졌다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-secures-amd-nvidia-orders-182115321.html?.tsrc=rss",
+        "title": "레이 달리오(Ray Dalio)는 AI 버블을 경고한다. Nvidia와 Palantir에 대한 Michael Burry의 베팅이 논쟁에 추가됩니다.",
+        "description": "반도체 거대 기업부터 AI 소프트웨어 리더까지, AI 랠리의 다음 단계는 투자자의 위험 선호도를 테스트할 수 있습니다.",
+        "url": "https://www.barchart.com/story/news/8647487/ray-dalio-is-warning-of-an-ai-bubble-michael-burrys-bets-against-nvidia-and-palantir-add-to-the-debate?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/04 03:21",
+        "publishedAt": "11/04 23:36",
         "score": 7
       },
       {
-        "title": "한국, AI 칩 예산을 두 배로 늘린다: 물결을 탈 4개의 ETF",
-        "description": "한국은 반도체 성장을 촉진하기 위해 AI 칩 예산을 거의 두 배로 늘렸습니다. 국가 기록적인 지출로 이익을 얻을 수 있는 4가지 ETF를 찾아보세요.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-doubles-ai-chip-131800666.html?.tsrc=rss",
+        "title": "중간 선거 영향: 머스크의 정치적 유대로 인해 Tesla-SpaceX 합병이 새로운 조사를 받음에 따라 SPCX, ASTS, RKLB 주식이 하락함",
+        "description": "Morgan Stanley는 2028년 예상 수익에 대해 S&P 500보다 약간 낮은 SpaceX의 가치를 평가했으며 2031년까지 긍정적인 잉여 현금 흐름을 예상했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/midterm-election-impact-spcx-asts-rklb-musk-political-tesla-spacex-merger-scrutiny/cNGLRztR9dU?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 22:18",
-        "score": 7
+        "publishedAt": "11/04 15:50",
+        "score": 6
       },
       {
-        "title": "AMD, Nvidia가 Samsung의 텍사스 칩 공장 고객 목록에 Tesla에 합류할 수 있음: 보고서",
-        "description": "로이터 보고서에 따르면 텍사스에 계획된 공장은 대부분 AMD로부터 전체 생산량에 대한 주문을 받았습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/amd-nvidia-could-join-tesla-on-samsung-s-texas-chip-plant-customer-list-report/cNGX21iR95F?.tsrc=rss",
+        "title": "D-Wave Quantum Stock이 10월에 양자 컴퓨팅 충돌을 주도한 이유",
+        "description": "지난달 양자컴퓨팅 주식은 큰 폭으로 하락했다. D-Wave Quantum은 다른 제품보다 뛰어났습니다.",
+        "url": "https://www.fool.com/investing/2026/11/04/why-d-wave-quantum-stock-led-a-quantum-computing-crash-in-october/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 21:14",
-        "score": 7
+        "publishedAt": "11/05 06:07",
+        "score": 5
       },
       {
-        "title": "RKLB의 이리듐 거래는 Globalstar가 SpaceX의 우려를 반영함에 따라 열기를 불러일으킵니다 — Rocket Lab은 빠른 FCC 승인을 추구합니다",
-        "description": "Globalstar는 Rocket Lab의 공급업체 관계가 Globalstar의 비용으로 Iridium을 선호하는 인센티브를 제공할 수 있다고 경고했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/rklb-iridium-deal-globalstar-spacex-concerns-rocketlab-fast-fcc-approval/cNGQHAcR957?.tsrc=rss",
+        "title": "IonQ, QuantumCT와 협력하여 코네티컷 전역에서 양자 컴퓨팅 액세스 확장",
+        "description": "IonQ(NYSE:IONQ)는 대학, 연구원,",
+        "url": "https://investorshub.advfn.com/market-news/article/39283/ionq-partners-with-quantumct-to-expand-quantum-computing-access-across-connecticut?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/03 15:47",
-        "score": 7
+        "publishedAt": "11/05 00:37",
+        "score": 5
       }
     ]
   }
