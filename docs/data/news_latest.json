@@ -1,285 +1,293 @@
 {
-  "generated_at_kst": "2026-11-06 11:41 KST",
-  "period": "11/05 07:00 ~ 11/06 07:00 KST",
+  "generated_at_kst": "2026-11-07 11:08 KST",
+  "period": "11/06 07:00 ~ 11/07 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "주식 시장 붕괴 또는 랠리? 둘 다에 대한 계획",
-        "description": "중간고사 가이드의 일부입니다. 여기에서 시작하세요. 투표가 귀하의 돈에 대해 실제로 어떤 변화를 가져오는지 살펴보세요.",
-        "url": "https://www.trefis.com/stock/spy/articles/622741/stock-market-crash-or-rally-plan-for-both/2026-11-05?.tsrc=rss",
+        "title": "나스닥은 전멸되고, 10월 채용 보고서 및 인류는 IPO 장애물에 직면함",
+        "description": "8시 30분 진행자, Pras Subramanian, AInvest 편집장 Adam Shapiro, Interactive Brokers의 최고 전략가 Steve Sosnick이 3월 상위권을 분석합니다.",
+        "url": "https://finance.yahoo.com/video/nasdaq-gets-wiped-out-october-jobs-report-and-anthropic-facing-ipo-hurdles-150001475.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 22:12",
-        "score": 9
+        "publishedAt": "11/07 00:00",
+        "score": 8
       },
       {
-        "title": "AI 주식의 잔혹한 매도는 월스트리트를 휘청거리게 하고 S&P 500은 4.4% 폭락합니다.",
-        "description": "뉴욕(AP) - 목요일 월스트리트를 휩쓸었던 잔인한 매도세는 AI 데이터 센터 구축과 관련된 주식에 의해 주도되었습니다. 시대보다 더한 전멸",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-advance-following-025925939.html?.tsrc=rss",
+        "title": "월스트리트의 AI 충돌이 아시아를 강타했습니다: 한국은 정지되고 일본은 하락장에 있습니다.",
+        "description": "두 개의 메모리 칩 제조업체가 하나의 한국 펀드를 운영하고 있으며 월스트리트의 AI 매도는 아시아가 개장하기도 전에 두 가지 모두를 타격했습니다. 왜 하나의 ETF가 2배나 하락했는가?",
+        "url": "https://247wallst.com/investing/2026/11/06/wall-streets-ai-crash-just-hit-asia-korea-halted-japan-in-a-bear-market/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 11:59",
-        "score": 9
+        "publishedAt": "11/06 22:12",
+        "score": 8
       },
       {
-        "title": "SPDR S&P 500 ETF(SPY)가 매수한 것: Okta가 11월 3일 선두를 달리고 있습니다.",
-        "description": "이 펀드는 총 거래 11억 7천만 달러에 순매수 11억 1천만 달러를 추가하여 491개 포지션을 늘리고 11개를 줄였습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110352492.html?.tsrc=rss",
+        "title": "IONQ 3분기 실적, 추정치 상회, 2026년 매출 전망 증가, 재고 증가",
+        "description": "IonQ의 3분기 매출은 양자 컴퓨팅 수요가 가속화되고 SkyWater가 제조 역량을 강화하며 2026년 매출 가이던스가 높아지면서 336% 급증했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-q3-earnings-beat-estimates-141800921.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 20:03",
-        "score": 5
+        "publishedAt": "11/06 23:18",
+        "score": 6
       },
       {
-        "title": "월스트리트가 소프트웨어의 AI 승자들을 내쫓으면서 Palantir와 CrowdStrike 주식이 폭락했습니다.",
-        "description": "투자자들은 AI 붐을 탄 소프트웨어 주식을 팔고 뒤처진 주식을 대부분 아끼고 있다.",
-        "url": "https://finance.yahoo.com/markets/article/palantir-and-crowdstrike-stocks-tumble-as-wall-street-dumps-softwares-ai-winners-173540737.html?.tsrc=rss",
+        "title": "금리 인상이 올 수 있음: 역사는 이 4가지 필수 소비재 주식을 좋아합니다.",
+        "description": "연준은 잠시 중단을 끝냈고 거래자들은 이제 12월까지 또 다른 인상을 가격에 반영하고 있습니다. 지난 3번의 긴축 사이클을 통해 어떤 유명 주식이 주식을 보유하고 있는지 알 수 있습니다.",
+        "url": "https://247wallst.com/investing/2026/11/06/rate-hikes-could-be-coming-history-likes-these-4-consumer-staples-stocks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 02:35",
-        "score": 4
+        "publishedAt": "11/06 22:37",
+        "score": 6
       },
       {
-        "title": "AI 주식에 대한 압박 속에서 상장지수펀드와 주식선물이 벨 전 목요일에 혼합되었습니다.",
-        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.1% 상승했고 적극적으로 거래되었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141133476.html?.tsrc=rss",
+        "title": "SK하이닉스가 11.7%, 대만이 8% 이상 하락하면서 아시아 칩 주가가 밤새 폭락했습니다. 이제 나스닥 선물은 더 높은 곳을 가리키고 있습니다",
+        "description": "TSMC 주가는 타이페이에서 급락했지만 뉴욕에서는 종소리가 울리기 전에 상승하고 있습니다. 그 차이는 목요일의 대패에서 실제로 누가 타격을 입었는지, 그리고 어느 A가",
+        "url": "https://247wallst.com/investing/2026/11/06/asias-chip-stocks-crashed-overnight-with-sk-hynix-down-11-7-and-taiwan-off-more-than-8-now-nasdaq-futures-are-pointing-higher/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 23:11",
-        "score": 4
+        "publishedAt": "11/06 20:45",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "다우지수가 상승하는 동안 SK하이닉스는 약 8% 하락: 서울 가격은 얼마입니까?",
-        "description": "민주당이 의회에서 승리한 후 SK하이닉스는 7.74% 하락했고 다우지수는 3% 상승해 AI 데이터센터 규정 강화에 대한 우려가 되살아났습니다.",
-        "url": "https://beincrypto.com/sk-hynix-drops-dow-jumps-seoul/?.tsrc=rss",
+        "title": "코스피가 장중 5,000선 아래로 떨어지면서 삼성전자 주가는 6.35% 하락했다.",
+        "description": "AI 데이터센터 우려가 월스트리트에서 확산되자 외국인 투자자들은 2조7700억원의 한국 주식을 투매했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stocks-fall-6-162433561.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 10:37",
+        "publishedAt": "11/07 01:24",
+        "score": 10
+      },
+      {
+        "title": "SK하이닉스, AI 메모리 선두주자 서울 매도세 주도로 주가 10.44% 급락",
+        "description": "HBM 공급업체는 AI 지출 우려로 코스피가 6.02% 하락하면서 삼성보다 더 심하게 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-plunge-10-162015806.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/07 01:20",
         "score": 8
       },
       {
-        "title": "Samsung Electronics (KOSE:A005930) 주가는 220% 상승에도 불구하고 여전히 저렴한 가격일 수 있습니다.",
-        "description": "삼성전자는 강력한 장기 주가 상승세를 보여왔으나, 최근 주가 하락으로 인해 투자자로서 명확한 의문이 남습니다. 는",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-stock-152141627.html?.tsrc=rss",
+        "title": "한국의 '블랙 프라이데이'에 마이크론 전염병이 확산되면서 코스피가 하락했습니다.",
+        "description": "한국 주식시장은 하룻밤 사이에 현지 언론이 \"블랙 프라이데이\"라고 부르는 붕괴를 겪으면서 다시 큰 타격을 입었습니다.",
+        "url": "https://finance.yahoo.com/m/5b56a81d-1e1c-39a7-8a83-1d9b922141ec/kospi-sinks-as-micron.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 00:21",
-        "score": 5
+        "publishedAt": "11/06 19:29",
+        "score": 6
       },
       {
-        "title": "코스피, 칩 대패로 하락, 미국 기술 선물 압박",
-        "description": "빅테크와 반도체의 글로벌 냉각은 밤새 아시아에 공격적으로 파급되었습니다.",
-        "url": "https://finance.yahoo.com/m/abf6443f-bd9b-3c73-aa99-a7fc485ad923/kospi-tumbles-on-chips-rout%2C.html?.tsrc=rss",
+        "title": "일본 닛케이, 한국 코스피, 대만 증시 하락으로 아시아 증시 급락",
+        "description": "한국 코스피는 8% 이상 폭락해 거래가 중단됐고, 일본 닛케이와 대만 증시는 AI 매도세 속에 급락했다.",
+        "url": "https://www.foxbusiness.com/markets/asian-stock-markets-plunge-japan-nikkei-south-korea-kospi-taiwan-stocks-fall?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 19:21",
-        "score": 5
+        "publishedAt": "11/06 18:51",
+        "score": 6
       },
       {
-        "title": "서울이 매도하는 동안 한국 최대 규모의 미국 ETF가 랠리를 펼친 이유와 중간고사 이후의 의미",
-        "description": "한국 최대 규모의 미국 상장 주식형 ETF가 11월 3일 국내 증시가 하락세를 보임에도 불구하고 반도체 펀드와 함께 상승세를 탔다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-south-korea-largest-us-160007314.html?.tsrc=rss",
+        "title": "한국 코스피, AI 손실로 8% 전멸 후 거래 중단",
+        "description": "Investing.com-- 한국 코스피 주가가 금요일 개장에서 8% 급락했고 시장이 전문가들과 씨름하면서 20분간 거래가 중단됐다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/south-korea-kospi-halts-trade-011744724.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 01:00",
-        "score": 4
-      },
-      {
-        "title": "정신아 \"연내 카카오 AI 이용 1000만명 달성\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110590291",
-        "source": "hankyung.com",
-        "publishedAt": "11/05 17:21",
-        "score": 3
+        "publishedAt": "11/06 10:17",
+        "score": 6
       }
     ],
     "macro": [
       {
-        "title": "중앙은행은 세계 보석 구매자보다 더 많은 금을 구입했습니다. 뭔가 큰 변화가 일어나고 있습니다.",
-        "description": "금의 가장 신뢰할 수 있는 구매자는 신부와 쇼핑객이었습니다. 이제 정부는 채권이 넉넉한 실질 수익을 지불하고 홍보에도 불구하고 그 자리를 차지하고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/11/05/central-banks-just-bought-more-gold-than-the-worlds-jewelry-buyers-something-big-is-changing/?.tsrc=rss",
+        "title": "미국 주식 시장은 예상치 못한 비농업 부문 고용 보고서 이후 혼조세로 마감했습니다.",
+        "description": "금요일 미국 주가지수는 10월 비농업 고용이 예상보다 2배 이상 증가한 이후 혼조세를 보였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-mixed-213118918.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 01:43",
+        "publishedAt": "11/07 06:31",
+        "score": 6
+      },
+      {
+        "title": "\"이례적으로 강한 고용\"…미국 금리인상 확률 '매우 높음'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202611061820i",
+        "source": "hankyung.com",
+        "publishedAt": "11/06 23:28",
         "score": 3
       },
       {
-        "title": "미국 경제력과 매파적인 연준의 의견이 뒷받침하는 달러",
-        "description": "오늘 달러 지수(DXY00)는 +0.02% 상승했습니다. 오늘 달러화 가치는 예상보다 나은 미국 경제 소식에 힘입어 소폭 상승했습니다. 주간 직업",
-        "url": "https://www.barchart.com/story/news/8676132/dollar-supported-by-us-economic-strength-and-hawkish-fed-comments?.tsrc=rss",
+        "title": "오늘 스털링: 미국 급여 지급 이전에 달러가 확고하게 유지되면서 파운드가 하락했습니다.",
+        "description": "Investing.com -- 10월 미국 고용 보고서와 기술주 발표를 앞두고 달러 가치가 강세를 보이면서 금요일 파운드화는 하락했고 유로화도 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-slips-dollar-111408137.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 00:36",
+        "publishedAt": "11/06 20:14",
+        "score": 3
+      },
+      {
+        "title": "미국 경제력의 징후에 달러 상승",
+        "description": "달러 지수(DXY00)는 오늘 1주 최고치로 반등했으며 +0.54% 상승했습니다. 오늘 달러는 예상보다 강한 미국 10월 급여 지수로 인해 급등했습니다.",
+        "url": "https://www.barchart.com/story/news/8702639/dollar-climbs-on-signs-of-us-economic-strength?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/07 00:38",
+        "score": 1
+      },
+      {
+        "title": "퇴근하자마자 가도 '텅텅'…중고가 95만원까지 뛴 '레어템' [덕질 경제학]",
+        "description": "",
+        "url": "https://www.hankyung.com/article/202611061041H",
+        "source": "hankyung.com",
+        "publishedAt": "11/06 19:29",
         "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "이 3개 국채 ETF의 월별 수표는 이자율에 따라 움직입니다. 퇴직자가 기대해야 할 사항은 다음과 같습니다.",
-        "description": "연준은 방금 금리를 다시 올렸고, 재무부 ETF 수입으로 생활하는 퇴직자의 경우 월별 수표 시기는 전적으로 어떤 펀드에 따라 달라집니다.",
-        "url": "https://247wallst.com/investing/etf/2026/11/05/the-monthly-check-from-these-3-treasury-etfs-moves-with-interest-rates-heres-what-retirees-should-expect/?.tsrc=rss",
+        "title": "주간 스프레드: 이번 주 미국 국채 수익률과 달러의 형성 원인",
+        "description": "미국 중간 선거의 극적인 정치적 변화와 심각한 기술주 매도세로 인해 대규모 안전 이탈이 발생하여 국채 수익률이 급락했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/the-weekly-spread-what-shaped-us-treasury-yields-and-the-dollar-this-week/cNGlQjfR94M?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 19:41",
-        "score": 3
-      },
-      {
-        "title": "AI 매도 확장, 블루 웨이브 반향으로 재무부 이익 증가",
-        "description": "투자자들이 미국 중간선거에서 민주당 압승의 의미를 소화함에 따라 인공지능 주식은 전 세계적으로 계속 약세를 보였습니다.",
-        "url": "https://www.wsj.com/finance/stocks/ai-selloff-extends-treasurys-gain-as-blue-wave-reverberates-2d60fa21?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/05 18:46",
-        "score": 3
-      },
-      {
-        "title": "월스트리트는 이미 2027년 부채한도 싸움을 준비하고 있다",
-        "description": "민주당은 방금 큰 승리를 거두었고 채권 투자자들은 이미 다음 대결을 주시하고 있습니다. 재무부의 차용 공간은 계획보다 빠르게 줄어들고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/11/05/wall-street-is-already-bracing-for-a-2027-debt-ceiling-fight/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/06 01:48",
-        "score": 1
-      },
-      {
-        "title": "BondBloxx, 오늘날의 채권 시장을 반영하는 더욱 완벽한 핵심 채권 ETF인 BBLX 출시",
-        "description": "BondBloxx Core Plus ETF는 추가 수익 기회를 위해 기존의 집계 부문을 넘어 확장됩니다. LARKSPUR, 캘리포니아, 2026년 11월 5일 (GLOBE NEWSWIR",
-        "url": "https://finance.yahoo.com/markets/options/articles/bondbloxx-launches-bblx-more-complete-133000189.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/05 22:30",
-        "score": 1
+        "publishedAt": "11/06 13:30",
+        "score": 8
       }
     ],
     "commodities": [
       {
-        "title": "오늘, 2026년 11월 5일 목요일 금 가격: 2026년 최악의 자산 중 하나가 방금 상승했습니까?",
-        "description": "금 선물은 2026년 11월 5일 목요일 종가 대비 0.1% 상승한 트로이 온스당 $4,075.40에 개장했습니다. 오늘 아침 금값이 올랐네요",
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-5-2026-did-one-of-2026s-worst-assets-just-get-a-boost-142402603.html?.tsrc=rss",
+        "title": "유가 하락으로 이익을 얻을 수 있는 여행주 3가지",
+        "description": "지정학은 투자자들에게 완전한 휴식을 제공하는 경우가 거의 없지만 미국의 이란 위험 완화와 유가 하락의 조짐은 글로벌 무역의 일부에 대해 정확하게 이를 수행했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-travel-stocks-could-benefit-191631433.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 23:24",
+        "publishedAt": "11/07 04:16",
         "score": 5
       },
       {
-        "title": "Polaris Renewable Energy, 2026년 3분기 결과 발표",
-        "description": "토론토, 온타리오 / ACCESS Newswire / 2026년 11월 5일 / (TSX:PIF)(\"Polaris Renewable Energy\" 또는 \"회사\")는 재무 및 운영을 보고하게 된 것을 기쁘게 생각합니다.",
-        "url": "https://finance.yahoo.com/energy/articles/polaris-renewable-energy-announces-q3-132500487.html?.tsrc=rss",
+        "title": "S&P 500은 선거 여파로 에너지 및 기술 하락으로 주간 하락세를 기록했습니다.",
+        "description": "스탠더드앤드푸어스(S&P) 500지수는 이번 주 에너지와 기술주 하락으로 인해 2.7% 하락했다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-weekly-drop-214616427.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 22:25",
+        "publishedAt": "11/07 06:46",
+        "score": 3
+      },
+      {
+        "title": "업종 업데이트: 늦은 오후 에너지주 하락세",
+        "description": "에너지 주식은 금요일 오후 늦게 NYSE 에너지 부문 지수가 0.1% 완화되면서 약세를 보였습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-205956608.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/07 05:59",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "달러 약세와 원유 가격 상승으로 인해 설탕 매도가 발생했습니다.",
-        "description": "3월 뉴욕 세계 설탕 #11(SBH27)은 오늘 +0.22(+1.19%) 상승했고, 12월 런던 ICE 백설탕 #5(SWZ26)은 +6.80(+1.37%) 상승했습니다. 설탕 가격은 e입니다.",
-        "url": "https://www.barchart.com/story/news/8678868/dollar-weakness-and-higher-crude-prices-spur-short-covering-in-sugar?.tsrc=rss",
+        "title": "미국 달러 가격 예측: EUR/USD, GBP/USD가 미국 NFP를 기다리면서 DXY Eyes 102.08",
+        "description": "미국 달러 가격 예측: 미국 NFP는 DXY가 102.08을 바라보고 EUR/USD가 1.11755 지원을 보고 GBP/USD가 1.3406 피벗을 테스트함에 따라 Fed 기대치를 테스트합니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-065835858.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 02:23",
+        "publishedAt": "11/06 15:58",
+        "score": 7
+      },
+      {
+        "title": "미국 고용 데이터 이후 기술주 부분 반등, 달러 상승",
+        "description": "예상보다 나은 미국 고용 데이터 이후 달러가 반등함에 따라 기술주 주가는 금요일 상승하여 이전 세션의 패배로 인한 손실의 일부를 회복했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tech-firms-suffer-bloodbath-us-022200707.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/07 06:47",
         "score": 1
       },
       {
-        "title": "AMD에 1,000달러를 투자하고 더 이상 달러를 추가하지 않으면 어떻게 되나요?",
-        "description": "AMD 주가는 한 달 만에 23% 이상 급등했고, 연초 대비 127%의 상승률을 기록했으며, 일회성 $1,000 베팅이 두 번의 매우 큰 하락을 가리키고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/11/05/what-happens-if-you-invest-1000-in-amd-and-never-add-another-dollar/?.tsrc=rss",
+        "title": "미국 경제력의 징후에 달러 상승",
+        "description": "달러 지수(DXY00)는 오늘 1주 최고치로 반등했으며 +0.54% 상승했습니다. 오늘 달러는 예상보다 강한 미국 10월 급여 지수로 인해 급등했습니다.",
+        "url": "https://www.barchart.com/story/news/8702639/dollar-climbs-on-signs-of-us-economic-strength?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 02:03",
+        "publishedAt": "11/07 00:38",
         "score": 1
       },
       {
-        "title": "삼성 월렛 사용자는 이제 솔라나에서 USDC를 보낼 수 있습니다.",
-        "description": "솔라나의 스테이블코인 추진은 국내외에서 디지털 달러를 보낼 수 있도록 구축된 새로운 삼성 월렛 기능을 통해 일반 휴대폰 소유자에게 다가갑니다.",
-        "url": "https://www.thestreet.com/crypto/markets/samsung-wallet-users-can-now-send-usdc-on-solana?.tsrc=rss",
+        "title": "미국 달러는 10월 고용 데이터 전 금요일 이른 아침에 상승합니다.",
+        "description": "미국 달러는 10월 EMP 발표 전 금요일 오전 주요 거래 상대국 대비 상승했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-friday-123833847.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 01:11",
+        "publishedAt": "11/06 21:38",
         "score": 1
       },
       {
-        "title": "미국 경제력과 매파적인 연준의 의견이 뒷받침하는 달러",
-        "description": "오늘 달러 지수(DXY00)는 +0.02% 상승했습니다. 오늘 달러화 가치는 예상보다 나은 미국 경제 소식에 힘입어 소폭 상승했습니다. 주간 직업",
-        "url": "https://www.barchart.com/story/news/8676132/dollar-supported-by-us-economic-strength-and-hawkish-fed-comments?.tsrc=rss",
+        "title": "오늘 스털링: 미국 급여 지급 이전에 달러가 확고하게 유지되면서 파운드가 하락했습니다.",
+        "description": "Investing.com -- 10월 미국 고용 보고서와 기술주 발표를 앞두고 달러 가치가 강세를 보이면서 금요일 파운드화는 하락했고 유로화도 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-slips-dollar-111408137.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 00:36",
-        "score": 1
-      },
-      {
-        "title": "삼성 월렛이 솔라나에 USDC를 추가하면서 스테이블코인이 주류를 이루게 되었습니다.",
-        "description": "자격을 갖춘 미국 갤럭시 사용자는 이제 별도의 암호화폐 앱이나 개인 키 없이 삼성 월렛에서 직접 솔라나의 USDC를 구매, 보유, 보내고 받을 수 있습니다.",
-        "url": "https://decrypt.co/382586/stablecoins-samsung-wallet-adds-usdc-solana?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/05 22:01",
+        "publishedAt": "11/06 20:14",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Palantir는 10% 하락했고, CrowdStrike는 월스트리트가 소프트웨어의 AI 승자들을 몰아내면서 9% 하락했습니다. 옥타 드롭스 10%",
-        "description": "소프트웨어 부문에서 가장 큰 AI 승자들은 가장 큰 타격을 받고 있는 반면, 올해의 후발 기업들은 거의 움직이지 않습니다. 중기 이후의 정서 변화로 인해 누가 p를 얻게 되는지가 바뀌고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/11/05/palantir-tumbles-10-crowdstrike-sinks-9-as-wall-street-dumps-softwares-ai-winners-okta-drops-10/?.tsrc=rss",
+        "title": "Palantir Technologies의 최신 분기별 보고서에서 가장 큰 시사점은 투자자가 놓치지 말아야 할 잠재적인 경고 신호입니다.",
+        "description": "Palantir는 지난 분기에 놀라운 성장을 보고했지만 계약 가치 성장 둔화는 위험 신호처럼 보입니다.",
+        "url": "https://www.fool.com/investing/2026/11/06/the-biggest-takeaway-from-palantir-technologies-latest-quarterly-report-is-a-potential-warning-sign-investors-shouldn-t-miss/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 03:11",
+        "publishedAt": "11/07 02:12",
         "score": 1
       },
       {
-        "title": "월스트리트가 소프트웨어의 AI 승자들을 내쫓으면서 Palantir와 CrowdStrike 주식이 폭락했습니다.",
-        "description": "투자자들은 AI 붐을 탄 소프트웨어 주식을 팔고 뒤처진 주식을 대부분 아끼고 있다.",
-        "url": "https://finance.yahoo.com/markets/article/palantir-and-crowdstrike-stocks-tumble-as-wall-street-dumps-softwares-ai-winners-173540737.html?.tsrc=rss",
+        "title": "3조 달러 전멸, 정치 변동성에 대한 CEO, AI 거래 현황",
+        "description": "Yahoo Finance 편집장 Brian Sozzi는 최근의 기술 매각과 약세장이 AI 거래에 미치는 영향에 대한 자신의 생각을 설명합니다. 게다가 뭐야",
+        "url": "https://finance.yahoo.com/video/3-trillion-wipe-out-ceos-on-the-volatility-of-politics-and-the-status-of-the-ai-trade-151554253.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 02:35",
+        "publishedAt": "11/07 00:15",
         "score": 1
       },
       {
-        "title": "AI 주식에 대한 압박 속에서 상장지수펀드와 주식선물이 벨 전 목요일에 혼합되었습니다.",
-        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 0.1% 상승했고 적극적으로 거래되었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141133476.html?.tsrc=rss",
+        "title": "애플은 메모리 가격이 치솟자 엄중한 경고를 내놨다. 값비싼 iPhone과 Mac이 계속 유지되는 것 같습니다.",
+        "description": "Apple은 메모리 가격이 계속 상승할 것이며 이미 가격이 인상된 상황에서 고가의 장치가 새로운 표준처럼 보일 것이라고 말했습니다.",
+        "url": "https://www.digitaltrends.com/computing/apple-issues-a-grim-warning-as-memory-costs-soar-it-seems-pricey-iphones-and-macs-are-here-to-stay/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 23:11",
+        "publishedAt": "11/07 00:08",
         "score": 1
       },
       {
-        "title": "Verizon은 고객이 되기 위한 최고의 거래와 보상으로 휴일을 더욱 단순하게 만듭니다.",
-        "description": "간단한 계획부터 독점적인 보상까지, Verizon은 시즌 내내 즐거움을 제공합니다뉴욕, 2026년 11월 5일(GLOBE NEWSWIRE) -- Verizon이 휴가를 보내고 있습니다.",
-        "url": "https://finance.yahoo.com/technology/articles/verizon-makes-holidays-simple-best-130000570.html?.tsrc=rss",
+        "title": "미국 10월 일자리가 예상보다 많이 증가함에 따라 상장지수펀드가 상승하고 주식 선물이 혼합되었습니다.",
+        "description": "광범위한 시장 상장지수펀드인 스테이트 스트리트 SPDR S&P 500 ETF 신탁(SPY)은 0.2% 상승했고,",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-142316139.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 22:00",
+        "publishedAt": "11/06 23:23",
         "score": 1
       },
       {
-        "title": "이 FX 거래는 AI 하락에 대한 최고의 헤지입니다: Goldman",
-        "description": "Investing.com -- Goldman Sachs는 일본 엔화에 대한 달러 매도 포지션이 엔화 하락에 대한 최고의 외환 헤지라고 말했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/goldman-says-fx-trade-best-121711981.html?.tsrc=rss",
+        "title": "Palantir는 12개월 동안 거의 20% 하락했습니다: 이 월스트리트 데스크에서는 앞으로 76%의 수익을 예측합니다.",
+        "description": "Palantir는 수익을 무너뜨리고 지침을 높였지만 경쟁 소프트웨어 회사가 연간 이익을 유지하는 동안 여전히 타격을 입었습니다. 투자자를 놀라게 한 것, 그리고 그 이유",
+        "url": "https://247wallst.com/investing/2026/11/06/palantir-shed-nearly-20-over-12-months-this-wall-street-desk-predicts-76-gains-moving-forward/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 21:17",
+        "publishedAt": "11/06 21:15",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "SpaceX는 무선 및 AI 부를 목표로 하고 Rocket Lab은 거의 100개 출시 — 우주 주식을 움직이는 것",
-        "description": "RDW는 매출 추정치를 놓쳤고, VOYG는 매출 예측을 깨고 NASA 작업을 추가했습니다.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/spacex-wireless-ai-riches-rocketlab-100-launches-whats-moving-space-stocks/cNG1e6TR9EK?.tsrc=rss",
+        "title": "TSMC, 칩 라우팅 후 Nvidia의 고급 메모리 칩을 평가하고 있다는 보고서에서 5% 급등",
+        "description": "주요 시사점Taiwan Semiconductor Manufacturing 주가는 Nvidia의 요청에 따라 3D DRAM 메모리 칩 제조에 무게를 두고 있다는 보고 이후 오늘 5% 상승했습니다.",
+        "url": "https://www.tikr.com/blog/tsmc-soars-5-on-report-its-weighing-advanced-memory-chips-for-nvidia-after-chip-rout?ref=yahoofinance&tlnk=yf-261106-8jhx34mg&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 15:07",
-        "score": 8
+        "publishedAt": "11/07 01:22",
+        "score": 12
       },
       {
-        "title": "엔비디아가 아닙니다. AMD가 아닙니다. 연말 전에 사고 싶은 칩 주식 2개.",
-        "description": "Micron과 Taiwan Semiconductor는 컴퓨팅 장치 설계자의 주요 공급업체입니다.",
-        "url": "https://www.fool.com/investing/2026/11/05/not-nvidia-not-amd-2-chip-stocks-id-buy-in-2026/?.tsrc=rss",
+        "title": "TSMC는 Nvidia와 AMD 모두를 위한 칩을 만듭니다. 2030년까지 5,000달러 투자의 가치는 다음과 같습니다.",
+        "description": "Taiwan Semiconductor는 AI 투자 분야에서 최고의 옵션입니다.",
+        "url": "https://www.fool.com/investing/2026/11/06/tsmc-makes-the-chips-for-both-nvidia-and-amd-heres/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 03:33",
-        "score": 7
+        "publishedAt": "11/07 03:34",
+        "score": 10
       },
       {
-        "title": "SpaceX, AI 주식 크레이터로 9% 하락: “절대 학살”",
-        "description": "주요 내용SpaceX 주가는 오늘 AI 및 칩 주식의 광범위한 매도세로 인해 9% 하락했습니다. SpaceX의 3분기 매출 중 절반 이상이 AI에서 나왔습니다.",
-        "url": "https://www.tikr.com/blog/spacex-sinks-9-as-ai-stocks-crater-absolute-slaughter?ref=yahoofinance&tlnk=yf-261105-mc438j2v&.tsrc=rss",
+        "title": "엔비디아가 아닙니다. 팔란티르가 아닙니다. 중간고사로 인해 이 뛰어난 인공 지능(AI) 주식이 더 안전한 베팅이 되었습니다.",
+        "description": "민주당은 중간선거에서 하원과 상원을 모두 장악했다.",
+        "url": "https://www.fool.com/investing/2026/11/06/not-nvidia-not-palantir-the-midterms-just-made-thi/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 03:13",
-        "score": 7
+        "publishedAt": "11/06 20:20",
+        "score": 10
       },
       {
-        "title": "SpaceX vs. Rocket Lab vs. AST SpaceMobile: 중요한 유일한 숫자로 비교된 3가지 우주 주식",
-        "description": "세 회사는 투자자 수익을 형성할 수 있는 서로 다른 현금 흐름 문제와 가치 평가 위험에 직면해 있습니다.",
-        "url": "https://www.fool.com/investing/2026/11/05/spacex-vs-rocket-lab-vs-ast-spacemobile-3-space-st/?.tsrc=rss",
+        "title": "업데이트: 시장 잡담: TSMC, 고급 메모리 칩 생산으로 확장 고려",
+        "description": "(네 번째 단락의 회사 답변으로 업데이트됩니다.) Taiwan Semiconductor Manufacturing",
+        "url": "https://finance.yahoo.com/technology/articles/market-chatter-tsmc-mulls-expanding-194817754.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/05 23:20",
-        "score": 7
+        "publishedAt": "11/07 04:48",
+        "score": 9
       },
       {
-        "title": "예측: 2027년까지 Nvidia와 Palantir의 주가가 될 것입니다(힌트: 단 1개만 매수)",
-        "description": "Nvidia와 Palantir는 두 가지 인기 있는 AI 선택이지만 현재로서는 하나만 의미가 있습니다.",
-        "url": "https://www.fool.com/investing/2026/11/05/prediction-these-will-be-nvidias-and-palantirs-sto/?.tsrc=rss",
+        "title": "선거 후 기술주 반등으로 SpaceX 4% 상승; AST SpaceMobile은 8% 하락, Rocket Lab은 2% 상승",
+        "description": "잔혹한 중기 매도 이후 SpaceX는 뒷걸음질치고 있는 반면, 한 우주 경쟁자는 계속 미끄러지고 있습니다. 워싱턴 조사 사이에 다가오는 Tesla 합병",
+        "url": "https://247wallst.com/investing/2026/11/06/spacex-rises-4-as-tech-stocks-rebound-from-post-election-rout-ast-spacemobile-sinks-8-rocket-lab-gains-2/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/06 04:46",
-        "score": 6
+        "publishedAt": "11/06 23:56",
+        "score": 9
       }
     ]
   }
