@@ -1,220 +1,301 @@
 {
-  "generated_at_kst": "2026-11-08 10:40 KST",
-  "period": "11/07 07:00 ~ 11/08 07:00 KST",
+  "generated_at_kst": "2026-11-09 10:49 KST",
+  "period": "11/08 07:00 ~ 11/09 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "다우존스 선물: 시장은 수리가 필요하지만 Apple, Amazon, Microsoft Strong; 버크셔 주식 환매 두 배",
-        "description": "주식 시장은 수리가 필요한 반면 Sandisk와 Micron은 망가진 것처럼 보입니다. 애플, 아마존, 마이크로소프트가 버티고 있다. 버크셔 수익이 감소했습니다.",
-        "url": "https://finance.yahoo.com/m/283e1bd9-349e-390b-a32b-b4ed9a9034f3/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "title": "Warren Buffett Has 1 Simple Rule for Surviving a Stock Market Crash, and History Says It's Never Once Failed",
+        "description": "If a bear market is coming, Warren Buffett's advice is more important than ever.",
+        "url": "https://www.fool.com/investing/2026/11/08/warren-buffett-has-1-crucial-rule-for-surviving-a/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 06:45",
+        "publishedAt": "11/09 06:20",
         "score": 9
       },
       {
-        "title": "폭락했던 AI 기술주 반등…나스닥 1.1% ↑ [뉴욕증시 브리핑]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110719317",
-        "source": "hankyung.com",
-        "publishedAt": "11/07 07:25",
-        "score": 8
-      },
-      {
-        "title": "실적 개선으로 북부 석유 및 가스 주식(NOG)에 대한 투자 사례가 바뀔 수 있음",
-        "description": "Northern Oil and Gas는 지난 2026년 3분기 실적을 보고하면서 매출 3억 4,591만 달러, 순 손실 1억 1,181만 달러를 기록했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-might-change-case-181841814.html?.tsrc=rss",
+        "title": "Wall Street Just Set a Record That Could Signal Trouble for the Stock Market",
+        "description": "Investors stampeded into downside protection in a single session, shattering a record set during last spring's turmoil. The scramble exposes how quick",
+        "url": "https://247wallst.com/investing/2026/11/08/wall-street-just-set-a-record-that-could-signal-trouble-for-the-stock-market/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 03:18",
+        "publishedAt": "11/09 01:47",
         "score": 7
       },
       {
-        "title": "Morgan Stanley는 SpaceX 주식이 이제 S&P 500보다 저렴하다고 말했습니다.",
-        "description": "블록버스터급 IPO 이후 5개월 만에 SpaceX 투자자들은 다시 시작했던 자리로 돌아왔습니다. 모건스탠리는 기회를 본다.",
-        "url": "https://www.thestreet.com/investing/stocks/morgan-stanley-says-spacex-stock-is-now-cheaper-than-the-sp-500?.tsrc=rss",
+        "title": "Kevin Warsh’s Expected Rate Hike Is a Warning to Retirees That the Fed Won’t Rescue Stocks",
+        "description": "Traders put the odds of a December 9 rate increase at about 78% after Friday's jobs report, with the S&P 500 still 5.6% below its October high. The Fe",
+        "url": "https://247wallst.com/investing/2026/11/08/kevin-warshs-expected-rate-hike-is-a-warning-to-retirees-that-the-fed-wont-rescue-stocks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 05:13",
+        "publishedAt": "11/09 05:41",
         "score": 6
       },
       {
-        "title": "S&P 500의 2배를 산출하는 이 배당왕은 11월 매수로 보입니다.",
-        "description": "이 주택 개조 소매업체의 주식을 통해 수익률을 위해 구매하고 잠재적인 복귀를 기다리세요.",
-        "url": "https://www.fool.com/investing/2026/11/07/this-dividend-king-yielding-2x-the-sp-500-looks/?.tsrc=rss",
+        "title": "Wall Street Is Dumping AI Stocks Even as Business Booms. Something Doesn’t Add Up.",
+        "description": "Both AMD and Palantir just posted record quarters, yet both stocks are sinking. For a retirement portfolio with no dividends to cushion the blow, one",
+        "url": "https://247wallst.com/investing/2026/11/08/wall-street-is-dumping-ai-stocks-even-as-business-booms-something-doesnt-add-up/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 02:35",
-        "score": 5
+        "publishedAt": "11/09 01:26",
+        "score": 4
+      },
+      {
+        "title": "The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns",
+        "description": "\"They’re up because of mounting fiscal stress, not because of AI.\"",
+        "url": "https://finance.yahoo.com/economy/policy/articles/market-bloodbath-just-exposed-wall-204604891.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 05:46",
+        "score": 3
       }
     ],
     "kr_market": [
       {
-        "title": "코스피 5000선 사수할까…美 물가·MSCI 변경·옵션 만기 '3대 변수' [다음주 변수 미리보기]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202611061657i",
-        "source": "hankyung.com",
-        "publishedAt": "11/07 12:00",
+        "title": "Korean Stocks Are a Sunday Night ‘Must Watch’ After Their Black Friday",
+        "description": "Kospi’s sharp downturn at the end of last week followed steep losses in U.S. stocks on Thursday.",
+        "url": "https://finance.yahoo.com/m/4f1984c9-f7da-3353-9fcd-a6bf9f0ebd56/korean-stocks-are-a-sunday.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 05:31",
         "score": 5
+      },
+      {
+        "title": "SK hynix Is Down 57% From Its High With Half of 2027 and 2028 Capacity Already Contracted",
+        "description": "Key TakeawaysSK hynix shares fell 10. 9% on Friday and 23.",
+        "url": "https://www.tikr.com/blog/sk-hynix-is-down-57-from-its-high-with-half-of-2027-and-2028-capacity-already-contracted?ref=yahoofinance&tlnk=yf-261108-mfpcvpjx&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 01:27",
+        "score": 5
+      },
+      {
+        "title": "'코스피 대탈출' 경고음…8조 던진 외국인 심상치 않다",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110833407",
+        "source": "hankyung.com",
+        "publishedAt": "11/08 19:23",
+        "score": 5
+      },
+      {
+        "title": "\"AI 전면 규제는 비현실적…코스피 5000서 바닥 테스트\"",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110832381",
+        "source": "hankyung.com",
+        "publishedAt": "11/08 17:41",
+        "score": 5
+      },
+      {
+        "title": "'주차장 싹쓸이' 나선 카카오모빌리티",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110831541",
+        "source": "hankyung.com",
+        "publishedAt": "11/08 17:08",
+        "score": 3
       }
     ],
     "macro": [
       {
-        "title": "Goldman Sachs, Hawkish Federal Reserve가 수요에 무게를 두면서 금 가격 예측을 인하",
-        "description": "골드만삭스는 연준의 점점 매파적인 통화 정책을 이유로 2026년 말과 2027년 말 금 가격 전망을 낮췄다.",
-        "url": "https://investorshub.advfn.com/market-news/article/39465/goldman-sachs-cuts-gold-price-forecasts-as-hawkish-federal-reserve-weighs-on-demand?.tsrc=rss",
+        "title": "뉴욕·상하이 증시, 美 소비자물가·코어위브 실적 '주목'",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110832181",
+        "source": "hankyung.com",
+        "publishedAt": "11/08 17:32",
+        "score": 8
+      },
+      {
+        "title": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week",
+        "description": "This week will bring the consumer and producer price indexes, as well as earnings from Rocket Lab, Occidental, CoreWeave, and more.",
+        "url": "https://finance.yahoo.com/m/826f68d8-6715-357e-b04d-885d04102528/inflation-data%2C-constellation.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/07 23:51",
+        "publishedAt": "11/09 04:00",
         "score": 5
       },
       {
-        "title": "코스피 5000선 사수할까…美 물가·MSCI 변경·옵션 만기 '3대 변수' [다음주 변수 미리보기]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202611061657i",
-        "source": "hankyung.com",
-        "publishedAt": "11/07 12:00",
-        "score": 3
+        "title": "Midterm results may add uncertainty to the Fed’ next rate decision — here are 5 money moves to consider before December",
+        "description": "Just as timing the market rarely pays off, betting on the Federal Reserve can be risky.",
+        "url": "https://finance.yahoo.com/economy/policy/articles/midterm-results-may-add-uncertainty-135000425.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/08 22:50",
+        "score": 5
       },
       {
-        "title": "\"집에 있으면 돈 아끼는 줄 알았는데\"…'소파 경제'의 함정",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202611072412H",
-        "source": "hankyung.com",
-        "publishedAt": "11/08 06:00",
+        "title": "Why is the US Dollar Falling? Midterms, Yields, and a Critical Economic Test",
+        "description": "Why is the US dollar falling? See how the midterms, lower yields, and Fed bets pushed the DXY to key 101 support.",
+        "url": "https://beincrypto.com/why-is-us-dollar-falling-dxy/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/08 10:50",
         "score": 1
       }
     ],
-    "bonds": [],
+    "bonds": [
+      {
+        "title": "환율·채권, '블루 쓰나미'에 환율 다시 뛸수도",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110832191",
+        "source": "hankyung.com",
+        "publishedAt": "11/08 17:33",
+        "score": 3
+      },
+      {
+        "title": "The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns",
+        "description": "\"They’re up because of mounting fiscal stress, not because of AI.\"",
+        "url": "https://finance.yahoo.com/economy/policy/articles/market-bloodbath-just-exposed-wall-204604891.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 05:46",
+        "score": 1
+      }
+    ],
     "commodities": [
       {
-        "title": "Goldman Sachs, Hawkish Federal Reserve가 수요에 무게를 두면서 금 가격 예측을 인하",
-        "description": "골드만삭스는 연준의 점점 매파적인 통화 정책을 이유로 2026년 말과 2027년 말 금 가격 전망을 낮췄다.",
-        "url": "https://investorshub.advfn.com/market-news/article/39465/goldman-sachs-cuts-gold-price-forecasts-as-hawkish-federal-reserve-weighs-on-demand?.tsrc=rss",
+        "title": "Goldman Sachs revamps 2027 gold price target, but signals rebound",
+        "description": "That forecast price drop comes with one twist.",
+        "url": "https://www.thestreet.com/investing/goldman-sachs-gold-2027-forecast?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/07 23:51",
+        "publishedAt": "11/09 01:17",
         "score": 5
       },
       {
-        "title": "Bloom Energy(BE) 주식에 투자한 10,000달러의 3년 후 가치는 다음과 같습니다.",
-        "description": "이 주식은 최근 몇 년간 급등했지만 변동성이 큽니다.",
-        "url": "https://www.fool.com/investing/2026/11/07/heres-what-10000-invested-in-bloom-energy-be-stock/?.tsrc=rss",
+        "title": "Pine Cliff Energy Q3 Earnings Call Highlights",
+        "description": "Pine Cliff Energy (TSE:PNE) is stepping up drilling in the fourth quarter, with management expecting the activity to increase production as the compan",
+        "url": "https://www.marketbeat.com/instant-alerts/transcript-pine-cliff-energy-q3-earnings-call-highlights-2026-11-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 04:50",
+        "publishedAt": "11/09 06:14",
         "score": 3
       },
       {
-        "title": "Vermilion Energy 보유자들이 옳았던 것",
-        "description": "독일에서 Vermilion Energy의 Wisselshorst 발견의 첫 번째 생산과 Mica Montney 자산의 기록적인 생산량은 투자자들에게 명확하고 구체적인 정보를 제공했습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/vermilion-energy-holders-got-141128965.html?.tsrc=rss",
+        "title": "Why Centrus Energy Stock Crashed 26% in October",
+        "description": "Centrus went shopping, and Wall Street isn't happy with its purchase.",
+        "url": "https://www.fool.com/investing/2026/11/08/why-centrus-energy-stock-crashed-26-in-october/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/07 23:11",
+        "publishedAt": "11/09 04:26",
         "score": 3
       },
       {
-        "title": "Ring Energy Inc(REI)(2026년 3분기) 실적 발표 하이라이트: 탄력적인 거래량 및 개선...",
-        "description": "Ring Energy Inc(REI)는 실현 유가가 12% 하락했음에도 불구하고 3%의 볼륨 성장으로 더 높은 조정 EBITDA와 마진을 기록했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ring-energy-inc-rei-q3-111242577.html?.tsrc=rss",
+        "title": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week",
+        "description": "This week will bring the consumer and producer price indexes, as well as earnings from Rocket Lab, Occidental, CoreWeave, and more.",
+        "url": "https://finance.yahoo.com/m/826f68d8-6715-357e-b04d-885d04102528/inflation-data%2C-constellation.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/07 20:12",
+        "publishedAt": "11/09 04:00",
         "score": 3
       },
       {
-        "title": "Pine Cliff Energy Ltd(PIFYF)(2026년 3분기) 실적 발표 하이라이트: 기록적인 시추 분기 및 ...",
-        "description": "Pine Cliff Energy Ltd(PIFYF)는 원자재 가격 상승으로 인해 현금 흐름이 개선되었다고 보고했으며 역대 가장 바쁜 4분기 시추 프로그램을 설명하고 다음과 같은 사항을 강조했습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/pine-cliff-energy-ltd-pifyf-091313407.html?.tsrc=rss",
+        "title": "Core Natural Resources, Bristow Group, CVR Energy, Baker Hughes, and Oceaneering shares plummet, what you need to know",
+        "description": "A number of stocks fell in the afternoon session after easing fears of a wider war with Iran continued to push oil prices lower.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/core-natural-resources-bristow-group-182136821.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/07 18:13",
+        "publishedAt": "11/09 03:21",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "JPMorgan CEO Jamie Dimon은 미국이 세계 최고의 기축통화 자리를 유지할 것이라고 선언합니다. 그 이유는 두 가지입니다.",
-        "description": "다이먼은 여전히 ​​미국 달러의 힘을 확신하고 있지만 미국이 \"언젠가는 우리가 힘을 어떻게 사용할지 조금 조심해야 한다\"는 점을 인식하고 있습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/jpmorgan-ceo-jamie-dimon-declares-100000283.html?.tsrc=rss",
+        "title": "환율·채권, '블루 쓰나미'에 환율 다시 뛸수도",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110832191",
+        "source": "hankyung.com",
+        "publishedAt": "11/08 17:33",
+        "score": 5
+      },
+      {
+        "title": "HSBC Says Strong Democratic Midterm Performance Could Pressure US Dollar in Near Term",
+        "description": "HSBC expects the US dollar to face near-term pressure following the US midterm elections, as the strength of the Democratic Party’s electoral performa",
+        "url": "https://investorshub.advfn.com/market-news/article/39471/hsbc-says-strong-democratic-midterm-performance-could-pressure-us-dollar-in-near-term?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/07 19:00",
-        "score": 3
+        "publishedAt": "11/08 23:59",
+        "score": 1
+      },
+      {
+        "title": "3 Stocks Investors Watch When Demand For U.S. Dollar Safety Rises",
+        "description": "French unrest has reminded investors that high public debt, weak growth and social strains can quickly shift where money feels safest. When confidence",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/3-stocks-investors-watch-demand-130904157.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/08 22:09",
+        "score": 1
+      },
+      {
+        "title": "Why is the US Dollar Falling? Midterms, Yields, and a Critical Economic Test",
+        "description": "Why is the US dollar falling? See how the midterms, lower yields, and Fed bets pushed the DXY to key 101 support.",
+        "url": "https://beincrypto.com/why-is-us-dollar-falling-dxy/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/08 10:50",
+        "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "S&P 500은 2025년 4월 관세 붕괴 이후 최악의 한 주를 보냈습니다.",
-        "description": "4주 연속 하락세는 좋지 않아 보이지만 S&P 500의 기록은 기술적인 부분에 달려 있으며 실제 피해는 시장 한쪽 구석에 부딪혔습니다. CPI와 함께",
-        "url": "https://247wallst.com/investing/2026/11/07/the-sp-500-just-had-its-worst-week-since-the-april-2025-tariff-crash/?.tsrc=rss",
+        "title": "Warren Buffett Has 1 Simple Rule for Surviving a Stock Market Crash, and History Says It's Never Once Failed",
+        "description": "If a bear market is coming, Warren Buffett's advice is more important than ever.",
+        "url": "https://www.fool.com/investing/2026/11/08/warren-buffett-has-1-crucial-rule-for-surviving-a/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 02:33",
-        "score": 3
-      },
-      {
-        "title": "AI 금요 랠리는 잊어버리세요: 왜 거대 자금이 여전히 워렌 버핏의 버크셔 해서웨이로 도망가고 있나요?",
-        "description": "AI 주가가 흔들리는 동안 호황을 건너뛴 1조 2250억 달러 규모의 거대 기업은 새 CEO 밑에서 조용히 시장을 앞서고 있습니다. 다섯 가지 신호로 이유를 설명할 수 있습니다.",
-        "url": "https://247wallst.com/investing/2026/11/07/forget-the-ai-friday-rally-why-big-money-is-still-fleeing-to-warren-buffetts-berkshire-hathaway/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/08 06:30",
+        "publishedAt": "11/09 06:20",
         "score": 1
       },
       {
-        "title": "이 워렌 버핏 배당주는 내가 11월에 1,000달러로 사고 싶은 주식이다",
-        "description": "워렌 버핏의 오랜 투자는 소비자 지출로부터 이익을 얻을 수 있는 직접적인 방법을 제공합니다.",
-        "url": "https://www.fool.com/investing/2026/11/07/this-warren-buffett-dividend-stock-is-the-one-id-b/?.tsrc=rss",
+        "title": "Rigetti Gained 19% Friday. Its $100 Million CHIPS Award Hasn’t Reached Revenue Yet",
+        "description": "Key TakeawaysRigetti shares jumped 19. 3% on Friday as IonQ’s 336% revenue growth and raised guidance lifted the quantum group.",
+        "url": "https://www.tikr.com/blog/rigetti-gained-19-friday-its-100-million-chips-award-hasnt-reached-revenue-yet?ref=yahoofinance&tlnk=yf-261108-m2jqp67f&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 05:50",
+        "publishedAt": "11/09 05:50",
         "score": 1
       },
       {
-        "title": "워렌 버핏은 1999년에 투자자들에게 이에 대해 경고했습니다. 지난 주는 친숙해 보였습니다.",
-        "description": "1999년 7월 워렌 버핏은 투자자들이 주식에서 너무 많은 것을 기대한다고 말했습니다. S&P 500은 2000년 3월부터 2002년 10월까지 49.1% 하락했습니다.",
-        "url": "https://247wallst.com/investing/2026/11/07/warren-buffett-warned-investors-about-this-in-1999-the-past-week-looked-familiar/?.tsrc=rss",
+        "title": "The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns",
+        "description": "\"They’re up because of mounting fiscal stress, not because of AI.\"",
+        "url": "https://finance.yahoo.com/economy/policy/articles/market-bloodbath-just-exposed-wall-204604891.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 05:04",
+        "publishedAt": "11/09 05:46",
         "score": 1
       },
       {
-        "title": "민주당 압승에 주가가 급등했다. 24시간도 채 지나지 않아 AI 거래가 중단되었습니다.",
-        "description": "주식의 이례적인 반전은 지난 한 해 동안의 격랑 속에서 가장 최근의 휩소를 의미했습니다.",
-        "url": "https://finance.yahoo.com/markets/article/stocks-soared-on-the-democratic-sweep-less-than-24-hours-later-the-ai-trade-cracked-183312401.html?.tsrc=rss",
+        "title": "Kevin Warsh’s Expected Rate Hike Is a Warning to Retirees That the Fed Won’t Rescue Stocks",
+        "description": "Traders put the odds of a December 9 rate increase at about 78% after Friday's jobs report, with the S&P 500 still 5.6% below its October high. The Fe",
+        "url": "https://247wallst.com/investing/2026/11/08/kevin-warshs-expected-rate-hike-is-a-warning-to-retirees-that-the-fed-wont-rescue-stocks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 03:33",
+        "publishedAt": "11/09 05:41",
+        "score": 1
+      },
+      {
+        "title": "DHT Holdings (DHT) stock trades down, here is why",
+        "description": "Shares of crude oil tanker operator DHT Holdings (NYSE:DHT) fell 5.6% in the afternoon session after easing fears of a wider war with Iran continued t",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dht-holdings-dht-stock-trades-180536694.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 03:05",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "TSMC는 Nvidia용 메모리 칩을 만들 수 있다는 보고서에서 6% 상승했습니다.",
-        "description": "확인되지 않은 보고서는 잔인한 매도 이후 TSMC의 ADR을 급증시켰지만 실제 이야기는 특허와 생산 간의 격차에 숨어 있습니다. 엔비디아의 멤",
-        "url": "https://247wallst.com/investing/2026/11/07/tsmc-jumped-6-on-a-report-it-could-make-memory-chips-for-nvidia/?.tsrc=rss",
+        "title": "3 Millionaire-Maker Quantum Computing Stocks",
+        "description": "The quantum computing market is full of exciting investments, but not all of them will pan out.",
+        "url": "https://www.fool.com/investing/2026/11/08/3-millionaire-maker-quantum-computing-stocks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 00:13",
-        "score": 12
-      },
-      {
-        "title": "Alphabet(GOOGL), SpaceX 지분을 690억 달러로 확대하고 AI 관계 강화",
-        "description": "Alphabet(NasdaqGS: GOOGL)은 SpaceX 지분을 약 400만 주 추가로 확대하여 보유 가치를 약 690억 달러로 높였습니다. 가정",
-        "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-expands-spacex-stake-191144041.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/08 04:11",
-        "score": 7
-      },
-      {
-        "title": "AI 칩 주식은 글로벌 대패 후 반등하지만 거품이 터지기 시작합니까?",
-        "description": "금요일 반등은 역사적인 매도 이후 안도감을 제공했습니다. 이제 문제는 정치와 늘어나는 부채가 AI 수정을 일부로 바꿀 수 있는지 여부입니다.",
-        "url": "https://decrypt.co/382770/ai-chip-stocks-bounce-global-rout-bubble-starting-burst?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/08 01:01",
-        "score": 7
-      },
-      {
-        "title": "SpaceX의 12월 잠금은 IPO 역사상 거의 최대 규모의 주식 잠금 해제입니다. 역사는 이것이 다음에 일어날 일이라고 말합니다.",
-        "description": "SpaceX는 놀랍도록 낮은 공개 플로트로 IPO를 수행했습니다.",
-        "url": "https://www.fool.com/investing/2026/11/07/spacexs-december-lockup-is-nearly-the-biggest-shar/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/08 06:05",
+        "publishedAt": "11/08 20:46",
         "score": 6
       },
       {
-        "title": "Morgan Stanley는 SpaceX 주식이 이제 S&P 500보다 저렴하다고 말했습니다.",
-        "description": "블록버스터급 IPO 이후 5개월 만에 SpaceX 투자자들은 다시 시작했던 자리로 돌아왔습니다. 모건스탠리는 기회를 본다.",
-        "url": "https://www.thestreet.com/investing/stocks/morgan-stanley-says-spacex-stock-is-now-cheaper-than-the-sp-500?.tsrc=rss",
+        "title": "Should You Forget IonQ and Buy These 2 Quantum Computing Stocks Instead?",
+        "description": "D-Wave Quantum and Rigetti are taking different approaches to developing quantum computers. Here's how their commercial progress and valuations stack",
+        "url": "https://www.fool.com/investing/2026/11/08/should-you-forget-ionq-and-buy-these-2-quantum-com/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 05:13",
-        "score": 6
+        "publishedAt": "11/08 22:57",
+        "score": 5
+      },
+      {
+        "title": "Palantir Technologies (PLTR) Lands Enterprise AI Partnership For Insurance And Retirement Rollout",
+        "description": "Palantir Technologies (NasdaqGS:PLTR) has been chosen by AmeriLife Group for an enterprise AI partnership spanning insurance and retirement distributi",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-pltr-lands-enterprise-111205834.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/08 20:12",
+        "score": 5
+      },
+      {
+        "title": "Adobe vs. Palantir Technologies: Which Technology Stock Is a Better Buy Going Into 2027?",
+        "description": "Adobe trades at a much lower forward earnings multiple compared to Palantir, yet the growth gap between them may matter more than the price tag.",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/08/adobe-vs-palantir-technologies-which-technology-stock-is-a-better-buy-going-into-2027/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 03:07",
+        "score": 4
+      },
+      {
+        "title": "Got $5,000? 2 Growth Stocks Building the Software Backbone of Artificial Intelligence (AI).",
+        "description": "Chips get the headlines, but Microsoft and CrowdStrike sell the software that puts AI to work and keeps it secure.",
+        "url": "https://www.fool.com/investing/2026/11/08/got-5000-2-growth-stocks-building-the-software-bac/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/08 18:27",
+        "score": 4
       }
     ]
   }
