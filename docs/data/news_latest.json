@@ -1,301 +1,268 @@
 {
-  "generated_at_kst": "2026-11-09 10:49 KST",
-  "period": "11/08 07:00 ~ 11/09 07:00 KST",
+  "generated_at_kst": "2026-11-10 13:13 KST",
+  "period": "11/09 07:00 ~ 11/10 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "Warren Buffett Has 1 Simple Rule for Surviving a Stock Market Crash, and History Says It's Never Once Failed",
-        "description": "If a bear market is coming, Warren Buffett's advice is more important than ever.",
-        "url": "https://www.fool.com/investing/2026/11/08/warren-buffett-has-1-crucial-rule-for-surviving-a/?.tsrc=rss",
+        "title": "오늘 미국 주식 시장: S&P 500 선물은 고용 강도 Fed의 불확실성으로 인해 상승했습니다.",
+        "description": "모닝 강세 - 미국 시장 아침 업데이트 2026년 11월 9일 월요일 미국 주식은 약간 긍정적인 개장을 예상하고 있으며, 심리는 거의 전적으로 다음 요인에 의해 주도됩니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-130935908.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 06:20",
+        "publishedAt": "11/09 22:09",
         "score": 9
       },
       {
-        "title": "Wall Street Just Set a Record That Could Signal Trouble for the Stock Market",
-        "description": "Investors stampeded into downside protection in a single session, shattering a record set during last spring's turmoil. The scramble exposes how quick",
-        "url": "https://247wallst.com/investing/2026/11/08/wall-street-just-set-a-record-that-could-signal-trouble-for-the-stock-market/?.tsrc=rss",
+        "title": "리게티 주가는 IonQ의 가이던스 인상으로 17% 상승했습니다. 11월 10일 보고서의 내용은 다음과 같습니다.",
+        "description": "주요 시사점Rigetti Computing은 IonQ가 2026년 수익 목표를 5억 5천만~5억 1,500만 달러로 상향 조정한 후 금요일에 19% 상승했고 D-Wave Quantum은 18% 상승했습니다. 리게티",
+        "url": "https://www.tikr.com/blog/rigetti-stock-jumped-17-on-ionqs-guidance-raise-heres-what-its-november-10-report-has-to-show?ref=yahoofinance&tlnk=yf-261109-36m97mqw&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 01:47",
-        "score": 7
-      },
-      {
-        "title": "Kevin Warsh’s Expected Rate Hike Is a Warning to Retirees That the Fed Won’t Rescue Stocks",
-        "description": "Traders put the odds of a December 9 rate increase at about 78% after Friday's jobs report, with the S&P 500 still 5.6% below its October high. The Fe",
-        "url": "https://247wallst.com/investing/2026/11/08/kevin-warshs-expected-rate-hike-is-a-warning-to-retirees-that-the-fed-wont-rescue-stocks/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/09 05:41",
+        "publishedAt": "11/09 20:54",
         "score": 6
       },
       {
-        "title": "Wall Street Is Dumping AI Stocks Even as Business Booms. Something Doesn’t Add Up.",
-        "description": "Both AMD and Palantir just posted record quarters, yet both stocks are sinking. For a retirement portfolio with no dividends to cushion the blow, one",
-        "url": "https://247wallst.com/investing/2026/11/08/wall-street-is-dumping-ai-stocks-even-as-business-booms-something-doesnt-add-up/?.tsrc=rss",
+        "title": "Rocket Lab(NASDAQ:RKLB)은 2026년 3분기에 강세를 보일 것으로 보고하고 다음 분기에 강력한 매출을 제시합니다.",
+        "description": "항공우주 및 방위 기업인 Rocket Lab(NASDAQ:RKLB)은 2026년 3분기 매출이 시장 매출 기대치를 초과하며 매출이 전년 대비 72.7% 증가했다고 보고했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-nasdaq-rklb-reports-214909928.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 01:26",
-        "score": 4
+        "publishedAt": "11/10 06:49",
+        "score": 5
       },
       {
-        "title": "The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns",
-        "description": "\"They’re up because of mounting fiscal stress, not because of AI.\"",
-        "url": "https://finance.yahoo.com/economy/policy/articles/market-bloodbath-just-exposed-wall-204604891.html?.tsrc=rss",
+        "title": "리스크 온: S&P 500이 급등하여 시장 가치가 1조 달러 증가",
+        "description": "딥 구매자들은 점심 시간 전에 다시 기술 분야로 돌진했지만 시장의 공포 지수는 수십 년 만에 가장 큰 상승 중 하나를 기록했습니다. 연준이 연설하면서",
+        "url": "https://247wallst.com/investing/2026/11/09/risk-on-sp-500-surges-out-of-the-gate-adds-1-trillion-in-market-value/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 05:46",
-        "score": 3
+        "publishedAt": "11/10 00:09",
+        "score": 5
+      },
+      {
+        "title": "SPDR S&P 500 ETF(SPY), 11월 5일 1억 8290만 달러 규모의 Apple 주식 매도",
+        "description": "이 펀드는 전체 503개 보유 자산에 걸쳐 23억 1천만 달러를 매각했으며 아무것도 매입하지 않아 포트폴리오의 모든 포지션을 줄였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110431430.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 20:04",
+        "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "Korean Stocks Are a Sunday Night ‘Must Watch’ After Their Black Friday",
-        "description": "Kospi’s sharp downturn at the end of last week followed steep losses in U.S. stocks on Thursday.",
-        "url": "https://finance.yahoo.com/m/4f1984c9-f7da-3353-9fcd-a6bf9f0ebd56/korean-stocks-are-a-sunday.html?.tsrc=rss",
+        "title": "네이버·카카오 내비, 현대차에 장착",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026110941401",
+        "source": "hankyung.com",
+        "publishedAt": "11/09 15:56",
+        "score": 9
+      },
+      {
+        "title": "칩 통증이 심화되면서 코스피는 약세장에 확고히 자리 잡았습니다.",
+        "description": "서울의 트레이더들은 어려움을 겪고 있으며 월요일에도 계속되었습니다.",
+        "url": "https://finance.yahoo.com/m/ef469a1a-5ab7-3d12-aa1b-40f41600ff6a/kospi-firmly-in-bear-market.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 05:31",
+        "publishedAt": "11/09 19:32",
         "score": 5
       },
       {
-        "title": "SK hynix Is Down 57% From Its High With Half of 2027 and 2028 Capacity Already Contracted",
-        "description": "Key TakeawaysSK hynix shares fell 10. 9% on Friday and 23.",
-        "url": "https://www.tikr.com/blog/sk-hynix-is-down-57-from-its-high-with-half-of-2027-and-2028-capacity-already-contracted?ref=yahoofinance&tlnk=yf-261108-mfpcvpjx&.tsrc=rss",
+        "title": "TSMC, SK 하이닉스, 삼성: 엔비디아 CEO 젠슨 황의 논란이 투자자 신뢰를 시험하는 가운데 아시아 칩 주가 상승",
+        "description": "대만 코스피는 지난주 극심한 매도세를 보인 뒤 월요일 회복세를 보였다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/tsmc-sk-hynix-samsung-asian-chip-stocks-rise-even-as-nvidia-ceo-jensen-huang-s-controversy-tests-investor-confidence/cNGrP1CR9eL?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 01:27",
+        "publishedAt": "11/09 17:35",
         "score": 5
       },
       {
-        "title": "'코스피 대탈출' 경고음…8조 던진 외국인 심상치 않다",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110833407",
-        "source": "hankyung.com",
-        "publishedAt": "11/08 19:23",
+        "title": "삼성전자(KOSE:A005930)가 지배구조와 관련하여 투자자들로부터 직면하고 있는 상황은 무엇입니까?",
+        "description": "삼성전자(KOSE:A005930)는 기업지배구조와 주주환원에 대한 접근방식에 대해 투자자들의 거센 비난에 직면해 있다. 글로벌과 K",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-facing-031013863.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 12:10",
         "score": 5
-      },
-      {
-        "title": "\"AI 전면 규제는 비현실적…코스피 5000서 바닥 테스트\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110832381",
-        "source": "hankyung.com",
-        "publishedAt": "11/08 17:41",
-        "score": 5
-      },
-      {
-        "title": "'주차장 싹쓸이' 나선 카카오모빌리티",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110831541",
-        "source": "hankyung.com",
-        "publishedAt": "11/08 17:08",
-        "score": 3
       }
     ],
-    "macro": [
+    "macro": [],
+    "bonds": [
       {
-        "title": "뉴욕·상하이 증시, 美 소비자물가·코어위브 실적 '주목'",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110832181",
-        "source": "hankyung.com",
-        "publishedAt": "11/08 17:32",
+        "title": "국채 수익률이 하락할 수 있습니다. 차트가 보여주는 것.",
+        "description": "10년 만기 국채 수익률 차트와 장기 채권 ETF는 주식을 지지할 수 있는 반전 가능성을 시사합니다.",
+        "url": "https://finance.yahoo.com/m/bd05b351-8b14-3c81-a687-6309ef22d146/treasury-yields-could-be.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/10 03:10",
         "score": 8
       },
       {
-        "title": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week",
-        "description": "This week will bring the consumer and producer price indexes, as well as earnings from Rocket Lab, Occidental, CoreWeave, and more.",
-        "url": "https://finance.yahoo.com/m/826f68d8-6715-357e-b04d-885d04102528/inflation-data%2C-constellation.html?.tsrc=rss",
+        "title": "이 3가지 월간 ETF는 높은 수익률을 제공합니다. 각 수표 뒤에 숨겨진 문제는 다음과 같습니다.",
+        "description": "월별 ETF 수표는 퇴직금을 대체하는 것처럼 들리지만, 이 세 가지 고수익 펀드 각각에는 수익률 수치와는 다른 결함이 숨겨져 있습니다.",
+        "url": "https://247wallst.com/investing/etf/2026/11/09/these-3-monthly-etfs-pay-high-yields-heres-the-catch-behind-each-check/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 04:00",
-        "score": 5
-      },
-      {
-        "title": "Midterm results may add uncertainty to the Fed’ next rate decision — here are 5 money moves to consider before December",
-        "description": "Just as timing the market rarely pays off, betting on the Federal Reserve can be risky.",
-        "url": "https://finance.yahoo.com/economy/policy/articles/midterm-results-may-add-uncertainty-135000425.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/08 22:50",
-        "score": 5
-      },
-      {
-        "title": "Why is the US Dollar Falling? Midterms, Yields, and a Critical Economic Test",
-        "description": "Why is the US dollar falling? See how the midterms, lower yields, and Fed bets pushed the DXY to key 101 support.",
-        "url": "https://beincrypto.com/why-is-us-dollar-falling-dxy/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/08 10:50",
-        "score": 1
-      }
-    ],
-    "bonds": [
-      {
-        "title": "환율·채권, '블루 쓰나미'에 환율 다시 뛸수도",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110832191",
-        "source": "hankyung.com",
-        "publishedAt": "11/08 17:33",
+        "publishedAt": "11/09 19:47",
         "score": 3
-      },
-      {
-        "title": "The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns",
-        "description": "\"They’re up because of mounting fiscal stress, not because of AI.\"",
-        "url": "https://finance.yahoo.com/economy/policy/articles/market-bloodbath-just-exposed-wall-204604891.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/09 05:46",
-        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "Goldman Sachs revamps 2027 gold price target, but signals rebound",
-        "description": "That forecast price drop comes with one twist.",
-        "url": "https://www.thestreet.com/investing/goldman-sachs-gold-2027-forecast?.tsrc=rss",
+        "title": "달러는 주가 강세와 원유 약세로 하락",
+        "description": "달러 지수(DXY00)는 월요일에 -0.62% 하락했습니다. 월요일의 급격한 주가 상승으로 인해 달러 유동성에 대한 수요가 감소했습니다. 또한, 월요일 WTI 통화의 -4% 하락",
+        "url": "https://www.barchart.com/story/news/8741447/dollar-falls-on-stock-strength-and-crude-oil-weakness?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 01:17",
+        "publishedAt": "11/10 05:37",
         "score": 5
       },
       {
-        "title": "Pine Cliff Energy Q3 Earnings Call Highlights",
-        "description": "Pine Cliff Energy (TSE:PNE) is stepping up drilling in the fourth quarter, with management expecting the activity to increase production as the compan",
-        "url": "https://www.marketbeat.com/instant-alerts/transcript-pine-cliff-energy-q3-earnings-call-highlights-2026-11-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "title": "주식 반등과 원유 폭락으로 달러 후퇴",
+        "description": "오늘 달러 지수(DXY00)는 -0.40% 하락했습니다. 오늘날 주식 강세로 인해 달러 유동성에 대한 수요가 감소했습니다. 또한 오늘 WTI 원유 가격은 -3% 하락했습니다.",
+        "url": "https://www.barchart.com/story/news/8737102/dollar-retreats-as-stocks-rally-and-crude-oil-tumbles?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 06:14",
+        "publishedAt": "11/10 00:33",
+        "score": 5
+      },
+      {
+        "title": "Nvidia 주식 및 유가 하락으로 기술주 반등: AlphaCheck",
+        "description": "월요일 엔비디아 주가가 하락하면서 기술주가 반등했습니다.",
+        "url": "https://finance.yahoo.com/markets/article/tech-stocks-rally-as-nvidia-stock-and-oil-prices-fall-alphacheck-152208023.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/10 00:22",
+        "score": 5
+      },
+      {
+        "title": "부문 업데이트: 에너지 주식은 월요일 시판 전 하락세를 보이고 있습니다.",
+        "description": "에너지 주식은 월요일 State Street Energy Select Sector SPDR ETF(",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142516412.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 23:25",
         "score": 3
       },
       {
-        "title": "Why Centrus Energy Stock Crashed 26% in October",
-        "description": "Centrus went shopping, and Wall Street isn't happy with its purchase.",
-        "url": "https://www.fool.com/investing/2026/11/08/why-centrus-energy-stock-crashed-26-in-october/?.tsrc=rss",
+        "title": "ETF는 목요일에 NextEra Energy (NEE)의 순 매도자입니다",
+        "description": "ETF는 11월 5일 NextEra Energy 주식에서 6,570만 달러를 매도했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-nextera-energy-110357659.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 04:26",
-        "score": 3
-      },
-      {
-        "title": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week",
-        "description": "This week will bring the consumer and producer price indexes, as well as earnings from Rocket Lab, Occidental, CoreWeave, and more.",
-        "url": "https://finance.yahoo.com/m/826f68d8-6715-357e-b04d-885d04102528/inflation-data%2C-constellation.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/09 04:00",
-        "score": 3
-      },
-      {
-        "title": "Core Natural Resources, Bristow Group, CVR Energy, Baker Hughes, and Oceaneering shares plummet, what you need to know",
-        "description": "A number of stocks fell in the afternoon session after easing fears of a wider war with Iran continued to push oil prices lower.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/core-natural-resources-bristow-group-182136821.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/09 03:21",
+        "publishedAt": "11/09 20:03",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "환율·채권, '블루 쓰나미'에 환율 다시 뛸수도",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026110832191",
-        "source": "hankyung.com",
-        "publishedAt": "11/08 17:33",
-        "score": 5
+        "title": "미국 달러 ETF(USDU)가 52주 최고치를 경신했습니다.",
+        "description": "USDU는 매파적인 연준의 기대가 달러를 밀어주면서 52주 최고치까지 올랐습니다. 집회는 계속될 수 있을까?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-etf-usdu-hits-144300455.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 23:43",
+        "score": 2
       },
       {
-        "title": "HSBC Says Strong Democratic Midterm Performance Could Pressure US Dollar in Near Term",
-        "description": "HSBC expects the US dollar to face near-term pressure following the US midterm elections, as the strength of the Democratic Party’s electoral performa",
-        "url": "https://investorshub.advfn.com/market-news/article/39471/hsbc-says-strong-democratic-midterm-performance-could-pressure-us-dollar-in-near-term?.tsrc=rss",
+        "title": "달러는 주가 강세와 원유 약세로 하락",
+        "description": "달러 지수(DXY00)는 월요일에 -0.62% 하락했습니다. 월요일의 급격한 주가 상승으로 인해 달러 유동성에 대한 수요가 감소했습니다. 또한, 월요일 WTI 통화의 -4% 하락",
+        "url": "https://www.barchart.com/story/news/8741447/dollar-falls-on-stock-strength-and-crude-oil-weakness?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 23:59",
+        "publishedAt": "11/10 05:37",
         "score": 1
       },
       {
-        "title": "3 Stocks Investors Watch When Demand For U.S. Dollar Safety Rises",
-        "description": "French unrest has reminded investors that high public debt, weak growth and social strains can quickly shift where money feels safest. When confidence",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/3-stocks-investors-watch-demand-130904157.html?.tsrc=rss",
+        "title": "달러 약세로 인해 설탕 선물의 매도 포지션 발생",
+        "description": "3월 뉴욕 세계 설탕 #11(SBH27)은 오늘 +0.08(+0.44%) 상승했고, 12월 런던 ICE 백설탕 #5(SWZ26)은 +8.40(+1.67%) 상승했습니다. 설탕 가격은 m입니다.",
+        "url": "https://www.barchart.com/story/news/8739222/dollar-weakness-induces-short-covering-in-sugar-futures?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 22:09",
+        "publishedAt": "11/10 02:27",
         "score": 1
       },
       {
-        "title": "Why is the US Dollar Falling? Midterms, Yields, and a Critical Economic Test",
-        "description": "Why is the US dollar falling? See how the midterms, lower yields, and Fed bets pushed the DXY to key 101 support.",
-        "url": "https://beincrypto.com/why-is-us-dollar-falling-dxy/?.tsrc=rss",
+        "title": "주식 반등과 원유 폭락으로 달러 후퇴",
+        "description": "오늘 달러 지수(DXY00)는 -0.40% 하락했습니다. 오늘날 주식 강세로 인해 달러 유동성에 대한 수요가 감소했습니다. 또한 오늘 WTI 원유 가격은 -3% 하락했습니다.",
+        "url": "https://www.barchart.com/story/news/8737102/dollar-retreats-as-stocks-rally-and-crude-oil-tumbles?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 10:50",
+        "publishedAt": "11/10 00:33",
+        "score": 1
+      },
+      {
+        "title": "월요일 초 미국 달러 하락, 이번 주 소비자, 생산자 가격에 초점",
+        "description": "시장이 소비자 중심으로 초점을 맞추면서 미국 달러는 월요일 오전 주요 거래 상대국 대비 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-monday-125007150.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/09 21:50",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Warren Buffett Has 1 Simple Rule for Surviving a Stock Market Crash, and History Says It's Never Once Failed",
-        "description": "If a bear market is coming, Warren Buffett's advice is more important than ever.",
-        "url": "https://www.fool.com/investing/2026/11/08/warren-buffett-has-1-crucial-rule-for-surviving-a/?.tsrc=rss",
+        "title": "Palantir 주가는 Jon Tester 전 상원의원이 고문으로 합류하면서 5.96% 상승했습니다.",
+        "description": "Palantir는 지난 분기 미국 상업 수익이 두 배 이상 증가했음에도 불구하고 새 의회의 면밀한 조사를 준비하고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-rise-5-96-183823596.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 06:20",
+        "publishedAt": "11/10 03:38",
+        "score": 3
+      },
+      {
+        "title": "NASA가 달 기지 보조금으로 100억 달러를 지급함에 따라 SpaceX, Rocket Lab이 더 높아졌습니다.",
+        "description": "NASA가 달 기지 계약을 체결하고 Rocket Lab이 수익을 올리면서 우주 무역이 다시 활발해졌습니다.",
+        "url": "https://finance.yahoo.com/markets/article/spacex-rocket-lab-blast-higher-as-nasa-hands-out-10-billion-in-moon-base-awards-164320855.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/10 01:43",
         "score": 1
       },
       {
-        "title": "Rigetti Gained 19% Friday. Its $100 Million CHIPS Award Hasn’t Reached Revenue Yet",
-        "description": "Key TakeawaysRigetti shares jumped 19. 3% on Friday as IonQ’s 336% revenue growth and raised guidance lifted the quantum group.",
-        "url": "https://www.tikr.com/blog/rigetti-gained-19-friday-its-100-million-chips-award-hasnt-reached-revenue-yet?ref=yahoofinance&tlnk=yf-261108-m2jqp67f&.tsrc=rss",
+        "title": "인도의 해외 투자 규모는 40.8% 증가한 1,780억 달러를 기록했습니다.",
+        "description": "2025년 3월부터 2026년 3월까지 국내투자 대비 해외투자 비율은 4.2배로 줄어들었다.",
+        "url": "https://www.investmentmonitor.ai/news/indias-outward-investment-stock-up-40-8/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 05:50",
+        "publishedAt": "11/09 23:27",
         "score": 1
       },
       {
-        "title": "The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns",
-        "description": "\"They’re up because of mounting fiscal stress, not because of AI.\"",
-        "url": "https://finance.yahoo.com/economy/policy/articles/market-bloodbath-just-exposed-wall-204604891.html?.tsrc=rss",
+        "title": "글로벌 시장 회복 속에 상장지수펀드, 주식선물, 프리 벨 월요일 상승",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 1% 상승했고 활발하게 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141309144.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 05:46",
+        "publishedAt": "11/09 23:13",
         "score": 1
       },
       {
-        "title": "Kevin Warsh’s Expected Rate Hike Is a Warning to Retirees That the Fed Won’t Rescue Stocks",
-        "description": "Traders put the odds of a December 9 rate increase at about 78% after Friday's jobs report, with the S&P 500 still 5.6% below its October high. The Fe",
-        "url": "https://247wallst.com/investing/2026/11/08/kevin-warshs-expected-rate-hike-is-a-warning-to-retirees-that-the-fed-wont-rescue-stocks/?.tsrc=rss",
+        "title": "Nvidia, Palantir 및 Tesla는 530억 달러 규모의 경고로 월스트리트에 충격파를 보내고 있습니다.",
+        "description": "이 인공지능(AI) 3인방을 가장 잘 아는 사람들이 잘못된 신호를 보내고 있는 것이다.",
+        "url": "https://www.fool.com/investing/2026/11/09/nvidia-palantir-tesla-sending-shockwaves-through-wall-street-with-53-billion-warning/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 05:41",
-        "score": 1
-      },
-      {
-        "title": "DHT Holdings (DHT) stock trades down, here is why",
-        "description": "Shares of crude oil tanker operator DHT Holdings (NYSE:DHT) fell 5.6% in the afternoon session after easing fears of a wider war with Iran continued t",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dht-holdings-dht-stock-trades-180536694.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/09 03:05",
+        "publishedAt": "11/09 21:26",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "3 Millionaire-Maker Quantum Computing Stocks",
-        "description": "The quantum computing market is full of exciting investments, but not all of them will pan out.",
-        "url": "https://www.fool.com/investing/2026/11/08/3-millionaire-maker-quantum-computing-stocks/?.tsrc=rss",
+        "title": "TSMC와 Nvidia 상승 감정 이후 주목해야 할 AI 칩 주식",
+        "description": "TSMC, Nvidia 및 그 동료들이 아시아 시장을 견인하는 데 도움을 주면서 AI 하드웨어 및 반도체 주식은 정치적 우려에서 새로운 흥분으로 바뀌었습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-watch-tsmc-100834448.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 20:46",
-        "score": 6
+        "publishedAt": "11/09 19:08",
+        "score": 13
       },
       {
-        "title": "Should You Forget IonQ and Buy These 2 Quantum Computing Stocks Instead?",
-        "description": "D-Wave Quantum and Rigetti are taking different approaches to developing quantum computers. Here's how their commercial progress and valuations stack",
-        "url": "https://www.fool.com/investing/2026/11/08/should-you-forget-ionq-and-buy-these-2-quantum-com/?.tsrc=rss",
+        "title": "NASA가 달 기지 보조금으로 100억 달러를 지급함에 따라 SpaceX, Rocket Lab이 더 높아졌습니다.",
+        "description": "NASA가 달 기지 계약을 체결하고 Rocket Lab이 수익을 올리면서 우주 무역이 다시 활발해졌습니다.",
+        "url": "https://finance.yahoo.com/markets/article/spacex-rocket-lab-blast-higher-as-nasa-hands-out-10-billion-in-moon-base-awards-164320855.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 22:57",
-        "score": 5
+        "publishedAt": "11/10 01:43",
+        "score": 12
       },
       {
-        "title": "Palantir Technologies (PLTR) Lands Enterprise AI Partnership For Insurance And Retirement Rollout",
-        "description": "Palantir Technologies (NasdaqGS:PLTR) has been chosen by AmeriLife Group for an enterprise AI partnership spanning insurance and retirement distributi",
-        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-pltr-lands-enterprise-111205834.html?.tsrc=rss",
+        "title": "Rocket Lab은 수익보다 9% 앞섰고, AST SpaceMobile은 일본 위성 벤처에서 라쿠텐을 통해 11% 급등했습니다. SpaceX 6% 상승",
+        "description": "부문 전체의 우주 랠리는 지난주의 매도세를 무시하고 있지만 Rocket Lab은 지연된 로켓과 순간을 테스트할 수 있는 수익 보고서에 직면해 있습니다.",
+        "url": "https://247wallst.com/investing/2026/11/09/rocket-lab-jumps-9-ahead-of-earnings-ast-spacemobile-surges-11-on-japan-satellite-venture-with-rakuten-spacex-rises-6/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 20:12",
-        "score": 5
+        "publishedAt": "11/10 00:53",
+        "score": 10
       },
       {
-        "title": "Adobe vs. Palantir Technologies: Which Technology Stock Is a Better Buy Going Into 2027?",
-        "description": "Adobe trades at a much lower forward earnings multiple compared to Palantir, yet the growth gap between them may matter more than the price tag.",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/08/adobe-vs-palantir-technologies-which-technology-stock-is-a-better-buy-going-into-2027/?.tsrc=rss",
+        "title": "TSMC, SK 하이닉스, 삼성: 엔비디아 CEO 젠슨 황의 논란이 투자자 신뢰를 시험하는 가운데 아시아 칩 주가 상승",
+        "description": "대만 코스피는 지난주 극심한 매도세를 보인 뒤 월요일 회복세를 보였다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/tsmc-sk-hynix-samsung-asian-chip-stocks-rise-even-as-nvidia-ceo-jensen-huang-s-controversy-tests-investor-confidence/cNGrP1CR9eL?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/09 03:07",
-        "score": 4
+        "publishedAt": "11/09 17:35",
+        "score": 10
       },
       {
-        "title": "Got $5,000? 2 Growth Stocks Building the Software Backbone of Artificial Intelligence (AI).",
-        "description": "Chips get the headlines, but Microsoft and CrowdStrike sell the software that puts AI to work and keeps it secure.",
-        "url": "https://www.fool.com/investing/2026/11/08/got-5000-2-growth-stocks-building-the-software-bac/?.tsrc=rss",
+        "title": "NVIDIA는 이사회가 Jensen Huang과 중국 스파이와의 연관성을 조사하면서 5% 하락했습니다. AMD는 4% 상승, 인텔은 안정세 유지",
+        "description": "NVIDIA가 CEO에 대한 이사회 조사를 흡수하는 동안 경쟁업체들은 조용히 입지를 다지고 있습니다. 피해가 이렇게 억제된 이유는 무엇이며, 무엇이 문제가 될 수 있습니까?",
+        "url": "https://247wallst.com/investing/2026/11/09/nvidia-falls-5-as-board-probes-jensen-huangs-ties-to-alleged-chinese-spy-amd-rises-4-intel-holds-steady/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/08 18:27",
-        "score": 4
+        "publishedAt": "11/09 22:43",
+        "score": 9
       }
     ]
   }
