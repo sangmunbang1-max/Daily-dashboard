@@ -1,317 +1,244 @@
 {
-  "generated_at_kst": "2026-11-11 11:03 KST",
-  "period": "11/10 07:00 ~ 11/11 07:00 KST",
+  "generated_at_kst": "2026-11-12 12:13 KST",
+  "period": "11/11 07:00 ~ 11/12 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "K+S AG (KPLUF) (Q3 2026) Earnings Call Highlights: EBITDA Guidance Raised on Potash Supply ...",
-        "description": "K+S AG (KPLUF) narrows its full-year 2026 EBITDA outlook to EUR700--750 million as tight global potash supply and a record EUR350 per ton SOP premium",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/k-ag-kpluf-q3-2026-210439862.html?.tsrc=rss",
+        "title": "Fed Rate Hike Expectations Boost the Dollar",
+        "description": "The dollar index (DXY00 ) rallied to a 1.5-year high on Wednesday and finished up +0.65%. The dollar moved higher Wednesday as Fed rate-hike expectati",
+        "url": "https://www.barchart.com/story/news/8787383/fed-rate-hike-expectations-boost-the-dollar?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 06:04",
+        "publishedAt": "11/12 05:36",
+        "score": 10
+      },
+      {
+        "title": "Why You Should Sell the Euro Now Before a December Fed Rate Hike",
+        "description": "March Euro currency futures present a selling opportunity on more price weakness.",
+        "url": "https://www.barchart.com/story/news/8783912/why-you-should-sell-the-euro-now-before-a-december-fed-rate-hike?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 01:32",
+        "score": 10
+      },
+      {
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "description": "U.S. stock futures are surging early Wednesday as tech shares lead a broad market rally amid ongoing diplomatic maneuvering in the Middle East and haw",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63130550/stock-market-will-sp-500-open-up-or-down-today-75?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/11 15:19",
+        "score": 9
+      },
+      {
+        "title": "US Dollar Strengthens Against The Loonie on Rate Hike Expectations",
+        "description": "The US dollar strengthened against Canada's currency Wednesday afternoon as oil prices climbed and o",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-strengthens-against-loonie-182054060.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 03:20",
         "score": 5
       },
       {
-        "title": "The US Greenback Rises Against the Canadian Dollar as Higher US CPI Adds to Rate Hike Expectations",
-        "description": "The US dollar strengthened against Canada's loonie Tuesday afternoon on expectations the Federal Res",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-greenback-rises-against-canadian-183454439.html?.tsrc=rss",
+        "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Monday",
+        "description": "The fund bought $4.32 billion of stock and sold nothing, lifting all 503 positions.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110306154.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 03:34",
-        "score": 5
-      },
-      {
-        "title": "A Jumbo Rate Hike Debate is Brewing for the December Fed Meeting as Bond Yields Rip Higher on Hot Inflation Data",
-        "description": "Fed Chair Kevin Warsh may not have a choice on December's rate hike as October CPI hits Waller’s 50-basis-point trigger.",
-        "url": "https://www.barchart.com/story/news/8763055/a-jumbo-rate-hike-debate-is-brewing-for-the-december-fed-meeting-as-bond-yields-rip-higher-on-hot-inflation-data?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 02:41",
-        "score": 5
-      },
-      {
-        "title": "Rocket Lab’s (NASDAQ:RKLB) Q3 2026: strong sales, guides for strong sales next quarter",
-        "description": "Aerospace and defense company Rocket Lab (NASDAQ:RKLB) reported Q3 2026 results beating Wall Street’s revenue expectations, with revenue rising 72.7%",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-nasdaq-rklb-q3-145352311.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/10 23:53",
-        "score": 5
-      },
-      {
-        "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Nov. 6",
-        "description": "The $791.88 billion fund sold $4.19 billion of stock and bought nothing, cutting all 503 positions.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412540.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/10 20:04",
+        "publishedAt": "11/11 20:03",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "SK hynix Stocks Jump 6.69% as Seoul Chip Rally Lifts KOSPI 4.39%",
-        "description": "The memory maker closed at 1,212,000 won as foreign and institutional buyers returned after a three-session KOSPI slide.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-jump-6-172948295.html?.tsrc=rss",
+        "title": "Samsung Electronics Stocks Rise 3.57% as Foreign Buyers Return to AI Memory",
+        "description": "Samsung closed at 206,000 won as the Kospi gained 2.6%, weeks after posting a record 107.4 trillion won operating profit.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stocks-rise-3-191025640.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 02:29",
-        "score": 13
-      },
-      {
-        "title": "Seoul Brakes on Buying Again as KOSPI Jumps Nearly 5%. Will It Stick This Time?",
-        "description": "KOSPI jumped nearly 5% and tripped a buy-side sidecar. Earlier sidecar rallies have since faded, and US CPI is next.",
-        "url": "https://beincrypto.com/kospi-buy-sidecar-rebound-us-cpi/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/10 11:00",
-        "score": 8
-      },
-      {
-        "title": "Samsung Electronics Stocks Climb 4.74% as Chip Rebound Pushes Shares Near 200,000 Won",
-        "description": "Seoul's heaviest weight joined a sidecar-triggering rally, though it closed just under the 200,000-won level it reclaimed before the open.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stocks-climb-4-172957531.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 02:29",
+        "publishedAt": "11/12 04:10",
         "score": 5
       },
       {
-        "title": "지멘스 회장, 네이버 로봇에 반했다…인스타서 '샤라웃' [정지은의 테크킥]",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202611108530i",
-        "source": "hankyung.com",
-        "publishedAt": "11/10 18:54",
-        "score": 3
+        "title": "Netlist CEO Hints Licensing Deal With SK Hynix Is In Works After Q3 Sales Rise 150%: Retail Turns Bullish",
+        "description": "Netlist booked licensing revenue from Samsung last quarter after the two sides settled their dispute and agreed on a five-year licensing deal.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/netlist-ceo-hints-licensing-deal-with-sk-hynix-is-in-works-after-q3-sales-rise-150-retail-turns-bullish/cNGDiZ6R9JC?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/11 16:12",
+        "score": 5
       },
       {
-        "title": "네이버도 마케팅비 절반으로 줄인다",
+        "title": "'네이버 로봇'에 하트 날린 지멘스 회장",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026111083181",
+        "url": "https://www.hankyung.com/article/2026111109431",
         "source": "hankyung.com",
-        "publishedAt": "11/10 17:38",
+        "publishedAt": "11/11 17:33",
         "score": 3
       }
     ],
-    "macro": [
-      {
-        "title": "Gold Prices Ease to $4,122.96 as Investors Await US Inflation Data and Federal Reserve Signals",
-        "description": "Gold prices declined modestly on Tuesday as investors took profits following gains in the previous session, while markets awaited US inflation figures",
-        "url": "https://investorshub.advfn.com/market-news/article/39598/gold-prices-ease-to-4122-96-as-investors-await-us-inflation-data-and-federal-reserve-signals?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/10 19:15",
-        "score": 10
-      },
-      {
-        "title": "The US Greenback Rises Against the Canadian Dollar as Higher US CPI Adds to Rate Hike Expectations",
-        "description": "The US dollar strengthened against Canada's loonie Tuesday afternoon on expectations the Federal Res",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-greenback-rises-against-canadian-183454439.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 03:34",
-        "score": 5
-      },
-      {
-        "title": "A Jumbo Rate Hike Debate is Brewing for the December Fed Meeting as Bond Yields Rip Higher on Hot Inflation Data",
-        "description": "Fed Chair Kevin Warsh may not have a choice on December's rate hike as October CPI hits Waller’s 50-basis-point trigger.",
-        "url": "https://www.barchart.com/story/news/8763055/a-jumbo-rate-hike-debate-is-brewing-for-the-december-fed-meeting-as-bond-yields-rip-higher-on-hot-inflation-data?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 02:41",
-        "score": 5
-      },
-      {
-        "title": "Stock Market Midday, Nov. 10: Stocks Slide on Hot Inflation Data",
-        "description": "Growth and tech shares are leading the intraday slide as traders weigh a hotter-than-expected inflation report today, Nov. 10, 2026.",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/10/stock-market-midday-nov-10-stocks-slide-on-hot-inflation-data/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 02:40",
-        "score": 5
-      },
-      {
-        "title": "A 50-Basis-Point Fed Hike Was Unthinkable – After CPI, Economists Can't Rule It Out",
-        "description": "Until this week, Wall Street was arguing over whether the Federal Reserve would raise interest rates in December. After Tuesday’s inflation report, th",
-        "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/63106031/50-basis-point-fed-hike-october-cpi-waller-treasury-yields?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 02:05",
-        "score": 5
-      }
-    ],
+    "macro": [],
     "bonds": [
       {
-        "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds: AlphaCheck",
-        "description": "Stocks declined as bond yields rose after a hot inflation reading.",
-        "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-jumps-as-odds-of-rate-hike-rise-amid-hot-inflation-print-alphacheck-144120699.html?.tsrc=rss",
+        "title": "The 2-Year Treasury Yield Just Had Its Biggest Jump in 19 Months",
+        "description": "A hawkish Fed governor and a stubborn inflation print hit bond markets on the same day, and two Treasury ETFs reacted in very different ways. Which on",
+        "url": "https://247wallst.com/investing/2026/11/11/the-2-year-treasury-yield-just-had-its-biggest-jump-in-19-months/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/10 23:41",
+        "publishedAt": "11/12 05:24",
         "score": 8
       },
       {
-        "title": "Foreign-Linked Buyers Took Their Smallest Share of a 3-Year Treasury Auction in 15 Months",
-        "description": "A Treasury auction drew unusually weak demand from the buyers who usually signal overseas appetite, yet dealers were left holding almost nothing. Thre",
-        "url": "https://247wallst.com/investing/2026/11/10/foreign-linked-buyers-took-their-smallest-share-of-a-3-year-treasury-auction-in-15-months/?.tsrc=rss",
+        "title": "Home Equity Borrowing Jumps the Most Since 2005 as Household Debt Passes $19 Trillion",
+        "description": "Some homeowners tap their equity because it's cheap. Others tap it to cover gas and groceries. The same record-setting number hides both, and which gr",
+        "url": "https://247wallst.com/investing/2026/11/11/home-equity-borrowing-jumps-the-most-since-2005-as-household-debt-passes-19-trillion/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 04:38",
-        "score": 3
+        "publishedAt": "11/12 04:42",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "증시 흔들리자 금펀드 수익률 1위…내년 금값 전망은",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202611107475i",
-        "source": "hankyung.com",
-        "publishedAt": "11/11 06:00",
-        "score": 5
+        "title": "Crude Oil Prices Finish Higher as Progress Stalls in US-Iran Peace Talks",
+        "description": "December WTI crude oil (CLZ26 ) closed up +0.49 (+0.57%) on Wednesday, and December RBOB gasoline (RBZ26 ) closed down -0.0013 (-0.05%). Crude oil and",
+        "url": "https://www.barchart.com/story/news/8787123/crude-oil-prices-finish-higher-as-progress-stalls-in-us-iran-peace-talks?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 05:13",
+        "score": 10
       },
       {
-        "title": "Oil Prices Just Fell to Their Lowest Since August as Trump Says the Iran War Is ‘Effectively Over’",
-        "description": "Futures sank on words alone, with no signed deal and Iran denying any talks exist. Why did one oil fund crater while Exxon and Chevron barely flinched",
-        "url": "https://247wallst.com/investing/2026/11/10/oil-prices-just-fell-to-their-lowest-since-august-as-trump-says-the-iran-war-is-effectively-over/?.tsrc=rss",
+        "title": "TSX Closer: Index Rises More Than 240 Points as Technology, Energy and Base Metals Stocks Make Gains",
+        "description": "The S&P/TSX Composite Index closed higher on Wednesday as higher technology, energy and base metals",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-rises-more-212032986.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 03:34",
-        "score": 5
+        "publishedAt": "11/12 06:20",
+        "score": 3
       },
       {
-        "title": "Gold price today, Tuesday, November 10, 2026: Gold opens above $4,100 for the first time in three weeks",
-        "description": "Gold futures opened at $4,149 per troy ounce on Tuesday, November 10, 2026, up 1.8% from Monday's opening price. Gold slipped in early trading to $4,0",
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-november-10-2026-gold-opens-above-4100-for-the-first-time-in-three-weeks-121734382.html?.tsrc=rss",
+        "title": "Sector Update: Energy Stocks Edge Higher Pre-Bell Wednesday",
+        "description": "Energy stocks were edging higher pre-bell Wednesday, with the State Street Energy Select Sector SPDR",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-142600570.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/10 21:17",
-        "score": 5
-      },
-      {
-        "title": "Gold Prices Ease to $4,122.96 as Investors Await US Inflation Data and Federal Reserve Signals",
-        "description": "Gold prices declined modestly on Tuesday as investors took profits following gains in the previous session, while markets awaited US inflation figures",
-        "url": "https://investorshub.advfn.com/market-news/article/39598/gold-prices-ease-to-4122-96-as-investors-await-us-inflation-data-and-federal-reserve-signals?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/10 19:15",
-        "score": 5
-      },
-      {
-        "title": "Enbridge vs. Occidental Petroleum: Does a Midstream or Upstream Energy Focus Make for a Better Stock Buy for 2027?",
-        "description": "Enbridge's revenue surged 22% while Occidental's fell, yet one trades at a fraction of the other's valuation multiple, a gap that may not last.",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/10/enbridge-vs-occidental-petroleum-does-a-midstream-or-upstream-energy-focus-make-for-a-better-stock-buy-for-2027/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 06:32",
+        "publishedAt": "11/11 23:26",
         "score": 3
       }
     ],
     "fx": [
       {
-        "title": "[속보] 엔비디아 이틀간 9.6% 급락…시총 약 4300억달러 증발",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026111187687",
-        "source": "hankyung.com",
-        "publishedAt": "11/11 06:07",
+        "title": "DXY Hits 19-Month High: Was the ‘Dollar Is Dying’ Crowd Wrong?",
+        "description": "The US dollar hit a 19-month high on Fed hike bets, a year after its worst slide since 1973. See who pays.",
+        "url": "https://beincrypto.com/us-dollar-19-month-high-dollar-dying/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 03:45",
+        "score": 6
+      },
+      {
+        "title": "Why You Should Sell the Euro Now Before a December Fed Rate Hike",
+        "description": "March Euro currency futures present a selling opportunity on more price weakness.",
+        "url": "https://www.barchart.com/story/news/8783912/why-you-should-sell-the-euro-now-before-a-december-fed-rate-hike?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 01:32",
         "score": 3
       },
       {
-        "title": "The US Greenback Rises Against the Canadian Dollar as Higher US CPI Adds to Rate Hike Expectations",
-        "description": "The US dollar strengthened against Canada's loonie Tuesday afternoon on expectations the Federal Res",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-greenback-rises-against-canadian-183454439.html?.tsrc=rss",
+        "title": "Helsing debuts Clarity military AI to challenge Palantir in Europe",
+        "description": "Investing.com -- Helsing GmbH has unveiled an artificial intelligence platform designed to process battlefield data in seconds, positioning the German",
+        "url": "https://finance.yahoo.com/technology/ai/articles/helsing-debuts-clarity-military-ai-161625762.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 03:34",
+        "publishedAt": "11/12 01:16",
+        "score": 3
+      },
+      {
+        "title": "Fed Rate Hike Expectations Boost the Dollar",
+        "description": "The dollar index (DXY00 ) rallied to a 1.5-year high on Wednesday and finished up +0.65%. The dollar moved higher Wednesday as Fed rate-hike expectati",
+        "url": "https://www.barchart.com/story/news/8787383/fed-rate-hike-expectations-boost-the-dollar?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 05:36",
         "score": 1
       },
       {
-        "title": "Dollar Jumps and Gold Falls on Hot US CPI and Hawkish Fed Comments",
-        "description": "The dollar index (DXY00 ) is up by +0.43% today. The dollar is moving higher today on hawkish comments from Fed Governor Christopher Waller, who said",
-        "url": "https://www.barchart.com/story/news/8760314/dollar-jumps-and-gold-falls-on-hot-us-cpi-and-hawkish-fed-comments?.tsrc=rss",
+        "title": "US Dollar Strengthens Against The Loonie on Rate Hike Expectations",
+        "description": "The US dollar strengthened against Canada's currency Wednesday afternoon as oil prices climbed and o",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-strengthens-against-loonie-182054060.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 00:39",
-        "score": 1
-      },
-      {
-        "title": "US Dollar Rises Early Tuesday Ahead of October Consumer Price Data",
-        "description": "The US dollar rose against its major trading partners early Tuesday ahead of the release of October",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-tuesday-123041581.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/10 21:30",
-        "score": 1
-      },
-      {
-        "title": "Dollar, Yields Climb as Fed's Waller Backs Rate Hike Ahead of CPI",
-        "description": "The U.S. dollar and Treasury yields pushed higher Tuesday after Federal Reserve Governor Christopher Waller signaled support for another interest-rate",
-        "url": "https://finance.yahoo.com/m/1e782650-5f23-3281-b297-0d30851768b8/dollar%2C-yields-climb-as-fed%27s.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/10 19:23",
+        "publishedAt": "11/12 03:20",
         "score": 1
       }
     ],
     "geopolitics": [
       {
+        "title": "US Equity Markets End Higher After CoreWeave's Results Push Technology Sector Upward",
+        "description": "US equity indexes ended higher Wednesday after CoreWeave's (CRWV) Q3 results pushed the technology s",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-211108614.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 06:11",
+        "score": 1
+      },
+      {
+        "title": "3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each",
+        "description": "No matter how you feel about AI stocks, there is room for optimism about the future of the stock market.",
+        "url": "https://www.fool.com/investing/2026/11/11/3-possible-paths-forward-for-ai-stocks-bull-case-b/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 04:24",
+        "score": 1
+      },
+      {
+        "title": "Tech rises as CoreWeave results reignite AI trade: AlphaCheck",
+        "description": "Tech stocks led the market higher on Wednesday.",
+        "url": "https://finance.yahoo.com/markets/article/tech-rises-coreweave-results-reignite-ai-trade-alphacheck-153336772.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 00:33",
+        "score": 1
+      },
+      {
         "title": "Ayar Labs Wins Demo of the Year Award at 2026 TSMC North America Technology Symposium",
-        "description": "SAN JOSE, Calif., November 10, 2026--Ayar Labs, the leader in optical interconnect solutions for AI scale-up, won the Demo of the Year Award at the 20",
+        "description": "SAN JOSE, Calif., November 11, 2026--Ayar Labs, the leader in optical interconnect solutions for AI scale-up, won the Demo of the Year Award at the 20",
         "url": "https://finance.yahoo.com/technology/ai/articles/ayar-labs-wins-demo-award-210000044.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 06:00",
+        "publishedAt": "11/12 00:30",
         "score": 1
       },
       {
-        "title": "Rocket Lab and The Trade Desk Are 2 Beaten-Down Stocks to Buy Before 2027",
-        "description": "Both stocks have shed most of their value. Did Monday night's reports finally make them worth owning?",
-        "url": "https://www.fool.com/investing/2026/11/10/rocket-lab-and-the-trade-desk-are-2-beaten-down-stocks-to-buy-before-2027/?.tsrc=rss",
+        "title": "Marvell and Intel Rally 7% as CoreWeave’s Results Reignite the AI Chip Trade; Taiwan Semiconductor Climbs 4%",
+        "description": "After a brutal month that wiped roughly 40% off some of the biggest names in AI silicon, one cloud provider's earnings and a quiet funding shift just",
+        "url": "https://247wallst.com/investing/2026/11/11/marvell-and-intel-rally-7-as-coreweaves-results-reignite-the-ai-chip-trade-taiwan-semiconductor-climbs-4/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 05:07",
-        "score": 1
-      },
-      {
-        "title": "TSMC Is at the Center of an AI Boom That Flipped 25 Years of U.S. Trade. Is the Stock a Buy?",
-        "description": "America now buys far more computer and electronics gear from Taiwan than from China. One company sits at the center of that shift, and its sales just",
-        "url": "https://www.fool.com/investing/2026/11/10/tsmc-is-at-the-center-of-an-ai-boom-that-flipped-25-years-of-u-s-trade-is-the-stock-a-buy/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 04:53",
-        "score": 1
-      },
-      {
-        "title": "Oil Prices Just Fell to Their Lowest Since August as Trump Says the Iran War Is ‘Effectively Over’",
-        "description": "Futures sank on words alone, with no signed deal and Iran denying any talks exist. Why did one oil fund crater while Exxon and Chevron barely flinched",
-        "url": "https://247wallst.com/investing/2026/11/10/oil-prices-just-fell-to-their-lowest-since-august-as-trump-says-the-iran-war-is-effectively-over/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 03:34",
-        "score": 1
-      },
-      {
-        "title": "This Software Stock Bull Signal Has Never Been Wrong",
-        "description": "The historically bullish signal has yielded significant surges",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/software-stock-bull-signal-never-183039157.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 03:30",
+        "publishedAt": "11/11 23:48",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "TSMC Rallies 7% in Taipei as Nvidia Reportedly Asks It to Draft 3D DRAM Plans",
-        "description": "Key TakeawaysTSMC rallied as much as 7. 3% in Taipei on Monday after Taiwan activated its stock stabilization fund following the market’s worst week s",
-        "url": "https://www.tikr.com/blog/tsmc-rallies-7-in-taipei-as-nvidia-reportedly-asks-it-to-draft-3d-dram-plans?ref=yahoofinance&tlnk=yf-261110-gf4fw53h&.tsrc=rss",
+        "title": "TSMC Secures Its Future by Investing in Anthropic and OpenAI",
+        "description": "Big AI firms are strategic partners essential to TSMC’s business.",
+        "url": "https://app.moby.co/home/news/news-tsmc-secures-its-future-by-investing-in-anthropic-and-openai?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/10 23:50",
-        "score": 12
+        "publishedAt": "11/12 04:59",
+        "score": 14
       },
       {
-        "title": "Twin Satellites Built by Rocket Lab for NASA's ESCAPADE Mission Complete Successful Trans-Mars Injection Burns, Setting Course for the Red Planet",
-        "description": "Twin spacecraft Blue and Gold successfully execute critical burns, putting them on track for Mars arrival in 2027 ESCAPADE Trans-Mars Injection Burns",
-        "url": "https://finance.yahoo.com/technology/articles/twin-satellites-built-rocket-lab-130000313.html?.tsrc=rss",
+        "title": "TSMC plans up to $1bn investment in Anthropic, OpenAI",
+        "description": "TSMC's board approved an investment of $500m to acquire Anthropic common shares at the company’s IPO price.",
+        "url": "https://www.investmentmonitor.ai/news/tsmc-plans-1bn-investment-anthropic-openai/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/10 22:00",
-        "score": 9
+        "publishedAt": "11/11 22:28",
+        "score": 14
       },
       {
-        "title": "Google, Nvidia and Microsoft “Literally Feeding Themselves Money” with $26 Billion Anthropic IPO Buy",
-        "description": "Key TakeawaysAlphabet’s Google, Nvidia, Microsoft, Broadcom, AMD, Micron and TSMC will buy $26 billion of Anthropic’s shares at its IPO price, on top",
-        "url": "https://www.tikr.com/blog/google-nvidia-and-microsoft-literally-feeding-themselves-money-with-26-billion-anthropic-ipo-buy?ref=yahoofinance&tlnk=yf-261110-4fh7rrpp&.tsrc=rss",
+        "title": "Marvell and Intel Rally 7% as CoreWeave’s Results Reignite the AI Chip Trade; Taiwan Semiconductor Climbs 4%",
+        "description": "After a brutal month that wiped roughly 40% off some of the biggest names in AI silicon, one cloud provider's earnings and a quiet funding shift just",
+        "url": "https://247wallst.com/investing/2026/11/11/marvell-and-intel-rally-7-as-coreweaves-results-reignite-the-ai-chip-trade-taiwan-semiconductor-climbs-4/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/11 03:21",
+        "publishedAt": "11/11 23:48",
+        "score": 11
+      },
+      {
+        "title": "SpaceX Wins NASA Moon Base Awards, but Government Is “Less Than 10%” of Its Revenue",
+        "description": "Key TakeawaysSpaceX shares rose about 6% on Monday after NASA named it one of eight companies that can compete for up to $10 billion of lunar delivery",
+        "url": "https://www.tikr.com/blog/spacex-wins-nasa-moon-base-awards-but-government-is-less-than-10-of-its-revenue?ref=yahoofinance&tlnk=yf-261111-2mvvv33w&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/11 16:28",
+        "score": 11
+      },
+      {
+        "title": "One Investor Says Anthropic Would Cost “Less Than Palantir on Sales.” That’s a Problem for Palantir",
+        "description": "Key TakeawaysAnthropic set its IPO range at $70 to $78 a share. One investor on Reddit works that out to 35x to 39x trailing sales, compared with 53x",
+        "url": "https://www.tikr.com/blog/one-investor-says-anthropic-would-cost-less-than-palantir-on-sales-thats-a-problem-for-palantir?ref=yahoofinance&tlnk=yf-261111-pwg7jvj8&.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/12 01:08",
         "score": 8
-      },
-      {
-        "title": "Rocket Lab Sinks 9% Despite Record Backlog, AST SpaceMobile Falls 6% on BofA Price Target Cut; SpaceX Slides 3%",
-        "description": "Rocket Lab posted a record backlog and still got punished, while rivals that depend on the same scarce rockets slid too. One bottleneck links three st",
-        "url": "https://247wallst.com/investing/2026/11/10/rocket-lab-sinks-9-despite-record-backlog-ast-spacemobile-falls-6-on-bofa-price-target-cut-spacex-slides-3/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/10 23:02",
-        "score": 7
-      },
-      {
-        "title": "Anthropic's $1.4 trillion IPO could raise $90 billion as Wedbush backs AI hardware outlook",
-        "description": "Anthropic (Unlisted (US):ANTHRO), the artificial intelligence developer behind Claude, is seeking a valuation of up to $1.4 trillion in an initial pub",
-        "url": "https://www.proactiveinvestors.com/companies/news/1101534/anthropic-s-1-4-trillion-ipo-could-raise-90-billion-as-wedbush-backs-ai-hardware-outlook-1101534.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/11 02:00",
-        "score": 6
       }
     ]
   }
