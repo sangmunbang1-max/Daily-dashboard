@@ -1,301 +1,229 @@
 {
-  "generated_at_kst": "2026-11-14 11:34 KST",
-  "period": "11/13 07:00 ~ 11/14 07:00 KST",
+  "generated_at_kst": "2026-11-15 11:01 KST",
+  "period": "11/14 07:00 ~ 11/15 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "오늘의 주식 시장: 지수는 손실을 줄이고, 강한 변동성에도 불구하고 주간 상승세를 기록했습니다.",
-        "description": "예상보다 낮은 인플레이션 데이터에도 불구하고 다우존스 지수는 금요일 하락했습니다. AI 거대 엔비디아는 계속해서 하락했다.",
-        "url": "https://finance.yahoo.com/m/59c1380c-6194-35f8-be3b-4a6a3148bfa4/stock-market-today%3A-indexes.html?.tsrc=rss",
+        "title": "S&P 500, Dow, Nasdaq은 Nvidia 혼란 속에서 하락세를 기록했지만 8월 이후 최고의 주 기록 — SPCX, NVDA, ARM, AZN In Focus",
+        "description": "Nvidia는 Jensen Huang이 CEO에서 물러난 후 작년 4월 이후 최악의 한 주를 보냈고 이사회는 후보자를 찾고 있습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-amid-nvidia-turmoil-but-record-best-week-since-august-spcx-nvda-arm-azn-in-focus/cNbRj3uR9Q2?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 06:49",
-        "score": 8
+        "publishedAt": "11/14 08:37",
+        "score": 10
       },
       {
-        "title": "S&P 500으로 분열된 월스트리트: 2027년에는 어떤 ETF가 이익을 얻을 수 있을까?",
-        "description": "UBS는 S&P 500이 2027년까지 8,900에 도달할 것으로 예상하고, BofA는 시장 위험을 경고합니다. ETF를 탐색하여 결과를 살펴보세요.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-divided-p-500-135700793.html?.tsrc=rss",
+        "title": "워렌 버핏의 버크셔 주가는 60년 동안 연평균 19% 이상의 수익률을 올렸는데, 이는 S&P 500의 10% 수익률의 거의 두 배에 달하는 수치입니다. 투자자들이 지금도 그 플레이북을 적용할 수 있나요?",
+        "description": "버핏의 지혜는 시대를 초월합니다.",
+        "url": "https://www.fool.com/investing/2026/11/14/warren-buffetts-berkshire-compounded-at-more-than-19-a-year-over-six-decades-nearly-double-the-sp-500s-10-return-can-investors-still-apply-that-playbook-today/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/13 22:57",
-        "score": 8
-      },
-      {
-        "title": "S&P 500에는 \"순수한 가치\" 버전이 있습니다. RPV는 가장 저렴한 주식에 가장 큰 가중치를 부여합니다",
-        "description": "대부분의 S&P 500 펀드는 시장 승자에게 가장 큰 가중치를 부여합니다. 잘 알려지지 않은 한 펀드는 이러한 논리를 뒤집어 사랑받지 못하는 건강 보험사에 자금을 조달합니다.",
-        "url": "https://247wallst.com/investing/etf/2026/11/13/the-sp-500-has-a-pure-value-version-rpv-gives-its-cheapest-stocks-the-biggest-weights/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/14 02:03",
+        "publishedAt": "11/15 02:54",
         "score": 6
       },
       {
-        "title": "그는 S&P 500 401(k)가 공개되자마자 그 지수에 인류애적 요소가 적용되기를 원합니다. 하나의 지수 규칙으로 최소 12개월 동안 이를 유지할 수 있습니다. 그럼에도 불구하고 그의 기금은 결코 그것을 소유하지 못할 수도 있습니다",
-        "description": "Anthropic의 Nasdaq 데뷔가 며칠 남았지만 S&P 500 펀드가 첫 번째 순위는 아닙니다. Claude Maker와 401(k) 사이에는 두 가지 장애물이 있습니다.",
-        "url": "https://247wallst.com/personal-finance/2026/11/13/he-wants-anthropic-in-his-sp-500-401k-as-soon-as-it-goes-public-one-index-rule-could-keep-it-out-for-at-least-12-months-even-then-his-fund-may-never-own-it/?.tsrc=rss",
+        "title": "투자자들이 다이아몬드백 에너지(FANG) 실적이 부진할 때 어떻게 반응할 수 있나요?",
+        "description": "Diamondback Energy는 2026년 3분기 매출을 54억 3100만 달러, 순이익을 16억 3000만 달러로 보고했으며, 2026년 생산 지침을 업데이트하고 i를 증가시켰습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/investors-may-respond-diamondback-energy-130738319.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/13 23:34",
+        "publishedAt": "11/14 22:07",
         "score": 6
       },
       {
-        "title": "달러 강세, 금리 인상 베팅이 올해 금에 부담을 주지만 원자재 전략가들은 장기적으로 강세를 전망",
-        "description": "달러 강세와 긴축 통화 정책에 대한 기대가 이번 금의 빛을 일부 앗아갔습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/strong-dollar-rate-hike-bets-213244314.html?.tsrc=rss",
+        "title": "RRC(Range Resources)가 급격한 수정에 취약할 수 있는 이유는 다음과 같습니다.",
+        "description": "우리는 이제 블루 웨이브가 도래했으며 Range Resources Corporation(NYSE:RRC)이 8위에 올랐으므로 지금 매도할 10가지 독성 에너지 주식 목록을 발표했습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/why-range-resources-rrc-could-172230397.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 06:32",
+        "publishedAt": "11/15 02:22",
+        "score": 5
+      },
+      {
+        "title": "S&P 500은 18개월 동안 10% 하락 없이 지냈습니다. 이렇게 오랜 연승을 이어간 후 내년이 어떻게 지나갔는지 살펴보겠습니다.",
+        "description": "1950년 이후 단 7번의 구간만이 이렇게 오래 지속되었습니다. 보통 힘든 한 해가 이어졌나요?",
+        "url": "https://www.fool.com/investing/2026/11/14/the-s-and-p-500-has-gone-18-months-without-a-10-drop-here-s-how-the-next-year-has-gone-after-streaks-this-long/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/15 01:58",
         "score": 5
       }
     ],
     "kr_market": [
       {
-        "title": "코스피, 0.98% 내린 5290…코스닥 0.45% 오른 699 마감",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026111354636",
-        "source": "hankyung.com",
-        "publishedAt": "11/13 15:38",
-        "score": 10
-      },
-      {
-        "title": "'조선미녀' 구다이글로벌, 코스피 상장 도전장",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026111359051",
-        "source": "hankyung.com",
-        "publishedAt": "11/13 18:32",
-        "score": 6
-      },
-      {
-        "title": "李 대통령 \"IR 안하는 상장사, 자격 의문\"…거래소 \"코스닥 연 1회 의무화 추진\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202611135520i",
-        "source": "hankyung.com",
-        "publishedAt": "11/13 16:44",
-        "score": 6
-      },
-      {
-        "title": "Nvidia 리더십 쇼크가 주요 HBM 공급업체를 강타함에 따라 SK하이닉스 주가는 3.03% 하락했습니다.",
-        "description": "Jensen Huang의 사임 이후 외국인 투자자들이 칩 제조업체를 매각하면서 주가는 서울에서 4.63% 초반 상승을 반전시켰습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-fall-3-183209379.html?.tsrc=rss",
+        "title": "삼성전자(KOSE:A005930) 삼성페이 확대, 여전히 주가 저평가?",
+        "description": "삼성전자(KOSE:A005930)는 주당 566원의 새로운 분기 배당금과 전월 배당금을 포함한 몇 가지 새로운 발표 이후 다시 주목을 받고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-expands-121510717.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 03:32",
-        "score": 5
-      },
-      {
-        "title": "엔비디아 CEO 퇴임, AI 메모리 랠리 테스트로 삼성전자 주가 하락",
-        "description": "서울의 조짐은 외국인 투자자들이 한국 칩 주식을 팔면서 3% 이상의 초기 이익을 포기했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stocks-move-lower-183110049.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/14 03:31",
+        "publishedAt": "11/14 21:15",
         "score": 5
       }
     ],
     "macro": [
       {
-        "title": "칩 패배가 인플레이션 데이터를 능가함에 따라 주가 하락",
-        "description": "칩 제조업체의 또 다른 매도는 주식에 부담을 주어 공격적인 연준의 금리 인상에 대한 우려를 완화시키는 인플레이션 데이터를 무색하게 만들었습니다. 테드 파크",
-        "url": "https://finance.yahoo.com/video/stocks-fall-chip-rout-outweighs-163511135.html?.tsrc=rss",
+        "title": "미국은 '심장마비를 겪을 것이다': 레이 달리오(Ray Dalio)가 미국 경제에 대해 새로운 경고를 내림 - 저축자들이 가장 큰 위험에 처해 있음",
+        "description": "하지만 여기서 끝나지 않습니다. Dalio에 따르면 \"당신은 위험에 처해 있습니다.\"",
+        "url": "https://finance.yahoo.com/economy/policy/articles/america-heart-attack-ray-dalio-133000352.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 01:35",
-        "score": 5
-      },
-      {
-        "title": "미국 달러는 PPI, 연방 준비 제도 이사회 출현을 앞두고 금요일 초반 상승",
-        "description": "미국 달러는 생산자 발표를 앞두고 금요일 오전 주요 거래 상대국 대비 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-friday-123559335.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/13 21:35",
-        "score": 5
+        "publishedAt": "11/14 22:30",
+        "score": 1
       }
     ],
     "bonds": [
       {
-        "title": "Loonie향하여 미국 달러 가장자리는 더 높습니다; 재무부 수익률 상위 5%",
-        "description": "금요일 오후 미 국채 수익률이 상승함에 따라 미국 달러는 캐나다 통화 대비 소폭 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-edges-higher-against-183801855.html?.tsrc=rss",
+        "title": "Bank of America의 Hartnett는 국채 수익률과 유가가 하락할 때까지 신중한 시장 전망을 유지합니다",
+        "description": "Bank of America 전략가 Michael Hartnett와 그의 팀은 낮은 국채 수익률을 식별하면서 금융 시장에 대해 신중한 전망을 유지해 왔습니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/39985/bank-of-americas-hartnett-maintains-cautious-market-outlook-until-treasury-yields-and-oil-prices-decline?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 03:38",
+        "publishedAt": "11/15 00:08",
         "score": 8
       },
       {
-        "title": "뜨거운 인플레이션 판독으로 10년 만기 국채 수익률 급등, Nvidia가 칩 재고 하락 주도: AlphaCheck",
-        "description": "금요일에는 예상보다 높은 도매가격 지수가 나온 후 주식이 혼조세를 보였습니다. 반도체 주가가 하락하면서 기술주도 하락했습니다.",
-        "url": "https://finance.yahoo.com/markets/article/copy-tech-rises-coreweave-results-reignite-ai-trade-alphacheck-150655549.html?.tsrc=rss",
+        "title": "주간 스프레드: 이번 주 미국 국채 수익률과 달러의 형성 원인",
+        "description": "예상보다 높은 인플레이션과 매파적인 금리 수사가 수익률을 밀어붙이면서 미국 국채는 임기 전반에 걸쳐 지난 주에 반전을 보였습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/what-shaped-us-treasury-yields-and-the-dollar-in-week-ended-november-13/cNb2sojR9Qd?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 00:06",
+        "publishedAt": "11/14 10:22",
         "score": 8
       },
       {
-        "title": "오늘의 주식 시장: 재무부가 상위 5% 수익률을 올리면서 황의 퇴장 후 엔비디아가 반등했습니다",
-        "description": "Nvidia는 CEO의 충격적인 사임 이후 반등하고 있지만 채권 시장은 수년 동안 볼 수 없었던 수치를 보이고 있으며 금요일에 예정된 인플레이션 보고서는",
-        "url": "https://247wallst.com/investing/2026/11/13/stock-market-today-nvidia-rebounds-after-huangs-exit-as-treasury-yields-top-5/?.tsrc=rss",
+        "title": "부채에 대한 대타협을 위한 시간",
+        "description": "독자들은 국가 부채 감소, 칩 주식 주의, 데이터 센터 사례, 미국 의약품 주식에 대해 무게를 두고 있습니다.",
+        "url": "https://finance.yahoo.com/m/21f85a96-85bc-3c24-976e-fa97171ff74f/time-for-a-grand-bargain-on.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/13 23:15",
-        "score": 8
+        "publishedAt": "11/14 08:15",
+        "score": 1
       }
     ],
     "commodities": [
       {
-        "title": "달러 강세, 금리 인상 베팅이 올해 금에 부담을 주지만 원자재 전략가들은 장기적으로 강세를 전망",
-        "description": "달러 강세와 긴축 통화 정책에 대한 기대가 이번 금의 빛을 일부 앗아갔습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/strong-dollar-rate-hike-bets-213244314.html?.tsrc=rss",
+        "title": "유가 하락으로 Uber 주식 및 기타 여행 이름이 상승할 수 있음",
+        "description": "석유는 위협에서 와일드카드로 조용히 전환했습니다. 물 위의 추가 배럴, 브렌트유는 90달러 미만, 전 세계 수요가 완화됨에 따라 연료비도 인하되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lower-oil-prices-could-lift-160815118.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 06:32",
+        "publishedAt": "11/15 01:08",
+        "score": 5
+      },
+      {
+        "title": "Bank of America의 Hartnett는 국채 수익률과 유가가 하락할 때까지 신중한 시장 전망을 유지합니다",
+        "description": "Bank of America 전략가 Michael Hartnett와 그의 팀은 낮은 국채 수익률을 식별하면서 금융 시장에 대해 신중한 전망을 유지해 왔습니다.",
+        "url": "https://investorshub.advfn.com/market-news/article/39985/bank-of-americas-hartnett-maintains-cautious-market-outlook-until-treasury-yields-and-oil-prices-decline?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/15 00:08",
+        "score": 5
+      },
+      {
+        "title": "Viper Energy (VNOM)는 3분기에 강세를 보였습니다. 하지만 이제 블루 웨이브가 도래했기 때문에 주식이 위험에 처해 있습니까?",
+        "description": "우리는 블루 웨이브가 도래했기 때문에 지금 매도할 10가지 독성 에너지 주식 목록을 발표했으며, Viper Energy, Inc.(NASDAQ:VNOM)는 이 순위에서 10위를 차지했습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/viper-energy-vnom-just-had-172356519.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/15 02:23",
         "score": 3
       },
       {
-        "title": "석유 저장 확장에 직접 노출되는 인도 에너지 인프라 주식 3개",
-        "description": "인도가 9억 1천만 달러 규모의 새로운 찬디콜(Chandikhol) 부지부터 ONGC가 계획한 망갈루루(Mangaluru) 저장고까지 전략적 석유 매장량을 갑작스럽게 확대하려고 추진하면서 원유 공급량이 감소했습니다.",
-        "url": "https://finance.yahoo.com/energy/articles/3-indian-energy-infrastructure-stocks-211158656.html?.tsrc=rss",
+        "title": "DT Midstream(DTM)은 에너지 거래가 풀리면서 매도에 직면할 수 있습니다.",
+        "description": "우리는 블루 웨이브가 도래했기 때문에 지금 매도할 10가지 독성 에너지 주식 목록을 발표했으며, DT Midstream, Inc.(NYSE:DTM)는 이 목록에서 6위를 차지했습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/dt-midstream-dtm-could-face-172114353.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 06:11",
+        "publishedAt": "11/15 02:21",
         "score": 3
       },
       {
-        "title": "부문 업데이트: 금요일 에너지 주식 사전 시장 진출",
-        "description": "에너지 주식은 State Street Energy Select Sector SPDR ETF(",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-142520549.html?.tsrc=rss",
+        "title": "투자자들이 다이아몬드백 에너지(FANG) 실적이 부진할 때 어떻게 반응할 수 있나요?",
+        "description": "Diamondback Energy는 2026년 3분기 매출을 54억 3100만 달러, 순이익을 16억 3000만 달러로 보고했으며, 2026년 생산 지침을 업데이트하고 i를 증가시켰습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/investors-may-respond-diamondback-energy-130738319.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/13 23:25",
+        "publishedAt": "11/14 22:07",
         "score": 3
-      },
-      {
-        "title": "밀이 금요일 아침에 목요일 손실의 일부를 회복함",
-        "description": "소맥은 금요일 오전에 5~7센트 상승한 거래를 보이고 있습니다. 밀 단지는 목요일 마감까지 3개 시장에서 하락하여 두 배의 하락세를 보였습니다.",
-        "url": "https://www.barchart.com/story/news/8820860/wheat-taking-back-some-of-thursdays-losses-on-friday-morning?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/13 22:30",
-        "score": 3
-      },
-      {
-        "title": "AI 붐을 촉진하는 Qualcomm CEO Cristiano Amon",
-        "description": "Qualcomm CEO Cristiano Amon은 Yahoo Finance의 2026 Invest 컨퍼런스에서 Deirdre Bosa 및 Brian Sozzi와 함께합니다.",
-        "url": "https://finance.yahoo.com/video/qualcomm-ceo-cristiano-amon-on-fueling-the-ai-boom-150849126.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/14 00:08",
-        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "달러 지수가 19개월 최고치에 도달하면서 비트코인이 7만 달러 아래로 하락",
-        "description": "미국 달러 급등이 2025년 4월 이후 최고치를 기록하면서 비트코인은 8월 이후 처음으로 70,000달러 아래로 떨어졌습니다.",
-        "url": "http://videos.coindesk.com/previews/o37iwRuj?.tsrc=rss",
+        "title": "주간 스프레드: 이번 주 미국 국채 수익률과 달러의 형성 원인",
+        "description": "예상보다 높은 인플레이션과 매파적인 금리 수사가 수익률을 밀어붙이면서 미국 국채는 임기 전반에 걸쳐 지난 주에 반전을 보였습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/what-shaped-us-treasury-yields-and-the-dollar-in-week-ended-november-13/cNb2sojR9Qd?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 01:03",
-        "score": 6
-      },
-      {
-        "title": "워싱턴은 7월 일본 엔화를 유지하는 데 4억 9,700만 달러를 지출했습니다.",
-        "description": "새로운 뉴욕 연은 보고서에 따르면 미국은 수십 년 만에 처음으로 엔화를 방어했지만 엔화 가치는 다시 하락세를 보이고 있습니다. 워싱턴이 조용히 베팅한 이유",
-        "url": "https://247wallst.com/investing/2026/11/13/washington-spent-497-million-propping-up-the-japanese-yen-in-july/?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/14 00:36",
-        "score": 3
-      },
-      {
-        "title": "달러 강세, 금리 인상 베팅이 올해 금에 부담을 주지만 원자재 전략가들은 장기적으로 강세를 전망",
-        "description": "달러 강세와 긴축 통화 정책에 대한 기대가 이번 금의 빛을 일부 앗아갔습니다.",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/strong-dollar-rate-hike-bets-213244314.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/14 06:32",
-        "score": 1
-      },
-      {
-        "title": "Loonie향하여 미국 달러 가장자리는 더 높습니다; 재무부 수익률 상위 5%",
-        "description": "금요일 오후 미 국채 수익률이 상승함에 따라 미국 달러는 캐나다 통화 대비 소폭 상승했습니다.",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-edges-higher-against-183801855.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/14 03:38",
-        "score": 1
-      },
-      {
-        "title": "주식이 약하고 국채 수익률이 높은 달러 기업",
-        "description": "달러 지수(DXY00)는 오늘 1.5년 최고치를 기록했으며 +0.03% 상승했습니다. 달러화는 현재 주식 약세로 인해 지지를 받고 있으며 이로 인해 수요가 증가하고 있습니다.",
-        "url": "https://www.barchart.com/story/news/8823481/dollar-firms-with-weaker-stocks-and-higher-t-note-yields?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/14 00:28",
+        "publishedAt": "11/14 10:22",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "“美는 中 바이오 견제, 中은 기술수출 통제…K바이오에 기회”",
-        "description": "",
-        "url": "https://www.hankyung.com/article/202611134526i",
-        "source": "hankyung.com",
-        "publishedAt": "11/13 09:45",
-        "score": 3
-      },
-      {
-        "title": "수익 주간 스코어카드: AI 인프라 이름이 물러남에 따라 선택적으로 보상을 받음",
-        "description": "Investing.com -- 비트는 이번 주에 널리 퍼졌지만 시장은 그 중 일부에만 보상을 주었습니다. Cisco와 Applied Materials는 모두 이겼고 둘 다 매각되었습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-week-scorecard-beats-rewarded-203315112.html?.tsrc=rss",
+        "title": "워렌 버핏의 버크셔 주가는 60년 동안 연평균 19% 이상의 수익률을 올렸는데, 이는 S&P 500의 10% 수익률의 거의 두 배에 달하는 수치입니다. 투자자들이 지금도 그 플레이북을 적용할 수 있나요?",
+        "description": "버핏의 지혜는 시대를 초월합니다.",
+        "url": "https://www.fool.com/investing/2026/11/14/warren-buffetts-berkshire-compounded-at-more-than-19-a-year-over-six-decades-nearly-double-the-sp-500s-10-return-can-investors-still-apply-that-playbook-today/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 05:33",
+        "publishedAt": "11/15 02:54",
         "score": 1
       },
       {
-        "title": "인텔, 경고에도 불구하고 ETF 매입으로 7900만 달러 유치",
-        "description": "반도체 ETF는 기관 매수를 주도하고 있지만 인텔의 가치 평가는 추정된 GF 가치보다 훨씬 높습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-attracts-79-million-etf-171801765.html?.tsrc=rss",
+        "title": "DT Midstream(DTM)은 에너지 거래가 풀리면서 매도에 직면할 수 있습니다.",
+        "description": "우리는 블루 웨이브가 도래했기 때문에 지금 매도할 10가지 독성 에너지 주식 목록을 발표했으며, DT Midstream, Inc.(NYSE:DTM)는 이 목록에서 6위를 차지했습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/dt-midstream-dtm-could-face-172114353.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 02:18",
+        "publishedAt": "11/15 02:21",
         "score": 1
       },
       {
-        "title": "케빈 워시(Kevin Warsh)의 연준은 2027년에 금리에 대해 단 7번만 투표할 것입니다",
-        "description": "연준은 조용히 회의 일정을 단축하고 있으며 장기 국채는 이미 움츠러들었습니다. 12월에 인상이 예정되어 있어 결정일수가 줄어들 수 있습니다.",
-        "url": "https://247wallst.com/investing/2026/11/13/kevin-warshs-fed-will-vote-on-rates-only-7-times-in-2027/?.tsrc=rss",
+        "title": "워렌 버핏은 수년 만에 주식 시장에 대해 가장 강력한 경고를 발표했습니다. 역사가 말하는 내용은 다음과 같습니다.",
+        "description": "변동성이 더 커질 수 있지만, 역사를 보면 여전히 투자자들에게 유망한 소식이 있습니다.",
+        "url": "https://www.fool.com/investing/2026/11/14/warren-buffett-issued-starkest-warning-stock-market-what-history-says-comes-next/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 02:13",
+        "publishedAt": "11/15 00:20",
         "score": 1
       },
       {
-        "title": "미국-이란 전쟁이 지속될 것이라는 우려로 인해 원유 가격이 뒷받침됨",
-        "description": "12월 WTI 원유(CLZ26 )는 오늘 +0.35(+0.39%) 상승했고, 12월 RBOB 휘발유(RBZ26 )는 -0.0279(-1.04%) 하락했습니다. 원유 및 휘발유 가격",
-        "url": "https://www.barchart.com/story/news/8824868/crude-prices-supported-by-concerns-us-iran-war-will-linger?.tsrc=rss",
+        "title": "미국은 '심장마비를 겪을 것이다': 레이 달리오(Ray Dalio)가 미국 경제에 대해 새로운 경고를 내림 - 저축자들이 가장 큰 위험에 처해 있음",
+        "description": "하지만 여기서 끝나지 않습니다. Dalio에 따르면 \"당신은 위험에 처해 있습니다.\"",
+        "url": "https://finance.yahoo.com/economy/policy/articles/america-heart-attack-ray-dalio-133000352.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 01:35",
+        "publishedAt": "11/14 22:30",
+        "score": 1
+      },
+      {
+        "title": "정치인들이 주식 시장에서 불공평한 우위를 점하고 있다고 생각하시나요? 이러한 투자는 귀하가 하는 방식으로 거래하는 데 도움이 될 수 있습니다",
+        "description": "의회의 거래 금지가 아직 파악하기 어려운 가운데 일부 기업은 워싱턴의 자금 움직임을 모방할 수 있는 방법을 제공합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/think-politicians-unfair-edge-stock-123000103.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/14 21:30",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Nvidia 리더십 쇼크가 주요 HBM 공급업체를 강타함에 따라 SK하이닉스 주가는 3.03% 하락했습니다.",
-        "description": "Jensen Huang의 사임 이후 외국인 투자자들이 칩 제조업체를 매각하면서 주가는 서울에서 4.63% 초반 상승을 반전시켰습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-fall-3-183209379.html?.tsrc=rss",
+        "title": "SpaceX가 우주선 부스터를 분실했습니다. Rocket Lab 주식이 더 나은 선택인가요?",
+        "description": "SpaceX는 Rocket Lab의 라이벌 로켓이 여전히 땅에 앉아 있는 동안 부스터 캐치를 발견했습니다. 기록적인 잔고와 수십억 달러의 현금이 한 가지를 말해줍니다.",
+        "url": "https://247wallst.com/investing/2026/11/14/spacex-just-lost-a-starship-booster-is-rocket-lab-stock-the-better-bet/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 03:32",
-        "score": 11
+        "publishedAt": "11/14 22:04",
+        "score": 12
       },
       {
-        "title": "\"AI 투자 축소 우려 있지만…AMD·브로드컴 공격 확장 땐 수혜\"",
-        "description": "",
-        "url": "https://www.hankyung.com/article/2026111358231",
-        "source": "hankyung.com",
-        "publishedAt": "11/13 17:38",
-        "score": 9
+        "title": "SpaceX의 우주선 15편 이륙, 마일스톤 임무를 위한 로켓 연구소 준비",
+        "description": "SpaceX는 Starship Flight 15 발사를 몇 시간 앞두고 있으며 Starship과 부스터의 이중 포획을 계획하고 있습니다. 100번째 전자 오류를 위한 로켓 연구소 준비",
+        "url": "https://finance.yahoo.com/m/e76332e4-d297-30fb-86a2-79bc44296353/spacex%27s-starship-flight-15.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/14 08:12",
+        "score": 12
       },
       {
-        "title": "Rocket Lab CEO는 Elon Musk를 비난하고 Neutron이 SpaceX보다 회사에 우위를 제공하는 이유를 설명합니다. '첫 번째 우선순위는...'",
-        "description": "Rocket Lab Corporation CEO Peter Beck은 중성자 로켓이 회사에 Space Exploration Technologies C보다 경쟁 우위를 제공할 수 있다고 믿습니다.",
-        "url": "https://finance.yahoo.com/technology/articles/rocket-lab-ceo-takes-swipe-115948505.html?.tsrc=rss",
+        "title": "AMD와 Broadcom이 뛰어오르는 동안 Nvidia는 떨어졌습니다. 역사에 따르면 3개 주식 모두에서 발생한다고 합니다.",
+        "description": "Jensen Huang이 Nvidia의 CEO직에서 물러나게 된 소식은 회사의 주가를 무너뜨렸습니다.",
+        "url": "https://www.fool.com/investing/2026/11/14/nvidia-fell-while-amd-and-broadcom-jumped-here-s-what-history-says-happens-next-to-all-3-stocks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/13 20:59",
-        "score": 8
+        "publishedAt": "11/15 06:55",
+        "score": 6
       },
       {
-        "title": "SpaceX는 30일 동안 13% 이상 하락: 이 월스트리트 전문가는 12개월 이내에 260%의 상승을 예상합니다.",
-        "description": "워싱턴 정치와 칩 매각으로 인해 SpaceX는 정점 아래로 떨어졌고 경쟁 우주 주식은 거의 움츠러들지 않았습니다. 한 은행은 여전히 ​​거리 수준의 t를 보고 있습니다.",
-        "url": "https://247wallst.com/investing/2026/11/13/spacex-drops-more-than-13-over-30-days-this-wall-street-pro-projects-260-gains-within-12-months/?.tsrc=rss",
+        "title": "하버드는 Nvidia를 3분의 ​​1로 줄이고 AMD를 인수했습니다.",
+        "description": "하버드의 기부금은 잔인한 매각이 AI 칩 중 하나에 영향을 미치기 직전에 AI 칩 내부에서 순환되었습니다. 그 이후로 두 주식은 매우 다르게 움직였고,",
+        "url": "https://247wallst.com/investing/2026/11/14/harvard-cut-nvidia-by-a-third-and-bought-amd/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/14 00:45",
-        "score": 7
+        "publishedAt": "11/14 23:38",
+        "score": 6
       },
       {
-        "title": "AI 인프라 수요가 NVIDIA의 3분기 데이터 센터 성장을 유지할 수 있습니까?",
-        "description": "NVDA의 3분기 데이터 센터 성장은 AI 인프라 지출 급증, 고객 수요 확대, Vera Rubin pl의 증가로 인해 이익을 얻을 것으로 예상됩니다.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-infrastructure-demand-sustain-nvidias-112500121.html?.tsrc=rss",
+        "title": "S&P 500, Dow, Nasdaq은 Nvidia 혼란 속에서 하락세를 기록했지만 8월 이후 최고의 주 기록 — SPCX, NVDA, ARM, AZN In Focus",
+        "description": "Nvidia는 Jensen Huang이 CEO에서 물러난 후 작년 4월 이후 최악의 한 주를 보냈고 이사회는 후보자를 찾고 있습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-amid-nvidia-turmoil-but-record-best-week-since-august-spcx-nvda-arm-azn-in-focus/cNbRj3uR9Q2?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/13 20:25",
-        "score": 7
+        "publishedAt": "11/14 08:37",
+        "score": 6
       }
     ]
   }
