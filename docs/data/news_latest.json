@@ -1,277 +1,268 @@
 {
-  "generated_at_kst": "2026-11-19 12:44 KST",
-  "period": "11/18 07:00 ~ 11/19 07:00 KST",
+  "generated_at_kst": "2026-11-20 12:38 KST",
+  "period": "11/19 07:00 ~ 11/20 07:00 KST",
   "news": {
     "us_market": [
       {
-        "title": "S&P 500 Breaks Critical Support: Is a Bigger Stock Market Crash Coming?",
-        "description": "The S&P 500 lost its 200-day moving average. Historical data, hedging, and key chart levels hint at what comes next.",
-        "url": "https://beincrypto.com/sp-500-loses-200-day-average/?.tsrc=rss",
+        "title": "시장 스토리라인: 칩 거대 기업의 수익이 앞섰고, AI IPO + 주식 매도",
+        "description": "NYSE의 수석 시장 전략가인 Michael Reinking은 S&P 500이 급락하고 하락한 변동성이 큰 휴일 단축 주간을 검토합니다.",
+        "url": "https://finance.yahoo.com/video/market-storylines-chip-giant-earnings-205016561.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 06:56",
-        "score": 14
+        "publishedAt": "11/20 05:50",
+        "score": 11
       },
       {
-        "title": "Nasdaq Futures Rally as Upbeat Nvidia Earnings Revive AI Trade; FOMC Minutes on Tap",
-        "description": "December Nasdaq 100 E-Mini futures (NQZ26) are up +1.02% this morning as upbeat earnings from chip giant Nvidia provided a much-needed boost to the AI",
-        "url": "https://www.barchart.com/story/news/8893007/nasdaq-futures-rally-as-upbeat-nvidia-earnings-revive-ai-trade-fomc-minutes-on-tap?.tsrc=rss",
+        "title": "기록적인 IPO 이후 나스닥 데뷔에서 Anthropic 주가는 34% 급등",
+        "description": "Anthropic(NASDAQ:ANT) 주가는 목요일 Nasdaq 데뷔에서 급등하여 $111.50에 개장했는데, 이는 인공 지능 회사의 IPO 홍보 가격보다 34.3% 상승한 것입니다.",
+        "url": "https://www.proactiveinvestors.com/companies/news/1102135/anthropic-shares-jump-34-in-nasdaq-debut-after-record-ipo-1102135.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/18 20:32",
-        "score": 10
+        "publishedAt": "11/20 02:07",
+        "score": 9
       },
       {
-        "title": "How to Play General Motors Stock as GM Shares Switch to the Nasdaq",
-        "description": "As GM moves to Nasdaq on Nov. 17, its tech-driven transformation puts the legacy automaker in a new spotlight.",
-        "url": "https://www.barchart.com/story/news/8898331/how-to-play-general-motors-stock-as-gm-shares-switch-to-the-nasdaq?.tsrc=rss",
+        "title": "인류주식시장 데뷔를 앞두고 상장지수펀드, 주식선물, 목요일 프리 벨 상승",
+        "description": "광범위한 시장 상장지수펀드 SPDR S&P 500 ETF Trust(SPY)는 1% 상승했고 활발하게 거래되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141450756.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/18 23:59",
+        "publishedAt": "11/19 23:14",
         "score": 7
       },
       {
-        "title": "Fed Minutes Reveal a Bigger Rate Hike Was on the Table Before Inflation Ran Hot",
-        "description": "Fed minutes show officials floated a bigger rate hike in October. Traders still bet on a quarter point. See why.",
-        "url": "https://beincrypto.com/fed-minutes-bigger-rate-hike-december/?.tsrc=rss",
+        "title": "오늘의 주식 시장: 인류를 위한 IPO로 AI 거래가 부활했지만 두려움은 커지고 있습니다.",
+        "description": "블록버스터 데뷔작 중 하나는 개장 전에 기술을 높이는 것이지만 시장의 공포 게이지는 위험 지대에 있습니다. 단일 거래가 왜 그렇게 많은 것을 가져오는가",
+        "url": "https://247wallst.com/investing/2026/11/19/stock-market-today-anthropic-ipo-revives-the-ai-trade-but-fear-is-growing/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 04:07",
-        "score": 5
+        "publishedAt": "11/19 23:06",
+        "score": 7
       },
       {
-        "title": "Fed Governor Sends Shockwave Through Markets With 50bp Rate Hike Call",
-        "description": "Stocks, gold, and Bitcoin fell as Fed's Waller called for a 50 basis point rate hike to break 3% inflation.",
-        "url": "https://beincrypto.com/fed-waller-50-basis-point-hike/?.tsrc=rss",
+        "title": "피터린치는 '합리적인 가격의 성장'을 유명하게 만들었습니다. SPGP는 해당 필터를 통해 S&P 500을 실행하고 75개 주식을 유지합니다.",
+        "description": "S&P 500 인덱스 펀드는 비싸든 아니든 모든 것을 구매합니다. 잘 알려지지 않은 한 ETF는 지수를 75개 주식으로 필터링하는데, 상위 보유 종목은 아무 것도 아닌 것처럼 보입니다.",
+        "url": "https://247wallst.com/investing/etf/2026/11/19/peter-lynch-made-growth-at-a-reasonable-price-famous-spgp-runs-the-sp-500-through-that-filter-and-keeps-75-stocks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 02:27",
-        "score": 5
+        "publishedAt": "11/20 00:13",
+        "score": 6
       }
     ],
     "kr_market": [
       {
-        "title": "코스닥은 16% 빠졌는데…이 종목, 나 홀로 35% 뛰었다 [종목+]",
+        "title": "애플, 삼성전자와 이례적인 장기 DRAM 공급 계약 성사. AAPL 주식에 대한 의미",
+        "description": "Apple은 비용 상승 속에서 메모리 칩을 확보하기 위해 2027년부터 4~5년에 걸쳐 삼성과 보기 드문 장기 DRAM 공급 계약을 앞두고 있습니다.",
+        "url": "https://www.barchart.com/story/news/8924969/apple-nears-a-rare-long-term-dram-supply-deal-with-samsung-electronics-what-this-means-for-aapl-stock?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/20 06:10",
+        "score": 5
+      },
+      {
+        "title": "삼성전자(KOSE:A005930) 주가는 여전히 실적 대비 저평가된 것으로 보인다",
+        "description": "삼성전자는 장기적으로 강력한 주가 상승을 보여왔고, 이제 문제는 그 여정이 수익으로 완전히 뒷받침되는지 여부입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-stock-161427305.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/20 01:14",
+        "score": 5
+      },
+      {
+        "title": "큐리언트·알지노믹스 등 코스닥150·KRX300 신규 편입 바이오주 강세",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026111853286",
+        "url": "https://www.hankyung.com/article/202611198140i",
         "source": "hankyung.com",
-        "publishedAt": "11/19 06:30",
+        "publishedAt": "11/19 17:27",
         "score": 5
       },
       {
-        "title": "Samsung Stocks Rise 2.31% in Seoul as Nvidia Beat Lifts Korean Chipmakers",
-        "description": "Samsung Electronics trailed SK hynix's gain, while affiliate Samsung Electro-Mechanics jumped 7.43% on a new Nvidia substrate deal.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-stocks-rise-2-31-194552498.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/19 04:45",
-        "score": 5
-      },
-      {
-        "title": "Nvidia’s Supply Commitments Hit $390 Billion, Mostly Memory. SK Hynix Is the Real Winner",
-        "description": "Key TakeawaysNvidia’s supply commitments rose to $390 billion from $279 billion in its fiscal third quarter, mostly for memory it’s buying over severa",
-        "url": "https://www.tikr.com/blog/nvidias-supply-commitments-hit-390-billion-mostly-memory-sk-hynix-is-the-real-winner?ref=yahoofinance&tlnk=yf-261118-8qxfgxwp&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/19 02:29",
-        "score": 5
-      },
-      {
-        "title": "Samsung Electronics (KOSE:A005930) Nears Rare Multi Year DRAM Supply Deal",
-        "description": "Samsung Electronics (KOSE:A005930) is reportedly close to a rare multi-year DRAM supply deal with Apple in November 2026. The prospective agreement wo",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-nears-091338091.html?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/18 18:13",
-        "score": 5
-      },
-      {
-        "title": "\"얇고 가벼운 설계에 AI 결합…삼성전자, 폴더블 시장 선도\"",
+        "title": "현대차, 게임업계 최대 행사 지스타에 등장한 까닭은",
         "description": "",
-        "url": "https://www.hankyung.com/article/2026111854321",
+        "url": "https://www.hankyung.com/article/2026111982311",
         "source": "hankyung.com",
-        "publishedAt": "11/18 17:19",
-        "score": 5
+        "publishedAt": "11/19 18:10",
+        "score": 3
+      },
+      {
+        "title": "채팅방 공지 10개로 확대…카카오톡 업데이트 진행",
+        "description": "",
+        "url": "https://www.hankyung.com/article/2026111982241",
+        "source": "hankyung.com",
+        "publishedAt": "11/19 18:10",
+        "score": 3
       }
     ],
-    "macro": [
-      {
-        "title": "Nasdaq Futures Rally as Upbeat Nvidia Earnings Revive AI Trade; FOMC Minutes on Tap",
-        "description": "December Nasdaq 100 E-Mini futures (NQZ26) are up +1.02% this morning as upbeat earnings from chip giant Nvidia provided a much-needed boost to the AI",
-        "url": "https://www.barchart.com/story/news/8893007/nasdaq-futures-rally-as-upbeat-nvidia-earnings-revive-ai-trade-fomc-minutes-on-tap?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/18 20:32",
-        "score": 5
-      }
-    ],
+    "macro": [],
     "bonds": [
       {
-        "title": "Two More Days Above 5% and Treasury Yields Tie 2007’s Run",
-        "description": "The 10-year yield has spent four straight sessions above a line it rarely crosses, and a bond auction plus Fed minutes arrive within hours. Whether th",
-        "url": "https://247wallst.com/investing/2026/11/18/two-more-days-above-5-and-treasury-yields-tie-2007s-run/?.tsrc=rss",
+        "title": "3가지 위험 수준에 대한 월간 점검: VTEB, TLT, EMB, 순위",
+        "description": "퇴직자의 월간 채권 기금 수표는 그 뒤에 있는 주가가 조용히 붕괴하는 동안 안정적으로 유지될 수 있습니다. 두 가지 위험 제품에 대해 세 가지 인기 지불자 순위 지정",
+        "url": "https://247wallst.com/investing/etf/2026/11/19/a-monthly-check-at-3-levels-of-risk-vteb-tlt-and-emb-ranked/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/18 23:52",
-        "score": 8
-      },
-      {
-        "title": "When SPY Falls 10%, Do Treasury Bonds Still Help?",
-        "description": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
-        "url": "https://www.trefis.com/stock/spy/articles/626100/when-spy-falls-10-do-treasury-bonds-still-help/2026-11-18?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/18 20:00",
+        "publishedAt": "11/20 02:33",
         "score": 3
       }
     ],
     "commodities": [
       {
-        "title": "Gold Stocks, Silver, Copper, Platinum Pounded After This 'Shock'",
-        "description": "A dramatic sell-off for precious and industrial metals ripped through the equity markets. Newmont and other gold stocks sank.",
-        "url": "https://finance.yahoo.com/m/1ff49eed-03ac-370a-ad07-0143496c9a1c/gold-stocks%2C-silver%2C-copper%2C.html?.tsrc=rss",
+        "title": "뉴질랜드 에너지 계획, CA$300만 사모 투자, 석유 생산 확장",
+        "description": "뉴질랜드 에너지(NZ.V)는 목요일 비중개 회사를 통해 최대 300만 캐나다 달러를 모금할 계획이라고 밝혔습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/zealand-energy-plans-ca-3-215648888.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 06:50",
+        "publishedAt": "11/20 06:56",
         "score": 3
       },
       {
-        "title": "TSX Closer: Index Plunges 2.1% to Five-Month Low as Metals And Energy Stocks Slide",
-        "description": "The S&P/TSX Composite Index tumbled to the lowest level since June on Wednesday, as steep losses in",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-plunges-2-213608800.html?.tsrc=rss",
+        "title": "옥수수 시장의 항복 사례",
+        "description": "주식 시장의 약세가 계속될 경우 원자재의 강제 청산은 Ags의 상황을 복잡하게 만들 수 있습니다.",
+        "url": "https://www.barchart.com/story/news/8925315/the-case-for-capitulation-in-the-corn-market?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 06:36",
+        "publishedAt": "11/20 06:23",
         "score": 3
       },
       {
-        "title": "Panoro Reports Initial Metallurgical Testwork Results from the Cotabambas Copper/Gold/Silver Project, Peru",
-        "description": "Vancouver, British Columbia--(Newsfile Corp. - November 18, 2026) - Panoro Minerals Ltd. (TSXV: PML) (BVL: PML) (OTCQB: POROF) (FSE: PZM) (\"Panoro\" or",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/panoro-reports-initial-metallurgical-testwork-210100471.html?.tsrc=rss",
+        "title": "업종 업데이트: 늦은 오후 거래에서 에너지 주식 하락",
+        "description": "에너지 주식은 목요일 오후 늦게 NYSE 에너지 부문 지수와 State St로 인해 하락했습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-205736669.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 06:01",
+        "publishedAt": "11/20 05:57",
         "score": 3
       },
       {
-        "title": "Sector Update: Energy Stocks Lower in Late Afternoon Trading",
-        "description": "Energy stocks declined late Wednesday afternoon, with the NYSE Energy Sector Index falling 2.8% and",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-lower-afternoon-205720085.html?.tsrc=rss",
+        "title": "부문 업데이트: 목요일 초반 거래에서 에너지 주식이 혼합되었습니다.",
+        "description": "에너지 주식은 목요일 초기 거래에서 State Street Energy Select Sector SP와 함께 혼합되었습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-early-143651830.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 05:57",
+        "publishedAt": "11/19 23:36",
         "score": 3
       },
       {
-        "title": "Wheat Falling with Outside Pressure on Wednesday",
-        "description": "The wheat complex is under pressure from the outside markets, with losses across the three exchanges. Chicago SRW futures are collapsing 22 to 23 cent",
-        "url": "https://www.barchart.com/story/news/8901948/wheat-falling-with-outside-pressure-on-wednesday?.tsrc=rss",
+        "title": "Mercosur의 세금 감면으로 인해 브라질의 석유가 유럽으로 진출하게 되었습니다.",
+        "description": "EU-메르코수르 협정으로 수출세가 절반으로 인하되면서 브라질의 기록적인 원유 생산량이 유럽으로 흘러가고 있고, 운임 감소로 인해 중국과 인도가 유럽으로 돌아오고 있습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/mercosur-tax-break-fueling-brazil-210000116.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 03:11",
-        "score": 3
+        "publishedAt": "11/20 06:00",
+        "score": 1
       }
     ],
     "fx": [
       {
-        "title": "Rockpoint Gas Storage Inc. Announces Updates to Dividend Payment Currency and Dividend Reinvestment and Share Purchase Plan",
-        "description": "Rockpoint Gas Storage Inc. (\"Rockpoint\" or the \"Company\") (TSX: RGSI) today announced changes to the payment currency for dividends on its Class A com",
-        "url": "https://finance.yahoo.com/news/rockpoint-gas-storage-inc-announces-210500493.html?.tsrc=rss",
+        "title": "달러지수는 피난처 수요와 금리 기대에 힘입어 52주 최고치를 경신했습니다.",
+        "description": "Investing.com -- 달러 지수(DX)는 11월 19일 오전 11시 15분(EST) 현재 103.78로 당일 거의 변동이 없었습니다. 세션 최고치는 103.91이었고, 이는 또한 1위입니다.",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-index-hits-52-week-164742867.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 06:05",
+        "publishedAt": "11/20 01:47",
+        "score": 6
+      },
+      {
+        "title": "Mercosur의 세금 감면으로 인해 브라질의 석유가 유럽으로 진출하게 되었습니다.",
+        "description": "EU-메르코수르 협정으로 수출세가 절반으로 인하되면서 브라질의 기록적인 원유 생산량이 유럽으로 흘러가고 있고, 운임 감소로 인해 중국과 인도가 유럽으로 돌아오고 있습니다.",
+        "url": "https://finance.yahoo.com/energy/articles/mercosur-tax-break-fueling-brazil-210000116.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/20 06:00",
         "score": 3
       },
       {
-        "title": "Barclays, Deutsche Bank See AI Boom Extending Dollar Strength",
-        "description": "The dollar is expected to extend its rally into 2027 despite fears of a slowdown in AI spending that could undermine the US currency, according to at",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/barclays-deutsche-bank-see-ai-211001572.html?.tsrc=rss",
+        "title": "약한 주식과 매파적인 연준에 대한 달러 기업",
+        "description": "달러 지수(DXY00)는 목요일에 19개월 최고치로 상승한 뒤 +0.02%로 마감했습니다. 목요일의 주가 하락은 달러 유동성에 대한 수요를 증가시켰습니다. 매",
+        "url": "https://www.barchart.com/story/news/8924098/dollar-firms-on-weak-stocks-and-hawkish-fed?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 06:10",
+        "publishedAt": "11/20 05:31",
         "score": 1
       },
       {
-        "title": "Dollar Moves Higher on Hawkish Fed Signals",
-        "description": "The dollar index (DXY00 ) climbed to a 19-month high on Wednesday and finished up +0.36%. Hawkish Fed comments on Wednesday supported the dollar after",
-        "url": "https://www.barchart.com/story/news/8903905/dollar-moves-higher-on-hawkish-fed-signals?.tsrc=rss",
+        "title": "주식 반등으로 달러 하락",
+        "description": "달러 지수(DXY00)는 오늘 19개월 최고치에서 -0.08% 하락했습니다. 오늘의 주식 랠리는 달러 유동성에 대한 수요를 감소시켰습니다. 또한 오늘은",
+        "url": "https://www.barchart.com/story/news/8919270/dollar-slips-as-stocks-rally?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 05:36",
+        "publishedAt": "11/20 00:35",
         "score": 1
       },
       {
-        "title": "What’s Driving the Dollar’s Biggest Rally Since 2024",
-        "description": "Much of the greenback’s strength can be chalked up to the Federal Reserve’s actions, but not all of it.",
-        "url": "https://finance.yahoo.com/m/c053bf92-320a-352a-bc04-6690ac97e80f/what%E2%80%99s-driving-the-dollar%E2%80%99s.html?.tsrc=rss",
+        "title": "월스트리트는 달러트리 주식에 대해 강세인가, 약세인가?",
+        "description": "Dollar Tree는 지난 1년 동안 더 넓은 시장을 능가했지만 월스트리트 분석가들은 주식 전망에 대해 조심스럽게 낙관하고 있습니다.",
+        "url": "https://www.barchart.com/story/news/8917902/is-wall-street-bullish-or-bearish-on-dollar-tree-stock?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 05:04",
+        "publishedAt": "11/19 23:49",
         "score": 1
       }
     ],
     "geopolitics": [
       {
-        "title": "Edison Scientific Hires Former Palantir Healthcare Leader Lewis Woolfson as Head of Forward Deployed Engineering",
-        "description": "NEW YORK & SAN FRANCISCO, November 18, 2026--Edison Scientific hires former Palantir healthcare leader Lewis Woolfson as Head of Forward Deployed Engi",
-        "url": "https://finance.yahoo.com/healthcare/articles/edison-scientific-hires-former-palantir-210000234.html?.tsrc=rss",
+        "title": "Salesforce 대 Palantir Technologies: 2027년에는 어느 소프트웨어 주식이 더 나은 구매입니까?",
+        "description": "Salesforce의 AI 에이전트 푸시와 Palantir의 상업적 급증은 가격표가 매우 다르며 그 차이가 논쟁을 결정할 수 있습니다.",
+        "url": "https://www.fool.com/coverage/better-buy/2026/11/19/salesforce-vs-palantir-technologies-which-software-stock-is-a-better-buy-for-2027/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 06:00",
+        "publishedAt": "11/20 04:52",
         "score": 1
       },
       {
-        "title": "Gold Just Crashed 32% From Its Record in 10 Months, Shattering the Safe Haven Retirees Leaned On. Warren Buffett Spent Decades Warning About Exactly This, and His Reason Wasn’t the Price",
-        "description": "A retiree put a third of his savings into the one asset meant to stay calm, and it just handed him a six-figure loss. Buffett warned about gold for de",
-        "url": "https://247wallst.com/personal-finance/2026/11/18/gold-just-crashed-32-from-its-record-in-10-months-shattering-the-safe-haven-retirees-leaned-on-warren-buffett-spent-decades-warning-about-exactly-this-and-his-reason-wasnt-the-price/?.tsrc=rss",
+        "title": "워렌 버핏은 버크셔가 결코 좋은 기업보다 현금을 선호하지 않을 것이라고 말했습니다. 역사는 귀하의 포트폴리오도 그러해서는 안 된다고 말합니다.",
+        "description": "주식은 부를 창출할 수 있지만 부업으로 현금을 확보해야 하는 경우도 있습니다.",
+        "url": "https://www.fool.com/investing/2026/11/19/warren-buffett-says-berkshire-will-never-prefer-cash-over-good-businesses-history-says-your-portfolio-shouldnt-either/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 03:44",
+        "publishedAt": "11/20 03:50",
         "score": 1
       },
       {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Amid Nvidia Earnings, Upcoming Fed Meeting Minutes",
-        "description": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-140832688.html?.tsrc=rss",
+        "title": "채권 ETF는 수년 동안 이렇게 보람을 느끼지 않았는데 왜 월스트리트는 이를 버리는가?",
+        "description": "새로운 채권이 몇 년 만에 가장 많은 수익을 내는 것처럼 투자자들은 채권 자금을 떠나고 있습니다. 하나의 산출량 수준에 따라 탈출이 현명한 것인지 아니면 비용이 많이 드는 실수인지가 결정됩니다.",
+        "url": "https://247wallst.com/investing/etf/2026/11/19/bond-etfs-havent-been-this-rewarding-in-years-so-why-is-wall-street-dumping-them/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/18 23:08",
+        "publishedAt": "11/20 03:41",
         "score": 1
       },
       {
-        "title": "Traders Now See a 95% Chance the Fed Hikes Rates in December",
-        "description": "A December hike looks like a lock, yet the Treasury market that matters most for long-bond holders answers to a different signal. Fed officials are sp",
-        "url": "https://247wallst.com/investing/2026/11/18/traders-now-see-a-95-chance-the-fed-hikes-rates-in-december/?.tsrc=rss",
+        "title": "정오 이후 미국 주식이 하락함에 따라 상장지수펀드는 하락",
+        "description": "광범위한 시장 지표 광범위한 시장 상장지수펀드 IWM 및 IVV가 하락했습니다. 적극적으로 거래됨 I",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-181733888.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/18 23:08",
+        "publishedAt": "11/20 03:17",
         "score": 1
       },
       {
-        "title": "Fed’s Waller warns inflation is worsening, floats 50-basis-point December hike",
-        "description": "Investing.com -- Federal Reserve Governor Christopher Waller called for more aggressive action to contain inflation on Wednesday, warning that price p",
-        "url": "https://finance.yahoo.com/economy/policy/articles/fed-waller-warns-inflation-worsening-133638284.html?.tsrc=rss",
+        "title": "연준은 숨겨진 3조 달러의 AI 위험에 대해 경고했습니다. 기술주를 넘어 확산되는 방법은 다음과 같습니다.",
+        "description": "수조 달러가 AI에 쏟아지고 있지만 연준은 결코 일반 부채로 나타나지 않는 의무를 발견했습니다. 보상이 실망스러울 경우 피해가 커질 수 있습니다.",
+        "url": "https://247wallst.com/investing/2026/11/19/the-fed-just-warned-about-a-hidden-3-trillion-ai-risk-heres-how-it-can-spread-beyond-tech-stocks/?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/18 22:36",
+        "publishedAt": "11/20 00:43",
         "score": 1
       }
     ],
     "tech": [
       {
-        "title": "Nvidia’s Annual GPU Upgrades Are Changing the HBM Investment Outlook",
-        "description": "Nvidia's newest chip delivers far more performance, yet the memory inside it barely changes. For Micron, Samsung, and SK hynix, that quiet shift could",
-        "url": "https://247wallst.com/technology-3/2026/11/18/nvidias-annual-gpu-upgrades-are-changing-the-hbm-investment-outlook/?.tsrc=rss",
+        "title": "TSMC 주가는 파운드리가 인류를 위한 IPO에서 5억 달러를 차지하면서 3.11% 상승했습니다.",
+        "description": "TSMC 파트너는 Anthropic 주식 600만 주를 매입하고 있으며, 미국의 새로운 규정은 중국의 원격 컴퓨팅 액세스를 강화합니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-rise-3-11-172326201.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/19 04:39",
-        "score": 11
-      },
-      {
-        "title": "Will 798 Million Unlocked SpaceX Shares on December 8 Swamp Starship’s Catch?",
-        "description": "Key TakeawaysSpaceX’s 180-day IPO lock-up ends Dec. 8, when up to 797.",
-        "url": "https://www.tikr.com/blog/will-798-million-unlocked-spacex-shares-on-december-8-swamp-starships-catch?ref=yahoofinance&tlnk=yf-261118-qx27g85m&.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/19 03:38",
-        "score": 11
-      },
-      {
-        "title": "Nasdaq Futures Rally as Upbeat Nvidia Earnings Revive AI Trade; FOMC Minutes on Tap",
-        "description": "December Nasdaq 100 E-Mini futures (NQZ26) are up +1.02% this morning as upbeat earnings from chip giant Nvidia provided a much-needed boost to the AI",
-        "url": "https://www.barchart.com/story/news/8893007/nasdaq-futures-rally-as-upbeat-nvidia-earnings-revive-ai-trade-fomc-minutes-on-tap?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/18 20:32",
-        "score": 9
-      },
-      {
-        "title": "Anthropic Valuation Is 8.5 Times Next Year’s Sales: Multiples More Like Microsoft, Alphabet Than Palantir, New Street Analyst Says",
-        "description": "The valuation structure is supportive of downside risk, Pierre Ferragu said in an interview with CNBC.",
-        "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-valuation-is-8-5-times-next-year-s-sales-multiples-more-like-microsoft-alphabet-than-palantir-new-street-analyst-says/cNbg9fWR9LC?.tsrc=rss",
-        "source": "finance.yahoo.com",
-        "publishedAt": "11/19 03:16",
+        "publishedAt": "11/20 02:23",
         "score": 8
       },
       {
-        "title": "Anthropic IPO: Why Are Nvidia, Google And Others Buying $26 Billion?",
-        "description": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
-        "url": "https://www.trefis.com/stock/ant/articles/626071/anthropic-ipo-why-are-nvidia-google-and-others-buying-26-billion/2026-11-18?.tsrc=rss",
+        "title": "OLIGO Security, Palantir의 FedStart 프로그램을 통해 FedRAMP® 클래스 D(높음) 인증 획득",
+        "description": "이스라엘 텔아비브, 2026년 11월 19일 -- 런타임 보안 회사인 OLIGO Security는 오늘 OLIGO 런타임 보안 플랫폼이 다음과 같은 목표를 달성했다고 발표했습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/oligo-security-achieves-fedramp-class-150000479.html?.tsrc=rss",
         "source": "finance.yahoo.com",
-        "publishedAt": "11/18 23:40",
+        "publishedAt": "11/20 00:00",
         "score": 8
+      },
+      {
+        "title": "RKLB 주가 밤새 상승: Jim Cramer는 SpaceX를 좋아하지만 Rocket Lab은 '너무 저렴하다'고 비난 — Electron이 100번의 출시에서 Falcon 9를 능가함",
+        "description": "Electron은 SpaceX의 Falcon 9보다 약 1년 빠른 속도로 약 9년 반 만에 100번의 발사를 달성했습니다.",
+        "url": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-jim-cramer-likes-spacex-rocketlab-cheap-electron-falcon-9-100-launches/cNbiGliR9iN?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/19 16:04",
+        "score": 7
+      },
+      {
+        "title": "Qualcomm vs. Taiwan Semiconductor: 주요 칩 제조업체의 서로 다른 수익 추세",
+        "description": "TSMC의 분기별 매출은 지난 2년 동안 거의 모든 기간에서 증가한 반면, Qualcomm은 감소하며 격차가 빠르게 벌어지고 있습니다.",
+        "url": "https://www.fool.com/coverage/charts/2026/11/19/qualcomm-vs-taiwan-semiconductor-diverging-revenue-trends-for-major-chipmakers/?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/20 02:03",
+        "score": 6
+      },
+      {
+        "title": "Anthropic의 IPO로 AI의 순환 금융 붐이 시험대에 올랐습니다.",
+        "description": "Anthropic은 공개되면서 막대한 컴퓨팅 노력에 직면해 있지만 Amazon 및 Google을 포함한 최대 인프라 파트너는 계속해서 P를 유지할 수 있습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-puts-ai-circular-145439533.html?.tsrc=rss",
+        "source": "finance.yahoo.com",
+        "publishedAt": "11/19 23:54",
+        "score": 6
       }
     ]
   }
